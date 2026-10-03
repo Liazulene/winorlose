@@ -1,0 +1,12 @@
+{
+  "experiment_id": "D1-G0-estimation-v1",
+  "code_version": "winai_loseai-0.5.0-d1-estimation",
+  "schema_version": 1,
+  "source_fingerprint": "250cf8c98783f9028b004fdff1367a416dfde198f8e6b4bbff7a858ea0886c0a",
+  "python_version": "3.12.14",
+  "preregistration_sha256": "4eb8abc6b7faa538a3380036210023dcbe561494711d4284997a5b0287263b84",
+  "entry_point_sha256": "648a10a1f8306301c21c6443a7d51f5122917f4e8aa406d3c3c57fea78873fdd",
+  "measurement_script_sha256": "68e7a02f1bbf795b4913f8aa726c59dbd4a6fa0897c6b537f74061baee2f758a",
+  "scipy_version": "1.17.0",
+  "numpy_version": "2.3.5"
+}

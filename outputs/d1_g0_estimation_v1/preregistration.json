@@ -1,0 +1,153 @@
+{
+  "experiment_id": "D1-G0-estimation-v1",
+  "code_version": "winai_loseai-0.5.0-d1-estimation",
+  "schema_version": 1,
+  "purpose": "Fixed-sample estimation of equal-player search-budget changes under unchanged G0, no confirmatory efficacy claim.",
+  "registered_before_first_formal_game": true,
+  "batch_id": "d1_g0_estimation_v1",
+  "baseline_commit": "2a69925ead3ff8543ee109dd71754a9796073d49",
+  "d0_reference_commit": "d5cbbca637256d123b73f88ed67dced23393a9cc",
+  "hypotheses": [
+    "Higher budgets may increase mixed legal two/three-ply route adoption; estimate direction and magnitude without assuming monotonicity.",
+    "LL black realized all-pass need not emerge even when black goal rate is high; distinguish goal attainment from exact trajectory and report competing long-route behavior.",
+    "Only equal per-player simulations changes; fixed G0 rules, MCTS utility/UCT/rollout/root choice and RNG derivation remain byte-identical to D1cost."
+  ],
+  "board_size": 5,
+  "komi": 2.5,
+  "budgets": [
+    64,
+    256,
+    1024
+  ],
+  "batch_seeds": [
+    5,
+    6,
+    7
+  ],
+  "identity_directions": [
+    [
+      "WIN",
+      "WIN"
+    ],
+    [
+      "LOSE",
+      "LOSE"
+    ],
+    [
+      "WIN",
+      "LOSE"
+    ],
+    [
+      "LOSE",
+      "WIN"
+    ]
+  ],
+  "agent_seed_orientations": [
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      1
+    ]
+  ],
+  "games_per_cell": 10,
+  "planned_games": 720,
+  "seed_mapping": "For each batch_seed and identity/orientation/repetition, use existing game_seed_for(batch_seed, ((identity_index*2+orientation_index)*games_per_cell+repeat_index)); reuse identical game seed across budgets. Existing colour+agent seed RNG derivation unchanged. Budget-specific trajectories diverge and are paired, not independent.",
+  "execution_order": "budget ascending, batch_seed listed order, identity listed order, orientation listed order, replicate ascending",
+  "fixed_factors": [
+    "G0 5x5, black first, white komi2.5, area scoring, no suicide, situational superko with pass exemption, double pass, 100-ply limit",
+    "Original vector utility MCTS, c=sqrt(2), uniform rollout including pass, no tree reuse, random maximum-visit ties",
+    "Same simulations for black and white; no cross-budget matches; representative seeds1,2 not population claims"
+  ],
+  "primary_endpoints": [
+    "LL black realized all-pass trajectory",
+    "WL exact [a,25,25] for any a in0..24",
+    "LW exact [25,25]"
+  ],
+  "descriptive_behavior_endpoints": [
+    "LL black all-pass route and black/white goals",
+    "LW exact empty double-pass; WL exact one-black-stone double-pass; mixed joint goal count",
+    "length mean/median/quartiles/p90/p95/max,2/3/le8/ge60 counts,move_limit,superko",
+    "first pass and proposal immediate utilities/acceptance, captures, raw and END-padded4/8/12 prefixes",
+    "paired budget differences and individual seed counts with denominators; representative min/median/max and anomalous games selected deterministically"
+  ],
+  "statistics": {
+    "estimand": "For each identity direction, pooled mean equally weights the six fixed batch-seed by agent-orientation strata; per-seed mean equally weights two orientations. Independent pseudorandom stream replication model, arbitrary within-block budget dependence and unequal stratum probabilities; no population-of-agents or deterministic-seed uncertainty claim.",
+    "paired_difference": "D_i=Y_comparison,i-Y_baseline,i. Nplus counts D=1; Nminus counts D=-1. Estimate=(Nplus-Nminus)/n; preserve n00,n01,n10,n11 and denominator n=60 pooled or20perseed.",
+    "paired_marginal_interval": "Compute97.5% equal-tail TWO-SIDED Clopper-Pearson intervals[Lplus,Uplus],[Lminus,Uminus] for Nplus/n and Nminus/n. Report conservative95% interval[Lplus-Uminus,Uplus-Lminus], constrained[-1,1]. By Mattner-Tasto heterogeneous-average theorem and union bound, at least nominal coverage under independent blocks; no independence between discordant counts needed.",
+    "marginal_rates": "Two-sided95% Clopper-Pearson intervals for average success probability of independent nonidentical Bernoullis; counts and denominators always included.",
+    "simultaneous_family": "Exactly six POOLED primary intervals: three route endpoints times256-64 and1024-64. Bonferroni alpha=.05/6 per interval; each component CP confidence1-.05/12. Label separately. All per-seed,per-stratum,secondary and other endpoint95% intervals are marginal and not family-adjusted.",
+    "audit_interval": "Hoeffding for paired differences[-1,1]: estimate +/-sqrt(2log(2/.05)/n), constrained[-1,1]. An independent conservative audit, never intersected data-dependently with the CP rectangle.",
+    "boundary_examples": "All-concordant n60 produces paired95% interval approximately[-.0704305688,.0704305688], not[0,0]. All-concordant n20 remains wider. Zeroevent marginal0/60 upper=1-.025^(1/60)approximately.0596.",
+    "length_and_mechanism": "All budget contrasts include matched length differences and distribution descriptive summaries. Mixed-minus-same means equally weight two identity directions on each side and report each seed plus pooled; exclusion of all2-3ply games is a conditional descriptive sensitivity with denominators, not causal evidence. No length hypothesis tests or unplanned confidence intervals.",
+    "no_inference_gate": "No p-values, significance flags, efficacy decision thresholds, optional stopping or outcome-dependent growth. Finish fixed720valid registered games or explicit incomplete safety pause. All pilot72games excluded.",
+    "references": [
+      "https://arxiv.org/pdf/1403.0229",
+      "https://doi.org/10.1080/01621459.1963.10500830"
+    ],
+    "theorem": "Mattner and Tasto2015,published Theorem1.3/arXivv3Theorem1.12: two-sided equal-tail CP confidence at least.5 is valid for average of independent heterogeneous Bernoulli probabilities. One-sided CP robustness is not asserted."
+  },
+  "expansion_rule": "None. Exactly720 valid registered games,72 cost-pilot games excluded. No optional stopping, significance target, selected-cell extension or automatic growth to1800. Incomplete safety stop reported as incomplete.",
+  "resource_policy": {
+    "concurrency": 1,
+    "test_concurrency": [
+      1,
+      2
+    ],
+    "checkpoint_games": 24,
+    "assess_after_each_budget": true,
+    "overnight_hours": 12,
+    "stop_conditions": [
+      "source/protocol/runtime mismatch",
+      "any integrity or replay failure",
+      "repeated unrecoverable failure after documented diagnosis and safe deterministic resume",
+      "unexpected resource pressure or baseline alteration",
+      "measured cost invalidates overnight resource premise; checkpoint and consult parent"
+    ],
+    "retry_policy": "Preserve every valid completed game. Safe interruption/network retries and slowdown allowed, check remote state before retrying uncertain writes. Two failed recovery attempts for the same diagnosed persistent fault trigger checkpoint, backup where possible, and pause. No seed replacement or outcome-based retry.",
+    "github_sync": "After each fixed24-game boundary, full read-only validation then GitHub checkpoint. Single game worker; stop at each boundary until backup verified. Large files uploaded separately as blobs; no force push. A sync fault does not count as a game failure.",
+    "projection": "D1 pilot child compute2.8187hours,50% planning allowance4.2280hours; additional sync, audits and increasing resume overhead not statistical upper bound."
+  },
+  "validation": [
+    "source/runtime/protocol/entry-point locks",
+    "plan,seed-mirror,manifest,metadata equality,source stamps",
+    "all-game replay; per-ply legal keys,exact simulations,visit sums,max-visit choice,Q domain and utility relationships,superko,live groups",
+    "resume and concurrency determinism excluding timing in tests",
+    "preservation SHA256 of baseline and D0 tracked files",
+    "official per-game persistence and deliberate6-game resume checkpoint",
+    "verify240 distinct game seeds and480 colour/agent streams have no overlap with72cost pilot or historical formal seeds before first game",
+    "supplementary regenerate first index in every budget×batch_seed stratum (9games), excluding timing; never add to sample",
+    "review runner, fault injections and locked statistical code before first game",
+    "exclusive output-directory OS writer lock;immutable baseline,D0,D1 sibling roots blocked",
+    "analysis runtime locks include Python,SciPy,NumPy;existing D1 cost protocol deliberately rejects new runtime version"
+  ],
+  "boundaries": [
+    "No learning, no protocol propagation claim, rootQ is not a calibrated probability",
+    "G0 remains separate from G1+; 7x7 NO-GO unchanged",
+    "Reuse of same engine for replay is consistency validation, not an independent rules implementation",
+    "Intervals are estimation summaries, not significance-based gates; no claim of convergence, equivalence or rare failure certification",
+    "Only current fixed agent seed orientations and PRNG scheme; no population generalization over trained agents",
+    "Run and analyze720 only, return milestone before G1+,7x7 or training"
+  ],
+  "parent_cost_commit": "f315cfa9cfba8b2b69b456c8d730012cf98f5e2f",
+  "primary_contrasts": [
+    [
+      256,
+      64
+    ],
+    [
+      1024,
+      64
+    ]
+  ],
+  "secondary_contrasts": [
+    [
+      1024,
+      256
+    ]
+  ],
+  "selection_policy": "Representatives: min,lower median,max length per budget×identity, ties game_id ascending; also every move_limit and mixed joint-goal failure. Prefixes raw andEND-padded lengths4,8,12; no posthoc symmetry normalization.",
+  "analysis_lock": "Source package, protocol, entry point, measurement script, statistical module all frozen before first game; technical reporting scripts may be added without changing these."
+}
