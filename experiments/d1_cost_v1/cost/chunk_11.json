@@ -1,0 +1,28 @@
+{
+  "chunk": 11,
+  "command": [
+    "/workspace/scratch/50e0c7c6aca1/winorlose_d1_v1/../winorlose_audit_venv/bin/python",
+    "/workspace/scratch/50e0c7c6aca1/winorlose_d1_v1/scripts/run_d1.py",
+    "run",
+    "--out",
+    "outputs/d1_g0_cost_v1",
+    "--concurrency",
+    "1",
+    "--stop-after",
+    "6",
+    "--resume"
+  ],
+  "started_utc": "2026-10-03T12:19:22.956859+00:00",
+  "ended_utc": "2026-10-03T12:21:41.729989+00:00",
+  "exit_code": 75,
+  "wall_seconds": 138.77291545700064,
+  "cpu_user_seconds": 138.659724,
+  "cpu_system_seconds": 0.08501299999999999,
+  "peak_process_rss_kib": 40772,
+  "completed_before": 60,
+  "completed_after": 66,
+  "status_after": "interrupted",
+  "output_tree_bytes_after": 1954136,
+  "measurement_script_sha256": "31094c40df7a12094c2ffe42530b968a51e182a87c57f1b0d868c4d612b2a413",
+  "scope": "Exact isolated child process: run/import/resume/per-game validation/final analysis; no Git sync, tests, or external full verification."
+}

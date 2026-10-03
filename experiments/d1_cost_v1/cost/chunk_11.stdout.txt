@@ -1,0 +1,7 @@
+[D1] saved 61/72 budget=1024 plies=19 wall_ms=34095.193
+[D1] saved 62/72 budget=1024 plies=3 wall_ms=5034.839
+[D1] saved 63/72 budget=1024 plies=2 wall_ms=3526.751
+[D1] saved 64/72 budget=1024 plies=4 wall_ms=7944.01
+[D1] saved 65/72 budget=1024 plies=28 wall_ms=41654.303
+[D1] saved 66/72 budget=1024 plies=29 wall_ms=45592.819
+planned checkpoint after 6 new games
