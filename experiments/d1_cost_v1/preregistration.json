@@ -1,0 +1,106 @@
+{
+  "experiment_id": "D1-G0-cost-v1",
+  "code_version": "winai_loseai-0.4.0-d1-cost",
+  "schema_version": 1,
+  "purpose": "Descriptive runtime, memory, output-size, integrity and failure calibration; excluded from subsequent confirmatory samples.",
+  "registered_before_first_formal_game": true,
+  "batch_id": "d1_g0_cost_v1",
+  "baseline_commit": "2a69925ead3ff8543ee109dd71754a9796073d49",
+  "d0_reference_commit": "d5cbbca637256d123b73f88ed67dced23393a9cc",
+  "hypotheses": [
+    "Increasing simulations changes adoption of legal G0 routes; monotonicity is not assumed.",
+    "G0 rules and MCTS choice/rollout semantics remain unchanged; only equal per-player simulations varies."
+  ],
+  "board_size": 5,
+  "komi": 2.5,
+  "budgets": [
+    64,
+    256,
+    1024
+  ],
+  "batch_seeds": [
+    2,
+    3,
+    4
+  ],
+  "identity_directions": [
+    [
+      "WIN",
+      "WIN"
+    ],
+    [
+      "LOSE",
+      "LOSE"
+    ],
+    [
+      "WIN",
+      "LOSE"
+    ],
+    [
+      "LOSE",
+      "WIN"
+    ]
+  ],
+  "agent_seed_orientations": [
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      1
+    ]
+  ],
+  "games_per_cell": 1,
+  "planned_games": 72,
+  "seed_mapping": "For each batch_seed and identity/orientation/repetition, use existing game_seed_for(batch_seed, ((identity_index*2+orientation_index)*games_per_cell+repeat_index)); reuse identical game seed across budgets. Existing colour+agent seed RNG derivation unchanged. Budget-specific trajectories diverge and are paired, not independent.",
+  "execution_order": "budget ascending, batch_seed listed order, identity listed order, orientation listed order, replicate ascending",
+  "fixed_factors": [
+    "G0 5x5, black first, white komi2.5, area scoring, no suicide, situational superko with pass exemption, double pass, 100-ply limit",
+    "Original vector utility MCTS, c=sqrt(2), uniform rollout including pass, no tree reuse, random maximum-visit ties",
+    "Same simulations for black and white; no cross-budget matches; representative seeds1,2 not population claims"
+  ],
+  "primary_endpoints": [
+    "wall/CPU time and peak RSS by budget; distribution of per-game/per-move times and output bytes",
+    "failed games, unplanned interruptions, validation failures, recovery outcomes"
+  ],
+  "descriptive_behavior_endpoints": [
+    "LL black all-pass route and black/white goals",
+    "LW exact empty double-pass; WL exact one-black-stone double-pass; mixed joint goal count",
+    "length mean/median/quartiles/p90/p95/max,2/3/le8/ge60 counts,move_limit,superko",
+    "first pass and proposal immediate utilities/acceptance, captures, raw and END-padded4/8/12 prefixes",
+    "paired budget differences and individual seed counts with denominators; representative min/median/max and anomalous games selected deterministically"
+  ],
+  "statistics": "No p-values, no efficacy decision, no outcome-driven stopping or ordinary CI optional stopping. Each budget×identity has6 games across3 seeds. Report individual seeds and pooled counts; games sharing seeds across budgets are paired. Resource forecasts only; not evidence of convergence.",
+  "expansion_rule": "None within this calibration. Stop after exactly72 validated games. Recommend a separately preregistered fixed-sample direction pilot based on measured costs, without reusing these games; next phase requires new seeds and explicit sampling/paired analysis plan.",
+  "resource_policy": {
+    "concurrency": 1,
+    "test_concurrency": [
+      1,
+      2
+    ],
+    "checkpoint_games": 6,
+    "assess_after_each_budget": true,
+    "overnight_hours": 12,
+    "stop_conditions": [
+      "source/protocol/runtime mismatch",
+      "any integrity or replay failure",
+      "2 unplanned runtime interruptions or crashes",
+      "estimated remaining calibration exceeds12hours without supporting pilot evidence",
+      "unexpected resource pressure or baseline alteration"
+    ]
+  },
+  "validation": [
+    "source/runtime/protocol/entry-point locks",
+    "plan,seed-mirror,manifest,metadata equality,source stamps",
+    "all-game replay; per-ply legal keys,exact simulations,visit sums,max-visit choice,Q domain and utility relationships,superko,live groups",
+    "resume and concurrency determinism excluding timing in tests",
+    "preservation SHA256 of baseline and D0 tracked files",
+    "official per-game persistence and deliberate6-game resume checkpoint"
+  ],
+  "boundaries": [
+    "No learning, no protocol propagation claim, rootQ is not a calibrated probability",
+    "G0 remains separate from G1+; 7x7 NO-GO unchanged",
+    "Reuse of same engine for replay is consistency validation, not an independent rules implementation"
+  ]
+}
