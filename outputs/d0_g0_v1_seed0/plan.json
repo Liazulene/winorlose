@@ -1,0 +1,650 @@
+[
+ {
+  "index": 0,
+  "game_seed": 62768592831214021034624591612029925882,
+  "black": {
+   "agent_id": "always_pass-WIN",
+   "identity": "WIN",
+   "algorithm": "always_pass",
+   "compute_level": "none",
+   "seed": 0
+  },
+  "white": {
+   "agent_id": "always_pass-WIN",
+   "identity": "WIN",
+   "algorithm": "always_pass",
+   "compute_level": "none",
+   "seed": 0
+  }
+ },
+ {
+  "index": 1,
+  "game_seed": 51649675481108802337455411478756390228,
+  "black": {
+   "agent_id": "always_pass-WIN",
+   "identity": "WIN",
+   "algorithm": "always_pass",
+   "compute_level": "none",
+   "seed": 0
+  },
+  "white": {
+   "agent_id": "one_stone_then_pass-WIN",
+   "identity": "WIN",
+   "algorithm": "one_stone_then_pass",
+   "compute_level": "none",
+   "seed": 0
+  }
+ },
+ {
+  "index": 2,
+  "game_seed": 162992898954938535339857239004669722287,
+  "black": {
+   "agent_id": "always_pass-WIN",
+   "identity": "WIN",
+   "algorithm": "always_pass",
+   "compute_level": "none",
+   "seed": 0
+  },
+  "white": {
+   "agent_id": "greedy_area-WIN",
+   "identity": "WIN",
+   "algorithm": "greedy_area",
+   "compute_level": "none",
+   "seed": 0
+  }
+ },
+ {
+  "index": 3,
+  "game_seed": 314168813337089487008148726178050664001,
+  "black": {
+   "agent_id": "one_stone_then_pass-WIN",
+   "identity": "WIN",
+   "algorithm": "one_stone_then_pass",
+   "compute_level": "none",
+   "seed": 0
+  },
+  "white": {
+   "agent_id": "always_pass-WIN",
+   "identity": "WIN",
+   "algorithm": "always_pass",
+   "compute_level": "none",
+   "seed": 0
+  }
+ },
+ {
+  "index": 4,
+  "game_seed": 148754297035529562519858785507465969949,
+  "black": {
+   "agent_id": "one_stone_then_pass-WIN",
+   "identity": "WIN",
+   "algorithm": "one_stone_then_pass",
+   "compute_level": "none",
+   "seed": 0
+  },
+  "white": {
+   "agent_id": "one_stone_then_pass-WIN",
+   "identity": "WIN",
+   "algorithm": "one_stone_then_pass",
+   "compute_level": "none",
+   "seed": 0
+  }
+ },
+ {
+  "index": 5,
+  "game_seed": 264964642595924637979656614318689091201,
+  "black": {
+   "agent_id": "one_stone_then_pass-WIN",
+   "identity": "WIN",
+   "algorithm": "one_stone_then_pass",
+   "compute_level": "none",
+   "seed": 0
+  },
+  "white": {
+   "agent_id": "greedy_area-WIN",
+   "identity": "WIN",
+   "algorithm": "greedy_area",
+   "compute_level": "none",
+   "seed": 0
+  }
+ },
+ {
+  "index": 6,
+  "game_seed": 324656930338452241612992760523758726950,
+  "black": {
+   "agent_id": "greedy_area-WIN",
+   "identity": "WIN",
+   "algorithm": "greedy_area",
+   "compute_level": "none",
+   "seed": 0
+  },
+  "white": {
+   "agent_id": "always_pass-WIN",
+   "identity": "WIN",
+   "algorithm": "always_pass",
+   "compute_level": "none",
+   "seed": 0
+  }
+ },
+ {
+  "index": 7,
+  "game_seed": 253067375243706379196259190451684298686,
+  "black": {
+   "agent_id": "greedy_area-WIN",
+   "identity": "WIN",
+   "algorithm": "greedy_area",
+   "compute_level": "none",
+   "seed": 0
+  },
+  "white": {
+   "agent_id": "one_stone_then_pass-WIN",
+   "identity": "WIN",
+   "algorithm": "one_stone_then_pass",
+   "compute_level": "none",
+   "seed": 0
+  }
+ },
+ {
+  "index": 8,
+  "game_seed": 291571698293196837892912659717715858249,
+  "black": {
+   "agent_id": "greedy_area-WIN",
+   "identity": "WIN",
+   "algorithm": "greedy_area",
+   "compute_level": "none",
+   "seed": 0
+  },
+  "white": {
+   "agent_id": "greedy_area-WIN",
+   "identity": "WIN",
+   "algorithm": "greedy_area",
+   "compute_level": "none",
+   "seed": 0
+  }
+ },
+ {
+  "index": 9,
+  "game_seed": 284089636771645514071038460120852622306,
+  "black": {
+   "agent_id": "always_pass-LOSE",
+   "identity": "LOSE",
+   "algorithm": "always_pass",
+   "compute_level": "none",
+   "seed": 0
+  },
+  "white": {
+   "agent_id": "always_pass-LOSE",
+   "identity": "LOSE",
+   "algorithm": "always_pass",
+   "compute_level": "none",
+   "seed": 0
+  }
+ },
+ {
+  "index": 10,
+  "game_seed": 329454177874899500982305243549036181046,
+  "black": {
+   "agent_id": "always_pass-LOSE",
+   "identity": "LOSE",
+   "algorithm": "always_pass",
+   "compute_level": "none",
+   "seed": 0
+  },
+  "white": {
+   "agent_id": "one_stone_then_pass-LOSE",
+   "identity": "LOSE",
+   "algorithm": "one_stone_then_pass",
+   "compute_level": "none",
+   "seed": 0
+  }
+ },
+ {
+  "index": 11,
+  "game_seed": 23866811530040474558916505939958123225,
+  "black": {
+   "agent_id": "always_pass-LOSE",
+   "identity": "LOSE",
+   "algorithm": "always_pass",
+   "compute_level": "none",
+   "seed": 0
+  },
+  "white": {
+   "agent_id": "greedy_area-LOSE",
+   "identity": "LOSE",
+   "algorithm": "greedy_area",
+   "compute_level": "none",
+   "seed": 0
+  }
+ },
+ {
+  "index": 12,
+  "game_seed": 338849766215279250170459971090768673591,
+  "black": {
+   "agent_id": "one_stone_then_pass-LOSE",
+   "identity": "LOSE",
+   "algorithm": "one_stone_then_pass",
+   "compute_level": "none",
+   "seed": 0
+  },
+  "white": {
+   "agent_id": "always_pass-LOSE",
+   "identity": "LOSE",
+   "algorithm": "always_pass",
+   "compute_level": "none",
+   "seed": 0
+  }
+ },
+ {
+  "index": 13,
+  "game_seed": 289148197097603623095649110849287851319,
+  "black": {
+   "agent_id": "one_stone_then_pass-LOSE",
+   "identity": "LOSE",
+   "algorithm": "one_stone_then_pass",
+   "compute_level": "none",
+   "seed": 0
+  },
+  "white": {
+   "agent_id": "one_stone_then_pass-LOSE",
+   "identity": "LOSE",
+   "algorithm": "one_stone_then_pass",
+   "compute_level": "none",
+   "seed": 0
+  }
+ },
+ {
+  "index": 14,
+  "game_seed": 226563768159852735914952103866757012754,
+  "black": {
+   "agent_id": "one_stone_then_pass-LOSE",
+   "identity": "LOSE",
+   "algorithm": "one_stone_then_pass",
+   "compute_level": "none",
+   "seed": 0
+  },
+  "white": {
+   "agent_id": "greedy_area-LOSE",
+   "identity": "LOSE",
+   "algorithm": "greedy_area",
+   "compute_level": "none",
+   "seed": 0
+  }
+ },
+ {
+  "index": 15,
+  "game_seed": 79926844283686222473024428033290769301,
+  "black": {
+   "agent_id": "greedy_area-LOSE",
+   "identity": "LOSE",
+   "algorithm": "greedy_area",
+   "compute_level": "none",
+   "seed": 0
+  },
+  "white": {
+   "agent_id": "always_pass-LOSE",
+   "identity": "LOSE",
+   "algorithm": "always_pass",
+   "compute_level": "none",
+   "seed": 0
+  }
+ },
+ {
+  "index": 16,
+  "game_seed": 8793695945591221697615575293676824143,
+  "black": {
+   "agent_id": "greedy_area-LOSE",
+   "identity": "LOSE",
+   "algorithm": "greedy_area",
+   "compute_level": "none",
+   "seed": 0
+  },
+  "white": {
+   "agent_id": "one_stone_then_pass-LOSE",
+   "identity": "LOSE",
+   "algorithm": "one_stone_then_pass",
+   "compute_level": "none",
+   "seed": 0
+  }
+ },
+ {
+  "index": 17,
+  "game_seed": 307044215960329807288273020083330529686,
+  "black": {
+   "agent_id": "greedy_area-LOSE",
+   "identity": "LOSE",
+   "algorithm": "greedy_area",
+   "compute_level": "none",
+   "seed": 0
+  },
+  "white": {
+   "agent_id": "greedy_area-LOSE",
+   "identity": "LOSE",
+   "algorithm": "greedy_area",
+   "compute_level": "none",
+   "seed": 0
+  }
+ },
+ {
+  "index": 18,
+  "game_seed": 215115609506795904248160274995982962855,
+  "black": {
+   "agent_id": "always_pass-WIN",
+   "identity": "WIN",
+   "algorithm": "always_pass",
+   "compute_level": "none",
+   "seed": 0
+  },
+  "white": {
+   "agent_id": "always_pass-LOSE",
+   "identity": "LOSE",
+   "algorithm": "always_pass",
+   "compute_level": "none",
+   "seed": 0
+  }
+ },
+ {
+  "index": 19,
+  "game_seed": 289202400237650926582982465525267410398,
+  "black": {
+   "agent_id": "always_pass-WIN",
+   "identity": "WIN",
+   "algorithm": "always_pass",
+   "compute_level": "none",
+   "seed": 0
+  },
+  "white": {
+   "agent_id": "one_stone_then_pass-LOSE",
+   "identity": "LOSE",
+   "algorithm": "one_stone_then_pass",
+   "compute_level": "none",
+   "seed": 0
+  }
+ },
+ {
+  "index": 20,
+  "game_seed": 136266156669857149070601612495689825745,
+  "black": {
+   "agent_id": "always_pass-WIN",
+   "identity": "WIN",
+   "algorithm": "always_pass",
+   "compute_level": "none",
+   "seed": 0
+  },
+  "white": {
+   "agent_id": "greedy_area-LOSE",
+   "identity": "LOSE",
+   "algorithm": "greedy_area",
+   "compute_level": "none",
+   "seed": 0
+  }
+ },
+ {
+  "index": 21,
+  "game_seed": 257506676169049232383835393594083360460,
+  "black": {
+   "agent_id": "one_stone_then_pass-WIN",
+   "identity": "WIN",
+   "algorithm": "one_stone_then_pass",
+   "compute_level": "none",
+   "seed": 0
+  },
+  "white": {
+   "agent_id": "always_pass-LOSE",
+   "identity": "LOSE",
+   "algorithm": "always_pass",
+   "compute_level": "none",
+   "seed": 0
+  }
+ },
+ {
+  "index": 22,
+  "game_seed": 287924222611439868787840870261494045548,
+  "black": {
+   "agent_id": "one_stone_then_pass-WIN",
+   "identity": "WIN",
+   "algorithm": "one_stone_then_pass",
+   "compute_level": "none",
+   "seed": 0
+  },
+  "white": {
+   "agent_id": "one_stone_then_pass-LOSE",
+   "identity": "LOSE",
+   "algorithm": "one_stone_then_pass",
+   "compute_level": "none",
+   "seed": 0
+  }
+ },
+ {
+  "index": 23,
+  "game_seed": 288081068067836004077640242540421452448,
+  "black": {
+   "agent_id": "one_stone_then_pass-WIN",
+   "identity": "WIN",
+   "algorithm": "one_stone_then_pass",
+   "compute_level": "none",
+   "seed": 0
+  },
+  "white": {
+   "agent_id": "greedy_area-LOSE",
+   "identity": "LOSE",
+   "algorithm": "greedy_area",
+   "compute_level": "none",
+   "seed": 0
+  }
+ },
+ {
+  "index": 24,
+  "game_seed": 310351664785095686239900109539870250044,
+  "black": {
+   "agent_id": "greedy_area-WIN",
+   "identity": "WIN",
+   "algorithm": "greedy_area",
+   "compute_level": "none",
+   "seed": 0
+  },
+  "white": {
+   "agent_id": "always_pass-LOSE",
+   "identity": "LOSE",
+   "algorithm": "always_pass",
+   "compute_level": "none",
+   "seed": 0
+  }
+ },
+ {
+  "index": 25,
+  "game_seed": 76011973557006140299214230565137459492,
+  "black": {
+   "agent_id": "greedy_area-WIN",
+   "identity": "WIN",
+   "algorithm": "greedy_area",
+   "compute_level": "none",
+   "seed": 0
+  },
+  "white": {
+   "agent_id": "one_stone_then_pass-LOSE",
+   "identity": "LOSE",
+   "algorithm": "one_stone_then_pass",
+   "compute_level": "none",
+   "seed": 0
+  }
+ },
+ {
+  "index": 26,
+  "game_seed": 63935189871940781627992441727637080435,
+  "black": {
+   "agent_id": "greedy_area-WIN",
+   "identity": "WIN",
+   "algorithm": "greedy_area",
+   "compute_level": "none",
+   "seed": 0
+  },
+  "white": {
+   "agent_id": "greedy_area-LOSE",
+   "identity": "LOSE",
+   "algorithm": "greedy_area",
+   "compute_level": "none",
+   "seed": 0
+  }
+ },
+ {
+  "index": 27,
+  "game_seed": 108000682457646011964234803949158502415,
+  "black": {
+   "agent_id": "always_pass-LOSE",
+   "identity": "LOSE",
+   "algorithm": "always_pass",
+   "compute_level": "none",
+   "seed": 0
+  },
+  "white": {
+   "agent_id": "always_pass-WIN",
+   "identity": "WIN",
+   "algorithm": "always_pass",
+   "compute_level": "none",
+   "seed": 0
+  }
+ },
+ {
+  "index": 28,
+  "game_seed": 132982853285787343565816032494901191906,
+  "black": {
+   "agent_id": "always_pass-LOSE",
+   "identity": "LOSE",
+   "algorithm": "always_pass",
+   "compute_level": "none",
+   "seed": 0
+  },
+  "white": {
+   "agent_id": "one_stone_then_pass-WIN",
+   "identity": "WIN",
+   "algorithm": "one_stone_then_pass",
+   "compute_level": "none",
+   "seed": 0
+  }
+ },
+ {
+  "index": 29,
+  "game_seed": 38447771580699583010136743288905340868,
+  "black": {
+   "agent_id": "always_pass-LOSE",
+   "identity": "LOSE",
+   "algorithm": "always_pass",
+   "compute_level": "none",
+   "seed": 0
+  },
+  "white": {
+   "agent_id": "greedy_area-WIN",
+   "identity": "WIN",
+   "algorithm": "greedy_area",
+   "compute_level": "none",
+   "seed": 0
+  }
+ },
+ {
+  "index": 30,
+  "game_seed": 15067895763069919045026118356133057843,
+  "black": {
+   "agent_id": "one_stone_then_pass-LOSE",
+   "identity": "LOSE",
+   "algorithm": "one_stone_then_pass",
+   "compute_level": "none",
+   "seed": 0
+  },
+  "white": {
+   "agent_id": "always_pass-WIN",
+   "identity": "WIN",
+   "algorithm": "always_pass",
+   "compute_level": "none",
+   "seed": 0
+  }
+ },
+ {
+  "index": 31,
+  "game_seed": 231191355801696032030531222109052549672,
+  "black": {
+   "agent_id": "one_stone_then_pass-LOSE",
+   "identity": "LOSE",
+   "algorithm": "one_stone_then_pass",
+   "compute_level": "none",
+   "seed": 0
+  },
+  "white": {
+   "agent_id": "one_stone_then_pass-WIN",
+   "identity": "WIN",
+   "algorithm": "one_stone_then_pass",
+   "compute_level": "none",
+   "seed": 0
+  }
+ },
+ {
+  "index": 32,
+  "game_seed": 312788452411578640317406697285711314110,
+  "black": {
+   "agent_id": "one_stone_then_pass-LOSE",
+   "identity": "LOSE",
+   "algorithm": "one_stone_then_pass",
+   "compute_level": "none",
+   "seed": 0
+  },
+  "white": {
+   "agent_id": "greedy_area-WIN",
+   "identity": "WIN",
+   "algorithm": "greedy_area",
+   "compute_level": "none",
+   "seed": 0
+  }
+ },
+ {
+  "index": 33,
+  "game_seed": 37957594559149270478740451244531112845,
+  "black": {
+   "agent_id": "greedy_area-LOSE",
+   "identity": "LOSE",
+   "algorithm": "greedy_area",
+   "compute_level": "none",
+   "seed": 0
+  },
+  "white": {
+   "agent_id": "always_pass-WIN",
+   "identity": "WIN",
+   "algorithm": "always_pass",
+   "compute_level": "none",
+   "seed": 0
+  }
+ },
+ {
+  "index": 34,
+  "game_seed": 277688592593404752391754020121615573721,
+  "black": {
+   "agent_id": "greedy_area-LOSE",
+   "identity": "LOSE",
+   "algorithm": "greedy_area",
+   "compute_level": "none",
+   "seed": 0
+  },
+  "white": {
+   "agent_id": "one_stone_then_pass-WIN",
+   "identity": "WIN",
+   "algorithm": "one_stone_then_pass",
+   "compute_level": "none",
+   "seed": 0
+  }
+ },
+ {
+  "index": 35,
+  "game_seed": 58898953808622128455466496314019533202,
+  "black": {
+   "agent_id": "greedy_area-LOSE",
+   "identity": "LOSE",
+   "algorithm": "greedy_area",
+   "compute_level": "none",
+   "seed": 0
+  },
+  "white": {
+   "agent_id": "greedy_area-WIN",
+   "identity": "WIN",
+   "algorithm": "greedy_area",
+   "compute_level": "none",
+   "seed": 0
+  }
+ }
+]

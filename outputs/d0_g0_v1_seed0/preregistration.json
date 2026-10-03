@@ -1,0 +1,30 @@
+{
+  "experiment_id": "D0-G0-v1",
+  "preregistered_utc": "2026-10-03T11:11:00Z",
+  "baseline_commit": "2a69925ead3ff8543ee109dd71754a9796073d49",
+  "code_version": "winai_loseai-0.3.0-d0",
+  "game": {"name": "G0", "board_size": 5, "komi": 2.5, "move_cap": 100, "pass": "unrestricted", "superko": "situational_nonpass", "scoring": "unchanged_area", "utility": "unchanged_WIN_LOSE"},
+  "question": "Do explicit deterministic legal policies reproduce the analytical G0 terminal routes, and what interactions arise under an identity-independent one-ply area control?",
+  "controlled_factors": "G0 rules, utility, board size, starting board, tie breaks and seed algorithm fixed; ordered script-policy pairing is the intervention. Identity directions only reinterpret outcomes because all three policies ignore identity.",
+  "policies": {
+    "always_pass": "Select pass on every nonterminal turn.",
+    "one_stone_then_pass": "At the first turn with any legal nonpass action, select the lowest row-major legal action; thereafter always pass, even if that stone is captured. If no nonpass is legal before placement, pass and keep placement pending. A fresh policy instance is created per game.",
+    "greedy_area": "Enumerate every legal action including pass, score its successor with G0 area scoring, maximize own-colour margin (black_score-white_score for black, negative for white), regardless of WIN/LOSE identity. On exact ties prefer pass, then lowest row-major action. No terminal bonus, depth beyond one, or random draw."
+  },
+  "hypotheses": [
+    {"id": "H1", "prediction": "AlwaysPass/AlwaysPass ends after exactly two passes, black_score=0, white_score=2.5, winner=white."},
+    {"id": "H2", "prediction": "Black OneStoneThenPass against white AlwaysPass ends in three moves; black_score=25, white_score=2.5, winner=black. All 25 isolated black placements followed by double pass have the same score."},
+    {"id": "H3", "prediction": "Black AlwaysPass always has black_score=0 and loses against every legal white response under positive komi; script matrix plus randomized white fixtures exercise, but do not prove, the universal claim."},
+    {"id": "H4", "prediction": "For each ordered policy pairing, actions and board outcome are identical across four identity directions, and utilities follow identity exactly."}
+  ],
+  "sample": {"batch_seed": 0, "agent_seed": 0, "ordered_policy_pairs": 9, "identity_directions": ["WIN/WIN", "LOSE/LOSE", "WIN/LOSE", "LOSE/WIN"], "games_per_cell": 1, "total_games": 36, "job_order": "identity direction outer, black policy middle, white policy inner; policy order always_pass,one_stone_then_pass,greedy_area", "inference_unit": "nine deterministic trajectories, not 36 independent stochastic replicates"},
+  "engineering_fixtures": {"isolated_black_stone_positions": "all25", "black_always_pass_vs_random_white_seeds": "0..49, two white identities each", "concurrency": [1, 2], "resume": "interrupt after 5 games, resume with changed concurrency, byte-content comparison excluding game_wall_ms", "inference": "Fixtures and regenerated games are verification only, excluded from research sample."},
+  "primary_endpoints": ["hypotheses_H1_H2_H3_H4_exact_checks", "full_legality_integrity_replay", "per_cell_winner_scores_utilities_actions_length_reason"],
+  "secondary_endpoints": ["2_3_le8_ge60_lengths", "first_pass_current_score_and_utility", "second_pass_acceptance_by_proposal_value", "always_pass_and_one_stone_routes", "capture_counts", "exact_and_END_padded_prefixes_L4_L8_L12", "superko_activity", "cost_wall_time_and_output_bytes"],
+  "statistics": "Exact descriptive counts and lengths only. No hypothesis p-values or confidence intervals for deterministic duplicated outcomes. No seed pooling claim.",
+  "expansion_rule": "None. Complete fixed 36 cells once. If an analytical prediction or validation fails, stop, diagnose and create a new preregistered version before changing semantic definitions. Do not add stochastic evidence to this D0 table.",
+  "stop_conditions": ["any illegal action or full replay failure", "historical protected bytes changed", "source/preregistration/plan/runtime mismatch", "repeated interruptions that prevent progress; checkpoint and sync before pausing", "unpiloted computation projected substantially beyond overnight"],
+  "execution": {"default_concurrency": 1, "maximum_concurrency": 2, "overwrite": false, "formal_output": "outputs/d0_g0_v1_seed0", "checkpoint_every_games": 5, "source_lock": "all package Python plus run.py, with separate experiment lock for preregistration and thin CLI", "persistence": "reuse atomic per-game RunStore, flush JSONL, full source/runtime resume checks; no claim of power-loss durability"},
+  "decision_rule": "If all D0 checks pass, recommend a separately preregistered small G0 MCTS D1 cost/direction pilot at64/256/1024 across >=3 batch seeds and four colour/identity directions; no D1 execution within D0. Retain7x7 NO-GO until Goal gates are met.",
+  "artifact_policy": "Technical preregistration, reproducible code, tests, compact machine evidence and recoverable new run outputs may be synced on a new checkpoint branch. Stage narrative Markdown summaries remain outside the repository and go only to Google Drive. Never overwrite historical G0 outputs/reports; do not duplicate old generated data."
+}

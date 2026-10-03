@@ -1,0 +1,9 @@
+{
+  "experiment_id": "D0-G0-v1",
+  "code_version": "winai_loseai-0.3.0-d0",
+  "schema_version": 1,
+  "source_fingerprint": "52b91997ec01e284aa380670245501f164dc14c607e19085df30242a4030acae",
+  "python_version": "3.12.14",
+  "preregistration_sha256": "6ad743a6af29b274680c99ca279042c3fc209e6133c8410145c517a78daf74e2",
+  "entry_point_sha256": "1d9e831e66a99fec26ef87e9d6c33530ff87c526fd1736306fe0736214430774"
+}
