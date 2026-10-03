@@ -1,14 +1,34 @@
 {
   "experiment_id": "D1-G0-cost-v1",
-  "state": "preregistered_implementation_validation",
+  "state": "completed_validated",
   "preregistration_commit": "347912d7ff7c360130fd70eac5ea5363b5a9e7e2",
   "branch": "experiment/d1-cost-v1",
   "baseline_read_only": true,
   "d0_read_only": true,
   "7x7_decision": "NO-GO",
-  "formal_games_started": false,
+  "formal_games_started": true,
   "planned_games": 72,
   "registered_concurrency": 1,
   "runtime_measurement": "12 separately measured6-game children, maximum process RSS across4 chunks per budget; includes resume/replay/imports",
-  "statistical_review": "Descriptive calibration only,24 paired RNG blocks,6 games per direction/budget. Later confirmatory sample excluded. Fixed-budget ascending schedule may confound timing with host drift."
+  "statistical_review": "Descriptive calibration only,24 paired RNG blocks,6 games per direction/budget. Later confirmatory sample excluded. Fixed-budget ascending schedule may confound timing with host drift.",
+  "completed_games": 72,
+  "completed_utc": "2026-10-03T12:24:53.241061+00:00",
+  "updated_utc": "2026-10-03T12:59:05.515234+00:00",
+  "raw_complete_remote_commit": "f32dc0d3d0dfeb82e268f7298fc6806671913fb9",
+  "tests_passed": 150,
+  "replay_search_ok": 72,
+  "full_mcts_regenerated": 3,
+  "unplanned_game_failures": 0,
+  "planned_checkpoint_interruptions": 11,
+  "sync_incidents": 2,
+  "source_fingerprint": "fee4eb09c0be69be1af78440ca9738dcad0c7971406161d87007ed55a86e397f",
+  "next_phase": {
+    "recommendation": "Separately preregister fixed720-game estimation-only direction study, freshbatch seeds5,6,7,10 games/cell; same4identity directions,2seed orientations,3equal-player budgets. Not started.",
+    "resource_projection_hours": 2.8186726291,
+    "with50pct_allowance_hours": 4.2280089436,
+    "extra_costs": "GitHub sync, finalchecks and increasing resume preflight; planning allowance is not a statistical bound.",
+    "precision": "n60 per direction/budget; worstcaseWilson95%halfwidth12.3pp;0of60 exacttwo-sided95%upper5.96%. No rarefailure certification.",
+    "pilot_data_excluded": true,
+    "reason": "Representative paired budget comparisons remain the nextmechanism question;720 preservesall factors while givingmore operational margin than1800. Decision basedon cost/reliability, not favorablecells."
+  }
 }

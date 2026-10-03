@@ -5,5 +5,12 @@
     "type": "client_output_accumulation_false_negative",
     "detail": "Remote commit/ref update and local fetch/tree equality succeeded. The orchestration helper checked only the final empty poll output instead of accumulated output, reporting remote SHA missing. Independent git HEAD and ls-remote verification confirmed b890271b2328a3715bc84b055d1316937cd4ed1a. No write/commit was retried; accumulated-output check corrected. No game rerun or record loss.",
     "experiment_runtime_failure": false
+  },
+  {
+    "time_utc": "2026-10-03T12:55:49.907137+00:00",
+    "checkpoint_games": 72,
+    "type": "connector_tree_call_stall",
+    "detail": "Completed72 games and validation at12:24:53. Subsequent large inline tree upload did not return; orchestration interrupted by parent. Read-only checks confirmed remote still66 games, intendedtree and analysisblob both404. Uploaded analysisblob separately, then smaller tree request succeeded with exact expectedtree ee4b131f64471c2869cc2f338dd408d48e4baede. Created and advanced f32dc0d3 after reconciliation. No game rerun or record loss; no uncertain commit/ref update retried.",
+    "experiment_runtime_failure": false
   }
 ]

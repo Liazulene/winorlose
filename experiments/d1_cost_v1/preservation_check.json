@@ -1,0 +1,23 @@
+{
+  "checked_utc": "2026-10-03T12:55:47.873332+00:00",
+  "problems": [],
+  "trees": {
+    "baseline": {
+      "tracked_files": 15868,
+      "changed": []
+    },
+    "d0": {
+      "tracked_files": 15929,
+      "changed": []
+    },
+    "d1_inherited_historical_files": {
+      "checked_files": 15865,
+      "allowed_version_budget_resolver_changes": [
+        "src/winai_loseai/__init__.py",
+        "src/winai_loseai/agents/vector_mcts.py",
+        "src/winai_loseai/spec.py"
+      ],
+      "changed": []
+    }
+  }
+}

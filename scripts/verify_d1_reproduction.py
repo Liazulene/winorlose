@@ -19,7 +19,7 @@ def main():
         if c['budget'] in seen:continue
         seen.add(c['budget']);t=time.perf_counter();fresh=play_one(j)
         saved=json.loads((Path(args.out)/'games'/f"{fresh['game_id']}.json").read_text())
-        same=strip_timing(fresh)==strip_timing(saved)
+        same=strip_timing(json.loads(json.dumps(fresh)))==strip_timing(saved)
         results.append({'game_id':fresh['game_id'],'budget':c['budget'],'game_index':j['index'],'matches_except_timing':same,'wall_seconds':time.perf_counter()-t})
         print(json.dumps(results[-1]),flush=True)
     result={'experiment_lock':locked,'predesignated_selection':'Lowest game_index in each budget, one worker; supplementary index-based verification planned during execution','results':results,'wall_seconds':time.perf_counter()-start,

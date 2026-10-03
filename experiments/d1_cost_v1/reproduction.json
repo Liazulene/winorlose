@@ -1,0 +1,39 @@
+{
+  "experiment_lock": {
+    "experiment_id": "D1-G0-cost-v1",
+    "code_version": "winai_loseai-0.4.0-d1-cost",
+    "schema_version": 1,
+    "source_fingerprint": "fee4eb09c0be69be1af78440ca9738dcad0c7971406161d87007ed55a86e397f",
+    "python_version": "3.12.14",
+    "preregistration_sha256": "3cfef8201c5068faaf25666f03cc0bcfb609154450e95d1eb50d4ee9321be083",
+    "entry_point_sha256": "b57355e858664b1aea0ddb657ec18a96546dcb5f2bc604d5abe2c3e8657a003c",
+    "measurement_script_sha256": "31094c40df7a12094c2ffe42530b968a51e182a87c57f1b0d868c4d612b2a413"
+  },
+  "predesignated_selection": "Lowest game_index in each budget, one worker; supplementary index-based verification planned during execution",
+  "results": [
+    {
+      "game_id": "d1_g0_cost_v1-g000000",
+      "budget": 64,
+      "game_index": 0,
+      "matches_except_timing": true,
+      "wall_seconds": 1.0310688580011629
+    },
+    {
+      "game_id": "d1_g0_cost_v1-g000024",
+      "budget": 256,
+      "game_index": 24,
+      "matches_except_timing": true,
+      "wall_seconds": 9.477285627999663
+    },
+    {
+      "game_id": "d1_g0_cost_v1-g000048",
+      "budget": 1024,
+      "game_index": 48,
+      "matches_except_timing": true,
+      "wall_seconds": 39.93615887500164
+    }
+  ],
+  "wall_seconds": 50.44472788500025,
+  "problems": [],
+  "script_sha256": "972a8900fa0780cf6075a8692c50b610c2f202b246685e2d0b6c8a0665bf97de"
+}
