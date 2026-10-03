@@ -156,3 +156,19 @@ def test_seed_mirror_is_validated(tmp_path):
     rows[0]["game_seed"] += 1
     path.write_text(json.dumps(rows))
     assert "D0 seed plan mismatch" in d0.validate(out)["problems"]
+
+
+@pytest.mark.parametrize("target", ["indexes", "analysis"])
+def test_derived_completion_artifacts_are_checked(tmp_path, target):
+    out = tmp_path / "run"
+    d0.run(out)
+    if target == "indexes":
+        path = out / "manifest.json"
+        data = json.loads(path.read_text())
+        data["completed_indexes"][-1] = 99
+    else:
+        path = out / "analysis.json"
+        data = json.loads(path.read_text())
+        data["n_unique_trajectories"] += 1
+    path.write_text(json.dumps(data))
+    assert any(("indexes mismatch" if target == "indexes" else "analysis mismatch") in p for p in d0.validate(out)["problems"])

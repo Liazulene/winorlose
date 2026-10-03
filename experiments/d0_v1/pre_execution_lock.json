@@ -2,7 +2,7 @@
   "source_lock": {
     "code_version": "winai_loseai-0.3.0-d0",
     "schema_version": 1,
-    "source_fingerprint": "77fc79fea96eccc5d7d4142eb417420576882fa4062218f69e2128d75f7317f3",
+    "source_fingerprint": "52b91997ec01e284aa380670245501f164dc14c607e19085df30242a4030acae",
     "python_version": "3.12.14",
     "algorithm": "sha256-utf8-lf-path-map-v1",
     "files": {
@@ -19,7 +19,7 @@
       "src/winai_loseai/analysis/summary.py": "e123f0fd5374096114c158895ea7a9556f4975b03d2113fd893eeddf83fa4c1b",
       "src/winai_loseai/cli.py": "069b212b88a4c393550aa40936fb62613d9792e54d848006fa49d6e6e49b0dfc",
       "src/winai_loseai/experiments/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "src/winai_loseai/experiments/d0.py": "e48e43a78257cd79b95275317ce275a87825431f9a4006d3b0dbcf5cbc05949e",
+      "src/winai_loseai/experiments/d0.py": "ba86968f8c910b5a44920f52d66e11b387fd8d7cb8da97f961b196e7b7265b4b",
       "src/winai_loseai/game/__init__.py": "805dda25e842076434540c187050980190d5e1bec5a0efa948840b02f2038be4",
       "src/winai_loseai/game/scoring.py": "e8ac325ad492c159bef770f09ecf0fbf5cbe9920d985042a7908fee45cffc3fd",
       "src/winai_loseai/game/state.py": "dbe0abc966c3c5c9a1bcb37a205bc5ccf020fdbcf88865795f9b43efb550b98b",
@@ -41,7 +41,7 @@
     "experiment_id": "D0-G0-v1",
     "code_version": "winai_loseai-0.3.0-d0",
     "schema_version": 1,
-    "source_fingerprint": "77fc79fea96eccc5d7d4142eb417420576882fa4062218f69e2128d75f7317f3",
+    "source_fingerprint": "52b91997ec01e284aa380670245501f164dc14c607e19085df30242a4030acae",
     "python_version": "3.12.14",
     "preregistration_sha256": "6ad743a6af29b274680c99ca279042c3fc209e6133c8410145c517a78daf74e2",
     "entry_point_sha256": "1d9e831e66a99fec26ef87e9d6c33530ff87c526fd1736306fe0736214430774"

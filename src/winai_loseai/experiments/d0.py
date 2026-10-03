@@ -188,6 +188,10 @@ def validate(out):
     for key, value in config(manifest.get("concurrency")).items():
         if manifest.get(key) != value:
             problems.append(f"D0 manifest mismatch: {key}")
+    if manifest.get("completed_indexes") != list(range(36)):
+        problems.append("D0 completed indexes mismatch")
+    if manifest.get("completed_game_count") != 36:
+        problems.append("D0 completed count mismatch")
     if manifest.get("concurrency") not in (1, 2):
         problems.append("D0 invalid concurrency")
     saved_plan = json.loads((out / "plan.json").read_text())
@@ -233,6 +237,13 @@ def validate(out):
             problems.append(f"{gid}: total superko mismatch")
         if not 2 <= rec["move_count"] <= 100:
             problems.append(f"{gid}: invalid length")
+    if len(saved) == 36 and not problems:
+        analysis_path = out / "analysis.json"
+        if analysis_path.exists():
+            if json.loads(analysis_path.read_text()) != analyze(out):
+                problems.append("D0 saved analysis mismatch")
+        elif manifest.get("status") == STATUS_COMPLETED:
+            problems.append("D0 completed run missing analysis")
     checks = analytical_checks(saved)
     problems.extend(key for key, passed in checks.items() if not passed)
     return {"experiment_id": "D0-G0-v1", "problems": problems,
