@@ -1,0 +1,21 @@
+{
+  "experiment_id": "D0-G0-v1",
+  "state": "completed",
+  "rules": "G0",
+  "code_version": "winai_loseai-0.3.0-d0",
+  "source_fingerprint": "52b91997ec01e284aa380670245501f164dc14c607e19085df30242a4030acae",
+  "formal_games": 36,
+  "ordered_policy_conditions": 9,
+  "distinct_trajectories": 7,
+  "replay_ok": 36,
+  "policy_reproduction_ok": 36,
+  "tests_passed": 279,
+  "unexpected_run_interruptions": 0,
+  "deliberate_recovery_checkpoints": 1,
+  "engineering_preflight_failures": 1,
+  "preflight_failure_type": "missing_optional_time_executable_replaced_by_python_resource",
+  "output_directory": "outputs/d0_g0_v1_seed0",
+  "go_7x7": false,
+  "next_recommendation": "D1-G0-preregister-cost-and-direction-pilot",
+  "narrative_report_destination": "Google Drive only"
+}

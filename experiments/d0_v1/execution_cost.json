@@ -1,0 +1,19 @@
+{
+  "command": [
+    "/workspace/scratch/50e0c7c6aca1/winorlose_audit_venv/bin/python",
+    "scripts/run_d0.py",
+    "run",
+    "--out",
+    "outputs/d0_g0_v1_seed0",
+    "--concurrency",
+    "1",
+    "--resume"
+  ],
+  "exit_code": 0,
+  "wall_seconds": 0.466325678999965,
+  "child_cpu_user_seconds": 0.44290199999999996,
+  "child_cpu_system_seconds": 0.022633,
+  "child_peak_rss_kib": 17604,
+  "scope": "31 pending games plus full36 replay/policy reproduction and derived analysis; deliberately persisted first5 beforehand",
+  "preflight_issue": "/usr/bin/time absent, command not launched; used Python subprocess/resource instead"
+}

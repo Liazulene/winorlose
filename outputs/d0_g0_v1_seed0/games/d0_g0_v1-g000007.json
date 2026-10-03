@@ -1,0 +1,129 @@
+{
+ "code_version": "winai_loseai-0.3.0-d0",
+ "schema_version": 1,
+ "source_fingerprint": "52b91997ec01e284aa380670245501f164dc14c607e19085df30242a4030acae",
+ "python_version": "3.12.14",
+ "game_id": "d0_g0_v1-g000007",
+ "batch_id": "d0_g0_v1",
+ "game_index": 7,
+ "game_seed": 253067375243706379196259190451684298686,
+ "board_size": 5,
+ "komi": 2.5,
+ "black_agent_id": "greedy_area-WIN",
+ "white_agent_id": "one_stone_then_pass-WIN",
+ "black_identity": "WIN",
+ "white_identity": "WIN",
+ "black_algorithm": "greedy_area",
+ "white_algorithm": "one_stone_then_pass",
+ "black_compute_level": "none",
+ "white_compute_level": "none",
+ "winner": "black",
+ "black_score": 25.0,
+ "white_score": 2.5,
+ "score_margin": 22.5,
+ "black_utility": 1,
+ "white_utility": -1,
+ "move_count": 7,
+ "termination_reason": "double_pass",
+ "final_board": [
+  1,
+  0,
+  1,
+  0,
+  0,
+  0,
+  1,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "superko_rejections": 0,
+ "game_wall_ms": 1.812,
+ "black": {
+  "agent_id": "greedy_area-WIN",
+  "identity": "WIN",
+  "algorithm": "greedy_area",
+  "compute_level": "none",
+  "seed": 0
+ },
+ "white": {
+  "agent_id": "one_stone_then_pass-WIN",
+  "identity": "WIN",
+  "algorithm": "one_stone_then_pass",
+  "compute_level": "none",
+  "seed": 0
+ },
+ "moves": [
+  {
+   "index": 1,
+   "color": "black",
+   "action": 0,
+   "is_pass": false,
+   "legal_action_count": 26,
+   "superko_excluded": 0
+  },
+  {
+   "index": 2,
+   "color": "white",
+   "action": 1,
+   "is_pass": false,
+   "legal_action_count": 25,
+   "superko_excluded": 0
+  },
+  {
+   "index": 3,
+   "color": "black",
+   "action": 2,
+   "is_pass": false,
+   "legal_action_count": 24,
+   "superko_excluded": 0
+  },
+  {
+   "index": 4,
+   "color": "white",
+   "action": 25,
+   "is_pass": true,
+   "legal_action_count": 23,
+   "superko_excluded": 0
+  },
+  {
+   "index": 5,
+   "color": "black",
+   "action": 6,
+   "is_pass": false,
+   "legal_action_count": 23,
+   "superko_excluded": 0
+  },
+  {
+   "index": 6,
+   "color": "white",
+   "action": 25,
+   "is_pass": true,
+   "legal_action_count": 22,
+   "superko_excluded": 0
+  },
+  {
+   "index": 7,
+   "color": "black",
+   "action": 25,
+   "is_pass": true,
+   "legal_action_count": 23,
+   "superko_excluded": 0
+  }
+ ]
+}
