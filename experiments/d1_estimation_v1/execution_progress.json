@@ -1,9 +1,9 @@
 {
-  "completed_games": 336,
+  "completed_games": 360,
   "planned_games": 720,
-  "validated_games": 336,
-  "chunk": 14,
-  "updated_utc": "2026-10-03T14:55:03.628161+00:00",
+  "validated_games": 360,
+  "chunk": 15,
+  "updated_utc": "2026-10-03T15:04:46.837067+00:00",
   "source_fingerprint": "250cf8c98783f9028b004fdff1367a416dfde198f8e6b4bbff7a858ea0886c0a",
   "formal_preregistration_commit": "18bac62c6c949fd18338b276e31a4727c59b18df"
 }
