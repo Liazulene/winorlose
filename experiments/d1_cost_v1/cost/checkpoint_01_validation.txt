@@ -1,0 +1,18 @@
+{
+  "experiment_id": "D1-G0-cost-v1",
+  "planned": 72,
+  "game_count": 6,
+  "replay_and_search_ok": 6,
+  "complete": false,
+  "problems": [],
+  "source_fingerprint": "fee4eb09c0be69be1af78440ca9738dcad0c7971406161d87007ed55a86e397f",
+  "raw_game_sha256": {
+    "d1_g0_cost_v1-g000000.json": "76e236a283bf9ccf0758e5317afa3662d9e63870e5f85083d48582a34a7d04cc",
+    "d1_g0_cost_v1-g000001.json": "6ad9ab37475b99aa91090ab0e4cfff7349f0601541d770056e0e38193daa3d19",
+    "d1_g0_cost_v1-g000002.json": "41ae7f0a417b8c0b1d476d939c59886f925be91f7fa419515d56509ddb78f391",
+    "d1_g0_cost_v1-g000003.json": "a41fe72539ce0fa2e8b56cdc08ff03dee45b50aa7f1d0473160b523ded67bc68",
+    "d1_g0_cost_v1-g000004.json": "ca8ff15b55a32093ec7484b649f8cc66a932353d9e05e8caf013e721af26afc5",
+    "d1_g0_cost_v1-g000005.json": "dc4503e00f4c9a17793ad288261038a390af8f3034e29fd036f772dd39766bd5"
+  }
+}
+wall_seconds=0.042241

@@ -1,0 +1,117 @@
+{
+ "code_version": "winai_loseai-0.4.0-d1-cost",
+ "schema_version": 1,
+ "source_fingerprint": "fee4eb09c0be69be1af78440ca9738dcad0c7971406161d87007ed55a86e397f",
+ "python_version": "3.12.14",
+ "batch_id": "d1_g0_cost_v1",
+ "kind": "D1-G0-cost-v1",
+ "status": "interrupted",
+ "requested_games": 72,
+ "planned_game_count": 72,
+ "board_size": 5,
+ "komi": 2.5,
+ "batch_seed": [
+  2,
+  3,
+  4
+ ],
+ "concurrency": 1,
+ "completed_game_count": 6,
+ "completed_indexes": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "created_at": "2026-10-03T11:54:50+00:00",
+ "last_updated": "2026-10-03T11:55:06+00:00",
+ "agents": [
+  {
+   "agent_id": "WIN-shallow-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "shallow",
+   "seed": 1
+  },
+  {
+   "agent_id": "WIN-shallow-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "shallow",
+   "seed": 2
+  },
+  {
+   "agent_id": "LOSE-shallow-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "shallow",
+   "seed": 1
+  },
+  {
+   "agent_id": "LOSE-shallow-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "shallow",
+   "seed": 2
+  },
+  {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  {
+   "agent_id": "WIN-deep-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "deep",
+   "seed": 1
+  },
+  {
+   "agent_id": "WIN-deep-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "deep",
+   "seed": 2
+  },
+  {
+   "agent_id": "LOSE-deep-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "deep",
+   "seed": 1
+  },
+  {
+   "agent_id": "LOSE-deep-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "deep",
+   "seed": 2
+  }
+ ],
+ "error": null
+}
