@@ -6,9 +6,9 @@ utility.  The MVP deliberately contains no learning: behaviour is produced by
 planning (Random / Vector-MCTS) only.
 """
 
-__version__ = "0.2.0"
+__version__ = "0.3.0"
 
 # Version tag stamped into every saved record.  This directory is not a git
 # repository, so we use an explicit version string instead of a commit hash.
-CODE_VERSION = "winai_loseai-0.2.0-planning"
+CODE_VERSION = "winai_loseai-0.3.0-d0"
 SCHEMA_VERSION = 1
