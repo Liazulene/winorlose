@@ -1,0 +1,12 @@
+{
+  "planned_utc": "2026-10-03T12:10:34.927118+00:00",
+  "selection": [
+    0,
+    24,
+    48
+  ],
+  "purpose": "In-memory deterministic regeneration of first game perbudget, excluding timing; never increases formal n",
+  "execution_concurrency": 1,
+  "primary_72_design_unchanged": true,
+  "selection_timing": "Index-based supplementaryverification chosen during1024 execution after viewing timing/length logs; no efficacy-based selection or added formal observations."
+}
