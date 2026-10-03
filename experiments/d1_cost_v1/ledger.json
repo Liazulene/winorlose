@@ -1,0 +1,14 @@
+{
+  "experiment_id": "D1-G0-cost-v1",
+  "state": "preregistered_implementation_validation",
+  "preregistration_commit": "347912d7ff7c360130fd70eac5ea5363b5a9e7e2",
+  "branch": "experiment/d1-cost-v1",
+  "baseline_read_only": true,
+  "d0_read_only": true,
+  "7x7_decision": "NO-GO",
+  "formal_games_started": false,
+  "planned_games": 72,
+  "registered_concurrency": 1,
+  "runtime_measurement": "12 separately measured6-game children, maximum process RSS across4 chunks per budget; includes resume/replay/imports",
+  "statistical_review": "Descriptive calibration only,24 paired RNG blocks,6 games per direction/budget. Later confirmatory sample excluded. Fixed-budget ascending schedule may confound timing with host drift."
+}

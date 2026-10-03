@@ -66,7 +66,7 @@ class AgentSpec:
     def simulations(self):
         if self.algorithm != ALGO_VECTOR_MCTS:
             return None
-        return COMPUTE_SIMS[self.compute_level]
+        return simulations_for(self.compute_level)
 
     def to_dict(self):
         d = asdict(self)
@@ -115,3 +115,17 @@ def random_spec(identity, seed: int = 0, agent_id: str | None = None) -> AgentSp
 RANDOM_WIN = random_spec(Identity.WIN, seed=0)
 RANDOM_LOSE = random_spec(Identity.LOSE, seed=1)
 RANDOM_AGENTS = (RANDOM_WIN, RANDOM_LOSE)
+
+
+def simulations_for(level):
+    """Resolve historical tiers or a positive explicit sims:N budget.
+
+    Named tiers and all original search semantics are unchanged.
+    """
+    if level in COMPUTE_SIMS:
+        return COMPUTE_SIMS[level]
+    if isinstance(level, str) and level.startswith("sims:"):
+        value = level[5:]
+        if value.isascii() and value.isdecimal() and str(int(value)) == value and int(value) > 0:
+            return int(value)
+    raise ValueError(f"invalid MCTS compute level: {level!r}")

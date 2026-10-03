@@ -25,7 +25,7 @@ import time
 from ..identity import black_white_utilities
 from ..game import scoring
 from ..game.state import GoState, BLACK, WHITE
-from ..spec import COMPUTE_SIMS
+from ..spec import simulations_for
 
 
 def _terminal_utility(state: GoState, identity_black, identity_white, komi: float):
@@ -62,7 +62,7 @@ class VectorMCTSAgent:
     def __init__(self, spec, rng, komi: float = 2.5):
         self.spec = spec
         self._rng = rng
-        self.simulations = COMPUTE_SIMS[spec.compute_level]
+        self.simulations = simulations_for(spec.compute_level)
         self.c = math.sqrt(2.0)
         self.komi = komi
         self.last_stats = None
