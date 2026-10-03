@@ -1,0 +1,5 @@
+black_identity,white_identity,black_algorithm,black_compute_level,white_algorithm,white_compute_level,n_games,black_goal_rate,white_goal_rate,black_win_rate,length_mean,length_median,length_q25,length_q75,length_min,length_max,n_double_pass,n_move_limit,pct_double_pass,pct_move_limit,superko_rejections,mean_score_margin
+LOSE,LOSE,vector_mcts,shallow,vector_mcts,shallow,600,0.9416666666666667,0.058333333333333334,0.058333333333333334,25.631666666666668,21.0,13.0,37.0,5.0,56.0,600,0,1.0,0.0,38,-6.928333333333334
+LOSE,WIN,vector_mcts,shallow,vector_mcts,shallow,800,1.0,1.0,0.0,19.63875,20.0,12.0,26.0,2.0,46.0,800,0,1.0,0.0,34,-5.4075
+WIN,LOSE,vector_mcts,shallow,vector_mcts,shallow,800,1.0,1.0,1.0,23.8525,25.0,19.0,29.0,3.0,45.0,800,0,1.0,0.0,60,6.09125
+WIN,WIN,vector_mcts,shallow,vector_mcts,shallow,600,0.5033333333333333,0.49666666666666665,0.5033333333333333,30.981666666666666,31.0,26.0,37.0,2.0,68.0,600,0,1.0,0.0,265,-0.565

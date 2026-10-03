@@ -1,0 +1,30 @@
+{
+  "run": "outputs/batch_B_shallow_seed0",
+  "concurrency": 2,
+  "checks": [
+    {
+      "game_id": "batch_B-g000000",
+      "equal_except_timing": true,
+      "original_sha256": "4d73f63c6fc020fdc03fb2bbc9c331a0bb922a91fa782249176c8161399ece03"
+    },
+    {
+      "game_id": "batch_B-g000050",
+      "equal_except_timing": true,
+      "original_sha256": "b67c41f222870997655a2cfdcd21ec233458ee1a652a057c3295d042cb3a2e87"
+    },
+    {
+      "game_id": "batch_B-g000150",
+      "equal_except_timing": true,
+      "original_sha256": "b4479e0b0950682608e2bd9d79e5f0bcd53888e2233ed7782829024de9d9ff95"
+    },
+    {
+      "game_id": "batch_B-g000200",
+      "equal_except_timing": true,
+      "original_sha256": "f367e9b8555503e84a5d6bb41fcc531931e0d69b76e44774d1af8db1371cd842"
+    }
+  ],
+  "excluded_fields": [
+    "search_time_ms",
+    "game_wall_ms"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+ "batch_id": "smoke_mcts",
+ "code_version": "winai_loseai-0.1.0",
+ "batch_seed": 0,
+ "concurrency": 4,
+ "n_games": 24,
+ "generated_by": "winai_loseai.cli",
+ "seeds_per_identity": 2,
+ "games_per_pair": 2,
+ "agents": [
+  {
+   "agent_id": "WIN-shallow-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "shallow",
+   "seed": 1
+  },
+  {
+   "agent_id": "WIN-shallow-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "shallow",
+   "seed": 2
+  },
+  {
+   "agent_id": "LOSE-shallow-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "shallow",
+   "seed": 1
+  },
+  {
+   "agent_id": "LOSE-shallow-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "shallow",
+   "seed": 2
+  }
+ ],
+ "game_count": 24,
+ "schema_version": 1
+}

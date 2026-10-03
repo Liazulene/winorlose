@@ -1,0 +1,191 @@
+{
+ "schema_version": 1,
+ "code_version": "winai_loseai-0.1.0",
+ "game_id": "batch_A-g003754",
+ "batch_id": "batch_A",
+ "game_index": 3754,
+ "game_seed": 160869824393332770592344211570217305001,
+ "board_size": 5,
+ "komi": 2.5,
+ "black_agent_id": "RAND-LOSE",
+ "white_agent_id": "RAND-LOSE",
+ "black_identity": "LOSE",
+ "white_identity": "LOSE",
+ "black_algorithm": "random",
+ "white_algorithm": "random",
+ "black_compute_level": "none",
+ "white_compute_level": "none",
+ "winner": "white",
+ "black_score": 7.0,
+ "white_score": 8.5,
+ "score_margin": -1.5,
+ "black_utility": 1,
+ "white_utility": -1,
+ "move_count": 15,
+ "termination_reason": "double_pass",
+ "final_board": [
+  1,
+  2,
+  2,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  2,
+  1,
+  1,
+  0,
+  1,
+  1,
+  1,
+  2,
+  0,
+  2,
+  1,
+  0,
+  2,
+  0,
+  0,
+  0
+ ],
+ "superko_rejections": 0,
+ "game_wall_ms": 6.834,
+ "black": {
+  "agent_id": "RAND-LOSE",
+  "identity": "LOSE",
+  "algorithm": "random",
+  "compute_level": "none",
+  "seed": 0
+ },
+ "white": {
+  "agent_id": "RAND-LOSE",
+  "identity": "LOSE",
+  "algorithm": "random",
+  "compute_level": "none",
+  "seed": 0
+ },
+ "moves": [
+  {
+   "index": 1,
+   "color": "black",
+   "action": 11,
+   "is_pass": false,
+   "legal_action_count": 26,
+   "superko_excluded": 0
+  },
+  {
+   "index": 2,
+   "color": "white",
+   "action": 2,
+   "is_pass": false,
+   "legal_action_count": 25,
+   "superko_excluded": 0
+  },
+  {
+   "index": 3,
+   "color": "black",
+   "action": 0,
+   "is_pass": false,
+   "legal_action_count": 24,
+   "superko_excluded": 0
+  },
+  {
+   "index": 4,
+   "color": "white",
+   "action": 21,
+   "is_pass": false,
+   "legal_action_count": 23,
+   "superko_excluded": 0
+  },
+  {
+   "index": 5,
+   "color": "black",
+   "action": 19,
+   "is_pass": false,
+   "legal_action_count": 22,
+   "superko_excluded": 0
+  },
+  {
+   "index": 6,
+   "color": "white",
+   "action": 9,
+   "is_pass": false,
+   "legal_action_count": 21,
+   "superko_excluded": 0
+  },
+  {
+   "index": 7,
+   "color": "black",
+   "action": 15,
+   "is_pass": false,
+   "legal_action_count": 20,
+   "superko_excluded": 0
+  },
+  {
+   "index": 8,
+   "color": "white",
+   "action": 1,
+   "is_pass": false,
+   "legal_action_count": 19,
+   "superko_excluded": 0
+  },
+  {
+   "index": 9,
+   "color": "black",
+   "action": 13,
+   "is_pass": false,
+   "legal_action_count": 18,
+   "superko_excluded": 0
+  },
+  {
+   "index": 10,
+   "color": "white",
+   "action": 18,
+   "is_pass": false,
+   "legal_action_count": 17,
+   "superko_excluded": 0
+  },
+  {
+   "index": 11,
+   "color": "black",
+   "action": 10,
+   "is_pass": false,
+   "legal_action_count": 16,
+   "superko_excluded": 0
+  },
+  {
+   "index": 12,
+   "color": "white",
+   "action": 16,
+   "is_pass": false,
+   "legal_action_count": 15,
+   "superko_excluded": 0
+  },
+  {
+   "index": 13,
+   "color": "black",
+   "action": 14,
+   "is_pass": false,
+   "legal_action_count": 14,
+   "superko_excluded": 0
+  },
+  {
+   "index": 14,
+   "color": "white",
+   "action": 25,
+   "is_pass": true,
+   "legal_action_count": 13,
+   "superko_excluded": 0
+  },
+  {
+   "index": 15,
+   "color": "black",
+   "action": 25,
+   "is_pass": true,
+   "legal_action_count": 13,
+   "superko_excluded": 0
+  }
+ ]
+}

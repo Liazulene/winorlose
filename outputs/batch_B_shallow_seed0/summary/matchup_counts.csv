@@ -1,0 +1,9 @@
+row_agent\col_agent,LOSE-shallow-s1,LOSE-shallow-s2,LOSE-shallow-s3,LOSE-shallow-s4,WIN-shallow-s1,WIN-shallow-s2,WIN-shallow-s3,WIN-shallow-s4
+LOSE-shallow-s1,0,100,100,100,100,100,100,100
+LOSE-shallow-s2,100,0,100,100,100,100,100,100
+LOSE-shallow-s3,100,100,0,100,100,100,100,100
+LOSE-shallow-s4,100,100,100,0,100,100,100,100
+WIN-shallow-s1,100,100,100,100,0,100,100,100
+WIN-shallow-s2,100,100,100,100,100,0,100,100
+WIN-shallow-s3,100,100,100,100,100,100,0,100
+WIN-shallow-s4,100,100,100,100,100,100,100,0

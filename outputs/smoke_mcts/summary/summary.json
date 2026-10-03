@@ -1,0 +1,2098 @@
+{
+ "out_dir": "outputs/smoke_mcts",
+ "n_games": 24,
+ "identity_pairs": [
+  {
+   "black_identity": "LOSE",
+   "white_identity": "LOSE",
+   "black_algorithm": "vector_mcts",
+   "black_compute_level": "shallow",
+   "white_algorithm": "vector_mcts",
+   "white_compute_level": "shallow",
+   "n_games": 4,
+   "black_goal_rate": 1.0,
+   "white_goal_rate": 0.0,
+   "black_win_rate": 0.0,
+   "length_mean": 12.5,
+   "length_median": 13.0,
+   "length_q25": 6.5,
+   "length_q75": 19.0,
+   "length_min": 5.0,
+   "length_max": 19.0,
+   "n_double_pass": 4,
+   "n_move_limit": 0,
+   "pct_double_pass": 1.0,
+   "pct_move_limit": 0.0,
+   "superko_rejections": 0,
+   "mean_score_margin": -1.75
+  },
+  {
+   "black_identity": "LOSE",
+   "white_identity": "WIN",
+   "black_algorithm": "vector_mcts",
+   "black_compute_level": "shallow",
+   "white_algorithm": "vector_mcts",
+   "white_compute_level": "shallow",
+   "n_games": 8,
+   "black_goal_rate": 1.0,
+   "white_goal_rate": 1.0,
+   "black_win_rate": 0.0,
+   "length_mean": 20.25,
+   "length_median": 21.5,
+   "length_q25": 13.5,
+   "length_q75": 28.75,
+   "length_min": 5.0,
+   "length_max": 33.0,
+   "n_double_pass": 8,
+   "n_move_limit": 0,
+   "pct_double_pass": 1.0,
+   "pct_move_limit": 0.0,
+   "superko_rejections": 0,
+   "mean_score_margin": -5.0
+  },
+  {
+   "black_identity": "WIN",
+   "white_identity": "LOSE",
+   "black_algorithm": "vector_mcts",
+   "black_compute_level": "shallow",
+   "white_algorithm": "vector_mcts",
+   "white_compute_level": "shallow",
+   "n_games": 8,
+   "black_goal_rate": 1.0,
+   "white_goal_rate": 1.0,
+   "black_win_rate": 1.0,
+   "length_mean": 27.5,
+   "length_median": 27.0,
+   "length_q25": 22.75,
+   "length_q75": 35.0,
+   "length_min": 17.0,
+   "length_max": 36.0,
+   "n_double_pass": 8,
+   "n_move_limit": 0,
+   "pct_double_pass": 1.0,
+   "pct_move_limit": 0.0,
+   "superko_rejections": 0,
+   "mean_score_margin": 8.0
+  },
+  {
+   "black_identity": "WIN",
+   "white_identity": "WIN",
+   "black_algorithm": "vector_mcts",
+   "black_compute_level": "shallow",
+   "white_algorithm": "vector_mcts",
+   "white_compute_level": "shallow",
+   "n_games": 4,
+   "black_goal_rate": 0.25,
+   "white_goal_rate": 0.75,
+   "black_win_rate": 0.25,
+   "length_mean": 38.75,
+   "length_median": 38.0,
+   "length_q25": 33.0,
+   "length_q75": 43.75,
+   "length_min": 30.0,
+   "length_max": 49.0,
+   "n_double_pass": 4,
+   "n_move_limit": 0,
+   "pct_double_pass": 1.0,
+   "pct_move_limit": 0.0,
+   "superko_rejections": 6,
+   "mean_score_margin": -12.5
+  }
+ ],
+ "opening_stats": [
+  {
+   "prefix_length": 4,
+   "n_games_used": 24,
+   "unique": 24,
+   "top1_prefix": [
+    22,
+    15,
+    21,
+    20
+   ],
+   "top1_count": 1,
+   "top1_share": 0.041666666666666664,
+   "top4_share": 0.16666666666666666
+  },
+  {
+   "prefix_length": 8,
+   "n_games_used": 20,
+   "unique": 20,
+   "top1_prefix": [
+    22,
+    15,
+    21,
+    20,
+    0,
+    4,
+    12,
+    16
+   ],
+   "top1_count": 1,
+   "top1_share": 0.05,
+   "top4_share": 0.2
+  },
+  {
+   "prefix_length": 12,
+   "n_games_used": 20,
+   "unique": 20,
+   "top1_prefix": [
+    22,
+    15,
+    21,
+    20,
+    0,
+    4,
+    12,
+    16,
+    7,
+    11,
+    13,
+    18
+   ],
+   "top1_count": 1,
+   "top1_share": 0.05,
+   "top4_share": 0.2
+  }
+ ],
+ "opening_groups": [
+  {
+   "group": "global",
+   "n_games": 24,
+   "prefix_stats": [
+    {
+     "prefix_length": 4,
+     "n_games_used": 24,
+     "unique": 24,
+     "top1_prefix": [
+      22,
+      15,
+      21,
+      20
+     ],
+     "top1_count": 1,
+     "top1_share": 0.041666666666666664,
+     "top4_share": 0.16666666666666666
+    },
+    {
+     "prefix_length": 8,
+     "n_games_used": 20,
+     "unique": 20,
+     "top1_prefix": [
+      22,
+      15,
+      21,
+      20,
+      0,
+      4,
+      12,
+      16
+     ],
+     "top1_count": 1,
+     "top1_share": 0.05,
+     "top4_share": 0.2
+    },
+    {
+     "prefix_length": 12,
+     "n_games_used": 20,
+     "unique": 20,
+     "top1_prefix": [
+      22,
+      15,
+      21,
+      20,
+      0,
+      4,
+      12,
+      16,
+      7,
+      11,
+      13,
+      18
+     ],
+     "top1_count": 1,
+     "top1_share": 0.05,
+     "top4_share": 0.2
+    }
+   ],
+   "top_prefixes_len8": [
+    {
+     "prefix": [
+      22,
+      15,
+      21,
+      20,
+      0,
+      4,
+      12,
+      16
+     ],
+     "count": 1,
+     "share": 0.05
+    },
+    {
+     "prefix": [
+      10,
+      17,
+      9,
+      11,
+      13,
+      15,
+      0,
+      12
+     ],
+     "count": 1,
+     "share": 0.05
+    },
+    {
+     "prefix": [
+      20,
+      7,
+      21,
+      15,
+      18,
+      0,
+      14,
+      9
+     ],
+     "count": 1,
+     "share": 0.05
+    },
+    {
+     "prefix": [
+      13,
+      4,
+      10,
+      6,
+      22,
+      25,
+      1,
+      23
+     ],
+     "count": 1,
+     "share": 0.05
+    },
+    {
+     "prefix": [
+      18,
+      17,
+      0,
+      21,
+      8,
+      24,
+      12,
+      19
+     ],
+     "count": 1,
+     "share": 0.05
+    }
+   ]
+  },
+  {
+   "group": "WIN_vs_WIN",
+   "n_games": 4,
+   "prefix_stats": [
+    {
+     "prefix_length": 4,
+     "n_games_used": 4,
+     "unique": 4,
+     "top1_prefix": [
+      22,
+      15,
+      21,
+      20
+     ],
+     "top1_count": 1,
+     "top1_share": 0.25,
+     "top4_share": 1.0
+    },
+    {
+     "prefix_length": 8,
+     "n_games_used": 4,
+     "unique": 4,
+     "top1_prefix": [
+      22,
+      15,
+      21,
+      20,
+      0,
+      4,
+      12,
+      16
+     ],
+     "top1_count": 1,
+     "top1_share": 0.25,
+     "top4_share": 1.0
+    },
+    {
+     "prefix_length": 12,
+     "n_games_used": 4,
+     "unique": 4,
+     "top1_prefix": [
+      22,
+      15,
+      21,
+      20,
+      0,
+      4,
+      12,
+      16,
+      7,
+      11,
+      13,
+      18
+     ],
+     "top1_count": 1,
+     "top1_share": 0.25,
+     "top4_share": 1.0
+    }
+   ],
+   "top_prefixes_len8": [
+    {
+     "prefix": [
+      22,
+      15,
+      21,
+      20,
+      0,
+      4,
+      12,
+      16
+     ],
+     "count": 1,
+     "share": 0.25
+    },
+    {
+     "prefix": [
+      10,
+      17,
+      9,
+      11,
+      13,
+      15,
+      0,
+      12
+     ],
+     "count": 1,
+     "share": 0.25
+    },
+    {
+     "prefix": [
+      5,
+      19,
+      25,
+      9,
+      18,
+      4,
+      22,
+      2
+     ],
+     "count": 1,
+     "share": 0.25
+    },
+    {
+     "prefix": [
+      13,
+      11,
+      9,
+      23,
+      18,
+      17,
+      0,
+      1
+     ],
+     "count": 1,
+     "share": 0.25
+    }
+   ]
+  },
+  {
+   "group": "LOSE_vs_LOSE",
+   "n_games": 4,
+   "prefix_stats": [
+    {
+     "prefix_length": 4,
+     "n_games_used": 4,
+     "unique": 4,
+     "top1_prefix": [
+      14,
+      0,
+      3,
+      13
+     ],
+     "top1_count": 1,
+     "top1_share": 0.25,
+     "top4_share": 1.0
+    },
+    {
+     "prefix_length": 8,
+     "n_games_used": 2,
+     "unique": 2,
+     "top1_prefix": [
+      14,
+      0,
+      3,
+      13,
+      4,
+      1,
+      25,
+      20
+     ],
+     "top1_count": 1,
+     "top1_share": 0.5,
+     "top4_share": 1.0
+    },
+    {
+     "prefix_length": 12,
+     "n_games_used": 2,
+     "unique": 2,
+     "top1_prefix": [
+      14,
+      0,
+      3,
+      13,
+      4,
+      1,
+      25,
+      20,
+      5,
+      2,
+      10,
+      25
+     ],
+     "top1_count": 1,
+     "top1_share": 0.5,
+     "top4_share": 1.0
+    }
+   ],
+   "top_prefixes_len8": [
+    {
+     "prefix": [
+      14,
+      0,
+      3,
+      13,
+      4,
+      1,
+      25,
+      20
+     ],
+     "count": 1,
+     "share": 0.5
+    },
+    {
+     "prefix": [
+      14,
+      24,
+      15,
+      0,
+      2,
+      9,
+      6,
+      21
+     ],
+     "count": 1,
+     "share": 0.5
+    }
+   ]
+  },
+  {
+   "group": "WIN_vs_LOSE",
+   "n_games": 8,
+   "prefix_stats": [
+    {
+     "prefix_length": 4,
+     "n_games_used": 8,
+     "unique": 8,
+     "top1_prefix": [
+      20,
+      7,
+      21,
+      15
+     ],
+     "top1_count": 1,
+     "top1_share": 0.125,
+     "top4_share": 0.5
+    },
+    {
+     "prefix_length": 8,
+     "n_games_used": 8,
+     "unique": 8,
+     "top1_prefix": [
+      20,
+      7,
+      21,
+      15,
+      18,
+      0,
+      14,
+      9
+     ],
+     "top1_count": 1,
+     "top1_share": 0.125,
+     "top4_share": 0.5
+    },
+    {
+     "prefix_length": 12,
+     "n_games_used": 8,
+     "unique": 8,
+     "top1_prefix": [
+      20,
+      7,
+      21,
+      15,
+      18,
+      0,
+      14,
+      9,
+      17,
+      5,
+      2,
+      19
+     ],
+     "top1_count": 1,
+     "top1_share": 0.125,
+     "top4_share": 0.5
+    }
+   ],
+   "top_prefixes_len8": [
+    {
+     "prefix": [
+      20,
+      7,
+      21,
+      15,
+      18,
+      0,
+      14,
+      9
+     ],
+     "count": 1,
+     "share": 0.125
+    },
+    {
+     "prefix": [
+      13,
+      4,
+      10,
+      6,
+      22,
+      25,
+      1,
+      23
+     ],
+     "count": 1,
+     "share": 0.125
+    },
+    {
+     "prefix": [
+      18,
+      17,
+      0,
+      21,
+      8,
+      24,
+      12,
+      19
+     ],
+     "count": 1,
+     "share": 0.125
+    },
+    {
+     "prefix": [
+      16,
+      3,
+      7,
+      20,
+      0,
+      10,
+      1,
+      21
+     ],
+     "count": 1,
+     "share": 0.125
+    },
+    {
+     "prefix": [
+      15,
+      3,
+      6,
+      20,
+      0,
+      23,
+      22,
+      17
+     ],
+     "count": 1,
+     "share": 0.125
+    }
+   ]
+  },
+  {
+   "group": "LOSE_vs_WIN",
+   "n_games": 8,
+   "prefix_stats": [
+    {
+     "prefix_length": 4,
+     "n_games_used": 8,
+     "unique": 8,
+     "top1_prefix": [
+      21,
+      13,
+      6,
+      19
+     ],
+     "top1_count": 1,
+     "top1_share": 0.125,
+     "top4_share": 0.5
+    },
+    {
+     "prefix_length": 8,
+     "n_games_used": 6,
+     "unique": 6,
+     "top1_prefix": [
+      21,
+      13,
+      6,
+      19,
+      3,
+      8,
+      9,
+      15
+     ],
+     "top1_count": 1,
+     "top1_share": 0.16666666666666666,
+     "top4_share": 0.6666666666666666
+    },
+    {
+     "prefix_length": 12,
+     "n_games_used": 6,
+     "unique": 6,
+     "top1_prefix": [
+      21,
+      13,
+      6,
+      19,
+      3,
+      8,
+      9,
+      15,
+      11,
+      10,
+      24,
+      16
+     ],
+     "top1_count": 1,
+     "top1_share": 0.16666666666666666,
+     "top4_share": 0.6666666666666666
+    }
+   ],
+   "top_prefixes_len8": [
+    {
+     "prefix": [
+      21,
+      13,
+      6,
+      19,
+      3,
+      8,
+      9,
+      15
+     ],
+     "count": 1,
+     "share": 0.16666666666666666
+    },
+    {
+     "prefix": [
+      9,
+      22,
+      11,
+      12,
+      8,
+      16,
+      19,
+      1
+     ],
+     "count": 1,
+     "share": 0.16666666666666666
+    },
+    {
+     "prefix": [
+      9,
+      23,
+      4,
+      22,
+      25,
+      13,
+      1,
+      16
+     ],
+     "count": 1,
+     "share": 0.16666666666666666
+    },
+    {
+     "prefix": [
+      5,
+      12,
+      3,
+      16,
+      25,
+      1,
+      7,
+      20
+     ],
+     "count": 1,
+     "share": 0.16666666666666666
+    },
+    {
+     "prefix": [
+      22,
+      13,
+      19,
+      23,
+      0,
+      6,
+      14,
+      17
+     ],
+     "count": 1,
+     "share": 0.16666666666666666
+    }
+   ]
+  },
+  {
+   "group": "same_identity",
+   "n_games": 8,
+   "prefix_stats": [
+    {
+     "prefix_length": 4,
+     "n_games_used": 8,
+     "unique": 8,
+     "top1_prefix": [
+      22,
+      15,
+      21,
+      20
+     ],
+     "top1_count": 1,
+     "top1_share": 0.125,
+     "top4_share": 0.5
+    },
+    {
+     "prefix_length": 8,
+     "n_games_used": 6,
+     "unique": 6,
+     "top1_prefix": [
+      22,
+      15,
+      21,
+      20,
+      0,
+      4,
+      12,
+      16
+     ],
+     "top1_count": 1,
+     "top1_share": 0.16666666666666666,
+     "top4_share": 0.6666666666666666
+    },
+    {
+     "prefix_length": 12,
+     "n_games_used": 6,
+     "unique": 6,
+     "top1_prefix": [
+      22,
+      15,
+      21,
+      20,
+      0,
+      4,
+      12,
+      16,
+      7,
+      11,
+      13,
+      18
+     ],
+     "top1_count": 1,
+     "top1_share": 0.16666666666666666,
+     "top4_share": 0.6666666666666666
+    }
+   ],
+   "top_prefixes_len8": [
+    {
+     "prefix": [
+      22,
+      15,
+      21,
+      20,
+      0,
+      4,
+      12,
+      16
+     ],
+     "count": 1,
+     "share": 0.16666666666666666
+    },
+    {
+     "prefix": [
+      10,
+      17,
+      9,
+      11,
+      13,
+      15,
+      0,
+      12
+     ],
+     "count": 1,
+     "share": 0.16666666666666666
+    },
+    {
+     "prefix": [
+      5,
+      19,
+      25,
+      9,
+      18,
+      4,
+      22,
+      2
+     ],
+     "count": 1,
+     "share": 0.16666666666666666
+    },
+    {
+     "prefix": [
+      13,
+      11,
+      9,
+      23,
+      18,
+      17,
+      0,
+      1
+     ],
+     "count": 1,
+     "share": 0.16666666666666666
+    },
+    {
+     "prefix": [
+      14,
+      0,
+      3,
+      13,
+      4,
+      1,
+      25,
+      20
+     ],
+     "count": 1,
+     "share": 0.16666666666666666
+    }
+   ]
+  },
+  {
+   "group": "mixed_identity",
+   "n_games": 16,
+   "prefix_stats": [
+    {
+     "prefix_length": 4,
+     "n_games_used": 16,
+     "unique": 16,
+     "top1_prefix": [
+      20,
+      7,
+      21,
+      15
+     ],
+     "top1_count": 1,
+     "top1_share": 0.0625,
+     "top4_share": 0.25
+    },
+    {
+     "prefix_length": 8,
+     "n_games_used": 14,
+     "unique": 14,
+     "top1_prefix": [
+      20,
+      7,
+      21,
+      15,
+      18,
+      0,
+      14,
+      9
+     ],
+     "top1_count": 1,
+     "top1_share": 0.07142857142857142,
+     "top4_share": 0.2857142857142857
+    },
+    {
+     "prefix_length": 12,
+     "n_games_used": 14,
+     "unique": 14,
+     "top1_prefix": [
+      20,
+      7,
+      21,
+      15,
+      18,
+      0,
+      14,
+      9,
+      17,
+      5,
+      2,
+      19
+     ],
+     "top1_count": 1,
+     "top1_share": 0.07142857142857142,
+     "top4_share": 0.2857142857142857
+    }
+   ],
+   "top_prefixes_len8": [
+    {
+     "prefix": [
+      20,
+      7,
+      21,
+      15,
+      18,
+      0,
+      14,
+      9
+     ],
+     "count": 1,
+     "share": 0.07142857142857142
+    },
+    {
+     "prefix": [
+      13,
+      4,
+      10,
+      6,
+      22,
+      25,
+      1,
+      23
+     ],
+     "count": 1,
+     "share": 0.07142857142857142
+    },
+    {
+     "prefix": [
+      18,
+      17,
+      0,
+      21,
+      8,
+      24,
+      12,
+      19
+     ],
+     "count": 1,
+     "share": 0.07142857142857142
+    },
+    {
+     "prefix": [
+      16,
+      3,
+      7,
+      20,
+      0,
+      10,
+      1,
+      21
+     ],
+     "count": 1,
+     "share": 0.07142857142857142
+    },
+    {
+     "prefix": [
+      15,
+      3,
+      6,
+      20,
+      0,
+      23,
+      22,
+      17
+     ],
+     "count": 1,
+     "share": 0.07142857142857142
+    }
+   ]
+  },
+  {
+   "group": "pair:LOSE-shallow-s1__vs__LOSE-shallow-s2",
+   "n_games": 4,
+   "prefix_stats": [
+    {
+     "prefix_length": 4,
+     "n_games_used": 4,
+     "unique": 4,
+     "top1_prefix": [
+      14,
+      0,
+      3,
+      13
+     ],
+     "top1_count": 1,
+     "top1_share": 0.25,
+     "top4_share": 1.0
+    },
+    {
+     "prefix_length": 8,
+     "n_games_used": 2,
+     "unique": 2,
+     "top1_prefix": [
+      14,
+      0,
+      3,
+      13,
+      4,
+      1,
+      25,
+      20
+     ],
+     "top1_count": 1,
+     "top1_share": 0.5,
+     "top4_share": 1.0
+    },
+    {
+     "prefix_length": 12,
+     "n_games_used": 2,
+     "unique": 2,
+     "top1_prefix": [
+      14,
+      0,
+      3,
+      13,
+      4,
+      1,
+      25,
+      20,
+      5,
+      2,
+      10,
+      25
+     ],
+     "top1_count": 1,
+     "top1_share": 0.5,
+     "top4_share": 1.0
+    }
+   ],
+   "top_prefixes_len8": [
+    {
+     "prefix": [
+      14,
+      0,
+      3,
+      13,
+      4,
+      1,
+      25,
+      20
+     ],
+     "count": 1,
+     "share": 0.5
+    },
+    {
+     "prefix": [
+      14,
+      24,
+      15,
+      0,
+      2,
+      9,
+      6,
+      21
+     ],
+     "count": 1,
+     "share": 0.5
+    }
+   ]
+  },
+  {
+   "group": "pair:LOSE-shallow-s1__vs__WIN-shallow-s1",
+   "n_games": 4,
+   "prefix_stats": [
+    {
+     "prefix_length": 4,
+     "n_games_used": 4,
+     "unique": 4,
+     "top1_prefix": [
+      20,
+      7,
+      21,
+      15
+     ],
+     "top1_count": 1,
+     "top1_share": 0.25,
+     "top4_share": 1.0
+    },
+    {
+     "prefix_length": 8,
+     "n_games_used": 4,
+     "unique": 4,
+     "top1_prefix": [
+      20,
+      7,
+      21,
+      15,
+      18,
+      0,
+      14,
+      9
+     ],
+     "top1_count": 1,
+     "top1_share": 0.25,
+     "top4_share": 1.0
+    },
+    {
+     "prefix_length": 12,
+     "n_games_used": 4,
+     "unique": 4,
+     "top1_prefix": [
+      20,
+      7,
+      21,
+      15,
+      18,
+      0,
+      14,
+      9,
+      17,
+      5,
+      2,
+      19
+     ],
+     "top1_count": 1,
+     "top1_share": 0.25,
+     "top4_share": 1.0
+    }
+   ],
+   "top_prefixes_len8": [
+    {
+     "prefix": [
+      20,
+      7,
+      21,
+      15,
+      18,
+      0,
+      14,
+      9
+     ],
+     "count": 1,
+     "share": 0.25
+    },
+    {
+     "prefix": [
+      13,
+      4,
+      10,
+      6,
+      22,
+      25,
+      1,
+      23
+     ],
+     "count": 1,
+     "share": 0.25
+    },
+    {
+     "prefix": [
+      21,
+      13,
+      6,
+      19,
+      3,
+      8,
+      9,
+      15
+     ],
+     "count": 1,
+     "share": 0.25
+    },
+    {
+     "prefix": [
+      9,
+      22,
+      11,
+      12,
+      8,
+      16,
+      19,
+      1
+     ],
+     "count": 1,
+     "share": 0.25
+    }
+   ]
+  },
+  {
+   "group": "pair:LOSE-shallow-s1__vs__WIN-shallow-s2",
+   "n_games": 4,
+   "prefix_stats": [
+    {
+     "prefix_length": 4,
+     "n_games_used": 4,
+     "unique": 4,
+     "top1_prefix": [
+      15,
+      3,
+      6,
+      20
+     ],
+     "top1_count": 1,
+     "top1_share": 0.25,
+     "top4_share": 1.0
+    },
+    {
+     "prefix_length": 8,
+     "n_games_used": 3,
+     "unique": 3,
+     "top1_prefix": [
+      15,
+      3,
+      6,
+      20,
+      0,
+      23,
+      22,
+      17
+     ],
+     "top1_count": 1,
+     "top1_share": 0.3333333333333333,
+     "top4_share": 1.0
+    },
+    {
+     "prefix_length": 12,
+     "n_games_used": 3,
+     "unique": 3,
+     "top1_prefix": [
+      15,
+      3,
+      6,
+      20,
+      0,
+      23,
+      22,
+      17,
+      11,
+      1,
+      7,
+      12
+     ],
+     "top1_count": 1,
+     "top1_share": 0.3333333333333333,
+     "top4_share": 1.0
+    }
+   ],
+   "top_prefixes_len8": [
+    {
+     "prefix": [
+      15,
+      3,
+      6,
+      20,
+      0,
+      23,
+      22,
+      17
+     ],
+     "count": 1,
+     "share": 0.3333333333333333
+    },
+    {
+     "prefix": [
+      0,
+      22,
+      13,
+      24,
+      1,
+      3,
+      12,
+      14
+     ],
+     "count": 1,
+     "share": 0.3333333333333333
+    },
+    {
+     "prefix": [
+      9,
+      23,
+      4,
+      22,
+      25,
+      13,
+      1,
+      16
+     ],
+     "count": 1,
+     "share": 0.3333333333333333
+    }
+   ]
+  },
+  {
+   "group": "pair:LOSE-shallow-s2__vs__WIN-shallow-s1",
+   "n_games": 4,
+   "prefix_stats": [
+    {
+     "prefix_length": 4,
+     "n_games_used": 4,
+     "unique": 4,
+     "top1_prefix": [
+      18,
+      17,
+      0,
+      21
+     ],
+     "top1_count": 1,
+     "top1_share": 0.25,
+     "top4_share": 1.0
+    },
+    {
+     "prefix_length": 8,
+     "n_games_used": 4,
+     "unique": 4,
+     "top1_prefix": [
+      18,
+      17,
+      0,
+      21,
+      8,
+      24,
+      12,
+      19
+     ],
+     "top1_count": 1,
+     "top1_share": 0.25,
+     "top4_share": 1.0
+    },
+    {
+     "prefix_length": 12,
+     "n_games_used": 4,
+     "unique": 4,
+     "top1_prefix": [
+      18,
+      17,
+      0,
+      21,
+      8,
+      24,
+      12,
+      19,
+      16,
+      11,
+      22,
+      9
+     ],
+     "top1_count": 1,
+     "top1_share": 0.25,
+     "top4_share": 1.0
+    }
+   ],
+   "top_prefixes_len8": [
+    {
+     "prefix": [
+      18,
+      17,
+      0,
+      21,
+      8,
+      24,
+      12,
+      19
+     ],
+     "count": 1,
+     "share": 0.25
+    },
+    {
+     "prefix": [
+      16,
+      3,
+      7,
+      20,
+      0,
+      10,
+      1,
+      21
+     ],
+     "count": 1,
+     "share": 0.25
+    },
+    {
+     "prefix": [
+      5,
+      12,
+      3,
+      16,
+      25,
+      1,
+      7,
+      20
+     ],
+     "count": 1,
+     "share": 0.25
+    },
+    {
+     "prefix": [
+      22,
+      13,
+      19,
+      23,
+      0,
+      6,
+      14,
+      17
+     ],
+     "count": 1,
+     "share": 0.25
+    }
+   ]
+  },
+  {
+   "group": "pair:LOSE-shallow-s2__vs__WIN-shallow-s2",
+   "n_games": 4,
+   "prefix_stats": [
+    {
+     "prefix_length": 4,
+     "n_games_used": 4,
+     "unique": 4,
+     "top1_prefix": [
+      0,
+      22,
+      6,
+      5
+     ],
+     "top1_count": 1,
+     "top1_share": 0.25,
+     "top4_share": 1.0
+    },
+    {
+     "prefix_length": 8,
+     "n_games_used": 3,
+     "unique": 3,
+     "top1_prefix": [
+      0,
+      22,
+      6,
+      5,
+      18,
+      25,
+      10,
+      21
+     ],
+     "top1_count": 1,
+     "top1_share": 0.3333333333333333,
+     "top4_share": 1.0
+    },
+    {
+     "prefix_length": 12,
+     "n_games_used": 3,
+     "unique": 3,
+     "top1_prefix": [
+      0,
+      22,
+      6,
+      5,
+      18,
+      25,
+      10,
+      21,
+      5,
+      4,
+      9,
+      25
+     ],
+     "top1_count": 1,
+     "top1_share": 0.3333333333333333,
+     "top4_share": 1.0
+    }
+   ],
+   "top_prefixes_len8": [
+    {
+     "prefix": [
+      0,
+      22,
+      6,
+      5,
+      18,
+      25,
+      10,
+      21
+     ],
+     "count": 1,
+     "share": 0.3333333333333333
+    },
+    {
+     "prefix": [
+      21,
+      0,
+      11,
+      14,
+      19,
+      22,
+      17,
+      25
+     ],
+     "count": 1,
+     "share": 0.3333333333333333
+    },
+    {
+     "prefix": [
+      6,
+      2,
+      0,
+      11,
+      3,
+      15,
+      20,
+      8
+     ],
+     "count": 1,
+     "share": 0.3333333333333333
+    }
+   ]
+  },
+  {
+   "group": "pair:WIN-shallow-s1__vs__WIN-shallow-s2",
+   "n_games": 4,
+   "prefix_stats": [
+    {
+     "prefix_length": 4,
+     "n_games_used": 4,
+     "unique": 4,
+     "top1_prefix": [
+      22,
+      15,
+      21,
+      20
+     ],
+     "top1_count": 1,
+     "top1_share": 0.25,
+     "top4_share": 1.0
+    },
+    {
+     "prefix_length": 8,
+     "n_games_used": 4,
+     "unique": 4,
+     "top1_prefix": [
+      22,
+      15,
+      21,
+      20,
+      0,
+      4,
+      12,
+      16
+     ],
+     "top1_count": 1,
+     "top1_share": 0.25,
+     "top4_share": 1.0
+    },
+    {
+     "prefix_length": 12,
+     "n_games_used": 4,
+     "unique": 4,
+     "top1_prefix": [
+      22,
+      15,
+      21,
+      20,
+      0,
+      4,
+      12,
+      16,
+      7,
+      11,
+      13,
+      18
+     ],
+     "top1_count": 1,
+     "top1_share": 0.25,
+     "top4_share": 1.0
+    }
+   ],
+   "top_prefixes_len8": [
+    {
+     "prefix": [
+      22,
+      15,
+      21,
+      20,
+      0,
+      4,
+      12,
+      16
+     ],
+     "count": 1,
+     "share": 0.25
+    },
+    {
+     "prefix": [
+      10,
+      17,
+      9,
+      11,
+      13,
+      15,
+      0,
+      12
+     ],
+     "count": 1,
+     "share": 0.25
+    },
+    {
+     "prefix": [
+      5,
+      19,
+      25,
+      9,
+      18,
+      4,
+      22,
+      2
+     ],
+     "count": 1,
+     "share": 0.25
+    },
+    {
+     "prefix": [
+      13,
+      11,
+      9,
+      23,
+      18,
+      17,
+      0,
+      1
+     ],
+     "count": 1,
+     "share": 0.25
+    }
+   ]
+  }
+ ],
+ "top_prefixes": [
+  {
+   "prefix": [
+    22,
+    15,
+    21,
+    20,
+    0,
+    4,
+    12,
+    16,
+    7,
+    11,
+    13,
+    18
+   ],
+   "count": 1,
+   "share": 0.041666666666666664
+  },
+  {
+   "prefix": [
+    10,
+    17,
+    9,
+    11,
+    13,
+    15,
+    0,
+    12,
+    24,
+    20,
+    1,
+    14
+   ],
+   "count": 1,
+   "share": 0.041666666666666664
+  },
+  {
+   "prefix": [
+    20,
+    7,
+    21,
+    15,
+    18,
+    0,
+    14,
+    9,
+    17,
+    5,
+    2,
+    19
+   ],
+   "count": 1,
+   "share": 0.041666666666666664
+  },
+  {
+   "prefix": [
+    13,
+    4,
+    10,
+    6,
+    22,
+    25,
+    1,
+    23,
+    17,
+    3,
+    14,
+    25
+   ],
+   "count": 1,
+   "share": 0.041666666666666664
+  },
+  {
+   "prefix": [
+    18,
+    17,
+    0,
+    21,
+    8,
+    24,
+    12,
+    19,
+    16,
+    11,
+    22,
+    9
+   ],
+   "count": 1,
+   "share": 0.041666666666666664
+  },
+  {
+   "prefix": [
+    16,
+    3,
+    7,
+    20,
+    0,
+    10,
+    1,
+    21,
+    23,
+    13,
+    15,
+    8
+   ],
+   "count": 1,
+   "share": 0.041666666666666664
+  },
+  {
+   "prefix": [
+    5,
+    19,
+    25,
+    9,
+    18,
+    4,
+    22,
+    2,
+    14,
+    12,
+    7,
+    16
+   ],
+   "count": 1,
+   "share": 0.041666666666666664
+  },
+  {
+   "prefix": [
+    13,
+    11,
+    9,
+    23,
+    18,
+    17,
+    0,
+    1,
+    22,
+    15,
+    5,
+    7
+   ],
+   "count": 1,
+   "share": 0.041666666666666664
+  },
+  {
+   "prefix": [
+    15,
+    3,
+    6,
+    20,
+    0,
+    23,
+    22,
+    17,
+    11,
+    1,
+    7,
+    12
+   ],
+   "count": 1,
+   "share": 0.041666666666666664
+  },
+  {
+   "prefix": [
+    0,
+    22,
+    13,
+    24,
+    1,
+    3,
+    12,
+    14,
+    7,
+    4,
+    18,
+    17
+   ],
+   "count": 1,
+   "share": 0.041666666666666664
+  },
+  {
+   "prefix": [
+    0,
+    22,
+    6,
+    5,
+    18,
+    25,
+    10,
+    21,
+    5,
+    4,
+    9,
+    25
+   ],
+   "count": 1,
+   "share": 0.041666666666666664
+  },
+  {
+   "prefix": [
+    21,
+    0,
+    11,
+    14,
+    19,
+    22,
+    17,
+    25,
+    23,
+    4,
+    22,
+    16
+   ],
+   "count": 1,
+   "share": 0.041666666666666664
+  },
+  {
+   "prefix": [
+    21,
+    13,
+    6,
+    19,
+    3,
+    8,
+    9,
+    15,
+    11,
+    10,
+    24,
+    16
+   ],
+   "count": 1,
+   "share": 0.041666666666666664
+  },
+  {
+   "prefix": [
+    9,
+    22,
+    11,
+    12,
+    8,
+    16,
+    19,
+    1,
+    20,
+    14,
+    6,
+    2
+   ],
+   "count": 1,
+   "share": 0.041666666666666664
+  },
+  {
+   "prefix": [
+    9,
+    23,
+    4,
+    22,
+    25,
+    13,
+    1,
+    16,
+    3,
+    8,
+    0,
+    6
+   ],
+   "count": 1,
+   "share": 0.041666666666666664
+  },
+  {
+   "prefix": [
+    15,
+    24,
+    11,
+    8,
+    25,
+    25
+   ],
+   "count": 1,
+   "share": 0.041666666666666664
+  },
+  {
+   "prefix": [
+    14,
+    0,
+    3,
+    13,
+    4,
+    1,
+    25,
+    20,
+    5,
+    2,
+    10,
+    25
+   ],
+   "count": 1,
+   "share": 0.041666666666666664
+  },
+  {
+   "prefix": [
+    16,
+    0,
+    8,
+    22,
+    21,
+    25,
+    25
+   ],
+   "count": 1,
+   "share": 0.041666666666666664
+  },
+  {
+   "prefix": [
+    5,
+    12,
+    3,
+    16,
+    25,
+    1,
+    7,
+    20,
+    23,
+    11,
+    22,
+    18
+   ],
+   "count": 1,
+   "share": 0.041666666666666664
+  },
+  {
+   "prefix": [
+    22,
+    13,
+    19,
+    23,
+    0,
+    6,
+    14,
+    17,
+    10,
+    21,
+    15,
+    11
+   ],
+   "count": 1,
+   "share": 0.041666666666666664
+  }
+ ],
+ "n_distinct_openings": 24,
+ "length_diffs_mixed_vs_same": [
+  {
+   "algo_level_cell": [
+    "vector_mcts",
+    "shallow",
+    "vector_mcts",
+    "shallow"
+   ],
+   "mixed_length": {
+    "n": 16,
+    "mean": 23.875,
+    "sd": 9.701374473066519,
+    "min": 5.0,
+    "q25": 17.75,
+    "median": 25.5,
+    "q75": 31.5,
+    "max": 36.0,
+    "sum": 382.0
+   },
+   "same_length": {
+    "n": 8,
+    "mean": 25.625,
+    "sd": 15.87394540929075,
+    "min": 5.0,
+    "q25": 16.0,
+    "median": 24.5,
+    "q75": 36.0,
+    "max": 49.0,
+    "sum": 205.0
+   },
+   "diff_mixed_minus_same_ci95": {
+    "mean_a": 23.875,
+    "mean_b": 25.625,
+    "diff_mean": -1.75,
+    "ci95_low": -13.375,
+    "ci95_high": 9.3125,
+    "n_a": 16,
+    "n_b": 8
+   }
+  }
+ ],
+ "timing": {
+  "n_mcts_games": 24,
+  "per_move_search_ms": {
+   "n": 587,
+   "mean": 161.75536047701598,
+   "sd": 47.8699128041225,
+   "min": 0.749099999666214,
+   "q25": 132.72579999920708,
+   "median": 168.06190000170318,
+   "q75": 196.20639999993728,
+   "max": 276.4670999986265,
+   "sum": 94950.39660000839
+  },
+  "per_game_search_ms": {
+   "n": 24,
+   "mean": 3956.2665250003497,
+   "sd": 1633.8038754667052,
+   "min": 1010.7638999979827,
+   "q25": 3215.0944249997337,
+   "median": 4341.278599998077,
+   "q75": 5005.878525003482,
+   "max": 7476.219399995898,
+   "sum": 94950.39660000839
+  }
+ }
+}

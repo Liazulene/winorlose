@@ -1,0 +1,24 @@
+{
+  "checked_at": "2026-09-22T13:57:24.408300+00:00",
+  "run": "outputs/batch_B_shallow_seed1",
+  "manifest_status": "completed",
+  "planned": 2800,
+  "completed": 2800,
+  "replay_ok": 2800,
+  "strict_ascending": true,
+  "legacy": false,
+  "problems": [],
+  "code_version": "winai_loseai-0.2.0-planning",
+  "source_fingerprint": "a4d6d9e033b88f6b7eb469d49088d69cb45ceb34b3770087b8ecd3a23a890e2e",
+  "raw_game_hashes_sha256": "57d88cbd2541c8c7a38023c3cab431cfb4e6811685e5c99e6cc7a089e04af3f7",
+  "metadata_sha256": "a1f4093237b7c84d17c5334b3e38798b3117bae1121729548ebf37abccef1011",
+  "manifest_sha256": "58a1b849f0773be726597eda536b308789f661a0dd7915136e177f0d0c8cf16f",
+  "checks": [
+    "plan/seeds/pairs",
+    "full metadata equality",
+    "full replay",
+    "every-ply liberties and superko",
+    "64 simulations and max-visit choice",
+    "summary count/win/goal/mean recomputation"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-09-22T13:48:58.559910+00:00",
+  "command": "D:\\MyCondaEnvs\\models\\python.exe -m pytest -q -p no:cacheprovider",
+  "exit_code": 0,
+  "passed": 89,
+  "failed": 0,
+  "seconds": 24.42,
+  "source": {
+    "code_version": "winai_loseai-0.2.0-planning",
+    "schema_version": 1,
+    "source_fingerprint": "a4d6d9e033b88f6b7eb469d49088d69cb45ceb34b3770087b8ecd3a23a890e2e",
+    "python_version": "3.12.13"
+  },
+  "file_hashes": {
+    "scripts/planning_analysis.py": "65cb199c94fdd0d446ca09629560d8ffa9b0320ca839002a8829cb5ff89c7481",
+    "scripts/validate_run.py": "7db1dfeed46c9475064f57bb4d13ad8f12937fc55650db764e8d23fd4218a103",
+    "tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tests/_helpers.py": "649d7ec9f411afa88d35ab0bb7315bfe00b91975030261178b489de8e2f372cd",
+    "tests/test_agents.py": "e36a047bb7f03eb8b70cd078abfff0855fe008f8f34e172d95dc7bd16c005153",
+    "tests/test_concurrency.py": "818360c52ce290507c170dccf810800652cdc2b042f59327b604bbd814991f98",
+    "tests/test_identity.py": "28f20d5dec53621bfc89300fe4b1d7ea8987f0bb746593f6e5988b3acab99fdb",
+    "tests/test_planning_analysis.py": "46899b601a2ac354da6419566a51b362073e43f711f111519849a2be0a444bd9",
+    "tests/test_properties.py": "70ed5ec98e18b7f0f81ed9588c11255eb004627365d7c51caacf20c31ae0e609",
+    "tests/test_provenance.py": "509bc2c8f2622b538011fe4e05ed1987ff323af9c3539bdc2287819831393100",
+    "tests/test_replay.py": "93e2b25cb4ef6ab2b1150b2efb31e6360a2395ef4a5e42fa6df656cabd81c740",
+    "tests/test_resume.py": "fedf3e43f9f1b68350de04253b5c7370795db9b070c131f2709926c97f16252d",
+    "tests/test_rules.py": "053e5670426654e7e22c34874c5377244a742b5926f2e771ec4fbcd61328ec2d",
+    "tests/test_storage_policy.py": "eb18aedff1ac1d3290b37d682caf1159f92e521a6251963f0fd7fc4ca317e0d2",
+    "tests/test_summary.py": "581f2fd97b8b37d7ed6c60695383412e22bb13aa6f1cb8d9ed4ecfe867ced268"
+  }
+}

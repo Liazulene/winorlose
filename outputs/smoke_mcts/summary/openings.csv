@@ -1,0 +1,4 @@
+prefix_length,n_games_used,unique_prefixes,top1_share,top4_share
+4,24,24,0.041666666666666664,0.16666666666666666
+8,20,20,0.05,0.2
+12,20,20,0.05,0.2

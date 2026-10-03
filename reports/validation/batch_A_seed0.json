@@ -1,0 +1,24 @@
+{
+  "checked_at": "2026-09-22T12:39:56.512489+00:00",
+  "run": "outputs/batch_A_seed0",
+  "manifest_status": "completed",
+  "planned": 10000,
+  "completed": 10000,
+  "replay_ok": 10000,
+  "strict_ascending": false,
+  "legacy": true,
+  "problems": [],
+  "code_version": "winai_loseai-0.1.0",
+  "source_fingerprint": null,
+  "raw_game_hashes_sha256": "e5165ca2b71d69f6b94bbbba344c7833c09668c1f84c8f4cbb4d360d8e36610d",
+  "metadata_sha256": "c445a2afaffceeb4b4e28878e9334139847625a55230d22b64a1d647fe90e8de",
+  "manifest_sha256": "926ba79b8bac5d2f42cc45fe66d76774255e3a8f82e62c14866552bd2ee51380",
+  "checks": [
+    "plan/seeds/pairs",
+    "full metadata equality",
+    "full replay",
+    "every-ply liberties and superko",
+    "64 simulations and max-visit choice",
+    "summary count/win/goal/mean recomputation"
+  ]
+}

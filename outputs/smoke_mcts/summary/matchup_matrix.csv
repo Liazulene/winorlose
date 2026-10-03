@@ -1,0 +1,5 @@
+row_agent\col_agent,LOSE-shallow-s1,LOSE-shallow-s2,WIN-shallow-s1,WIN-shallow-s2
+LOSE-shallow-s1,,0.5000,1.0000,1.0000
+LOSE-shallow-s2,0.5000,,1.0000,1.0000
+WIN-shallow-s1,1.0000,1.0000,,0.2500
+WIN-shallow-s2,1.0000,1.0000,0.7500,

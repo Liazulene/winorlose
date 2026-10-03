@@ -1,0 +1,26 @@
+{
+ "batch_id": "smoke_random",
+ "code_version": "winai_loseai-0.1.0",
+ "batch_seed": 0,
+ "concurrency": 1,
+ "n_games": 100,
+ "generated_by": "winai_loseai.cli",
+ "agents": [
+  {
+   "agent_id": "RAND-WIN",
+   "identity": "WIN",
+   "algorithm": "random",
+   "compute_level": "none",
+   "seed": 0
+  },
+  {
+   "agent_id": "RAND-LOSE",
+   "identity": "LOSE",
+   "algorithm": "random",
+   "compute_level": "none",
+   "seed": 0
+  }
+ ],
+ "game_count": 100,
+ "schema_version": 1
+}
