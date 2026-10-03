@@ -83,7 +83,7 @@ src/winai_loseai/
   league/replay.py                    independent replay validation
   analysis/…                          CSV/JSON batch summaries + statistics
 tests/                                unit, property, replay, summary tests
-outputs/                              generated data (not committed)
+outputs/                              historical handoff data (new runs ignored by default)
 ```
 
 The game/search runtime uses only the Python standard library. The independent
@@ -124,6 +124,13 @@ stats: chosen action, legal count, root visits, per-action visit counts and
 `Q_black` / `Q_white`, simulations used, search ms).
 
 ## Output-directory overwrite policy
+
+The repository's initial handoff snapshot includes the completed historical
+outputs so a new researcher can reproduce the published analysis without a
+separate data transfer.  New files under `outputs/` are ignored by Git by
+default to avoid accidentally growing repository history; deliberately
+archiving a new formal run therefore requires an explicit `git add -f` or a
+separate data-release decision.
 
 An output directory that already holds experiment data is **refused** by
 default (`OutputDirExists`) — stale `games/*.json` can no longer pollute a new
