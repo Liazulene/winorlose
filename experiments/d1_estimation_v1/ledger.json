@@ -1,0 +1,13 @@
+{
+  "experiment_id": "D1-G0-estimation-v1",
+  "state": "pre_execution_review",
+  "formal_games_started": false,
+  "planned_games": 720,
+  "parent_commit": "f315cfa9cfba8b2b69b456c8d730012cf98f5e2f",
+  "branch": "experiment/d1-estimation-v1",
+  "registered_concurrency": 1,
+  "remote_checkpoint_games": 24,
+  "7x7_decision": "NO-GO",
+  "pilot_excluded": true,
+  "reason": "Follow measured D1cost recommendation: fixed720 balances estimation information against overnight compute and connector overhead; no outcome-dependent expansion."
+}

@@ -5,7 +5,7 @@ import json
 from pathlib import Path
 import random
 import pytest
-from winai_loseai.experiments import d1
+from winai_loseai.experiments import d1_estimation as d1
 from winai_loseai.league.runstore import ConfigMismatch, MetadataCorrupt
 from winai_loseai.spec import AgentSpec, simulations_for
 from winai_loseai.identity import Identity
@@ -14,7 +14,7 @@ from winai_loseai.game.state import GoState
 from winai_loseai.league.storage import _metadata_line
 
 @pytest.fixture(autouse=True)
-def legacy_runner_test_protocol(tmp_path,monkeypatch):
+def current_runner_test_protocol(tmp_path,monkeypatch):
     """Test fresh legacy-runner fixtures, never relabel saved cost evidence."""
     from winai_loseai import CODE_VERSION
     p=json.loads(d1.PROTOCOL.read_text());p['code_version']=CODE_VERSION
@@ -24,7 +24,7 @@ def legacy_runner_test_protocol(tmp_path,monkeypatch):
 
 @pytest.fixture
 def small(tmp_path,monkeypatch):
-    p=json.loads(d1.PROTOCOL.read_text());p.update(budgets=[1,3],batch_seeds=[2],planned_games=16);p['resource_policy']['concurrency']=2
+    p=json.loads(d1.PROTOCOL.read_text());p.update(budgets=[1,3],batch_seeds=[5],games_per_cell=1,planned_games=16);p['resource_policy']['concurrency']=2
     path=tmp_path/'protocol.json';path.write_text(json.dumps(p))
     monkeypatch.setattr(d1,'PROTOCOL',path)
     monkeypatch.setattr(d1,'PREREGISTRATION_SHA256',d1.sha256(path))
@@ -41,15 +41,15 @@ def test_invalid_budget(level):
 
 def test_registered_plan():
     p=d1.protocol();jj=d1.jobs();cc=d1.cells()
-    assert len(jj)==len(cc)==72
-    assert len({j['game_seed'] for j in jj})==24
+    assert len(jj)==len(cc)==720
+    assert len({j['game_seed'] for j in jj})==240
     blocks={}
     for j,c in zip(jj,cc):
         assert j['black'].simulations()==j['white'].simulations()==c['budget']
         blocks.setdefault(c['block_id'],[]).append(j)
-    assert len(blocks)==24
+    assert len(blocks)==240
     assert all(len({j['game_seed'] for j in b})==1 and len(b)==3 for b in blocks.values())
-    assert p['planned_games']==72
+    assert p['planned_games']==720
 
 @pytest.mark.parametrize('named,explicit',[('shallow','sims:64'),('medium','sims:256'),('deep','sims:1024')])
 def test_named_and_explicit_have_identical_search(named,explicit):
@@ -127,7 +127,7 @@ def test_prereg_tamper(small):
     d1.PROTOCOL.write_text(d1.PROTOCOL.read_text()+' ')
     with pytest.raises(ConfigMismatch):d1.protocol()
 
-@pytest.mark.parametrize('name',['batch_A_seed0','batch_B_shallow_seed0','batch_B_shallow_seed1','d0_g0_v1_seed0'])
+@pytest.mark.parametrize('name',['batch_A_seed0','batch_B_shallow_seed0','batch_B_shallow_seed1','d0_g0_v1_seed0','d1_g0_cost_v1'])
 def test_historical_output_refused(tmp_path,name):
     with pytest.raises(ValueError):d1.run(tmp_path/name)
 
@@ -194,3 +194,52 @@ def test_stale_manifest_prefix_is_recoverable(tmp_path,small):
 
 def test_formal_concurrency_is_one(tmp_path):
     with pytest.raises(ValueError):d1.run(tmp_path/'unused',concurrency=2)
+
+
+def test_second_writer_refused_without_mutation(tmp_path,small):
+    out=partial(tmp_path)
+    before={p.relative_to(out):p.read_bytes() for p in out.rglob('*') if p.is_file()}
+    with d1.exclusive_output_lock(out):
+        with pytest.raises(ConfigMismatch,match='another writer'):
+            d1.run(out,resume=True)
+    assert before=={p.relative_to(out):p.read_bytes() for p in out.rglob('*') if p.is_file()}
+    assert not d1.run(out,resume=True)['problems']
+
+@pytest.mark.parametrize('name',['winorlose','winorlose_d0_v1','winorlose_d1_v1'])
+def test_sibling_immutable_tree_refused(name):
+    with pytest.raises(ValueError,match='immutable'):
+        d1.assert_output_allowed(d1.ROOT.parent/name/'outputs'/'new_name')
+
+
+def test_legacy_cost_protocol_refuses_new_runtime():
+    # Original files and hashes are preserved; only its original worktree can
+    # validate or resume historical outputs under the original source version.
+    from winai_loseai.experiments import d1 as legacy
+    with pytest.raises(ConfigMismatch,match='protocol/version'):
+        legacy.protocol()
+
+
+@pytest.mark.parametrize('damage',['bool_utility','string_score','alias_key','bool_key','duplicate_key','map_list'])
+def test_extended_record_schema(tmp_path,small,damage):
+    job=d1.jobs()[0];r=d1.play_one(job)
+    if damage=='bool_utility':r['black_utility']=True
+    elif damage=='string_score':r['black_score']=str(r['black_score'])
+    else:
+        m=r['moves'][0]['action_visit_counts'];a=next(iter(m))
+        if damage=='alias_key':m['0'+str(a)]=m.pop(a)
+        if damage=='bool_key':m[True]=m.pop(a)
+        if damage=='duplicate_key':m[str(a)]=m[a]
+        if damage=='map_list':r['moves'][0]['action_visit_counts']=list(m.items())
+    assert d1.record_problems(r,job)
+
+
+def test_partial_validator_rejects_agreeing_hole(tmp_path,small):
+    out=partial(tmp_path);paths=sorted((out/'games').glob('*.json'));paths[1].unlink()
+    p=out/'games.jsonl';rows=p.read_text().splitlines();p.write_text(rows[0]+'\n'+rows[2]+'\n')
+    p=out/'manifest.json';r=json.loads(p.read_text());r['completed_indexes']=[0,2];r['completed_game_count']=2;p.write_text(json.dumps(r))
+    assert any('contiguous' in x for x in d1.validate(out,False)['problems'])
+
+
+def test_partial_validator_rejects_extra_artifact(tmp_path,small):
+    out=partial(tmp_path);(out/'games'/'unregistered.txt').write_text('extra')
+    assert any('unexpected' in x for x in d1.validate(out,False)['problems'])

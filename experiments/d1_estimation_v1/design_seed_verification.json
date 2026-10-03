@@ -1,0 +1,43 @@
+{
+  "experiment_id": "D1-G0-estimation-v1",
+  "planned_games": 720,
+  "paired_blocks": 240,
+  "distinct_game_seeds": 240,
+  "distinct_colour_agent_keys": 480,
+  "key_inventory_sha256": "bd2f22b5044334f4261d0f9882fedf2dc961dd5f76f3bd78bf11194a31a1cc81",
+  "comparisons": {
+    "batch_A_seed0": {
+      "registered_records": 10000,
+      "distinct_game_seeds": 10000,
+      "overlap": [],
+      "derived_stream_overlap": [],
+      "distinct_old_streams": 20000,
+      "seed_file_sha256": "f54a19fa431c9e9472e27ca23f5aff9ca6015b5690b8b4a6e19bd7eec315d1c8"
+    },
+    "batch_B_shallow_seed0": {
+      "registered_records": 2800,
+      "distinct_game_seeds": 2800,
+      "overlap": [],
+      "derived_stream_overlap": [],
+      "distinct_old_streams": 5600,
+      "seed_file_sha256": "b2889c18befd2356e5273b4b4c8cee27efd0fc6af81e722b1d3b22a786836100"
+    },
+    "batch_B_shallow_seed1": {
+      "registered_records": 2800,
+      "distinct_game_seeds": 2800,
+      "overlap": [],
+      "derived_stream_overlap": [],
+      "distinct_old_streams": 5600,
+      "seed_file_sha256": "629146a97aeb206cec67b6979b9e7fb8ffd32cfde261d5e64cc959fc5e02d73d"
+    },
+    "d1_g0_cost_v1": {
+      "registered_records": 72,
+      "distinct_game_seeds": 24,
+      "overlap": [],
+      "derived_stream_overlap": [],
+      "distinct_old_streams": 48,
+      "seed_file_sha256": "757d98971572b26f01dc9501db5835ee446b9a765d9abb82df149048935740e1"
+    }
+  },
+  "problems": []
+}

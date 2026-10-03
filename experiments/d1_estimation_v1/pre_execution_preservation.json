@@ -1,0 +1,26 @@
+{
+  "checked_utc": "2026-10-03T13:20:37.934375+00:00",
+  "problems": [],
+  "trees": {
+    "winorlose": {
+      "files": 15868,
+      "changed": []
+    },
+    "winorlose_d0_v1": {
+      "files": 15929,
+      "changed": []
+    },
+    "winorlose_d1_v1": {
+      "files": 16019,
+      "changed": []
+    },
+    "inherited_d1_files": {
+      "files": 16017,
+      "allowed_version_and_legacy_test_fixture_changes": [
+        "src/winai_loseai/__init__.py",
+        "tests/test_d1.py"
+      ],
+      "changed": []
+    }
+  }
+}

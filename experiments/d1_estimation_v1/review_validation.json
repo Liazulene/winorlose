@@ -1,0 +1,166 @@
+{
+  "review_id": "D1-estimation-independent-pre-execution-validation-v1",
+  "reviewed_utc": "2026-10-03T13:22:29.087340+00:00",
+  "verdict": "PASS for the reviewed frozen source and fixed 720-game design; no unresolved audit blocker",
+  "formal_games_started_by_reviewer": 0,
+  "formal_output_directory_exists_at_review": false,
+  "experiment_lock": {
+    "experiment_id": "D1-G0-estimation-v1",
+    "code_version": "winai_loseai-0.5.0-d1-estimation",
+    "schema_version": 1,
+    "source_fingerprint": "250cf8c98783f9028b004fdff1367a416dfde198f8e6b4bbff7a858ea0886c0a",
+    "python_version": "3.12.14",
+    "preregistration_sha256": "4eb8abc6b7faa538a3380036210023dcbe561494711d4284997a5b0287263b84",
+    "entry_point_sha256": "648a10a1f8306301c21c6443a7d51f5122917f4e8aa406d3c3c57fea78873fdd",
+    "measurement_script_sha256": "68e7a02f1bbf795b4913f8aa726c59dbd4a6fa0897c6b537f74061baee2f758a",
+    "scipy_version": "1.17.0",
+    "numpy_version": "2.3.5"
+  },
+  "reviewed_file_sha256": {
+    "experiments/d1_estimation_v1/preregistration.json": "4eb8abc6b7faa538a3380036210023dcbe561494711d4284997a5b0287263b84",
+    "src/winai_loseai/experiments/d1_estimation.py": "3c81dae2d3c03754e9dc84cfd1c432628b16212f1b3ebd44f6f232d7be071e9b",
+    "src/winai_loseai/experiments/d1_estimation_stats.py": "18881afa7df0068e0883a609285087a58e749ffa98b7484a18635448a74bbe69",
+    "scripts/run_d1_estimation.py": "648a10a1f8306301c21c6443a7d51f5122917f4e8aa406d3c3c57fea78873fdd",
+    "scripts/measure_d1_estimation_chunk.py": "68e7a02f1bbf795b4913f8aa726c59dbd4a6fa0897c6b537f74061baee2f758a",
+    "scripts/verify_d1_estimation_reproduction.py": "f507a08be702e26e5eb225eff640968fb55436dfaa5d684f852b2a3f3ebecbaa",
+    "scripts/verify_d1_estimation_design.py": "e33b84f2ddf67a7bcecb8de3273aa083cc81284ff9ebbb234d569413f88f3ba0",
+    "tests/test_d1_estimation.py": "91082943ca9cb8a5e535d1a2e05158684ac90a5468b7b7c8077acbb060c799fc",
+    "tests/test_d1_estimation_stats.py": "726195263e7f29ebe7244522daba18ce4f7a3e1f0df6a16f39b72c3f3f0d8343"
+  },
+  "independent_test_run": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 ../winorlose_audit_venv/bin/python -m pytest -q -p no:cacheprovider tests/test_d1_estimation.py tests/test_d1_estimation_stats.py",
+    "passed": 137,
+    "failed": 0,
+    "elapsed_seconds": 53.73,
+    "formal_games": 0,
+    "scope": "Reduced test protocols, temporary output directories, boundary/numerical and synthetic statistical cases. Parent aggregate suite is separate."
+  },
+  "design_seed_audit": {
+    "planned_games": 720,
+    "paired_blocks": 240,
+    "games_per_block_counts": {
+      "3": 240
+    },
+    "distinct_game_seeds": 240,
+    "distinct_derived_colour_agent_stream_seeds": 480,
+    "derived_stream_inventory_sha256": "f43889615ad6861d99c8ce7567592eb58b8811af8a892cdf5f19327e35196185",
+    "historical_comparisons": {
+      "batch_A_seed0": {
+        "plan_sha256": "3dc55cad6183968fa47106a007f2461c6e7d6a9f9a815d76c52eaae9c63531c7",
+        "planned_records": 10000,
+        "distinct_game_seeds": 10000,
+        "distinct_derived_stream_seeds": 20000,
+        "derived_stream_inventory_sha256": "02d663ddb020d681b030a410a498beaf7adf0a4aa3eaa364ac9191ed01cae339",
+        "game_seed_overlap_count": 0,
+        "derived_stream_seed_overlap_count": 0
+      },
+      "batch_B_shallow_seed0": {
+        "plan_sha256": "6229df15912ac5a38df60074250febf230dff0648c8c0594e392af3fd6656f93",
+        "planned_records": 2800,
+        "distinct_game_seeds": 2800,
+        "distinct_derived_stream_seeds": 5600,
+        "derived_stream_inventory_sha256": "b4689938be15099e95e8342081448a8554a17264117b54a2f6b2e3e612fe569d",
+        "game_seed_overlap_count": 0,
+        "derived_stream_seed_overlap_count": 0
+      },
+      "batch_B_shallow_seed1": {
+        "plan_sha256": "b1fef5f62d6c8d77f349ac91198cc7abd6f46fb43725800b19f2dc18a82603e5",
+        "planned_records": 2800,
+        "distinct_game_seeds": 2800,
+        "distinct_derived_stream_seeds": 5600,
+        "derived_stream_inventory_sha256": "d3f5a038379368f410db8c371763a699b77122f92f88a31aef84b642d75cdf78",
+        "game_seed_overlap_count": 0,
+        "derived_stream_seed_overlap_count": 0
+      },
+      "d1_g0_cost_v1": {
+        "plan_sha256": "4483b56523ad15de73e7d588255ead6aeca33d2e271920ab810158ecb8fc909c",
+        "planned_records": 72,
+        "distinct_game_seeds": 24,
+        "distinct_derived_stream_seeds": 48,
+        "derived_stream_inventory_sha256": "f340bea5b0212657d4280eacedfac748546247b9796aa31ac725945df3390cf2",
+        "game_seed_overlap_count": 0,
+        "derived_stream_seed_overlap_count": 0
+      }
+    },
+    "result": "All 240 matched blocks contain three budgets with identical within-block game seed; 480 derived colour/agent stream seeds are distinct and have no overlap with all historical or cost-pilot plans."
+  },
+  "historical_preservation": {
+    "checked_file_count": 15894,
+    "sha256_inventory": "ff7b9d48818b91d52b69947ead58b5f15765a52f517d2115326081177ce82b39",
+    "mismatches": [],
+    "elapsed_seconds": 1.291
+  },
+  "engine_semantics": {
+    "comparison_root": "immutable D1 cost worktree",
+    "existing_package_files_changed": [
+      "src/winai_loseai/__init__.py"
+    ],
+    "result": "Existing game engine, MCTS, RNG derivation, replay and persistence sources remain byte-identical to the cost pilot; version bump and new estimation modules are separate."
+  },
+  "independent_process_lock_checks": {
+    "platform": "Linux",
+    "separate_process_second_writer_rejected": true,
+    "rejection_created_no_evidence_directory": true,
+    "holder_SIGKILL_releases_lock": true,
+    "distinct_outputs_can_lock_independently": true,
+    "result": "Retained external lock inode and canonical output path protect same-directory single-writer execution."
+  },
+  "independent_destination_checks": {
+    "measurement_existing_stdout_refused_without_overwrite": true,
+    "measurement_immutable_sibling_destination_refused": true,
+    "reproduction_existing_destination_refused_without_overwrite": true,
+    "game_execution_stubbed_out": true
+  },
+  "statistics_verification": {
+    "source": "https://arxiv.org/pdf/1403.0229",
+    "source_location": "Theorem 1.12, arXiv v3, page 5",
+    "theorem_claim_verified": true,
+    "claim": "Equal-tail two-sided Clopper-Pearson at confidence at least 0.5 is valid for the average of independent nonidentical Bernoulli probabilities.",
+    "paired_projection": "Two 97.5% two-sided intervals for average positive/negative discordance probabilities give at least 95% simultaneous coverage by the union bound; projecting their rectangle by subtraction covers the average paired difference. Within-pair dependence is allowed.",
+    "all_concordant_n60_ci95": [
+      -0.0704305687985048,
+      0.0704305687985048
+    ],
+    "independent_numerical_reference": "Pure-standard-library binomial-tail inversion by bisection, without SciPy quantile calls in the reference",
+    "numerical_cases": 392,
+    "numerical_n_values": [
+      1,
+      2,
+      10,
+      20,
+      60
+    ],
+    "numerical_confidence_values": [
+      0.5,
+      0.95,
+      0.975,
+      0.9958333333333333
+    ],
+    "maximum_absolute_endpoint_error": 1.4432899320127035e-15,
+    "simultaneous_family": "Six pooled primary contrasts use alpha/6 per projected interval and 1-alpha/12 component confidence; secondary 1024-256 and per-seed intervals are labelled marginal.",
+    "additional_checks": "All-concordant zero and one arrays retain nonzero width; typed cache rejects warmed boolean/float integer inputs; complete balanced cells and matching block/game-seed identities are required."
+  },
+  "resolved_findings": [
+    "Added exclusive writer lock around output preflight and persistence.",
+    "Denied immutable sibling worktrees and protected historical output names.",
+    "Partial validator rejects agreeing holes and unexpected game artifacts.",
+    "Record schema rejects boolean utilities, string scores, aliased/duplicate/noncanonical action keys and malformed maps.",
+    "Analysis rows carry original game seed; invalid-record validation returns problems without invoking unsafe analysis.",
+    "Measurement attempts and reproduction evidence refuse overwrite and protected destinations.",
+    "Locked NumPy and SciPy versions with source, Python, protocol and entry-point hashes.",
+    "Added preregistered secondary contrast and descriptive mixed/same length sensitivity.",
+    "Fixed cached CP input-validation bypass using typed caching."
+  ],
+  "unresolved_blockers": [],
+  "execution_preconditions": [
+    "Retain the reviewed frozen source/protocol/runtime without edits during formal execution.",
+    "Parent verifies aggregate test suite, preservation checks and preregistration backup before first formal game.",
+    "Use one game worker, per-game persistence and prescribed fixed checkpoints; report incomplete on safety stop rather than replacing seeds or extending outcome-selected cells."
+  ],
+  "limitations": [
+    "Operating-system lock was executed on Linux only; Windows branch was reviewed but not run. It is advisory for cooperating processes on this host, not a distributed lock.",
+    "Replay uses the same game engine as generation; it verifies consistency rather than furnishing an independent rules implementation.",
+    "Statistical coverage concerns hypothetical independent stream replications under the stated simulation model; fixed deterministic seed outcomes have no literal sampling uncertainty and do not establish a population-of-agent-seeds claim.",
+    "The reviewer started no formal game and draws no outcome conclusions."
+  ]
+}
