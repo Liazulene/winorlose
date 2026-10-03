@@ -4,6 +4,7 @@ import hashlib
 import json
 from pathlib import Path
 import sys
+from datetime import datetime
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'src'))
 from winai_loseai.experiments.d1 import analyze,atomic_json,distribution,protocol
 
@@ -29,6 +30,7 @@ def main():
     total=sum(c['wall_seconds'] for c in chunks)
     costs={'experiment_id':p['experiment_id'],'complete':a['n_records']==p['planned_games'],
         'by_budget':by_budget,'total_measured_wall_seconds':total,'total_cpu_seconds':sum(c['cpu_user_seconds']+c['cpu_system_seconds'] for c in chunks),
+        'formal_elapsed_seconds_including_sync_and_gaps':(datetime.fromisoformat(chunks[-1]['ended_utc'])-datetime.fromisoformat(chunks[0]['started_utc'])).total_seconds(),
         'formal_output_bytes':sum(f.stat().st_size for f in out.rglob('*') if f.is_file()),
         'chunks':chunks,'projection_1800_base_seconds':total*25,'projection_1800_plus50pct_seconds':total*25*1.5,
         'projection_scope':'Linear25x72 measured child runtime, including imports/resume/replay/analysis overhead of12 chunks. ExtraGitHub sync, final audit/reproduction, host drift and uncertain rare tails are not included.50%is planning allowance,not statistical confidence.',

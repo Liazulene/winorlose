@@ -1,0 +1,9 @@
+[
+  {
+    "time_utc": "2026-10-03T12:14:02.080534+00:00",
+    "checkpoint_games": 54,
+    "type": "client_output_accumulation_false_negative",
+    "detail": "Remote commit/ref update and local fetch/tree equality succeeded. The orchestration helper checked only the final empty poll output instead of accumulated output, reporting remote SHA missing. Independent git HEAD and ls-remote verification confirmed b890271b2328a3715bc84b055d1316937cd4ed1a. No write/commit was retried; accumulated-output check corrected. No game rerun or record loss.",
+    "experiment_runtime_failure": false
+  }
+]
