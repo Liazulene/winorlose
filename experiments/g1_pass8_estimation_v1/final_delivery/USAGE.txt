@@ -1,0 +1,79 @@
+M5 fixed480 final verification harness
+
+Preparation artifacts only. Do not invoke the formal command until the parent
+explicitly declares the completed480 dataset and its480 checkpoint backup ready.
+This preparation ran synthetic tests only, with no production game generation,
+real deterministic regeneration, formal-data inference, or legacy-script run.
+
+Synthetic tests (no production imports or games):
+  /workspace/scratch/50e0c7c6aca1/winorlose_audit_venv/bin/python -B experiments/g1_pass8_estimation_v1/final_delivery/test_final_verification.py
+
+Formal command, once explicitly released (from the M5 repository root):
+  /workspace/scratch/50e0c7c6aca1/winorlose_audit_venv/bin/python -B experiments/g1_pass8_estimation_v1/final_delivery/run_final_validation.py --root . --destination experiments/g1_pass8_estimation_v1/final_delivery/run480_v1 --data-ready
+
+Choose a distinct new destination name for EVERY invocation. The final_delivery
+container is created by installing this package. Its run480_v1 child must not
+already exist, even if empty. Symlinked paths and destinations outside the direct
+final_delivery children are rejected. No overwrite, repair, resume, sample
+replacement, production-run CLI, or production-output write is supported.
+
+Before imports/reproduction the harness requires:
+- Explicit --data-ready and completed manifest/validation at exactly480.
+- Exactly480 physical canonical game files and exact saved SHA256 inventory;
+  exactly480 canonical metadata IDs/indexes; no rule fault or temporary artifact.
+- Pinned pre-execution lock/source/protocol/helper evidence; frozen runtime,
+  entry/measurement scripts and tests; normalized AND raw prelaunch source bytes.
+- Exactly20 complete measured child attempts, all cost/stdout/stderr artifacts,
+  and21 verified checkpoint records covering0,24,...,480. Gaps, failed attempts,
+  extra attempts or incomplete attempt evidence fail closed rather than being
+  dropped from cost totals. If a safe compute retry occurs, reconcile ALL attempt
+  costs explicitly in a separately reviewed accounting revision before launch.
+- Local checkpoint commit/tree and committed raw-prefix bytes matching final raw
+  files. Remote fetch/tree verification is quoted from recorded checkpoint proofs;
+  this harness does not claim a fresh network fetch.
+
+Execution order:
+1. Preserve one compact validation-input hash/size map and cost/checkpoint proof.
+2. Save design-only selections: lowest game_index for each rule0/8 by seed11/12/13.
+3. Rewalk all five old-worktree inventories and M5 inherited protected history.
+4. Import verified .py sources directly, bypassing stale .pyc caches; reject
+   preloaded production modules. Run strict validate(require_complete=True,
+   check_analysis=True) and compare its full result to saved final validation.
+5. Call frozen play_one six times serially. Write results only to the distinct
+   evidence destination. Preserve every record value/type except exactly
+   game_wall_ms and moves[*].search_time_ms; JSON map-key representation is
+   normalized, but provenance/rules/runtime and all gameplay/search values stay.
+   These six are verification copies; sample_increment=0 and formal sampleN=480.
+6. Rewalk historical protection and rehash validation inputs, including failure
+   paths. Save compact after-state digests/deltas, not duplicate multi-MB maps.
+7. Write final_validation_summary.json. Any failure produces passed=false and a
+   nonzero exit. A failed reproduction is not retried or replaced automatically.
+
+Input/output protection:
+- Python audit hooks prohibit input writes and non-read-only subprocesses; only
+  exclusive new evidence files and directories are allowed in the new target.
+- This is supplementary protection for Python APIs, not an OS sandbox or proof
+  against concurrent external writers. Hash/file-set checks establish current
+  byte preservation, not absence of earlier transient writes.
+- Validation snapshots cover all formal output, package source, tests, scripts,
+  and M5 experiment evidence, excluding bytecode plus final_delivery/final_audit
+  artifacts so separately run final tests/audits can write their own new outputs.
+- Historical old-worktree HEADs and all tracked bytes/file sets remain frozen.
+  M5 HEAD naturally advances; only its inherited protected history is compared
+  to M4. Existing segmented/external inventories are read through pinned loaders.
+
+Cost interpretation:
+- child_wall_seconds sums20 isolated production children; CPU user/system are
+  summed separately; peakRSS is the maximum of20 process peaks, never a sum.
+- The final chunk includes its import/resume/validation/final-analysis overhead.
+- Checkpoint calendar intervals include sync, external validation, waiting and
+  other overhead. Calendar minus childwall is not measured sync duration.
+- The recorded sync_incidents are included; network-only retries add no games or
+  inferred compute attempts. Any actual child retry must be accounted separately.
+- Harness and six regeneration times are additional validation cost and are not
+  added to the fixed480 production-child cost.
+
+Separate completion evidence remains required: final main test suite,
+independent final arithmetic/rules audit, and final delivery publication/remote
+verification. The harness never runs those main tests or advances the research
+phase. It makes no7x7, training, equivalence, or rare-failure-certification claim.

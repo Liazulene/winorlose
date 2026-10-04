@@ -1,0 +1,48 @@
+test_does_not_modify_records (__main__.ComparisonTests.test_does_not_modify_records) ... ok
+test_duplicate_json_rejected (__main__.ComparisonTests.test_duplicate_json_rejected) ... ok
+test_json_int_action_key_representation_only (__main__.ComparisonTests.test_json_int_action_key_representation_only) ... ok
+test_missing_timing_rejected (__main__.ComparisonTests.test_missing_timing_rejected) ... ok
+test_nonfinite_json_rejected (__main__.ComparisonTests.test_nonfinite_json_rejected) ... ok
+test_only_two_timing_paths_excluded (__main__.ComparisonTests.test_only_two_timing_paths_excluded) ... ok
+test_source_and_seed_retained (__main__.ComparisonTests.test_source_and_seed_retained) ... ok
+test_strict_type_equality (__main__.ComparisonTests.test_strict_type_equality) ... ok
+test_checkpoint_sequence_and_verification (__main__.CostTests.test_checkpoint_sequence_and_verification) ... ok
+test_compute_before_sync_rejected (__main__.CostTests.test_compute_before_sync_rejected) ... ok
+test_fault_or_gap_rejected (__main__.CostTests.test_fault_or_gap_rejected) ... ok
+test_final_child_must_complete (__main__.CostTests.test_final_child_must_complete) ... ok
+test_partial_and_extra_counts (__main__.CostTests.test_partial_and_extra_counts) ... ok
+test_timing_scopes_and_peak_not_sum (__main__.CostTests.test_timing_scopes_and_peak_not_sum) ... ok
+test_complete_accepted (__main__.GuardTests.test_complete_accepted) ... ok
+test_count_type_and_bounds (__main__.GuardTests.test_count_type_and_bounds) ... ok
+test_import_does_not_load_production (__main__.GuardTests.test_import_does_not_load_production) ... ok
+test_incomplete_states_rejected (__main__.GuardTests.test_incomplete_states_rejected) ... ok
+test_main_rejects_before_read_without_declaration (__main__.GuardTests.test_main_rejects_before_read_without_declaration) ... ok
+test_manifest_index_corruption (__main__.GuardTests.test_manifest_index_corruption) ... ok
+test_owner_declaration_required (__main__.GuardTests.test_owner_declaration_required) ... ok
+test_partial_main_never_invokes_frozen_import_or_writes (__main__.GuardTests.test_partial_main_never_invokes_frozen_import_or_writes) ... ok
+test_raw_complete_guard_checks_physical_sample_and_hashes (__main__.GuardTests.test_raw_complete_guard_checks_physical_sample_and_hashes) ... ok
+test_saved_validation_faults (__main__.GuardTests.test_saved_validation_faults) ... ok
+test_source_only_loader_ignores_stale_valid_bytecode (__main__.GuardTests.test_source_only_loader_ignores_stale_valid_bytecode) ... ok
+test_validation_counts (__main__.GuardTests.test_validation_counts) ... ok
+test_live_audit_fence_in_isolated_synthetic_process (__main__.PathAndPreservationTests.test_live_audit_fence_in_isolated_synthetic_process) ... ok
+test_new_destination_only (__main__.PathAndPreservationTests.test_new_destination_only) ... ok
+test_snapshot_detects_all_three_change_classes (__main__.PathAndPreservationTests.test_snapshot_detects_all_three_change_classes) ... ok
+test_snapshot_excludes_independent_delivery_outputs (__main__.PathAndPreservationTests.test_snapshot_excludes_independent_delivery_outputs) ... ok
+test_symlink_path_rejected (__main__.PathAndPreservationTests.test_symlink_path_rejected) ... ok
+test_write_fence_allows_only_exclusive_new_evidence (__main__.PathAndPreservationTests.test_write_fence_allows_only_exclusive_new_evidence) ... ok
+test_boolean_rule_rejected (__main__.SelectionTests.test_boolean_rule_rejected) ... ok
+test_duplicate_indexes_rejected (__main__.SelectionTests.test_duplicate_indexes_rejected) ... ok
+test_incomplete_rejected (__main__.SelectionTests.test_incomplete_rejected) ... ok
+test_missing_stratum_rejected (__main__.SelectionTests.test_missing_stratum_rejected) ... ok
+test_rule_mismatch_rejected (__main__.SelectionTests.test_rule_mismatch_rejected) ... ok
+test_selection_does_not_assume_list_sorted_by_index (__main__.SelectionTests.test_selection_does_not_assume_list_sorted_by_index) ... ok
+test_selection_preserves_input (__main__.SelectionTests.test_selection_preserves_input) ... ok
+test_six_exact_minima (__main__.SelectionTests.test_six_exact_minima) ... ok
+test_failure_does_not_retry_replace_or_add_samples (__main__.SyntheticFlowTests.test_failure_does_not_retry_replace_or_add_samples) ... ok
+test_strict_guard_failure_stops_all_reproduction (__main__.SyntheticFlowTests.test_strict_guard_failure_stops_all_reproduction) ... ok
+test_synthetic_end_to_end_exactly_six_serial_calls (__main__.SyntheticFlowTests.test_synthetic_end_to_end_exactly_six_serial_calls) ... ok
+
+----------------------------------------------------------------------
+Ran 43 tests in 0.996s
+
+OK

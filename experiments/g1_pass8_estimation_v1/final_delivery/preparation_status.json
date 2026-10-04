@@ -1,0 +1,31 @@
+{
+  "phase": "preparation_only_not_formal_verification",
+  "prepared_at_utc": "2026-10-04T13:03:52.093209+00:00",
+  "formal_or_reproduction_games_generated": 0,
+  "partial_outcome_analysis_performed": false,
+  "production_source_raw_bytes_match_freeze": true,
+  "production_source_files_checked": 33,
+  "synthetic_tests_passed": 43,
+  "synthetic_release_log": "selftest_release.txt",
+  "peer_review": "No remaining blockers after source-only import and physical480 guard hardening. Forty then-current synthetic tests independently rerun; three further mocked-flow tests included in43-test release.",
+  "artifacts": {
+    "run_final_validation.py": "594924bcf84f6f3d941f6b7fe5a1340955d741effba317c77bb81d23606f688b",
+    "test_final_verification.py": "da7450f439057d2ff68b9c5e8c67eae444f677085c1ebcd6b796992792328350",
+    "USAGE.txt": "31ae86ba707ca636c6cd929a2b49804f9e1b42690583d3cc50228ebbeec201a8",
+    "selftest_release.txt": "86b37e85f055018f2164f73399a2c69984b80d06773299dae5f3479d30b45ecd"
+  },
+  "frozen_input_hashes": {
+    "pre_execution_lock.json": "8ddf718e1b4cb70bfdfeb2b471184cd4c4f53dd1bda576caac6a2d220cc001c0",
+    "pre_execution_source_lock.json": "fccdffebac82ef100cb3232e93da26301de2dfda10eb2a4a7497b7b77a3f77cc",
+    "preregistration.json": "cfe65b3f20b6e2cefdf620a27e501333c5798ea0801ee1b8881be2c010ff76fa"
+  },
+  "future_destination": "experiments/g1_pass8_estimation_v1/final_delivery/run480_v1 (must not exist; new name per invocation)",
+  "not_yet_executed": [
+    "Real completed480 strict validation",
+    "Six real deterministic reproductions",
+    "Final historical before/after rewalk",
+    "Final20child cost/checkpoint audit",
+    "Main final tests",
+    "Independent final arithmetic/rules audit"
+  ]
+}
