@@ -1,7 +1,7 @@
 {
   "experiment_id": "G1-pass8-estimation-v1",
   "phase": "fixed480_checkpoint",
-  "completed": 144,
+  "completed": 168,
   "planned": 480,
   "validation_problems": [],
   "7x7": "NO-GO",

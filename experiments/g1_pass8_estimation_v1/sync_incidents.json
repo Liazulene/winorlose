@@ -6,6 +6,19 @@
       "event": "Backup paused during access review; resumed only after explicit owner confirmation. Four missing content-addressed inventory blobs returned404 before one successful retry each. Previously successful uploads were retained.",
       "owner_reconfirmation_utc": "2026-10-04T10:12:00Z",
       "no_game_replacement_or_new_seed": true
+    },
+    {
+      "phase": "checkpoint144_backup",
+      "completed_games": 144,
+      "last_verified_remote_games_at_failure": 120,
+      "error": "RemoteProtocolError: Server disconnected without sending a response.",
+      "path": "outputs/g1_pass8_estimation_v1/games.jsonl",
+      "expected_sha": "8ce7cd0e4ba029aecc03090c651884c72b12396f",
+      "read_before_retry": "404",
+      "safe_same_blob_retries": 1,
+      "retry_succeeded": true,
+      "new_games_during_recovery": 0,
+      "observed_utc": "2026-10-04T12:01:33.348128+00:00"
     }
   ],
   "no_main_merge": true,
