@@ -1,7 +1,7 @@
 {
   "experiment_id": "G1-pass8-pilot-v1",
-  "phase": "pilot_checkpoint",
-  "completed": 40,
+  "phase": "pilot_complete_pending_audit",
+  "completed": 48,
   "planned": 48,
   "validation_problems": [],
   "formal_expansion_started": false,
