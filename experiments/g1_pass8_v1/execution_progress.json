@@ -1,9 +1,9 @@
 {
-  "completed": 24,
+  "completed": 32,
   "planned": 48,
-  "child_wall_seconds": 431.31482720099666,
-  "child_cpu_seconds": 431.173441,
+  "child_wall_seconds": 559.590843897,
+  "child_cpu_seconds": 559.423129,
   "peak_process_rss_kib": 28596,
-  "chunks": 3,
+  "chunks": 4,
   "validation_problems": []
 }
