@@ -1,0 +1,9 @@
+[G1-pass8] saved 33/48 budget=256 plies=28 wall_ms=15784.785
+[G1-pass8] saved 34/48 budget=256 plies=29 wall_ms=16353.75
+[G1-pass8] saved 35/48 budget=256 plies=25 wall_ms=15979.692
+[G1-pass8] saved 36/48 budget=256 plies=2 wall_ms=2505.976
+[G1-pass8] saved 37/48 budget=256 plies=3 wall_ms=3602.882
+[G1-pass8] saved 38/48 budget=256 plies=29 wall_ms=16912.641
+[G1-pass8] saved 39/48 budget=256 plies=10 wall_ms=7426.38
+[G1-pass8] saved 40/48 budget=256 plies=18 wall_ms=11064.838
+planned checkpoint after 8 new games
