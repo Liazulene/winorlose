@@ -1,0 +1,69 @@
+{
+ "code_version": "winai_loseai-0.6.0-g1-pass8-pilot",
+ "schema_version": 2,
+ "source_fingerprint": "5876fdc9d1cc29fc446300265db5a9676f07b646cc8299cd4961f1129fdb3ec1",
+ "python_version": "3.12.14",
+ "batch_id": "g1_pass8_pilot_v1",
+ "kind": "G1-pass8-pilot-v1",
+ "status": "interrupted",
+ "requested_games": 48,
+ "planned_game_count": 48,
+ "board_size": 5,
+ "komi": 2.5,
+ "batch_seed": [
+  8,
+  9,
+  10
+ ],
+ "concurrency": 1,
+ "pass_min_plies": [
+  0,
+  8
+ ],
+ "budget": 256,
+ "schedule_seed": 2026100401,
+ "completed_game_count": 8,
+ "completed_indexes": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7
+ ],
+ "created_at": "2026-10-04T04:48:21+00:00",
+ "last_updated": "2026-10-04T04:50:56+00:00",
+ "agents": [
+  {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  }
+ ],
+ "error": null
+}

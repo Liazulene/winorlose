@@ -1,0 +1,28 @@
+{
+  "chunk": 1,
+  "command": [
+    "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_v1/../winorlose_audit_venv/bin/python",
+    "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_v1/scripts/run_g1_pass8.py",
+    "run",
+    "--out",
+    "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_v1/outputs/g1_pass8_pilot_v1",
+    "--concurrency",
+    "1",
+    "--stop-after",
+    "8"
+  ],
+  "started_utc": "2026-10-04T04:48:21.512091+00:00",
+  "ended_utc": "2026-10-04T04:50:56.985042+00:00",
+  "exit_code": 75,
+  "wall_seconds": 155.4724345379982,
+  "cpu_user_seconds": 155.264535,
+  "cpu_system_seconds": 0.17578,
+  "peak_process_rss_kib": 28596,
+  "completed_before": 0,
+  "manifest_declared_before": 0,
+  "completed_after": 8,
+  "status_after": "interrupted",
+  "output_tree_bytes_after": 374362,
+  "measurement_script_sha256": "9c2ff90f5cc687f1e46b4a12d838d7b3d0319730a2ad9e8e858f26d6c9c4251e",
+  "scope": "Exact isolated child process: run/import/resume/per-game validation/final analysis; no Git sync, tests, or external full verification."
+}
