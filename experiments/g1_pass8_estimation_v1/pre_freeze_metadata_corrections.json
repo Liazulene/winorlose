@@ -1,0 +1,17 @@
+{
+  "recorded_at_utc": "2026-10-04T08:53:24.746934+00:00",
+  "formal_games_before": 0,
+  "old_protocol_sha256": "72cb6677b7a8eecc418c64a6ebd3b30e230ee0e30e38d3c4faff8b1abaed7f87",
+  "new_protocol_sha256": "cfe65b3f20b6e2cefdf620a27e501333c5798ea0801ee1b8881be2c010ff76fa",
+  "changes": [
+    "Align preregistered analysis label to emitted g1-pass8-fixed-paired-cp-hoeffding-v1; scientific design, sample, seeds, endpoints and interval formulas unchanged.",
+    "Update new-worktree golden-regression test expected metadata code version from0.6pilot to0.7estimation. Both legacy gameplay digests passed before metadata failure. Old worktree tests and evidence remain unchanged.",
+    "Add analysis-version contract test and explicit sync staging for updated new-worktree metadata test."
+  ],
+  "previous_full_suite": {
+    "passed": 483,
+    "failed": 2,
+    "reason": "Only stale expected version string in two parameterizations; retained full_tests_recovery.txt"
+  },
+  "production_output_exists": false
+}

@@ -1,0 +1,59 @@
+{
+  "format": "gzip; original JSON UTF-8 bytes recoverable exactly",
+  "files": [
+    {
+      "raw_filename": "original_tracked_head_inventory.json",
+      "gzip_filename": "original_tracked_head_inventory.json.gz",
+      "raw_bytes": 6784059,
+      "gzip_bytes": 1321399,
+      "raw_sha256": "2b72d046f4c169b61d5a1f394b4826b62661a5f35adbc89d6bccd4a4a4e0a91c",
+      "gzip_sha256": "c73198220645e7a5de4df9de2ca528f0560f6e624c65d6c0c6411c85fd988fb4",
+      "roundtrip_exact": true
+    },
+    {
+      "raw_filename": "prelaunch_winorlose_d0_v1_tracked_inventory.json",
+      "gzip_filename": "prelaunch_winorlose_d0_v1_tracked_inventory.json.gz",
+      "raw_bytes": 6809858,
+      "gzip_bytes": 1326796,
+      "raw_sha256": "2090b99ac9723ca617a2df9796a363031d075b4c5d6b115635a9bc1e93cabf90",
+      "gzip_sha256": "68d276b0bd4f1714a97d594f11747e48f4de012acabf13b76ca1ca731f5bc8e7",
+      "roundtrip_exact": true
+    },
+    {
+      "raw_filename": "prelaunch_winorlose_d1_estimation_v1_tracked_inventory.json",
+      "gzip_filename": "prelaunch_winorlose_d1_estimation_v1_tracked_inventory.json.gz",
+      "raw_bytes": 7237050,
+      "gzip_bytes": 1405998,
+      "raw_sha256": "78e3e9ad3ebd0fb2fbae3e73f0df183c6e782f4b9dd332a4f7dceb696dc966a3",
+      "gzip_sha256": "d5ae3dcbd8616df50352139dd83aba7b2643de634565ace3d8543a58b70b3944",
+      "roundtrip_exact": true
+    },
+    {
+      "raw_filename": "prelaunch_winorlose_d1_v1_tracked_inventory.json",
+      "gzip_filename": "prelaunch_winorlose_d1_v1_tracked_inventory.json.gz",
+      "raw_bytes": 6848356,
+      "gzip_bytes": 1333675,
+      "raw_sha256": "128ddebf1bcb28032bae26541081b145dc33f364562b92eab7d768d29650c606",
+      "gzip_sha256": "ac50ed727124bee9dd081435253e222125d54d7189fdee7aa44230f80d6dc94f",
+      "roundtrip_exact": true
+    },
+    {
+      "raw_filename": "prelaunch_winorlose_g1_pass8_v1_tracked_inventory.json",
+      "gzip_filename": "prelaunch_winorlose_g1_pass8_v1_tracked_inventory.json.gz",
+      "raw_bytes": 7303099,
+      "gzip_bytes": 1418608,
+      "raw_sha256": "90f654e0d76e37323b8843d82342e13c05769dd0bcf3876b1ef11e1bf56de8db",
+      "gzip_sha256": "2fcccca449f619128488cfd12feedf194df2f9285e46e7f11f57e5992f4fc8f0",
+      "roundtrip_exact": true
+    },
+    {
+      "raw_filename": "prelaunch_winorlose_tracked_inventory.json",
+      "gzip_filename": "prelaunch_winorlose_tracked_inventory.json.gz",
+      "raw_bytes": 6784219,
+      "gzip_bytes": 1321532,
+      "raw_sha256": "3dcb2b3efcad2fc44b41e6d3f94f3564b90ae6f732e2a473516378f228d0e664",
+      "gzip_sha256": "ca268b9574ae5632debe3834f29a0fc08dc1c445f5e154a3d33fa6e5687b1704",
+      "roundtrip_exact": true
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "recorded_at_utc": "2026-10-04T08:56:56.034135+00:00",
+  "formal_games_generated": 0,
+  "synthetic_fixture_is_not_gameplay": true,
+  "conclusion": "Statistical construction and registered arithmetic pass. Confidence remains model-based under independent hypothetical stream blocks; raw replay/source gates remain mandatory.",
+  "source_sha256": {
+    "src/winai_loseai/experiments/g1_pass8_estimation_stats.py": "79e74e5e0c50d55ad95dd664927448c71bf9fcdab850fd3624daa20a4687e9c5",
+    "src/winai_loseai/experiments/d1_estimation_stats.py": "18881afa7df0068e0883a609285087a58e749ffa98b7484a18635448a74bbe69",
+    "tests/test_g1_pass8_estimation_stats.py": "f27e483bce0ed20277ff5ffcfe3639824cc0f1b2a8084da9eef5bacb05679575",
+    "tests/test_d1_estimation_stats.py": "726195263e7f29ebe7244522daba18ce4f7a3e1f0df6a16f39b72c3f3f0d8343",
+    "experiments/g1_pass8_estimation_v1/preregistration.json": "cfe65b3f20b6e2cefdf620a27e501333c5798ea0801ee1b8881be2c010ff76fa",
+    "experiments/g1_pass8_estimation_v1/statistics_preregistration_draft.json": "679202c67f4c276703f28002979646e6a7fdc9499fd1b52010490ec594b092fc",
+    "experiments/g1_pass8_estimation_v1/statistics_method_precision.json": "4a069e491a0a405b1f1a731b4171d4432c36fe973abe534fca2d6464c44262ad",
+    "experiments/g1_pass8_estimation_v1/independent_review/verify_inference_arithmetic.py": "d2dd9c7b98712f348da5fcacc4c74761eff666749c8d97b50e2f67b171385932",
+    "experiments/g1_pass8_estimation_v1/independent_review/recovery_verify_inference_v1.py": "c1880daa7b65edf99473f7d02002a7b541919097c332b0830418d04dcadab331",
+    "experiments/g1_pass8_estimation_v1/independent_review/test_recovery_statistics_v1.py": "cffb6343f8bec1fd7f278484404ed22b6c117b52c20ff3b8f3c0451245ce6485"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "tests": {
+    "command": [
+      "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/../winorlose_audit_venv/bin/python",
+      "-m",
+      "pytest",
+      "-q",
+      "-p",
+      "no:cacheprovider",
+      "tests/test_g1_pass8_estimation_stats.py",
+      "tests/test_d1_estimation_stats.py",
+      "experiments/g1_pass8_estimation_v1/independent_review/test_recovery_statistics_v1.py"
+    ],
+    "returncode": 0,
+    "summary": "142 passed in 5.24s",
+    "existing_tests": 108,
+    "new_recovery_tests": 34
+  },
+  "cp_scalar_count_level_comparisons": 246,
+  "feasible_discordance_table_level_comparisons": 4244,
+  "exact_heterogeneous_coverage_spot_checks": [
+    {
+      "n": 20,
+      "confidence": 0.95,
+      "models": 13,
+      "minimum_exact_law_coverage": 0.9977527892348835
+    },
+    {
+      "n": 20,
+      "confidence": 0.99375,
+      "models": 13,
+      "minimum_exact_law_coverage": 0.9999611613104419
+    },
+    {
+      "n": 60,
+      "confidence": 0.95,
+      "models": 13,
+      "minimum_exact_law_coverage": 0.9993436796313853
+    },
+    {
+      "n": 60,
+      "confidence": 0.99375,
+      "models": 13,
+      "minimum_exact_law_coverage": 0.999995237353053
+    }
+  ],
+  "coverage_checks_are_not_a_proof": true,
+  "canonical_synthetic480_verification": {
+    "passed": true,
+    "problems": [],
+    "checked_groups": 16,
+    "joint_family_size": 8,
+    "method": "Independent direct binomial-polynomial inversion with90bisections; no scipy or production stats imports",
+    "tolerance": "abs1e-9 or relative1e-11; ignores insignificant outward one-ULP differences",
+    "coverage": [
+      "All raw paired2x2counts/rates/denominators and armwise pointwise CP",
+      "Pointwise paired CP-rectangle and separate Hoeffding audits",
+      "Eight pooled family simultaneous bounds at alpha.05/8",
+      "Hoeffding raw-length support[-90,98] and derived minus8 point/bound/quantile translations",
+      "Pooled60pairs/direction and seed20pairs/direction; strict result structure"
+    ],
+    "limitations": [
+      "Numerical arithmetic verification does not establish PRNG independence or mathematical theorem applicability.",
+      "Requires separately passed raw-record/source/manifest/replay checks. Structural action checks are not a legality proof.",
+      "The fixed stream-independence model remains an assumption; no coverage is claimed conditional on choosing only fault-free runs."
+    ],
+    "arithmetic_executed": true,
+    "canonical_fixed480_rows_checked": true,
+    "unique_paired_blocks": 240,
+    "pooled_pairs_per_direction": 60,
+    "pairs_per_seed_direction": 20,
+    "recovery_verifier_version": "recovery_fixed480_canonical_gate_v1"
+  },
+  "analysis_version_alignment_verified": true,
+  "remaining_mathematical_launch_blockers": [],
+  "required_downstream_gates": [
+    "Run canonical guarded independent arithmetic against final full480 analysis, after independent raw/replay/source gates.",
+    "Do not interpret uncertainty as design-based randomization or generalization to new policies/agents/batch seeds.",
+    "No CI on incomplete or substituted samples; do not claim conditional coverage from selecting only fault-free completed runs."
+  ],
+  "precision_final_sha256": "baacbb482bfe79f5acb76c1aba411864a9f34e7d00173c852314c4c499ea7bf0"
+}

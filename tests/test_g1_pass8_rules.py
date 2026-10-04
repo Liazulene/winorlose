@@ -255,7 +255,7 @@ def test_g0_default_and_explicit_reproduce_legacy_golden(algorithm):
     digest = hashlib.sha256(json.dumps(gameplay_record(explicit), sort_keys=True).encode()).hexdigest()
     assert digest == G0_GOLDEN[algorithm]
     assert default["schema_version"] == SCHEMA_VERSION == 2
-    assert default["code_version"] == CODE_VERSION == "winai_loseai-0.6.0-g1-pass8-pilot"
+    assert default["code_version"] == CODE_VERSION == "winai_loseai-0.7.0-g1-pass8-estimation"
     assert default["ruleset"] == "G0" and default["pass_min_ply"] == 0
 
 

@@ -1,0 +1,45 @@
+{
+  "encoding": "gzip of exact UTF-8 JSON bytes, segmented in named order",
+  "raw_filename": "original_tracked_head_inventory.json",
+  "raw_bytes": 6784059,
+  "raw_sha256": "2b72d046f4c169b61d5a1f394b4826b62661a5f35adbc89d6bccd4a4a4e0a91c",
+  "gzip_bytes": 1321399,
+  "gzip_sha256": "c73198220645e7a5de4df9de2ca528f0560f6e624c65d6c0c6411c85fd988fb4",
+  "parts": [
+    {
+      "name": "original_tracked_head_inventory.json.gz.part01",
+      "bytes": 196608,
+      "sha256": "88631fac4e87358b2986a3304d25fbe8b4b4d6543af6ce497ddb7420e6946b3c"
+    },
+    {
+      "name": "original_tracked_head_inventory.json.gz.part02",
+      "bytes": 196608,
+      "sha256": "1b386ab9c2017f517be81e8b5e213ae401cd6b3ad87a295364917cf814246342"
+    },
+    {
+      "name": "original_tracked_head_inventory.json.gz.part03",
+      "bytes": 196608,
+      "sha256": "ffc702f28d3e3fd46d532f91dcc4e1e495956049a53644f7612e7c6389f5ca8c"
+    },
+    {
+      "name": "original_tracked_head_inventory.json.gz.part04",
+      "bytes": 196608,
+      "sha256": "6fca5a7d19b28c2e51647beee1274d00cd8c70ccb5f6a04c2ea4344d12978322"
+    },
+    {
+      "name": "original_tracked_head_inventory.json.gz.part05",
+      "bytes": 196608,
+      "sha256": "c70a4ff4758e8ef7cf5c7620de91fa0c2b1cebe944cb9a0bc3386e2469692522"
+    },
+    {
+      "name": "original_tracked_head_inventory.json.gz.part06",
+      "bytes": 196608,
+      "sha256": "cf848fefe64be5c76db56b894442456b9f72e4a0b49d7f6dba82ae20d0b14158"
+    },
+    {
+      "name": "original_tracked_head_inventory.json.gz.part07",
+      "bytes": 141751,
+      "sha256": "bed292a8a7152b52a583de71e7d349ce94ea37aa04a62715df938f7fd6a76f98"
+    }
+  ]
+}

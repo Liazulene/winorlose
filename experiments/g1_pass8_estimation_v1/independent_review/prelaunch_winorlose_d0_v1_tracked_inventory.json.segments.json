@@ -1,0 +1,45 @@
+{
+  "encoding": "gzip of exact UTF-8 JSON bytes, segmented in named order",
+  "raw_filename": "prelaunch_winorlose_d0_v1_tracked_inventory.json",
+  "raw_bytes": 6809858,
+  "raw_sha256": "2090b99ac9723ca617a2df9796a363031d075b4c5d6b115635a9bc1e93cabf90",
+  "gzip_bytes": 1326796,
+  "gzip_sha256": "68d276b0bd4f1714a97d594f11747e48f4de012acabf13b76ca1ca731f5bc8e7",
+  "parts": [
+    {
+      "name": "prelaunch_winorlose_d0_v1_tracked_inventory.json.gz.part01",
+      "bytes": 196608,
+      "sha256": "8d0501604d698e6155ae5471d40864f8e8a2966130534754e38623ae30d39bd3"
+    },
+    {
+      "name": "prelaunch_winorlose_d0_v1_tracked_inventory.json.gz.part02",
+      "bytes": 196608,
+      "sha256": "95ff65e54677914b290a08b231a26e5ea34e40fe28735bdc4425c7b0b86f5ee4"
+    },
+    {
+      "name": "prelaunch_winorlose_d0_v1_tracked_inventory.json.gz.part03",
+      "bytes": 196608,
+      "sha256": "eee468d02ecb7c9152106035b2bec47c70992ea64a211fa2dcda952f3fa41b03"
+    },
+    {
+      "name": "prelaunch_winorlose_d0_v1_tracked_inventory.json.gz.part04",
+      "bytes": 196608,
+      "sha256": "a296194a29bde2d7f0cbd2743665d92087ef0b92e5c4b8a2ca6ff9f7189f19e5"
+    },
+    {
+      "name": "prelaunch_winorlose_d0_v1_tracked_inventory.json.gz.part05",
+      "bytes": 196608,
+      "sha256": "4381df3bd5715c916734b8e3112884c8e733277e5f6ab36a7096898501b95811"
+    },
+    {
+      "name": "prelaunch_winorlose_d0_v1_tracked_inventory.json.gz.part06",
+      "bytes": 196608,
+      "sha256": "fc3d6cc86bb7d30aa17001b40a14f6453cadd0bd45f0015735bcace23aea7fae"
+    },
+    {
+      "name": "prelaunch_winorlose_d0_v1_tracked_inventory.json.gz.part07",
+      "bytes": 147148,
+      "sha256": "bc3702f0dead7cd3371fd21e0b6aef212aed2f8be72d22864271ca7a6844dc51"
+    }
+  ]
+}

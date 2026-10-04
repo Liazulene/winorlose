@@ -1,0 +1,78 @@
+{
+  "recorded_at_utc": "2026-10-04T08:56:22.802021+00:00",
+  "scope": "Independent M5 launch-safety recovery audit; no production gameplay or production source edits performed by this reviewer.",
+  "reviewed_experiment_lock": {
+    "experiment_id": "G1-pass8-estimation-v1",
+    "code_version": "winai_loseai-0.7.0-g1-pass8-estimation",
+    "schema_version": 2,
+    "source_fingerprint": "1633b6768cc2c93af1a504a4741167ad2fa2cf809826cd7e267ccaa369e31dae",
+    "python_version": "3.12.14",
+    "preregistration_sha256": "cfe65b3f20b6e2cefdf620a27e501333c5798ea0801ee1b8881be2c010ff76fa",
+    "entry_point_sha256": "45dc13638695385915efc20882ef1d9e41c18a6b1014d1a39801fd91e7f865ef",
+    "measurement_script_sha256": "448c2fc4fa431da582ce185f4c1565c42affa47ef573a7873bf9cb6b2e876359",
+    "scipy_version": "1.17.0",
+    "numpy_version": "2.3.5"
+  },
+  "code_or_design_launch_blockers_found": [],
+  "launch_readiness": "Conditional on parent completing final full-suite, exact pre-execution freeze, G0 reference regeneration and remote checkpoint verification before first formal game.",
+  "verified": {
+    "historical_preservation": "All 81,772 previously tracked files across five previous worktrees and 16,982 inherited historical paths in the new worktree match saved SHA-256/byte lengths. Protected directory file sets have zero added/missing paths. All segmented inventory raw bytes match the external gzip copies.",
+    "legacy_delivery": "Fresh distinct read-only wrapper: zero problems; original 15,600 game bytes and metadata/manifests unchanged; original report SHA-256 cd7a73ffc352ba0361283aa3eba48bc2afc0ee25caad5da13b33c75ef590d0d9; source fingerprint a4d6d9e033b88f6b7eb469d49088d69cb45ceb34b3770087b8ecd3a23a890e2e.",
+    "legacy_tests": "Fresh original worktree tests: 89 passed in 14.02 seconds under Python3.12.14, no historical mutation.",
+    "fixed_plan": "Independently rebuilt 480 jobs: 240 adjacent paired blocks, batch seeds11/12/13, 48 cells of10, both arms share all seed and agent fields; exactly120 of each arm order. Same frozen plan semantic digest before and after metadata-only correction.",
+    "historical_seed_isolation": "Actual480 colour-agent streams are a subset of960 audited candidate streams. No new game-seed or stream overlap with32 historical directories across all five prior worktrees, including all48 M4 pilot games; compared13,088 distinct old game seeds and31,800 distinct old derived streams.",
+    "core_implementation": "20 non-experiment package implementation files excluding version __init__.py are byte-identical to M4 pilot. Only pass0/pass8 differs within each matched formal pair; 5x5, komi2.5, budget256, algorithms, agent seeds and utilities fixed.",
+    "runtime_and_recovery_tests": "Final unchanged source:10 independent tests passed in15.77seconds. Entry/source/measurement/scipy/numpy changes and seed mirror/plan tampering reject read-only. Live input change stops before record write. Odd-prefix resume ends at24-game boundary; partial inference is absent. Completed manifest and final validation both say completed; completed resume is byte-idempotent; interruption after finish and before final validation write safely recovers.",
+    "rule_faults": "Static review and parent suite cover persistent nonretryable NoLegalActionError latch, strict full-record validation before metadata repair, retained contiguous prefixes, and disallowed historical/symlink output paths.",
+    "analysis_label": "Final registered and emitted labels both g1-pass8-fixed-paired-cp-hoeffding-v1."
+  },
+  "launch_prerequisites_to_confirm": [
+    "Parent final full-suite must pass on reviewed source fingerprint1633b6768cc2c93af1a504a4741167ad2fa2cf809826cd7e267ccaa369e31dae. Earlier full-suite version-label-only failures and intermediate source-change test failures remain preserved as superseded evidence.",
+    "Three designated D1 medium G0 reference regenerations must finish under this final source; earlier regression artifact named the earlier source fingerprint.",
+    "Create pre_execution_source_lock.json and pre_execution_lock.json with exact reviewed source/runtime/input fields; frozen_plan.json already matches independent reconstruction. Production run gate requires these before any RunStore mutation.",
+    "Verify initial remote commit/tree and maintain validated raw checkpoint sync before every next24-game chunk. Operator must always use the same cost-evidence directory so warning11280seconds and review-pause28800seconds aggregate all attempts.",
+    "Do not start next chunk after a rule, source, seed, replay, historical-preservation or persistent synchronization fault. Exactly480; no outcome-driven stopping, pooling or replacement."
+  ],
+  "limitations": [
+    "Historical hash audit establishes current byte identity after the earlier explicitly documented restoration; it cannot establish that no historical file was ever briefly written.",
+    "Seed collision checks do not prove stochastic independence. Arms share initial streams but legal actions and consumption diverge.",
+    "Same-engine replay is consistency checking. Formal480 final independent area/arithmetic and six prespecified deterministic regeneration checks remain post-run requirements.",
+    "Successful validation snapshots are verified; a missing snapshot on completed data is narrowly recoverable only after full revalidation.",
+    "Filesystem atomic replace/flush and advisory single-writer lock do not imply power-loss fsync durability. Resource ceilings are checked between measured chunks, not hard per-game timeouts.",
+    "One intermediate corrected-input safety rerun had8passes/2source-change stops because ANALYSIS_VERSION source changed during that run. The final unchanged-source rerun passed all10; the intermediate log is retained."
+  ],
+  "evidence": [
+    {
+      "path": "resume20261004_historical_preservation.json",
+      "sha256": "c533804f2ae801aaf72b6a565577f67088d3da55b62111baf285e32ade177aef"
+    },
+    {
+      "path": "resume20261004_delivery_result.json",
+      "sha256": "bf2f4491236c9816717c8686c6d8a72d184eed4ddae019ad1d3532926b8d8f17"
+    },
+    {
+      "path": "resume20261004_original89_tests.txt",
+      "sha256": "989f0a18607a3e0cf1e80208b0cc4b90da7edd163873958f543bca4c3b7b5c4f"
+    },
+    {
+      "path": "resume20261004_seed_isolation.json",
+      "sha256": "bf6057627d55b89983fd3cf061dbe133c83a644a540b952581bff69128b2e8ba"
+    },
+    {
+      "path": "resume20261004_final_fixed_design_audit.json",
+      "sha256": "677f9a22251186e6ec7b886fc542ad8dd60ba807fe4682dee09d9460601a2717"
+    },
+    {
+      "path": "resume20261004_final_safety_tests.txt",
+      "sha256": "aa73b20f221313ebeedf58dc428c972c290b3abee3f7ee2821183a35b67d8bd2"
+    },
+    {
+      "path": "resume20261004_final_source_review.json",
+      "sha256": "bd4e6054e0b0c6327aab3f187f27d689c5d10dff91133440ce454b8fa2609e79"
+    },
+    {
+      "path": "test_resume20261004_independent_safety.py",
+      "sha256": "29d1f777d00d23bbd207406bda65b7c3e2c5375666112a2729888f3cc0249fcf"
+    }
+  ]
+}

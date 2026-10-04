@@ -1,0 +1,554 @@
+{
+  "recorded_at_utc": "2026-10-04T08:06:04.652609+00:00",
+  "experiment_id": "G1-pass8-estimation-v1",
+  "preregistration_sha256": "72cb6677b7a8eecc418c64a6ebd3b30e230ee0e30e38d3c4faff8b1abaed7f87",
+  "script_sha256": "1c00c0be89daf83694b27d7e04adf2c8accb6bf000a1fee29a64009d7fde7e30",
+  "planned_games": 480,
+  "unique_paired_blocks": 240,
+  "unique_game_seeds": 240,
+  "unique_color_agent_streams": 480,
+  "cell_counts": [
+    {
+      "key": [
+        0,
+        11,
+        "LOSE",
+        "LOSE",
+        1,
+        2
+      ],
+      "n": 10
+    },
+    {
+      "key": [
+        0,
+        11,
+        "LOSE",
+        "LOSE",
+        2,
+        1
+      ],
+      "n": 10
+    },
+    {
+      "key": [
+        0,
+        11,
+        "LOSE",
+        "WIN",
+        1,
+        2
+      ],
+      "n": 10
+    },
+    {
+      "key": [
+        0,
+        11,
+        "LOSE",
+        "WIN",
+        2,
+        1
+      ],
+      "n": 10
+    },
+    {
+      "key": [
+        0,
+        11,
+        "WIN",
+        "LOSE",
+        1,
+        2
+      ],
+      "n": 10
+    },
+    {
+      "key": [
+        0,
+        11,
+        "WIN",
+        "LOSE",
+        2,
+        1
+      ],
+      "n": 10
+    },
+    {
+      "key": [
+        0,
+        11,
+        "WIN",
+        "WIN",
+        1,
+        2
+      ],
+      "n": 10
+    },
+    {
+      "key": [
+        0,
+        11,
+        "WIN",
+        "WIN",
+        2,
+        1
+      ],
+      "n": 10
+    },
+    {
+      "key": [
+        0,
+        12,
+        "LOSE",
+        "LOSE",
+        1,
+        2
+      ],
+      "n": 10
+    },
+    {
+      "key": [
+        0,
+        12,
+        "LOSE",
+        "LOSE",
+        2,
+        1
+      ],
+      "n": 10
+    },
+    {
+      "key": [
+        0,
+        12,
+        "LOSE",
+        "WIN",
+        1,
+        2
+      ],
+      "n": 10
+    },
+    {
+      "key": [
+        0,
+        12,
+        "LOSE",
+        "WIN",
+        2,
+        1
+      ],
+      "n": 10
+    },
+    {
+      "key": [
+        0,
+        12,
+        "WIN",
+        "LOSE",
+        1,
+        2
+      ],
+      "n": 10
+    },
+    {
+      "key": [
+        0,
+        12,
+        "WIN",
+        "LOSE",
+        2,
+        1
+      ],
+      "n": 10
+    },
+    {
+      "key": [
+        0,
+        12,
+        "WIN",
+        "WIN",
+        1,
+        2
+      ],
+      "n": 10
+    },
+    {
+      "key": [
+        0,
+        12,
+        "WIN",
+        "WIN",
+        2,
+        1
+      ],
+      "n": 10
+    },
+    {
+      "key": [
+        0,
+        13,
+        "LOSE",
+        "LOSE",
+        1,
+        2
+      ],
+      "n": 10
+    },
+    {
+      "key": [
+        0,
+        13,
+        "LOSE",
+        "LOSE",
+        2,
+        1
+      ],
+      "n": 10
+    },
+    {
+      "key": [
+        0,
+        13,
+        "LOSE",
+        "WIN",
+        1,
+        2
+      ],
+      "n": 10
+    },
+    {
+      "key": [
+        0,
+        13,
+        "LOSE",
+        "WIN",
+        2,
+        1
+      ],
+      "n": 10
+    },
+    {
+      "key": [
+        0,
+        13,
+        "WIN",
+        "LOSE",
+        1,
+        2
+      ],
+      "n": 10
+    },
+    {
+      "key": [
+        0,
+        13,
+        "WIN",
+        "LOSE",
+        2,
+        1
+      ],
+      "n": 10
+    },
+    {
+      "key": [
+        0,
+        13,
+        "WIN",
+        "WIN",
+        1,
+        2
+      ],
+      "n": 10
+    },
+    {
+      "key": [
+        0,
+        13,
+        "WIN",
+        "WIN",
+        2,
+        1
+      ],
+      "n": 10
+    },
+    {
+      "key": [
+        8,
+        11,
+        "LOSE",
+        "LOSE",
+        1,
+        2
+      ],
+      "n": 10
+    },
+    {
+      "key": [
+        8,
+        11,
+        "LOSE",
+        "LOSE",
+        2,
+        1
+      ],
+      "n": 10
+    },
+    {
+      "key": [
+        8,
+        11,
+        "LOSE",
+        "WIN",
+        1,
+        2
+      ],
+      "n": 10
+    },
+    {
+      "key": [
+        8,
+        11,
+        "LOSE",
+        "WIN",
+        2,
+        1
+      ],
+      "n": 10
+    },
+    {
+      "key": [
+        8,
+        11,
+        "WIN",
+        "LOSE",
+        1,
+        2
+      ],
+      "n": 10
+    },
+    {
+      "key": [
+        8,
+        11,
+        "WIN",
+        "LOSE",
+        2,
+        1
+      ],
+      "n": 10
+    },
+    {
+      "key": [
+        8,
+        11,
+        "WIN",
+        "WIN",
+        1,
+        2
+      ],
+      "n": 10
+    },
+    {
+      "key": [
+        8,
+        11,
+        "WIN",
+        "WIN",
+        2,
+        1
+      ],
+      "n": 10
+    },
+    {
+      "key": [
+        8,
+        12,
+        "LOSE",
+        "LOSE",
+        1,
+        2
+      ],
+      "n": 10
+    },
+    {
+      "key": [
+        8,
+        12,
+        "LOSE",
+        "LOSE",
+        2,
+        1
+      ],
+      "n": 10
+    },
+    {
+      "key": [
+        8,
+        12,
+        "LOSE",
+        "WIN",
+        1,
+        2
+      ],
+      "n": 10
+    },
+    {
+      "key": [
+        8,
+        12,
+        "LOSE",
+        "WIN",
+        2,
+        1
+      ],
+      "n": 10
+    },
+    {
+      "key": [
+        8,
+        12,
+        "WIN",
+        "LOSE",
+        1,
+        2
+      ],
+      "n": 10
+    },
+    {
+      "key": [
+        8,
+        12,
+        "WIN",
+        "LOSE",
+        2,
+        1
+      ],
+      "n": 10
+    },
+    {
+      "key": [
+        8,
+        12,
+        "WIN",
+        "WIN",
+        1,
+        2
+      ],
+      "n": 10
+    },
+    {
+      "key": [
+        8,
+        12,
+        "WIN",
+        "WIN",
+        2,
+        1
+      ],
+      "n": 10
+    },
+    {
+      "key": [
+        8,
+        13,
+        "LOSE",
+        "LOSE",
+        1,
+        2
+      ],
+      "n": 10
+    },
+    {
+      "key": [
+        8,
+        13,
+        "LOSE",
+        "LOSE",
+        2,
+        1
+      ],
+      "n": 10
+    },
+    {
+      "key": [
+        8,
+        13,
+        "LOSE",
+        "WIN",
+        1,
+        2
+      ],
+      "n": 10
+    },
+    {
+      "key": [
+        8,
+        13,
+        "LOSE",
+        "WIN",
+        2,
+        1
+      ],
+      "n": 10
+    },
+    {
+      "key": [
+        8,
+        13,
+        "WIN",
+        "LOSE",
+        1,
+        2
+      ],
+      "n": 10
+    },
+    {
+      "key": [
+        8,
+        13,
+        "WIN",
+        "LOSE",
+        2,
+        1
+      ],
+      "n": 10
+    },
+    {
+      "key": [
+        8,
+        13,
+        "WIN",
+        "WIN",
+        1,
+        2
+      ],
+      "n": 10
+    },
+    {
+      "key": [
+        8,
+        13,
+        "WIN",
+        "WIN",
+        2,
+        1
+      ],
+      "n": 10
+    }
+  ],
+  "arm_order_counts": {
+    "(0, 8)": 120,
+    "(8, 0)": 120
+  },
+  "plan_semantic_sha256": "8d97e3f5ecd0f1d6c1284073c4000ee0f41973cc23e02f61d01ec8e7cb15a6c9",
+  "stream_inventory_sha256": "57e9096f693f83cf1a33f4b03680a47d6f2904c8ce25563d200953ae4da02237",
+  "frozen_plan_present": true,
+  "production_output_present": false,
+  "problems": [],
+  "limitations": [
+    "Confirms initial-seed pairing only; rule arms consume streams differently.",
+    "No historical games, pilot rows, or synthetic tests enter formal sample.",
+    "Historical collision evidence is prospective_seed_isolation.json, whose candidate superset contains all actual streams."
+  ]
+}

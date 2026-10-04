@@ -1,0 +1,23 @@
+{
+  "estimand": "For each direction, pooled mean equally weights six fixed batch-seed by agent-orientation strata; per-seed mean equally weights two orientations. Independent pseudorandom-stream block replication model with arbitrary paired-arm dependence and heterogeneous stratum probabilities. No population-of-new-seeds or agents claim.",
+  "primary_goal_endpoints": {
+    "WIN/WIN": "black_goals",
+    "LOSE/LOSE": "black_goals",
+    "WIN/LOSE": "joint_goals",
+    "LOSE/WIN": "joint_goals"
+  },
+  "paired_goal_difference": "D_i=Y_G1,i-Y_G0,i. Tuple bits use (G0,G1); Nplus=n01,Nminus=n10. Estimate=(n01-n10)/n. Denominator n60 pooled or n20 per-seed; mixed joint goal is one observation, not two.",
+  "paired_goal_interval": "For target confidence1-alpha, TWO-SIDED equal-tail CP component intervals at1-alpha/2 for Nplus/n and Nminus/n. Return[Lplus-Uminus,Uplus-Lminus]. CP beta quantile tails alpha/4. Coverage follows Mattner-Tasto heterogeneous-average theorem and union bound; no independence of the two discordance counts is needed. Never replace with one-sided CP.",
+  "marginal_rates": "Two-sided95% CP for average probability of independent nonidentical Bernoulli outcomes. All counts/denominators retained; these are pointwise and not simultaneous across arms, endpoints, or seeds.",
+  "simultaneous_family": "Exactly8 POOLED G1-minus-G0 intervals: four direction-specific primary goal deltas and four raw mean-length deltas. Bonferroni alpha=.05/8=.00625 per interval. Goal CP components confidence=.996875,tails=.0015625. All per-seed and secondary intervals remain pointwise95%; no additional claim that all pointwise intervals jointly cover.",
+  "raw_length_interval": "D_i=L_G1,i-L_G0,i in[-90,98], because G1 length10..100 and G0 length2..100. Hoeffding point estimate +/-188*sqrt(log(2/alpha)/(2*n)), clipped to[-90,98]. alpha=.05 pointwise;alpha=.00625 pooled jointfamily. Support is fixed before outcomes, never replaced by observed range.",
+  "extra_length": "Extra=(length-(rule pass_min_ply+2)); paired extra delta=raw delta-8 exactly. Translate every raw-length point and CI endpoint minus8, support[-98,90]. This is a mechanical reference, not causal adjustment or a ninth family estimand.",
+  "goal_audit": "Hoeffding paired-goal[-1,1] intervals are displayed separately at the corresponding nominal level. Never select the tighter interval or intersect CP and Hoeffding; the registered goal family uses CP.",
+  "precision": "Fixed480 gives60pairs/direction,20pairs/seed/direction. CP allconcordant pooled family interval approximately[-.1020951161,.1020951161]. Maximum possible pooled CPfamily full width .7631904840, at30positive/30negative discordances; maximum width is not an assumed symmetric radius. Rawlength pooledfamily radius41.21847657actions. This is resource-bounded coarse estimation, not a small-effect or rare-failure design.",
+  "stopping": "Exactly480 registered games or explicit incomplete safety pause. No intervals on incomplete sample, no seed replacement, outcome-based extension, pvalues, significance flags, equivalence/noninferiority certification, or behavioral GO threshold. Pilot and all historical observations excluded.",
+  "sources": [
+    "https://arxiv.org/pdf/1403.0229",
+    "https://doi.org/10.1080/01621459.1963.10500830"
+  ],
+  "theorem": "Mattner-Tasto2015 publishedTheorem1.3/arXivv3Theorem1.12: two-sided equal-tail CP confidence>=.5 covers the average probability of independent heterogeneous Bernoulli variables. One-sided CP robustness is not asserted."
+}

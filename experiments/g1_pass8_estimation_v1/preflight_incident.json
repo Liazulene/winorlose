@@ -1,0 +1,9 @@
+{
+  "event": "Preflight verify_delivery.py wrote its conventional historical destination; caught immediately, generated result retained outside repository, original exact tracked bytes restored. No game/source/report inputs were modified.",
+  "path": "/workspace/scratch/50e0c7c6aca1/winorlose/reports/validation/final_delivery.json",
+  "original_sha256": "759a5a92a6157212de2da56a6f94c248b4844481ade68ae51fbab02d976043d8",
+  "generated_sha256": "d6f190e4c4fde0dc97b92980e64674a58fdf95bce58b3abe1d59141be23c579b",
+  "generated_copy": "winorlose_reports/M5_support/baseline_delivery.json",
+  "restored_sha256": "759a5a92a6157212de2da56a6f94c248b4844481ade68ae51fbab02d976043d8",
+  "restored_exact": true
+}

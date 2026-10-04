@@ -1,0 +1,55 @@
+................................................... [ 10%]
+........................................................................ [ 25%]
+........................................................................ [ 40%]
+........................................................................ [ 55%]
+........................................................................ [ 69%]
+....................................FF.................................. [ 84%]
+........................................................................ [ 99%]
+..                                                                       [100%]
+=================================== FAILURES ===================================
+_________ test_g0_default_and_explicit_reproduce_legacy_golden[random] _________
+
+algorithm = 'random'
+
+    @pytest.mark.parametrize("algorithm", ["random", "vector_mcts"])
+    def test_g0_default_and_explicit_reproduce_legacy_golden(algorithm):
+        default = runner.play_one(job(algorithm), board_size=3)
+        explicit = runner.play_one({**job(algorithm), "pass_min_ply": 0}, board_size=3)
+        assert gameplay_record(default) == gameplay_record(explicit)
+        digest = hashlib.sha256(json.dumps(gameplay_record(explicit), sort_keys=True).encode()).hexdigest()
+        assert digest == G0_GOLDEN[algorithm]
+        assert default["schema_version"] == SCHEMA_VERSION == 2
+>       assert default["code_version"] == CODE_VERSION == "winai_loseai-0.6.0-g1-pass8-pilot"
+E       AssertionError: assert 'winai_loseai...s8-estimation' == 'winai_loseai...1-pass8-pilot'
+E         
+E         - winai_loseai-0.6.0-g1-pass8-pilot
+E         ?                ^            ^ ^ ^
+E         + winai_loseai-0.7.0-g1-pass8-estimation
+E         ?                ^            ^^^ ^^^^ ^
+
+tests/test_g1_pass8_rules.py:258: AssertionError
+______ test_g0_default_and_explicit_reproduce_legacy_golden[vector_mcts] _______
+
+algorithm = 'vector_mcts'
+
+    @pytest.mark.parametrize("algorithm", ["random", "vector_mcts"])
+    def test_g0_default_and_explicit_reproduce_legacy_golden(algorithm):
+        default = runner.play_one(job(algorithm), board_size=3)
+        explicit = runner.play_one({**job(algorithm), "pass_min_ply": 0}, board_size=3)
+        assert gameplay_record(default) == gameplay_record(explicit)
+        digest = hashlib.sha256(json.dumps(gameplay_record(explicit), sort_keys=True).encode()).hexdigest()
+        assert digest == G0_GOLDEN[algorithm]
+        assert default["schema_version"] == SCHEMA_VERSION == 2
+>       assert default["code_version"] == CODE_VERSION == "winai_loseai-0.6.0-g1-pass8-pilot"
+E       AssertionError: assert 'winai_loseai...s8-estimation' == 'winai_loseai...1-pass8-pilot'
+E         
+E         - winai_loseai-0.6.0-g1-pass8-pilot
+E         ?                ^            ^ ^ ^
+E         + winai_loseai-0.7.0-g1-pass8-estimation
+E         ?                ^            ^^^ ^^^^ ^
+
+tests/test_g1_pass8_rules.py:258: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_g1_pass8_rules.py::test_g0_default_and_explicit_reproduce_legacy_golden[random]
+FAILED tests/test_g1_pass8_rules.py::test_g0_default_and_explicit_reproduce_legacy_golden[vector_mcts]
+2 failed, 483 passed, 21 subtests passed in 270.12s (0:04:30)

@@ -1,0 +1,4 @@
+Command: /workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/../winorlose_audit_venv/bin/python -m pytest -q -p no:cacheprovider tests/test_g1_pass8_estimation_stats.py tests/test_d1_estimation_stats.py experiments/g1_pass8_estimation_v1/independent_review/test_recovery_statistics_v1.py
+........................................................................ [ 50%]
+......................................................................   [100%]
+142 passed in 5.24s

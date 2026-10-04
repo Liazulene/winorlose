@@ -1,0 +1,44 @@
+{
+  "recorded_at_utc": "2026-10-04T08:50:57.734271+00:00",
+  "purpose": "Independent prospective seed11/12/13, block0..79 isolation before formal games",
+  "new_batch_seeds": [
+    11,
+    12,
+    13
+  ],
+  "new_block_indexes_per_seed": [
+    0,
+    79
+  ],
+  "new_distinct_game_seeds": 240,
+  "new_stream_candidate_superset_count": 960,
+  "historical_worktrees": [
+    "winorlose",
+    "winorlose_d0_v1",
+    "winorlose_d1_v1",
+    "winorlose_d1_estimation_v1",
+    "winorlose_g1_pass8_v1"
+  ],
+  "historical_directories": 32,
+  "historical_unique_dataset_names": [
+    "batch_A_seed0",
+    "batch_B_shallow_seed0",
+    "batch_B_shallow_seed1",
+    "d0_g0_v1_seed0",
+    "d1_g0_cost_v1",
+    "d1_g0_estimation_v1",
+    "g1_pass8_pilot_v1",
+    "smoke_mcts",
+    "smoke_random"
+  ],
+  "historical_distinct_game_seeds": 13088,
+  "historical_distinct_derived_streams": 31800,
+  "script_sha256": "91c96406cf35d6d9051050fefdb24472f7f08e74876431e22dabc9c07f638699",
+  "problems": [],
+  "limitations": [
+    "Hashes check collision/isolation, not statistical independence.",
+    "The stream test conservatively checks both agent seeds1/2 for each colour and block; the actual formal plan must use a subset of these960 candidate streams.",
+    "Paired arms reuse initial stream seeds; random-number consumption diverges.",
+    "Historical duplicated copies across worktrees and deliberate historical budget/rule pairing are allowed."
+  ]
+}

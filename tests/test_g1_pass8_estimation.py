@@ -1,48 +1,41 @@
-"""Pilot design, rule persistence, failclosed recovery, and descriptive statistics."""
+"""Fixed480 design, rule persistence, failclosed recovery, and formal statistics."""
 import copy
 import json
 from pathlib import Path
 import pytest
-from winai_loseai.experiments import g1_pass8 as g
+from winai_loseai.experiments import g1_pass8_estimation as g
 from winai_loseai.league.runstore import ConfigMismatch,MetadataCorrupt,job_to_entry,entry_to_job
 from winai_loseai.game.state import NoLegalActionError
 from winai_loseai.league.storage import _metadata_line
 
-@pytest.fixture(autouse=True)
-def current_runner_test_protocol(tmp_path,monkeypatch):
- from winai_loseai import CODE_VERSION
- p=json.loads(g.PROTOCOL.read_text());p['code_version']=CODE_VERSION
- path=tmp_path/'legacy_pilot_protocol.json';path.write_text(json.dumps(p))
- monkeypatch.setattr(g,'PROTOCOL',path);monkeypatch.setattr(g,'PREREGISTRATION_SHA256',g.sha256(path))
-
 @pytest.fixture
 def small(tmp_path,monkeypatch):
- p=g.protocol();p.update(budget=1,batch_seeds=[80],planned_games=16);p['resource_policy']['concurrency']=2
+ p=g.protocol();p.update(budget=1,batch_seeds=[80],planned_games=16,games_per_cell=1);p['resource_policy']['concurrency']=2
  path=tmp_path/'protocol.json';path.write_text(json.dumps(p));monkeypatch.setattr(g,'PROTOCOL',path);monkeypatch.setattr(g,'PREREGISTRATION_SHA256',g.sha256(path));return p
 
 def snapshot(out):return {str(p.relative_to(out)):p.read_bytes() for p in out.rglob('*') if p.is_file()}
 
 def test_locked_plan():
- p=g.protocol();jj=g.jobs();cc=g.cells();assert len(jj)==len(cc)==48
- assert len({j['game_seed'] for j in jj})==24
- assert len({c['block_id'] for c in cc})==24
- assert sum(cc[i]['pass_min_ply']==0 for i in range(0,48,2))==12
- for i in range(0,48,2):
+ p=g.protocol();jj=g.jobs();cc=g.cells();assert len(jj)==len(cc)==480
+ assert len({j['game_seed'] for j in jj})==240
+ assert len({c['block_id'] for c in cc})==240
+ assert sum(cc[i]['pass_min_ply']==0 for i in range(0,480,2))==120
+ for i in range(0,480,2):
   assert cc[i]['block_id']==cc[i+1]['block_id'] and jj[i]['game_seed']==jj[i+1]['game_seed']
   assert {jj[i]['pass_min_ply'],jj[i+1]['pass_min_ply']}=={0,8}
  assert all(j['black'].simulations()==j['white'].simulations()==256 for j in jj)
  assert g.cells()==cc
  for rule in (0,8):
-  for seed in (8,9,10):
+  for seed in (11,12,13):
    for ib,iw in p['identity_directions']:
-    assert sum(c['pass_min_ply']==rule and c['batch_seed']==seed and (c['black_identity'],c['white_identity'])==(ib,iw) for c in cc)==2
+    assert sum(c['pass_min_ply']==rule and c['batch_seed']==seed and (c['black_identity'],c['white_identity'])==(ib,iw) for c in cc)==20
 
 def test_rule_plan_roundtrip():
  for j in g.jobs():assert entry_to_job(job_to_entry(j),j['batch_id'])==j
 
 def test_pilot_resume_concurrency(tmp_path,small):
  a=tmp_path/'a';b=tmp_path/'b';c=tmp_path/'c'
- assert not g.run(a)['problems']
+ assert not g.run(a)['problems']; assert json.loads((a/'validation.json').read_text())['manifest_status']=='completed'
  assert not g.run(b,concurrency=2)['problems']
  with pytest.raises(g.PilotInterrupted):g.run(c,stop_after=4)
  assert not g.validate(c,False)['problems']
@@ -51,7 +44,7 @@ def test_pilot_resume_concurrency(tmp_path,small):
  assert strip(a)==strip(b)==strip(c)
  saved=snapshot(c);assert not g.run(c,resume=True)['problems'];assert snapshot(c)==saved
  analysis=g.analyze(a)
- assert analysis['pilot_descriptive_only'] and len(analysis['paired_differences'])==8
+ assert analysis['estimation_only'] and len(analysis['paired_differences'])==8
  for row in analysis['paired_differences']:assert row['extra_length_delta']==row['length_delta']-8
  for rec in g.records(a):
   if rec['pass_min_ply']==8:assert rec['move_count']>=10 and not any(m['is_pass'] for m in rec['moves'][:8])
@@ -98,19 +91,19 @@ def test_rule_fault_is_latched(tmp_path,small,monkeypatch):
  with pytest.raises(ConfigMismatch,match='nonretryable'):g.run(out,resume=True)
  assert snapshot(out)==before
 
-@pytest.mark.parametrize('root',['winorlose','winorlose_d0_v1','winorlose_d1_v1','winorlose_d1_estimation_v1'])
+@pytest.mark.parametrize('root',['winorlose','winorlose_d0_v1','winorlose_d1_v1','winorlose_d1_estimation_v1','winorlose_g1_pass8_v1'])
 def test_old_worktrees_protected(root):
  with pytest.raises(ValueError):g.assert_output_allowed(g.ROOT.parent/root/'new_out')
 
 
 def test_measurement_global_checkpoint_boundaries():
  import importlib.util
- spec=importlib.util.spec_from_file_location('measure_g1',g.ROOT/'scripts/measure_g1_pass8_chunk.py')
+ spec=importlib.util.spec_from_file_location('measure_g1',g.ROOT/'scripts/measure_g1_pass8_estimation_chunk.py')
  mod=importlib.util.module_from_spec(spec);spec.loader.exec_module(mod)
- for before in range(48):
+ for before in range(480):
   n=mod.checkpoint_size(before)
-  assert 1<=n<=8 and (before+n)%8==0
- assert [mod.checkpoint_size(i) for i in (0,1,3,8,9,47)]==[8,7,5,8,7,1]
+  assert 1<=n<=24 and (before+n)%24==0
+ assert [mod.checkpoint_size(i) for i in (0,1,3,8,9,47)]==[24,23,21,16,15,1]
 
 
 def test_supplemental_descriptive_arithmetic(tmp_path,small):
@@ -126,12 +119,30 @@ def test_supplemental_descriptive_arithmetic(tmp_path,small):
 
 def test_stale_manifest_recovery_stops_at_global_boundary(tmp_path,small):
  import importlib.util
- spec=importlib.util.spec_from_file_location('measure_g1_stale',g.ROOT/'scripts/measure_g1_pass8_chunk.py')
+ spec=importlib.util.spec_from_file_location('measure_g1_stale',g.ROOT/'scripts/measure_g1_pass8_estimation_chunk.py')
  mod=importlib.util.module_from_spec(spec);spec.loader.exec_module(mod)
  out=tmp_path/'a'
  with pytest.raises(g.PilotInterrupted):g.run(out,stop_after=2)
  f=out/'manifest.json';m=json.loads(f.read_text());m['completed_game_count']=1;m['completed_indexes']=[0];f.write_text(json.dumps(m))
  f=out/'games.jsonl';f.write_text(f.read_text().splitlines()[0]+'\n{torn')
  assert mod.saved_prefix_count(out)==2
- with pytest.raises(g.PilotInterrupted):g.run(out,resume=True,stop_after=mod.checkpoint_size(mod.saved_prefix_count(out)))
+ with pytest.raises(g.PilotInterrupted):g.run(out,resume=True,stop_after=8-mod.saved_prefix_count(out))
  assert len(g.records(out))==8 and not g.validate(out,False)['problems']
+
+
+def test_completed_snapshot_missing_repaired_after_validation(tmp_path,small):
+ out=tmp_path/'run';g.run(out);(out/'validation.json').unlink()
+ assert g.run(out,resume=True)['manifest_status']=='completed'
+ assert json.loads((out/'validation.json').read_text())==g.validate(out)
+
+
+def test_completed_snapshot_corruption_rejected_without_mutation(tmp_path,small):
+ out=tmp_path/'run';g.run(out);(out/'validation.json').write_text('{}')
+ before=snapshot(out)
+ with pytest.raises(ConfigMismatch):g.run(out,resume=True)
+ assert snapshot(out)==before
+
+
+def test_registered_analysis_version_matches_emitted_contract():
+ from winai_loseai.experiments.g1_pass8_estimation_stats import ANALYSIS_VERSION
+ assert g.protocol()["statistics"]["analysis_version"] == ANALYSIS_VERSION

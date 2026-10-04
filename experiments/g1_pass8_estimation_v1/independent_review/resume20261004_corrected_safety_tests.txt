@@ -1,0 +1,103 @@
+........FF                                                               [100%]
+=================================== FAILURES ===================================
+_____ test_global_checkpoint_recovery_partial_inference_and_final_snapshot _____
+
+isolated = PosixPath('/tmp/pytest-of-agent/pytest-10/test_global_checkpoint_recover0/run')
+
+    def test_global_checkpoint_recovery_partial_inference_and_final_snapshot(isolated):
+        spec=importlib.util.spec_from_file_location('m5_independent_measure',g.ROOT/'scripts/measure_g1_pass8_estimation_chunk.py')
+        m=importlib.util.module_from_spec(spec);spec.loader.exec_module(m)
+        with pytest.raises(g.PilotInterrupted):g.run(isolated,stop_after=1)
+        assert m.saved_prefix_count(isolated)==1 and m.checkpoint_size(1)==23
+        assert g.analyze(isolated)['inference'] is None
+        with pytest.raises(g.PilotInterrupted):g.run(isolated,resume=True,stop_after=m.checkpoint_size(m.saved_prefix_count(isolated)))
+        assert m.saved_prefix_count(isolated)==24
+        assert not g.validate(isolated,require_complete=False)['problems']
+        assert g.analyze(isolated)['inference'] is None
+        cc=g.cells();assert all(cc[i]['block_id']==cc[i+1]['block_id'] for i in range(0,24,2))
+>       result=g.run(isolated,resume=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+experiments/g1_pass8_estimation_v1/independent_review/test_resume20261004_independent_safety.py:55: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+src/winai_loseai/experiments/g1_pass8_estimation.py:389: in run
+    return run_locked(out,concurrency,resume,stop_after)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src/winai_loseai/experiments/g1_pass8_estimation.py:439: in run_locked
+    if experiment_lock()!=locked:raise ConfigMismatch('G1-pass8 inputs changed while running')
+       ^^^^^^^^^^^^^^^^^
+src/winai_loseai/experiments/g1_pass8_estimation.py:80: in experiment_lock
+    return {'experiment_id':p['experiment_id'], **current_provenance(),
+                                                  ^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def current_provenance():
+        if fingerprint(source_inventory()) != SOURCE_FINGERPRINT:
+>           raise RuntimeError("experiment source changed during this process; use a fresh version/directory")
+E           RuntimeError: experiment source changed during this process; use a fresh version/directory
+
+src/winai_loseai/provenance.py:34: RuntimeError
+----------------------------- Captured stdout call -----------------------------
+[G1-pass8] saved 1/32 budget=1 plies=36 wall_ms=70.129
+[G1-pass8] saved 2/32 budget=1 plies=36 wall_ms=74.872
+[G1-pass8] saved 3/32 budget=1 plies=22 wall_ms=58.281
+[G1-pass8] saved 4/32 budget=1 plies=38 wall_ms=100.318
+[G1-pass8] saved 5/32 budget=1 plies=25 wall_ms=49.793
+[G1-pass8] saved 6/32 budget=1 plies=29 wall_ms=77.859
+[G1-pass8] saved 7/32 budget=1 plies=33 wall_ms=84.672
+[G1-pass8] saved 8/32 budget=1 plies=41 wall_ms=89.607
+[G1-pass8] saved 9/32 budget=1 plies=44 wall_ms=99.108
+[G1-pass8] saved 10/32 budget=1 plies=34 wall_ms=77.245
+[G1-pass8] saved 11/32 budget=1 plies=34 wall_ms=95.698
+[G1-pass8] saved 12/32 budget=1 plies=28 wall_ms=78.894
+[G1-pass8] saved 13/32 budget=1 plies=27 wall_ms=87.77
+[G1-pass8] saved 14/32 budget=1 plies=30 wall_ms=122.97
+[G1-pass8] saved 15/32 budget=1 plies=65 wall_ms=132.005
+[G1-pass8] saved 16/32 budget=1 plies=26 wall_ms=61.835
+[G1-pass8] saved 17/32 budget=1 plies=51 wall_ms=128.058
+[G1-pass8] saved 18/32 budget=1 plies=36 wall_ms=75.709
+[G1-pass8] saved 19/32 budget=1 plies=40 wall_ms=122.192
+[G1-pass8] saved 20/32 budget=1 plies=48 wall_ms=142.334
+[G1-pass8] saved 21/32 budget=1 plies=28 wall_ms=91.361
+[G1-pass8] saved 22/32 budget=1 plies=58 wall_ms=148.137
+[G1-pass8] saved 23/32 budget=1 plies=34 wall_ms=104.007
+[G1-pass8] saved 24/32 budget=1 plies=33 wall_ms=59.47
+[G1-pass8] saved 25/32 budget=1 plies=26 wall_ms=72.102
+[G1-pass8] saved 26/32 budget=1 plies=38 wall_ms=98.822
+_______ test_interruption_after_finish_before_validation_write_recovers ________
+
+isolated = PosixPath('/tmp/pytest-of-agent/pytest-10/test_interruption_after_finish0/run')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7f9a44342c00>
+
+    def test_interruption_after_finish_before_validation_write_recovers(isolated,monkeypatch):
+        atomic=g.atomic_json
+        def interrupt(path,value):
+            if Path(path).name=='validation.json':raise KeyboardInterrupt()
+            return atomic(path,value)
+        monkeypatch.setattr(g,'atomic_json',interrupt)
+>       with pytest.raises(KeyboardInterrupt):g.run(isolated)
+                                              ^^^^^^^^^^^^^^^
+
+experiments/g1_pass8_estimation_v1/independent_review/test_resume20261004_independent_safety.py:68: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+src/winai_loseai/experiments/g1_pass8_estimation.py:389: in run
+    return run_locked(out,concurrency,resume,stop_after)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src/winai_loseai/experiments/g1_pass8_estimation.py:395: in run_locked
+    out=assert_output_allowed(out);p=protocol();locked=experiment_lock();plan=jobs(p)
+                                                       ^^^^^^^^^^^^^^^^^
+src/winai_loseai/experiments/g1_pass8_estimation.py:80: in experiment_lock
+    return {'experiment_id':p['experiment_id'], **current_provenance(),
+                                                  ^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def current_provenance():
+        if fingerprint(source_inventory()) != SOURCE_FINGERPRINT:
+>           raise RuntimeError("experiment source changed during this process; use a fresh version/directory")
+E           RuntimeError: experiment source changed during this process; use a fresh version/directory
+
+src/winai_loseai/provenance.py:34: RuntimeError
+=========================== short test summary info ============================
+FAILED experiments/g1_pass8_estimation_v1/independent_review/test_resume20261004_independent_safety.py::test_global_checkpoint_recovery_partial_inference_and_final_snapshot
+FAILED experiments/g1_pass8_estimation_v1/independent_review/test_resume20261004_independent_safety.py::test_interruption_after_finish_before_validation_write_recovers
+2 failed, 8 passed in 6.57s

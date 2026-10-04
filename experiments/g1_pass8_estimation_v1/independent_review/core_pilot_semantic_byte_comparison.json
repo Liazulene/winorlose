@@ -1,0 +1,128 @@
+{
+  "recorded_at_utc": "2026-10-04T08:03:40.995663+00:00",
+  "covered": "All existing package non-experiment source excluding __init__.py version/modules",
+  "file_count": 20,
+  "all_identical": true,
+  "files": [
+    {
+      "path": "src/winai_loseai/__main__.py",
+      "pilot_sha256": "307299fda7b77d22c64cb51430ec75e5f59d78e9c948786afb3b2544fe45e4b7",
+      "current_sha256": "307299fda7b77d22c64cb51430ec75e5f59d78e9c948786afb3b2544fe45e4b7",
+      "byte_identical": true
+    },
+    {
+      "path": "src/winai_loseai/agents/factory.py",
+      "pilot_sha256": "b9b1ac041f649d205d7eecb03f36779b237be899b8cf0735ea6e507a90820fca",
+      "current_sha256": "b9b1ac041f649d205d7eecb03f36779b237be899b8cf0735ea6e507a90820fca",
+      "byte_identical": true
+    },
+    {
+      "path": "src/winai_loseai/agents/random_agent.py",
+      "pilot_sha256": "b1a808fe15c9c17f444f225dca0b24b1f54ea3c818a844b020107ca9ae0be9e6",
+      "current_sha256": "b1a808fe15c9c17f444f225dca0b24b1f54ea3c818a844b020107ca9ae0be9e6",
+      "byte_identical": true
+    },
+    {
+      "path": "src/winai_loseai/agents/vector_mcts.py",
+      "pilot_sha256": "a60114ee485397ab6f39255b6e882d840ea112253699f8fb31e26231330d12c7",
+      "current_sha256": "a60114ee485397ab6f39255b6e882d840ea112253699f8fb31e26231330d12c7",
+      "byte_identical": true
+    },
+    {
+      "path": "src/winai_loseai/analysis/stats.py",
+      "pilot_sha256": "22c7f9695e7c3cfe9d7f151e94a08f2c236cf572725b44e36ef15de7894a938b",
+      "current_sha256": "22c7f9695e7c3cfe9d7f151e94a08f2c236cf572725b44e36ef15de7894a938b",
+      "byte_identical": true
+    },
+    {
+      "path": "src/winai_loseai/analysis/summary.py",
+      "pilot_sha256": "e123f0fd5374096114c158895ea7a9556f4975b03d2113fd893eeddf83fa4c1b",
+      "current_sha256": "e123f0fd5374096114c158895ea7a9556f4975b03d2113fd893eeddf83fa4c1b",
+      "byte_identical": true
+    },
+    {
+      "path": "src/winai_loseai/cli.py",
+      "pilot_sha256": "069b212b88a4c393550aa40936fb62613d9792e54d848006fa49d6e6e49b0dfc",
+      "current_sha256": "069b212b88a4c393550aa40936fb62613d9792e54d848006fa49d6e6e49b0dfc",
+      "byte_identical": true
+    },
+    {
+      "path": "src/winai_loseai/game/scoring.py",
+      "pilot_sha256": "e8ac325ad492c159bef770f09ecf0fbf5cbe9920d985042a7908fee45cffc3fd",
+      "current_sha256": "e8ac325ad492c159bef770f09ecf0fbf5cbe9920d985042a7908fee45cffc3fd",
+      "byte_identical": true
+    },
+    {
+      "path": "src/winai_loseai/game/state.py",
+      "pilot_sha256": "637752d900a0eb3b5e1e72d5648cfa89a4dbe7eb1bc0447db05068689b7eb292",
+      "current_sha256": "637752d900a0eb3b5e1e72d5648cfa89a4dbe7eb1bc0447db05068689b7eb292",
+      "byte_identical": true
+    },
+    {
+      "path": "src/winai_loseai/identity.py",
+      "pilot_sha256": "a44d60154f10fbbf5c484fa12b7bbb2dc1bf42d3c8f3713ecbdf69aa4d5579e1",
+      "current_sha256": "a44d60154f10fbbf5c484fa12b7bbb2dc1bf42d3c8f3713ecbdf69aa4d5579e1",
+      "byte_identical": true
+    },
+    {
+      "path": "src/winai_loseai/league/batch.py",
+      "pilot_sha256": "a244856c8eccf0568aecdfbf9c3c54530084a7e1dadeea167877175f51031704",
+      "current_sha256": "a244856c8eccf0568aecdfbf9c3c54530084a7e1dadeea167877175f51031704",
+      "byte_identical": true
+    },
+    {
+      "path": "src/winai_loseai/league/pairing.py",
+      "pilot_sha256": "2e6f91bfffdac5736aa6772decfb4e0b3a4d7cd8bea03dfaf6679f3ffc047d81",
+      "current_sha256": "2e6f91bfffdac5736aa6772decfb4e0b3a4d7cd8bea03dfaf6679f3ffc047d81",
+      "byte_identical": true
+    },
+    {
+      "path": "src/winai_loseai/league/replay.py",
+      "pilot_sha256": "7eba73a4162424434ccb5496d2a4e11b3a367a10419dbf36b051aa3a6d83e7d4",
+      "current_sha256": "7eba73a4162424434ccb5496d2a4e11b3a367a10419dbf36b051aa3a6d83e7d4",
+      "byte_identical": true
+    },
+    {
+      "path": "src/winai_loseai/league/runner.py",
+      "pilot_sha256": "ce9c4f17df168a89fdcd52206b16d256d80ed9275b889481f3e949c187902aee",
+      "current_sha256": "ce9c4f17df168a89fdcd52206b16d256d80ed9275b889481f3e949c187902aee",
+      "byte_identical": true
+    },
+    {
+      "path": "src/winai_loseai/league/runstore.py",
+      "pilot_sha256": "2f36e887e59bfabf2007c65383e6346d2056bbf118ff6588953653aa3ef82250",
+      "current_sha256": "2f36e887e59bfabf2007c65383e6346d2056bbf118ff6588953653aa3ef82250",
+      "byte_identical": true
+    },
+    {
+      "path": "src/winai_loseai/league/seeds.py",
+      "pilot_sha256": "3ce341b41f82a0af88934366aee41e3b2c5d04ceefeea08ac12620668b7c2d82",
+      "current_sha256": "3ce341b41f82a0af88934366aee41e3b2c5d04ceefeea08ac12620668b7c2d82",
+      "byte_identical": true
+    },
+    {
+      "path": "src/winai_loseai/league/storage.py",
+      "pilot_sha256": "55ff502ad1a6b29a8faac27c5a4f514751ba0ae992c9263c7bff179acce7c719",
+      "current_sha256": "55ff502ad1a6b29a8faac27c5a4f514751ba0ae992c9263c7bff179acce7c719",
+      "byte_identical": true
+    },
+    {
+      "path": "src/winai_loseai/provenance.py",
+      "pilot_sha256": "33a4370d981b646148ab2a3e36853e5ca896749229f0730abc50c11ab2d4fdad",
+      "current_sha256": "33a4370d981b646148ab2a3e36853e5ca896749229f0730abc50c11ab2d4fdad",
+      "byte_identical": true
+    },
+    {
+      "path": "src/winai_loseai/rng.py",
+      "pilot_sha256": "adcb764bdd479656185893c661d5aadb3ced32d030cf7e101208c163892441ce",
+      "current_sha256": "adcb764bdd479656185893c661d5aadb3ced32d030cf7e101208c163892441ce",
+      "byte_identical": true
+    },
+    {
+      "path": "src/winai_loseai/spec.py",
+      "pilot_sha256": "9ca42cec49b39dd2bddee1eac67cef5fe5a08170cbdbbe70ccfc6c3991939c24",
+      "current_sha256": "9ca42cec49b39dd2bddee1eac67cef5fe5a08170cbdbbe70ccfc6c3991939c24",
+      "byte_identical": true
+    }
+  ]
+}

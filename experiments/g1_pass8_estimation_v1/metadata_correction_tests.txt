@@ -1,0 +1,12 @@
+..F                                                                      [100%]
+=================================== FAILURES ===================================
+__________ test_registered_analysis_version_matches_emitted_contract ___________
+
+    def test_registered_analysis_version_matches_emitted_contract():
+>    from winai_loseai.experiments.g1_pass8_estimation_stats import ANALYSIS_VERSION
+E    ImportError: cannot import name 'ANALYSIS_VERSION' from 'winai_loseai.experiments.g1_pass8_estimation_stats' (/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/src/winai_loseai/experiments/g1_pass8_estimation_stats.py)
+
+tests/test_g1_pass8_estimation.py:147: ImportError
+=========================== short test summary info ============================
+FAILED tests/test_g1_pass8_estimation.py::test_registered_analysis_version_matches_emitted_contract
+1 failed, 2 passed in 1.28s

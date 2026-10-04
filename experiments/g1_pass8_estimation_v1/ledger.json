@@ -1,0 +1,16 @@
+{
+  "experiment_id": "G1-pass8-estimation-v1",
+  "phase": "pre_execution_freeze",
+  "decision": "Fixed480 paired rule estimation only; M4 and all history excluded",
+  "completed": 0,
+  "planned": 480,
+  "gates": {
+    "full_suite": true,
+    "G0_exact_regression3": true,
+    "independent_code_and_statistics_review": true,
+    "all_history_unchanged": true
+  },
+  "7x7": "NO-GO",
+  "next_phase_started": false,
+  "next": "Verify complete remote freeze, then20 fixed24-game checkpoints at concurrency1. Full-sample inference only."
+}

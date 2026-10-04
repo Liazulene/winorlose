@@ -1,0 +1,52 @@
+[
+  {
+    "recorded_at_utc": "2026-10-04T08:00:10.069987+00:00",
+    "root": "/workspace/scratch/50e0c7c6aca1/winorlose",
+    "head": "2a69925ead3ff8543ee109dd71754a9796073d49",
+    "tracked_files": 15868,
+    "all_tracked_bytes_match_head": true,
+    "differences": [],
+    "inventory_sha256": "6ce7ba2098f08d63c88b315cde0ba34044d104efd637c780432bb39286498884",
+    "limitations": "Post-restoration snapshot. This establishes present tracked bytes only, not that no earlier writes occurred. Untracked files are outside tracked-byte inventory."
+  },
+  {
+    "recorded_at_utc": "2026-10-04T08:00:14.633427+00:00",
+    "root": "/workspace/scratch/50e0c7c6aca1/winorlose_d0_v1",
+    "head": "d5cbbca637256d123b73f88ed67dced23393a9cc",
+    "tracked_files": 15929,
+    "all_tracked_bytes_match_head": true,
+    "differences": [],
+    "inventory_sha256": "e13de427cb9aafb132b62822be9786e227047db23be55229ba2376704599f6a5",
+    "limitations": "Post-restoration snapshot. This establishes present tracked bytes only, not that no earlier writes occurred. Untracked files are outside tracked-byte inventory."
+  },
+  {
+    "recorded_at_utc": "2026-10-04T08:00:18.699319+00:00",
+    "root": "/workspace/scratch/50e0c7c6aca1/winorlose_d1_v1",
+    "head": "f315cfa9cfba8b2b69b456c8d730012cf98f5e2f",
+    "tracked_files": 16019,
+    "all_tracked_bytes_match_head": true,
+    "differences": [],
+    "inventory_sha256": "1fd07e505a47ac4e4d82e8fea60a0fc79732db464e4b1aa705ab74b6538c0d70",
+    "limitations": "Post-restoration snapshot. This establishes present tracked bytes only, not that no earlier writes occurred. Untracked files are outside tracked-byte inventory."
+  },
+  {
+    "recorded_at_utc": "2026-10-04T08:00:22.956136+00:00",
+    "root": "/workspace/scratch/50e0c7c6aca1/winorlose_d1_estimation_v1",
+    "head": "c180d059eec5e9f36dfe9fef255275c585edb568",
+    "tracked_files": 16902,
+    "all_tracked_bytes_match_head": true,
+    "differences": [],
+    "inventory_sha256": "f8f469c9490fa8a40631b4e21a0f826ca6fd74786113bfb3654917ea18f715f1",
+    "limitations": "Post-restoration snapshot. This establishes present tracked bytes only, not that no earlier writes occurred. Untracked files are outside tracked-byte inventory."
+  },
+  {
+    "recorded_at_utc": "2026-10-04T08:00:27.360411+00:00",
+    "root": "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_v1",
+    "head": "e28833c388438f33d49dbbde90ae63b6e3a4a0cb",
+    "tracked_files": 17054,
+    "all_tracked_bytes_match_head": true,
+    "differences": [],
+    "inventory_sha256": "93d31065237f37dd13608118601af43686ae721efb75f1a07ccb35ae0a1885f0",
+    "limitations": "Post-restoration snapshot. This establishes present tracked bytes only, not that no earlier writes occurred. Untracked files are outside tracked-byte inventory."
+  }
+]

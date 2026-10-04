@@ -1,0 +1,3 @@
+{'game_index': 240, 'source_game_sha256': 'b4e9a0ace4b236a9db75efbd526a47816eadb3d73a79813e0a11328e592c92db', 'same_complete_gameplay_excluding_timing_provenance_newrule': True, 'budget': 256, 'moves': 28}
+{'game_index': 320, 'source_game_sha256': 'f596339547225f66d817cad5d437c81540fd546a250495ef1367a85b6bc36fdf', 'same_complete_gameplay_excluding_timing_provenance_newrule': True, 'budget': 256, 'moves': 28}
+{'game_index': 400, 'source_game_sha256': '087ef0eeb7bcb974e5b1a5fd4a70569027f594a396ca8af61a4fd6f3ec38a1b0', 'same_complete_gameplay_excluding_timing_provenance_newrule': True, 'budget': 256, 'moves': 28}

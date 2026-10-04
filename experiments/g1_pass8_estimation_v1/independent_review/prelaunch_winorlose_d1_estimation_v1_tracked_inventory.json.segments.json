@@ -1,0 +1,50 @@
+{
+  "encoding": "gzip of exact UTF-8 JSON bytes, segmented in named order",
+  "raw_filename": "prelaunch_winorlose_d1_estimation_v1_tracked_inventory.json",
+  "raw_bytes": 7237050,
+  "raw_sha256": "78e3e9ad3ebd0fb2fbae3e73f0df183c6e782f4b9dd332a4f7dceb696dc966a3",
+  "gzip_bytes": 1405998,
+  "gzip_sha256": "d5ae3dcbd8616df50352139dd83aba7b2643de634565ace3d8543a58b70b3944",
+  "parts": [
+    {
+      "name": "prelaunch_winorlose_d1_estimation_v1_tracked_inventory.json.gz.part01",
+      "bytes": 196608,
+      "sha256": "8b051897758a231caa23099fabef92fcfa3a428af42d19fa94a6c604e20e53a0"
+    },
+    {
+      "name": "prelaunch_winorlose_d1_estimation_v1_tracked_inventory.json.gz.part02",
+      "bytes": 196608,
+      "sha256": "99d7f5b96b8d21919180ea2c48656e555671fd61477216b9d28a26c1062b797f"
+    },
+    {
+      "name": "prelaunch_winorlose_d1_estimation_v1_tracked_inventory.json.gz.part03",
+      "bytes": 196608,
+      "sha256": "b564b94ff53769e338e02f66f43ae19d3c637df67835fbfefb4e816de196f9a0"
+    },
+    {
+      "name": "prelaunch_winorlose_d1_estimation_v1_tracked_inventory.json.gz.part04",
+      "bytes": 196608,
+      "sha256": "10094cf59553f5c1155b986c34865beab9b9bf0ebf5c0e593bf5b37227281434"
+    },
+    {
+      "name": "prelaunch_winorlose_d1_estimation_v1_tracked_inventory.json.gz.part05",
+      "bytes": 196608,
+      "sha256": "e0cfc48318d9724277e3b8649a746712e93e2435c3530224a385f3698628a6b2"
+    },
+    {
+      "name": "prelaunch_winorlose_d1_estimation_v1_tracked_inventory.json.gz.part06",
+      "bytes": 196608,
+      "sha256": "a7176a154c5187cb9bf636aa8afb088e228618601d85492ab445b7f8888be0ba"
+    },
+    {
+      "name": "prelaunch_winorlose_d1_estimation_v1_tracked_inventory.json.gz.part07",
+      "bytes": 196608,
+      "sha256": "dd7a0c7473ac3dfc3d1f5163ade9cc39bd8ad51ae48e2f33c4bdd6bdda795dcd"
+    },
+    {
+      "name": "prelaunch_winorlose_d1_estimation_v1_tracked_inventory.json.gz.part08",
+      "bytes": 29742,
+      "sha256": "42ae2b4601103b19d1e2331c9f7149725816db90035dd9fbc46ff3ce6b0947cd"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "preproduction": true,
+  "formal_games_generated_by_this_work": 0,
+  "method": "Four CP goal deltas plus four Hoeffding length deltas; Bonferroni joint8family95%",
+  "precision": {
+    "pooled": {
+      "n_pairs": 60,
+      "feasible_discordance_count_combinations": 1891,
+      "pointwise95": {
+        "interval_confidence_level": 0.95,
+        "goal_component_two_sided_confidence_level": 0.975,
+        "goal_all_concordant_ci": [
+          -0.0704305687985048,
+          0.0704305687985048
+        ],
+        "goal_maximum_full_width": 0.595823972588579,
+        "goal_maximum_distance_from_estimate": 0.30527588577299797,
+        "goal_full_width_maximizers_nplus_nminus": [
+          [
+            30,
+            30
+          ]
+        ],
+        "raw_length_unclipped_radius": 32.96206853164747,
+        "goal_hoeffding_audit_radius": 0.3506603035281646
+      },
+      "joint_family8_95": {
+        "interval_confidence_level": 0.99375,
+        "goal_component_two_sided_confidence_level": 0.996875,
+        "goal_all_concordant_ci": [
+          -0.10209511614447069,
+          0.10209511614447069
+        ],
+        "goal_maximum_full_width": 0.7631904840310403,
+        "goal_maximum_distance_from_estimate": 0.39644253528899964,
+        "goal_full_width_maximizers_nplus_nminus": [
+          [
+            30,
+            30
+          ]
+        ],
+        "raw_length_unclipped_radius": 41.21847656849769,
+        "goal_hoeffding_audit_radius": 0.4384944315797627
+      },
+      "marginal_rate_all_success_pointwise95_ci": [
+        0.940370507713833,
+        1.0
+      ],
+      "interpretation": "Resource-bounded coarse fixed-sample estimation; no small-effect, equivalence, or rare-failure assurance; no automatic expansion."
+    },
+    "per_seed": {
+      "n_pairs": 20,
+      "feasible_discordance_count_combinations": 231,
+      "pointwise95": {
+        "interval_confidence_level": 0.95,
+        "goal_component_two_sided_confidence_level": 0.975,
+        "goal_all_concordant_ci": [
+          -0.19675967970462555,
+          0.19675967970462555
+        ],
+        "goal_maximum_full_width": 1.0143214562293417,
+        "goal_maximum_distance_from_estimate": 0.5472945056583418,
+        "goal_full_width_maximizers_nplus_nminus": [
+          [
+            10,
+            10
+          ]
+        ],
+        "raw_length_unclipped_radius": 57.091977419380676,
+        "goal_hoeffding_audit_radius": 0.6073614619083051
+      },
+      "marginal_rate_all_success_pointwise95_ci": [
+        0.8315665290169146,
+        1.0
+      ],
+      "interpretation": "Resource-bounded coarse fixed-sample estimation; no small-effect, equivalence, or rare-failure assurance; no automatic expansion."
+    }
+  },
+  "numerical_enumeration_scope": "Every integer pair(nplus,nminus)with nplus>=0,nminus>=0,nplus+nminus<=n; concordant split does not change the rectangle interval. Deterministic precision calculation, not Monte Carlo or outcome analysis.",
+  "empirical_bernstein_decision": {
+    "source": "https://arxiv.org/pdf/0907.3740",
+    "theorem": "Maurer-Pontil2009Theorem11, independent not necessarily identically distributed",
+    "formula": "Two-sided radius on support widthR is R*(sqrt(2*s2*log(4/alpha)/n)+7*log(4/alpha)/(3*(n-1))), where s2 is sample variance after scaling to[0,1].",
+    "zero_variance_length_family8_n60_radius": 48.04119841853951,
+    "decision": "Omitted: even its zero-variance radius exceeds the registered Hoeffding41.21847657 at n60family8. No posthoc bound selection."
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "scipy": "1.17.0",
+    "numpy": "2.3.5"
+  },
+  "new_statistics_source_sha256": "f38f72a7b22f3c4938aa193ea7fcf25e1457788c0f862101dc07119122dc2785",
+  "inherited_CP_source_sha256": "18881afa7df0068e0883a609285087a58e749ffa98b7484a18635448a74bbe69",
+  "reported_levels": {
+    "pooled": [
+      "pointwise95",
+      "joint_family8_95"
+    ],
+    "per_seed": [
+      "pointwise95 only; no per-seed simultaneous family"
+    ]
+  }
+}

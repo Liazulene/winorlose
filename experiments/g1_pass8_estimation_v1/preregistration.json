@@ -1,0 +1,148 @@
+{
+  "experiment_id": "G1-pass8-estimation-v1",
+  "code_version": "winai_loseai-0.7.0-g1-pass8-estimation",
+  "schema_version": 2,
+  "purpose": "Fixed480 paired rule-intervention estimation; exclude all pilot and historical games.",
+  "batch_id": "g1_pass8_estimation_v1",
+  "parent_commit": "e28833c388438f33d49dbbde90ae63b6e3a4a0cb",
+  "hypotheses": [
+    "At fixed256 simulations and komi2.5, changing early-pass availability may change black goals in WW/LL and common goals in WL/LW. Direction is not assumed.",
+    "Paired raw-length differences describe the whole rule intervention, including branching/rollout/trajectory changes. The mechanical floor shifts2to10; rawmean need not increase; extra delta equals rawdelta-8 and does not isolate coordination."
+  ],
+  "board_size": 5,
+  "komi": 2.5,
+  "budget": 256,
+  "pass_min_plies": [
+    0,
+    8
+  ],
+  "batch_seeds": [
+    11,
+    12,
+    13
+  ],
+  "identity_directions": [
+    [
+      "WIN",
+      "WIN"
+    ],
+    [
+      "LOSE",
+      "LOSE"
+    ],
+    [
+      "WIN",
+      "LOSE"
+    ],
+    [
+      "LOSE",
+      "WIN"
+    ]
+  ],
+  "agent_seed_orientations": [
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      1
+    ]
+  ],
+  "games_per_cell": 10,
+  "planned_games": 480,
+  "schedule_seed": 2026100402,
+  "rule_semantics": {
+    "G0": "pass_min_ply=0; pass is legal on every nonterminal state.",
+    "G1-pass8": "pass_min_ply=8; action at zero-based ply0..7 forbidden; legal at ply8, the ninth action. Earliest double-pass terminal is after10 actions. Same rule applies to real moves, tree nodes, expansion and uniform rollout.",
+    "no_legal_nonpass": "Fail closed with NoLegalActionError during banned window. Never pass, skip turn, score early, alter superko, resample or silently replace a game. Abort current game/search and pause pilot; preserve fault state, current game and traceback. No outcome is imputed. This is an explicitly partial rule probe outside no-action states, not a total rule extension.",
+    "unchanged": "Black first; area scoring; no suicide; non-pass situational superko; legal pass superko exemption/history; doublepass precedence over100-ply cap; simple vector identity utilities."
+  },
+  "seed_mapping": "game_seed_for(batch_seed,((identity_index*2+orientation_index)*games_per_cell+replicate)). Each of240blocks shares game seed and both colour/agent initial RNG seeds between0/8arms;480distinct colour/agent initial streams. Newseeds11/12/13; verify all prior inventories including48pilot. Hash noncollision does not prove stochastic independence.",
+  "execution_order": "Build240blocks in seed,identity,orientation,replicate order; random.Random(2026100402).shuffle(blocks), then shuffle120[0,8] and120[8,0] arm orders using same independent scheduling RNG. Each pair adjacent. Freeze complete480job plan beforefirstgame.",
+  "fixed_factors": [
+    "Both players256 simulations, same vector MCTS/UCT/maximum-visit ties and uniform-over-legal rollout algorithm; restriction changes legal rollout choices as part of rule intervention.",
+    "5x5,komi2.5,agent seeds1/2; no learning or tuning across games."
+  ],
+  "primary_engineering_endpoints": [
+    "Illegal early pass in any actual action or search root set",
+    "Rule/replay/source/protocol/record faults; nolegal faults recorded separately",
+    "G0 same-code deterministic regression and G1 interrupted/resumed reproducibility",
+    "Child wall/CPU/peakRSS; per-rule game/search costs; output bytes"
+  ],
+  "descriptive_behavior_endpoints": [
+    "Four identity directions separately, per seed and pooled; black/white board winner and identity goals; mixed joint goal counted once.",
+    "Length distribution min,Q1,median,Q3,P90,P95,max;2/3/le8/exact10/le10/ge60; terminal reasons and superko.",
+    "Extra length = game actions minus(rule pass_min_ply+2); descriptive reference, not a causal adjustment. Paired extra delta = raw delta-8 exactly.",
+    "First pass action number and first legal-pass delay; proposer colour/immediate goal vector/second-pass acceptance with event denominators, not independent game trials.",
+    "Actual placements and captured-by-opponent counts; exact and END-padded4/8/12 action prefixes.",
+    "G0 short-route counts; G1 these routes are structurally unavailable, not an efficacy endpoint. Paired goal/winner/length differences.",
+    "Prespecified shortest/lower-median/longest per rule×direction, ties game_id; all move_limit and mixed goal failures."
+  ],
+  "statistics": {
+    "analysis_version": "g1-pass8-fixed-paired-cp-hoeffding-v1",
+    "estimand": "G1 minus G0 average outcome under independent pseudorandom-stream replications of the fixed tested design. Equal six batch-seed by orientation strata pooled; equal two orientations per named seed. Arbitrary within-pair dependence and heterogeneous probabilities allowed. Fixed deterministic seed results themselves have no sampling uncertainty; CIs describe hypothetical stream replications and do not generalize to unrun policies, agent seeds or batch seeds.",
+    "paired_goal_method": "Let D=Y_G1-Y_G0, n01=sum(D=1), n10=sum(D=-1), with ordered bits(G0,G1). At target confidence1-alpha construct two TWO-SIDED equal-tail Clopper-Pearson component CIs each at1-alpha/2 for n01/n and n10/n. Return[Lplus-Uminus,Uplus-Lminus]. Union-bound projection; no component-independence assumption. Heterogeneous-average coverage justified by Mattner-Tasto2015 theorem1.3/arXiv1403.0229v3 theorem1.12; do not use one-sidedCP.",
+    "marginal_rates": "Two-sided equal-tailCP95percent; report successes/n. Black/white board/identity outcomes separate. Mixed joint goals count once pergame. WW/LL never replaced by same aggregate.",
+    "length_method": "For paired D=length_G1-length_G0 in[-90,98], Hoeffding CI clips meanD +/- 188*sqrt(log(2/alpha)/(2*n)) to[-90,98]. Independent bounded, not necessarily identical, paired-block outcomes. No normal approximation/bootstrap uncertainty claim.",
+    "extra_length": "Length minus(rule pass_min_ply+2); extra delta=rawdelta-8 exactly; interval=rawinterval-8. A derived relabeling, not another family endpoint and not causal removal of mechanical effects.",
+    "multiplicity": "One pooled eight-estimand family: WW blackgoaldelta,LL blackgoaldelta,WL jointgoaldelta,LW jointgoaldelta,and4direction rawlengthdeltas. Eachalpha=.05/8=.00625; simultaneousfamily coverage>=95percent byBonferroni. PairedCP componentconfidence=.996875. Extra mirrors raw. Other95percent CIs, all perseed and perstratum CIs are pointwise only, never simultaneously valid across these panels.",
+    "audit": "Hoeffding goalCI shown separately usingD in[-1,1]; do not choose tighter method or intersect intervals.",
+    "full_sample_only": "No formal intervals on partial data. Fixed480, no outcome-based stopping/expansion, no pvalues/significanceflags/equivalence/rare-failure certification.",
+    "precision": "n60pairedblocks/direction; n20perseed/direction. Family95percentCP all-concordant halfwidth0.1020951161; max feasibleCP fullwidth0.7631904840(atn01=n10=30). Pointwise n20 all-concordant halfwidth0.1967596797. Family95percentHoeffding length halfwidth41.21847657actions, perseed pointwise57.09197742. This is coarse bounded estimation, not promised small-effect precision.480chosen as10foldpilot cost-supported feasible design, no outcome tuning. Full numerical planning grid and formulas frozen separately.",
+    "pooling": "Only formal480; exclude48pilot, D0,D1 and old15600. All six fixed strata equal size10. Raw/fullsample results remain primary; no removal of shortgames.",
+    "events": "Pass proposals and accepted responses have explicit event opportunities and available-next-action denominator. Repeated proposals within game dependent; descriptive only, no event-as-independent-game CIs.",
+    "mixed_same": "Supplementary equal-direction summaries of mixed,same,mixed-WW,mixed-LL; descriptive, no acrossdirection artificial pairing.",
+    "sources": [
+      "https://arxiv.org/pdf/1403.0229",
+      "https://doi.org/10.1080/01621459.1963.10500830"
+    ]
+  },
+  "expansion_rule": "None. Exactly480games /240pairedblocks. No efficacy/interimCI or outcome-driven optional stopping, seed replacement, imputation, or sample resizing. Safety pause remains incomplete; any new design requires separate preregistration.",
+  "resource_policy": {
+    "concurrency": 1,
+    "test_concurrency": [
+      1,
+      2
+    ],
+    "checkpoint_games": 24,
+    "compute_warning_seconds": 11280,
+    "compute_pause_seconds": 28800,
+    "stop_conditions": [
+      "Any rule/no-action/integrity/replay/source/seed mismatch",
+      "Unexpected resource pressure or historical alteration",
+      "Repeated blocking sync fault: preserve localcheckpoint and pause; no uncertainwrite retries",
+      "Cumulative measured childwall reaches28800seconds (8hours): pause before next24gamechunk; currentchunk mayfinish. Alert at11280seconds (188minutes); do notchangefixedN. This is not pergame timeout or hardRSS cap."
+    ],
+    "retry_policy": "No seed replacement. Safe deterministic recovery only after diagnosis of ordinary interruption. NoLegalActionError is nonretryable in this frozen version. Two failed recovery attempts for same persistent fault require backup where possible and pause.",
+    "github_sync": "Every24games(12completepairs), validate savedprefix, sync complete rawcheckpoint and verify remote commit/tree before nextchunk. Largeblobs separately; noforcepush/mainmerge. Localatomicwrites/flush everygame.",
+    "prior_cost": "M4 fixed48 measured750.7507childwallseconds. Linear480 extrapolation7507.507seconds(125.13minutes); plus50percent11261.26seconds(187.69minutes), excluding remote sync/fulltests/audit/report. Alert11280seconds, hardreviewpause28800seconds; concurrency1."
+  },
+  "validation": [
+    "All legacy tests plus rule/search/rollout/replay boundary and failclosed tests",
+    "Every game per-action legality,root keys/visits/Q,final board/score/utility,source and rule metadata",
+    "Fresh versus resume and concurrency1/2 deterministic synthetic test protocols, no production concurrency2",
+    "LegacyG0 predesignated one D1medium minimum-index game perseed,3 total, newcode default0 exact non-timing/non-version/non-rule comparison; no sample increment",
+    "After formal480 regenerate lowest game_index perrule×batchseed,6 total, exact excluding timing",
+    "Full raw source/runtime/protocol/entry/measurement locks",
+    "Historical five worktree tracked-byte preservation before and after; no writes to old reports/locks",
+    "Independent design and code review before launch; independent final arithmetic/terminal area check",
+    "Final manifest and validation.json must both explicitly report completed after store.finish; independently verify locked plan and every saved source stamp."
+  ],
+  "boundaries": [
+    "7x7 NO-GO; komi unresolved; no training",
+    "Effect is whole early-pass rule intervention including changed trajectories and search branches, not isolated pure terminal-channel effect",
+    "Earliest legal terminal shift is mechanical; average length need not increase; extra-length subtraction does not identify coordination",
+    "Same engine replay is consistency check, not formal proof; independent final area check complements it",
+    "OS advisory locks and atomic rename/flush are not power-fail fsync guarantee",
+    "480 is a bounded resource/precision compromise, not chosen from desired outcomes. Wide conservative intervals may leave mechanism magnitude unresolved; no equivalence or rarefailure certificate."
+  ],
+  "registered_before_first_formal_game": true,
+  "primary_estimation_endpoints": [
+    "WW black-goal paired rate delta",
+    "LL black-goal paired rate delta",
+    "WL joint-goal paired rate delta",
+    "LW joint-goal paired rate delta",
+    "Paired raw length mean delta separately for WW,LL,WL,LW: four additional estimands; joint8family"
+  ]
+}
