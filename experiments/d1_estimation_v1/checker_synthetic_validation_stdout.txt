@@ -1,0 +1,15 @@
+test_all_concordance_boundaries_20_60 (__main__.TestSyntheticChecker.test_all_concordance_boundaries_20_60) ... ok
+test_all_discordant_boundaries_20_60 (__main__.TestSyntheticChecker.test_all_discordant_boundaries_20_60) ... ok
+test_comparator_rejects_missing_or_mistyped_primary_fields (__main__.TestSyntheticChecker.test_comparator_rejects_missing_or_mistyped_primary_fields) ... ok
+test_design_balance_and_seed_reuse_are_schema_only (__main__.TestSyntheticChecker.test_design_balance_and_seed_reuse_are_schema_only) ... ok
+test_equal_marginals_different_pairing_gives_different_uncertainty (__main__.TestSyntheticChecker.test_equal_marginals_different_pairing_gives_different_uncertainty) ... ok
+test_independent_cp_residual_self_checks (__main__.TestSyntheticChecker.test_independent_cp_residual_self_checks) ... ok
+test_known_paired_table_symmetry_and_multiplicity (__main__.TestSyntheticChecker.test_known_paired_table_symmetry_and_multiplicity) ... ok
+test_raw_goal_or_score_corruption_is_found (__main__.TestSyntheticChecker.test_raw_goal_or_score_corruption_is_found) ... ok
+test_raw_routes_and_identity_goals_all_four_directions (__main__.TestSyntheticChecker.test_raw_routes_and_identity_goals_all_four_directions) ... ok
+test_scoring_empty_black_white_shared_area (__main__.TestSyntheticChecker.test_scoring_empty_black_white_shared_area) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.304s
+
+OK

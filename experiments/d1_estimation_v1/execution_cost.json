@@ -1,0 +1,211 @@
+{
+  "experiment_id": "D1-G0-estimation-v1",
+  "complete": true,
+  "by_budget": {
+    "64": {
+      "n": 240,
+      "chunks": 10,
+      "child_wall_seconds": 613.5952213509954,
+      "child_cpu_seconds": 613.41507,
+      "cpu_wall_ratio": 0.9997064003357152,
+      "peak_child_rss_kib": 36440,
+      "game_seconds": {
+        "n": 240,
+        "mean": 2.4743712916666665,
+        "min": 0.367244,
+        "q1": 1.713671,
+        "median": 2.6248305,
+        "q3": 3.077452,
+        "p90": 3.7785325,
+        "p95": 4.10179565,
+        "max": 5.11589
+      },
+      "game_wall_seconds_sum": 593.84911,
+      "search_seconds_sum": 593.4275900990398,
+      "game_bytes": 6449247,
+      "pilot_scaled_child_wall_seconds": 627.7335477099859,
+      "actual_to_pilot_scaled_ratio": 0.9774771853271693
+    },
+    "256": {
+      "n": 240,
+      "chunks": 10,
+      "child_wall_seconds": 2165.237272766002,
+      "child_cpu_seconds": 2164.874204,
+      "cpu_wall_ratio": 0.9998323191778709,
+      "peak_child_rss_kib": 55832,
+      "game_seconds": {
+        "n": 240,
+        "mean": 8.818437133333333,
+        "min": 0.9763809999999999,
+        "q1": 5.12842325,
+        "median": 9.0756415,
+        "q3": 11.861392500000001,
+        "p90": 15.019902499999999,
+        "p95": 16.191798,
+        "max": 18.064424
+      },
+      "game_wall_seconds_sum": 2116.424912,
+      "search_seconds_sum": 2116.026242198117,
+      "game_bytes": 6700882,
+      "pilot_scaled_child_wall_seconds": 2070.936950840005,
+      "actual_to_pilot_scaled_ratio": 1.0455351003746143
+    },
+    "1024": {
+      "n": 240,
+      "chunks": 10,
+      "child_wall_seconds": 11080.141569969994,
+      "child_cpu_seconds": 11078.971049,
+      "cpu_wall_ratio": 0.9998943586629645,
+      "peak_child_rss_kib": 203816,
+      "game_seconds": {
+        "n": 240,
+        "mean": 45.62786845,
+        "min": 4.394407,
+        "q1": 10.92688575,
+        "median": 44.97608749999999,
+        "q3": 70.40400675000001,
+        "p90": 93.70707639999999,
+        "p95": 98.14564130000001,
+        "max": 112.78322299999999
+      },
+      "game_wall_seconds_sum": 10950.688428,
+      "search_seconds_sum": 10950.098518316003,
+      "game_bytes": 7003505,
+      "pilot_scaled_child_wall_seconds": 7448.55096614001,
+      "actual_to_pilot_scaled_ratio": 1.4875566563669427
+    }
+  },
+  "total_child_wall_seconds": 13858.974064086993,
+  "total_child_cpu_seconds": 13857.260323,
+  "first_child_started_utc": "2026-10-03T13:26:37.664352+00:00",
+  "last_child_ended_utc": "2026-10-04T03:52:14.996597+00:00",
+  "formal_elapsed_seconds_including_interchunk_sync_approval_and_gaps": 51937.332245,
+  "interchunk_gaps": [
+    {
+      "after_chunk": 1,
+      "seconds": 337.455401
+    },
+    {
+      "after_chunk": 2,
+      "seconds": 273.407758
+    },
+    {
+      "after_chunk": 3,
+      "seconds": 256.963623
+    },
+    {
+      "after_chunk": 4,
+      "seconds": 268.710506
+    },
+    {
+      "after_chunk": 5,
+      "seconds": 282.721709
+    },
+    {
+      "after_chunk": 6,
+      "seconds": 256.538554
+    },
+    {
+      "after_chunk": 7,
+      "seconds": 275.941167
+    },
+    {
+      "after_chunk": 8,
+      "seconds": 296.09166
+    },
+    {
+      "after_chunk": 9,
+      "seconds": 291.097111
+    },
+    {
+      "after_chunk": 10,
+      "seconds": 302.298619
+    },
+    {
+      "after_chunk": 11,
+      "seconds": 319.859481
+    },
+    {
+      "after_chunk": 12,
+      "seconds": 311.834228
+    },
+    {
+      "after_chunk": 13,
+      "seconds": 280.780319
+    },
+    {
+      "after_chunk": 14,
+      "seconds": 325.451545
+    },
+    {
+      "after_chunk": 15,
+      "seconds": 335.956008
+    },
+    {
+      "after_chunk": 16,
+      "seconds": 322.82451
+    },
+    {
+      "after_chunk": 17,
+      "seconds": 353.693727
+    },
+    {
+      "after_chunk": 18,
+      "seconds": 295.795882
+    },
+    {
+      "after_chunk": 19,
+      "seconds": 305.204122
+    },
+    {
+      "after_chunk": 20,
+      "seconds": 258.476781
+    },
+    {
+      "after_chunk": 21,
+      "seconds": 338.770333
+    },
+    {
+      "after_chunk": 22,
+      "seconds": 31310.705967
+    },
+    {
+      "after_chunk": 23,
+      "seconds": 72.423398
+    },
+    {
+      "after_chunk": 24,
+      "seconds": 68.042922
+    },
+    {
+      "after_chunk": 25,
+      "seconds": 66.357968
+    },
+    {
+      "after_chunk": 26,
+      "seconds": 62.312733
+    },
+    {
+      "after_chunk": 27,
+      "seconds": 70.475777
+    },
+    {
+      "after_chunk": 28,
+      "seconds": 70.587393
+    },
+    {
+      "after_chunk": 29,
+      "seconds": 67.556623
+    }
+  ],
+  "interchunk_seconds_sum": 38078.335825,
+  "largest_interchunk_gap": {
+    "after_chunk": 22,
+    "seconds": 31310.705967
+  },
+  "unplanned_game_failures": 0,
+  "planned_checkpoint_exits": 29,
+  "output_tree_bytes": 27648919,
+  "scope": "Child wall/CPU/RSS includes run/import/resume/checks/final analysis, excludes GitHub sync, external validators, final tests and supplementary regeneration. Formal elapsed stops at final child exit, not final backup/report. Largest22to23 gap includes platform approval wait plus surrounding checkpoint operations; not all gap seconds are pure approval time. Pilot projections are planning references, not confidence bounds.",
+  "analysis_script_sha256": "92c0d6ebda6aac6ff450ead686f2b915e741e657448d2706c9cd9aa5234e6b4a"
+}

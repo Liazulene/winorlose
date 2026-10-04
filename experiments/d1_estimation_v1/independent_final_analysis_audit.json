@@ -1,0 +1,3359 @@
+{
+  "audit": "D1-G0-estimation-v1-independent-final-analysis",
+  "status": "passed",
+  "prepared_from_schema_utc": "2026-10-04T03:27:00+00:00",
+  "completed_utc": "2026-10-04T03:52:49.461322+00:00",
+  "python_version": "3.12.14",
+  "checker_sha256": "c8cdd2888d78988fc8dafc6cebf5989842336476ac5a12dca28deafa41fde513",
+  "input_hashes": {
+    "experiments/d1_estimation_v1/preregistration.json": "4eb8abc6b7faa538a3380036210023dcbe561494711d4284997a5b0287263b84",
+    "experiments/d1_estimation_v1/protocol_clarifications.json": "57eb18e0370e877cfb704c68aa29161b14add7a60d4c8a160ee2f801abd367b6",
+    "src/winai_loseai/experiments/d1_estimation_stats.py": "18881afa7df0068e0883a609285087a58e749ffa98b7484a18635448a74bbe69",
+    "manifest.json": "3ef66619d4e942a304c3cfcc6ef55a774acfe063e1a86ccd68440d6450ccb9c6",
+    "analysis.json": "87ccc46a987918742a27a6249646b59bb36c6eacc0bc40c1bb8e2880f169bd00",
+    "raw_game_hash_map_sha256": "2bdef40a63ac3754f79c3b08ac35055a895bea3a2b64490786709628093dc788"
+  },
+  "completion_gate": {
+    "manifest_status": "completed",
+    "saved_games": 720,
+    "indexes": "0..719",
+    "registered_cells": 72,
+    "games_per_cell": 10,
+    "distinct_matched_blocks": 240,
+    "pooled_n_per_budget_direction": 60,
+    "per_seed_n_per_budget_direction": 20
+  },
+  "independence": "Standard library only; no import of frozen analysis/game package or SciPy. Direct binomial finite sums and bisection; separate area-scoring flood fill.",
+  "coverage": "All14 binary endpoint rates and all3 within-direction budget contrasts, pooled/per-seed/per-orientation; all6 pooled primary simultaneous bounds; raw-derived rows; legacy counts/pairs; full and filtered lengths.",
+  "math_self_checks": 540,
+  "comparison_checks": 242290,
+  "numeric_checks": 38828,
+  "absolute_tolerance": 2e-10,
+  "maximum_absolute_numeric_difference": 7.105427357601002e-15,
+  "mismatch_count": 0,
+  "mismatches": [],
+  "primary_results": {
+    "pooled": {
+      "LOSE/LOSE": {
+        "primary_endpoint": "black_realized_all_pass",
+        "n_per_budget": 60,
+        "rates": {
+          "64": {
+            "successes": 0,
+            "n": 60,
+            "estimate": 0.0,
+            "confidence_level": 0.95,
+            "ci": [
+              0.0,
+              0.059629492286166985
+            ],
+            "method": "two_sided_Clopper_Pearson_average_probability"
+          },
+          "256": {
+            "successes": 0,
+            "n": 60,
+            "estimate": 0.0,
+            "confidence_level": 0.95,
+            "ci": [
+              0.0,
+              0.059629492286166985
+            ],
+            "method": "two_sided_Clopper_Pearson_average_probability"
+          },
+          "1024": {
+            "successes": 0,
+            "n": 60,
+            "estimate": 0.0,
+            "confidence_level": 0.95,
+            "ci": [
+              0.0,
+              0.059629492286166985
+            ],
+            "method": "two_sided_Clopper_Pearson_average_probability"
+          }
+        },
+        "contrasts": {
+          "256-64": {
+            "n": 60,
+            "baseline_successes": 0,
+            "comparison_successes": 0,
+            "n00": 60,
+            "n01": 0,
+            "n10": 0,
+            "n11": 0,
+            "discordant_pairs": 0,
+            "estimate": 0.0,
+            "confidence_level": 0.95,
+            "ci": [
+              -0.07043056879850473,
+              0.07043056879850473
+            ],
+            "ci95": [
+              -0.07043056879850473,
+              0.07043056879850473
+            ],
+            "component_confidence_level": 0.975,
+            "positive_probability_ci": [
+              0.0,
+              0.07043056879850473
+            ],
+            "negative_probability_ci": [
+              0.0,
+              0.07043056879850473
+            ],
+            "method": "paired_discordance_two_sided_CP_rectangle_Bonferroni",
+            "hoeffding_ci": [
+              -0.35066030352816463,
+              0.35066030352816463
+            ],
+            "ci95_hoeffding": [
+              -0.35066030352816463,
+              0.35066030352816463
+            ],
+            "hoeffding_radius": 0.35066030352816463,
+            "simultaneous_primary_ci95": [
+              -0.09777959295900562,
+              0.09777959295900562
+            ],
+            "simultaneous_family_size": 6,
+            "simultaneous_component_confidence_level": 0.9958333333333333
+          },
+          "1024-64": {
+            "n": 60,
+            "baseline_successes": 0,
+            "comparison_successes": 0,
+            "n00": 60,
+            "n01": 0,
+            "n10": 0,
+            "n11": 0,
+            "discordant_pairs": 0,
+            "estimate": 0.0,
+            "confidence_level": 0.95,
+            "ci": [
+              -0.07043056879850473,
+              0.07043056879850473
+            ],
+            "ci95": [
+              -0.07043056879850473,
+              0.07043056879850473
+            ],
+            "component_confidence_level": 0.975,
+            "positive_probability_ci": [
+              0.0,
+              0.07043056879850473
+            ],
+            "negative_probability_ci": [
+              0.0,
+              0.07043056879850473
+            ],
+            "method": "paired_discordance_two_sided_CP_rectangle_Bonferroni",
+            "hoeffding_ci": [
+              -0.35066030352816463,
+              0.35066030352816463
+            ],
+            "ci95_hoeffding": [
+              -0.35066030352816463,
+              0.35066030352816463
+            ],
+            "hoeffding_radius": 0.35066030352816463,
+            "simultaneous_primary_ci95": [
+              -0.09777959295900562,
+              0.09777959295900562
+            ],
+            "simultaneous_family_size": 6,
+            "simultaneous_component_confidence_level": 0.9958333333333333
+          },
+          "1024-256": {
+            "n": 60,
+            "baseline_successes": 0,
+            "comparison_successes": 0,
+            "n00": 60,
+            "n01": 0,
+            "n10": 0,
+            "n11": 0,
+            "discordant_pairs": 0,
+            "estimate": 0.0,
+            "confidence_level": 0.95,
+            "ci": [
+              -0.07043056879850473,
+              0.07043056879850473
+            ],
+            "ci95": [
+              -0.07043056879850473,
+              0.07043056879850473
+            ],
+            "component_confidence_level": 0.975,
+            "positive_probability_ci": [
+              0.0,
+              0.07043056879850473
+            ],
+            "negative_probability_ci": [
+              0.0,
+              0.07043056879850473
+            ],
+            "method": "paired_discordance_two_sided_CP_rectangle_Bonferroni",
+            "hoeffding_ci": [
+              -0.35066030352816463,
+              0.35066030352816463
+            ],
+            "ci95_hoeffding": [
+              -0.35066030352816463,
+              0.35066030352816463
+            ],
+            "hoeffding_radius": 0.35066030352816463
+          }
+        }
+      },
+      "WIN/LOSE": {
+        "primary_endpoint": "black_one_stone_double_pass",
+        "n_per_budget": 60,
+        "rates": {
+          "64": {
+            "successes": 7,
+            "n": 60,
+            "estimate": 0.11666666666666667,
+            "confidence_level": 0.95,
+            "ci": [
+              0.04821484187134193,
+              0.2257161531456483
+            ],
+            "method": "two_sided_Clopper_Pearson_average_probability"
+          },
+          "256": {
+            "successes": 9,
+            "n": 60,
+            "estimate": 0.15,
+            "confidence_level": 0.95,
+            "ci": [
+              0.07095619525709115,
+              0.2657404477572951
+            ],
+            "method": "two_sided_Clopper_Pearson_average_probability"
+          },
+          "1024": {
+            "successes": 40,
+            "n": 60,
+            "estimate": 0.6666666666666666,
+            "confidence_level": 0.95,
+            "ci": [
+              0.5331273252571694,
+              0.7831305545688299
+            ],
+            "method": "two_sided_Clopper_Pearson_average_probability"
+          }
+        },
+        "contrasts": {
+          "256-64": {
+            "n": 60,
+            "baseline_successes": 7,
+            "comparison_successes": 9,
+            "n00": 45,
+            "n01": 8,
+            "n10": 6,
+            "n11": 1,
+            "discordant_pairs": 14,
+            "estimate": 0.03333333333333333,
+            "confidence_level": 0.95,
+            "ci": [
+              -0.16877613391120705,
+              0.23052435799427634
+            ],
+            "ci95": [
+              -0.16877613391120705,
+              0.23052435799427634
+            ],
+            "component_confidence_level": 0.975,
+            "positive_probability_ci": [
+              0.052222493518403565,
+              0.26264567043674647
+            ],
+            "negative_probability_ci": [
+              0.03212131244247014,
+              0.22099862742961063
+            ],
+            "method": "paired_discordance_two_sided_CP_rectangle_Bonferroni",
+            "hoeffding_ci": [
+              -0.3173269701948313,
+              0.38399363686149796
+            ],
+            "ci95_hoeffding": [
+              -0.3173269701948313,
+              0.38399363686149796
+            ],
+            "hoeffding_radius": 0.35066030352816463,
+            "simultaneous_primary_ci95": [
+              -0.2195620184148119,
+              0.2791036101143397
+            ],
+            "simultaneous_family_size": 6,
+            "simultaneous_component_confidence_level": 0.9958333333333333
+          },
+          "1024-64": {
+            "n": 60,
+            "baseline_successes": 7,
+            "comparison_successes": 40,
+            "n00": 18,
+            "n01": 35,
+            "n10": 2,
+            "n11": 5,
+            "discordant_pairs": 37,
+            "estimate": 0.55,
+            "confidence_level": 0.95,
+            "ci": [
+              0.30232025509200333,
+              0.7222268647546326
+            ],
+            "ci95": [
+              0.30232025509200333,
+              0.7222268647546326
+            ],
+            "component_confidence_level": 0.975,
+            "positive_probability_ci": [
+              0.4309648882667958,
+              0.725031528816384
+            ],
+            "negative_probability_ci": [
+              0.0028046640617513576,
+              0.12864463317479247
+            ],
+            "method": "paired_discordance_two_sided_CP_rectangle_Bonferroni",
+            "hoeffding_ci": [
+              0.19933969647183541,
+              0.9006603035281646
+            ],
+            "ci95_hoeffding": [
+              0.19933969647183541,
+              0.9006603035281646
+            ],
+            "hoeffding_radius": 0.35066030352816463,
+            "simultaneous_primary_ci95": [
+              0.23103495981799477,
+              0.7573126739530528
+            ],
+            "simultaneous_family_size": 6,
+            "simultaneous_component_confidence_level": 0.9958333333333333
+          },
+          "1024-256": {
+            "n": 60,
+            "baseline_successes": 9,
+            "comparison_successes": 40,
+            "n00": 18,
+            "n01": 33,
+            "n10": 2,
+            "n11": 7,
+            "discordant_pairs": 35,
+            "estimate": 0.5166666666666667,
+            "confidence_level": 0.95,
+            "ci": [
+              0.26988923577157836,
+              0.6922629293646836
+            ],
+            "ci95": [
+              0.26988923577157836,
+              0.6922629293646836
+            ],
+            "component_confidence_level": 0.975,
+            "positive_probability_ci": [
+              0.39853386894637083,
+              0.695067593426435
+            ],
+            "negative_probability_ci": [
+              0.0028046640617513576,
+              0.12864463317479247
+            ],
+            "method": "paired_discordance_two_sided_CP_rectangle_Bonferroni",
+            "hoeffding_ci": [
+              0.1660063631385021,
+              0.8673269701948314
+            ],
+            "ci95_hoeffding": [
+              0.1660063631385021,
+              0.8673269701948314
+            ],
+            "hoeffding_radius": 0.35066030352816463
+          }
+        }
+      },
+      "LOSE/WIN": {
+        "primary_endpoint": "empty_double_pass",
+        "n_per_budget": 60,
+        "rates": {
+          "64": {
+            "successes": 0,
+            "n": 60,
+            "estimate": 0.0,
+            "confidence_level": 0.95,
+            "ci": [
+              0.0,
+              0.059629492286166985
+            ],
+            "method": "two_sided_Clopper_Pearson_average_probability"
+          },
+          "256": {
+            "successes": 9,
+            "n": 60,
+            "estimate": 0.15,
+            "confidence_level": 0.95,
+            "ci": [
+              0.07095619525709115,
+              0.2657404477572951
+            ],
+            "method": "two_sided_Clopper_Pearson_average_probability"
+          },
+          "1024": {
+            "successes": 17,
+            "n": 60,
+            "estimate": 0.2833333333333333,
+            "confidence_level": 0.95,
+            "ci": [
+              0.17450528351437503,
+              0.41443606894983
+            ],
+            "method": "two_sided_Clopper_Pearson_average_probability"
+          }
+        },
+        "contrasts": {
+          "256-64": {
+            "n": 60,
+            "baseline_successes": 0,
+            "comparison_successes": 9,
+            "n00": 51,
+            "n01": 9,
+            "n10": 0,
+            "n11": 0,
+            "discordant_pairs": 9,
+            "estimate": 0.15,
+            "confidence_level": 0.95,
+            "ci": [
+              -0.007371932163933434,
+              0.2827760450194069
+            ],
+            "ci95": [
+              -0.007371932163933434,
+              0.2827760450194069
+            ],
+            "component_confidence_level": 0.975,
+            "positive_probability_ci": [
+              0.0630586366345713,
+              0.2827760450194069
+            ],
+            "negative_probability_ci": [
+              0.0,
+              0.07043056879850473
+            ],
+            "method": "paired_discordance_two_sided_CP_rectangle_Bonferroni",
+            "hoeffding_ci": [
+              -0.20066030352816464,
+              0.5006603035281646
+            ],
+            "ci95_hoeffding": [
+              -0.20066030352816464,
+              0.5006603035281646
+            ],
+            "hoeffding_radius": 0.35066030352816463,
+            "simultaneous_primary_ci95": [
+              -0.05005337684126998,
+              0.32183583549212624
+            ],
+            "simultaneous_family_size": 6,
+            "simultaneous_component_confidence_level": 0.9958333333333333
+          },
+          "1024-64": {
+            "n": 60,
+            "baseline_successes": 0,
+            "comparison_successes": 17,
+            "n00": 43,
+            "n01": 17,
+            "n10": 0,
+            "n11": 0,
+            "discordant_pairs": 17,
+            "estimate": 0.2833333333333333,
+            "confidence_level": 0.95,
+            "ci": [
+              0.09145873450815512,
+              0.4326814033605675
+            ],
+            "ci95": [
+              0.09145873450815512,
+              0.4326814033605675
+            ],
+            "component_confidence_level": 0.975,
+            "positive_probability_ci": [
+              0.16188930330665985,
+              0.4326814033605675
+            ],
+            "negative_probability_ci": [
+              0.0,
+              0.07043056879850473
+            ],
+            "method": "paired_discordance_two_sided_CP_rectangle_Bonferroni",
+            "hoeffding_ci": [
+              -0.0673269701948313,
+              0.633993636861498
+            ],
+            "ci95_hoeffding": [
+              -0.0673269701948313,
+              0.633993636861498
+            ],
+            "hoeffding_radius": 0.35066030352816463,
+            "simultaneous_primary_ci95": [
+              0.03809412186518665,
+              0.47338561685443203
+            ],
+            "simultaneous_family_size": 6,
+            "simultaneous_component_confidence_level": 0.9958333333333333
+          },
+          "1024-256": {
+            "n": 60,
+            "baseline_successes": 9,
+            "comparison_successes": 17,
+            "n00": 38,
+            "n01": 13,
+            "n10": 5,
+            "n11": 4,
+            "discordant_pairs": 18,
+            "estimate": 0.13333333333333333,
+            "confidence_level": 0.95,
+            "ci": [
+              -0.08910320643907235,
+              0.33676597947552
+            ],
+            "ci95": [
+              -0.08910320643907235,
+              0.33676597947552
+            ],
+            "component_confidence_level": 0.975,
+            "positive_probability_ci": [
+              0.11020616901634958,
+              0.35984210786716275
+            ],
+            "negative_probability_ci": [
+              0.023076128391642754,
+              0.19930937545542193
+            ],
+            "method": "paired_discordance_two_sided_CP_rectangle_Bonferroni",
+            "hoeffding_ci": [
+              -0.2173269701948313,
+              0.483993636861498
+            ],
+            "ci95_hoeffding": [
+              -0.2173269701948313,
+              0.483993636861498
+            ],
+            "hoeffding_radius": 0.35066030352816463
+          }
+        }
+      }
+    },
+    "per_seed": {
+      "5": {
+        "LOSE/LOSE": {
+          "primary_endpoint": "black_realized_all_pass",
+          "n_per_budget": 20,
+          "rates": {
+            "64": {
+              "successes": 0,
+              "n": 20,
+              "estimate": 0.0,
+              "confidence_level": 0.95,
+              "ci": [
+                0.0,
+                0.16843347098308536
+              ],
+              "method": "two_sided_Clopper_Pearson_average_probability"
+            },
+            "256": {
+              "successes": 0,
+              "n": 20,
+              "estimate": 0.0,
+              "confidence_level": 0.95,
+              "ci": [
+                0.0,
+                0.16843347098308536
+              ],
+              "method": "two_sided_Clopper_Pearson_average_probability"
+            },
+            "1024": {
+              "successes": 0,
+              "n": 20,
+              "estimate": 0.0,
+              "confidence_level": 0.95,
+              "ci": [
+                0.0,
+                0.16843347098308536
+              ],
+              "method": "two_sided_Clopper_Pearson_average_probability"
+            }
+          },
+          "contrasts": {
+            "256-64": {
+              "n": 20,
+              "baseline_successes": 0,
+              "comparison_successes": 0,
+              "n00": 20,
+              "n01": 0,
+              "n10": 0,
+              "n11": 0,
+              "discordant_pairs": 0,
+              "estimate": 0.0,
+              "confidence_level": 0.95,
+              "ci": [
+                -0.19675967970462538,
+                0.19675967970462538
+              ],
+              "ci95": [
+                -0.19675967970462538,
+                0.19675967970462538
+              ],
+              "component_confidence_level": 0.975,
+              "positive_probability_ci": [
+                0.0,
+                0.19675967970462538
+              ],
+              "negative_probability_ci": [
+                0.0,
+                0.19675967970462538
+              ],
+              "method": "paired_discordance_two_sided_CP_rectangle_Bonferroni",
+              "hoeffding_ci": [
+                -0.6073614619083052,
+                0.6073614619083052
+              ],
+              "ci95_hoeffding": [
+                -0.6073614619083052,
+                0.6073614619083052
+              ],
+              "hoeffding_radius": 0.6073614619083052
+            },
+            "1024-64": {
+              "n": 20,
+              "baseline_successes": 0,
+              "comparison_successes": 0,
+              "n00": 20,
+              "n01": 0,
+              "n10": 0,
+              "n11": 0,
+              "discordant_pairs": 0,
+              "estimate": 0.0,
+              "confidence_level": 0.95,
+              "ci": [
+                -0.19675967970462538,
+                0.19675967970462538
+              ],
+              "ci95": [
+                -0.19675967970462538,
+                0.19675967970462538
+              ],
+              "component_confidence_level": 0.975,
+              "positive_probability_ci": [
+                0.0,
+                0.19675967970462538
+              ],
+              "negative_probability_ci": [
+                0.0,
+                0.19675967970462538
+              ],
+              "method": "paired_discordance_two_sided_CP_rectangle_Bonferroni",
+              "hoeffding_ci": [
+                -0.6073614619083052,
+                0.6073614619083052
+              ],
+              "ci95_hoeffding": [
+                -0.6073614619083052,
+                0.6073614619083052
+              ],
+              "hoeffding_radius": 0.6073614619083052
+            },
+            "1024-256": {
+              "n": 20,
+              "baseline_successes": 0,
+              "comparison_successes": 0,
+              "n00": 20,
+              "n01": 0,
+              "n10": 0,
+              "n11": 0,
+              "discordant_pairs": 0,
+              "estimate": 0.0,
+              "confidence_level": 0.95,
+              "ci": [
+                -0.19675967970462538,
+                0.19675967970462538
+              ],
+              "ci95": [
+                -0.19675967970462538,
+                0.19675967970462538
+              ],
+              "component_confidence_level": 0.975,
+              "positive_probability_ci": [
+                0.0,
+                0.19675967970462538
+              ],
+              "negative_probability_ci": [
+                0.0,
+                0.19675967970462538
+              ],
+              "method": "paired_discordance_two_sided_CP_rectangle_Bonferroni",
+              "hoeffding_ci": [
+                -0.6073614619083052,
+                0.6073614619083052
+              ],
+              "ci95_hoeffding": [
+                -0.6073614619083052,
+                0.6073614619083052
+              ],
+              "hoeffding_radius": 0.6073614619083052
+            }
+          }
+        },
+        "WIN/LOSE": {
+          "primary_endpoint": "black_one_stone_double_pass",
+          "n_per_budget": 20,
+          "rates": {
+            "64": {
+              "successes": 2,
+              "n": 20,
+              "estimate": 0.1,
+              "confidence_level": 0.95,
+              "ci": [
+                0.012348527170294802,
+                0.3169827140190824
+              ],
+              "method": "two_sided_Clopper_Pearson_average_probability"
+            },
+            "256": {
+              "successes": 2,
+              "n": 20,
+              "estimate": 0.1,
+              "confidence_level": 0.95,
+              "ci": [
+                0.012348527170294802,
+                0.3169827140190824
+              ],
+              "method": "two_sided_Clopper_Pearson_average_probability"
+            },
+            "1024": {
+              "successes": 14,
+              "n": 20,
+              "estimate": 0.7,
+              "confidence_level": 0.95,
+              "ci": [
+                0.45721081772371086,
+                0.8810684095942722
+              ],
+              "method": "two_sided_Clopper_Pearson_average_probability"
+            }
+          },
+          "contrasts": {
+            "256-64": {
+              "n": 20,
+              "baseline_successes": 2,
+              "comparison_successes": 2,
+              "n00": 16,
+              "n01": 2,
+              "n10": 2,
+              "n11": 0,
+              "discordant_pairs": 4,
+              "estimate": 0.0,
+              "confidence_level": 0.95,
+              "ci": [
+                -0.34010065671252543,
+                0.34010065671252543
+              ],
+              "ci95": [
+                -0.34010065671252543,
+                0.34010065671252543
+              ],
+              "component_confidence_level": 0.975,
+              "positive_probability_ci": [
+                0.008535861453335427,
+                0.34863651816586083
+              ],
+              "negative_probability_ci": [
+                0.008535861453335427,
+                0.34863651816586083
+              ],
+              "method": "paired_discordance_two_sided_CP_rectangle_Bonferroni",
+              "hoeffding_ci": [
+                -0.6073614619083052,
+                0.6073614619083052
+              ],
+              "ci95_hoeffding": [
+                -0.6073614619083052,
+                0.6073614619083052
+              ],
+              "hoeffding_radius": 0.6073614619083052
+            },
+            "1024-64": {
+              "n": 20,
+              "baseline_successes": 2,
+              "comparison_successes": 14,
+              "n00": 6,
+              "n01": 12,
+              "n10": 0,
+              "n11": 2,
+              "discordant_pairs": 12,
+              "estimate": 0.6,
+              "confidence_level": 0.95,
+              "ci": [
+                0.13513043807958552,
+                0.8303689800491563
+              ],
+              "ci95": [
+                0.13513043807958552,
+                0.8303689800491563
+              ],
+              "component_confidence_level": 0.975,
+              "positive_probability_ci": [
+                0.3318901177842109,
+                0.8303689800491563
+              ],
+              "negative_probability_ci": [
+                0.0,
+                0.19675967970462538
+              ],
+              "method": "paired_discordance_two_sided_CP_rectangle_Bonferroni",
+              "hoeffding_ci": [
+                -0.007361461908305222,
+                1.0
+              ],
+              "ci95_hoeffding": [
+                -0.007361461908305222,
+                1.0
+              ],
+              "hoeffding_radius": 0.6073614619083052
+            },
+            "1024-256": {
+              "n": 20,
+              "baseline_successes": 2,
+              "comparison_successes": 14,
+              "n00": 6,
+              "n01": 12,
+              "n10": 0,
+              "n11": 2,
+              "discordant_pairs": 12,
+              "estimate": 0.6,
+              "confidence_level": 0.95,
+              "ci": [
+                0.13513043807958552,
+                0.8303689800491563
+              ],
+              "ci95": [
+                0.13513043807958552,
+                0.8303689800491563
+              ],
+              "component_confidence_level": 0.975,
+              "positive_probability_ci": [
+                0.3318901177842109,
+                0.8303689800491563
+              ],
+              "negative_probability_ci": [
+                0.0,
+                0.19675967970462538
+              ],
+              "method": "paired_discordance_two_sided_CP_rectangle_Bonferroni",
+              "hoeffding_ci": [
+                -0.007361461908305222,
+                1.0
+              ],
+              "ci95_hoeffding": [
+                -0.007361461908305222,
+                1.0
+              ],
+              "hoeffding_radius": 0.6073614619083052
+            }
+          }
+        },
+        "LOSE/WIN": {
+          "primary_endpoint": "empty_double_pass",
+          "n_per_budget": 20,
+          "rates": {
+            "64": {
+              "successes": 0,
+              "n": 20,
+              "estimate": 0.0,
+              "confidence_level": 0.95,
+              "ci": [
+                0.0,
+                0.16843347098308536
+              ],
+              "method": "two_sided_Clopper_Pearson_average_probability"
+            },
+            "256": {
+              "successes": 4,
+              "n": 20,
+              "estimate": 0.2,
+              "confidence_level": 0.95,
+              "ci": [
+                0.05733399705003278,
+                0.4366140029966684
+              ],
+              "method": "two_sided_Clopper_Pearson_average_probability"
+            },
+            "1024": {
+              "successes": 5,
+              "n": 20,
+              "estimate": 0.25,
+              "confidence_level": 0.95,
+              "ci": [
+                0.08657146910143454,
+                0.49104587170795755
+              ],
+              "method": "two_sided_Clopper_Pearson_average_probability"
+            }
+          },
+          "contrasts": {
+            "256-64": {
+              "n": 20,
+              "baseline_successes": 0,
+              "comparison_successes": 4,
+              "n00": 16,
+              "n01": 4,
+              "n10": 0,
+              "n11": 0,
+              "discordant_pairs": 4,
+              "estimate": 0.2,
+              "confidence_level": 0.95,
+              "ci": [
+                -0.15020098598233514,
+                0.46861021745140885
+              ],
+              "ci95": [
+                -0.15020098598233514,
+                0.46861021745140885
+              ],
+              "component_confidence_level": 0.975,
+              "positive_probability_ci": [
+                0.04655869372229023,
+                0.46861021745140885
+              ],
+              "negative_probability_ci": [
+                0.0,
+                0.19675967970462538
+              ],
+              "method": "paired_discordance_two_sided_CP_rectangle_Bonferroni",
+              "hoeffding_ci": [
+                -0.4073614619083052,
+                0.8073614619083052
+              ],
+              "ci95_hoeffding": [
+                -0.4073614619083052,
+                0.8073614619083052
+              ],
+              "hoeffding_radius": 0.6073614619083052
+            },
+            "1024-64": {
+              "n": 20,
+              "baseline_successes": 0,
+              "comparison_successes": 5,
+              "n00": 15,
+              "n01": 5,
+              "n10": 0,
+              "n11": 0,
+              "discordant_pairs": 5,
+              "estimate": 0.25,
+              "confidence_level": 0.95,
+              "ci": [
+                -0.12405147661836301,
+                0.5226231879152077
+              ],
+              "ci95": [
+                -0.12405147661836301,
+                0.5226231879152077
+              ],
+              "component_confidence_level": 0.975,
+              "positive_probability_ci": [
+                0.07270820308626237,
+                0.5226231879152077
+              ],
+              "negative_probability_ci": [
+                0.0,
+                0.19675967970462538
+              ],
+              "method": "paired_discordance_two_sided_CP_rectangle_Bonferroni",
+              "hoeffding_ci": [
+                -0.3573614619083052,
+                0.8573614619083052
+              ],
+              "ci95_hoeffding": [
+                -0.3573614619083052,
+                0.8573614619083052
+              ],
+              "hoeffding_radius": 0.6073614619083052
+            },
+            "1024-256": {
+              "n": 20,
+              "baseline_successes": 4,
+              "comparison_successes": 5,
+              "n00": 12,
+              "n01": 4,
+              "n10": 3,
+              "n11": 1,
+              "discordant_pairs": 7,
+              "estimate": 0.05,
+              "confidence_level": 0.95,
+              "ci": [
+                -0.3644237644845982,
+                0.4439412062445619
+              ],
+              "ci95": [
+                -0.3644237644845982,
+                0.4439412062445619
+              ],
+              "component_confidence_level": 0.975,
+              "positive_probability_ci": [
+                0.04655869372229023,
+                0.46861021745140885
+              ],
+              "negative_probability_ci": [
+                0.024669011206846964,
+                0.4109824582068884
+              ],
+              "method": "paired_discordance_two_sided_CP_rectangle_Bonferroni",
+              "hoeffding_ci": [
+                -0.5573614619083052,
+                0.6573614619083052
+              ],
+              "ci95_hoeffding": [
+                -0.5573614619083052,
+                0.6573614619083052
+              ],
+              "hoeffding_radius": 0.6073614619083052
+            }
+          }
+        }
+      },
+      "6": {
+        "LOSE/LOSE": {
+          "primary_endpoint": "black_realized_all_pass",
+          "n_per_budget": 20,
+          "rates": {
+            "64": {
+              "successes": 0,
+              "n": 20,
+              "estimate": 0.0,
+              "confidence_level": 0.95,
+              "ci": [
+                0.0,
+                0.16843347098308536
+              ],
+              "method": "two_sided_Clopper_Pearson_average_probability"
+            },
+            "256": {
+              "successes": 0,
+              "n": 20,
+              "estimate": 0.0,
+              "confidence_level": 0.95,
+              "ci": [
+                0.0,
+                0.16843347098308536
+              ],
+              "method": "two_sided_Clopper_Pearson_average_probability"
+            },
+            "1024": {
+              "successes": 0,
+              "n": 20,
+              "estimate": 0.0,
+              "confidence_level": 0.95,
+              "ci": [
+                0.0,
+                0.16843347098308536
+              ],
+              "method": "two_sided_Clopper_Pearson_average_probability"
+            }
+          },
+          "contrasts": {
+            "256-64": {
+              "n": 20,
+              "baseline_successes": 0,
+              "comparison_successes": 0,
+              "n00": 20,
+              "n01": 0,
+              "n10": 0,
+              "n11": 0,
+              "discordant_pairs": 0,
+              "estimate": 0.0,
+              "confidence_level": 0.95,
+              "ci": [
+                -0.19675967970462538,
+                0.19675967970462538
+              ],
+              "ci95": [
+                -0.19675967970462538,
+                0.19675967970462538
+              ],
+              "component_confidence_level": 0.975,
+              "positive_probability_ci": [
+                0.0,
+                0.19675967970462538
+              ],
+              "negative_probability_ci": [
+                0.0,
+                0.19675967970462538
+              ],
+              "method": "paired_discordance_two_sided_CP_rectangle_Bonferroni",
+              "hoeffding_ci": [
+                -0.6073614619083052,
+                0.6073614619083052
+              ],
+              "ci95_hoeffding": [
+                -0.6073614619083052,
+                0.6073614619083052
+              ],
+              "hoeffding_radius": 0.6073614619083052
+            },
+            "1024-64": {
+              "n": 20,
+              "baseline_successes": 0,
+              "comparison_successes": 0,
+              "n00": 20,
+              "n01": 0,
+              "n10": 0,
+              "n11": 0,
+              "discordant_pairs": 0,
+              "estimate": 0.0,
+              "confidence_level": 0.95,
+              "ci": [
+                -0.19675967970462538,
+                0.19675967970462538
+              ],
+              "ci95": [
+                -0.19675967970462538,
+                0.19675967970462538
+              ],
+              "component_confidence_level": 0.975,
+              "positive_probability_ci": [
+                0.0,
+                0.19675967970462538
+              ],
+              "negative_probability_ci": [
+                0.0,
+                0.19675967970462538
+              ],
+              "method": "paired_discordance_two_sided_CP_rectangle_Bonferroni",
+              "hoeffding_ci": [
+                -0.6073614619083052,
+                0.6073614619083052
+              ],
+              "ci95_hoeffding": [
+                -0.6073614619083052,
+                0.6073614619083052
+              ],
+              "hoeffding_radius": 0.6073614619083052
+            },
+            "1024-256": {
+              "n": 20,
+              "baseline_successes": 0,
+              "comparison_successes": 0,
+              "n00": 20,
+              "n01": 0,
+              "n10": 0,
+              "n11": 0,
+              "discordant_pairs": 0,
+              "estimate": 0.0,
+              "confidence_level": 0.95,
+              "ci": [
+                -0.19675967970462538,
+                0.19675967970462538
+              ],
+              "ci95": [
+                -0.19675967970462538,
+                0.19675967970462538
+              ],
+              "component_confidence_level": 0.975,
+              "positive_probability_ci": [
+                0.0,
+                0.19675967970462538
+              ],
+              "negative_probability_ci": [
+                0.0,
+                0.19675967970462538
+              ],
+              "method": "paired_discordance_two_sided_CP_rectangle_Bonferroni",
+              "hoeffding_ci": [
+                -0.6073614619083052,
+                0.6073614619083052
+              ],
+              "ci95_hoeffding": [
+                -0.6073614619083052,
+                0.6073614619083052
+              ],
+              "hoeffding_radius": 0.6073614619083052
+            }
+          }
+        },
+        "WIN/LOSE": {
+          "primary_endpoint": "black_one_stone_double_pass",
+          "n_per_budget": 20,
+          "rates": {
+            "64": {
+              "successes": 4,
+              "n": 20,
+              "estimate": 0.2,
+              "confidence_level": 0.95,
+              "ci": [
+                0.05733399705003278,
+                0.4366140029966684
+              ],
+              "method": "two_sided_Clopper_Pearson_average_probability"
+            },
+            "256": {
+              "successes": 3,
+              "n": 20,
+              "estimate": 0.15,
+              "confidence_level": 0.95,
+              "ci": [
+                0.032070937185463715,
+                0.37892682654531396
+              ],
+              "method": "two_sided_Clopper_Pearson_average_probability"
+            },
+            "1024": {
+              "successes": 12,
+              "n": 20,
+              "estimate": 0.6,
+              "confidence_level": 0.95,
+              "ci": [
+                0.36054258730748967,
+                0.8088099392746928
+              ],
+              "method": "two_sided_Clopper_Pearson_average_probability"
+            }
+          },
+          "contrasts": {
+            "256-64": {
+              "n": 20,
+              "baseline_successes": 4,
+              "comparison_successes": 3,
+              "n00": 13,
+              "n01": 3,
+              "n10": 4,
+              "n11": 0,
+              "discordant_pairs": 7,
+              "estimate": -0.05,
+              "confidence_level": 0.95,
+              "ci": [
+                -0.4439412062445619,
+                0.3644237644845982
+              ],
+              "ci95": [
+                -0.4439412062445619,
+                0.3644237644845982
+              ],
+              "component_confidence_level": 0.975,
+              "positive_probability_ci": [
+                0.024669011206846964,
+                0.4109824582068884
+              ],
+              "negative_probability_ci": [
+                0.04655869372229023,
+                0.46861021745140885
+              ],
+              "method": "paired_discordance_two_sided_CP_rectangle_Bonferroni",
+              "hoeffding_ci": [
+                -0.6573614619083052,
+                0.5573614619083052
+              ],
+              "ci95_hoeffding": [
+                -0.6573614619083052,
+                0.5573614619083052
+              ],
+              "hoeffding_radius": 0.6073614619083052
+            },
+            "1024-64": {
+              "n": 20,
+              "baseline_successes": 4,
+              "comparison_successes": 12,
+              "n00": 7,
+              "n01": 9,
+              "n10": 1,
+              "n11": 3,
+              "discordant_pairs": 10,
+              "estimate": 0.4,
+              "confidence_level": 0.95,
+              "ci": [
+                -0.07240188933884947,
+                0.7112972490703641
+              ],
+              "ci95": [
+                -0.07240188933884947,
+                0.7112972490703641
+              ],
+              "component_confidence_level": 0.975,
+              "positive_probability_ci": [
+                0.20692060086474665,
+                0.7119259904399626
+              ],
+              "negative_probability_ci": [
+                0.000628741369598549,
+                0.2793224902035961
+              ],
+              "method": "paired_discordance_two_sided_CP_rectangle_Bonferroni",
+              "hoeffding_ci": [
+                -0.20736146190830518,
+                1.0
+              ],
+              "ci95_hoeffding": [
+                -0.20736146190830518,
+                1.0
+              ],
+              "hoeffding_radius": 0.6073614619083052
+            },
+            "1024-256": {
+              "n": 20,
+              "baseline_successes": 3,
+              "comparison_successes": 12,
+              "n00": 7,
+              "n01": 10,
+              "n10": 1,
+              "n11": 2,
+              "discordant_pairs": 11,
+              "estimate": 0.45,
+              "confidence_level": 0.95,
+              "ci": [
+                -0.032902854260931425,
+                0.7529516226877367
+              ],
+              "ci95": [
+                -0.032902854260931425,
+                0.7529516226877367
+              ],
+              "component_confidence_level": 0.975,
+              "positive_probability_ci": [
+                0.2464196359426647,
+                0.7535803640573353
+              ],
+              "negative_probability_ci": [
+                0.000628741369598549,
+                0.2793224902035961
+              ],
+              "method": "paired_discordance_two_sided_CP_rectangle_Bonferroni",
+              "hoeffding_ci": [
+                -0.1573614619083052,
+                1.0
+              ],
+              "ci95_hoeffding": [
+                -0.1573614619083052,
+                1.0
+              ],
+              "hoeffding_radius": 0.6073614619083052
+            }
+          }
+        },
+        "LOSE/WIN": {
+          "primary_endpoint": "empty_double_pass",
+          "n_per_budget": 20,
+          "rates": {
+            "64": {
+              "successes": 0,
+              "n": 20,
+              "estimate": 0.0,
+              "confidence_level": 0.95,
+              "ci": [
+                0.0,
+                0.16843347098308536
+              ],
+              "method": "two_sided_Clopper_Pearson_average_probability"
+            },
+            "256": {
+              "successes": 2,
+              "n": 20,
+              "estimate": 0.1,
+              "confidence_level": 0.95,
+              "ci": [
+                0.012348527170294802,
+                0.3169827140190824
+              ],
+              "method": "two_sided_Clopper_Pearson_average_probability"
+            },
+            "1024": {
+              "successes": 8,
+              "n": 20,
+              "estimate": 0.4,
+              "confidence_level": 0.95,
+              "ci": [
+                0.1911900607253072,
+                0.6394574126925103
+              ],
+              "method": "two_sided_Clopper_Pearson_average_probability"
+            }
+          },
+          "contrasts": {
+            "256-64": {
+              "n": 20,
+              "baseline_successes": 0,
+              "comparison_successes": 2,
+              "n00": 18,
+              "n01": 2,
+              "n10": 0,
+              "n11": 0,
+              "discordant_pairs": 2,
+              "estimate": 0.1,
+              "confidence_level": 0.95,
+              "ci": [
+                -0.18822381825128995,
+                0.34863651816586083
+              ],
+              "ci95": [
+                -0.18822381825128995,
+                0.34863651816586083
+              ],
+              "component_confidence_level": 0.975,
+              "positive_probability_ci": [
+                0.008535861453335427,
+                0.34863651816586083
+              ],
+              "negative_probability_ci": [
+                0.0,
+                0.19675967970462538
+              ],
+              "method": "paired_discordance_two_sided_CP_rectangle_Bonferroni",
+              "hoeffding_ci": [
+                -0.5073614619083052,
+                0.7073614619083052
+              ],
+              "ci95_hoeffding": [
+                -0.5073614619083052,
+                0.7073614619083052
+              ],
+              "hoeffding_radius": 0.6073614619083052
+            },
+            "1024-64": {
+              "n": 20,
+              "baseline_successes": 0,
+              "comparison_successes": 8,
+              "n00": 12,
+              "n01": 8,
+              "n10": 0,
+              "n11": 0,
+              "discordant_pairs": 8,
+              "estimate": 0.4,
+              "confidence_level": 0.95,
+              "ci": [
+                -0.027128659753781703,
+                0.6681098822157892
+              ],
+              "ci95": [
+                -0.027128659753781703,
+                0.6681098822157892
+              ],
+              "component_confidence_level": 0.975,
+              "positive_probability_ci": [
+                0.16963101995084368,
+                0.6681098822157892
+              ],
+              "negative_probability_ci": [
+                0.0,
+                0.19675967970462538
+              ],
+              "method": "paired_discordance_two_sided_CP_rectangle_Bonferroni",
+              "hoeffding_ci": [
+                -0.20736146190830518,
+                1.0
+              ],
+              "ci95_hoeffding": [
+                -0.20736146190830518,
+                1.0
+              ],
+              "hoeffding_radius": 0.6073614619083052
+            },
+            "1024-256": {
+              "n": 20,
+              "baseline_successes": 2,
+              "comparison_successes": 8,
+              "n00": 11,
+              "n01": 7,
+              "n10": 1,
+              "n11": 1,
+              "discordant_pairs": 8,
+              "estimate": 0.3,
+              "confidence_level": 0.95,
+              "ci": [
+                -0.1446495667422175,
+                0.6214350932684943
+              ],
+              "ci95": [
+                -0.1446495667422175,
+                0.6214350932684943
+              ],
+              "component_confidence_level": 0.975,
+              "positive_probability_ci": [
+                0.13467292346137863,
+                0.6220638346380929
+              ],
+              "negative_probability_ci": [
+                0.000628741369598549,
+                0.2793224902035961
+              ],
+              "method": "paired_discordance_two_sided_CP_rectangle_Bonferroni",
+              "hoeffding_ci": [
+                -0.3073614619083052,
+                0.9073614619083052
+              ],
+              "ci95_hoeffding": [
+                -0.3073614619083052,
+                0.9073614619083052
+              ],
+              "hoeffding_radius": 0.6073614619083052
+            }
+          }
+        }
+      },
+      "7": {
+        "LOSE/LOSE": {
+          "primary_endpoint": "black_realized_all_pass",
+          "n_per_budget": 20,
+          "rates": {
+            "64": {
+              "successes": 0,
+              "n": 20,
+              "estimate": 0.0,
+              "confidence_level": 0.95,
+              "ci": [
+                0.0,
+                0.16843347098308536
+              ],
+              "method": "two_sided_Clopper_Pearson_average_probability"
+            },
+            "256": {
+              "successes": 0,
+              "n": 20,
+              "estimate": 0.0,
+              "confidence_level": 0.95,
+              "ci": [
+                0.0,
+                0.16843347098308536
+              ],
+              "method": "two_sided_Clopper_Pearson_average_probability"
+            },
+            "1024": {
+              "successes": 0,
+              "n": 20,
+              "estimate": 0.0,
+              "confidence_level": 0.95,
+              "ci": [
+                0.0,
+                0.16843347098308536
+              ],
+              "method": "two_sided_Clopper_Pearson_average_probability"
+            }
+          },
+          "contrasts": {
+            "256-64": {
+              "n": 20,
+              "baseline_successes": 0,
+              "comparison_successes": 0,
+              "n00": 20,
+              "n01": 0,
+              "n10": 0,
+              "n11": 0,
+              "discordant_pairs": 0,
+              "estimate": 0.0,
+              "confidence_level": 0.95,
+              "ci": [
+                -0.19675967970462538,
+                0.19675967970462538
+              ],
+              "ci95": [
+                -0.19675967970462538,
+                0.19675967970462538
+              ],
+              "component_confidence_level": 0.975,
+              "positive_probability_ci": [
+                0.0,
+                0.19675967970462538
+              ],
+              "negative_probability_ci": [
+                0.0,
+                0.19675967970462538
+              ],
+              "method": "paired_discordance_two_sided_CP_rectangle_Bonferroni",
+              "hoeffding_ci": [
+                -0.6073614619083052,
+                0.6073614619083052
+              ],
+              "ci95_hoeffding": [
+                -0.6073614619083052,
+                0.6073614619083052
+              ],
+              "hoeffding_radius": 0.6073614619083052
+            },
+            "1024-64": {
+              "n": 20,
+              "baseline_successes": 0,
+              "comparison_successes": 0,
+              "n00": 20,
+              "n01": 0,
+              "n10": 0,
+              "n11": 0,
+              "discordant_pairs": 0,
+              "estimate": 0.0,
+              "confidence_level": 0.95,
+              "ci": [
+                -0.19675967970462538,
+                0.19675967970462538
+              ],
+              "ci95": [
+                -0.19675967970462538,
+                0.19675967970462538
+              ],
+              "component_confidence_level": 0.975,
+              "positive_probability_ci": [
+                0.0,
+                0.19675967970462538
+              ],
+              "negative_probability_ci": [
+                0.0,
+                0.19675967970462538
+              ],
+              "method": "paired_discordance_two_sided_CP_rectangle_Bonferroni",
+              "hoeffding_ci": [
+                -0.6073614619083052,
+                0.6073614619083052
+              ],
+              "ci95_hoeffding": [
+                -0.6073614619083052,
+                0.6073614619083052
+              ],
+              "hoeffding_radius": 0.6073614619083052
+            },
+            "1024-256": {
+              "n": 20,
+              "baseline_successes": 0,
+              "comparison_successes": 0,
+              "n00": 20,
+              "n01": 0,
+              "n10": 0,
+              "n11": 0,
+              "discordant_pairs": 0,
+              "estimate": 0.0,
+              "confidence_level": 0.95,
+              "ci": [
+                -0.19675967970462538,
+                0.19675967970462538
+              ],
+              "ci95": [
+                -0.19675967970462538,
+                0.19675967970462538
+              ],
+              "component_confidence_level": 0.975,
+              "positive_probability_ci": [
+                0.0,
+                0.19675967970462538
+              ],
+              "negative_probability_ci": [
+                0.0,
+                0.19675967970462538
+              ],
+              "method": "paired_discordance_two_sided_CP_rectangle_Bonferroni",
+              "hoeffding_ci": [
+                -0.6073614619083052,
+                0.6073614619083052
+              ],
+              "ci95_hoeffding": [
+                -0.6073614619083052,
+                0.6073614619083052
+              ],
+              "hoeffding_radius": 0.6073614619083052
+            }
+          }
+        },
+        "WIN/LOSE": {
+          "primary_endpoint": "black_one_stone_double_pass",
+          "n_per_budget": 20,
+          "rates": {
+            "64": {
+              "successes": 1,
+              "n": 20,
+              "estimate": 0.05,
+              "confidence_level": 0.95,
+              "ci": [
+                0.0012650894979498045,
+                0.24873276277202783
+              ],
+              "method": "two_sided_Clopper_Pearson_average_probability"
+            },
+            "256": {
+              "successes": 4,
+              "n": 20,
+              "estimate": 0.2,
+              "confidence_level": 0.95,
+              "ci": [
+                0.05733399705003278,
+                0.4366140029966684
+              ],
+              "method": "two_sided_Clopper_Pearson_average_probability"
+            },
+            "1024": {
+              "successes": 14,
+              "n": 20,
+              "estimate": 0.7,
+              "confidence_level": 0.95,
+              "ci": [
+                0.45721081772371086,
+                0.8810684095942722
+              ],
+              "method": "two_sided_Clopper_Pearson_average_probability"
+            }
+          },
+          "contrasts": {
+            "256-64": {
+              "n": 20,
+              "baseline_successes": 1,
+              "comparison_successes": 4,
+              "n00": 16,
+              "n01": 3,
+              "n10": 0,
+              "n11": 1,
+              "discordant_pairs": 3,
+              "estimate": 0.15,
+              "confidence_level": 0.95,
+              "ci": [
+                -0.1720906684977784,
+                0.4109824582068884
+              ],
+              "ci95": [
+                -0.1720906684977784,
+                0.4109824582068884
+              ],
+              "component_confidence_level": 0.975,
+              "positive_probability_ci": [
+                0.024669011206846964,
+                0.4109824582068884
+              ],
+              "negative_probability_ci": [
+                0.0,
+                0.19675967970462538
+              ],
+              "method": "paired_discordance_two_sided_CP_rectangle_Bonferroni",
+              "hoeffding_ci": [
+                -0.4573614619083052,
+                0.7573614619083052
+              ],
+              "ci95_hoeffding": [
+                -0.4573614619083052,
+                0.7573614619083052
+              ],
+              "hoeffding_radius": 0.6073614619083052
+            },
+            "1024-64": {
+              "n": 20,
+              "baseline_successes": 1,
+              "comparison_successes": 14,
+              "n00": 5,
+              "n01": 14,
+              "n10": 1,
+              "n11": 0,
+              "discordant_pairs": 15,
+              "estimate": 0.65,
+              "confidence_level": 0.95,
+              "ci": [
+                0.14703025696723304,
+                0.8971164609448118
+              ],
+              "ci95": [
+                0.14703025696723304,
+                0.8971164609448118
+              ],
+              "component_confidence_level": 0.975,
+              "positive_probability_ci": [
+                0.42635274717082916,
+                0.8977452023144104
+              ],
+              "negative_probability_ci": [
+                0.000628741369598549,
+                0.2793224902035961
+              ],
+              "method": "paired_discordance_two_sided_CP_rectangle_Bonferroni",
+              "hoeffding_ci": [
+                0.04263853809169482,
+                1.0
+              ],
+              "ci95_hoeffding": [
+                0.04263853809169482,
+                1.0
+              ],
+              "hoeffding_radius": 0.6073614619083052
+            },
+            "1024-256": {
+              "n": 20,
+              "baseline_successes": 4,
+              "comparison_successes": 14,
+              "n00": 5,
+              "n01": 11,
+              "n10": 1,
+              "n11": 3,
+              "discordant_pairs": 12,
+              "estimate": 0.5,
+              "confidence_level": 0.95,
+              "ci": [
+                0.008751519356441306,
+                0.7924506577656548
+              ],
+              "ci95": [
+                0.008751519356441306,
+                0.7924506577656548
+              ],
+              "component_confidence_level": 0.975,
+              "positive_probability_ci": [
+                0.2880740095600374,
+                0.7930793991352534
+              ],
+              "negative_probability_ci": [
+                0.000628741369598549,
+                0.2793224902035961
+              ],
+              "method": "paired_discordance_two_sided_CP_rectangle_Bonferroni",
+              "hoeffding_ci": [
+                -0.1073614619083052,
+                1.0
+              ],
+              "ci95_hoeffding": [
+                -0.1073614619083052,
+                1.0
+              ],
+              "hoeffding_radius": 0.6073614619083052
+            }
+          }
+        },
+        "LOSE/WIN": {
+          "primary_endpoint": "empty_double_pass",
+          "n_per_budget": 20,
+          "rates": {
+            "64": {
+              "successes": 0,
+              "n": 20,
+              "estimate": 0.0,
+              "confidence_level": 0.95,
+              "ci": [
+                0.0,
+                0.16843347098308536
+              ],
+              "method": "two_sided_Clopper_Pearson_average_probability"
+            },
+            "256": {
+              "successes": 3,
+              "n": 20,
+              "estimate": 0.15,
+              "confidence_level": 0.95,
+              "ci": [
+                0.032070937185463715,
+                0.37892682654531396
+              ],
+              "method": "two_sided_Clopper_Pearson_average_probability"
+            },
+            "1024": {
+              "successes": 4,
+              "n": 20,
+              "estimate": 0.2,
+              "confidence_level": 0.95,
+              "ci": [
+                0.05733399705003278,
+                0.4366140029966684
+              ],
+              "method": "two_sided_Clopper_Pearson_average_probability"
+            }
+          },
+          "contrasts": {
+            "256-64": {
+              "n": 20,
+              "baseline_successes": 0,
+              "comparison_successes": 3,
+              "n00": 17,
+              "n01": 3,
+              "n10": 0,
+              "n11": 0,
+              "discordant_pairs": 3,
+              "estimate": 0.15,
+              "confidence_level": 0.95,
+              "ci": [
+                -0.1720906684977784,
+                0.4109824582068884
+              ],
+              "ci95": [
+                -0.1720906684977784,
+                0.4109824582068884
+              ],
+              "component_confidence_level": 0.975,
+              "positive_probability_ci": [
+                0.024669011206846964,
+                0.4109824582068884
+              ],
+              "negative_probability_ci": [
+                0.0,
+                0.19675967970462538
+              ],
+              "method": "paired_discordance_two_sided_CP_rectangle_Bonferroni",
+              "hoeffding_ci": [
+                -0.4573614619083052,
+                0.7573614619083052
+              ],
+              "ci95_hoeffding": [
+                -0.4573614619083052,
+                0.7573614619083052
+              ],
+              "hoeffding_radius": 0.6073614619083052
+            },
+            "1024-64": {
+              "n": 20,
+              "baseline_successes": 0,
+              "comparison_successes": 4,
+              "n00": 16,
+              "n01": 4,
+              "n10": 0,
+              "n11": 0,
+              "discordant_pairs": 4,
+              "estimate": 0.2,
+              "confidence_level": 0.95,
+              "ci": [
+                -0.15020098598233514,
+                0.46861021745140885
+              ],
+              "ci95": [
+                -0.15020098598233514,
+                0.46861021745140885
+              ],
+              "component_confidence_level": 0.975,
+              "positive_probability_ci": [
+                0.04655869372229023,
+                0.46861021745140885
+              ],
+              "negative_probability_ci": [
+                0.0,
+                0.19675967970462538
+              ],
+              "method": "paired_discordance_two_sided_CP_rectangle_Bonferroni",
+              "hoeffding_ci": [
+                -0.4073614619083052,
+                0.8073614619083052
+              ],
+              "ci95_hoeffding": [
+                -0.4073614619083052,
+                0.8073614619083052
+              ],
+              "hoeffding_radius": 0.6073614619083052
+            },
+            "1024-256": {
+              "n": 20,
+              "baseline_successes": 3,
+              "comparison_successes": 4,
+              "n00": 15,
+              "n01": 2,
+              "n10": 1,
+              "n11": 2,
+              "discordant_pairs": 3,
+              "estimate": 0.05,
+              "confidence_level": 0.95,
+              "ci": [
+                -0.2707866287502607,
+                0.34800777679626227
+              ],
+              "ci95": [
+                -0.2707866287502607,
+                0.34800777679626227
+              ],
+              "component_confidence_level": 0.975,
+              "positive_probability_ci": [
+                0.008535861453335427,
+                0.34863651816586083
+              ],
+              "negative_probability_ci": [
+                0.000628741369598549,
+                0.2793224902035961
+              ],
+              "method": "paired_discordance_two_sided_CP_rectangle_Bonferroni",
+              "hoeffding_ci": [
+                -0.5573614619083052,
+                0.6573614619083052
+              ],
+              "ci95_hoeffding": [
+                -0.5573614619083052,
+                0.6573614619083052
+              ],
+              "hoeffding_radius": 0.6073614619083052
+            }
+          }
+        }
+      }
+    }
+  },
+  "raw_route_goal_counts": {
+    "pooled": {
+      "64": {
+        "WIN/WIN": {
+          "n": 60,
+          "black_realized_all_pass": 0,
+          "black_one_stone_double_pass": 2,
+          "empty_double_pass": 0,
+          "literal_one_stone_a0": 1,
+          "black_board_wins": 30,
+          "white_board_wins": 30,
+          "black_goals": 30,
+          "white_goals": 30,
+          "joint_goals": 0,
+          "length2": 0,
+          "length3": 2,
+          "length_le8": 4,
+          "length_ge60": 0,
+          "move_limit": 0
+        },
+        "LOSE/LOSE": {
+          "n": 60,
+          "black_realized_all_pass": 0,
+          "black_one_stone_double_pass": 0,
+          "empty_double_pass": 0,
+          "literal_one_stone_a0": 0,
+          "black_board_wins": 3,
+          "white_board_wins": 57,
+          "black_goals": 57,
+          "white_goals": 3,
+          "joint_goals": 0,
+          "length2": 0,
+          "length3": 0,
+          "length_le8": 3,
+          "length_ge60": 0,
+          "move_limit": 0
+        },
+        "WIN/LOSE": {
+          "n": 60,
+          "black_realized_all_pass": 0,
+          "black_one_stone_double_pass": 7,
+          "empty_double_pass": 0,
+          "literal_one_stone_a0": 0,
+          "black_board_wins": 60,
+          "white_board_wins": 0,
+          "black_goals": 60,
+          "white_goals": 60,
+          "joint_goals": 60,
+          "length2": 0,
+          "length3": 7,
+          "length_le8": 7,
+          "length_ge60": 0,
+          "move_limit": 0
+        },
+        "LOSE/WIN": {
+          "n": 60,
+          "black_realized_all_pass": 0,
+          "black_one_stone_double_pass": 0,
+          "empty_double_pass": 0,
+          "literal_one_stone_a0": 0,
+          "black_board_wins": 0,
+          "white_board_wins": 60,
+          "black_goals": 60,
+          "white_goals": 60,
+          "joint_goals": 60,
+          "length2": 0,
+          "length3": 0,
+          "length_le8": 8,
+          "length_ge60": 0,
+          "move_limit": 0
+        }
+      },
+      "256": {
+        "WIN/WIN": {
+          "n": 60,
+          "black_realized_all_pass": 1,
+          "black_one_stone_double_pass": 0,
+          "empty_double_pass": 1,
+          "literal_one_stone_a0": 0,
+          "black_board_wins": 32,
+          "white_board_wins": 28,
+          "black_goals": 32,
+          "white_goals": 28,
+          "joint_goals": 0,
+          "length2": 1,
+          "length3": 0,
+          "length_le8": 2,
+          "length_ge60": 0,
+          "move_limit": 0
+        },
+        "LOSE/LOSE": {
+          "n": 60,
+          "black_realized_all_pass": 0,
+          "black_one_stone_double_pass": 0,
+          "empty_double_pass": 0,
+          "literal_one_stone_a0": 0,
+          "black_board_wins": 2,
+          "white_board_wins": 58,
+          "black_goals": 58,
+          "white_goals": 2,
+          "joint_goals": 0,
+          "length2": 0,
+          "length3": 0,
+          "length_le8": 14,
+          "length_ge60": 0,
+          "move_limit": 0
+        },
+        "WIN/LOSE": {
+          "n": 60,
+          "black_realized_all_pass": 0,
+          "black_one_stone_double_pass": 9,
+          "empty_double_pass": 0,
+          "literal_one_stone_a0": 1,
+          "black_board_wins": 60,
+          "white_board_wins": 0,
+          "black_goals": 60,
+          "white_goals": 60,
+          "joint_goals": 60,
+          "length2": 0,
+          "length3": 9,
+          "length_le8": 9,
+          "length_ge60": 0,
+          "move_limit": 0
+        },
+        "LOSE/WIN": {
+          "n": 60,
+          "black_realized_all_pass": 9,
+          "black_one_stone_double_pass": 0,
+          "empty_double_pass": 9,
+          "literal_one_stone_a0": 0,
+          "black_board_wins": 0,
+          "white_board_wins": 60,
+          "black_goals": 60,
+          "white_goals": 60,
+          "joint_goals": 60,
+          "length2": 9,
+          "length3": 0,
+          "length_le8": 26,
+          "length_ge60": 0,
+          "move_limit": 0
+        }
+      },
+      "1024": {
+        "WIN/WIN": {
+          "n": 60,
+          "black_realized_all_pass": 0,
+          "black_one_stone_double_pass": 0,
+          "empty_double_pass": 0,
+          "literal_one_stone_a0": 0,
+          "black_board_wins": 31,
+          "white_board_wins": 29,
+          "black_goals": 31,
+          "white_goals": 29,
+          "joint_goals": 0,
+          "length2": 0,
+          "length3": 0,
+          "length_le8": 0,
+          "length_ge60": 0,
+          "move_limit": 0
+        },
+        "LOSE/LOSE": {
+          "n": 60,
+          "black_realized_all_pass": 0,
+          "black_one_stone_double_pass": 0,
+          "empty_double_pass": 0,
+          "literal_one_stone_a0": 0,
+          "black_board_wins": 6,
+          "white_board_wins": 54,
+          "black_goals": 54,
+          "white_goals": 6,
+          "joint_goals": 0,
+          "length2": 0,
+          "length3": 0,
+          "length_le8": 4,
+          "length_ge60": 0,
+          "move_limit": 0
+        },
+        "WIN/LOSE": {
+          "n": 60,
+          "black_realized_all_pass": 0,
+          "black_one_stone_double_pass": 40,
+          "empty_double_pass": 0,
+          "literal_one_stone_a0": 0,
+          "black_board_wins": 60,
+          "white_board_wins": 0,
+          "black_goals": 60,
+          "white_goals": 60,
+          "joint_goals": 60,
+          "length2": 0,
+          "length3": 40,
+          "length_le8": 40,
+          "length_ge60": 0,
+          "move_limit": 0
+        },
+        "LOSE/WIN": {
+          "n": 60,
+          "black_realized_all_pass": 17,
+          "black_one_stone_double_pass": 0,
+          "empty_double_pass": 17,
+          "literal_one_stone_a0": 0,
+          "black_board_wins": 0,
+          "white_board_wins": 60,
+          "black_goals": 60,
+          "white_goals": 60,
+          "joint_goals": 60,
+          "length2": 17,
+          "length3": 0,
+          "length_le8": 45,
+          "length_ge60": 0,
+          "move_limit": 0
+        }
+      }
+    },
+    "per_seed": {
+      "5": {
+        "64": {
+          "WIN/WIN": {
+            "n": 20,
+            "black_realized_all_pass": 0,
+            "black_one_stone_double_pass": 1,
+            "empty_double_pass": 0,
+            "literal_one_stone_a0": 0,
+            "black_board_wins": 8,
+            "white_board_wins": 12,
+            "black_goals": 8,
+            "white_goals": 12,
+            "joint_goals": 0,
+            "length2": 0,
+            "length3": 1,
+            "length_le8": 3,
+            "length_ge60": 0,
+            "move_limit": 0
+          },
+          "LOSE/LOSE": {
+            "n": 20,
+            "black_realized_all_pass": 0,
+            "black_one_stone_double_pass": 0,
+            "empty_double_pass": 0,
+            "literal_one_stone_a0": 0,
+            "black_board_wins": 1,
+            "white_board_wins": 19,
+            "black_goals": 19,
+            "white_goals": 1,
+            "joint_goals": 0,
+            "length2": 0,
+            "length3": 0,
+            "length_le8": 1,
+            "length_ge60": 0,
+            "move_limit": 0
+          },
+          "WIN/LOSE": {
+            "n": 20,
+            "black_realized_all_pass": 0,
+            "black_one_stone_double_pass": 2,
+            "empty_double_pass": 0,
+            "literal_one_stone_a0": 0,
+            "black_board_wins": 20,
+            "white_board_wins": 0,
+            "black_goals": 20,
+            "white_goals": 20,
+            "joint_goals": 20,
+            "length2": 0,
+            "length3": 2,
+            "length_le8": 2,
+            "length_ge60": 0,
+            "move_limit": 0
+          },
+          "LOSE/WIN": {
+            "n": 20,
+            "black_realized_all_pass": 0,
+            "black_one_stone_double_pass": 0,
+            "empty_double_pass": 0,
+            "literal_one_stone_a0": 0,
+            "black_board_wins": 0,
+            "white_board_wins": 20,
+            "black_goals": 20,
+            "white_goals": 20,
+            "joint_goals": 20,
+            "length2": 0,
+            "length3": 0,
+            "length_le8": 3,
+            "length_ge60": 0,
+            "move_limit": 0
+          }
+        },
+        "256": {
+          "WIN/WIN": {
+            "n": 20,
+            "black_realized_all_pass": 1,
+            "black_one_stone_double_pass": 0,
+            "empty_double_pass": 1,
+            "literal_one_stone_a0": 0,
+            "black_board_wins": 9,
+            "white_board_wins": 11,
+            "black_goals": 9,
+            "white_goals": 11,
+            "joint_goals": 0,
+            "length2": 1,
+            "length3": 0,
+            "length_le8": 1,
+            "length_ge60": 0,
+            "move_limit": 0
+          },
+          "LOSE/LOSE": {
+            "n": 20,
+            "black_realized_all_pass": 0,
+            "black_one_stone_double_pass": 0,
+            "empty_double_pass": 0,
+            "literal_one_stone_a0": 0,
+            "black_board_wins": 2,
+            "white_board_wins": 18,
+            "black_goals": 18,
+            "white_goals": 2,
+            "joint_goals": 0,
+            "length2": 0,
+            "length3": 0,
+            "length_le8": 3,
+            "length_ge60": 0,
+            "move_limit": 0
+          },
+          "WIN/LOSE": {
+            "n": 20,
+            "black_realized_all_pass": 0,
+            "black_one_stone_double_pass": 2,
+            "empty_double_pass": 0,
+            "literal_one_stone_a0": 1,
+            "black_board_wins": 20,
+            "white_board_wins": 0,
+            "black_goals": 20,
+            "white_goals": 20,
+            "joint_goals": 20,
+            "length2": 0,
+            "length3": 2,
+            "length_le8": 2,
+            "length_ge60": 0,
+            "move_limit": 0
+          },
+          "LOSE/WIN": {
+            "n": 20,
+            "black_realized_all_pass": 4,
+            "black_one_stone_double_pass": 0,
+            "empty_double_pass": 4,
+            "literal_one_stone_a0": 0,
+            "black_board_wins": 0,
+            "white_board_wins": 20,
+            "black_goals": 20,
+            "white_goals": 20,
+            "joint_goals": 20,
+            "length2": 4,
+            "length3": 0,
+            "length_le8": 11,
+            "length_ge60": 0,
+            "move_limit": 0
+          }
+        },
+        "1024": {
+          "WIN/WIN": {
+            "n": 20,
+            "black_realized_all_pass": 0,
+            "black_one_stone_double_pass": 0,
+            "empty_double_pass": 0,
+            "literal_one_stone_a0": 0,
+            "black_board_wins": 10,
+            "white_board_wins": 10,
+            "black_goals": 10,
+            "white_goals": 10,
+            "joint_goals": 0,
+            "length2": 0,
+            "length3": 0,
+            "length_le8": 0,
+            "length_ge60": 0,
+            "move_limit": 0
+          },
+          "LOSE/LOSE": {
+            "n": 20,
+            "black_realized_all_pass": 0,
+            "black_one_stone_double_pass": 0,
+            "empty_double_pass": 0,
+            "literal_one_stone_a0": 0,
+            "black_board_wins": 3,
+            "white_board_wins": 17,
+            "black_goals": 17,
+            "white_goals": 3,
+            "joint_goals": 0,
+            "length2": 0,
+            "length3": 0,
+            "length_le8": 2,
+            "length_ge60": 0,
+            "move_limit": 0
+          },
+          "WIN/LOSE": {
+            "n": 20,
+            "black_realized_all_pass": 0,
+            "black_one_stone_double_pass": 14,
+            "empty_double_pass": 0,
+            "literal_one_stone_a0": 0,
+            "black_board_wins": 20,
+            "white_board_wins": 0,
+            "black_goals": 20,
+            "white_goals": 20,
+            "joint_goals": 20,
+            "length2": 0,
+            "length3": 14,
+            "length_le8": 14,
+            "length_ge60": 0,
+            "move_limit": 0
+          },
+          "LOSE/WIN": {
+            "n": 20,
+            "black_realized_all_pass": 5,
+            "black_one_stone_double_pass": 0,
+            "empty_double_pass": 5,
+            "literal_one_stone_a0": 0,
+            "black_board_wins": 0,
+            "white_board_wins": 20,
+            "black_goals": 20,
+            "white_goals": 20,
+            "joint_goals": 20,
+            "length2": 5,
+            "length3": 0,
+            "length_le8": 16,
+            "length_ge60": 0,
+            "move_limit": 0
+          }
+        }
+      },
+      "6": {
+        "64": {
+          "WIN/WIN": {
+            "n": 20,
+            "black_realized_all_pass": 0,
+            "black_one_stone_double_pass": 0,
+            "empty_double_pass": 0,
+            "literal_one_stone_a0": 0,
+            "black_board_wins": 11,
+            "white_board_wins": 9,
+            "black_goals": 11,
+            "white_goals": 9,
+            "joint_goals": 0,
+            "length2": 0,
+            "length3": 0,
+            "length_le8": 0,
+            "length_ge60": 0,
+            "move_limit": 0
+          },
+          "LOSE/LOSE": {
+            "n": 20,
+            "black_realized_all_pass": 0,
+            "black_one_stone_double_pass": 0,
+            "empty_double_pass": 0,
+            "literal_one_stone_a0": 0,
+            "black_board_wins": 1,
+            "white_board_wins": 19,
+            "black_goals": 19,
+            "white_goals": 1,
+            "joint_goals": 0,
+            "length2": 0,
+            "length3": 0,
+            "length_le8": 1,
+            "length_ge60": 0,
+            "move_limit": 0
+          },
+          "WIN/LOSE": {
+            "n": 20,
+            "black_realized_all_pass": 0,
+            "black_one_stone_double_pass": 4,
+            "empty_double_pass": 0,
+            "literal_one_stone_a0": 0,
+            "black_board_wins": 20,
+            "white_board_wins": 0,
+            "black_goals": 20,
+            "white_goals": 20,
+            "joint_goals": 20,
+            "length2": 0,
+            "length3": 4,
+            "length_le8": 4,
+            "length_ge60": 0,
+            "move_limit": 0
+          },
+          "LOSE/WIN": {
+            "n": 20,
+            "black_realized_all_pass": 0,
+            "black_one_stone_double_pass": 0,
+            "empty_double_pass": 0,
+            "literal_one_stone_a0": 0,
+            "black_board_wins": 0,
+            "white_board_wins": 20,
+            "black_goals": 20,
+            "white_goals": 20,
+            "joint_goals": 20,
+            "length2": 0,
+            "length3": 0,
+            "length_le8": 0,
+            "length_ge60": 0,
+            "move_limit": 0
+          }
+        },
+        "256": {
+          "WIN/WIN": {
+            "n": 20,
+            "black_realized_all_pass": 0,
+            "black_one_stone_double_pass": 0,
+            "empty_double_pass": 0,
+            "literal_one_stone_a0": 0,
+            "black_board_wins": 11,
+            "white_board_wins": 9,
+            "black_goals": 11,
+            "white_goals": 9,
+            "joint_goals": 0,
+            "length2": 0,
+            "length3": 0,
+            "length_le8": 0,
+            "length_ge60": 0,
+            "move_limit": 0
+          },
+          "LOSE/LOSE": {
+            "n": 20,
+            "black_realized_all_pass": 0,
+            "black_one_stone_double_pass": 0,
+            "empty_double_pass": 0,
+            "literal_one_stone_a0": 0,
+            "black_board_wins": 0,
+            "white_board_wins": 20,
+            "black_goals": 20,
+            "white_goals": 0,
+            "joint_goals": 0,
+            "length2": 0,
+            "length3": 0,
+            "length_le8": 5,
+            "length_ge60": 0,
+            "move_limit": 0
+          },
+          "WIN/LOSE": {
+            "n": 20,
+            "black_realized_all_pass": 0,
+            "black_one_stone_double_pass": 3,
+            "empty_double_pass": 0,
+            "literal_one_stone_a0": 0,
+            "black_board_wins": 20,
+            "white_board_wins": 0,
+            "black_goals": 20,
+            "white_goals": 20,
+            "joint_goals": 20,
+            "length2": 0,
+            "length3": 3,
+            "length_le8": 3,
+            "length_ge60": 0,
+            "move_limit": 0
+          },
+          "LOSE/WIN": {
+            "n": 20,
+            "black_realized_all_pass": 2,
+            "black_one_stone_double_pass": 0,
+            "empty_double_pass": 2,
+            "literal_one_stone_a0": 0,
+            "black_board_wins": 0,
+            "white_board_wins": 20,
+            "black_goals": 20,
+            "white_goals": 20,
+            "joint_goals": 20,
+            "length2": 2,
+            "length3": 0,
+            "length_le8": 7,
+            "length_ge60": 0,
+            "move_limit": 0
+          }
+        },
+        "1024": {
+          "WIN/WIN": {
+            "n": 20,
+            "black_realized_all_pass": 0,
+            "black_one_stone_double_pass": 0,
+            "empty_double_pass": 0,
+            "literal_one_stone_a0": 0,
+            "black_board_wins": 8,
+            "white_board_wins": 12,
+            "black_goals": 8,
+            "white_goals": 12,
+            "joint_goals": 0,
+            "length2": 0,
+            "length3": 0,
+            "length_le8": 0,
+            "length_ge60": 0,
+            "move_limit": 0
+          },
+          "LOSE/LOSE": {
+            "n": 20,
+            "black_realized_all_pass": 0,
+            "black_one_stone_double_pass": 0,
+            "empty_double_pass": 0,
+            "literal_one_stone_a0": 0,
+            "black_board_wins": 3,
+            "white_board_wins": 17,
+            "black_goals": 17,
+            "white_goals": 3,
+            "joint_goals": 0,
+            "length2": 0,
+            "length3": 0,
+            "length_le8": 1,
+            "length_ge60": 0,
+            "move_limit": 0
+          },
+          "WIN/LOSE": {
+            "n": 20,
+            "black_realized_all_pass": 0,
+            "black_one_stone_double_pass": 12,
+            "empty_double_pass": 0,
+            "literal_one_stone_a0": 0,
+            "black_board_wins": 20,
+            "white_board_wins": 0,
+            "black_goals": 20,
+            "white_goals": 20,
+            "joint_goals": 20,
+            "length2": 0,
+            "length3": 12,
+            "length_le8": 12,
+            "length_ge60": 0,
+            "move_limit": 0
+          },
+          "LOSE/WIN": {
+            "n": 20,
+            "black_realized_all_pass": 8,
+            "black_one_stone_double_pass": 0,
+            "empty_double_pass": 8,
+            "literal_one_stone_a0": 0,
+            "black_board_wins": 0,
+            "white_board_wins": 20,
+            "black_goals": 20,
+            "white_goals": 20,
+            "joint_goals": 20,
+            "length2": 8,
+            "length3": 0,
+            "length_le8": 17,
+            "length_ge60": 0,
+            "move_limit": 0
+          }
+        }
+      },
+      "7": {
+        "64": {
+          "WIN/WIN": {
+            "n": 20,
+            "black_realized_all_pass": 0,
+            "black_one_stone_double_pass": 1,
+            "empty_double_pass": 0,
+            "literal_one_stone_a0": 1,
+            "black_board_wins": 11,
+            "white_board_wins": 9,
+            "black_goals": 11,
+            "white_goals": 9,
+            "joint_goals": 0,
+            "length2": 0,
+            "length3": 1,
+            "length_le8": 1,
+            "length_ge60": 0,
+            "move_limit": 0
+          },
+          "LOSE/LOSE": {
+            "n": 20,
+            "black_realized_all_pass": 0,
+            "black_one_stone_double_pass": 0,
+            "empty_double_pass": 0,
+            "literal_one_stone_a0": 0,
+            "black_board_wins": 1,
+            "white_board_wins": 19,
+            "black_goals": 19,
+            "white_goals": 1,
+            "joint_goals": 0,
+            "length2": 0,
+            "length3": 0,
+            "length_le8": 1,
+            "length_ge60": 0,
+            "move_limit": 0
+          },
+          "WIN/LOSE": {
+            "n": 20,
+            "black_realized_all_pass": 0,
+            "black_one_stone_double_pass": 1,
+            "empty_double_pass": 0,
+            "literal_one_stone_a0": 0,
+            "black_board_wins": 20,
+            "white_board_wins": 0,
+            "black_goals": 20,
+            "white_goals": 20,
+            "joint_goals": 20,
+            "length2": 0,
+            "length3": 1,
+            "length_le8": 1,
+            "length_ge60": 0,
+            "move_limit": 0
+          },
+          "LOSE/WIN": {
+            "n": 20,
+            "black_realized_all_pass": 0,
+            "black_one_stone_double_pass": 0,
+            "empty_double_pass": 0,
+            "literal_one_stone_a0": 0,
+            "black_board_wins": 0,
+            "white_board_wins": 20,
+            "black_goals": 20,
+            "white_goals": 20,
+            "joint_goals": 20,
+            "length2": 0,
+            "length3": 0,
+            "length_le8": 5,
+            "length_ge60": 0,
+            "move_limit": 0
+          }
+        },
+        "256": {
+          "WIN/WIN": {
+            "n": 20,
+            "black_realized_all_pass": 0,
+            "black_one_stone_double_pass": 0,
+            "empty_double_pass": 0,
+            "literal_one_stone_a0": 0,
+            "black_board_wins": 12,
+            "white_board_wins": 8,
+            "black_goals": 12,
+            "white_goals": 8,
+            "joint_goals": 0,
+            "length2": 0,
+            "length3": 0,
+            "length_le8": 1,
+            "length_ge60": 0,
+            "move_limit": 0
+          },
+          "LOSE/LOSE": {
+            "n": 20,
+            "black_realized_all_pass": 0,
+            "black_one_stone_double_pass": 0,
+            "empty_double_pass": 0,
+            "literal_one_stone_a0": 0,
+            "black_board_wins": 0,
+            "white_board_wins": 20,
+            "black_goals": 20,
+            "white_goals": 0,
+            "joint_goals": 0,
+            "length2": 0,
+            "length3": 0,
+            "length_le8": 6,
+            "length_ge60": 0,
+            "move_limit": 0
+          },
+          "WIN/LOSE": {
+            "n": 20,
+            "black_realized_all_pass": 0,
+            "black_one_stone_double_pass": 4,
+            "empty_double_pass": 0,
+            "literal_one_stone_a0": 0,
+            "black_board_wins": 20,
+            "white_board_wins": 0,
+            "black_goals": 20,
+            "white_goals": 20,
+            "joint_goals": 20,
+            "length2": 0,
+            "length3": 4,
+            "length_le8": 4,
+            "length_ge60": 0,
+            "move_limit": 0
+          },
+          "LOSE/WIN": {
+            "n": 20,
+            "black_realized_all_pass": 3,
+            "black_one_stone_double_pass": 0,
+            "empty_double_pass": 3,
+            "literal_one_stone_a0": 0,
+            "black_board_wins": 0,
+            "white_board_wins": 20,
+            "black_goals": 20,
+            "white_goals": 20,
+            "joint_goals": 20,
+            "length2": 3,
+            "length3": 0,
+            "length_le8": 8,
+            "length_ge60": 0,
+            "move_limit": 0
+          }
+        },
+        "1024": {
+          "WIN/WIN": {
+            "n": 20,
+            "black_realized_all_pass": 0,
+            "black_one_stone_double_pass": 0,
+            "empty_double_pass": 0,
+            "literal_one_stone_a0": 0,
+            "black_board_wins": 13,
+            "white_board_wins": 7,
+            "black_goals": 13,
+            "white_goals": 7,
+            "joint_goals": 0,
+            "length2": 0,
+            "length3": 0,
+            "length_le8": 0,
+            "length_ge60": 0,
+            "move_limit": 0
+          },
+          "LOSE/LOSE": {
+            "n": 20,
+            "black_realized_all_pass": 0,
+            "black_one_stone_double_pass": 0,
+            "empty_double_pass": 0,
+            "literal_one_stone_a0": 0,
+            "black_board_wins": 0,
+            "white_board_wins": 20,
+            "black_goals": 20,
+            "white_goals": 0,
+            "joint_goals": 0,
+            "length2": 0,
+            "length3": 0,
+            "length_le8": 1,
+            "length_ge60": 0,
+            "move_limit": 0
+          },
+          "WIN/LOSE": {
+            "n": 20,
+            "black_realized_all_pass": 0,
+            "black_one_stone_double_pass": 14,
+            "empty_double_pass": 0,
+            "literal_one_stone_a0": 0,
+            "black_board_wins": 20,
+            "white_board_wins": 0,
+            "black_goals": 20,
+            "white_goals": 20,
+            "joint_goals": 20,
+            "length2": 0,
+            "length3": 14,
+            "length_le8": 14,
+            "length_ge60": 0,
+            "move_limit": 0
+          },
+          "LOSE/WIN": {
+            "n": 20,
+            "black_realized_all_pass": 4,
+            "black_one_stone_double_pass": 0,
+            "empty_double_pass": 4,
+            "literal_one_stone_a0": 0,
+            "black_board_wins": 0,
+            "white_board_wins": 20,
+            "black_goals": 20,
+            "white_goals": 20,
+            "joint_goals": 20,
+            "length2": 4,
+            "length3": 0,
+            "length_le8": 12,
+            "length_ge60": 0,
+            "move_limit": 0
+          }
+        }
+      }
+    }
+  },
+  "length_sensitivity": {
+    "pooled": {
+      "64": {
+        "per_identity_direction": {
+          "WIN/WIN": {
+            "full_n": 60,
+            "full_mean": 29.35,
+            "retained_n": 58,
+            "excluded_n": 2,
+            "retained_mean": 30.25862068965517
+          },
+          "LOSE/LOSE": {
+            "full_n": 60,
+            "full_mean": 24.5,
+            "retained_n": 60,
+            "excluded_n": 0,
+            "retained_mean": 24.5
+          },
+          "WIN/LOSE": {
+            "full_n": 60,
+            "full_mean": 23.383333333333333,
+            "retained_n": 53,
+            "excluded_n": 7,
+            "retained_mean": 26.07547169811321
+          },
+          "LOSE/WIN": {
+            "full_n": 60,
+            "full_mean": 19.716666666666665,
+            "retained_n": 60,
+            "excluded_n": 0,
+            "retained_mean": 19.716666666666665
+          }
+        },
+        "all_games": {
+          "mixed_n": 120,
+          "same_n": 120,
+          "mixed_minus_same_mean": -5.375
+        },
+        "exclude_length2_3": {
+          "mixed_n": 113,
+          "same_n": 118,
+          "mixed_minus_same_mean": -4.631393430328483
+        }
+      },
+      "256": {
+        "per_identity_direction": {
+          "WIN/WIN": {
+            "full_n": 60,
+            "full_mean": 30.75,
+            "retained_n": 59,
+            "excluded_n": 1,
+            "retained_mean": 31.23728813559322
+          },
+          "LOSE/LOSE": {
+            "full_n": 60,
+            "full_mean": 28.483333333333334,
+            "retained_n": 60,
+            "excluded_n": 0,
+            "retained_mean": 28.483333333333334
+          },
+          "WIN/LOSE": {
+            "full_n": 60,
+            "full_mean": 17.55,
+            "retained_n": 51,
+            "excluded_n": 9,
+            "retained_mean": 20.11764705882353
+          },
+          "LOSE/WIN": {
+            "full_n": 60,
+            "full_mean": 11.183333333333334,
+            "retained_n": 51,
+            "excluded_n": 9,
+            "retained_mean": 12.803921568627452
+          }
+        },
+        "all_games": {
+          "mixed_n": 120,
+          "same_n": 120,
+          "mixed_minus_same_mean": -15.25
+        },
+        "exclude_length2_3": {
+          "mixed_n": 102,
+          "same_n": 119,
+          "mixed_minus_same_mean": -13.38795518207283
+        }
+      },
+      "1024": {
+        "per_identity_direction": {
+          "WIN/WIN": {
+            "full_n": 60,
+            "full_mean": 30.7,
+            "retained_n": 60,
+            "excluded_n": 0,
+            "retained_mean": 30.7
+          },
+          "LOSE/LOSE": {
+            "full_n": 60,
+            "full_mean": 46.1,
+            "retained_n": 60,
+            "excluded_n": 0,
+            "retained_mean": 46.1
+          },
+          "WIN/LOSE": {
+            "full_n": 60,
+            "full_mean": 7.166666666666667,
+            "retained_n": 20,
+            "excluded_n": 40,
+            "retained_mean": 15.5
+          },
+          "LOSE/WIN": {
+            "full_n": 60,
+            "full_mean": 6.266666666666667,
+            "retained_n": 43,
+            "excluded_n": 17,
+            "retained_mean": 7.953488372093023
+          }
+        },
+        "all_games": {
+          "mixed_n": 120,
+          "same_n": 120,
+          "mixed_minus_same_mean": -31.68333333333333
+        },
+        "exclude_length2_3": {
+          "mixed_n": 63,
+          "same_n": 120,
+          "mixed_minus_same_mean": -28.05079365079365
+        }
+      }
+    },
+    "per_seed": {
+      "5": {
+        "64": {
+          "per_identity_direction": {
+            "WIN/WIN": {
+              "full_n": 20,
+              "full_mean": 25.7,
+              "retained_n": 19,
+              "excluded_n": 1,
+              "retained_mean": 26.894736842105264
+            },
+            "LOSE/LOSE": {
+              "full_n": 20,
+              "full_mean": 23.5,
+              "retained_n": 20,
+              "excluded_n": 0,
+              "retained_mean": 23.5
+            },
+            "WIN/LOSE": {
+              "full_n": 20,
+              "full_mean": 23.2,
+              "retained_n": 18,
+              "excluded_n": 2,
+              "retained_mean": 25.444444444444443
+            },
+            "LOSE/WIN": {
+              "full_n": 20,
+              "full_mean": 16.55,
+              "retained_n": 20,
+              "excluded_n": 0,
+              "retained_mean": 16.55
+            }
+          },
+          "all_games": {
+            "mixed_n": 40,
+            "same_n": 40,
+            "mixed_minus_same_mean": -4.725000000000001
+          },
+          "exclude_length2_3": {
+            "mixed_n": 38,
+            "same_n": 39,
+            "mixed_minus_same_mean": -4.390688259109311
+          }
+        },
+        "256": {
+          "per_identity_direction": {
+            "WIN/WIN": {
+              "full_n": 20,
+              "full_mean": 29.1,
+              "retained_n": 19,
+              "excluded_n": 1,
+              "retained_mean": 30.526315789473685
+            },
+            "LOSE/LOSE": {
+              "full_n": 20,
+              "full_mean": 32.1,
+              "retained_n": 20,
+              "excluded_n": 0,
+              "retained_mean": 32.1
+            },
+            "WIN/LOSE": {
+              "full_n": 20,
+              "full_mean": 19.4,
+              "retained_n": 18,
+              "excluded_n": 2,
+              "retained_mean": 21.22222222222222
+            },
+            "LOSE/WIN": {
+              "full_n": 20,
+              "full_mean": 9.5,
+              "retained_n": 16,
+              "excluded_n": 4,
+              "retained_mean": 11.375
+            }
+          },
+          "all_games": {
+            "mixed_n": 40,
+            "same_n": 40,
+            "mixed_minus_same_mean": -16.150000000000002
+          },
+          "exclude_length2_3": {
+            "mixed_n": 34,
+            "same_n": 39,
+            "mixed_minus_same_mean": -14.745098039215684
+          }
+        },
+        "1024": {
+          "per_identity_direction": {
+            "WIN/WIN": {
+              "full_n": 20,
+              "full_mean": 30.85,
+              "retained_n": 20,
+              "excluded_n": 0,
+              "retained_mean": 30.85
+            },
+            "LOSE/LOSE": {
+              "full_n": 20,
+              "full_mean": 44.15,
+              "retained_n": 20,
+              "excluded_n": 0,
+              "retained_mean": 44.15
+            },
+            "WIN/LOSE": {
+              "full_n": 20,
+              "full_mean": 6.5,
+              "retained_n": 6,
+              "excluded_n": 14,
+              "retained_mean": 14.666666666666666
+            },
+            "LOSE/WIN": {
+              "full_n": 20,
+              "full_mean": 6,
+              "retained_n": 15,
+              "excluded_n": 5,
+              "retained_mean": 7.333333333333333
+            }
+          },
+          "all_games": {
+            "mixed_n": 40,
+            "same_n": 40,
+            "mixed_minus_same_mean": -31.25
+          },
+          "exclude_length2_3": {
+            "mixed_n": 21,
+            "same_n": 40,
+            "mixed_minus_same_mean": -28.07142857142857
+          }
+        }
+      },
+      "6": {
+        "64": {
+          "per_identity_direction": {
+            "WIN/WIN": {
+              "full_n": 20,
+              "full_mean": 31.4,
+              "retained_n": 20,
+              "excluded_n": 0,
+              "retained_mean": 31.4
+            },
+            "LOSE/LOSE": {
+              "full_n": 20,
+              "full_mean": 28.4,
+              "retained_n": 20,
+              "excluded_n": 0,
+              "retained_mean": 28.4
+            },
+            "WIN/LOSE": {
+              "full_n": 20,
+              "full_mean": 21.95,
+              "retained_n": 16,
+              "excluded_n": 4,
+              "retained_mean": 26.6875
+            },
+            "LOSE/WIN": {
+              "full_n": 20,
+              "full_mean": 22.1,
+              "retained_n": 20,
+              "excluded_n": 0,
+              "retained_mean": 22.1
+            }
+          },
+          "all_games": {
+            "mixed_n": 40,
+            "same_n": 40,
+            "mixed_minus_same_mean": -7.875
+          },
+          "exclude_length2_3": {
+            "mixed_n": 36,
+            "same_n": 40,
+            "mixed_minus_same_mean": -5.761111111111109
+          }
+        },
+        "256": {
+          "per_identity_direction": {
+            "WIN/WIN": {
+              "full_n": 20,
+              "full_mean": 30.65,
+              "retained_n": 20,
+              "excluded_n": 0,
+              "retained_mean": 30.65
+            },
+            "LOSE/LOSE": {
+              "full_n": 20,
+              "full_mean": 29.2,
+              "retained_n": 20,
+              "excluded_n": 0,
+              "retained_mean": 29.2
+            },
+            "WIN/LOSE": {
+              "full_n": 20,
+              "full_mean": 16.6,
+              "retained_n": 17,
+              "excluded_n": 3,
+              "retained_mean": 19
+            },
+            "LOSE/WIN": {
+              "full_n": 20,
+              "full_mean": 12.55,
+              "retained_n": 18,
+              "excluded_n": 2,
+              "retained_mean": 13.722222222222221
+            }
+          },
+          "all_games": {
+            "mixed_n": 40,
+            "same_n": 40,
+            "mixed_minus_same_mean": -15.350000000000001
+          },
+          "exclude_length2_3": {
+            "mixed_n": 35,
+            "same_n": 40,
+            "mixed_minus_same_mean": -13.639285714285716
+          }
+        },
+        "1024": {
+          "per_identity_direction": {
+            "WIN/WIN": {
+              "full_n": 20,
+              "full_mean": 30.5,
+              "retained_n": 20,
+              "excluded_n": 0,
+              "retained_mean": 30.5
+            },
+            "LOSE/LOSE": {
+              "full_n": 20,
+              "full_mean": 46.65,
+              "retained_n": 20,
+              "excluded_n": 0,
+              "retained_mean": 46.65
+            },
+            "WIN/LOSE": {
+              "full_n": 20,
+              "full_mean": 8.5,
+              "retained_n": 8,
+              "excluded_n": 12,
+              "retained_mean": 16.75
+            },
+            "LOSE/WIN": {
+              "full_n": 20,
+              "full_mean": 5.2,
+              "retained_n": 12,
+              "excluded_n": 8,
+              "retained_mean": 7.333333333333333
+            }
+          },
+          "all_games": {
+            "mixed_n": 40,
+            "same_n": 40,
+            "mixed_minus_same_mean": -31.725
+          },
+          "exclude_length2_3": {
+            "mixed_n": 20,
+            "same_n": 40,
+            "mixed_minus_same_mean": -27.475
+          }
+        }
+      },
+      "7": {
+        "64": {
+          "per_identity_direction": {
+            "WIN/WIN": {
+              "full_n": 20,
+              "full_mean": 30.95,
+              "retained_n": 19,
+              "excluded_n": 1,
+              "retained_mean": 32.421052631578945
+            },
+            "LOSE/LOSE": {
+              "full_n": 20,
+              "full_mean": 21.6,
+              "retained_n": 20,
+              "excluded_n": 0,
+              "retained_mean": 21.6
+            },
+            "WIN/LOSE": {
+              "full_n": 20,
+              "full_mean": 25,
+              "retained_n": 19,
+              "excluded_n": 1,
+              "retained_mean": 26.157894736842106
+            },
+            "LOSE/WIN": {
+              "full_n": 20,
+              "full_mean": 20.5,
+              "retained_n": 20,
+              "excluded_n": 0,
+              "retained_mean": 20.5
+            }
+          },
+          "all_games": {
+            "mixed_n": 40,
+            "same_n": 40,
+            "mixed_minus_same_mean": -3.5249999999999986
+          },
+          "exclude_length2_3": {
+            "mixed_n": 39,
+            "same_n": 39,
+            "mixed_minus_same_mean": -3.6153846153846168
+          }
+        },
+        "256": {
+          "per_identity_direction": {
+            "WIN/WIN": {
+              "full_n": 20,
+              "full_mean": 32.5,
+              "retained_n": 20,
+              "excluded_n": 0,
+              "retained_mean": 32.5
+            },
+            "LOSE/LOSE": {
+              "full_n": 20,
+              "full_mean": 24.15,
+              "retained_n": 20,
+              "excluded_n": 0,
+              "retained_mean": 24.15
+            },
+            "WIN/LOSE": {
+              "full_n": 20,
+              "full_mean": 16.65,
+              "retained_n": 16,
+              "excluded_n": 4,
+              "retained_mean": 20.0625
+            },
+            "LOSE/WIN": {
+              "full_n": 20,
+              "full_mean": 11.5,
+              "retained_n": 17,
+              "excluded_n": 3,
+              "retained_mean": 13.176470588235293
+            }
+          },
+          "all_games": {
+            "mixed_n": 40,
+            "same_n": 40,
+            "mixed_minus_same_mean": -14.25
+          },
+          "exclude_length2_3": {
+            "mixed_n": 33,
+            "same_n": 40,
+            "mixed_minus_same_mean": -11.809848484848484
+          }
+        },
+        "1024": {
+          "per_identity_direction": {
+            "WIN/WIN": {
+              "full_n": 20,
+              "full_mean": 30.75,
+              "retained_n": 20,
+              "excluded_n": 0,
+              "retained_mean": 30.75
+            },
+            "LOSE/LOSE": {
+              "full_n": 20,
+              "full_mean": 47.5,
+              "retained_n": 20,
+              "excluded_n": 0,
+              "retained_mean": 47.5
+            },
+            "WIN/LOSE": {
+              "full_n": 20,
+              "full_mean": 6.5,
+              "retained_n": 6,
+              "excluded_n": 14,
+              "retained_mean": 14.666666666666666
+            },
+            "LOSE/WIN": {
+              "full_n": 20,
+              "full_mean": 7.6,
+              "retained_n": 16,
+              "excluded_n": 4,
+              "retained_mean": 9
+            }
+          },
+          "all_games": {
+            "mixed_n": 40,
+            "same_n": 40,
+            "mixed_minus_same_mean": -32.075
+          },
+          "exclude_length2_3": {
+            "mixed_n": 22,
+            "same_n": 40,
+            "mixed_minus_same_mean": -28.579545454545453
+          }
+        }
+      }
+    }
+  },
+  "protocol_weighting_clarification": {
+    "topic": "filtered length weighting",
+    "full_sample": "Balanced full-sample mixed and same groups equally weight their two identity directions.",
+    "filtered_sensitivity": "Frozen code pools actual retained games after excluding2-3plies, thus weights directions by retained counts. Preregistration text is ambiguous about extending equal-identity weights after exclusion.",
+    "reporting": "Label this a conditional retained-sample descriptive sensitivity, report each direction retained n and mean, and do not call it the original equal-weight estimand or a causal adjustment. Primary paired proportion estimands and CIs are unaffected."
+  },
+  "limitations": [
+    "Independent-stream conditional inference only; fixed agent seeds are not a sampled agent population.",
+    "Marginal95% intervals are not simultaneous; the separately reported six-primary family bounds are.",
+    "Filtered means use actual retained-game weights, may be undefined for empty groups, and are descriptive rather than causal.",
+    "This is a statistical/record audit, not independent legal-move replay or MCTS correctness proof."
+  ]
+}

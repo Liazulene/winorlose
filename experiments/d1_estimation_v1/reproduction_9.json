@@ -1,0 +1,92 @@
+{
+  "experiment_lock": {
+    "experiment_id": "D1-G0-estimation-v1",
+    "code_version": "winai_loseai-0.5.0-d1-estimation",
+    "schema_version": 1,
+    "source_fingerprint": "250cf8c98783f9028b004fdff1367a416dfde198f8e6b4bbff7a858ea0886c0a",
+    "python_version": "3.12.14",
+    "preregistration_sha256": "4eb8abc6b7faa538a3380036210023dcbe561494711d4284997a5b0287263b84",
+    "entry_point_sha256": "648a10a1f8306301c21c6443a7d51f5122917f4e8aa406d3c3c57fea78873fdd",
+    "measurement_script_sha256": "68e7a02f1bbf795b4913f8aa726c59dbd4a6fa0897c6b537f74061baee2f758a",
+    "scipy_version": "1.17.0",
+    "numpy_version": "2.3.5"
+  },
+  "predesignated_selection": "Lowest game_index in each budget by batch_seed stratum (9), one worker; preregistered before execution",
+  "results": [
+    {
+      "game_id": "d1_g0_estimation_v1-g000000",
+      "budget": 64,
+      "batch_seed": 5,
+      "game_index": 0,
+      "matches_except_timing": true,
+      "wall_seconds": 5.940818520000903
+    },
+    {
+      "game_id": "d1_g0_estimation_v1-g000080",
+      "budget": 64,
+      "batch_seed": 6,
+      "game_index": 80,
+      "matches_except_timing": true,
+      "wall_seconds": 5.2654082590015605
+    },
+    {
+      "game_id": "d1_g0_estimation_v1-g000160",
+      "budget": 64,
+      "batch_seed": 7,
+      "game_index": 160,
+      "matches_except_timing": true,
+      "wall_seconds": 3.7721404420008184
+    },
+    {
+      "game_id": "d1_g0_estimation_v1-g000240",
+      "budget": 256,
+      "batch_seed": 5,
+      "game_index": 240,
+      "matches_except_timing": true,
+      "wall_seconds": 21.044150994002848
+    },
+    {
+      "game_id": "d1_g0_estimation_v1-g000320",
+      "budget": 256,
+      "batch_seed": 6,
+      "game_index": 320,
+      "matches_except_timing": true,
+      "wall_seconds": 17.31487143800041
+    },
+    {
+      "game_id": "d1_g0_estimation_v1-g000400",
+      "budget": 256,
+      "batch_seed": 7,
+      "game_index": 400,
+      "matches_except_timing": true,
+      "wall_seconds": 17.555282627999986
+    },
+    {
+      "game_id": "d1_g0_estimation_v1-g000480",
+      "budget": 1024,
+      "batch_seed": 5,
+      "game_index": 480,
+      "matches_except_timing": true,
+      "wall_seconds": 92.24572095099938
+    },
+    {
+      "game_id": "d1_g0_estimation_v1-g000560",
+      "budget": 1024,
+      "batch_seed": 6,
+      "game_index": 560,
+      "matches_except_timing": true,
+      "wall_seconds": 78.98114681199877
+    },
+    {
+      "game_id": "d1_g0_estimation_v1-g000640",
+      "budget": 1024,
+      "batch_seed": 7,
+      "game_index": 640,
+      "matches_except_timing": true,
+      "wall_seconds": 82.3249762350024
+    }
+  ],
+  "wall_seconds": 324.44559138000113,
+  "problems": [],
+  "script_sha256": "f507a08be702e26e5eb225eff640968fb55436dfaa5d684f852b2a3f3ebecbaa"
+}

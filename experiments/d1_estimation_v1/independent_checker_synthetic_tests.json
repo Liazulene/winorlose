@@ -1,0 +1,24 @@
+{
+  "audit": "independent-final-checker-synthetic-validation",
+  "status": "passed",
+  "completed_utc": "2026-10-04T03:37:48.290656+00:00",
+  "test_cases": 10,
+  "direct_binomial_boundary_and_tail_residual_checks": 540,
+  "command": "python test_final_analysis_checker_synthetic.py",
+  "formal_run_files_read": false,
+  "checker_main_executed": false,
+  "coverage": [
+    "independent empty/one-black/one-white/shared-area scoring",
+    "raw route and identity-goal mapping in all four identity directions",
+    "all-concordant and all-discordant n20/n60 paired boundaries",
+    "known paired table counts and estimates",
+    "baseline-comparison reversal symmetry",
+    "six-comparison simultaneous interval nesting",
+    "independent schema-only design balance and matched seed reuse",
+    "corruption/missing-key/type rejection"
+  ],
+  "source_hashes": {
+    "check_final_analysis_independent.py": "c8cdd2888d78988fc8dafc6cebf5989842336476ac5a12dca28deafa41fde513",
+    "test_final_analysis_checker_synthetic.py": "ecf1d2194fc2659ad06dbb6b4ee232f2321fbfe08de02be3659f948771244894"
+  }
+}

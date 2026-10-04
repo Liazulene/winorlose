@@ -1,6 +1,6 @@
 {
   "experiment_id": "D1-G0-estimation-v1",
-  "state": "executing_fixed_sample",
+  "state": "completed_validated",
   "formal_games_started": true,
   "planned_games": 720,
   "parent_commit": "f315cfa9cfba8b2b69b456c8d730012cf98f5e2f",
@@ -13,8 +13,17 @@
   "preregistration_commit": "18bac62c6c949fd18338b276e31a4727c59b18df",
   "tests_passed": 287,
   "review_tests_passed": 137,
-  "latest_verified_checkpoint_games": 528,
-  "latest_verified_checkpoint_commit": "434d00897ac461325761505605cd65f63f6b2ade",
+  "latest_verified_checkpoint_games": 720,
+  "latest_verified_checkpoint_commit": "6440e490ee06b10c6bf0ab5ea1ef098d40b8c9be",
   "updated_utc": "2026-10-04T01:16:41.915432+00:00",
-  "sync_incidents": 1
+  "sync_incidents": 1,
+  "completed_games": 720,
+  "validated_games": 720,
+  "reproduced_games": 9,
+  "independent_statistics_checks": 242290,
+  "independent_statistics_mismatches": 0,
+  "unplanned_game_failures": 0,
+  "planned_checkpoint_exits": 29,
+  "raw_complete_remote_commit": "6440e490ee06b10c6bf0ab5ea1ef098d40b8c9be",
+  "next_phase_recommendation": "Maintain7x7NO-GO. Separately version a5x5G1-pass8 versus G0 early-pass single-factor probe at256 after fresh cost calibration and preregistration. Not started."
 }

@@ -1,0 +1,142 @@
+{
+  "audit": "D1-G0-estimation-v1-independent-final-engineering-resource-preservation",
+  "completed_utc": "2026-10-04T04:03:39.003901+00:00",
+  "status": "passed",
+  "problems": [],
+  "source_fingerprint": "250cf8c98783f9028b004fdff1367a416dfde198f8e6b4bbff7a858ea0886c0a",
+  "preregistration_sha256": "4eb8abc6b7faa538a3380036210023dcbe561494711d4284997a5b0287263b84",
+  "preservation": {
+    "winorlose": {
+      "checked_files": 15868,
+      "snapshot_sha256": "fae2afb0b27d2c0f18a0b66569308b8d2d7f914f1dc25d5ef5cfef407a492308",
+      "changed": []
+    },
+    "winorlose_d0_v1": {
+      "checked_files": 15929,
+      "snapshot_sha256": "7a42bdbb8ecd73853a1dee149b5c091d1458a2a3ea2aa30053d34eafc34f3d14",
+      "changed": []
+    },
+    "winorlose_d1_v1": {
+      "checked_files": 16019,
+      "snapshot_sha256": "23d0b9c8e1ceb7ff327028a2d56591a93e2d1a63308dda6ad123541f517c5f79",
+      "changed": []
+    },
+    "inherited_d1_files": {
+      "checked_files": 16017,
+      "allowed_changes": [
+        "src/winai_loseai/__init__.py",
+        "tests/test_d1.py"
+      ],
+      "changed": [],
+      "allowed_diff_review": "Only version strings and the temporary legacy-test protocol fixture differ."
+    }
+  },
+  "frozen_locks_unchanged": {
+    "current_experiment": true,
+    "current_source": true,
+    "saved_experiment": true,
+    "saved_source": true,
+    "saved_protocol": true
+  },
+  "preexecution_reviewed_file_changes": [],
+  "fresh_final_validation": {
+    "planned": 720,
+    "game_count": 720,
+    "replay_and_search_ok": 720,
+    "complete": true,
+    "problems": [],
+    "source_fingerprint": "250cf8c98783f9028b004fdff1367a416dfde198f8e6b4bbff7a858ea0886c0a"
+  },
+  "fresh_validation_equals_saved": true,
+  "fresh_validation_seconds": 9.933349814000394,
+  "raw_game_hash_map_sha256": "2bdef40a63ac3754f79c3b08ac35055a895bea3a2b64490786709628093dc788",
+  "checkpoint_audit": {
+    "chunks": 30,
+    "games_per_chunk": 24,
+    "planned_checkpoint_exits": 29,
+    "final_exit_code": 0,
+    "game_failures": 0,
+    "empty_stderr_files": 30,
+    "clean_validations": 30,
+    "all_retained_checkpoint_hashes_match_final": true,
+    "all_stdout_saved_index_ranges_match": true,
+    "max_stdout_record_wall_ms_difference": 0.0,
+    "checkpoint_validation_seconds_sum": 87.16969402599807
+  },
+  "resources": {
+    "by_budget": {
+      "64": {
+        "games": 240,
+        "chunks": 10,
+        "wall_seconds": 613.5952213509954,
+        "cpu_user_seconds": 612.30007,
+        "cpu_system_seconds": 1.115,
+        "cpu_total_seconds": 613.41507,
+        "peak_rss_kib": 36440,
+        "peak_rss_mib": 35.5859375,
+        "actual_to_pilot_wall_ratio": 0.9774771853271693
+      },
+      "256": {
+        "games": 240,
+        "chunks": 10,
+        "wall_seconds": 2165.237272766002,
+        "cpu_user_seconds": 2162.162255,
+        "cpu_system_seconds": 2.7119489999999997,
+        "cpu_total_seconds": 2164.874204,
+        "peak_rss_kib": 55832,
+        "peak_rss_mib": 54.5234375,
+        "actual_to_pilot_wall_ratio": 1.0455351003746143
+      },
+      "1024": {
+        "games": 240,
+        "chunks": 10,
+        "wall_seconds": 11080.141569969994,
+        "cpu_user_seconds": 11069.595503999999,
+        "cpu_system_seconds": 9.375544999999999,
+        "cpu_total_seconds": 11078.971049,
+        "peak_rss_kib": 203816,
+        "peak_rss_mib": 199.0390625,
+        "actual_to_pilot_wall_ratio": 1.4875566563669427
+      }
+    },
+    "total_child_wall_seconds": 13858.974064086993,
+    "total_child_wall_hours": 3.8497150178019424,
+    "total_child_cpu_seconds": 13857.260323,
+    "peak_rss_kib": 203816,
+    "peak_rss_mib": 199.0390625,
+    "formal_elapsed_seconds": 51937.332245,
+    "formal_elapsed_hours": 14.427036734722222,
+    "interchunk_gap_seconds": 38078.335825,
+    "largest_interchunk_gap": {
+      "after_chunk": 22,
+      "seconds": 31310.705967
+    },
+    "elapsed_minus_largest_gap_hours": 5.729618410555554,
+    "timestamp_perf_counter_residual_seconds": 0.022355913002684247,
+    "pilot_scaled_child_seconds": 10147.221464690001,
+    "actual_to_pilot_total_ratio": 1.36579004531566,
+    "pilot_plus50pct_child_seconds": 15220.832197035,
+    "under_pilot_plus50pct_allowance": true,
+    "under_12hour_compute_premise": true,
+    "output_tree_bytes": 27648919,
+    "raw_timing_and_chunk_summary_reconciled": true,
+    "timing_scope": "Child includes import/resume/check/final analysis. Excludes GitHub synchronization, external checks, tests, and supplementary regeneration. The largest22-to23 gap includes approval wait plus surrounding work, not pure approval time. Elapsed ends at final child exit, before final delivery."
+  },
+  "protocol_clarifications": {
+    "sha256": "57eb18e0370e877cfb704c68aa29161b14add7a60d4c8a160ee2f801abd367b6",
+    "checkpoint_residual": "Inherited six-game phrase conflicts with explicit frozen24-game policy. All30 formal checkpoints used24 consistently from the first; disclosure does not change sample, seeds, intervals or stopping design.",
+    "filtered_weights": "Balanced full sample equally weights directions. Excluding2–3ply games pools actual retained observations, changing weights. Report conditional retained-sample descriptive sensitivity with per-direction retained counts and means; do not call it equal-direction weighting or causal adjustment.",
+    "primary_plan_unchanged": true
+  },
+  "independent_stats_checker_static_review": {
+    "sha256": "c8cdd2888d78988fc8dafc6cebf5989842336476ac5a12dca28deafa41fde513",
+    "result": "No static schema/math blocker found: direct-binomial CP inversion, paired rectangle family bounds, registered block pairing, independent area scoring, and retained-sample length calculations align. Execution results remain in separate independent statistical report."
+  },
+  "limitations": [
+    "Audit is read-only except this external final_review.json; no package/protocol/output/repository files were changed.",
+    "Parent separately owns aggregate tests,9-game regeneration, synthesis and final remote synchronization; those are not certified here.",
+    "Formal elapsed14.43h exceeds12 wall-clock hours because of approval/synchronization gaps. Recorded child compute3.85h remains within12h compute premise.",
+    "Same-engine replay proves consistency, not independently implemented game rules."
+  ],
+  "audit_elapsed_seconds": 13.381550366997544
+}
