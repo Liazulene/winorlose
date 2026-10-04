@@ -1,0 +1,29 @@
+{
+  "experiment_id": "G1-pass8-pilot-v1",
+  "planned": 48,
+  "game_count": 16,
+  "replay_and_search_ok": 16,
+  "complete": false,
+  "problems": [],
+  "manifest_status": "interrupted",
+  "rule_fault_present": false,
+  "source_fingerprint": "5876fdc9d1cc29fc446300265db5a9676f07b646cc8299cd4961f1129fdb3ec1",
+  "raw_game_sha256": {
+    "g1_pass8_pilot_v1-g000000.json": "236b1a6999cb53fd0dd72abf78935922deca0f83bfc33c254f0d477950a4c561",
+    "g1_pass8_pilot_v1-g000001.json": "f6bcfd7390824bc16f6fccfd4ac82851cf2fe6a19d95d61da2d1e152ef4b5296",
+    "g1_pass8_pilot_v1-g000002.json": "d2b316beaf9c0f26d429f73fdda8252e76e6eaedf65e509be909b4389b716c4d",
+    "g1_pass8_pilot_v1-g000003.json": "224a9a4f63045a5b86edfa70ceedde481a01a8b6bcbbb036fafc1953a0107d93",
+    "g1_pass8_pilot_v1-g000004.json": "ca04d6a4c959822e1079feb1d30097c3ed12c8ce59f0a3b9a4d3c491a8ee7438",
+    "g1_pass8_pilot_v1-g000005.json": "affe403ebe695c26e9d16a0cf0cdaa6ac57316e5601d5290e47e4148e6a4776e",
+    "g1_pass8_pilot_v1-g000006.json": "e9ca230f3884142ffbb6f5e987f62a2f475eaca767a755fcbe2a6604b4f37c10",
+    "g1_pass8_pilot_v1-g000007.json": "94290a034f91f396b91e6e12c25d6db7b5d6230ede7ef17b138918fb1a6d002e",
+    "g1_pass8_pilot_v1-g000008.json": "af2c77fe8a7fe8c96cabd445ff1c3cdcf64cfb42ae813e69de3a1c8d6f6deb08",
+    "g1_pass8_pilot_v1-g000009.json": "8973e945f6f5910c81efa12bef42f8c4d40f045624f787b54bf11246eb651f2f",
+    "g1_pass8_pilot_v1-g000010.json": "805d6728bfa3c4f873ca9c10e247f11e675e0483a1990e7de64be5d665f1822d",
+    "g1_pass8_pilot_v1-g000011.json": "6eb3f85563c7ec17c9b83b99c180f097423aec6061d60beddfecff9a2b5b85b7",
+    "g1_pass8_pilot_v1-g000012.json": "b40655caec37e1bd2ae0dcf6571dcacde2e249e716068fba8b6bf15e442e1170",
+    "g1_pass8_pilot_v1-g000013.json": "2abb8f2c162f46759603310382265345f47e7f6a97641d47040d7cde2128a690",
+    "g1_pass8_pilot_v1-g000014.json": "31d96fdd91617978a2330e7952363427ae65e43cf3dcfb939a4ad57d63f0edf1",
+    "g1_pass8_pilot_v1-g000015.json": "03f0f539796d76775dbebd082993f2d7239a1e592085d4bc97d298f7840a30c8"
+  }
+}
