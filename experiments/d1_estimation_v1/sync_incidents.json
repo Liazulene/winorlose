@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "type": "platform_approval_wait_during_blob_upload",
+    "checkpoint_games": 528,
+    "last_pre_wait_game_completion_utc": "2026-10-03T16:33:01.757030+00:00",
+    "approval_notification_utc": "2026-10-03T16:34:35+00:00",
+    "observed_resumption_utc": "2026-10-04T01:13:45+00:00",
+    "verified_remote_commit": "434d00897ac461325761505605cd65f63f6b2ade",
+    "detail": "GitHub blob upload paused for a platform approval during the fixed528-game checkpoint. Original call resumed and completed; no write retried, no game rerun or loss. Remote had504 games during the wait, local528 were intact and validated. The approximately8h40m waiting interval is not game compute or an unplanned game interruption. Exact approval-target filename was not returned to the coordinator.",
+    "experiment_runtime_failure": false
+  }
+]

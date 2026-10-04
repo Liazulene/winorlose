@@ -1,7 +1,7 @@
 {
   "experiment_id": "D1-G0-estimation-v1",
-  "state": "registered_ready_to_execute",
-  "formal_games_started": false,
+  "state": "executing_fixed_sample",
+  "formal_games_started": true,
   "planned_games": 720,
   "parent_commit": "f315cfa9cfba8b2b69b456c8d730012cf98f5e2f",
   "branch": "experiment/d1-estimation-v1",
@@ -12,5 +12,9 @@
   "reason": "Follow measured D1cost recommendation: fixed720 balances estimation information against overnight compute and connector overhead; no outcome-dependent expansion.",
   "preregistration_commit": "18bac62c6c949fd18338b276e31a4727c59b18df",
   "tests_passed": 287,
-  "review_tests_passed": 137
+  "review_tests_passed": 137,
+  "latest_verified_checkpoint_games": 528,
+  "latest_verified_checkpoint_commit": "434d00897ac461325761505605cd65f63f6b2ade",
+  "updated_utc": "2026-10-04T01:16:41.915432+00:00",
+  "sync_incidents": 1
 }
