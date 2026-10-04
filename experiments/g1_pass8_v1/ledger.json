@@ -1,0 +1,14 @@
+{
+  "experiment_id": "G1-pass8-pilot-v1",
+  "phase": "pre_execution_freeze",
+  "decision": "fixed48 engineering/cost pilot only",
+  "gates": {
+    "tests387": true,
+    "G0_exact_regression3": true,
+    "independent_review": true,
+    "old_worktrees_unchanged": true
+  },
+  "formal_expansion_started": false,
+  "7x7": "NO-GO",
+  "next": "verify remote freeze then6 fixed8game checkpoints"
+}

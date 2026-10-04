@@ -40,7 +40,11 @@ def _one_move_color(player_code: int) -> str:
 
 def play_one(job: dict, board_size: int = DEFAULT_BOARD_SIZE,
              komi: float = DEFAULT_KOMI) -> dict:
-    """Play a single game described by ``job`` and return its full record."""
+    """Play a game; optional job.pass_min_ply defaults to the G0 value 0.
+
+    NoLegalActionError propagates unchanged, including faults in MCTS tree
+    nodes or rollouts. The caller must abort the experiment, not score it.
+    """
     provenance = current_provenance()
     black_spec = job["black"]
     white_spec = job["white"]
@@ -58,16 +62,28 @@ def play_one(job: dict, board_size: int = DEFAULT_BOARD_SIZE,
     agent_white = make_agent(white_spec, rng_white, komi)
     agent_for = {G.BLACK: (black_spec, agent_black), G.WHITE: (white_spec, agent_white)}
 
-    state = G.GoState.initial(board_size)
+    state = G.GoState.initial(board_size,
+                              pass_min_ply=job.get("pass_min_ply", 0))
+    if "ruleset" in job and job["ruleset"] != state.ruleset:
+        raise ValueError("job ruleset does not match pass_min_ply")
     moves = []
     superko_total = 0
     game_start = _time.perf_counter()
 
     while not state.is_terminal():
         spec, agent = agent_for[state.to_play]
-        legal, counts = state.legal_report()
-        superko_total += counts["superko"]
-        action = agent.select_action(state, black_spec.identity, white_spec.identity)
+        try:
+            legal, counts = state.legal_report()
+            superko_total += counts["superko"]
+            action = agent.select_action(state, black_spec.identity, white_spec.identity)
+        except G.NoLegalActionError as error:
+            error.diagnostics['game_context'] = {
+                'game_index': index, 'batch_id': batch_id, 'game_seed': game_seed,
+                'ruleset': state.ruleset, 'pass_min_ply': state.pass_min_ply,
+                'actual_root_ply': state.move_count, 'actual_moves': moves,
+                'attempt_elapsed_ms': (_time.perf_counter()-game_start)*1000.0,
+            }
+            raise
         if action not in legal:
             raise RuntimeError(
                 f"agent {spec.agent_id} returned illegal action {action} at "
@@ -106,6 +122,8 @@ def play_one(job: dict, board_size: int = DEFAULT_BOARD_SIZE,
         "game_seed": game_seed,
         "board_size": board_size,
         "komi": komi,
+        "ruleset": state.ruleset,
+        "pass_min_ply": state.pass_min_ply,
         "black_agent_id": black_spec.agent_id,
         "white_agent_id": white_spec.agent_id,
         "black_identity": black_spec.identity.value,

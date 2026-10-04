@@ -10,6 +10,10 @@ Replays every recorded action from the empty board and cross-checks:
 
 Every saved record now stores ``final_board``; older records without it are
 still validated on the remaining fields.
+
+Schema 1 is the historical G0 format and may omit rule metadata. Schema 2
+requires explicit, matching ``ruleset`` and ``pass_min_ply`` fields. Replaying
+a rule variant as G0 must never silently accept an early pass.
 """
 
 from __future__ import annotations
@@ -28,7 +32,20 @@ def replay_record(record: dict) -> dict:
     problems = []
     size = int(record["board_size"])
     komi = float(record["komi"])
-    state = G.GoState.initial(size)
+    schema = record.get("schema_version")
+    if type(schema) is not int or schema not in (1, 2):
+        return {"ok": False, "problems": ["missing or unsupported schema_version"]}
+    if schema == 2 and not {"ruleset", "pass_min_ply"} <= record.keys():
+        return {"ok": False, "problems": ["schema 2 requires ruleset and pass_min_ply"]}
+    pass_min_ply = record.get("pass_min_ply", 0)
+    try:
+        state = G.GoState.initial(size, pass_min_ply=pass_min_ply)
+    except ValueError as exc:
+        return {"ok": False, "problems": [f"invalid rule metadata: {exc}"]}
+    if schema == 1 and pass_min_ply != 0:
+        return {"ok": False, "problems": ["schema 1 supports G0 / pass_min_ply=0 only"]}
+    if record.get("ruleset", "G0") != state.ruleset:
+        return {"ok": False, "problems": ["ruleset does not match pass_min_ply"]}
     pass_id = G.pass_action(size)
 
     for move in record.get("moves", []):
@@ -53,8 +70,14 @@ def replay_record(record: dict) -> dict:
                 f"expected={exp_pass}"
             )
 
-        if "legal_action_count" in move:
+        try:
             n_legal = len(state.legal_actions())
+        except G.NoLegalActionError as exc:
+            # An unplayable nonterminal state is a failed replay, with its
+            # exact fault preserved. Do not turn the board into a score.
+            return {"ok": False, "problems": problems + [str(exc)],
+                    "rule_fault": exc.diagnostics}
+        if "legal_action_count" in move:
             if int(move["legal_action_count"]) != n_legal:
                 problems.append(
                     f"legal_action_count mismatch at move #{idx}: "
@@ -66,11 +89,20 @@ def replay_record(record: dict) -> dict:
             problems.append(
                 f"illegal replay move {action} at move #{idx}"
             )
-            break
+            return {"ok": False, "problems": problems}
         state = child
 
     # Terminal bookkeeping checks.
     reason = state.terminal_reason()
+    if reason is None:
+        # A truncated record could end exactly at an unplayable state. Check
+        # that case too, and never score any nonterminal replay as a game.
+        try:
+            state.legal_report()
+        except G.NoLegalActionError as exc:
+            return {"ok": False, "problems": problems + [str(exc)],
+                    "rule_fault": exc.diagnostics}
+        return {"ok": False, "problems": problems + ["replay did not reach a terminal state"]}
     if reason != record["termination_reason"]:
         problems.append(
             f"termination reason mismatch: recorded={record['termination_reason']} "

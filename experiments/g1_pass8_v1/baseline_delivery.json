@@ -1,0 +1,30 @@
+{
+  "checked_at": "2026-10-04T04:22:56.061095+00:00",
+  "source": {
+    "code_version": "winai_loseai-0.2.0-planning",
+    "schema_version": 1,
+    "source_fingerprint": "a4d6d9e033b88f6b7eb469d49088d69cb45ceb34b3770087b8ecd3a23a890e2e",
+    "python_version": "3.12.14"
+  },
+  "runs": [
+    {
+      "run": "batch_A_seed0",
+      "raw_files": 10000,
+      "unchanged_since_validation": true
+    },
+    {
+      "run": "batch_B_shallow_seed0",
+      "raw_files": 2800,
+      "unchanged_since_validation": true
+    },
+    {
+      "run": "batch_B_shallow_seed1",
+      "raw_files": 2800,
+      "unchanged_since_validation": true
+    }
+  ],
+  "original_design_documents_unchanged": true,
+  "tests_passed": 89,
+  "report_sha256": "cd7a73ffc352ba0361283aa3eba48bc2afc0ee25caad5da13b33c75ef590d0d9",
+  "problems": []
+}

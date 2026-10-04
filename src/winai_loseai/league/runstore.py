@@ -105,6 +105,7 @@ def job_to_entry(job: dict) -> dict:
         "game_seed": int(job["game_seed"]),
         "black": job["black"].to_dict(),
         "white": job["white"].to_dict(),
+        **({"pass_min_ply":job["pass_min_ply"]} if "pass_min_ply" in job else {}),
     }
 
 
@@ -115,6 +116,7 @@ def entry_to_job(entry: dict, batch_id: str) -> dict:
         "batch_id": batch_id,
         "black": AgentSpec.from_dict(entry["black"]),
         "white": AgentSpec.from_dict(entry["white"]),
+        **({"pass_min_ply":entry["pass_min_ply"]} if "pass_min_ply" in entry else {}),
     }
 
 
@@ -295,6 +297,7 @@ class RunStore:
             "komi": self.cfg.get("komi"),
             "batch_seed": self.cfg.get("batch_seed"),
             "concurrency": self.cfg.get("concurrency"),
+            **{k:self.cfg[k] for k in ("pass_min_plies","budget","schedule_seed") if k in self.cfg},
             "completed_game_count": len(self.completed),
             "completed_indexes": sorted(self.completed),
             "created_at": self.created_at,
@@ -392,7 +395,7 @@ class RunStore:
             raise ConfigMismatch("stored plan is empty/corrupt; cannot resume")
 
         for field in ("batch_id", "kind", "requested_games",
-                      "batch_seed", "board_size", "komi"):
+                      "batch_seed", "board_size", "komi", "pass_min_plies", "budget", "schedule_seed"):
             if stored_manifest.get(field) != cfg.get(field):
                 raise ConfigMismatch(
                     f"cannot resume: stored {field}={stored_manifest.get(field)!r} "
@@ -516,7 +519,8 @@ def integrity_problems(out_dir: str):
             if (rec.get("game_seed") != e["game_seed"] or rec.get("black") != e["black"]
                     or rec.get("white") != e["white"]
                     or rec.get("board_size") != manifest.get("board_size")
-                    or rec.get("komi") != manifest.get("komi")):
+                    or rec.get("komi") != manifest.get("komi")
+                    or ("pass_min_ply" in e and rec.get("pass_min_ply") != e["pass_min_ply"])):
                 problems.append(f"game {e['index']} configuration differs from plan")
 
     # any extra game files not in the plan?

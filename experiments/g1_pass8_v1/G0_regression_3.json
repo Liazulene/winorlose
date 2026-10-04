@@ -1,0 +1,41 @@
+{
+  "reference_commit": "c180d059eec5e9f36dfe9fef255275c585edb568",
+  "rules": "samecodepass0",
+  "source": {
+    "experiment_id": "G1-pass8-pilot-v1",
+    "code_version": "winai_loseai-0.6.0-g1-pass8-pilot",
+    "schema_version": 2,
+    "source_fingerprint": "5876fdc9d1cc29fc446300265db5a9676f07b646cc8299cd4961f1129fdb3ec1",
+    "python_version": "3.12.14",
+    "preregistration_sha256": "99b6520c514a931b602cfc99731ac17e81069d82e177dc3cd21b493f00e4591c",
+    "entry_point_sha256": "8bfcc3ddd4f1aba583a1e93365f3c542508d391385a92b5a85225df17fad3a15",
+    "measurement_script_sha256": "9c2ff90f5cc687f1e46b4a12d838d7b3d0319730a2ad9e8e858f26d6c9c4251e",
+    "scipy_version": "1.17.0",
+    "numpy_version": "2.3.5"
+  },
+  "games": [
+    {
+      "game_index": 240,
+      "source_game_sha256": "b4e9a0ace4b236a9db75efbd526a47816eadb3d73a79813e0a11328e592c92db",
+      "same_complete_gameplay_excluding_timing_provenance_newrule": true,
+      "budget": 256,
+      "moves": 28
+    },
+    {
+      "game_index": 320,
+      "source_game_sha256": "f596339547225f66d817cad5d437c81540fd546a250495ef1367a85b6bc36fdf",
+      "same_complete_gameplay_excluding_timing_provenance_newrule": true,
+      "budget": 256,
+      "moves": 28
+    },
+    {
+      "game_index": 400,
+      "source_game_sha256": "087ef0eeb7bcb974e5b1a5fd4a70569027f594a396ca8af61a4fd6f3ec38a1b0",
+      "same_complete_gameplay_excluding_timing_provenance_newrule": true,
+      "budget": 256,
+      "moves": 28
+    }
+  ],
+  "passed": 3,
+  "sample_increment": 0
+}

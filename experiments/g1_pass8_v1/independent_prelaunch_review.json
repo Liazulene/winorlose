@@ -1,0 +1,105 @@
+{
+  "experiment_id": "G1-pass8-pilot-v1",
+  "reviewed_utc": "2026-10-04T04:42:31.323970+00:00",
+  "verdict": "CONDITIONAL_GO_FOR_FIXED48_ENGINEERING_COST_PILOT_ONLY",
+  "source_at_review": {
+    "experiment_id": "G1-pass8-pilot-v1",
+    "code_version": "winai_loseai-0.6.0-g1-pass8-pilot",
+    "schema_version": 2,
+    "source_fingerprint": "5876fdc9d1cc29fc446300265db5a9676f07b646cc8299cd4961f1129fdb3ec1",
+    "python_version": "3.12.14",
+    "preregistration_sha256": "99b6520c514a931b602cfc99731ac17e81069d82e177dc3cd21b493f00e4591c",
+    "entry_point_sha256": "8bfcc3ddd4f1aba583a1e93365f3c542508d391385a92b5a85225df17fad3a15",
+    "measurement_script_sha256": "9c2ff90f5cc687f1e46b4a12d838d7b3d0319730a2ad9e8e858f26d6c9c4251e",
+    "scipy_version": "1.17.0",
+    "numpy_version": "2.3.5"
+  },
+  "scope": "Independent source/design review against frozen D1 parent; no production pilot launched by reviewer. Focused tests use separate synthetic test protocols and do not increment pilot n.",
+  "checks": [
+    {
+      "name": "pass_rule_and_successor_propagation",
+      "status": "reviewed",
+      "detail": "Shared legal_report and try_play enforce pass from completed ply8; successors retain threshold; scoring, superko keys and move-cap precedence unchanged."
+    },
+    {
+      "name": "search_rollout_fault_semantics",
+      "status": "reviewed",
+      "detail": "Shared state propagates NoLegalActionError without fallback scoring or resampling; actual prefix/root ply/elapsed diagnostics are retained and persisted fault refuses resume."
+    },
+    {
+      "name": "schema_plan_manifest_and_resume",
+      "status": "reviewed",
+      "detail": "Schema2 requires matching rule fields; plan round-trips pass_min_ply; manifest keeps pass_min_plies/budget/schedule_seed; read-only preflight verifies record/source/plan/protocol before permitted metadata repair."
+    },
+    {
+      "name": "paired_design_and_history_isolation",
+      "status": "executed_pass",
+      "evidence": "independent_seed_review_final.json",
+      "detail": "Independent schedule/hash reconstruction;48 jobs,24 paired seeds,48 initial agent streams,12 pairs per arm order; all8 required historical inventories checked, including full smoke game JSONs."
+    },
+    {
+      "name": "global_checkpoint_and_stale_manifest_recovery",
+      "status": "reviewed_and_focused_test_pass",
+      "detail": "Wrapper sizes to next global multiple of8 using complete game-file count; separately records declared manifest count; child rejects malformed files before play. Stale1/full2 plus torn metadata recovers to8."
+    },
+    {
+      "name": "descriptive_analysis_fidelity",
+      "status": "reviewed_and_focused_test_pass",
+      "detail": "Paired board-winner/goal/length differences and equal-direction mixed/same, mixed-minus-WW and mixed-minus-LL summaries are present, with per-seed and pooled outputs and no inference."
+    },
+    {
+      "name": "resource_controls",
+      "status": "reviewed",
+      "detail": "1800-second cumulative child-wall warning;3600-second pause before next chunk. Existing evidence filenames are protected against overwrite."
+    },
+    {
+      "name": "early_legal_geometry",
+      "status": "executed_pass",
+      "evidence": "independent_early_legal_geometry.json",
+      "detail": "480700 independent occupied-subset checks; at least13 empty points with empty neighbors. Computational supporting check, not a formal proof or engine validation."
+    },
+    {
+      "name": "historical_G0_regression_evidence",
+      "status": "inspected_pass",
+      "evidence": "G0_regression_3.json",
+      "detail": "All3 predetermined medium-budget reference games match gameplay; package source fingerprint matches reviewed package. The saved regression measurement-wrapper hash predates the final wrapper-only recovery patch."
+    }
+  ],
+  "issues_resolved": [
+    "New config fields were initially omitted from the generic manifest serializer; serialization/resume checks now include them.",
+    "Fixed8-new-games chunks initially split global checkpoints after odd-prefix recovery; boundary sizing added.",
+    "Boundary sizing initially trusted a stale manifest count; complete on-disk game count now drives sizing and stale-manifest/torn-metadata regression covers it.",
+    "Preregistered paired board-winner deltas and supplemental equal-direction summaries were initially missing; now implemented.",
+    "Validator now surfaces persisted rule fault and manifest status;1800-second warning is emitted.",
+    "Independent seed checker now excludes exact current pilot output on rerun and explicitly requires all8 historical inventories."
+  ],
+  "reviewer_focused_test_run": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 /workspace/scratch/50e0c7c6aca1/winorlose_audit_venv/bin/python -m pytest -q -p no:cacheprovider tests/test_g1_pass8_pilot.py::test_measurement_global_checkpoint_boundaries tests/test_g1_pass8_pilot.py::test_stale_manifest_recovery_stops_at_global_boundary tests/test_g1_pass8_pilot.py::test_supplemental_descriptive_arithmetic",
+    "exit_code": 0,
+    "result": "3 passed in 4.10s",
+    "earlier_environment_probe": "Default Python lacked pytest; retried using the existing audit virtual environment. No package installation or code changes were needed."
+  },
+  "remaining_launch_gates": [
+    "Final aggregate387-test suite must finish successfully against this frozen source/measurement script; parent reported it running at review time.",
+    "Freeze preregistration, full plan, source/runtime/entry/measurement locks and verify their GitHub remote commit/tree before the first production game.",
+    "Complete the parent historical-byte-preservation audit and retain original worktrees read-only."
+  ],
+  "remaining_limits": [
+    "Code review and replay consistency are not an independent implementation of all Go rules or a formal proof.",
+    "The combinatorial check assumes correct state counters/history and does not validate synthetic arbitrary-history fixtures as reachable game states.",
+    "Seed-hash nonoverlap does not establish statistical independence; paired arms intentionally reuse initial streams and may consume them differently.",
+    "Resource ceiling is checked between measured chunks, not a per-game timeout or hard memory cap; use the same complete evidence directory across the run.",
+    "Global checkpoint sizing assumes one writer; the child lock/preflight reject a conflicting or corrupt run rather than authorizing concurrent production writers.",
+    "Pilot outcomes remain descriptive, excluded from any future formal sample; no behavioral expansion or7x7 GO follows from48 games.",
+    "Six production-game regenerations and independent final arithmetic/terminal-area audit remain post-pilot requirements."
+  ],
+  "open_code_review_blockers": [],
+  "artifact_sha256": {
+    "independent_seed_review.py": "c699a1be51c5d8367b0e269b960ab822303726c053af67063a450f16964e8350",
+    "independent_seed_review_final.json": "f459ce49732e4a98d0398eddb7fe5385cf4e3bf2573ff7b53800a3e0d7190d92",
+    "independent_early_legal_geometry.py": "3931e2cfab823305ea212c12c3978f98062a3b8bd663afda60fa4b1b5a9dfd6f",
+    "independent_early_legal_geometry.json": "c4cb4fff7523c04f746e072876748578f36cd62bfc31f040fc2356e21c87237b",
+    "G0_regression_3.json": "ff584f858461c787bc7e89263f221e6b9927095ea61fe67c934af79dba77dd4f"
+  },
+  "reviewed_test_sha256": "20ed8128b33ef5d126646c8736b18fc7e4430279737278c804c096bb9c05be83"
+}

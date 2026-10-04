@@ -1,0 +1,126 @@
+{
+  "experiment_id": "G1-pass8-pilot-v1",
+  "code_version": "winai_loseai-0.6.0-g1-pass8-pilot",
+  "schema_version": 2,
+  "purpose": "Fixed small engineering and cost pilot; descriptive behavior only. Never pool with historical G0 or future formal estimates.",
+  "batch_id": "g1_pass8_pilot_v1",
+  "parent_commit": "c180d059eec5e9f36dfe9fef255275c585edb568",
+  "registered_before_first_pilot_game": true,
+  "hypotheses": [
+    "Engine/search/rollout/replay enforce exactly the same pass window. Same-code zero restriction reproduces frozen G0 behavior excluding version/rule/timing stamps.",
+    "G1 may change goals, pass acceptance and trajectory lengths; neither mean length increase nor richer coordination is assumed. Earliest legal doublepass is mechanically shifted from2 to10."
+  ],
+  "board_size": 5,
+  "komi": 2.5,
+  "budget": 256,
+  "pass_min_plies": [
+    0,
+    8
+  ],
+  "batch_seeds": [
+    8,
+    9,
+    10
+  ],
+  "identity_directions": [
+    [
+      "WIN",
+      "WIN"
+    ],
+    [
+      "LOSE",
+      "LOSE"
+    ],
+    [
+      "WIN",
+      "LOSE"
+    ],
+    [
+      "LOSE",
+      "WIN"
+    ]
+  ],
+  "agent_seed_orientations": [
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      1
+    ]
+  ],
+  "games_per_cell": 1,
+  "planned_games": 48,
+  "schedule_seed": 2026100401,
+  "rule_semantics": {
+    "G0": "pass_min_ply=0; pass is legal on every nonterminal state.",
+    "G1-pass8": "pass_min_ply=8; action at zero-based ply0..7 forbidden; legal at ply8, the ninth action. Earliest double-pass terminal is after10 actions. Same rule applies to real moves, tree nodes, expansion and uniform rollout.",
+    "no_legal_nonpass": "Fail closed with NoLegalActionError during banned window. Never pass, skip turn, score early, alter superko, resample or silently replace a game. Abort current game/search and pause pilot; preserve fault state, current game and traceback. No outcome is imputed. This is an explicitly partial rule probe outside no-action states, not a total rule extension.",
+    "unchanged": "Black first; area scoring; no suicide; non-pass situational superko; legal pass superko exemption/history; doublepass precedence over100-ply cap; simple vector identity utilities."
+  },
+  "seed_mapping": "Existing game_seed_for(batch_seed,identity_index*2+orientation_index). Each block shares game seed and both colour/agent initial RNG seeds between0/8 arms; consumption and trajectory can diverge. Three new batch seeds,24 unique blocks,48 unique colour/agent initial streams; verify no historical overlaps before runs.",
+  "execution_order": "Build24 blocks in seed,identity,orientation order; random.Random(schedule_seed).shuffle(blocks), then shuffle twelve [0,8] and twelve [8,0] arm orders with the same scheduling RNG. Keep each pair adjacent. Scheduling RNG is independent of game streams; lock full plan before first game.",
+  "fixed_factors": [
+    "Both players256 simulations, same vector MCTS/UCT/maximum-visit ties and uniform-over-legal rollout algorithm; restriction changes legal rollout choices as part of rule intervention.",
+    "5x5,komi2.5,agent seeds1/2; no learning or tuning across games."
+  ],
+  "primary_engineering_endpoints": [
+    "Illegal early pass in any actual action or search root set",
+    "Rule/replay/source/protocol/record faults; nolegal faults recorded separately",
+    "G0 same-code deterministic regression and G1 interrupted/resumed reproducibility",
+    "Child wall/CPU/peakRSS; per-rule game/search costs; output bytes"
+  ],
+  "descriptive_behavior_endpoints": [
+    "Four identity directions separately, per seed and pooled; black/white board winner and identity goals; mixed joint goal counted once.",
+    "Length distribution min,Q1,median,Q3,P90,P95,max;2/3/le8/exact10/le10/ge60; terminal reasons and superko.",
+    "Extra length = game actions minus(rule pass_min_ply+2); descriptive reference, not a causal adjustment. Paired extra delta = raw delta-8 exactly.",
+    "First pass action number and first legal-pass delay; proposer colour/immediate goal vector/second-pass acceptance with event denominators, not independent game trials.",
+    "Actual placements and captured-by-opponent counts; exact and END-padded4/8/12 action prefixes.",
+    "G0 short-route counts; G1 these routes are structurally unavailable, not an efficacy endpoint. Paired goal/winner/length differences.",
+    "Prespecified shortest/lower-median/longest per rule×direction, ties game_id; all move_limit and mixed goal failures."
+  ],
+  "statistics": {
+    "inference": "None: no confidence intervals,p-values,efficacy certification or behavioral GO decision from48 pilot games. Show counts/denominators and paired descriptive deltas.",
+    "pooling": "Within this pilot, equal weight all six seed×orientation strata for each rule×direction. Per-seed means have two orientations. Never pool historical G0, D0, D1 or future formal data.",
+    "mixed_same": "Display WW and LL separately. Supplemental mixed/same means each equally weight their two direction means; also mixed−WW and mixed−LL.",
+    "conditional_sensitivity": "If showing length>=10 restricted means, report four separate retained denominators; do not present as causal adjustment or replace full paired sample."
+  },
+  "expansion_rule": "None. Stop at48 or explicit incomplete safety pause. Future formal sample, seeds, endpoints and intervals require separate preregistration after this pilot report is delivered.",
+  "resource_policy": {
+    "concurrency": 1,
+    "test_concurrency": [
+      1,
+      2
+    ],
+    "checkpoint_games": 8,
+    "compute_warning_seconds": 1800,
+    "compute_pause_seconds": 3600,
+    "stop_conditions": [
+      "Any rule/no-action/integrity/replay/source/seed mismatch",
+      "Unexpected resource pressure or historical alteration",
+      "Repeated blocking sync fault: preserve local checkpoint and pause; no uncertain write retries",
+      "Cumulative measured child wall reaches3600seconds: pause before next8-game chunk; current chunk may finish. This is not a per-game timeout or hard RSS cap."
+    ],
+    "retry_policy": "No seed replacement. Safe deterministic recovery only after diagnosis of ordinary interruption. NoLegalActionError is nonretryable in this frozen version. Two failed recovery attempts for same persistent fault require backup where possible and pause.",
+    "github_sync": "Every8 games (4 complete pairs), validate saved prefix, sync complete raw checkpoint and verify remote tree before next chunk. Large blobs separately; no forcepush or main merge.",
+    "prior_cost": "D1 medium240 games measured36.09child-wall minutes;48 same-scale games approximately7.22minutes, but G1 unknown, no guaranteed bound."
+  },
+  "validation": [
+    "All legacy tests plus rule/search/rollout/replay boundary and failclosed tests",
+    "Every game per-action legality,root keys/visits/Q,final board/score/utility,source and rule metadata",
+    "Fresh versus resume and concurrency1/2 deterministic synthetic test protocols, no production concurrency2",
+    "LegacyG0 predesignated one D1medium minimum-index game perseed,3 total, newcode default0 exact non-timing/non-version/non-rule comparison; no sample increment",
+    "After pilot regenerate lowest game_index perrule×batchseed,6 total, exact excluding timing",
+    "Full raw source/runtime/protocol/entry/measurement locks",
+    "Historical four worktree tracked-byte preservation before and after; no writes to old reports/locks",
+    "Independent design and code review before launch; independent final arithmetic/terminal area check"
+  ],
+  "boundaries": [
+    "7x7 NO-GO; komi unresolved; no training",
+    "Effect is whole early-pass rule intervention including changed trajectories and search branches, not isolated pure terminal-channel effect",
+    "Earliest legal terminal shift is mechanical; average length need not increase; extra-length subtraction does not identify coordination",
+    "Same engine replay is consistency check, not formal proof; independent final area check complements it",
+    "OS advisory locks and atomic rename/flush are not power-fail fsync guarantee"
+  ]
+}

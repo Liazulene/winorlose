@@ -11,7 +11,8 @@ Rules implemented (see ``5x5_mvp_spec.md`` section 3):
   legal;
 * non-pass moves use *situational superko*: a move is illegal if it would
   recreate any ``(board, next_to_play)`` position that already occurred;
-* ``pass`` is always legal and exempt from the superko test;
+* ``pass`` is exempt from superko and legal once ``move_count`` reaches
+  ``pass_min_ply`` (default 0 preserves the original G0 rules);
 * the game ends on two consecutive passes, or when the action count reaches
   ``4 * size * size`` (safety valve, reported as ``move_limit``).
 
@@ -20,6 +21,8 @@ mutated).  The rules layer has no dependency on agents.
 """
 
 from __future__ import annotations
+
+import json
 
 # Board / colour codes
 EMPTY = 0
@@ -139,32 +142,45 @@ class GoState:
         Number of actions already taken (passes included).
     consecutive_passes : int
         0, 1 or 2.
+    pass_min_ply : int
+        Minimum number of completed actions before pass becomes legal. Must
+        be a non-boolean integer in ``[0, move_limit(size))``. For 8, the
+        earliest pass is action 9 and earliest double-pass ending is action 10.
     seen : frozenset
         ``(board, to_play)`` keys of every position that has occurred so far,
         *including* this one.  Used for situational-superko membership tests.
     """
 
     __slots__ = ("size", "board", "to_play", "move_count",
-                 "consecutive_passes", "seen")
+                 "consecutive_passes", "seen", "pass_min_ply")
 
-    def __init__(self, size, board, to_play, move_count, consecutive_passes, seen):
+    def __init__(self, size, board, to_play, move_count, consecutive_passes, seen,
+                 pass_min_ply: int = 0):
+        if type(pass_min_ply) is not int:
+            raise ValueError("pass_min_ply must be a non-boolean integer")
+        if not 0 <= pass_min_ply < move_limit(size):
+            raise ValueError(
+                f"pass_min_ply must be in [0, {move_limit(size)})"
+            )
         self.size = size
         self.board = board
         self.to_play = to_play
         self.move_count = move_count
         self.consecutive_passes = consecutive_passes
         self.seen = seen
+        self.pass_min_ply = pass_min_ply
 
     # -- construction -------------------------------------------------------
     @classmethod
-    def initial(cls, size: int = 5) -> "GoState":
+    def initial(cls, size: int = 5, pass_min_ply: int = 0) -> "GoState":
         empty = tuple([EMPTY] * (size * size))
-        return cls.from_board(empty, size=size, to_play=BLACK)
+        return cls.from_board(empty, size=size, to_play=BLACK,
+                              pass_min_ply=pass_min_ply)
 
     @classmethod
     def from_board(cls, board, size: int = 5, to_play: int = BLACK,
                    move_count: int = 0, consecutive_passes: int = 0,
-                   seen=None) -> "GoState":
+                   seen=None, pass_min_ply: int = 0) -> "GoState":
         board = tuple(board)
         n = size * size
         if len(board) != n:
@@ -177,7 +193,7 @@ class GoState:
         base = set(seen) if seen is not None else set()
         base.add(key)
         return cls(size, board, to_play, int(move_count),
-                   int(consecutive_passes), frozenset(base))
+                   int(consecutive_passes), frozenset(base), pass_min_ply)
 
     # -- properties ---------------------------------------------------------
     @property
@@ -187,6 +203,11 @@ class GoState:
     @property
     def n_points(self):
         return self.size * self.size
+
+    @property
+    def ruleset(self):
+        """Explicit name for this pass-rule variant; G0 is unchanged."""
+        return "G0" if self.pass_min_ply == 0 else f"G1-pass{self.pass_min_ply}"
 
     def move_cap(self):
         return move_limit(self.size)
@@ -216,6 +237,9 @@ class GoState:
         level (agents always receive only fully legal actions).
 
         A terminal state has **no** legal actions (empty tuple).
+        A nonterminal state with no legal actions raises NoLegalActionError.
+        This is an experiment-stopping rules fault, never a forced pass or
+        an invented terminal result. Callers must not substitute a score.
         """
         if self.is_terminal():
             return (), {"occupied": 0, "suicide": 0, "superko": 0}
@@ -235,20 +259,41 @@ class GoState:
                 counts["superko"] += 1
                 continue
             actions.append(a)
-        actions.append(pass_action(size))
+        if self.move_count >= self.pass_min_ply:
+            actions.append(pass_action(size))
+        if not actions:
+            raise NoLegalActionError({
+                "size": self.size,
+                "board": list(self.board),
+                "to_play": self.to_play,
+                "move_count": self.move_count,
+                "consecutive_passes": self.consecutive_passes,
+                "pass_min_ply": self.pass_min_ply,
+                "ruleset": self.ruleset,
+                "move_cap": self.move_cap(),
+                "terminal_reason": self.terminal_reason(),
+                "pass_legal": False,
+                "exclusions": dict(counts),
+                "seen": [[list(board), player]
+                         for board, player in sorted(self.seen)],
+            })
         return tuple(actions), counts
 
     def try_play(self, action: int):
         """Return the successor state, or ``None`` if the action is illegal.
 
-        ``pass`` is always accepted here (it is exempt from superko); board
-        moves are rejected for occupying a point, suicide, or superko.
+        ``pass`` is accepted only at/after ``pass_min_ply`` and is exempt
+        from superko; board moves are rejected for occupying a point, suicide,
+        or superko. This single-action probe does not enumerate alternatives:
+        use legal_report/ legal_actions to detect a no-legal-action fault.
         A terminal state refuses every further action (including ``pass``).
         """
         if self.is_terminal():
             return None
         size = self.size
         if action == pass_action(size):
+            if self.move_count < self.pass_min_ply:
+                return None
             return self._child(self.board, other(self.to_play), passed=True)
         if action < 0 or action >= self.n_points:
             raise ValueError(f"bad action {action}")
@@ -286,11 +331,29 @@ class GoState:
         consecutive = self.consecutive_passes + 1 if passed else 0
         seen = self.seen | {(board, to_play)}
         return GoState(self.size, board, to_play, self.move_count + 1,
-                       consecutive, seen)
+                       consecutive, seen, self.pass_min_ply)
 
 
 class IllegalMove(Exception):
     pass
+
+
+class NoLegalActionError(RuntimeError):
+    """Nonterminal rules fault with exact, JSON-safe state diagnostics.
+
+    The sole constructor argument is preserved in Exception.args, so the
+    exception and its diagnostics survive process-pool pickling unchanged.
+    No score or terminal outcome is attached to this fault.
+    """
+
+    def __init__(self, diagnostics: dict):
+        self.diagnostics = diagnostics
+        super().__init__(diagnostics)
+
+    def __str__(self):
+        return "nonterminal state has no legal action: " + json.dumps(
+            self.diagnostics, sort_keys=True, separators=(",", ":")
+        )
 
 
 def row_col_to_index(r: int, c: int, size: int) -> int:
