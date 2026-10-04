@@ -1,0 +1,23 @@
+{
+  "identified_utc": "2026-10-04T02:41:02.854542+00:00",
+  "identified_before_final_behavioral_analysis": true,
+  "source_and_preregistration_unchanged": true,
+  "primary_estimands_samples_seeds_intervals_unchanged": true,
+  "clarifications": [
+    {
+      "topic": "checkpoint wording residual",
+      "frozen_preregistration_resource_checkpoint_games": 24,
+      "residual_validation_item": [
+        "official per-game persistence and deliberate6-game resume checkpoint"
+      ],
+      "actual_schedule": "24 games from the first formal checkpoint, consistently implemented by the frozen measurement script and preregistered resource_policy; no initial6-game formal checkpoint occurred.",
+      "interpretation": "The6-game validation phrase was inherited from the cost pilot and conflicts with the explicit24-game policy and frozen implementation. It is a clerical inconsistency, disclosed rather than retroactively removed. Reduced-protocol tests checked interruption/resume; formal checkpoint intervals remained24 throughout."
+    },
+    {
+      "topic": "filtered length weighting",
+      "full_sample": "Balanced full-sample mixed and same groups equally weight their two identity directions.",
+      "filtered_sensitivity": "Frozen code pools actual retained games after excluding2-3plies, thus weights directions by retained counts. Preregistration text is ambiguous about extending equal-identity weights after exclusion.",
+      "reporting": "Label this a conditional retained-sample descriptive sensitivity, report each direction retained n and mean, and do not call it the original equal-weight estimand or a causal adjustment. Primary paired proportion estimands and CIs are unaffected."
+    }
+  ]
+}
