@@ -26,5 +26,12 @@
     "tree": "259ec96baf36c57898e18a3b1a77cf607d88d69b",
     "remote_fetch_and_tree_verified": true,
     "verified_utc": "2026-10-04T11:27:28.451Z"
+  },
+  {
+    "checkpoint_games": 96,
+    "commit": "9bed24527c3822e0d066ed6405c448fd7c872066",
+    "tree": "d12dd6beb9fcc72c16594299fbf3bce3dd9c7958",
+    "remote_fetch_and_tree_verified": true,
+    "verified_utc": "2026-10-04T11:39:40.296Z"
   }
 ]
