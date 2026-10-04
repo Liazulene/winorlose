@@ -1,0 +1,12 @@
+{
+  "experiment_id": "komi-pass-pilot-v1",
+  "code_version": "winai_loseai-0.8.0-komi-pass-pilot",
+  "schema_version": 2,
+  "source_fingerprint": "e15c095cf0ed1af8364966380cdcec5df66ecf7c92e19db7d0ac76fd5457f974",
+  "python_version": "3.12.14",
+  "preregistration_sha256": "1bd8595fc8a8a6b0c833b81aee7506b3720b01886245790615f03452afa4e3ee",
+  "entry_point_sha256": "fa14a78a2497004f458a80ab5dc41c127777127dcec3ed9b22109454a71c69e0",
+  "measurement_script_sha256": "6c45280c4ff67209dc75388347105f024dabb19b0c1743d63c022cfa0c44cd46",
+  "scipy_version": "1.17.0",
+  "numpy_version": "2.3.5"
+}

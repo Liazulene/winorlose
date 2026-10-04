@@ -7,6 +7,16 @@
       "action": "update_ref to create a new branch at the verified M5 parent",
       "result": "GitHub 422: Reference does not exist",
       "resolution": "Discovered and used the separate create_branch action once. It returned success for experiment/komi-pass-pilot-v1. No game data were involved, no uncertain write was retried, and no existing branch was moved."
+    },
+    {
+      "phase": "first24 checkpoint packaging",
+      "pilot_games": 24,
+      "time_utc": "2026-10-04T16:29:58Z",
+      "action": "prepare snapshot before any remote write",
+      "result": "Frozen packager rejected its own newly tracked checkpoints.json as an unexpected inherited change.",
+      "remote_write_started": false,
+      "resolution": "Preserved every frozen file. Added an external packaging wrapper that first verifies all frozen source/test/runtime/review/regression hashes, then stages only experiments/komi_pass_pilot_v1 and outputs/komi_pass_pilot_v1 technical deltas. No source, rules, seed, sample or prior outputs changed.",
+      "wrapper_sha256": "8ed843c892ad92eb7adb0a9337220055b1cb51d45a4a029017f7802b2cd8a850"
     }
   ]
 }

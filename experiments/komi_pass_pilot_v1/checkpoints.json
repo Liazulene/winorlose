@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "checkpoint_games": 0,
+    "commit": "2a6b66f0d42117acd9411e6e27434ff52c846aea",
+    "tree": "ca17f801fba4ae2d387871d14c2cd87f8cdf6320",
+    "remote_fetch_and_tree_verified": true,
+    "verified_utc": "2026-10-04T16:22:57.780Z"
+  }
+]

@@ -1,0 +1,151 @@
+{
+  "experiment_id": "komi-pass-pilot-v1",
+  "code_version": "winai_loseai-0.8.0-komi-pass-pilot",
+  "schema_version": 2,
+  "purpose": "Fixed small engineering and cost pilot; descriptive behavior only. Never pool with historical G0 or future formal estimates.",
+  "batch_id": "komi_pass_pilot_v1",
+  "parent_commit": "23f61f99a3e0ef0374b95c8df41c1e52f7f73ae1",
+  "registered_before_first_pilot_game": true,
+  "hypotheses": [
+    "Every game carries its own komi into both agents, terminal rollouts, real scoring, replay, metadata and resume. At komi 2.5 the new code reproduces historical trajectories, excluding only version/source/timing stamps.",
+    "Positive komi may sustain the LL colour preference and cheap LW terminations after the pass window. Removing komi may reduce the preference or introduce draws. If these routes persist, search and first-move effects remain candidates. This pilot tests engineering and cost, not efficacy."
+  ],
+  "board_size": 5,
+  "budget": 256,
+  "pass_min_plies": [
+    0,
+    8
+  ],
+  "batch_seeds": [
+    14,
+    15,
+    16
+  ],
+  "identity_directions": [
+    [
+      "WIN",
+      "WIN"
+    ],
+    [
+      "LOSE",
+      "LOSE"
+    ],
+    [
+      "WIN",
+      "LOSE"
+    ],
+    [
+      "LOSE",
+      "WIN"
+    ]
+  ],
+  "agent_seed_orientations": [
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      1
+    ]
+  ],
+  "games_per_cell": 1,
+  "planned_games": 96,
+  "schedule_seed": 2026100403,
+  "rule_semantics": {
+    "G0": "pass_min_ply=0; pass is legal on every nonterminal state.",
+    "G1-pass8": "pass_min_ply=8; action at zero-based ply0..7 forbidden; legal at ply8, the ninth action. Earliest double-pass terminal is after10 actions. Same rule applies to real moves, tree nodes, expansion and uniform rollout.",
+    "no_legal_nonpass": "Fail closed with NoLegalActionError during banned window. Never pass, skip turn, score early, alter superko, resample or silently replace a game. Abort current game/search and pause pilot; preserve fault state, current game and traceback. No outcome is imputed. This is an explicitly partial rule probe outside no-action states, not a total rule extension.",
+    "unchanged": "Apart from score parameter and existing pass window: board/turn/captures/suicide/superko/history/endconditions, utility vector, UCT,rootmaximum visits and uniform-over-legal rollout unchanged. No depth/path/rollout policy changes.",
+    "arms": {
+      "G0": {
+        "pass_min_ply": 0,
+        "komi": 2.5
+      },
+      "G1-pass8": {
+        "pass_min_ply": 8,
+        "komi": 2.5
+      },
+      "G1-k0": {
+        "pass_min_ply": 0,
+        "komi": 0.0
+      },
+      "G1-k0-pass8": {
+        "pass_min_ply": 8,
+        "komi": 0.0
+      }
+    },
+    "scoring_and_draws": "Area scores: black stones+black-only area; white stones+white-only area+komi. Positive margin black, negative white, exactly0 draw. Both identities receive0 on a draw; goal success is utility==+1 only, never utility>=0. No winner tie-breaking. Draws retain full sample denominators, separately reported.",
+    "utility": "WIN own win+1,ownloss-1,draw0; LOSE ownloss+1,ownwin-1,draw0. Mixed joint goal bothutilities+1 countedonce; WW/LL blackgoal primary descriptive coordinate."
+  },
+  "seed_mapping": "Existing game_seed_for(batch_seed,identity_index*2+orientation_index). Each four-arm block shares game seed and both colour/agent initial RNG seeds; downstream consumption and trajectory may diverge.24 unique blocks,48 distinct colour/agent streams. Check all historical output/plan seeds for collisions before production; no historical records enter this sample.",
+  "execution_order": "Build 24 blocks in seed, identity, orientation order; shuffle with random.Random(schedule_seed). Enumerate all 24 permutations of [(0,2.5),(8,2.5),(0,0.0),(8,0.0)], shuffle them with the same independent schedule RNG, and assign one permutation per block. Keep four arms adjacent. Each arm appears six times in every execution position globally. Each 24-game checkpoint contains six complete blocks and six games per arm; identity, seed and position balance within each checkpoint is not guaranteed.",
+  "fixed_factors": [
+    "Both players use 256 simulations; public fixed WIN/LOSE identities; 5x5; agent seeds 1/2; no learning.",
+    "Original vector MCTS/UCT, root maximum-visit choice and uniform-over-legal rollout; state paths and RNG consumption may change naturally under either intervention."
+  ],
+  "primary_engineering_endpoints": [
+    "Rule, draw/scoring/utility, replay/search/source/plan/resume faults, including nonretryable no-legal-action faults.",
+    "Same-code historical komi 2.5 exact regressions; deterministic fresh/resumed and concurrency 1/2 synthetic tests.",
+    "Per-arm game/search time and output bytes; per-24-game-child wall/CPU/peak RSS and checkpoint/sync failures. Mixed-arm child costs are not attributable to a single arm."
+  ],
+  "descriptive_behavior_endpoints": [
+    "Four identity directions separately, per seed and pooled; black/white board winner and identity goals; mixed joint goal counted once.",
+    "Length distribution min,Q1,median,Q3,P90,P95,max;2/3/le8/exact10/le10/ge60; terminal reasons and superko.",
+    "Extra length = game actions minus(rule pass_min_ply+2); descriptive reference, not a causal adjustment. For pass contrasts only, paired extra delta equals raw delta minus 8. For komi contrasts and the interaction, extra delta equals raw delta.",
+    "First pass action number and first legal-pass delay; proposer colour/immediate goal vector/second-pass acceptance with event denominators, not independent game trials.",
+    "Actual placements and captured-by-opponent counts; exact and END-padded4/8/12 action prefixes.",
+    "Empty double-pass and one-stone routes remain legal in both pass0 arms; empty double-pass at komi0 draws. Only pass8 arms structurally prohibit two/three-action routes; their absence is not an efficacy endpoint. Show paired goal, winner, draw and length differences.",
+    "Prespecified shortest/lower-median/longest per arm×direction, ties game_id; all move_limit and mixed goal failures.",
+    "Black/white/draw outcomes and counts of each identity utility (+1,0,-1); draw rates are distinct from goal rates.",
+    "Within each four-arm block: komi 0 minus 2.5 at pass windows 0 and 8; pass 8 minus 0 at komi 2.5 and 0; interaction is the komi contrast at pass 8 minus the komi contrast at pass 0. Preserve block-level length, goal, draw and black-win deltas. Never pair blocks across identity directions.",
+    "Classify proposer immediate utility as favorable (+1), neutral (0), or unfavorable (-1); report the three event denominators separately."
+  ],
+  "statistics": {
+    "inference": "None: no confidence intervals, p-values, efficacy certification, rare-failure guarantee or 7x7 GO from 96 pilot games. Report counts/denominators and paired descriptive deltas only.",
+    "pooling": "Each arm by identity direction has six games from three seeds and two orientations; each seed by arm by direction has two games. Per-direction contrasts have six complete four-arm blocks. Count the mixed joint goal once per game. No historical or future data are pooled.",
+    "mixed_same": "Display WW and LL separately. Supplemental mixed/same means each equally weight their two direction means; also mixed−WW and mixed−LL.",
+    "conditional_sensitivity": "If showing length>=10 restricted means, report four separate retained denominators; do not present as causal adjustment or replace full paired sample."
+  },
+  "expansion_rule": "None. Stop at 96 games or an explicit incomplete safety pause. Any future formal sample, seeds, endpoints and intervals require a separate preregistration after the parent receives the M6 report. No 7x7 or formal expansion starts here.",
+  "resource_policy": {
+    "concurrency": 1,
+    "test_concurrency": [
+      1,
+      2
+    ],
+    "checkpoint_games": 24,
+    "compute_warning_seconds": 3600,
+    "compute_pause_seconds": 7200,
+    "stop_conditions": [
+      "Any rule/no-action/integrity/replay/source/seed mismatch or historical alteration",
+      "Unexpected resource pressure",
+      "Repeated blocking sync fault: preserve the checkpoint and pause; never blindly retry uncertain writes",
+      "At 7200 cumulative child-wall seconds, pause before the next 24-game chunk. The current chunk may finish. This is not a per-game timeout or hard RSS cap."
+    ],
+    "retry_policy": "No seed replacement. Safe deterministic recovery only after diagnosis of ordinary interruption. NoLegalActionError is nonretryable in this frozen version. Two failed recovery attempts for same persistent fault require backup where possible and pause.",
+    "github_sync": "Before the first game and every 24 games (six complete four-arm blocks), validate the saved prefix, sync the complete raw technical checkpoint and verify the remote commit/tree before the next chunk. No force push or main merge. Publish source, data and technical evidence only; no narrative Markdown.",
+    "prior_cost": "M5 measured 7593.2656 child-wall seconds for 480 games. Linear scaling to 96 gives 1518.65312 seconds (25.31 minutes); a 1.5x planning allowance gives 2277.97968 seconds (37.97 minutes). New komi costs are unknown; this is not a guarantee. Tests, audit, regeneration and sync are separate. Warn at one hour and pause at two hours of cumulative child wall, checked at chunk boundaries."
+  },
+  "validation": [
+    "Run the full inherited pytest suite plus new komi/draw, plan/resume, tamper and uniform-search tests. Disable bytecode and cache writes.",
+    "For every pilot game validate actual/root legality, root visits and Q structure, score/utility/draw/end condition, metadata and provenance.",
+    "Synthetic fresh/resume/concurrency 1/2 tests do not count toward the 96 games.",
+    "Same-code historical 2.5 regression: the lowest game index per pass arm and M5 batch seed 11/12/13, six records. Compare exactly except timing/version/source stamps; sample increment zero.",
+    "After the pilot, regenerate the lowest game index per arm and batch seed 14/15/16, twelve records. Compare exactly except timing; sample increment zero.",
+    "Freeze protocol, full plan, source/runtime/entry/measurement and test locks before the first game; obtain independent design and seed review.",
+    "Preserve all six old worktrees tracked bytes and the new worktree inherited historical paths. Reference immutable prior inventories without duplicating large inventory uploads.",
+    "Independently audit actual moves, root sets, terminal scores and descriptive arithmetic; do not claim a formal proof of every internal MCTS step."
+  ],
+  "boundaries": [
+    "7x7 NO-GO; pilot cannot establish mechanisms or effect precision; no training",
+    "Each factorcontrast is the whole rule intervention including changedsearch/rollouts/trajectories; interactiondescriptive only,not purecoordination measure",
+    "Earliest legal terminal shift is mechanical; average length need not increase; extra-length subtraction does not identify coordination",
+    "Same engine replay is consistency check, not formal proof; independent final area check complements it",
+    "OS advisory locks and atomic rename/flush are not power-fail fsync guarantee"
+  ],
+  "komis": [
+    2.5,
+    0.0
+  ]
+}
