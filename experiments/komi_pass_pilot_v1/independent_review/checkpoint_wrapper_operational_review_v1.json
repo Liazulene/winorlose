@@ -1,0 +1,127 @@
+{
+  "utc": "2026-10-04T16:40:58.014333+00:00",
+  "passed": true,
+  "problems": [],
+  "scope": "Independent static and mocked-execution audit of new post-freeze operational packaging recovery only; no scientific source or frozen verification file changed.",
+  "wrapper_path": "experiments/komi_pass_pilot_v1/prepare_checkpoint_sync_recovery.py",
+  "wrapper_sha256": "7fd1f11c44a2567edd07597d533b49a8c24970cbff05161a90b1d00e60ffa9dc",
+  "anchor_commit": "2a6b66f0d42117acd9411e6e27434ff52c846aea",
+  "local_lock_matches_verified_prelaunch_commit": true,
+  "tests": [
+    {
+      "case": "unchanged_inputs_pass",
+      "passed": true,
+      "rejected": false,
+      "message": null,
+      "actual_git_or_filesystem_mutation": false
+    },
+    {
+      "case": "altered_pre_execution_lock",
+      "passed": true,
+      "rejected": true,
+      "message": "Pre-execution lock differs from verified zero-game commit",
+      "actual_git_or_filesystem_mutation": false
+    },
+    {
+      "case": "altered_protocol",
+      "passed": true,
+      "rejected": true,
+      "message": "Frozen aggregate input changed: preregistration.json",
+      "actual_git_or_filesystem_mutation": false
+    },
+    {
+      "case": "altered_plan",
+      "passed": true,
+      "rejected": true,
+      "message": "Frozen aggregate input changed: frozen_plan.json",
+      "actual_git_or_filesystem_mutation": false
+    },
+    {
+      "case": "altered_source_lock",
+      "passed": true,
+      "rejected": true,
+      "message": "Frozen aggregate input changed: pre_execution_source_lock.json",
+      "actual_git_or_filesystem_mutation": false
+    },
+    {
+      "case": "altered_runtime_script",
+      "passed": true,
+      "rejected": true,
+      "message": "Frozen input changed: scripts/run_komi_pass_pilot.py",
+      "actual_git_or_filesystem_mutation": false
+    },
+    {
+      "case": "altered_frozen_test",
+      "passed": true,
+      "rejected": true,
+      "message": "Frozen input changed: tests/test_komi_engine_m6.py",
+      "actual_git_or_filesystem_mutation": false
+    },
+    {
+      "case": "altered_review_evidence",
+      "passed": true,
+      "rejected": true,
+      "message": "Frozen input changed: experiments/komi_pass_pilot_v1/independent_review/final_prelaunch_design_v1.json",
+      "actual_git_or_filesystem_mutation": false
+    },
+    {
+      "case": "altered_regression_evidence",
+      "passed": true,
+      "rejected": true,
+      "message": "Frozen input changed: experiments/komi_pass_pilot_v1/historical_six_regression.json",
+      "actual_git_or_filesystem_mutation": false
+    },
+    {
+      "case": "altered_production_source",
+      "passed": true,
+      "rejected": true,
+      "message": "Frozen source changed: src/winai_loseai/identity.py",
+      "actual_git_or_filesystem_mutation": false
+    },
+    {
+      "case": "added_source_file",
+      "passed": true,
+      "rejected": true,
+      "message": "Frozen source file set changed",
+      "actual_git_or_filesystem_mutation": false
+    },
+    {
+      "case": "outside_scope_worktree_change",
+      "passed": true,
+      "rejected": true,
+      "message": "Unexpected changes outside mutable M6 evidence/data: ['src/outside_scope.py']",
+      "actual_git_or_filesystem_mutation": false
+    },
+    {
+      "case": "staged_markdown",
+      "passed": true,
+      "rejected": true,
+      "message": "Staged content is outside technical M6 scope",
+      "actual_git_or_filesystem_mutation": false
+    },
+    {
+      "case": "staged_bytecode",
+      "passed": true,
+      "rejected": true,
+      "message": "Staged content is outside technical M6 scope",
+      "actual_git_or_filesystem_mutation": false
+    },
+    {
+      "case": "staged_deletion",
+      "passed": true,
+      "rejected": true,
+      "message": "Deletion or type changes forbidden",
+      "actual_git_or_filesystem_mutation": false
+    }
+  ],
+  "test_count": 15,
+  "sample_increment": 0,
+  "games_generated": 0,
+  "mutations": "All subprocess/git operations and synthetic content mutations were mocked in a separate process; no actual staging, remote call, source/test write or game generation occurred.",
+  "review_result": "Hardened wrapper anchors the immutable pre-execution lock, directly checks protocol/plan/source-lock digests, checks exact source path set and all locked source/test/runtime/review/regression bytes, and rejects out-of-scope staged paths, deletions, Markdown and bytecode.",
+  "limitations": [
+    "Packaging-only patch is outside the prelaunch test inventory; this technical proof accompanies it without changing any frozen file.",
+    "Staging scope guards do not independently authenticate remote state; parent must still verify checkpoint commit and tree before resuming production.",
+    "Blob retrieval is scoped operationally by the validated staged entries; the helper blob mode itself does not repeat the freeze gate."
+  ]
+}

@@ -12,11 +12,19 @@ def main():
  if len(sys.argv)>1 and sys.argv[1]=='blob':
   path=sys.argv[2];data=subprocess.check_output(['git','show',':'+path],cwd=ROOT)
   print(json.dumps({'path':path,'sha':git('rev-parse',':'+path),'content':base64.b64encode(data).decode(),'encoding':'base64'}));return
- lock=json.loads((ROOT/'experiments/komi_pass_pilot_v1/pre_execution_lock.json').read_text())
+ frozen_commit='2a6b66f0d42117acd9411e6e27434ff52c846aea'
+ lock_path='experiments/komi_pass_pilot_v1/pre_execution_lock.json'
+ committed=subprocess.check_output(['git','show',frozen_commit+':'+lock_path],cwd=ROOT)
+ if (ROOT/lock_path).read_bytes()!=committed:raise ValueError('Pre-execution lock differs from verified zero-game commit')
+ lock=json.loads(committed)
+ for name,key in [('preregistration.json','preregistration_sha256'),('frozen_plan.json','frozen_plan_sha256'),('pre_execution_source_lock.json','source_lock_sha256')]:
+  if hashlib.sha256((ROOT/'experiments/komi_pass_pilot_v1'/name).read_bytes()).hexdigest()!=lock[key]:raise ValueError('Frozen aggregate input changed: '+name)
  for name in ('test_file_sha256','runtime_files_sha256','review_files_sha256','regression_files_sha256'):
   for path,digest in lock[name].items():
    if hashlib.sha256((ROOT/path).read_bytes()).hexdigest()!=digest:raise ValueError('Frozen input changed: '+path)
  source=json.loads((ROOT/'experiments/komi_pass_pilot_v1/pre_execution_source_lock.json').read_text())
+ actual_source_paths={'run.py',*(str(p.relative_to(ROOT)) for p in (ROOT/'src/winai_loseai').rglob('*.py'))}
+ if actual_source_paths!=set(source['files']):raise ValueError('Frozen source file set changed')
  for path,digest in source['files'].items():
   actual=hashlib.sha256((ROOT/path).read_text(encoding='utf-8').encode('utf-8')).hexdigest()
   if actual!=digest:raise ValueError('Frozen source changed: '+path)

@@ -1,0 +1,36 @@
+{
+  "utc": "2026-10-04T16:33:00.455434+00:00",
+  "purpose": "Read-only independent anchoring of frozen inputs during the checkpoint24 packaging recovery. No staged tree, source, experiment inputs or games modified.",
+  "passed": true,
+  "pilot_games": 24,
+  "verified_prelaunch_commit": "2a6b66f0d42117acd9411e6e27434ff52c846aea",
+  "local_pre_execution_lock_sha256": "a2d910f035ac534bbe0a828f8bce88f2f3b502a3ef3447310f1b6bf445972c0b",
+  "verified_prelaunch_commit_lock_sha256": "a2d910f035ac534bbe0a828f8bce88f2f3b502a3ef3447310f1b6bf445972c0b",
+  "local_lock_equals_prelaunch_commit_bytes": true,
+  "checks": [
+    {
+      "path": "experiments/komi_pass_pilot_v1/preregistration.json",
+      "expected_sha256_from_verified_prelaunch_lock": "1bd8595fc8a8a6b0c833b81aee7506b3720b01886245790615f03452afa4e3ee",
+      "actual_sha256": "1bd8595fc8a8a6b0c833b81aee7506b3720b01886245790615f03452afa4e3ee",
+      "passed": true
+    },
+    {
+      "path": "experiments/komi_pass_pilot_v1/frozen_plan.json",
+      "expected_sha256_from_verified_prelaunch_lock": "f2d56c6bc93fb1519eb5140bc96df8964c8e30da021cdc2d8aef61ff84d3a536",
+      "actual_sha256": "f2d56c6bc93fb1519eb5140bc96df8964c8e30da021cdc2d8aef61ff84d3a536",
+      "passed": true
+    },
+    {
+      "path": "experiments/komi_pass_pilot_v1/pre_execution_source_lock.json",
+      "expected_sha256_from_verified_prelaunch_lock": "a662f92968912a070eab3a258a3a54db3a3945e954a4cc9f779f815434bc26ca",
+      "actual_sha256": "a662f92968912a070eab3a258a3a54db3a3945e954a4cc9f779f815434bc26ca",
+      "passed": true
+    }
+  ],
+  "sample_increment": 0,
+  "finding": "No frozen scientific-input drift. The packaging wrapper needs additional direct hash guards for future snapshots; current frozen inputs already match their verified prelaunch anchor.",
+  "limitations": [
+    "Commit existence and prior remote verification are taken from the verified checkpoint0 record; this check does not perform a new remote read.",
+    "This new evidence file is intentionally unstaged until the current remote snapshot finishes; it belongs in a later technical snapshot."
+  ]
+}

@@ -16,7 +16,10 @@
       "result": "Frozen packager rejected its own newly tracked checkpoints.json as an unexpected inherited change.",
       "remote_write_started": false,
       "resolution": "Preserved every frozen file. Added an external packaging wrapper that first verifies all frozen source/test/runtime/review/regression hashes, then stages only experiments/komi_pass_pilot_v1 and outputs/komi_pass_pilot_v1 technical deltas. No source, rules, seed, sample or prior outputs changed.",
-      "wrapper_sha256": "8ed843c892ad92eb7adb0a9337220055b1cb51d45a4a029017f7802b2cd8a850"
+      "wrapper_sha256": "8ed843c892ad92eb7adb0a9337220055b1cb51d45a4a029017f7802b2cd8a850",
+      "recovery_verified_commit": "2fb7e9d627950760eb79221221477e360ae47688",
+      "subsequent_guard_hardening": "After verified24 backup, anchor the local pre_execution_lock to verified zero-game commit2a6b66f0; explicitly verify protocol, frozen plan, source-lock file hashes and source file set. Independent comparison found no actual drift at24. All changes are to the new operational wrapper, not frozen files.",
+      "hardened_wrapper_sha256": "7fd1f11c44a2567edd07597d533b49a8c24970cbff05161a90b1d00e60ffa9dc"
     }
   ]
 }
