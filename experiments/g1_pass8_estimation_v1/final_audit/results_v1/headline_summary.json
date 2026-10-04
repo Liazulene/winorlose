@@ -1,0 +1,250 @@
+{
+  "audit_passed": true,
+  "n_records": 480,
+  "n_pairs": 240,
+  "n_actual_actions": 11697,
+  "n_pass_proposals": 1323,
+  "directions": {
+    "WIN/WIN": {
+      "primary_goal_endpoint": "black_goals",
+      "paired_blocks": 60,
+      "goal_counts_G0_G1": [
+        32,
+        32
+      ],
+      "goal_delta": 0.0,
+      "discordance_n01_n10": [
+        14,
+        14
+      ],
+      "goal_simultaneous_family_ci95": [
+        -0.32756895905027933,
+        0.32756895905027933
+      ],
+      "raw_length_means_G0_G1": [
+        30.283333333333335,
+        31.783333333333335
+      ],
+      "raw_length_delta": 1.5,
+      "raw_length_simultaneous_family_ci95": [
+        -39.71847656849769,
+        42.71847656849769
+      ],
+      "extra_length_delta": -6.5,
+      "per_seed_raw_length_deltas": {
+        "11": 3.75,
+        "12": 0.9,
+        "13": -0.15
+      },
+      "per_seed_goal_counts_G0_G1": {
+        "11": [
+          11,
+          13
+        ],
+        "12": [
+          11,
+          9
+        ],
+        "13": [
+          10,
+          10
+        ]
+      }
+    },
+    "LOSE/LOSE": {
+      "primary_goal_endpoint": "black_goals",
+      "paired_blocks": 60,
+      "goal_counts_G0_G1": [
+        59,
+        59
+      ],
+      "goal_delta": 0.0,
+      "discordance_n01_n10": [
+        1,
+        1
+      ],
+      "goal_simultaneous_family_ci95": [
+        -0.13656611761038562,
+        0.13656611761038562
+      ],
+      "raw_length_means_G0_G1": [
+        26.683333333333334,
+        40.666666666666664
+      ],
+      "raw_length_delta": 13.983333333333333,
+      "raw_length_simultaneous_family_ci95": [
+        -27.235143235164358,
+        55.20180990183103
+      ],
+      "extra_length_delta": 5.9833333333333325,
+      "per_seed_raw_length_deltas": {
+        "11": 7.85,
+        "12": 17.6,
+        "13": 16.5
+      },
+      "per_seed_goal_counts_G0_G1": {
+        "11": [
+          20,
+          20
+        ],
+        "12": [
+          19,
+          20
+        ],
+        "13": [
+          20,
+          19
+        ]
+      }
+    },
+    "WIN/LOSE": {
+      "primary_goal_endpoint": "joint_goals",
+      "paired_blocks": 60,
+      "goal_counts_G0_G1": [
+        60,
+        60
+      ],
+      "goal_delta": 0.0,
+      "discordance_n01_n10": [
+        0,
+        0
+      ],
+      "goal_simultaneous_family_ci95": [
+        -0.1020951161444707,
+        0.1020951161444707
+      ],
+      "raw_length_means_G0_G1": [
+        15.65,
+        19.55
+      ],
+      "raw_length_delta": 3.9,
+      "raw_length_simultaneous_family_ci95": [
+        -37.318476568497694,
+        45.11847656849769
+      ],
+      "extra_length_delta": -4.1,
+      "per_seed_raw_length_deltas": {
+        "11": 5.2,
+        "12": 0.95,
+        "13": 5.55
+      },
+      "per_seed_goal_counts_G0_G1": {
+        "11": [
+          20,
+          20
+        ],
+        "12": [
+          20,
+          20
+        ],
+        "13": [
+          20,
+          20
+        ]
+      }
+    },
+    "LOSE/WIN": {
+      "primary_goal_endpoint": "joint_goals",
+      "paired_blocks": 60,
+      "goal_counts_G0_G1": [
+        60,
+        60
+      ],
+      "goal_delta": 0.0,
+      "discordance_n01_n10": [
+        0,
+        0
+      ],
+      "goal_simultaneous_family_ci95": [
+        -0.1020951161444707,
+        0.1020951161444707
+      ],
+      "raw_length_means_G0_G1": [
+        12.783333333333333,
+        17.55
+      ],
+      "raw_length_delta": 4.766666666666667,
+      "raw_length_simultaneous_family_ci95": [
+        -36.45180990183103,
+        45.98514323516436
+      ],
+      "extra_length_delta": -3.2333333333333334,
+      "per_seed_raw_length_deltas": {
+        "11": 2.85,
+        "12": 4.15,
+        "13": 7.3
+      },
+      "per_seed_goal_counts_G0_G1": {
+        "11": [
+          20,
+          20
+        ],
+        "12": [
+          20,
+          20
+        ],
+        "13": [
+          20,
+          20
+        ]
+      }
+    }
+  },
+  "all_games_double_pass": true,
+  "anomalous_game_ids": [],
+  "interval_scope": "Each simultaneous interval belongs to the prespecified pooled eight-estimand family with at least95percent joint coverage under stated stream assumptions; all intervals remain wide and all include zero.",
+  "limitations": [
+    "Not a proof of internal tree or rollout legality, UCT implementation, RNG execution, or numerical search Q correctness.",
+    "Observed search/game timings and byte counts checked and aggregated; child CPU/peakRSS and historical preservation are separately audited.",
+    "Historical seed noncollision and six deterministic regenerations remain separately required evidence.",
+    "Source locks establish byte consistency, not independent external timestamp attestation or malicious multi-file tamper resistance.",
+    "Statistical coverage requires the preregistered hypothetical independent-stream model; fixed deterministic seeds themselves have no sampling uncertainty.",
+    "No optional stopping, rare-failure certificate, equivalence conclusion, pure coordination causal effect, or 7x7 GO claim."
+  ],
+  "descriptive_supplement": {
+    "G0": {
+      "direction_n": {
+        "WIN/WIN": 60,
+        "LOSE/LOSE": 60,
+        "WIN/LOSE": 60,
+        "LOSE/WIN": 60
+      },
+      "direction_mean": {
+        "WIN/WIN": 30.283333333333335,
+        "LOSE/LOSE": 26.683333333333334,
+        "WIN/LOSE": 15.65,
+        "LOSE/WIN": 12.783333333333333
+      },
+      "mixed_mean": 14.216666666666667,
+      "same_mean": 28.483333333333334,
+      "mixed_minus_same": -14.266666666666667,
+      "mixed_minus_WW": -16.06666666666667,
+      "mixed_minus_LL": -12.466666666666667
+    },
+    "G1-pass8": {
+      "direction_n": {
+        "WIN/WIN": 60,
+        "LOSE/LOSE": 60,
+        "WIN/LOSE": 60,
+        "LOSE/WIN": 60
+      },
+      "direction_mean": {
+        "WIN/WIN": 31.783333333333335,
+        "LOSE/LOSE": 40.666666666666664,
+        "WIN/LOSE": 19.55,
+        "LOSE/WIN": 17.55
+      },
+      "mixed_mean": 18.55,
+      "same_mean": 36.225,
+      "mixed_minus_same": -17.675,
+      "mixed_minus_WW": -13.233333333333334,
+      "mixed_minus_LL": -22.116666666666664
+    }
+  },
+  "exact_prefix_8_12_unique_within_each_rule_direction": true,
+  "source_artifacts_sha256": {
+    "report.json": "32b1523a321f902d0ff4543c81ac32f4b168c4a94b6534c36859534ebd4682cb",
+    "recomputed.json": "1069f3bacdbae8875a4a0274ca08cf1134afd3ab1277592533748ba15cdc3138"
+  },
+  "recorded_at_utc": "2026-10-04T15:07:18.895867+00:00"
+}

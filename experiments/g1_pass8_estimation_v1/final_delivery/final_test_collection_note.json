@@ -1,0 +1,23 @@
+{
+  "initial_attempt": "final_pytest.txt",
+  "initial_exit_code": 2,
+  "initial_outcome": "Pytest collection-name collision, before tests ran. Historical M4 and new M5 audit tests share a basename and import a same-named independent audit module. This was not a game/replay/source failure.",
+  "resolution": "All assertions rerun through documented scoped recursive-pytest adapters; standalone original test files and both earlier failed logs preserved.",
+  "main_command": "python -m pytest -q -p no:cacheprovider --ignore=experiments/g1_pass8_estimation_v1/final_audit",
+  "audit_command": "python -m pytest -q -p no:cacheprovider experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py",
+  "historical_or_production_changes": false,
+  "second_attempt": {
+    "log": "final_pytest_main_isolated.txt",
+    "passed": 572,
+    "failed": 1,
+    "subtests_passed": 64,
+    "cause": "New standalone final-verification test assumed no production package already in sys.modules. Whole-repository test collection legitimately imports it; actual harness import guard was not the failing component."
+  },
+  "final_resolution": {
+    "audit_adapter": "../final_audit/pytest_discovery_adapter_proof_v1.json",
+    "verification_adapter": "pytest_discovery_adapter_proof_v1.json",
+    "scope": "Scoped recursive-pytest adapters preserve original test files and assert the same audit coverage. The one import guard executes in a fresh subprocess. No production or historical edits.",
+    "default_full_suite_log": "final_pytest_default_verified.txt",
+    "status": "Default complete repository suite passed:620tests,74subtests,409.11seconds; no production source changes."
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "scope": "Completed results_v1 evidence; this manifest excludes itself. No input or historical file is copied or rewritten.",
+  "files": {
+    "cost_and_checkpoints.json": {
+      "bytes": 13613,
+      "sha256": "c62472363befc00ecc9995a1734f6c72b2f016c7456c350df6f8d8abecc37167"
+    },
+    "execution_stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "execution_stdout.txt": {
+      "bytes": 1632,
+      "sha256": "87fb6d28aea818af2a8244fd0c27ef07b45e7ee70ed0394f0781bd7fd9a1cc40"
+    },
+    "final_validation_summary.json": {
+      "bytes": 1128,
+      "sha256": "4a975479a1a6e2b12b4730b6e6355769b5a7935f8431b2bc7655dce76b869a48"
+    },
+    "historical_preservation_after.json": {
+      "bytes": 4645,
+      "sha256": "f9b42ad3b79599ff781e61d6b8cc8407370ee79ef5811faf04b7c03a6f6981a0"
+    },
+    "historical_preservation_before.json": {
+      "bytes": 4645,
+      "sha256": "b853ce2c610e50249be0d5737a54818c7fe9bd988ff121c0397c722e03914e0c"
+    },
+    "predesignated_regeneration_selections.json": {
+      "bytes": 3526,
+      "sha256": "4db1f2ca4b99f349c71e65df36531d55158ee82252c75b20736329ca027e93b5"
+    },
+    "regenerated_games/g1_pass8_estimation_v1-g000000.json": {
+      "bytes": 27519,
+      "sha256": "e2a12853c83a07043ac0893c2808bae0e8bb6ea9b78df35c965cd38e663728a9"
+    },
+    "regenerated_games/g1_pass8_estimation_v1-g000001.json": {
+      "bytes": 45586,
+      "sha256": "e77872522344d25e2b5760ac787a6f499327dbfd467eea78fca9bcefb23c80e5"
+    },
+    "regenerated_games/g1_pass8_estimation_v1-g000004.json": {
+      "bytes": 28260,
+      "sha256": "186ec02fd880df3be546ce450aa1a0caddde3d4a9e2a27e896312cd27c7ec756"
+    },
+    "regenerated_games/g1_pass8_estimation_v1-g000005.json": {
+      "bytes": 36982,
+      "sha256": "a1d188ca6c64b0d6451a4f84e8b9352103ba3ea89fc3fbeaeb3b27bf23411c24"
+    },
+    "regenerated_games/g1_pass8_estimation_v1-g000012.json": {
+      "bytes": 39624,
+      "sha256": "880424f419c1d912d734554bd1600b3ccacb6c471f497323f43597e443d44aeb"
+    },
+    "regenerated_games/g1_pass8_estimation_v1-g000013.json": {
+      "bytes": 41606,
+      "sha256": "7ada45d908c586cd7f3ac32704f82239f3a0b124efb900f6fb3237cc86386d8d"
+    },
+    "regeneration_g1_pass8_estimation_v1-g000000.json": {
+      "bytes": 988,
+      "sha256": "c1f0e41dcbb4b02f997c37c27547274e19f50dafb036bbc3de8d5ee570a3bc21"
+    },
+    "regeneration_g1_pass8_estimation_v1-g000001.json": {
+      "bytes": 987,
+      "sha256": "9c4452280b268b3711137531b8e5a2d3453602fde54b3952d4198e2f2a64eddb"
+    },
+    "regeneration_g1_pass8_estimation_v1-g000004.json": {
+      "bytes": 986,
+      "sha256": "d7abcab4b963d171e493e4b8b150212109401af086cabe647f7494b8578affcc"
+    },
+    "regeneration_g1_pass8_estimation_v1-g000005.json": {
+      "bytes": 986,
+      "sha256": "60b6bdd6712e4bda569ec9bb509071eb89448aaecfc8e25b5c6e00102d8e3cec"
+    },
+    "regeneration_g1_pass8_estimation_v1-g000012.json": {
+      "bytes": 985,
+      "sha256": "ea026c4ef87562ee5cc890e71e0f9681d00c3463d8919df0d418fb936482bfe3"
+    },
+    "regeneration_g1_pass8_estimation_v1-g000013.json": {
+      "bytes": 985,
+      "sha256": "aff8257d61261f8c7d406883aa187365c5fe656e50f9d7d77b314b90457ac8b8"
+    },
+    "six_game_regeneration.json": {
+      "bytes": 6973,
+      "sha256": "5c497d954e194e3f63f611bfaf83ad072491f84cc06d78775e45687991b92fb1"
+    },
+    "strict_complete_validation.json": {
+      "bytes": 53620,
+      "sha256": "bc9c1f2dd41fab2860f18b78140eab3dcb1acc9d859acd130e774ebe52343b1c"
+    },
+    "validation_input_hashes_before.json": {
+      "bytes": 139358,
+      "sha256": "2e5d295ccd33227c215563d02d2c6e106773b086e77fa68a2cbf118bcacf4d41"
+    },
+    "validation_inputs_unchanged.json": {
+      "bytes": 307,
+      "sha256": "f5a3f46856cf6a4cba9e8aa90396b0f94c141b26e3eb105d738f54705d7d0006"
+    }
+  }
+}

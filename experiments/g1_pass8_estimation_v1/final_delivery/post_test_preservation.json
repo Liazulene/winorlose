@@ -1,0 +1,84 @@
+{
+  "recorded_at_utc": "2026-10-04T15:32:13.613643+00:00",
+  "checks": [
+    {
+      "worktree": "/workspace/scratch/50e0c7c6aca1/winorlose",
+      "scope": "all baseline tracked bytes and tracked/historical file sets",
+      "baseline_inventory": "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_tracked_inventory.json.segments.json",
+      "baseline_raw_sha256": "3dcb2b3efcad2fc44b41e6d3f94f3564b90ae6f732e2a473516378f228d0e664",
+      "current_head": "2a69925ead3ff8543ee109dd71754a9796073d49",
+      "head_comparison_required": true,
+      "selected_files": 15868,
+      "checked_bytes": 253345037,
+      "path_hash_size_digest": "3442d664e04efe28ddec5fcc4eec22cbe2d224ed22c756083def45d10feffa2d",
+      "problems": []
+    },
+    {
+      "worktree": "/workspace/scratch/50e0c7c6aca1/winorlose_d0_v1",
+      "scope": "all baseline tracked bytes and tracked/historical file sets",
+      "baseline_inventory": "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_d0_v1_tracked_inventory.json.segments.json",
+      "baseline_raw_sha256": "2090b99ac9723ca617a2df9796a363031d075b4c5d6b115635a9bc1e93cabf90",
+      "current_head": "d5cbbca637256d123b73f88ed67dced23393a9cc",
+      "head_comparison_required": true,
+      "selected_files": 15929,
+      "checked_bytes": 253635694,
+      "path_hash_size_digest": "24b9c103a9a009b803a041d6684874a3e34957c1bd0dc45df0d24ee9589133e6",
+      "problems": []
+    },
+    {
+      "worktree": "/workspace/scratch/50e0c7c6aca1/winorlose_d1_v1",
+      "scope": "all baseline tracked bytes and tracked/historical file sets",
+      "baseline_inventory": "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_d1_v1_tracked_inventory.json.segments.json",
+      "baseline_raw_sha256": "128ddebf1bcb28032bae26541081b145dc33f364562b92eab7d768d29650c606",
+      "current_head": "f315cfa9cfba8b2b69b456c8d730012cf98f5e2f",
+      "head_comparison_required": true,
+      "selected_files": 16019,
+      "checked_bytes": 256095955,
+      "path_hash_size_digest": "16a6245878f6a54c4324dc333b38689dd39b0320a0d810010ad130cf9d726619",
+      "problems": []
+    },
+    {
+      "worktree": "/workspace/scratch/50e0c7c6aca1/winorlose_d1_estimation_v1",
+      "scope": "all baseline tracked bytes and tracked/historical file sets",
+      "baseline_inventory": "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_d1_estimation_v1_tracked_inventory.json.segments.json",
+      "baseline_raw_sha256": "78e3e9ad3ebd0fb2fbae3e73f0df183c6e782f4b9dd332a4f7dceb696dc966a3",
+      "current_head": "c180d059eec5e9f36dfe9fef255275c585edb568",
+      "head_comparison_required": true,
+      "selected_files": 16902,
+      "checked_bytes": 285511165,
+      "path_hash_size_digest": "37fd5a9e73406771113c846860c620a4eb6e2e6eaa185cad6ecca648c6fa7b7f",
+      "problems": []
+    },
+    {
+      "worktree": "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_v1",
+      "scope": "all baseline tracked bytes and tracked/historical file sets",
+      "baseline_inventory": "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_g1_pass8_v1_tracked_inventory.json.segments.json",
+      "baseline_raw_sha256": "90f654e0d76e37323b8843d82342e13c05769dd0bcf3876b1ef11e1bf56de8db",
+      "current_head": "e28833c388438f33d49dbbde90ae63b6e3a4a0cb",
+      "head_comparison_required": true,
+      "selected_files": 17054,
+      "checked_bytes": 291514582,
+      "path_hash_size_digest": "be7e990c59607dc92401979978a13b05f1f54db259e5dea5a8cb21b377cb82a4",
+      "problems": []
+    },
+    {
+      "worktree": "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1",
+      "scope": "inherited protected historical files",
+      "baseline_inventory": "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_g1_pass8_v1_tracked_inventory.json.segments.json",
+      "baseline_raw_sha256": "90f654e0d76e37323b8843d82342e13c05769dd0bcf3876b1ef11e1bf56de8db",
+      "current_head": "a9b6e5188451b7fd7b573f406f0b79c1b732de96",
+      "head_comparison_required": false,
+      "selected_files": 16982,
+      "checked_bytes": 291033134,
+      "path_hash_size_digest": "7d0d88f1a040f847831cb35ec635fdcd296b7bee898d0f9e97ae8c31e3435794",
+      "problems": []
+    }
+  ],
+  "original_inventory_copies_identical": true,
+  "all_passed": true,
+  "limitations": [
+    "Present bytes/file sets only; no claim of absence of earlier transient writes.",
+    "M5 new commits are expected; only its inherited protected files use the M4 inventory.",
+    "Existing inventories are referenced by verified digest; no duplicate multi-MB maps saved."
+  ]
+}

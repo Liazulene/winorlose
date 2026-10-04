@@ -1,0 +1,66 @@
+{
+  "experiment_id": "G1-pass8-estimation-v1",
+  "phase": "completed_fixed480_estimation",
+  "recorded_at_utc": "2026-10-04T15:32:20.112595+00:00",
+  "formal_sample_n": 480,
+  "paired_blocks": 240,
+  "source_fingerprint": "1633b6768cc2c93af1a504a4741167ad2fa2cf809826cd7e267ccaa369e31dae",
+  "protocol_sha256": "cfe65b3f20b6e2cefdf620a27e501333c5798ea0801ee1b8881be2c010ff76fa",
+  "strict_replay_search_passed": 480,
+  "independent_audit_passed": true,
+  "independent_statistical_audit_passed": true,
+  "exact_regenerations": 6,
+  "sample_increment_from_validation": 0,
+  "test_summary": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 python -m pytest -q -p no:cacheprovider",
+    "passed": 620,
+    "subtests_passed": 74,
+    "seconds": 409.11,
+    "summary": "620 passed, 74 subtests passed in 409.11s (0:06:49)",
+    "exit_code": 0,
+    "log_sha256": "72fbd988d54744e330db82cea60ea1d03b6108965e7ad9795017b829d90350f1",
+    "scope": "Default complete repository discovery, including inherited M4 audit27 plus unique M5 audit47 and M5 final-verification43. Original standalone files preserved; recursive adapters prevent import-name/global-state collisions without omitting assertions.",
+    "prior_attempts_preserved": [
+      "final_pytest.txt",
+      "final_pytest_main_isolated.txt",
+      "final_pytest_audit_isolated.txt"
+    ],
+    "production_source_changes": false,
+    "original_validation_inputs_unchanged": {
+      "unchanged": true,
+      "checked_files_before": 762,
+      "checked_files_after": 762,
+      "before_digest": "b6ccd3a395848e0d4c3cee41a5207fe398ebd87c6a141d20889e39c15056402c",
+      "after_digest": "b6ccd3a395848e0d4c3cee41a5207fe398ebd87c6a141d20889e39c15056402c",
+      "changed": [],
+      "added": [],
+      "missing": []
+    }
+  },
+  "historical_files_checked": 98754,
+  "original_validation_inputs_preserved": {
+    "unchanged": true,
+    "checked_files_before": 762,
+    "checked_files_after": 762,
+    "before_digest": "b6ccd3a395848e0d4c3cee41a5207fe398ebd87c6a141d20889e39c15056402c",
+    "after_digest": "b6ccd3a395848e0d4c3cee41a5207fe398ebd87c6a141d20889e39c15056402c",
+    "changed": [],
+    "added": [],
+    "missing": []
+  },
+  "last_raw_backup": {
+    "checkpoint_games": 480,
+    "commit": "a9b6e5188451b7fd7b573f406f0b79c1b732de96",
+    "tree": "7771e65e34dddc2a5fe4986c4d4b1a01203b9033",
+    "remote_fetch_and_tree_verified": true,
+    "verified_utc": "2026-10-04T15:05:36.667Z"
+  },
+  "all_21_checkpoint_proofs_verified": true,
+  "evidence_inventory_sha256": "c6425c351be4c4641ee92839807c20b0926c0fa27c8dcf72a68712445100cd1b",
+  "production_manifest_status": "completed",
+  "7x7": "NO-GO",
+  "next_phase_started": false,
+  "scientific_scope": "Whole early-pass rule intervention atkomi2.5/budget256; point estimates do not establish equivalence or rare-failure reliability.",
+  "next_mechanism_recommendation": "Separately preregister a new-seed5x5komi/pass2x2engineering-cost probe with draw semantics, then decide formal precision; no newphase here.",
+  "problems": []
+}

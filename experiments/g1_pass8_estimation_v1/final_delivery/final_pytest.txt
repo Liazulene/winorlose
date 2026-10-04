@@ -1,0 +1,13 @@
+
+==================================== ERRORS ====================================
+_ ERROR collecting experiments/g1_pass8_v1/final_audit/test_independent_final_audit.py _
+import file mismatch:
+imported module 'test_independent_final_audit' has this __file__ attribute:
+  /workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py
+which is not the same as the test file we want to collect:
+  /workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_v1/final_audit/test_independent_final_audit.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+=========================== short test summary info ============================
+ERROR experiments/g1_pass8_v1/final_audit/test_independent_final_audit.py
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+1 error in 3.99s

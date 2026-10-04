@@ -1,0 +1,32 @@
+{
+  "experiment_id": "G1-pass8-estimation-v1",
+  "recorded_at_utc": "2026-10-04T15:08:55.180707+00:00",
+  "source_fingerprint": "1633b6768cc2c93af1a504a4741167ad2fa2cf809826cd7e267ccaa369e31dae",
+  "protocol_sha256": "cfe65b3f20b6e2cefdf620a27e501333c5798ea0801ee1b8881be2c010ff76fa",
+  "script_sha256": "594924bcf84f6f3d941f6b7fe5a1340955d741effba317c77bb81d23606f688b",
+  "formal_sample_n": 480,
+  "sample_increment": 0,
+  "strict_complete_validation_passed": true,
+  "regenerations_completed": 6,
+  "matching_regenerations": 6,
+  "regeneration_selected_indexes": [
+    0,
+    5,
+    13,
+    1,
+    4,
+    12
+  ],
+  "historical_before_passed": true,
+  "historical_after_passed": true,
+  "validation_inputs_unchanged": true,
+  "harness_wall_seconds": 149.34422712700325,
+  "cost_scope": "Harness wall and regeneration wall are extra verification costs, excluded from formal20child compute and checkpoint calendar cost.",
+  "separate_required_evidence": [
+    "Final main test suite",
+    "Independent final arithmetic/rules audit",
+    "Final delivery publication/remote verification"
+  ],
+  "problems": [],
+  "passed": true
+}

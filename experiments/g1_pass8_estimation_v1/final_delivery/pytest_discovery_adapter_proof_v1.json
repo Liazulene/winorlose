@@ -1,0 +1,36 @@
+{
+  "purpose": "Scoped recursive-pytest discovery and fresh-process import-guard adaptation only",
+  "original_file": "experiments/g1_pass8_estimation_v1/final_delivery/test_final_verification.py",
+  "original_sha256": "da7450f439057d2ff68b9c5e8c67eae444f677085c1ebcd6b796992792328350",
+  "adapter_file": "experiments/g1_pass8_estimation_v1/final_delivery/test_m5_final_verification.py",
+  "adapter_sha256": "3ccbaddf737dedc0c0d9e6d322c39ef4c337be8ec3f7c1d577f3cc7528fe86cb",
+  "conftest_file": "experiments/g1_pass8_estimation_v1/final_delivery/conftest.py",
+  "conftest_sha256": "c395950e75cd24525a029cde7c02a2aa1f59570eafaaa891879d7555992d4a83",
+  "collect_ignore": [
+    "test_final_verification.py"
+  ],
+  "changed_method": "GuardTests.test_import_does_not_load_production",
+  "all_other_source_bytes_identical": true,
+  "ast_identical_except_one_method_body": true,
+  "test_method_count": 43,
+  "preserved_failed_log": "experiments/g1_pass8_estimation_v1/final_delivery/final_pytest_main_isolated.txt",
+  "preserved_failed_log_sha256": "c9d36b5c63f5f803889368d744533ab24abce2691ade60e5a9de1eeef686df9d",
+  "production_or_historical_edits": false,
+  "formal_or_regenerated_games": 0,
+  "preserved_validation_input_count": 762,
+  "validation_input_reference": "results_v1/validation_input_hashes_before.json",
+  "validation_input_reference_sha256": "2e5d295ccd33227c215563d02d2c6e106773b086e77fa68a2cbf118bcacf4d41",
+  "validation_input_byte_differences": [],
+  "fresh_guard_test": {
+    "passed": 1,
+    "log": "pytest_fresh_import_guard_v1.txt",
+    "log_sha256": "7fefcaf66f6e7137767bc25d16d128cbf7b8617ad0b6f14fbf9a0b8e7fdd81cd"
+  },
+  "adapter_tests": {
+    "passed": 43,
+    "subtests_passed": 43,
+    "log": "pytest_adapter43_v1.txt",
+    "log_sha256": "eca265b0d44925ef2ce3c39abe12f88b10df31052f17876510afe7bf92ca1347"
+  },
+  "main_suite_rerun": "Parent will run fresh default whole-repository pytest separately"
+}

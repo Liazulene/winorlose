@@ -1,0 +1,188 @@
+{
+  "count": 6,
+  "matching_count": 6,
+  "concurrency": 1,
+  "sample_increment": 0,
+  "formal_sample_n": 480,
+  "excluded_fields": [
+    "game_wall_ms",
+    "moves[*].search_time_ms"
+  ],
+  "comparison": "Strict full-record values AND types after JSON map-key representation conversion and deletion of exactly the two timing paths.",
+  "results": [
+    {
+      "pass_min_ply": 0,
+      "batch_seed": 11,
+      "game_index": 0,
+      "game_id": "g1_pass8_estimation_v1-g000000",
+      "game_seed": 280146318628635817193020184339384841386,
+      "black": {
+        "agent_id": "LOSE-medium-s2",
+        "identity": "LOSE",
+        "algorithm": "vector_mcts",
+        "compute_level": "medium",
+        "seed": 2
+      },
+      "white": {
+        "agent_id": "LOSE-medium-s1",
+        "identity": "LOSE",
+        "algorithm": "vector_mcts",
+        "compute_level": "medium",
+        "seed": 1
+      },
+      "matches_except_timing": true,
+      "record_problems": [],
+      "differences": [],
+      "saved_file_sha256": "24fab358bc43d405364e774c1e47bc4fba113c678904bb7c47472c3c0653c8cb",
+      "regenerated_file_sha256": "e2a12853c83a07043ac0893c2808bae0e8bb6ea9b78df35c965cd38e663728a9",
+      "saved_nontiming_sha256": "e70cd15c42655f631c45d37d1fc8132266e0539f5e1df8d5a6bb3e21d2dbb8bf",
+      "regenerated_nontiming_sha256": "e70cd15c42655f631c45d37d1fc8132266e0539f5e1df8d5a6bb3e21d2dbb8bf",
+      "verification_wall_seconds": 10.447694658003456
+    },
+    {
+      "pass_min_ply": 0,
+      "batch_seed": 12,
+      "game_index": 5,
+      "game_id": "g1_pass8_estimation_v1-g000005",
+      "game_seed": 321239557789236490400033656106257311789,
+      "black": {
+        "agent_id": "WIN-medium-s2",
+        "identity": "WIN",
+        "algorithm": "vector_mcts",
+        "compute_level": "medium",
+        "seed": 2
+      },
+      "white": {
+        "agent_id": "LOSE-medium-s1",
+        "identity": "LOSE",
+        "algorithm": "vector_mcts",
+        "compute_level": "medium",
+        "seed": 1
+      },
+      "matches_except_timing": true,
+      "record_problems": [],
+      "differences": [],
+      "saved_file_sha256": "4c0697aa407f1e2acf39c02309ba6385451f9827eeb4999ab5df164140a0dd50",
+      "regenerated_file_sha256": "a1d188ca6c64b0d6451a4f84e8b9352103ba3ea89fc3fbeaeb3b27bf23411c24",
+      "saved_nontiming_sha256": "6bd0e9008032d1f4eb1f83a8b38cf12e110616469103d3fbe8cc6b25cb4d0f70",
+      "regenerated_nontiming_sha256": "6bd0e9008032d1f4eb1f83a8b38cf12e110616469103d3fbe8cc6b25cb4d0f70",
+      "verification_wall_seconds": 17.791001272998983
+    },
+    {
+      "pass_min_ply": 0,
+      "batch_seed": 13,
+      "game_index": 13,
+      "game_id": "g1_pass8_estimation_v1-g000013",
+      "game_seed": 292692019823471732916007344057763731947,
+      "black": {
+        "agent_id": "WIN-medium-s1",
+        "identity": "WIN",
+        "algorithm": "vector_mcts",
+        "compute_level": "medium",
+        "seed": 1
+      },
+      "white": {
+        "agent_id": "WIN-medium-s2",
+        "identity": "WIN",
+        "algorithm": "vector_mcts",
+        "compute_level": "medium",
+        "seed": 2
+      },
+      "matches_except_timing": true,
+      "record_problems": [],
+      "differences": [],
+      "saved_file_sha256": "8d59f1b48c504d5fdc104d48d67ce7c65fe6250feec56859f0bd15e2632f6a93",
+      "regenerated_file_sha256": "7ada45d908c586cd7f3ac32704f82239f3a0b124efb900f6fb3237cc86386d8d",
+      "saved_nontiming_sha256": "0ac310fa13031957da78c501db76d176c869390af47f8e6fd3fa1cd93d5d99a1",
+      "regenerated_nontiming_sha256": "0ac310fa13031957da78c501db76d176c869390af47f8e6fd3fa1cd93d5d99a1",
+      "verification_wall_seconds": 21.675401879001583
+    },
+    {
+      "pass_min_ply": 8,
+      "batch_seed": 11,
+      "game_index": 1,
+      "game_id": "g1_pass8_estimation_v1-g000001",
+      "game_seed": 280146318628635817193020184339384841386,
+      "black": {
+        "agent_id": "LOSE-medium-s2",
+        "identity": "LOSE",
+        "algorithm": "vector_mcts",
+        "compute_level": "medium",
+        "seed": 2
+      },
+      "white": {
+        "agent_id": "LOSE-medium-s1",
+        "identity": "LOSE",
+        "algorithm": "vector_mcts",
+        "compute_level": "medium",
+        "seed": 1
+      },
+      "matches_except_timing": true,
+      "record_problems": [],
+      "differences": [],
+      "saved_file_sha256": "0c81e4c80edacb1e4f031feb83ff1e41d6df49e53e40142cbf5c8188c2e1fc11",
+      "regenerated_file_sha256": "e77872522344d25e2b5760ac787a6f499327dbfd467eea78fca9bcefb23c80e5",
+      "saved_nontiming_sha256": "fe39206bc68d0d161f0aa3f2f815277e996d2fc4a8c83b39dedffa507fbdb684",
+      "regenerated_nontiming_sha256": "fe39206bc68d0d161f0aa3f2f815277e996d2fc4a8c83b39dedffa507fbdb684",
+      "verification_wall_seconds": 23.54280296700017
+    },
+    {
+      "pass_min_ply": 8,
+      "batch_seed": 12,
+      "game_index": 4,
+      "game_id": "g1_pass8_estimation_v1-g000004",
+      "game_seed": 321239557789236490400033656106257311789,
+      "black": {
+        "agent_id": "WIN-medium-s2",
+        "identity": "WIN",
+        "algorithm": "vector_mcts",
+        "compute_level": "medium",
+        "seed": 2
+      },
+      "white": {
+        "agent_id": "LOSE-medium-s1",
+        "identity": "LOSE",
+        "algorithm": "vector_mcts",
+        "compute_level": "medium",
+        "seed": 1
+      },
+      "matches_except_timing": true,
+      "record_problems": [],
+      "differences": [],
+      "saved_file_sha256": "4c13a14c817b5e12b035c7119d4683d27eee226d0616a2e3a6e645ede814e7fd",
+      "regenerated_file_sha256": "186ec02fd880df3be546ce450aa1a0caddde3d4a9e2a27e896312cd27c7ec756",
+      "saved_nontiming_sha256": "247162d248a5903e284f1b0ad97576a13334321e9a67933276723411c75540ca",
+      "regenerated_nontiming_sha256": "247162d248a5903e284f1b0ad97576a13334321e9a67933276723411c75540ca",
+      "verification_wall_seconds": 11.985234040999785
+    },
+    {
+      "pass_min_ply": 8,
+      "batch_seed": 13,
+      "game_index": 12,
+      "game_id": "g1_pass8_estimation_v1-g000012",
+      "game_seed": 292692019823471732916007344057763731947,
+      "black": {
+        "agent_id": "WIN-medium-s1",
+        "identity": "WIN",
+        "algorithm": "vector_mcts",
+        "compute_level": "medium",
+        "seed": 1
+      },
+      "white": {
+        "agent_id": "WIN-medium-s2",
+        "identity": "WIN",
+        "algorithm": "vector_mcts",
+        "compute_level": "medium",
+        "seed": 2
+      },
+      "matches_except_timing": true,
+      "record_problems": [],
+      "differences": [],
+      "saved_file_sha256": "b7eeca402f1d16a89034dc79da9b2213a0d70b02b903751f94e3ece0db0b688d",
+      "regenerated_file_sha256": "880424f419c1d912d734554bd1600b3ccacb6c471f497323f43597e443d44aeb",
+      "saved_nontiming_sha256": "87b3a0b6d776ec4cba22a7ccc81c68a414acba036986e53c556d812d8e82f246",
+      "regenerated_nontiming_sha256": "87b3a0b6d776ec4cba22a7ccc81c68a414acba036986e53c556d812d8e82f246",
+      "verification_wall_seconds": 20.385124113003258
+    }
+  ]
+}

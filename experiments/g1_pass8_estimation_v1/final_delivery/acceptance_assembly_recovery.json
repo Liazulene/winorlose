@@ -1,0 +1,19 @@
+{
+  "attempts": [
+    {
+      "stage": "post-test historical file-set check",
+      "result": "stopped before final evidence writes",
+      "cause": "two newly generated untracked pyc caches; preserved and relocated per generated_cache_relocation.json"
+    },
+    {
+      "stage": "source-only import installation",
+      "result": "stopped before final evidence writes",
+      "cause": "assembly wrapper installed the no-preload guard after importing its inventory helper",
+      "correction": "Install the unchanged source-only guard before any helper import, matching the validated harness entry order."
+    }
+  ],
+  "production_source_or_formal_data_changes": false,
+  "original_guard_relaxed": false,
+  "sample_increment": 0,
+  "final_attempt": "rerun all acceptance gates after safe ordering correction"
+}

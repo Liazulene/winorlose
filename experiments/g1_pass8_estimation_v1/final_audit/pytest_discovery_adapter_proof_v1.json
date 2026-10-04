@@ -1,0 +1,50 @@
+{
+  "recorded_at_utc": "2026-10-04T15:15:39.406920+00:00",
+  "rationale": "Historical M4 and original standalone M5 tests shared the same pytest basename and global audit module name. A local discovery adapter prevents collection collision without editing historical or original evidence.",
+  "scope": {
+    "new_conftest": "experiments/g1_pass8_estimation_v1/final_audit/conftest.py",
+    "collect_ignore": [
+      "test_independent_final_audit.py"
+    ],
+    "ignore_scope": "This M5 final_audit directory only; no other test excluded.",
+    "recursive_pytest_entrypoint": "test_m5_independent_final_audit.py",
+    "audit_import_name": "m5_independent_final_audit_test_subject",
+    "registers_global_independent_final_audit": false
+  },
+  "equivalence": {
+    "exact_text_outside_import_adapter_identical": true,
+    "all_top_level_function_and_class_ASTs_identical": true,
+    "all_test_methods_identical": true,
+    "test_method_count": 47,
+    "definition_AST_sha256": "926c8d070a267a8ebb7d1e3ea2c80178c5d665f60d6585cb2df691d49357206f"
+  },
+  "preservation": {
+    "original_M5_test_matches_preparation_hash": true,
+    "M5_audit_matches_preparation_hash": true,
+    "historical_M4_test_and_audit_match_HEAD": true,
+    "production_source_inventory_matches_pre_execution_lock": true,
+    "source_fingerprint": "1633b6768cc2c93af1a504a4741167ad2fa2cf809826cd7e267ccaa369e31dae",
+    "historical_sha256": {
+      "experiments/g1_pass8_v1/final_audit/test_independent_final_audit.py": "172cdcb2c5425e07316bfe0fdf8bc13b746af694ecccfdbba6518c4f635e1785",
+      "experiments/g1_pass8_v1/final_audit/independent_final_audit.py": "b5805d3d8605e4652e1a120e4806a212026a90bfc5c513fd0905223a24d6c325"
+    },
+    "legacy_global_module_preserved_in_import_probe": true
+  },
+  "validation": {
+    "python": "../winorlose_audit_venv/bin/python",
+    "standalone_adapter": "47 passed, 10 subtests passed in 90.25s",
+    "combined_recursive_M4_M5": "74 passed, 31 subtests passed in 53.81s",
+    "combined_command": "../winorlose_audit_venv/bin/python -m pytest -q -p no:cacheprovider experiments/g1_pass8_v1/final_audit experiments/g1_pass8_estimation_v1/final_audit",
+    "initial_runtime_note": "Generic python lacks pytest; successful runs used the existing audit venv. No dependency installation was performed.",
+    "whole_repo_default_suite": "Owned by parent; not claimed by this scoped check."
+  },
+  "artifact_sha256": {
+    "conftest.py": "e214ba3addf5977073ee9fff89aedb7faca4c6b32fdb59848a1850aad0375064",
+    "test_m5_independent_final_audit.py": "a60aa5d16a7b487b44f5bebcff11a6d2823fad7307ea669bfca79aa7f69a83e2",
+    "pytest_m5_adapter_verified_v1.txt": "1e2e33d334c5e8ad0c518abe3d372c5c47a5353d6ea1f63cc0b1a672b85642dc",
+    "pytest_m4_m5_combined_v1.txt": "8347445216b22bcd8c0cd0751a9004e39cc8eca1a63468c5454a6c77d49f449d"
+  },
+  "formal_audit_unchanged": true,
+  "formal_games_run": 0,
+  "git_index_modified_by_worker": false
+}

@@ -1,0 +1,260 @@
+{
+  "chunks": 20,
+  "games": 480,
+  "checkpoints": 21,
+  "checkpoint_interval_games": 24,
+  "child_wall_seconds": 7593.2654197589945,
+  "child_cpu_user_seconds": 7580.314547,
+  "child_cpu_system_seconds": 11.94938,
+  "child_cpu_total_seconds": 7592.263927,
+  "maximum_child_peak_process_rss_kib": 162648,
+  "final_output_tree_bytes": 17922442,
+  "calendar_first_child_start_to_last_child_end_seconds": 15299.109806,
+  "calendar_first_child_start_to_final_checkpoint_verified_seconds": 15567.712629,
+  "calendar_outside_measured_children_through_final_checkpoint_seconds": 7974.447209241005,
+  "child_scope": "Isolated generation child: imports/resume/per-game validation/final analysis; excludes Git sync, main tests and this harness.",
+  "calendar_scope": "Elapsed calendar time includes synchronization, external validation, waiting and other overhead. Residual is not an isolated synchronization measurement.",
+  "rss_scope": "Maximum of20 separately measured process peaks, never summed; not exclusive MCTS or incremental per-game memory.",
+  "sync_incidents": {
+    "incidents": [
+      {
+        "phase": "pre_execution_backup",
+        "formal_games": 0,
+        "event": "Backup paused during access review; resumed only after explicit owner confirmation. Four missing content-addressed inventory blobs returned404 before one successful retry each. Previously successful uploads were retained.",
+        "owner_reconfirmation_utc": "2026-10-04T10:12:00Z",
+        "no_game_replacement_or_new_seed": true
+      },
+      {
+        "phase": "checkpoint144_backup",
+        "completed_games": 144,
+        "last_verified_remote_games_at_failure": 120,
+        "error": "RemoteProtocolError: Server disconnected without sending a response.",
+        "path": "outputs/g1_pass8_estimation_v1/games.jsonl",
+        "expected_sha": "8ce7cd0e4ba029aecc03090c651884c72b12396f",
+        "read_before_retry": "404",
+        "safe_same_blob_retries": 1,
+        "retry_succeeded": true,
+        "new_games_during_recovery": 0,
+        "observed_utc": "2026-10-04T12:01:33.348128+00:00"
+      }
+    ],
+    "no_main_merge": true,
+    "no_force_push": true
+  },
+  "sync_incidents_sha256": "a37f53962b5c6c0a1c16127220b803d8f1d6c880329a6ce5c2dc07f8ea4282e5",
+  "child_attempt_accounting": "Exactly20 measured attempts at20 fixed24-game boundaries. Additional, interrupted or unmeasured attempt artifacts fail closed and require full-attempt cost reconciliation.",
+  "checkpoint_records": [
+    {
+      "checkpoint_games": 0,
+      "commit": "c21a125761029fd377431cc917d76f0abb6454fd",
+      "tree": "7589945baa77e4a6943b70dc297327b6cf84ecf2",
+      "remote_fetch_and_tree_verified": true,
+      "verified_utc": "2026-10-04T10:45:47.119Z",
+      "local_commit_tree_reverified": true
+    },
+    {
+      "checkpoint_games": 24,
+      "commit": "7dc0b382f871d3b33ce480187e2ff297a220c194",
+      "tree": "5a40fe08129e1f498710d3e8b68f86c190abb4e2",
+      "remote_fetch_and_tree_verified": true,
+      "verified_utc": "2026-10-04T11:01:08.830Z",
+      "local_commit_tree_reverified": true,
+      "validation_sha256": "5b608160d15866d73f979ed9598c01dd166ac95418681152ec3febc3a2941057"
+    },
+    {
+      "checkpoint_games": 48,
+      "commit": "2463103b164b535527e52aeb0eb000cb8c1736ca",
+      "tree": "3c07b6ac89a6749ca53f802e1d0719c75d5a7173",
+      "remote_fetch_and_tree_verified": true,
+      "verified_utc": "2026-10-04T11:14:05.778Z",
+      "local_commit_tree_reverified": true,
+      "validation_sha256": "a951f167ac4d428541440f03694c3942c090b10b863ccc46e48ce894cdeda018"
+    },
+    {
+      "checkpoint_games": 72,
+      "commit": "cd53f97ab3aab23755744bf70e9e9ef22c39671e",
+      "tree": "259ec96baf36c57898e18a3b1a77cf607d88d69b",
+      "remote_fetch_and_tree_verified": true,
+      "verified_utc": "2026-10-04T11:27:28.451Z",
+      "local_commit_tree_reverified": true,
+      "validation_sha256": "6bae657a9f03a6ddd99bd0f85dcc008ba82c3cfb34f18ecb3f212318b662b46f"
+    },
+    {
+      "checkpoint_games": 96,
+      "commit": "9bed24527c3822e0d066ed6405c448fd7c872066",
+      "tree": "d12dd6beb9fcc72c16594299fbf3bce3dd9c7958",
+      "remote_fetch_and_tree_verified": true,
+      "verified_utc": "2026-10-04T11:39:40.296Z",
+      "local_commit_tree_reverified": true,
+      "validation_sha256": "752789bc5a85b1b855732f19b1677bb796b9d0728166b2b8822ecdab3d9928c3"
+    },
+    {
+      "checkpoint_games": 120,
+      "commit": "2ca1d6774bec540327809f7dcad605d6290ce54d",
+      "tree": "00b85057d4d954d2297a912085f9a3a9fc63fbec",
+      "remote_fetch_and_tree_verified": true,
+      "verified_utc": "2026-10-04T11:52:00.091Z",
+      "local_commit_tree_reverified": true,
+      "validation_sha256": "757fdae3f6e818aa1066e1ff9f0d72de4048b84ef1c1a7f9e9551e96a73128cd"
+    },
+    {
+      "checkpoint_games": 144,
+      "commit": "ad6796dfe2cb099adc34fcc41f6d9abd09fa0ea1",
+      "tree": "df4b4453e40a410e8bc4c6c8b8623a913480e1ee",
+      "remote_fetch_and_tree_verified": true,
+      "verified_utc": "2026-10-04T12:06:30.274Z",
+      "local_commit_tree_reverified": true,
+      "validation_sha256": "0092dd1f311749179619773db96d8cebd9f2b0693186db54d619ff75fef3e64a"
+    },
+    {
+      "checkpoint_games": 168,
+      "commit": "623f1ce7d4d51cc42ec2d366e6792ea0c5e2dea7",
+      "tree": "de4528cdf0b137b645a768531bd81ad189636af6",
+      "remote_fetch_and_tree_verified": true,
+      "verified_utc": "2026-10-04T12:18:19.943Z",
+      "local_commit_tree_reverified": true,
+      "validation_sha256": "9fe00d97e49787916e8277492b549c3afb044402308b15448ef7d9893381c716"
+    },
+    {
+      "checkpoint_games": 192,
+      "commit": "f3280444bc478d8b158a561924c59662e552f0eb",
+      "tree": "d8cf0fd70c062e81e2b9216f405fafa35f65b997",
+      "remote_fetch_and_tree_verified": true,
+      "verified_utc": "2026-10-04T12:29:21.107Z",
+      "local_commit_tree_reverified": true,
+      "validation_sha256": "7db5b52ab556bef625097465857263b695c897c312b41eb93429259e8239e33f"
+    },
+    {
+      "checkpoint_games": 216,
+      "commit": "d82d1182161f19c7c47a7d4bfb02b7d560747671",
+      "tree": "70c5b031bdf2bcc07ea585190a06f38acd101933",
+      "remote_fetch_and_tree_verified": true,
+      "verified_utc": "2026-10-04T12:43:26.644Z",
+      "local_commit_tree_reverified": true,
+      "validation_sha256": "39f79b5794f1da3297e13b0861c191e463760db7b82e38364fb85e2e46c0f49c"
+    },
+    {
+      "checkpoint_games": 240,
+      "commit": "a2d0e8d3fa9f0b4ee24639f9c1d80c4dd3858c5f",
+      "tree": "91da461642edcf53af035dc59d4a00d93dc475d1",
+      "remote_fetch_and_tree_verified": true,
+      "verified_utc": "2026-10-04T12:55:32.655Z",
+      "local_commit_tree_reverified": true,
+      "validation_sha256": "ffe1e5ea0da7c338bae48d28342a0ebc4eed0589fee20b2f947d983ad61c94e8"
+    },
+    {
+      "checkpoint_games": 264,
+      "commit": "422574a885adbb4937bd3e5e57902e666f2083c1",
+      "tree": "c959aed875d0c76b4c3c8704116f77b56000e405",
+      "remote_fetch_and_tree_verified": true,
+      "verified_utc": "2026-10-04T13:07:51.007Z",
+      "local_commit_tree_reverified": true,
+      "validation_sha256": "a2fa4048ecd40954524d617e5fea66e11db8741b78e726b681d16997f4ebb9fd"
+    },
+    {
+      "checkpoint_games": 288,
+      "commit": "e9a3922cf97ba26a8883f84714c9446337eae6d7",
+      "tree": "0c971abda441ce09dcceefb244a12a77483243ac",
+      "remote_fetch_and_tree_verified": true,
+      "verified_utc": "2026-10-04T13:21:26.168Z",
+      "local_commit_tree_reverified": true,
+      "validation_sha256": "10734763d27463552d53175d78d689e05db7f99ce02938c15e49da12d806b99f"
+    },
+    {
+      "checkpoint_games": 312,
+      "commit": "b1db7ec356c809a32845c291375e5daf12f6c13b",
+      "tree": "ef474b55fb2ed859d7df68f9de2556383eabe30c",
+      "remote_fetch_and_tree_verified": true,
+      "verified_utc": "2026-10-04T13:34:45.856Z",
+      "local_commit_tree_reverified": true,
+      "validation_sha256": "3f4f6469f0b146fd52ef32836c149dad18a1bdd2a646cb8fdfca05921f43bb36"
+    },
+    {
+      "checkpoint_games": 336,
+      "commit": "9238a90c1745d15abe3631ad662b3c03aa60c59a",
+      "tree": "c1e6c21691aabb1745bddc2e5ddb95bfe7740dc1",
+      "remote_fetch_and_tree_verified": true,
+      "verified_utc": "2026-10-04T13:48:13.476Z",
+      "local_commit_tree_reverified": true,
+      "validation_sha256": "ab1f31ce8a95fe36219d683ecb6daa7e0786fe25cf5b46703da45cbff290fc1d"
+    },
+    {
+      "checkpoint_games": 360,
+      "commit": "845a6efd0e5d9e6b972fedea97964f0fc52b8e2e",
+      "tree": "4181bd3011662b90bd60eeddb7aa72c7cd99d958",
+      "remote_fetch_and_tree_verified": true,
+      "verified_utc": "2026-10-04T14:02:03.012Z",
+      "local_commit_tree_reverified": true,
+      "validation_sha256": "ad19a51c98098aadac5fc042acc020709bad63d881c1a2e6a863f4d18337308d"
+    },
+    {
+      "checkpoint_games": 384,
+      "commit": "006f841323dda9266fa0301b90292d3ea2dc086f",
+      "tree": "4b2184ddca066f20c1b14d176d9b9e678997203a",
+      "remote_fetch_and_tree_verified": true,
+      "verified_utc": "2026-10-04T14:15:37.303Z",
+      "local_commit_tree_reverified": true,
+      "validation_sha256": "6647d162e50a58c9fac377cb6e00e64b2c3567654ae313d193d8050ec753a384"
+    },
+    {
+      "checkpoint_games": 408,
+      "commit": "a4ac073986e0050d367e69ae99feca4d858f21eb",
+      "tree": "eb54809c55ff3fe88f8b7c6440accccc5ff6f2a1",
+      "remote_fetch_and_tree_verified": true,
+      "verified_utc": "2026-10-04T14:27:34.399Z",
+      "local_commit_tree_reverified": true,
+      "validation_sha256": "2c4e95439986aba1deb2c0bca5248d01a7fd9bcc07c0e31c7cc1ed61cd0e576d"
+    },
+    {
+      "checkpoint_games": 432,
+      "commit": "bde424f7902c59e92d54b486df6fe77b6dfdf256",
+      "tree": "a49dad08f7b7adcfb9f90387e369ee7075ea4f38",
+      "remote_fetch_and_tree_verified": true,
+      "verified_utc": "2026-10-04T14:39:42.934Z",
+      "local_commit_tree_reverified": true,
+      "validation_sha256": "55849aaece021db5c3c9c9aba6d1658d20f2a500c877debdc8db31e14e0123e9"
+    },
+    {
+      "checkpoint_games": 456,
+      "commit": "76efff1abd9e5894de9eb71301afdaefb17a03c4",
+      "tree": "64197032bc323026df01cf4d01968c4d3f0cffce",
+      "remote_fetch_and_tree_verified": true,
+      "verified_utc": "2026-10-04T14:53:57.108Z",
+      "local_commit_tree_reverified": true,
+      "validation_sha256": "896c79ca35ef9f46383238e0d794d344c5106256f44be406e4c8435cfec9f2d8"
+    },
+    {
+      "checkpoint_games": 480,
+      "commit": "a9b6e5188451b7fd7b573f406f0b79c1b732de96",
+      "tree": "7771e65e34dddc2a5fe4986c4d4b1a01203b9033",
+      "remote_fetch_and_tree_verified": true,
+      "verified_utc": "2026-10-04T15:05:36.667Z",
+      "local_commit_tree_reverified": true,
+      "validation_sha256": "bc9c1f2dd41fab2860f18b78140eab3dcb1acc9d859acd130e774ebe52343b1c"
+    }
+  ],
+  "source_cost_files": {
+    "experiments/g1_pass8_estimation_v1/cost/chunk_01.json": "178b94c5215223f6de67f6375ff6656ed2c920b3b395afce63d7694c33e58fe3",
+    "experiments/g1_pass8_estimation_v1/cost/chunk_02.json": "fb0d4c36b5f31d6793843da02cd843684aefc31ae80e07af702d21dd704e2468",
+    "experiments/g1_pass8_estimation_v1/cost/chunk_03.json": "f40bb7847b4fbbe0571901fe36fd19c5f4e8cb454f56ec6ca4cc4bd6031f99a4",
+    "experiments/g1_pass8_estimation_v1/cost/chunk_04.json": "8c4fa00e1724df34e8e2e549618102b983970c272d6b162e9ca08ec4b43df392",
+    "experiments/g1_pass8_estimation_v1/cost/chunk_05.json": "1a4613ef7733b029e964029c71fa15d15ede1c4ea041283048914bb40d268727",
+    "experiments/g1_pass8_estimation_v1/cost/chunk_06.json": "153bff714d26020fa6ca60f70adb0858d32be0b8a1acc21f4eeffe66275b436b",
+    "experiments/g1_pass8_estimation_v1/cost/chunk_07.json": "85a4c3736bd2e91852a60466ba7426daee8b9bdf822bdddec36e9de4a0be5935",
+    "experiments/g1_pass8_estimation_v1/cost/chunk_08.json": "3053611d1929e31d85db73105e34b9b46c037447c4b92fc1e88001cbe708f322",
+    "experiments/g1_pass8_estimation_v1/cost/chunk_09.json": "5844de86a63c48a7650bdf33cb2532b4a2246e5020649b35f854adff8f93de64",
+    "experiments/g1_pass8_estimation_v1/cost/chunk_10.json": "5bdc6f82d803b02ba43047de77d53c44a68f0026a48e68a4c9da3573aa65acd7",
+    "experiments/g1_pass8_estimation_v1/cost/chunk_11.json": "97ad49a8ca4981694d49c162df3d9d6eab131e86b22497180f77520714e39e44",
+    "experiments/g1_pass8_estimation_v1/cost/chunk_12.json": "ecd2ca38850fcad1f80331150f29bc3a89d61bc78a6fab60f3ea52d70209ca06",
+    "experiments/g1_pass8_estimation_v1/cost/chunk_13.json": "00dae96ca79e41fd2d073e23a1cec2b716e5eb834a42261e844bbb125adf2907",
+    "experiments/g1_pass8_estimation_v1/cost/chunk_14.json": "81c45d24986cef757de454b1db82d7563c167eeb8be10c83e614622a00efafaa",
+    "experiments/g1_pass8_estimation_v1/cost/chunk_15.json": "9b642131e8aded2a1587381cc97d9c540bfb48d612cb6ff90a94570d8fa6958f",
+    "experiments/g1_pass8_estimation_v1/cost/chunk_16.json": "0c7b5d4ad00aa210336fd820f0c5d09907f9ecb22c26f82493eb6d650673cab2",
+    "experiments/g1_pass8_estimation_v1/cost/chunk_17.json": "d626e25f21c466ebbf1190ceca32d34c46d6c3ae4a733caf76dfcfbe14d9e1ba",
+    "experiments/g1_pass8_estimation_v1/cost/chunk_18.json": "4e4018a2496c5d966020c3d6bd0e59b64453993469b02306a72da5414fee377d",
+    "experiments/g1_pass8_estimation_v1/cost/chunk_19.json": "d22b6b8023ff9952124505eb903b5b95dde88645964f64e968bd346d109d3bf7",
+    "experiments/g1_pass8_estimation_v1/cost/chunk_20.json": "78482e1abdf147a0c7229c6642a30f59aa909b866944a934381dfa32fa78499b"
+  },
+  "checkpoint_registry_sha256": "8f2ae2e6d52b12c1c8348cb48c60e079346c700b2084dd91a04e34bf32b0c826",
+  "synchronization_evidence": "Remote fetch/tree verification is recorded in the21 checkpoint rows; local recorded commit/tree and saved raw-prefix shape rechecked here. No new network fetch is claimed."
+}

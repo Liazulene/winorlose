@@ -1,0 +1,29 @@
+{
+  "pass_min_ply": 0,
+  "batch_seed": 13,
+  "game_index": 13,
+  "game_id": "g1_pass8_estimation_v1-g000013",
+  "game_seed": 292692019823471732916007344057763731947,
+  "black": {
+    "agent_id": "WIN-medium-s1",
+    "identity": "WIN",
+    "algorithm": "vector_mcts",
+    "compute_level": "medium",
+    "seed": 1
+  },
+  "white": {
+    "agent_id": "WIN-medium-s2",
+    "identity": "WIN",
+    "algorithm": "vector_mcts",
+    "compute_level": "medium",
+    "seed": 2
+  },
+  "matches_except_timing": true,
+  "record_problems": [],
+  "differences": [],
+  "saved_file_sha256": "8d59f1b48c504d5fdc104d48d67ce7c65fe6250feec56859f0bd15e2632f6a93",
+  "regenerated_file_sha256": "7ada45d908c586cd7f3ac32704f82239f3a0b124efb900f6fb3237cc86386d8d",
+  "saved_nontiming_sha256": "0ac310fa13031957da78c501db76d176c869390af47f8e6fd3fa1cd93d5d99a1",
+  "regenerated_nontiming_sha256": "0ac310fa13031957da78c501db76d176c869390af47f8e6fd3fa1cd93d5d99a1",
+  "verification_wall_seconds": 21.675401879001583
+}

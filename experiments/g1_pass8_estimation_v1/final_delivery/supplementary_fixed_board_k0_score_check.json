@@ -1,0 +1,98 @@
+{
+  "created_utc": "2026-10-04T15:14:50.285880+00:00",
+  "status": "Post-hoc report-stage deterministic fixed-terminal-board score arithmetic only; not a preregistered endpoint, new game, komi0 simulation, behavioural causal estimate or CI. Production analysis is untouched.",
+  "selection": "All completed formal G1-pass8 LOSE/WIN records with move_count10, a prespecified length category;9records.",
+  "raw_data_commit": "a9b6e5188451b7fd7b573f406f0b79c1b732de96",
+  "calculation": "Subtract existing white komi2.5 from saved white score, leaving board unchanged.",
+  "n_records": 9,
+  "same_board_k0_draws": 8,
+  "same_board_k0_white_wins": 1,
+  "checks": [
+    {
+      "game_id": "g1_pass8_estimation_v1-g000017",
+      "raw_sha256": "c3c4936f4a5804b24ba34695692143ff6e8fdfb711bdbfb5dcc5049ca6cef592",
+      "black_area": 4.0,
+      "white_area_without_komi": 4.0,
+      "score_margin_k2_5": -2.5,
+      "same_fixed_board_margin_k0": 0.0,
+      "same_fixed_board_winner_k0": "draw"
+    },
+    {
+      "game_id": "g1_pass8_estimation_v1-g000041",
+      "raw_sha256": "57c9da6ce1dedc92c004b9ac77175a423102a3e8e04f7f6de8fa63c8941762e1",
+      "black_area": 4.0,
+      "white_area_without_komi": 4.0,
+      "score_margin_k2_5": -2.5,
+      "same_fixed_board_margin_k0": 0.0,
+      "same_fixed_board_winner_k0": "draw"
+    },
+    {
+      "game_id": "g1_pass8_estimation_v1-g000048",
+      "raw_sha256": "996dfd5758ecc3d095cd50ec9e3fc3d8667ce91409eca0d2f6faa6c7c6a4990f",
+      "black_area": 4.0,
+      "white_area_without_komi": 4.0,
+      "score_margin_k2_5": -2.5,
+      "same_fixed_board_margin_k0": 0.0,
+      "same_fixed_board_winner_k0": "draw"
+    },
+    {
+      "game_id": "g1_pass8_estimation_v1-g000064",
+      "raw_sha256": "256383be669402ac97ef2909ecf78b849aab5918b4c2826568d519f6a7f46b54",
+      "black_area": 4.0,
+      "white_area_without_komi": 4.0,
+      "score_margin_k2_5": -2.5,
+      "same_fixed_board_margin_k0": 0.0,
+      "same_fixed_board_winner_k0": "draw"
+    },
+    {
+      "game_id": "g1_pass8_estimation_v1-g000179",
+      "raw_sha256": "7db74546f1893c79db167a6f4ba8a49e335d5c5eb301af817d28a9e00580846e",
+      "black_area": 4.0,
+      "white_area_without_komi": 4.0,
+      "score_margin_k2_5": -2.5,
+      "same_fixed_board_margin_k0": 0.0,
+      "same_fixed_board_winner_k0": "draw"
+    },
+    {
+      "game_id": "g1_pass8_estimation_v1-g000261",
+      "raw_sha256": "e5364799d5ec45adf2bfc098e765a412e90671f9fd33b3fb53992ca67e56e473",
+      "black_area": 4.0,
+      "white_area_without_komi": 4.0,
+      "score_margin_k2_5": -2.5,
+      "same_fixed_board_margin_k0": 0.0,
+      "same_fixed_board_winner_k0": "draw"
+    },
+    {
+      "game_id": "g1_pass8_estimation_v1-g000293",
+      "raw_sha256": "b798c5e53a3dbb37c8c8b1d72236dd1704fc32640e696ddaabf259f2b1dbc1b3",
+      "black_area": 4.0,
+      "white_area_without_komi": 4.0,
+      "score_margin_k2_5": -2.5,
+      "same_fixed_board_margin_k0": 0.0,
+      "same_fixed_board_winner_k0": "draw"
+    },
+    {
+      "game_id": "g1_pass8_estimation_v1-g000397",
+      "raw_sha256": "c036a71b0d6570ec76573d4ebfeffc346382409bfc57c44c56b1dcc3874d0c1e",
+      "black_area": 4.0,
+      "white_area_without_komi": 5.0,
+      "score_margin_k2_5": -3.5,
+      "same_fixed_board_margin_k0": -1.0,
+      "same_fixed_board_winner_k0": "white"
+    },
+    {
+      "game_id": "g1_pass8_estimation_v1-g000408",
+      "raw_sha256": "79b73cf3733bb442631e884c52c7d78fbbede3d962210c0b2b1084a8b0331437",
+      "black_area": 4.0,
+      "white_area_without_komi": 4.0,
+      "score_margin_k2_5": -2.5,
+      "same_fixed_board_margin_k0": 0.0,
+      "same_fixed_board_winner_k0": "draw"
+    }
+  ],
+  "sample_increment": 0,
+  "limitations": [
+    "Changing komi changes search values, moves and trajectories. These fixed-board scores do not predict actualkomi0 play or goal rates.",
+    "Selected short terminal cases do not establish that komi explains all remaining LL colour bias."
+  ]
+}

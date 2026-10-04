@@ -1,0 +1,3050 @@
+{
+  "experiments/g1_pass8_estimation_v1/G0_regression_3.json": {
+    "sha256": "e60d5f5f92a26cc0674eec9fa867edc57ec32205bceb76f5523190c5995ea883",
+    "bytes": 1528
+  },
+  "experiments/g1_pass8_estimation_v1/G0_regression_3_recovery.json": {
+    "sha256": "6b2ef570bd273e8477678f67c4565c0fa11eb4d888ee951d5121ff823e8c1ad4",
+    "bytes": 1528
+  },
+  "experiments/g1_pass8_estimation_v1/G0_regression_recovery_stdout.txt": {
+    "sha256": "3b99152dcc0c92e35e5d265a6a1bb7e90851aea8282b4dac5d0b59c925669e68",
+    "bytes": 618
+  },
+  "experiments/g1_pass8_estimation_v1/G0_regression_stdout.txt": {
+    "sha256": "3b99152dcc0c92e35e5d265a6a1bb7e90851aea8282b4dac5d0b59c925669e68",
+    "bytes": 618
+  },
+  "experiments/g1_pass8_estimation_v1/baseline_89_tests.txt": {
+    "sha256": "4fb2109b02939d219cb29d387e3f206d89fc87064423b5faa8fb6f404c3ef2e0",
+    "bytes": 180
+  },
+  "experiments/g1_pass8_estimation_v1/baseline_delivery.json": {
+    "sha256": "9a978f0370fbe3ce8f9d820db6bb427c2aa8d89eccc6a5f9dda090f34aa5e499",
+    "bytes": 810
+  },
+  "experiments/g1_pass8_estimation_v1/check_G0_reference.py": {
+    "sha256": "743b8bfdef0363a4a283eea7989a6ac94b508ed084233ed4c3ae2a6886c507ab",
+    "bytes": 1572
+  },
+  "experiments/g1_pass8_estimation_v1/check_G0_reference_recovery.py": {
+    "sha256": "39cbb006d098fa307a7d5c87c92652f7f7ee454c3db0a9c542313031e9ca88a1",
+    "bytes": 1581
+  },
+  "experiments/g1_pass8_estimation_v1/checkpoint_validation_024.json": {
+    "sha256": "5b608160d15866d73f979ed9598c01dd166ac95418681152ec3febc3a2941057",
+    "bytes": 3005
+  },
+  "experiments/g1_pass8_estimation_v1/checkpoint_validation_048.json": {
+    "sha256": "a951f167ac4d428541440f03694c3942c090b10b863ccc46e48ce894cdeda018",
+    "bytes": 5669
+  },
+  "experiments/g1_pass8_estimation_v1/checkpoint_validation_072.json": {
+    "sha256": "6bae657a9f03a6ddd99bd0f85dcc008ba82c3cfb34f18ecb3f212318b662b46f",
+    "bytes": 8333
+  },
+  "experiments/g1_pass8_estimation_v1/checkpoint_validation_096.json": {
+    "sha256": "752789bc5a85b1b855732f19b1677bb796b9d0728166b2b8822ecdab3d9928c3",
+    "bytes": 10997
+  },
+  "experiments/g1_pass8_estimation_v1/checkpoint_validation_120.json": {
+    "sha256": "757fdae3f6e818aa1066e1ff9f0d72de4048b84ef1c1a7f9e9551e96a73128cd",
+    "bytes": 13663
+  },
+  "experiments/g1_pass8_estimation_v1/checkpoint_validation_144.json": {
+    "sha256": "0092dd1f311749179619773db96d8cebd9f2b0693186db54d619ff75fef3e64a",
+    "bytes": 16327
+  },
+  "experiments/g1_pass8_estimation_v1/checkpoint_validation_168.json": {
+    "sha256": "9fe00d97e49787916e8277492b549c3afb044402308b15448ef7d9893381c716",
+    "bytes": 18991
+  },
+  "experiments/g1_pass8_estimation_v1/checkpoint_validation_192.json": {
+    "sha256": "7db5b52ab556bef625097465857263b695c897c312b41eb93429259e8239e33f",
+    "bytes": 21655
+  },
+  "experiments/g1_pass8_estimation_v1/checkpoint_validation_216.json": {
+    "sha256": "39f79b5794f1da3297e13b0861c191e463760db7b82e38364fb85e2e46c0f49c",
+    "bytes": 24319
+  },
+  "experiments/g1_pass8_estimation_v1/checkpoint_validation_240.json": {
+    "sha256": "ffe1e5ea0da7c338bae48d28342a0ebc4eed0589fee20b2f947d983ad61c94e8",
+    "bytes": 26983
+  },
+  "experiments/g1_pass8_estimation_v1/checkpoint_validation_264.json": {
+    "sha256": "a2fa4048ecd40954524d617e5fea66e11db8741b78e726b681d16997f4ebb9fd",
+    "bytes": 29647
+  },
+  "experiments/g1_pass8_estimation_v1/checkpoint_validation_288.json": {
+    "sha256": "10734763d27463552d53175d78d689e05db7f99ce02938c15e49da12d806b99f",
+    "bytes": 32311
+  },
+  "experiments/g1_pass8_estimation_v1/checkpoint_validation_312.json": {
+    "sha256": "3f4f6469f0b146fd52ef32836c149dad18a1bdd2a646cb8fdfca05921f43bb36",
+    "bytes": 34975
+  },
+  "experiments/g1_pass8_estimation_v1/checkpoint_validation_336.json": {
+    "sha256": "ab1f31ce8a95fe36219d683ecb6daa7e0786fe25cf5b46703da45cbff290fc1d",
+    "bytes": 37639
+  },
+  "experiments/g1_pass8_estimation_v1/checkpoint_validation_360.json": {
+    "sha256": "ad19a51c98098aadac5fc042acc020709bad63d881c1a2e6a863f4d18337308d",
+    "bytes": 40303
+  },
+  "experiments/g1_pass8_estimation_v1/checkpoint_validation_384.json": {
+    "sha256": "6647d162e50a58c9fac377cb6e00e64b2c3567654ae313d193d8050ec753a384",
+    "bytes": 42967
+  },
+  "experiments/g1_pass8_estimation_v1/checkpoint_validation_408.json": {
+    "sha256": "2c4e95439986aba1deb2c0bca5248d01a7fd9bcc07c0e31c7cc1ed61cd0e576d",
+    "bytes": 45631
+  },
+  "experiments/g1_pass8_estimation_v1/checkpoint_validation_432.json": {
+    "sha256": "55849aaece021db5c3c9c9aba6d1658d20f2a500c877debdc8db31e14e0123e9",
+    "bytes": 48295
+  },
+  "experiments/g1_pass8_estimation_v1/checkpoint_validation_456.json": {
+    "sha256": "896c79ca35ef9f46383238e0d794d344c5106256f44be406e4c8435cfec9f2d8",
+    "bytes": 50959
+  },
+  "experiments/g1_pass8_estimation_v1/checkpoint_validation_480.json": {
+    "sha256": "bc9c1f2dd41fab2860f18b78140eab3dcb1acc9d859acd130e774ebe52343b1c",
+    "bytes": 53620
+  },
+  "experiments/g1_pass8_estimation_v1/checkpoints.json": {
+    "sha256": "8f2ae2e6d52b12c1c8348cb48c60e079346c700b2084dd91a04e34bf32b0c826",
+    "bytes": 5100
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_01.json": {
+    "sha256": "178b94c5215223f6de67f6375ff6656ed2c920b3b395afce63d7694c33e58fe3",
+    "bytes": 1075
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_01.stderr.txt": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_01.stdout.txt": {
+    "sha256": "2ad9cc1cfb22e9c9ed48e736ff9f7cf7ccfee8e53093623d7e4e772b0e8afe86",
+    "bytes": 1505
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_02.json": {
+    "sha256": "fb0d4c36b5f31d6793843da02cd843684aefc31ae80e07af702d21dd704e2468",
+    "bytes": 1088
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_02.stderr.txt": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_02.stdout.txt": {
+    "sha256": "54d3ae0746ed477dc04c33fa42e624e060a1db0187a2d5028d37f82cf7d43413",
+    "bytes": 1514
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_03.json": {
+    "sha256": "f40bb7847b4fbbe0571901fe36fd19c5f4e8cb454f56ec6ca4cc4bd6031f99a4",
+    "bytes": 1082
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_03.stderr.txt": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_03.stdout.txt": {
+    "sha256": "e083da67d060508f51255040c7dd4adf670e4ce3d9c4686bca35ba3acd7bb4c7",
+    "bytes": 1511
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_04.json": {
+    "sha256": "8c4fa00e1724df34e8e2e549618102b983970c272d6b162e9ca08ec4b43df392",
+    "bytes": 1083
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_04.stderr.txt": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_04.stdout.txt": {
+    "sha256": "91e8a059572beacb71d71149a4188031f2e563835cad37c0f3c931747ae74f32",
+    "bytes": 1517
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_05.json": {
+    "sha256": "1a4613ef7733b029e964029c71fa15d15ede1c4ea041283048914bb40d268727",
+    "bytes": 1083
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_05.stderr.txt": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_05.stdout.txt": {
+    "sha256": "3bc6dd0d13063474d64cf130744b437abf9de9cbcbbf1ddec9fa94e926f316b5",
+    "bytes": 1536
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_06.json": {
+    "sha256": "153bff714d26020fa6ca60f70adb0858d32be0b8a1acc21f4eeffe66275b436b",
+    "bytes": 1085
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_06.stderr.txt": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_06.stdout.txt": {
+    "sha256": "683daae99cbd1fa773f18b102003b57244dc2608a3af8a187caff9e41ad96f4f",
+    "bytes": 1541
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_07.json": {
+    "sha256": "85a4c3736bd2e91852a60466ba7426daee8b9bdf822bdddec36e9de4a0be5935",
+    "bytes": 1086
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_07.stderr.txt": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_07.stdout.txt": {
+    "sha256": "ba77f535db9271db9cbd9a4cb80edbb27857fbaa1549ba8315e2714cddd4d232",
+    "bytes": 1539
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_08.json": {
+    "sha256": "3053611d1929e31d85db73105e34b9b46c037447c4b92fc1e88001cbe708f322",
+    "bytes": 1086
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_08.stderr.txt": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_08.stdout.txt": {
+    "sha256": "9b006b0ce87fb3e76db04facec12d9e394f849993cd0d7a0ef2a9200ffdde32e",
+    "bytes": 1539
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_09.json": {
+    "sha256": "5844de86a63c48a7650bdf33cb2532b4a2246e5020649b35f854adff8f93de64",
+    "bytes": 1085
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_09.stderr.txt": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_09.stdout.txt": {
+    "sha256": "287e7687fa03689d739a7973101d237261fb87714e6215dd8b8b7453ef1bbea9",
+    "bytes": 1538
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_10.json": {
+    "sha256": "5bdc6f82d803b02ba43047de77d53c44a68f0026a48e68a4c9da3573aa65acd7",
+    "bytes": 1086
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_10.stderr.txt": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_10.stdout.txt": {
+    "sha256": "f2c1b222b8792194d9828d4bb08a6f6b07ff7389e0896df54e267a79cf4662be",
+    "bytes": 1540
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_11.json": {
+    "sha256": "97ad49a8ca4981694d49c162df3d9d6eab131e86b22497180f77520714e39e44",
+    "bytes": 1096
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_11.stderr.txt": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_11.stdout.txt": {
+    "sha256": "31257604c4d7ff7ed1c094fa739cce3e13dc1f70536d796859317c990cd5d397",
+    "bytes": 1542
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_12.json": {
+    "sha256": "ecd2ca38850fcad1f80331150f29bc3a89d61bc78a6fab60f3ea52d70209ca06",
+    "bytes": 1086
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_12.stderr.txt": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_12.stdout.txt": {
+    "sha256": "bc3dbe7e8d10e1f27628f431b3ddc5596ae4a28997bfc7016968178063b29e47",
+    "bytes": 1536
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_13.json": {
+    "sha256": "00dae96ca79e41fd2d073e23a1cec2b716e5eb834a42261e844bbb125adf2907",
+    "bytes": 1087
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_13.stderr.txt": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_13.stdout.txt": {
+    "sha256": "8016d5f2564698ae98630d1cb223dc2b69d67c708ac635a63fa325dbf1ed0a68",
+    "bytes": 1545
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_14.json": {
+    "sha256": "81c45d24986cef757de454b1db82d7563c167eeb8be10c83e614622a00efafaa",
+    "bytes": 1087
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_14.stderr.txt": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_14.stdout.txt": {
+    "sha256": "5927904f6c321e84cb13acda0c0a1bf5d2e5b9d77f18cbdc6dcf1664319ef249",
+    "bytes": 1541
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_15.json": {
+    "sha256": "9b642131e8aded2a1587381cc97d9c540bfb48d612cb6ff90a94570d8fa6958f",
+    "bytes": 1087
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_15.stderr.txt": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_15.stdout.txt": {
+    "sha256": "583b93ee6cf35db6e6d4feb34a19a86c851cc3b5548a35916b977b6821275b09",
+    "bytes": 1540
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_16.json": {
+    "sha256": "0c7b5d4ad00aa210336fd820f0c5d09907f9ecb22c26f82493eb6d650673cab2",
+    "bytes": 1097
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_16.stderr.txt": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_16.stdout.txt": {
+    "sha256": "e268d91e2a928a5a62c0c1ca6af7e9e1a3552eae7699304acb46d4343b524432",
+    "bytes": 1539
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_17.json": {
+    "sha256": "d626e25f21c466ebbf1190ceca32d34c46d6c3ae4a733caf76dfcfbe14d9e1ba",
+    "bytes": 1087
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_17.stderr.txt": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_17.stdout.txt": {
+    "sha256": "a3243314ac327a9394fa6636dbeacdb5eda4dece696ecd037febef55602a8836",
+    "bytes": 1536
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_18.json": {
+    "sha256": "4e4018a2496c5d966020c3d6bd0e59b64453993469b02306a72da5414fee377d",
+    "bytes": 1087
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_18.stderr.txt": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_18.stdout.txt": {
+    "sha256": "170e137adb59d55d971edada59be8ef9a9e4222a1ec8622be47731ed4ed73b63",
+    "bytes": 1534
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_19.json": {
+    "sha256": "d22b6b8023ff9952124505eb903b5b95dde88645964f64e968bd346d109d3bf7",
+    "bytes": 1087
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_19.stderr.txt": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_19.stdout.txt": {
+    "sha256": "f3ffd78eafac91a8f633b64aff2c2ac8d0db75d62672b311db34f88fd3d0d458",
+    "bytes": 1543
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_20.json": {
+    "sha256": "78482e1abdf147a0c7229c6642a30f59aa909b866944a934381dfa32fa78499b",
+    "bytes": 1086
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_20.stderr.txt": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  "experiments/g1_pass8_estimation_v1/cost/chunk_20.stdout.txt": {
+    "sha256": "c546b50ea1be961ae60ea7404ee2511e51463cbb4e8897da9b5fc8f8cc1f7c92",
+    "bytes": 55149
+  },
+  "experiments/g1_pass8_estimation_v1/execution_progress.json": {
+    "sha256": "844683f44281c1994d7efa7f85509a0d3744021227c859e267c19e47ff8ab9b4",
+    "bytes": 238
+  },
+  "experiments/g1_pass8_estimation_v1/freeze_preexecution.py": {
+    "sha256": "560bda8ff93e62e3615624f13cc4b385a69e7f224473444d6769450621e5792f",
+    "bytes": 3248
+  },
+  "experiments/g1_pass8_estimation_v1/frozen_plan.json": {
+    "sha256": "a0980762f936793f7830a2928e57b04a9b37f55ade36ed65b897c5279da528bb",
+    "bytes": 210457
+  },
+  "experiments/g1_pass8_estimation_v1/full_tests_final_prelaunch.txt": {
+    "sha256": "c9777f20fbe3e70ff40f01bcf3c57712eb0adacfe4af34c7550325abf835ea8c",
+    "bytes": 671
+  },
+  "experiments/g1_pass8_estimation_v1/full_tests_first.txt": {
+    "sha256": "72b00332c6bc6b334f85e1bc5371cc95880dbb208d8d9688d8a58617bdfd0a4c",
+    "bytes": 345
+  },
+  "experiments/g1_pass8_estimation_v1/full_tests_recovery.txt": {
+    "sha256": "a73ee9963293d86ff32148bbac2b416b25c95b7eb0f9cc8282e86e012b31fad4",
+    "bytes": 3309
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/audit_resume20261004_preservation.py": {
+    "sha256": "4c891dffd6c054a5cd5596675e760c1189b36cd5f74518057689ee1674e6b2b7",
+    "bytes": 4235
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/audit_resume20261004_seed_isolation.py": {
+    "sha256": "91c96406cf35d6d9051050fefdb24472f7f08e74876431e22dabc9c07f638699",
+    "bytes": 4097
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/audit_seed_isolation.py": {
+    "sha256": "acdb70c202a0f4f352be46d661b0afaa044e8d11d9193d459682590648541264",
+    "bytes": 4094
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/core_pilot_semantic_byte_comparison.json": {
+    "sha256": "fab4ac5f61f634d818bb25012de6775e701bdf54af8b7bfef187d5b14b64e924",
+    "bytes": 5691
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/inventory_existing.py": {
+    "sha256": "8239a946a85acbe0b1cab333c4fb30847bc2abe29aafd6bffbbc53e5b1c4237d",
+    "bytes": 2801
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/inventory_io.py": {
+    "sha256": "44fe2c049538ca7fdd60620471fe3756e498a12d2d6ebcfc1dc07b2d1562bcf4",
+    "bytes": 2216
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/inventory_packaging.json": {
+    "sha256": "b2f16e6f7afa9b2373b68ca63d30c9d95fd95c324e11bacc21b705f2b79e26c4",
+    "bytes": 2659
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/inventory_segmentation.json": {
+    "sha256": "443448f1815fda477fa690b4f6f792a38b4716807b1deab1864f724aafbd17f4",
+    "bytes": 2739
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/original_tracked_head_inventory.json.gz.part01": {
+    "sha256": "88631fac4e87358b2986a3304d25fbe8b4b4d6543af6ce497ddb7420e6946b3c",
+    "bytes": 196608
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/original_tracked_head_inventory.json.gz.part02": {
+    "sha256": "1b386ab9c2017f517be81e8b5e213ae401cd6b3ad87a295364917cf814246342",
+    "bytes": 196608
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/original_tracked_head_inventory.json.gz.part03": {
+    "sha256": "ffc702f28d3e3fd46d532f91dcc4e1e495956049a53644f7612e7c6389f5ca8c",
+    "bytes": 196608
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/original_tracked_head_inventory.json.gz.part04": {
+    "sha256": "6fca5a7d19b28c2e51647beee1274d00cd8c70ccb5f6a04c2ea4344d12978322",
+    "bytes": 196608
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/original_tracked_head_inventory.json.gz.part05": {
+    "sha256": "c70a4ff4758e8ef7cf5c7620de91fa0c2b1cebe944cb9a0bc3386e2469692522",
+    "bytes": 196608
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/original_tracked_head_inventory.json.gz.part06": {
+    "sha256": "cf848fefe64be5c76db56b894442456b9f72e4a0b49d7f6dba82ae20d0b14158",
+    "bytes": 196608
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/original_tracked_head_inventory.json.gz.part07": {
+    "sha256": "bed292a8a7152b52a583de71e7d349ce94ea37aa04a62715df938f7fd6a76f98",
+    "bytes": 141751
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/original_tracked_head_inventory.json.segments.json": {
+    "sha256": "8f05f908d839e32a97d86fb6d63f7313b0d6f813d659526eaaec93887ca73f73",
+    "bytes": 1651
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_inventory_summary.json": {
+    "sha256": "4b1a9e383b6af308b92d99d2b76009f45418ffe94ac8d4b5685676840d6156e5",
+    "bytes": 2784
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_d0_v1_tracked_inventory.json.gz.part01": {
+    "sha256": "8d0501604d698e6155ae5471d40864f8e8a2966130534754e38623ae30d39bd3",
+    "bytes": 196608
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_d0_v1_tracked_inventory.json.gz.part02": {
+    "sha256": "95ff65e54677914b290a08b231a26e5ea34e40fe28735bdc4425c7b0b86f5ee4",
+    "bytes": 196608
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_d0_v1_tracked_inventory.json.gz.part03": {
+    "sha256": "eee468d02ecb7c9152106035b2bec47c70992ea64a211fa2dcda952f3fa41b03",
+    "bytes": 196608
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_d0_v1_tracked_inventory.json.gz.part04": {
+    "sha256": "a296194a29bde2d7f0cbd2743665d92087ef0b92e5c4b8a2ca6ff9f7189f19e5",
+    "bytes": 196608
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_d0_v1_tracked_inventory.json.gz.part05": {
+    "sha256": "4381df3bd5715c916734b8e3112884c8e733277e5f6ab36a7096898501b95811",
+    "bytes": 196608
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_d0_v1_tracked_inventory.json.gz.part06": {
+    "sha256": "fc3d6cc86bb7d30aa17001b40a14f6453cadd0bd45f0015735bcace23aea7fae",
+    "bytes": 196608
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_d0_v1_tracked_inventory.json.gz.part07": {
+    "sha256": "bc3702f0dead7cd3371fd21e0b6aef212aed2f8be72d22864271ca7a6844dc51",
+    "bytes": 147148
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_d0_v1_tracked_inventory.json.segments.json": {
+    "sha256": "28afd8c075149dd57220fd55a87a2dbfa7a43a3a92e280973d6c3947dabba41b",
+    "bytes": 1747
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_d1_estimation_v1_tracked_inventory.json.gz.part01": {
+    "sha256": "8b051897758a231caa23099fabef92fcfa3a428af42d19fa94a6c604e20e53a0",
+    "bytes": 196608
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_d1_estimation_v1_tracked_inventory.json.gz.part02": {
+    "sha256": "99d7f5b96b8d21919180ea2c48656e555671fd61477216b9d28a26c1062b797f",
+    "bytes": 196608
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_d1_estimation_v1_tracked_inventory.json.gz.part03": {
+    "sha256": "b564b94ff53769e338e02f66f43ae19d3c637df67835fbfefb4e816de196f9a0",
+    "bytes": 196608
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_d1_estimation_v1_tracked_inventory.json.gz.part04": {
+    "sha256": "10094cf59553f5c1155b986c34865beab9b9bf0ebf5c0e593bf5b37227281434",
+    "bytes": 196608
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_d1_estimation_v1_tracked_inventory.json.gz.part05": {
+    "sha256": "e0cfc48318d9724277e3b8649a746712e93e2435c3530224a385f3698628a6b2",
+    "bytes": 196608
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_d1_estimation_v1_tracked_inventory.json.gz.part06": {
+    "sha256": "a7176a154c5187cb9bf636aa8afb088e228618601d85492ab445b7f8888be0ba",
+    "bytes": 196608
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_d1_estimation_v1_tracked_inventory.json.gz.part07": {
+    "sha256": "dd7a0c7473ac3dfc3d1f5163ade9cc39bd8ad51ae48e2f33c4bdd6bdda795dcd",
+    "bytes": 196608
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_d1_estimation_v1_tracked_inventory.json.gz.part08": {
+    "sha256": "42ae2b4601103b19d1e2331c9f7149725816db90035dd9fbc46ff3ce6b0947cd",
+    "bytes": 29742
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_d1_estimation_v1_tracked_inventory.json.segments.json": {
+    "sha256": "0d56cbbbea4da911b8607c9520586cc2bd0354dd8f78cc0deba78a1112804e48",
+    "bytes": 2040
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_d1_v1_tracked_inventory.json.gz.part01": {
+    "sha256": "432e968a22906b65f8a9507fea50e1010161acc24bdf44264f3b8737899bf976",
+    "bytes": 196608
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_d1_v1_tracked_inventory.json.gz.part02": {
+    "sha256": "b1a93c8e225a4969a77b9ff6739dcd06a2e5f7e11d80dfa695e6fc5d45b26ab5",
+    "bytes": 196608
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_d1_v1_tracked_inventory.json.gz.part03": {
+    "sha256": "53ffc4e6f1d2f72301d8d61077e3a7dfd1a05cb9660cf4871832d967229ac11f",
+    "bytes": 196608
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_d1_v1_tracked_inventory.json.gz.part04": {
+    "sha256": "a1efbea7e3deadbf49a7036959821ec55b8194e8b131a86fc7d591360e1db092",
+    "bytes": 196608
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_d1_v1_tracked_inventory.json.gz.part05": {
+    "sha256": "c33db3027a286f7cccc94454de0c02c25a341396e3b015e478d773c6f765d592",
+    "bytes": 196608
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_d1_v1_tracked_inventory.json.gz.part06": {
+    "sha256": "5c968240e0e652cfe8c0b1d081ba03e61a8db7a924cfde19799fe7dfa5d91e69",
+    "bytes": 196608
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_d1_v1_tracked_inventory.json.gz.part07": {
+    "sha256": "11ccdc9873c6b0bf4cc26c126a39cc382f6ded8addbc824665bc6287fb111617",
+    "bytes": 154027
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_d1_v1_tracked_inventory.json.segments.json": {
+    "sha256": "63cdb1195ad43fdc8f8e0a5803b83f5bed361a2eb04320bfcff816878d34cfc4",
+    "bytes": 1747
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_g1_pass8_v1_tracked_inventory.json.gz.part01": {
+    "sha256": "217e7ad42615faa351709272f097c70d9781403390515b5bee4c76f6b8b18d7d",
+    "bytes": 196608
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_g1_pass8_v1_tracked_inventory.json.gz.part02": {
+    "sha256": "6df20b9d953b18ea6c63a03e46b4832e6b6292882cf402c0115f12e94a878fd0",
+    "bytes": 196608
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_g1_pass8_v1_tracked_inventory.json.gz.part03": {
+    "sha256": "3b280f5f3807a68098b752b2d65b6e1e2bb0f3f36dffdd743adc365c680421ae",
+    "bytes": 196608
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_g1_pass8_v1_tracked_inventory.json.gz.part04": {
+    "sha256": "0c961c0949f7c3a00a62d6bcbf8f54455ff70a0d6578030da0609609b84af203",
+    "bytes": 196608
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_g1_pass8_v1_tracked_inventory.json.gz.part05": {
+    "sha256": "79cc5d4ee26c48e115d6511f7dcf0f086c204c229379de52628475c7f0915a92",
+    "bytes": 196608
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_g1_pass8_v1_tracked_inventory.json.gz.part06": {
+    "sha256": "7c651f71c488177d25a22e6244222803940a2f2ad633c5e817defe69dbb52406",
+    "bytes": 196608
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_g1_pass8_v1_tracked_inventory.json.gz.part07": {
+    "sha256": "ea74bfc4216e2e5e3510f0d68447c76cae645f98d0aebc0661812010a45352eb",
+    "bytes": 196608
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_g1_pass8_v1_tracked_inventory.json.gz.part08": {
+    "sha256": "a56d59f1b1c298e98539de14d07dd276a520cf72c8c9cf4d69a6687949be41f9",
+    "bytes": 42352
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_g1_pass8_v1_tracked_inventory.json.segments.json": {
+    "sha256": "e88f79b77cc491ea73683b575e174a2007f321d909d2f5dcf29beb6468d79c99",
+    "bytes": 1995
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_tracked_inventory.json.gz.part01": {
+    "sha256": "52993a5b57387554a1b8850904cb8743f3158a00e2a1bd7e95e078f09050f921",
+    "bytes": 196608
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_tracked_inventory.json.gz.part02": {
+    "sha256": "0180cc18f90c7cabbcf720a833869093e0c658c54ac33cb50855d31944f5e2b7",
+    "bytes": 196608
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_tracked_inventory.json.gz.part03": {
+    "sha256": "8759b010fc62e9096e60de272dd2244cb10526fe052d39977d00b67bc9374201",
+    "bytes": 196608
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_tracked_inventory.json.gz.part04": {
+    "sha256": "d3a4e61639810b833a3ad123493f694e694647ab7a9fbca16776bb9252e1432e",
+    "bytes": 196608
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_tracked_inventory.json.gz.part05": {
+    "sha256": "fad41a02b522cfbbf4abb7d1d731ace380b5ca3ecfbbd711e188210e58443f0e",
+    "bytes": 196608
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_tracked_inventory.json.gz.part06": {
+    "sha256": "2bdfe7e1d03a394a65b9d7af351f542843b3c28d1adae4ebd758d508b3074266",
+    "bytes": 196608
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_tracked_inventory.json.gz.part07": {
+    "sha256": "3231c10d62f3ecbd7eeb5d9550110bca3247a5d704ccc69254d0a5d7c572e1c2",
+    "bytes": 141884
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_tracked_inventory.json.segments.json": {
+    "sha256": "0a9ee08b7b3578f1d0d1df52682e05b8d491cb25432def75d875f7a6efeb7639",
+    "bytes": 1699
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/preliminary_fixed_design_audit.json": {
+    "sha256": "00d9857c4e8ac83c6e8a004723d3c287364e3f24510a210dd735783ad9e703aa",
+    "bytes": 7135
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/prospective_seed_isolation.json": {
+    "sha256": "ff11d70378753e9f6d714abd657604f5c1609597d0c452597fae9706ace6d30a",
+    "bytes": 135553
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/recovery_statistics_review_v1.json": {
+    "sha256": "6437cc6cae470f77a268d80d3ce2bc5333b82d99b89187ebabf0073c12225511",
+    "bytes": 5127
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/recovery_statistics_tests_v1.txt": {
+    "sha256": "7bbd2e4296b499845cbdfb196dfb05869a43fbf3484b3d95af63bee2f907a615",
+    "bytes": 481
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/recovery_verify_inference_v1.py": {
+    "sha256": "c1880daa7b65edf99473f7d02002a7b541919097c332b0830418d04dcadab331",
+    "bytes": 8783
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/resume20261004_corrected_design_stdout.txt": {
+    "sha256": "8122c5778f5fa0650df3adaa3a6d610752bd951ae957a0fc2e3dc33531af429a",
+    "bytes": 1064
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/resume20261004_corrected_fixed_design_audit.json": {
+    "sha256": "934648a7cfa7ccf08ecb6801601c6b7096f3840d8f13f7c2074e78bd68890ae4",
+    "bytes": 7135
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/resume20261004_corrected_safety_tests.txt": {
+    "sha256": "01d35e7005db7059e0b9f6923d6aea130c95c8fc5a2efe0baa5e73f2dd9951dd",
+    "bytes": 6481
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/resume20261004_delivery_result.json": {
+    "sha256": "bf2f4491236c9816717c8686c6d8a72d184eed4ddae019ad1d3532926b8d8f17",
+    "bytes": 809
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/resume20261004_delivery_stdout.txt": {
+    "sha256": "c740f7aec9153522e89ad3953b879ad68e810a5ef6450b4987b558ba0e334d64",
+    "bytes": 810
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/resume20261004_final_design_stdout.txt": {
+    "sha256": "80b3738b641a2176d27e8d9bbb5031c22685dbdbe85dc68fecb855e04b618ab2",
+    "bytes": 1064
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/resume20261004_final_fixed_design_audit.json": {
+    "sha256": "677f9a22251186e6ec7b886fc542ad8dd60ba807fe4682dee09d9460601a2717",
+    "bytes": 7135
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/resume20261004_final_safety_tests.txt": {
+    "sha256": "aa73b20f221313ebeedf58dc428c972c290b3abee3f7ee2821183a35b67d8bd2",
+    "bytes": 100
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/resume20261004_final_source_review.json": {
+    "sha256": "bd4e6054e0b0c6327aab3f187f27d689c5d10dff91133440ce454b8fa2609e79",
+    "bytes": 7423
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/resume20261004_fixed_design_audit.json": {
+    "sha256": "c70264521a8d3262250456df5d5d0b1796fc7df36c7785496ded987ff69df915",
+    "bytes": 7135
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/resume20261004_freeze_verification.json": {
+    "sha256": "298cf4a6783684278c7a66e25a2e84a54ba165832c46473bb68310751f1aff21",
+    "bytes": 7014
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/resume20261004_historical_preservation.json": {
+    "sha256": "c533804f2ae801aaf72b6a565577f67088d3da55b62111baf285e32ade177aef",
+    "bytes": 5799
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/resume20261004_independent_safety_tests.txt": {
+    "sha256": "9a36d63d41d22cfcc932c95908bc492ba9fadf3332d9d6c1340b92c2bb0319f7",
+    "bytes": 100
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/resume20261004_launch_safety_summary.json": {
+    "sha256": "ed232300f057c45f79f18dfefb07ba5e1814761c0a6524e3411226c61d2a3350",
+    "bytes": 7048
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/resume20261004_original89_tests.txt": {
+    "sha256": "989f0a18607a3e0cf1e80208b0cc4b90da7edd163873958f543bca4c3b7b5c4f",
+    "bytes": 180
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/resume20261004_seed_isolation.json": {
+    "sha256": "bf6057627d55b89983fd3cf061dbe133c83a644a540b952581bff69128b2e8ba",
+    "bytes": 135553
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/resume20261004_seed_stdout.txt": {
+    "sha256": "ac9bc2db2ff731002ee928fbb9b6a74d82f1dfa78fca2caa97caf840758f1e0f",
+    "bytes": 1433
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/test_recovery_statistics_v1.py": {
+    "sha256": "cffb6343f8bec1fd7f278484404ed22b6c117b52c20ff3b8f3c0451245ce6485",
+    "bytes": 12082
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/test_resume20261004_independent_safety.py": {
+    "sha256": "29d1f777d00d23bbd207406bda65b7c3e2c5375666112a2729888f3cc0249fcf",
+    "bytes": 4408
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/verify_delivery_resume20261004_external.py": {
+    "sha256": "248cd2762e7846c56a803f32c24430fa574728862353ff995015416d85945de4",
+    "bytes": 4114
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/verify_fixed_design.py": {
+    "sha256": "1c00c0be89daf83694b27d7e04adf2c8accb6bf000a1fee29a64009d7fde7e30",
+    "bytes": 5865
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/verify_inference_arithmetic.py": {
+    "sha256": "d2dd9c7b98712f348da5fcacc4c74761eff666749c8d97b50e2f67b171385932",
+    "bytes": 8452
+  },
+  "experiments/g1_pass8_estimation_v1/independent_review/verify_resume20261004_freeze.py": {
+    "sha256": "266e76c5cebf42e6ec20494064e2907822ba6455b2a087e45510292bc8323fd8",
+    "bytes": 7338
+  },
+  "experiments/g1_pass8_estimation_v1/ledger.json": {
+    "sha256": "30c2d158e4ba5bde9834986f6158e5850e4a0c6f31fec5dc7e0e8620935c5509",
+    "bytes": 302
+  },
+  "experiments/g1_pass8_estimation_v1/metadata_correction_tests.txt": {
+    "sha256": "e1540530f9ebb9bf103aa4a150d6964d159d2778f72a95668b31b6e6cab7a0d0",
+    "bytes": 897
+  },
+  "experiments/g1_pass8_estimation_v1/pre_execution_lock.json": {
+    "sha256": "8ddf718e1b4cb70bfdfeb2b471184cd4c4f53dd1bda576caac6a2d220cc001c0",
+    "bytes": 3657
+  },
+  "experiments/g1_pass8_estimation_v1/pre_execution_preservation.json": {
+    "sha256": "c533804f2ae801aaf72b6a565577f67088d3da55b62111baf285e32ade177aef",
+    "bytes": 5799
+  },
+  "experiments/g1_pass8_estimation_v1/pre_execution_source_lock.json": {
+    "sha256": "fccdffebac82ef100cb3232e93da26301de2dfda10eb2a4a7497b7b77a3f77cc",
+    "bytes": 3903
+  },
+  "experiments/g1_pass8_estimation_v1/pre_freeze_metadata_corrections.json": {
+    "sha256": "727d2e98f1af1029b1f5ec86773cb2a36cf0a7da944f832c024746ca3efe3340",
+    "bytes": 1007
+  },
+  "experiments/g1_pass8_estimation_v1/preflight_incident.json": {
+    "sha256": "d33d9979fece04353c84094fccc5a68b60bf82cfdf119ba0a18d44439514c355",
+    "bytes": 705
+  },
+  "experiments/g1_pass8_estimation_v1/preregistration.json": {
+    "sha256": "cfe65b3f20b6e2cefdf620a27e501333c5798ea0801ee1b8881be2c010ff76fa",
+    "bytes": 11906
+  },
+  "experiments/g1_pass8_estimation_v1/runner_tests_initial.txt": {
+    "sha256": "1e73a8e314fa75ff9b87f6ff39c713870f351d50bfde34f0e20d5b96c2f1d8a2",
+    "bytes": 100
+  },
+  "experiments/g1_pass8_estimation_v1/statistics_method_precision.json": {
+    "sha256": "4a069e491a0a405b1f1a731b4171d4432c36fe973abe534fca2d6464c44262ad",
+    "bytes": 3987
+  },
+  "experiments/g1_pass8_estimation_v1/statistics_method_precision_final.json": {
+    "sha256": "baacbb482bfe79f5acb76c1aba411864a9f34e7d00173c852314c4c499ea7bf0",
+    "bytes": 5077
+  },
+  "experiments/g1_pass8_estimation_v1/statistics_preregistration_draft.json": {
+    "sha256": "679202c67f4c276703f28002979646e6a7fdc9499fd1b52010490ec594b092fc",
+    "bytes": 3536
+  },
+  "experiments/g1_pass8_estimation_v1/statistics_tests.txt": {
+    "sha256": "80115d5279532a750d7447fc86ac0cf014684ddeb9af7ca510e052bf71cfed54",
+    "bytes": 180
+  },
+  "experiments/g1_pass8_estimation_v1/sync_incidents.json": {
+    "sha256": "a37f53962b5c6c0a1c16127220b803d8f1d6c880329a6ce5c2dc07f8ea4282e5",
+    "bytes": 1037
+  },
+  "experiments/g1_pass8_estimation_v1/validate_checkpoint.py": {
+    "sha256": "c43860d6f554d4d5347c071790b31cdc8bdf74c73ccbcdeda09ce046b5a1a9ea",
+    "bytes": 1562
+  },
+  "outputs/g1_pass8_estimation_v1/analysis.json": {
+    "sha256": "d5714eb032b2c5f72741396ec42554d77b39df7ab8174a3b22ab02f192729bda",
+    "bytes": 2587585
+  },
+  "outputs/g1_pass8_estimation_v1/experiment_lock.json": {
+    "sha256": "b5957a2aa12d6a697e24e6ed464da319b9c37a07ca9992fd872413664c4ac2a2",
+    "bytes": 598
+  },
+  "outputs/g1_pass8_estimation_v1/game_seeds.json": {
+    "sha256": "6b5e930bc347bbe4b6f1dec950969d12bb742cd1afd47a0cd04018711d73c16f",
+    "bytes": 37176
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000000.json": {
+    "sha256": "24fab358bc43d405364e774c1e47bc4fba113c678904bb7c47472c3c0653c8cb",
+    "bytes": 23330
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000001.json": {
+    "sha256": "0c81e4c80edacb1e4f031feb83ff1e41d6df49e53e40142cbf5c8188c2e1fc11",
+    "bytes": 38889
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000002.json": {
+    "sha256": "e32fedc41ba43485906519cb53ac7c72a221def12472f6bd01784354a89d578f",
+    "bytes": 47558
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000003.json": {
+    "sha256": "0dc8c22b9bee0f8627f45c5d9224d086dec08c688364c1b0cf3afab5658c6992",
+    "bytes": 13032
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000004.json": {
+    "sha256": "4c13a14c817b5e12b035c7119d4683d27eee226d0616a2e3a6e645ede814e7fd",
+    "bytes": 24032
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000005.json": {
+    "sha256": "4c0697aa407f1e2acf39c02309ba6385451f9827eeb4999ab5df164140a0dd50",
+    "bytes": 31345
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000006.json": {
+    "sha256": "b9f37febcc38b2e18462e00fb00f585e2d83d035b83f83e04f3e6580ca8ff6ec",
+    "bytes": 38233
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000007.json": {
+    "sha256": "98eea2bf3caf286f3933bdf7fc31668c9c4d115792b4150480f802109ff847e5",
+    "bytes": 43363
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000008.json": {
+    "sha256": "736f10ab090a389d8e5e2f826cf319add4940eea1b692b2ac79624469f8183dc",
+    "bytes": 51832
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000009.json": {
+    "sha256": "bb4c323a2e2720f6f483f4c0fc48d1c82f898ef951f03cce345c7fc0f9b265b2",
+    "bytes": 32524
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000010.json": {
+    "sha256": "8233ee915fa9f3cdee920c4cf08d56365d2c209cca5d22dad95c365637175b52",
+    "bytes": 25825
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000011.json": {
+    "sha256": "c82df3f180811eefdca673a79dc2ac86096a8f06ee0d87851b8046d0b0d62510",
+    "bytes": 36067
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000012.json": {
+    "sha256": "b7eeca402f1d16a89034dc79da9b2213a0d70b02b903751f94e3ece0db0b688d",
+    "bytes": 33769
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000013.json": {
+    "sha256": "8d59f1b48c504d5fdc104d48d67ce7c65fe6250feec56859f0bd15e2632f6a93",
+    "bytes": 35356
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000014.json": {
+    "sha256": "291befa0f1cb9469f13045d91908c20df1600b2565e6aaed77e6992031543207",
+    "bytes": 21641
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000015.json": {
+    "sha256": "26aa730292aa9b7f1bf67a8539076d55a1b1ab461e909c84a8eabb49f8481773",
+    "bytes": 6851
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000016.json": {
+    "sha256": "008df193c33d43c3408abc2bfeec0a5f13b05fceca1317f814747f059db4d3ca",
+    "bytes": 19088
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000017.json": {
+    "sha256": "c3c4936f4a5804b24ba34695692143ff6e8fdfb711bdbfb5dcc5049ca6cef592",
+    "bytes": 17272
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000018.json": {
+    "sha256": "e68667dd8b49fd775476fcaebe4b766ee99d03676d82e7b3aa96fba0eedad43f",
+    "bytes": 47372
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000019.json": {
+    "sha256": "9b68e3e66475206b4bfc4e8ac21df561f413fa21340340c53e817d932d5a0af8",
+    "bytes": 22415
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000020.json": {
+    "sha256": "31425f4e3c6dd7328aebbebfc4a0bfb0a1a08a710b51e98197d3c5c0ceb5729b",
+    "bytes": 48661
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000021.json": {
+    "sha256": "5fc31104f9d8b3c08765652ffb2b801aa3c9f436e67581b564532d900c2df842",
+    "bytes": 16742
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000022.json": {
+    "sha256": "950c91bb82c005bfde8bc576bca5b58aeebc58c98ac0f95892e67e38f5823aad",
+    "bytes": 25594
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000023.json": {
+    "sha256": "043a0b82b38bb8d68ad492fbfa3130c641be5b531b3790751b7d4e4c152af3f0",
+    "bytes": 20984
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000024.json": {
+    "sha256": "1d864c487e2ce8c7728ce9bd04445c5f5e830b0c12d9833589a804a547cc6eac",
+    "bytes": 44580
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000025.json": {
+    "sha256": "79e61d6be485ab3e4dfa681ec1c3eeb69236e969dd4e4fc5e8909d6a68ec1435",
+    "bytes": 32550
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000026.json": {
+    "sha256": "3ab5bb06c1c1319f5c315a84af2f71d5786464ddeb3640d1f0f5b1e92fd1ad81",
+    "bytes": 45261
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000027.json": {
+    "sha256": "65ad8bb684e8a231ff7a073f03d01d2bd73e9309830afa17d03517bbc2c7b09a",
+    "bytes": 40116
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000028.json": {
+    "sha256": "940b7e9dc816b4a13feff21dab344449a9fe0a94e35cdaaba7ac1050f3b95450",
+    "bytes": 21530
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000029.json": {
+    "sha256": "b6b987995e08410c18d0f8d8c9de0b5db70a25f176f380937efeac214b6412e9",
+    "bytes": 12046
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000030.json": {
+    "sha256": "3076d6e25f5fed255aff0fe77428892a41a1cef0a3f3173ffa78483de02ae742",
+    "bytes": 11582
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000031.json": {
+    "sha256": "ba85250f3094da085ad2ab21086b3cc82c7d1ea47f450feeb8698230687904ee",
+    "bytes": 27147
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000032.json": {
+    "sha256": "45a1bc569cfa31e66530f4ed02e6387a0abc16e28a28fc8760254f45a77244c3",
+    "bytes": 46941
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000033.json": {
+    "sha256": "784dc180b832522655419a8b8d8d57e2c9e8e43b47451d5d43dd1258f0ea1ffc",
+    "bytes": 32749
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000034.json": {
+    "sha256": "676df0ca267a486bcae5f09742914c65476f4983338afb04f0a2de7e6fea07a2",
+    "bytes": 21042
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000035.json": {
+    "sha256": "c38505bd120ac2a5b791f8456042507a5938f2f0df5bc8d80610417e345e988d",
+    "bytes": 31609
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000036.json": {
+    "sha256": "10810c96827537da887dfcca9ad225101d37ba82f7a50330ad5d32ee48b92103",
+    "bytes": 35336
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000037.json": {
+    "sha256": "51bee7a9a54f386cc8f454c85fce0aa89562788213846ebcbf61e39fabb3138e",
+    "bytes": 31157
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000038.json": {
+    "sha256": "a0c6b9d84ac512ed0300f355a338c2c2a7c60f94ca1cd7b96c496d9b20bfb253",
+    "bytes": 36155
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000039.json": {
+    "sha256": "f3330be56eafb1c7fa3ef8ed5a18b24e27f06081d604e91bdd7d7f4a03b307a1",
+    "bytes": 33828
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000040.json": {
+    "sha256": "077c0622b537591b5e017e1e23d1308af3f320538c66710ee20f2d1837ec5227",
+    "bytes": 24632
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000041.json": {
+    "sha256": "57c9da6ce1dedc92c004b9ac77175a423102a3e8e04f7f6de8fa63c8941762e1",
+    "bytes": 17051
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000042.json": {
+    "sha256": "4d6b859943be40ef54e4794d6cc4979c8fc5540bfea0f97379583a8d252bd105",
+    "bytes": 46977
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000043.json": {
+    "sha256": "11d588734944a0ef32a7bd5226aab7fd73a33e9d319f5d1403d300d29a734542",
+    "bytes": 10326
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000044.json": {
+    "sha256": "65bc2875decac1e8ae92228fbb6cc82d5c0cd8a602faa4b2c3779dcebd7897ad",
+    "bytes": 43150
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000045.json": {
+    "sha256": "d0a643a3e2248149893d39c86e791b38b2b4fb95cbdc0f095ac759352f5c205e",
+    "bytes": 37336
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000046.json": {
+    "sha256": "5b32ce78e99563ba10bec55ade82c4981c928d60db31747c992659fdeac542ae",
+    "bytes": 24737
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000047.json": {
+    "sha256": "d02b5c71ece6ba9937731c70c844f841debceed3d40094b1e72b35758ac2157a",
+    "bytes": 25327
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000048.json": {
+    "sha256": "996dfd5758ecc3d095cd50ec9e3fc3d8667ce91409eca0d2f6faa6c7c6a4990f",
+    "bytes": 17389
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000049.json": {
+    "sha256": "7f24222cdb054b4cc2f13b38b5f0f4074f7e589adefeaf5895429e65cb24e381",
+    "bytes": 40307
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000050.json": {
+    "sha256": "0044ee0376bfdc9f86e085485a04ab47095a80de76018073f95dcb2dba0c0c94",
+    "bytes": 35143
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000051.json": {
+    "sha256": "9f54d72f9247544b46b4af783c8aef47a040a1bd5b8e3aefd1031d2b0d5a9d01",
+    "bytes": 32750
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000052.json": {
+    "sha256": "bd6702b1dbe1b4a179914be1e06f31fb4b72468771dbce24cd758e44072f4d4d",
+    "bytes": 31847
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000053.json": {
+    "sha256": "0875c6da60c6800597f8a312a1fa4fe027427aebed2d90f7be7751b5c9216fa8",
+    "bytes": 39008
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000054.json": {
+    "sha256": "e838563c9d20ca8df94220f6aba0ffb3b14556bdb00c011f93e2b31e16f3af87",
+    "bytes": 13907
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000055.json": {
+    "sha256": "cb378ae261e3a55b81cc82e3e2e4e7448e49c7687a5621b82844e48459639446",
+    "bytes": 50312
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000056.json": {
+    "sha256": "983d8d04cb753ff41e0d58fcd16ed30c7419cde5bb4189caf204efd569d3b741",
+    "bytes": 39579
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000057.json": {
+    "sha256": "843094af30a68357cd92bcec94d570040d31359d2016c1574989d94bb9cb9a4a",
+    "bytes": 30752
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000058.json": {
+    "sha256": "12e9d58578b50c19745139f65a16349e86845c41d8e6b94a206e458503a990aa",
+    "bytes": 34117
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000059.json": {
+    "sha256": "efa7237edd1009602303958695b80fcec1fb7e58321946200c773bb9e09c2e66",
+    "bytes": 32994
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000060.json": {
+    "sha256": "029f02d75bec0b2071e9f2d8b35097bbea1f1d70163b912203c833a3a5f275d8",
+    "bytes": 6670
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000061.json": {
+    "sha256": "60c0736bdd6190b9033f624b523eeba17a0bb9bc269087c8c655078e701c31e5",
+    "bytes": 21606
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000062.json": {
+    "sha256": "10e0c126456b70e059fa3b88e72f4ff42dc17bca8d767ef6331a210207eff8d6",
+    "bytes": 39609
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000063.json": {
+    "sha256": "b975d3c19dc38b569da114a7ba9f33404db83d7591ae8a889d86fa1b497e8c91",
+    "bytes": 37685
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000064.json": {
+    "sha256": "256383be669402ac97ef2909ecf78b849aab5918b4c2826568d519f6a7f46b54",
+    "bytes": 17147
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000065.json": {
+    "sha256": "c58bb0348be237d85fdd370d7fd92f21b1328fff4b31271c1c398cf5045ad296",
+    "bytes": 17953
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000066.json": {
+    "sha256": "e367474408ea0daedfe6eba7d63529213a4b91c6019c152c280cc532c24c0180",
+    "bytes": 40389
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000067.json": {
+    "sha256": "950872dd2572fe1a77fd1e09e6339cbb9dfa4789430d2d6e893c1af06a13d5e2",
+    "bytes": 58237
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000068.json": {
+    "sha256": "9c0c58ccacb9eda8edcfa2700f5834d5db2b49d1689c484be402513539ff52c3",
+    "bytes": 33969
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000069.json": {
+    "sha256": "45845e72b81fbe357745284c35b421d74b31a837bcd870838c31b598aec33de9",
+    "bytes": 36499
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000070.json": {
+    "sha256": "84d1beb3632b0fcbb6a3fd717dd45b6c6020e52e87122598da6e2eb410864eca",
+    "bytes": 26703
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000071.json": {
+    "sha256": "104dd1ad50015b1e5b496877d9043768e585efd0ed23819d9a2edaedda3655e0",
+    "bytes": 19595
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000072.json": {
+    "sha256": "0482543f19ef89940a15538a49ccd4d70d7c50a8b2966381cc59c5a70fd5f321",
+    "bytes": 19548
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000073.json": {
+    "sha256": "c7646a0afb4d368ae79da83b1e31b4cf9737f8cc189205112dd6125c7e490497",
+    "bytes": 18606
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000074.json": {
+    "sha256": "a6fa749b23399863a1a6ec3c94ec2a5687d80943ccb3e52fb1254a6a78423fd4",
+    "bytes": 25238
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000075.json": {
+    "sha256": "751b708439d9c62e22796175c5c09b86550ce335e997619ca500c95f127ee389",
+    "bytes": 26071
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000076.json": {
+    "sha256": "819a087e30a23ff70e313a4066d53140b3314594a212240e5ed97ba6d3b5f2f0",
+    "bytes": 36671
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000077.json": {
+    "sha256": "aaf45842bdac4cdee34b36deacff8151f29c7214f5bec0ee030c1b460c87e70b",
+    "bytes": 33939
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000078.json": {
+    "sha256": "9720e72ab167d016f7fb2dad7f4a18b9b6058610260a1ed9f37dbef8e2c712c7",
+    "bytes": 26063
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000079.json": {
+    "sha256": "0e9d165b0843acbb7ccaf77db6aa826c42bc8a884cb00c9707d005da37a59f46",
+    "bytes": 11506
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000080.json": {
+    "sha256": "b296af368e8b3d47a9fd9ed3e90ad186fbbb47125b699992709e52b422e5a44e",
+    "bytes": 22015
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000081.json": {
+    "sha256": "ef0bf27ed085e0b3abf1b8f1f8c6846ed71de85e77ea4437a8e66d763deeca1d",
+    "bytes": 47858
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000082.json": {
+    "sha256": "e4d4e9fd8b4bd2db39595416b8d8232ead750b1eed772c8375e176b93c05aec3",
+    "bytes": 36148
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000083.json": {
+    "sha256": "339b1e9062d4501566e07f204de15a5d7cebbf312e83fd7e5ca0ca1b5317e724",
+    "bytes": 34831
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000084.json": {
+    "sha256": "104689bd2e920ad4ffb9c9cf1d75078e5106df459a04112560f35f3dbeff7e26",
+    "bytes": 18260
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000085.json": {
+    "sha256": "9078c85e984a9dec3e2d6a611480f988e0109cda1109cc1d614e001baaa7301d",
+    "bytes": 13318
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000086.json": {
+    "sha256": "f2b5fc8ca1cceb7e99b4df10b541889bbd53b5e5ca7663979b1603b6419e3840",
+    "bytes": 42958
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000087.json": {
+    "sha256": "4738bfc7eb6966d715b21962ae9c051016a3a2252afd1114dd6f053e6f7134ed",
+    "bytes": 36170
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000088.json": {
+    "sha256": "38604cde0d0c1f90b3d29cb349d5a080ed2943d475c161fabe3e2f094d670e5d",
+    "bytes": 32016
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000089.json": {
+    "sha256": "10a3db61b0754e63de8fac69e43af049e96094e2446671f5d8fa91227af32f68",
+    "bytes": 33654
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000090.json": {
+    "sha256": "4ec69eec6ff9f6b1fcf6a5384856d6c881b79f1a63afe15f8a4b326125f3b1e1",
+    "bytes": 22188
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000091.json": {
+    "sha256": "91e514925d0025ca5d07574295e6585bce3c1094aa37fe0255ae747fc436f959",
+    "bytes": 25674
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000092.json": {
+    "sha256": "9f252dca2a1ed86630e7596ead2e54e5777368bb622677bccd0c35780db93f23",
+    "bytes": 43422
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000093.json": {
+    "sha256": "0b7fb902f224bdab8e6dae20eae9ca9915ad819c8d56b5eed26bebfeef65188f",
+    "bytes": 38309
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000094.json": {
+    "sha256": "2ab72d2dab33eb412980f0cbaeccfae816762ceedcd14add5ca52ce6fa29f6f9",
+    "bytes": 29358
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000095.json": {
+    "sha256": "e8f47079bb307a486128305524c550c53adfe6f3364b1a84e9d702285e7a56a9",
+    "bytes": 27104
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000096.json": {
+    "sha256": "4c5b42576252312f8a3489b30195edb782a633db18779285953606d92a81c594",
+    "bytes": 24603
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000097.json": {
+    "sha256": "102f6b51861ca72c34d2b6f6910649f083b34adf6a7f4eff4667ad2ccbe9fa5c",
+    "bytes": 35850
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000098.json": {
+    "sha256": "b83f28b092da6da3699586314f91e5f98359eb8565b0de207bafe2f625def441",
+    "bytes": 21882
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000099.json": {
+    "sha256": "0cb2aa8b47b04ab5bbea78670f8cc0c3758faad5e5a2bf8353249f18db78b710",
+    "bytes": 29521
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000100.json": {
+    "sha256": "dd7ddc5536af4ac3e8d229403bc0c09ed454d3011a3bd7b6f94e1d682b53e819",
+    "bytes": 44089
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000101.json": {
+    "sha256": "dab339e0d7674222c7390fd7fb8fc2ee72381ceb685a26c9fc2436c9b80e7311",
+    "bytes": 50005
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000102.json": {
+    "sha256": "6864eddb53f6386297b4b6429bf7b624a93ec8c2eed3e7d4ae7e7ea687377b95",
+    "bytes": 48983
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000103.json": {
+    "sha256": "dfa1f0dab4ca4ec7cc7245f98b11e79b34bf8fa97b9c5f167dbb86e6ac739df5",
+    "bytes": 46373
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000104.json": {
+    "sha256": "2b5c79bde7007ad8b6cb0e0fac0c9a8d890394f72c0c9562c55e006bf572c43e",
+    "bytes": 14811
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000105.json": {
+    "sha256": "963a14b2e58e4486689cc14288c4c4bb44f4f16254a4791566799cb0ab3e4cf4",
+    "bytes": 24671
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000106.json": {
+    "sha256": "81fba5a772d03330f5e308102d8771e8e5e156572ff8bc3d63a8d32e4f137114",
+    "bytes": 37203
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000107.json": {
+    "sha256": "a3358f01beabd328ce88dec38fc5e1f0c574443146fbdd307954136cd85ad94b",
+    "bytes": 38736
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000108.json": {
+    "sha256": "f22a1f1445f686a4b95331e565cd8090ca489b949ed836caaffd2ce6658e874d",
+    "bytes": 12008
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000109.json": {
+    "sha256": "b1f7c4ca5791da6a5ed159726c99c720fefd891b1342e9c95925fdc3271be3ff",
+    "bytes": 28080
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000110.json": {
+    "sha256": "ce89e7a331da20ea79627bc48c74dbbcac7ecbf1dc1451fd02f841ccb501e06a",
+    "bytes": 32004
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000111.json": {
+    "sha256": "87ba47737cfd3ab17fbc5201ed292188ab8c17480bcd5cfd9aba71a68f3a2667",
+    "bytes": 34211
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000112.json": {
+    "sha256": "5ec59a9fb783b0451902074d4545df80bb8e80c7c6ca5a61873e4892a39caf1d",
+    "bytes": 38478
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000113.json": {
+    "sha256": "07bc5bab2a3791b87d0972e34090910fcecb18a171b00455594c2b8dcb2b2682",
+    "bytes": 37470
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000114.json": {
+    "sha256": "737078c9a5d4999c2fd419106c52f755ff21eeebf203e66bb296875317cf221d",
+    "bytes": 39468
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000115.json": {
+    "sha256": "b536d3e7d2e9401d5b495657420cf7f2e883f72213966235b6effcadea38ff39",
+    "bytes": 30735
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000116.json": {
+    "sha256": "043f7484fde6b982846fafd0358b026f72fbdf9f6b714cb0f21e3d4797f411af",
+    "bytes": 26318
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000117.json": {
+    "sha256": "20f595856d97f1d28a4bf1f011e0d1df6df69e92fa8990fc263dab1496def328",
+    "bytes": 38381
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000118.json": {
+    "sha256": "80f866a8ff0586bd17346375c43142bb0f2aa1e234c719c04d31585112e5adc9",
+    "bytes": 20453
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000119.json": {
+    "sha256": "cce2abd4070281c969e497d9c32f0feb2ef3781ae5fdb9649c9e8b79f2fe4c73",
+    "bytes": 14727
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000120.json": {
+    "sha256": "89577239f633c2254d9a79e9996249a329f04e963fa072e2d92fd72c6407c755",
+    "bytes": 39878
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000121.json": {
+    "sha256": "fc2fea2b83c4327db1ef2349f405e39d2cfe48eb138777310bc006c7f7f971d4",
+    "bytes": 33804
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000122.json": {
+    "sha256": "f2727513fc03b74e89b174e3d936c464a09f6d1d0a7149b802ad26edd88f495e",
+    "bytes": 27319
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000123.json": {
+    "sha256": "b7365b1a43e9c31307c0cb6740febaabc28384618f2b9451b34aaefc61532944",
+    "bytes": 28012
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000124.json": {
+    "sha256": "2c7fd30bb1ef2f8b343ab9826e1a27812e107efc04464a8076f5e317fd1d6843",
+    "bytes": 33283
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000125.json": {
+    "sha256": "f51a5a78b693d7409ed8223f1e33b9e2d2f8d66c070071a5da33d21f165cf0e1",
+    "bytes": 43949
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000126.json": {
+    "sha256": "1d3d251a4c4af45fcb1711135e8d3cb97fdfe658f1ac6ad62cc1b3ecdf0677af",
+    "bytes": 8555
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000127.json": {
+    "sha256": "2d9df62283379c07dddeb956ab005f8ad5a1c8a3efcc0da1b1aaea582a9cd56d",
+    "bytes": 40314
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000128.json": {
+    "sha256": "2cbfd1a4bd707066cf4987201dbcbdd1bc1ccddd00c41d29731fd90f29f5aa66",
+    "bytes": 27217
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000129.json": {
+    "sha256": "589c177b1e40b52567a8682d4c586d8129662e295b09935946d4660767ca0c77",
+    "bytes": 6450
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000130.json": {
+    "sha256": "40f31876fcf411f09cf06fa350596057fa428a84fb43e864c25e54a3f97b9dd6",
+    "bytes": 56173
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000131.json": {
+    "sha256": "5ce06cbf8fc005fe8d6af7348ef3919d808fd66b7e34cb0217ca28adbcf9e508",
+    "bytes": 41807
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000132.json": {
+    "sha256": "22854696952be0f1857e526f04f548123e866eaf7c845767d15a67ed9e20fe85",
+    "bytes": 18031
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000133.json": {
+    "sha256": "9876ad4be7964e446734c06b7b664140d99a93c55dba8ee9ca2aa0563f9ebd3f",
+    "bytes": 13276
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000134.json": {
+    "sha256": "765577c19ba8814ae586e3b7763918c320c504e2ee72e3dfa6a3dce2fefd97e9",
+    "bytes": 42346
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000135.json": {
+    "sha256": "6718343c11939c1f2342b7cb62b09124845dbb99b85a185c6627a7f104e8762e",
+    "bytes": 41209
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000136.json": {
+    "sha256": "5e2e8a352c2e918848916fc283cf8bd214f65ea6a7cd0392bf06fe6fedaf9df5",
+    "bytes": 48309
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000137.json": {
+    "sha256": "4792da332650d36182975c72a67e70fe398e0529518051352bd78eb24ce7dfa1",
+    "bytes": 49026
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000138.json": {
+    "sha256": "d24bb8bdb5a888f8433fd1adb7399cc77b9843596b096fded9db74b10171b59e",
+    "bytes": 26111
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000139.json": {
+    "sha256": "4cfc2cd13409082a8da58aec38c06b241d0a4505fe21cd7260d94d5a5671f36d",
+    "bytes": 40430
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000140.json": {
+    "sha256": "e2ddf46f9434c1e9d3d5b17d6f07e6ca2e52a050002ebbc7f7e9a7a208c759ee",
+    "bytes": 20260
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000141.json": {
+    "sha256": "adc482450f534c48b32d6418743d3ad90853ff3d21aa935d62b7b8296acfee61",
+    "bytes": 27772
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000142.json": {
+    "sha256": "ac84d697b6d772ac8561660432ba72b30150b947a2af8415858419e81246d0ed",
+    "bytes": 34626
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000143.json": {
+    "sha256": "84b367663b257bc118c01744c2f63048549b39b1b1236cd9fdbb94e6c30cf9fc",
+    "bytes": 32880
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000144.json": {
+    "sha256": "ae0e352264ff3e20d597defd4c948f5fffcc78a6936080aeb14188cb1fcf82c6",
+    "bytes": 34364
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000145.json": {
+    "sha256": "f540fb3e4bbf97b80b6a6b7401087e3ac0a445f72e585a837555a4bf84b37ecd",
+    "bytes": 30285
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000146.json": {
+    "sha256": "286df920d3e5afe148f884cb5cef866a1a9b022f580c4df585ab8f95d854fd95",
+    "bytes": 18677
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000147.json": {
+    "sha256": "fb93f8862f7825e90e174aa4367f450d52e58038d9491cbe5b85edda38329157",
+    "bytes": 38628
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000148.json": {
+    "sha256": "e94b03224eac2f7bde365bd87c7c0b94a5d8c395b65a614f8155140323c38339",
+    "bytes": 23474
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000149.json": {
+    "sha256": "10d2eda431823e84c8019ee25f1e4c3c8e33bf9c336b3357508eb0126a99ab9e",
+    "bytes": 19302
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000150.json": {
+    "sha256": "fdf3d94e8da9adf642e04c16f610e7d01381a5a93a7351055bc70836208144d9",
+    "bytes": 20741
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000151.json": {
+    "sha256": "44645334d2feb09212d1bc308ad8f3c87032d5cd629d9ed2ae98f7aacb2b4b06",
+    "bytes": 22677
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000152.json": {
+    "sha256": "47b087d711d585a1478f1c4c90d2cb3f3abed8318ba68db385f4944a860668a6",
+    "bytes": 16540
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000153.json": {
+    "sha256": "6a3b756f7574d6a682eb3d041e6c03a9610f054fd9c8f5bf92d1ab4c08b92121",
+    "bytes": 47337
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000154.json": {
+    "sha256": "777273985538f1807b190355d2faafe8e534091f2b05a932fd1cbc51e72282a2",
+    "bytes": 36269
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000155.json": {
+    "sha256": "4c708ca6feb47808a2111ee56273020805b5198f0bada4f76625b672739f8e0a",
+    "bytes": 34516
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000156.json": {
+    "sha256": "92f9ecf2a63278258fc60bf42960bff00c267a8e2aad4334435f5f2afe38bd3c",
+    "bytes": 27658
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000157.json": {
+    "sha256": "68350d16235538e6bc284ef3f0ef79e60e70c2d35492529faecd7f922c33d1b1",
+    "bytes": 26194
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000158.json": {
+    "sha256": "dc352bee348c3f2eb026a65e89559ef3a0321aec22aa740f5a4a8fef7b746854",
+    "bytes": 46738
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000159.json": {
+    "sha256": "4fb6e7a9316cdc920b83216d61571877e390dfac864469123d4693775d56abd4",
+    "bytes": 41175
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000160.json": {
+    "sha256": "4d5f20e2b2357eed34aee677364606d814e7e2ba2846af6e0baa51ca7e1e8070",
+    "bytes": 20653
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000161.json": {
+    "sha256": "3e5595e06140cb00e349a5a715e85df2f5a1a64aba301fbd2f8658631301e5b4",
+    "bytes": 31864
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000162.json": {
+    "sha256": "258b6d612d497b029279e3ab08ffb23b92f8a6e44ca161d7fdcd16623b8d1515",
+    "bytes": 31829
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000163.json": {
+    "sha256": "f6cdea87e02f3fd7b1797b73ff5f91fe98a09fac36781f7b594687bee4e0abdd",
+    "bytes": 27260
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000164.json": {
+    "sha256": "d794494b215bcedb1e0182f89e23c473ea2cdcfa77ee2c45d06f7307aad8d2d7",
+    "bytes": 11864
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000165.json": {
+    "sha256": "eab4fc3affbe942492a867b1f0d2beea4630b286173de18a4f92fed2554b0697",
+    "bytes": 19918
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000166.json": {
+    "sha256": "5b4376c357907cef2dbcd68663c86b445ea7b5e02f5600c3d0ad202495ebc74f",
+    "bytes": 26399
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000167.json": {
+    "sha256": "d418a25bc7b48add75234e6a3bb18f3e7fcb2b311bd2d3e4154e62217b6282f7",
+    "bytes": 14553
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000168.json": {
+    "sha256": "564417fb5b37429b72235855b7d4f99595193cc2b62ecee7069344b788b3a847",
+    "bytes": 11736
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000169.json": {
+    "sha256": "35d6845a182564dac8d22ec99b952ca90bb64f917c63b38a6006e7ee1c7d39cd",
+    "bytes": 18584
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000170.json": {
+    "sha256": "61286017c02baed755c763a7c878d42a3cf01887fd4b368e1a2ac50152528966",
+    "bytes": 30309
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000171.json": {
+    "sha256": "31d83edc71f84eebd3a8e36386db39e57351c8fa1e20d1a7efcc04406698af38",
+    "bytes": 20654
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000172.json": {
+    "sha256": "5af830951b3d8ff2b79a534ac10896d54a661334470da9057cb95706c0968e66",
+    "bytes": 35379
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000173.json": {
+    "sha256": "27dc783311df65b7471aed4903c7a6ee5994c67ddb90f3736771f79a3634b574",
+    "bytes": 45454
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000174.json": {
+    "sha256": "007ec983fc2142e91c5e341030d5f1d0d913e6536fec9c72a7f20d4e00e68993",
+    "bytes": 27883
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000175.json": {
+    "sha256": "a2b6bdc1052ed0e28f556873476ba92c101b32e452aa39ff4d31aa41c871067c",
+    "bytes": 19740
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000176.json": {
+    "sha256": "4f3b5ed3cea8760fcf759151b3fcad7b8f56aaea5e7c88216b4f8c6552bac79f",
+    "bytes": 28370
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000177.json": {
+    "sha256": "667aaaa99cfc07c3e0ecae26978d442b990ae43c576f92440ccbfeb475eaff4f",
+    "bytes": 23923
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000178.json": {
+    "sha256": "3ff01eb2aac14d93f6093b3b23f4f9c500cad7c6568a9338862d8149515a02c5",
+    "bytes": 8591
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000179.json": {
+    "sha256": "7db74546f1893c79db167a6f4ba8a49e335d5c5eb301af817d28a9e00580846e",
+    "bytes": 17300
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000180.json": {
+    "sha256": "924e8549157bf1aceaadf8bce659c8aa8835989c5dd04f72bcd57e8196335e21",
+    "bytes": 34251
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000181.json": {
+    "sha256": "fc19f6c721e45d1d77d5f4c430f047934195f86b1c20b0d233925c37cf17eb1c",
+    "bytes": 24047
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000182.json": {
+    "sha256": "56aec477a86a2d6210ec80bfef68b922e9c56f8f932116cbbbd7c66ab34a2196",
+    "bytes": 19670
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000183.json": {
+    "sha256": "1c8ec941643662c5312fecc2fea813eb069fd451f6d3e913655d63dcbf297d06",
+    "bytes": 20341
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000184.json": {
+    "sha256": "212a0296a90f15ab148fb895857eb9d933a898ca0152c968b71006c7e633806c",
+    "bytes": 29909
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000185.json": {
+    "sha256": "c86eb031c9127ecb6c191158ec51ea6a3a784eef74c6f5cb0de2179bdf6e0a91",
+    "bytes": 30415
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000186.json": {
+    "sha256": "ef0b61967f484134d7bbd825023a7a4eb16a1f6f0f4d8008232dd71c7ef68639",
+    "bytes": 35636
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000187.json": {
+    "sha256": "3f64fdf9ea037583f3e5171886940af91707d31eb0306a295e6129a7cb82fa16",
+    "bytes": 38435
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000188.json": {
+    "sha256": "627a703c46a6abfa651b60e6b7198e17d9b6b54736675c80dc6741502e806ce6",
+    "bytes": 29959
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000189.json": {
+    "sha256": "14523e249af026a000b8d5818dfd17c6c791ec4f044e82d652808c64cc62ca6a",
+    "bytes": 33246
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000190.json": {
+    "sha256": "c7673bce1c6fdb6f9b165987052dffd2eb4c455e951049c59c6ddf2c7a4dfd2b",
+    "bytes": 34073
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000191.json": {
+    "sha256": "643bc43096254880fb02f72ce7253e313d221aad8193f481fa3729ddfcd1f799",
+    "bytes": 37788
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000192.json": {
+    "sha256": "4c93d0162bd378025bbcc69b681bacfb3f4a40793f730b403a963e6a1f4d9fb3",
+    "bytes": 31272
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000193.json": {
+    "sha256": "862fb303990ea011194037aee5591c619f37a88e47a82e86ee5186ab21b0e6de",
+    "bytes": 43980
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000194.json": {
+    "sha256": "bc8f82df2fab08a5dca985cc40e11302bb918861cb1334764eccf6fb87d60172",
+    "bytes": 56050
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000195.json": {
+    "sha256": "0107b008cb07f511000bef7244c0f28b6a085f15e23b7afdf9f4515fdfee2273",
+    "bytes": 46014
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000196.json": {
+    "sha256": "9def157bf23c2830474cecaf75e99ec43c5870c37d75306bd590ce5e0879b711",
+    "bytes": 50010
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000197.json": {
+    "sha256": "48e1d0949ee23e1db5a5105fcbbcb25abb672d5d4d94135186bc16bdffddf2fa",
+    "bytes": 46558
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000198.json": {
+    "sha256": "5afe4257e8b7d3d3d60e6b67e3d1028f39fe64c50de022677cf5cde8753ff5a3",
+    "bytes": 25557
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000199.json": {
+    "sha256": "8479cfe4dc481a665cfd1b5ee3207207e7bdc1f7c72b45bb09f41acc5ce6a5e3",
+    "bytes": 39063
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000200.json": {
+    "sha256": "f221609c759b6ba06e81f4b41576c698bc3aed0c8d00c0d936ae33968a383691",
+    "bytes": 35215
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000201.json": {
+    "sha256": "9cce901efec05b43ba9d66b744e5d5274bae75d870575e653eb50ba5693079e6",
+    "bytes": 47184
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000202.json": {
+    "sha256": "871c016ac8a66313f026c1564d79ff47d24f462a467e0d7de159cac00745c05d",
+    "bytes": 18240
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000203.json": {
+    "sha256": "d3d584d44cd556cd397bb21b8cee7d7f60e5ddeccb05f4491cc9122a75c586be",
+    "bytes": 7042
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000204.json": {
+    "sha256": "f1564c44394c4bc08d4bc744035a655b9cc858d470bbfbc5ce1e11b02556f649",
+    "bytes": 23442
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000205.json": {
+    "sha256": "e90ab7923cf5de4eb1ff2420422e663902ce5f9160815f4c0c2cb4f5a4d12bc9",
+    "bytes": 24038
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000206.json": {
+    "sha256": "94ac406a5aa25fdd99e287a6d06c399bfc0d03835e59f300cc6fa6e78be8303b",
+    "bytes": 31757
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000207.json": {
+    "sha256": "0f5d4d82797dfe41fb5777f36da30fcb69ce10dd39f8d6bc30965284e11acc02",
+    "bytes": 29411
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000208.json": {
+    "sha256": "24230602a9e36e8ec3dd1cea32a6704d925ef8e14b7a9b8d2d1a682c2da94efd",
+    "bytes": 28604
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000209.json": {
+    "sha256": "84241a8fa0cf1976c1e8d85c574ea2a8a9e6253769fa29815a8333b55f9a9e01",
+    "bytes": 8755
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000210.json": {
+    "sha256": "5b3eef9f6ec81a4848b3056a13bcea6255c6ed1ec8cd40cbc6b30d7b722c9dee",
+    "bytes": 52452
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000211.json": {
+    "sha256": "30d8fe3e6ec539cf610d13cb1aa76b21b3a003f1798901a2aa80876f31d55ba8",
+    "bytes": 45705
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000212.json": {
+    "sha256": "27a36aad15843518043db579ea6b8f5aef92b5635a0ffde9d9c7e8b54350a09d",
+    "bytes": 38087
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000213.json": {
+    "sha256": "33497dd103ea70eb8584180ce62ba862586e05791870f7b2b1f958583f803c9c",
+    "bytes": 10349
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000214.json": {
+    "sha256": "8325564a770e3778019d0a704a678b5296865caa1dac1afbc2d8515753aca7e9",
+    "bytes": 46538
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000215.json": {
+    "sha256": "8aead9a419331c0f3d2c09ae9e2678453fea8582b815d1077511b6680273360d",
+    "bytes": 28379
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000216.json": {
+    "sha256": "ce3a3d741e449901ab405efd3621b183729b9b37f7393cbd1556e0057c135584",
+    "bytes": 24264
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000217.json": {
+    "sha256": "fb580f8a851593e881a35a7d1a91bb7880ae21fb6b10ec947029da22ea7d2b69",
+    "bytes": 29325
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000218.json": {
+    "sha256": "cdf3d42965dc93bf7f8cf0f17c97f5a53428c9420e98c72201da47c344991553",
+    "bytes": 31694
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000219.json": {
+    "sha256": "f77f7531bbd3e17c2232d6cb0ba02c52b2c7dabfa9e91c77fac2807d0a8bdc91",
+    "bytes": 32579
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000220.json": {
+    "sha256": "788ac1f890a69d61a4a14b2bc4911c47f3dd38d73112bd72439dfcaf5456c7a8",
+    "bytes": 20127
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000221.json": {
+    "sha256": "6a92bc1f3ff15c34a072012da09cf73c4c9909b1b2154b443cb6a6e97c76b7b8",
+    "bytes": 26713
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000222.json": {
+    "sha256": "6e0c514dd45e440670cd92533e9503c7e255cf2d79b302a70586faf5edc4c6d9",
+    "bytes": 18770
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000223.json": {
+    "sha256": "974e00919cd6677395fbddd1d52aa28e66598b70bfbc6f85cdd2c53099843ca4",
+    "bytes": 24085
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000224.json": {
+    "sha256": "3b876147e287d65f973fb910d5d9cb04cf0abfc4643c040dca10756c81b2295d",
+    "bytes": 24575
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000225.json": {
+    "sha256": "e975748cd8919aa9ef7bc02ee9f58a750504fd54ac5d23f2f37b296567288e04",
+    "bytes": 30082
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000226.json": {
+    "sha256": "e7279bb1c3cd1c0525e47cb2cb78d71ea77e0a79405c29abbc74ceb57c77e7de",
+    "bytes": 25243
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000227.json": {
+    "sha256": "e23d362f45c54eaab798abc2f19713b3dabdf918c2a7f3b93a58cbe52da4eaa1",
+    "bytes": 20519
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000228.json": {
+    "sha256": "f01315bee2312b06027fa0c5fce2a6e0fda0852e0f75fd3b7c5b6bb2f1e7ecdb",
+    "bytes": 30015
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000229.json": {
+    "sha256": "8bc08867656c13f4c5f1f964950af3e28a93c473f7fec6716c172fab262fd7c7",
+    "bytes": 26084
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000230.json": {
+    "sha256": "47ce2ab0f3cfb7c67d7c84806250132da7d1156057e33ecc5eb842dc34d4bf49",
+    "bytes": 17113
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000231.json": {
+    "sha256": "e60db122605bce53d789805d09e4d154e1ccfb234491264798f4e762464aa852",
+    "bytes": 31306
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000232.json": {
+    "sha256": "07513855ec02de63f6660120fc92e08b03d8f715619e6a15c49a473c6b8bd7c9",
+    "bytes": 23348
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000233.json": {
+    "sha256": "5437ae2304c4a568ac26b295d5780ee380d200ef638e49a26ee5b782c47db4cc",
+    "bytes": 55008
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000234.json": {
+    "sha256": "026491d12c3a426fca10c4a14042367bd77956039ebd26830354f9af1fc92617",
+    "bytes": 14508
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000235.json": {
+    "sha256": "cd1aa0be376dfe277a6da67476c619e43d5eb09db2e8cf14921c6fe6951c7c7b",
+    "bytes": 24387
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000236.json": {
+    "sha256": "455bc95715827fea35fe585ec956ed07a8b8e14b7c0ae0064ba97a261a87eaa8",
+    "bytes": 24374
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000237.json": {
+    "sha256": "9a0b6e2cd23b49952f3dc786092bd9ef6d0f870cb7e1996a4702a9ac91034ab7",
+    "bytes": 28030
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000238.json": {
+    "sha256": "f5cdc18d92f017f118b32beba4263a9301d1ce49a9937b952adfddee6a96596a",
+    "bytes": 25642
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000239.json": {
+    "sha256": "d584d98a6d4ec1b5ace125b8bc58b2cdb8d5c063ca3631ce65b814f3af8af6f3",
+    "bytes": 29411
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000240.json": {
+    "sha256": "207e3b141d1abafe9d82cbe656766b2dc689428bd4f5965727bd45206c3f552c",
+    "bytes": 10090
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000241.json": {
+    "sha256": "1c07f247e31fafb19166d360f5d15f1a335ca53fbbe2b1e6237b2a567556e7ab",
+    "bytes": 21318
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000242.json": {
+    "sha256": "b479b6fd41b3a42db681a6b4a57407cc6749918148db4d6f027d611b20244819",
+    "bytes": 21960
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000243.json": {
+    "sha256": "e438d6d36961741ee7243b94ecf024b2cfab650c8352d8a7881ee67bbda66abb",
+    "bytes": 36288
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000244.json": {
+    "sha256": "6fb80bdbd8bf8c37a9e9f156aeca0c8017accec20b81382cf0156196635cd04c",
+    "bytes": 22248
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000245.json": {
+    "sha256": "be6d70381a71a5686414aa2d58ba6df346cb2770d29afed0c5f16b3e6260159c",
+    "bytes": 31749
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000246.json": {
+    "sha256": "d89de7b646934a404a4909b625ff17399ca637dd55fe99c44fd1783e72143f09",
+    "bytes": 26020
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000247.json": {
+    "sha256": "1b174fac385977cb594ef231f6d8ccd93f87d2377da7cc2be099f1fe4f9fbbe7",
+    "bytes": 26168
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000248.json": {
+    "sha256": "fa277ed482f003cbc2e5b24b36a65384b3f8daa923a294d7daec7d61e5c2adc4",
+    "bytes": 42231
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000249.json": {
+    "sha256": "0b82cc17bb7a1f9016cf92e764583050128cf9c11feea101b2f22c9a0b323015",
+    "bytes": 31406
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000250.json": {
+    "sha256": "30b4cbc8c74825f7d84c1fdad840cf08b34dc2a69d18706d5c0d4246f0285b95",
+    "bytes": 48744
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000251.json": {
+    "sha256": "74802e0d69b2ff4dead187393c433f28e5c4736ec3261fd3e78d91f6acc3ec8d",
+    "bytes": 18754
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000252.json": {
+    "sha256": "d28b8107ed3783b3afe891739c4a64a499e0252e8199b5812db43e2c894b4d43",
+    "bytes": 27446
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000253.json": {
+    "sha256": "f9d23580cecf6235a74bf1bbaf55c5490488275a35255c87350f3656feca7aae",
+    "bytes": 40255
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000254.json": {
+    "sha256": "79420fa5e45c55bfba7cffe89ef6f66a5490299fb128dae30449fbd508743c71",
+    "bytes": 34054
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000255.json": {
+    "sha256": "a0d27f82bd518d9e4aac8b1dd93756c60d43d72f9a80d0fb6a1fb7f2db1d2f1d",
+    "bytes": 31965
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000256.json": {
+    "sha256": "0fab77d3ce6827bdf7b9986824280925d9697baf9fc28216579e43beb61ffa3c",
+    "bytes": 39901
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000257.json": {
+    "sha256": "3a2475c6e757edf3627921d8c6f817616c7c7bfd019774ecc69503236bdfb8ae",
+    "bytes": 47596
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000258.json": {
+    "sha256": "dc8aa034e379e652495fb14ac7d44ff88ce32ab71722a3fc93b147980b2f49e3",
+    "bytes": 7001
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000259.json": {
+    "sha256": "786fae991dcb86e0c802a8028b3c0d7c18e016032179b0828a43d484e3a8c10c",
+    "bytes": 26996
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000260.json": {
+    "sha256": "29429f1380913558c2fd855df95b5a348283dbb034f78ddf9ee2f9b6c675b658",
+    "bytes": 21171
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000261.json": {
+    "sha256": "e5364799d5ec45adf2bfc098e765a412e90671f9fd33b3fb53992ca67e56e473",
+    "bytes": 17168
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000262.json": {
+    "sha256": "ba56419e63681f73e4960df51caa88d78bc0162095a39d2bb92c6211d2400ef8",
+    "bytes": 27724
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000263.json": {
+    "sha256": "4b1e8fd53b468530b7e51e2460e9c2c0e11f943e6ddeb94c0fa616caa9fc1355",
+    "bytes": 26057
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000264.json": {
+    "sha256": "d92d680e0bd5f421f01a14ff5984e4853c9552eaa562b4e3f694362209ef143a",
+    "bytes": 28905
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000265.json": {
+    "sha256": "47a20e3859d59a2387ce5b57f61e18ef3720bc2ef8e5aa813d065788ea745d93",
+    "bytes": 23854
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000266.json": {
+    "sha256": "0e8f73fb6cdbf1a8439b47e2b93a7d80582b929669cd4b70be3a3e340b947ad8",
+    "bytes": 49984
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000267.json": {
+    "sha256": "e444c541d5c2786e23098994e78b36133431b6bd8f7904577cdfd6ee04334437",
+    "bytes": 47595
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000268.json": {
+    "sha256": "f35a6049c4a7816569e60b90e33578481d7e7fcd8b918d4146f285ce6059c5c8",
+    "bytes": 15061
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000269.json": {
+    "sha256": "fd1871fbb55298666bfabfa60c488a6dd2944d1419a11bdb308c108dbdb2aa70",
+    "bytes": 31978
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000270.json": {
+    "sha256": "218b196b932e85ddddca2ff04e2337b137c7d28fd736b0aa798e20366780018d",
+    "bytes": 27234
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000271.json": {
+    "sha256": "a8fbe1dfbdafeb2749e15780d6703a6cd03b13acddb3a41ab528d8abedc48a12",
+    "bytes": 29294
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000272.json": {
+    "sha256": "5a13be7fd66f717026f22ab2e5dbe4bf581c2f1a141a5ed04e239d6b75a5f466",
+    "bytes": 44680
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000273.json": {
+    "sha256": "41f810a7abf0b6d52b8eba15edb54fc355d27cfe268b7d95c25bc27c737d2cd4",
+    "bytes": 17833
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000274.json": {
+    "sha256": "eb05f75b11f78916ef884df0807c6270f075c722974b32fa21dcbf729b1410f8",
+    "bytes": 19539
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000275.json": {
+    "sha256": "3103395339563ad18216512a067a7471d71955c1e50d0949ba1d1db4cc236b72",
+    "bytes": 47257
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000276.json": {
+    "sha256": "f7bbd120b9ee09c0d273271b15a559c0e1a80c5e32cc061514d8e72d300b8941",
+    "bytes": 31146
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000277.json": {
+    "sha256": "0a1d02140ae6ccaa2747a735959c2036198d460ba15e410951ef662ca8fde51c",
+    "bytes": 11776
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000278.json": {
+    "sha256": "1aa1eef57568bb68fae0dab1fb5089f6b3205be279226684441a7e26a8f186d4",
+    "bytes": 19086
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000279.json": {
+    "sha256": "2e929b67a7a7615d40a0fe2ae06105d0dd1e66bbf1b3436cd7245f0bb2962074",
+    "bytes": 33932
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000280.json": {
+    "sha256": "05dc1b16093ca1b3cdcabc7d2ef47eb85fbeb55d3bbeafc355f3d047b32fe221",
+    "bytes": 51560
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000281.json": {
+    "sha256": "0395962db6185a5e4ce1b232c041d826b513958ecf62ef0c1cf460ba2c7bbbfd",
+    "bytes": 34980
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000282.json": {
+    "sha256": "9758c6c5e565f0f5441e2eb94313683ef600a3b4f6ab61359d21f889f347c32f",
+    "bytes": 38252
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000283.json": {
+    "sha256": "c770fd6d68f3dba13ec567fb4b7a0dc72baec8b6ca4383602558a87df17e0696",
+    "bytes": 41771
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000284.json": {
+    "sha256": "5d0427b6d3a432175f39aac032972a990c1638f109aa3ae460f2455385b19940",
+    "bytes": 36385
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000285.json": {
+    "sha256": "3dfedf31019d90972f3fa4548e9fbd4a8e0589c1edcf7ecc941ac13e41b6cdd8",
+    "bytes": 6599
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000286.json": {
+    "sha256": "cfe4441c2e9a0930a97114796b057ba22658639e16716aa2407ea589c3834b19",
+    "bytes": 16377
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000287.json": {
+    "sha256": "4521fa0af826999f398a627cd06ae02adf1cdb50a491d507179ae86c021604b7",
+    "bytes": 29501
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000288.json": {
+    "sha256": "1b52afe69bc59d2e51cd8007856fb16cdd48851cb3873a197d7b48caf7df6940",
+    "bytes": 24286
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000289.json": {
+    "sha256": "49a51979d3c6012237fd511b596586931f76cfc5d601dd6c12c4138857f4d3fb",
+    "bytes": 20185
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000290.json": {
+    "sha256": "d31d477b30063c761727dacbfa2eaede5da270d29d96c81e3b2b0b0738bc2a72",
+    "bytes": 29143
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000291.json": {
+    "sha256": "d1b54647fad5beb62dd73b206f7abaffa717046b97932d6ce60aaf272ca68d33",
+    "bytes": 28855
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000292.json": {
+    "sha256": "31858f03792a3b827860684d54a3736bab6e36017be7e9652148302780343801",
+    "bytes": 19746
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000293.json": {
+    "sha256": "b798c5e53a3dbb37c8c8b1d72236dd1704fc32640e696ddaabf259f2b1dbc1b3",
+    "bytes": 17155
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000294.json": {
+    "sha256": "75c4a5ffc5208852f2233081a97d0244ecbb1deb6138f3340995397f734d11e2",
+    "bytes": 25848
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000295.json": {
+    "sha256": "18383ce55635ececc27dbbac72c6b3a938eddb536c154ea02ce11de4f7e8f48a",
+    "bytes": 19233
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000296.json": {
+    "sha256": "04643315b17d8579c59e33dcc2d800af526c8fe2f08e56f56ecf1e25d920f50f",
+    "bytes": 50166
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000297.json": {
+    "sha256": "7a12ef77b00688c521dfc6edb95a455d44b80b4ac5890c5042c94bb6466ae92f",
+    "bytes": 47293
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000298.json": {
+    "sha256": "3aa872a226fe7b53caee415fe14806be438ba331c672d0455a68d12baf967469",
+    "bytes": 40574
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000299.json": {
+    "sha256": "04b4f1bd0bb8277ea7c7e3d20a0d34d893ad51f65b794ecb3542bd2da348ba9d",
+    "bytes": 38384
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000300.json": {
+    "sha256": "0654e8a1344f5a94c65bbdde033b8a72019d1a32e694f8d734f8e655d26817d9",
+    "bytes": 25919
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000301.json": {
+    "sha256": "941f2ff3fb3386418a81304850781835a574b75e71e0af9dde86e8359aa583bc",
+    "bytes": 29810
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000302.json": {
+    "sha256": "156b0cffc3b9a1150a7ebb45ced7e800e24d723a44eb26453eb02cde49eeddbe",
+    "bytes": 28057
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000303.json": {
+    "sha256": "198a550e07912ef719a0b18e6af4f89cf55d6e413d93750638f4abe3c0433a6a",
+    "bytes": 22987
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000304.json": {
+    "sha256": "bf802ae5f5ebd3f6ce31353493353f95a6c3795275ab20939dca23cd5f527d90",
+    "bytes": 30837
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000305.json": {
+    "sha256": "099ce30ca184577a2b500a888c8a2c88de8b84c6045a82e3613db8bce1706519",
+    "bytes": 26044
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000306.json": {
+    "sha256": "fa5235f1013a06c49632753044574557ef658336c1a4dafa217e35b712153e10",
+    "bytes": 49695
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000307.json": {
+    "sha256": "2116858f6beab256d9975084acfff8faedfc1caf643347916ee00332c5872a50",
+    "bytes": 48014
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000308.json": {
+    "sha256": "b1e20cd3413a874b91296de4cf6f1a29793b6994942a1626ed789d0624a1fa10",
+    "bytes": 21960
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000309.json": {
+    "sha256": "2580bfc8c639a42229d25cf3469eacda370e5b8d990ef73b0d7cf2de4febbb6f",
+    "bytes": 27323
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000310.json": {
+    "sha256": "755887921caf4d3ad4c2d2fc934fb18e1cb2ecd1726591b30fcaa587716e75dc",
+    "bytes": 51512
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000311.json": {
+    "sha256": "2819beacecc15a3b97adaf4db4f9448e9dbbf5df96510d1866495d8ca90dbb17",
+    "bytes": 48403
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000312.json": {
+    "sha256": "961961f9a0719c9dde32f73a24a67e0b5c4f1ca72899939010059d1410a1b6b4",
+    "bytes": 28701
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000313.json": {
+    "sha256": "b01f806b5fd4faec1f7e5cd0a86f04ce7dc492fe1ff0cd270806dd9921ce514b",
+    "bytes": 24536
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000314.json": {
+    "sha256": "662b4f7f889c55af0c633086bc57baea71d3f0e929b18ef499e64959868cc15c",
+    "bytes": 48450
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000315.json": {
+    "sha256": "7385a2c16d7b24f7f08278ab82b3de9e029fd4deb4957fe82f64d0c5d60b95ba",
+    "bytes": 51250
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000316.json": {
+    "sha256": "0fcead4561c606d0b18b0160b0baba51d9ae89804162fea4af30e346e177ab2d",
+    "bytes": 27978
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000317.json": {
+    "sha256": "2c090b28b4d15cc8b1071ec46706501b7d4ff4fe405b04ee44b8f998a02de8a3",
+    "bytes": 18437
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000318.json": {
+    "sha256": "aa074c10a8c4f789ea255a7bd391a69dfaeff71ad75a6f01530d7a07f466a94d",
+    "bytes": 40222
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000319.json": {
+    "sha256": "ffddaf4742f35ed2447a30e7ef8438ee0fd6bfe31b1469a729d68792dbc4bd15",
+    "bytes": 36410
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000320.json": {
+    "sha256": "edc2180f89ab661358f974f3001f5660a0409bf6bcfc323f92f82214ef9555b5",
+    "bytes": 47806
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000321.json": {
+    "sha256": "6ad9aa1be0cefcbd0bf0bab5ba0958e34763730e59232732a7be948c7d5b62a8",
+    "bytes": 46551
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000322.json": {
+    "sha256": "42decb8180fb18c4a24b82d0f0cf36dfae9d86d0bf66b7ebcd7a957e4d288283",
+    "bytes": 21979
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000323.json": {
+    "sha256": "a62e1a111b6cdda8722ca4e1ca3ca3ed2a41129d1f73af76b3bf562302ab7f2a",
+    "bytes": 24769
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000324.json": {
+    "sha256": "a701fc5fc5d33b41de0c76961f3dcd4800699a29ecd0a90aa52337681de323e4",
+    "bytes": 46028
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000325.json": {
+    "sha256": "7338797f9a33b6ea73755b50e2f91d31e3402104a62a68338b89a8131b10a205",
+    "bytes": 10332
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000326.json": {
+    "sha256": "42749b787ed0bc0f0236b0df2fa576d6f902481ffa2bbd188d7a572b44d79473",
+    "bytes": 31824
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000327.json": {
+    "sha256": "e21d951d66ff906dd3b4ffb1a9633593fb1467631b3b60f66220ba3c45ef2e56",
+    "bytes": 38433
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000328.json": {
+    "sha256": "1f7386d631d12cdc5aa5bc9688d41b967a5f47bf9103399aa56e48bc7145a1e9",
+    "bytes": 45615
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000329.json": {
+    "sha256": "a3394d0a5d40130290f2373361404c77ab00f8e70a9e9bcf88f8608c3a72e212",
+    "bytes": 10418
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000330.json": {
+    "sha256": "32665fad19056fabc030c1f86cc7cda55c1a12171224a67222855689f66ac6e2",
+    "bytes": 19940
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000331.json": {
+    "sha256": "4533b5def3a6fad0cddd2d4cff3d7f1c2ec115c49526c88455b14a61c69c6377",
+    "bytes": 27716
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000332.json": {
+    "sha256": "aef76eca0d5548b56fc5042d867ac0c073e7b74a77d8500328223c1d0aead95b",
+    "bytes": 39211
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000333.json": {
+    "sha256": "42c760a8351ce47f186ed2b3137ce471a294ce60174b4e87c20e2139e74e060a",
+    "bytes": 33450
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000334.json": {
+    "sha256": "97ec5ac0d609fbc6b77d67768cacaedfbf8623863454bb60b7c4869942d4a7f3",
+    "bytes": 26246
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000335.json": {
+    "sha256": "4ffdbc12f74702e42405737cbb1ba3fa0b46e508d295d746c855e9a8e59e3879",
+    "bytes": 31558
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000336.json": {
+    "sha256": "ca79c5d9800c229f5b2caf48699ba3016e652dda140b8082603d67350d3ea2de",
+    "bytes": 34268
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000337.json": {
+    "sha256": "deae5ce9c5a27aa7b7099219105b3102c0665c96e1df9bb2592b6e17eff70ea1",
+    "bytes": 35854
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000338.json": {
+    "sha256": "e81f7b813cdfc7874731b956dddc8fc1ccc417fef20054e1ffedd54fbf7a7768",
+    "bytes": 28087
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000339.json": {
+    "sha256": "539b8e8ab625730417dd58eb4aa5013d5eff978206547c869565618f1f683d21",
+    "bytes": 24469
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000340.json": {
+    "sha256": "ce82d1e7861b2051ac70bb8903d2174c74f5cf6ef6b885cae29b3855634fe907",
+    "bytes": 21639
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000341.json": {
+    "sha256": "39c68bfea1c30a98c0f238a47cd793e6113098b7c64ca212665442a843f33f60",
+    "bytes": 21249
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000342.json": {
+    "sha256": "073ba5a426e0cf33a942f8e3af25a1e321004d57d73d12dc3cf233d7a92e4b7a",
+    "bytes": 41820
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000343.json": {
+    "sha256": "cdf538300ef11bfe0677972a24903db24af9e1fb2803ec0ecb2c3ba69de064b0",
+    "bytes": 6603
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000344.json": {
+    "sha256": "46c1a608d8b2529fad2dca735e754ceb0dbfab2ca2520c2d409869d505aa4ace",
+    "bytes": 11757
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000345.json": {
+    "sha256": "8e0d52395a1118b464f4ea804412379a8083ed3a622679ff6d4a28eb4b9387d8",
+    "bytes": 49051
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000346.json": {
+    "sha256": "23adcb2441bb47daf6fd0379619dd02d50008d69d65fcfc59d84dfe41d40396c",
+    "bytes": 24821
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000347.json": {
+    "sha256": "908399f7763f842b977c1e3683824e35193636a516c5d16dcb5abb4a0b397a7a",
+    "bytes": 48182
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000348.json": {
+    "sha256": "3f2e90eeca0558e14136a9adcfc1fa10f3aef6a4b5f508d45e49452d8d785575",
+    "bytes": 27623
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000349.json": {
+    "sha256": "4ec7bf2603d24ca0f956a8de8d8ccc4957c7c9393d18fd7983f1253abb199d89",
+    "bytes": 17976
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000350.json": {
+    "sha256": "5f6fd7fcb12ac0be863b34ba0ded3aaaf5f604c75ead90ba06aadfdbb64e7163",
+    "bytes": 41853
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000351.json": {
+    "sha256": "cebb42af0d74c3344f39d1b5053dae1e58db34b6a26f19dee7bd5414ef673c22",
+    "bytes": 45120
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000352.json": {
+    "sha256": "d990eb558f706161ca693008b28ef0b0e47349a98848f7e39197ae8edbe351a9",
+    "bytes": 28282
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000353.json": {
+    "sha256": "7b3f6c3ece8be9d0d8c051d1aafa84af2e2ee15c2622a4b5d6e6864bca0f4cde",
+    "bytes": 45082
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000354.json": {
+    "sha256": "ad6197149483d5a6331d99aff8d87212d405f552795c014f0d4e9fd055154ee4",
+    "bytes": 25708
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000355.json": {
+    "sha256": "e144c65fdcc87a41560d620e971f7cce60322094e749334d462b9cf1a3552c5d",
+    "bytes": 27316
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000356.json": {
+    "sha256": "396acaf1a8aa343e36ffca13b2c5d883a2b28d741393c4db9e66a438f843c27a",
+    "bytes": 50512
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000357.json": {
+    "sha256": "4cffa367a048e5d0fe58e0043ecce6a5f1f0c70ed7be6472ba380e7e740bd887",
+    "bytes": 22529
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000358.json": {
+    "sha256": "2b56aa5f55aab9159f359e33eba0f104f2211feb9593bf7a7b246475c5051089",
+    "bytes": 25976
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000359.json": {
+    "sha256": "3a90336474fe956c1316ce1941d8b1ebadd6c4c2ec8b8fc0aba9ccbb39b1b209",
+    "bytes": 33162
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000360.json": {
+    "sha256": "84caf23f50fce9217f2c014383347429a92c44489c7d2770d278da6b27ac5e03",
+    "bytes": 36200
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000361.json": {
+    "sha256": "13b02c2dee1b08321234425c992b528899d4c10a1b2860baa73bb326b3c1e29f",
+    "bytes": 49892
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000362.json": {
+    "sha256": "369fe66640f06eadb74e9c3cae557a4eaa51d35ce4f7ff097c0a68eb4a06342d",
+    "bytes": 6763
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000363.json": {
+    "sha256": "30cc2a590d6a652a20ee452c14c3dfbfb5453e284896fe5320df773f26496b35",
+    "bytes": 31614
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000364.json": {
+    "sha256": "0fdd470fe53944db470537da468418ec76562b61d360ccd59f9fd52886d419dc",
+    "bytes": 37153
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000365.json": {
+    "sha256": "821f355580746001b914065bb44773acf57a41aa0cc35ab3d47ef0fa09220e47",
+    "bytes": 49015
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000366.json": {
+    "sha256": "17e5f929f5977df510fcea8ad4f36aeadab9acb91497afcf02b88ecfb04b409a",
+    "bytes": 31387
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000367.json": {
+    "sha256": "23915c2d69f0eef5c7caf1427a1dd30de203b7ac591ff6399f2045824327e176",
+    "bytes": 40675
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000368.json": {
+    "sha256": "085c2f00dfad1d5e3532031212d8509db481eff1bbf7e817f3564f4f53c8d942",
+    "bytes": 19782
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000369.json": {
+    "sha256": "e903938ddee67ab1a604e67640fc9d24e40e88f6dc4e8bc98275ee6f6d787b8e",
+    "bytes": 28330
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000370.json": {
+    "sha256": "cf54a573b133bb4581772af4214e3935c4c85487670763c856ee38860bd63682",
+    "bytes": 23885
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000371.json": {
+    "sha256": "b545cf4662cd407733cd2b89937df0fda211ae3f888bb364b332b9c68069e11e",
+    "bytes": 30414
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000372.json": {
+    "sha256": "521e5c94c65b18ebf5b8ab468574ae6e7e2b6cfb591738c149e34439daf001ad",
+    "bytes": 21649
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000373.json": {
+    "sha256": "9c032987c5ec1271a517a48b55bbee47755f09e8994d32fe74d014f666854d15",
+    "bytes": 8698
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000374.json": {
+    "sha256": "08ba56724ee2d1ddcf4922ed3ddc46b8f3e0426294fdc859fcc659e7844bfa85",
+    "bytes": 32637
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000375.json": {
+    "sha256": "c745fe35748e00f24ccf6d9cf37301cbe6838087062afd5af69f48c0a78bfcb4",
+    "bytes": 34668
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000376.json": {
+    "sha256": "5b8d101a7213bd715fbccfc5d2e14c0f24e8a4fd368ad34d8708ab396f15ef71",
+    "bytes": 43397
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000377.json": {
+    "sha256": "89dae4a57c56d15d86cb70cdc4ff734876923d63709830031f2ddf4e15312bea",
+    "bytes": 37220
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000378.json": {
+    "sha256": "48e544984f729e5d506f59550a5e3343377072605d864572d5c2d8909e6cf0cc",
+    "bytes": 6849
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000379.json": {
+    "sha256": "aa39b4949526cd14cf732588c92f700bee027cebb711b8c67cb6aa0c84486ada",
+    "bytes": 25951
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000380.json": {
+    "sha256": "3375a4e41a67cadb0a94a3d6800bdd95552ffec7f591ff486a315abb6dffe22d",
+    "bytes": 36824
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000381.json": {
+    "sha256": "336d5deb50f855188d30399cf5c0499102926f76af3c831b3174f9de4ce0e683",
+    "bytes": 39334
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000382.json": {
+    "sha256": "f27abb1be0ffdac6280dc092295b2132189784eb8cbdd3c4e44cd0a74ef4a501",
+    "bytes": 47709
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000383.json": {
+    "sha256": "2b5a20a5c8c90058ae6dd7becf0da2d4ec9e381622029ccb695a1221dabf9528",
+    "bytes": 9964
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000384.json": {
+    "sha256": "f96acdf5d2b94c22dbb323370bd1139a14923575c37d62b57ece3d2fe9f7558f",
+    "bytes": 33148
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000385.json": {
+    "sha256": "3d0ffa1b177b9a604687ab22446cd1ee1d5739ab78519cdaf9a5ee7daf3fa612",
+    "bytes": 30850
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000386.json": {
+    "sha256": "7136e403d38252a21db23aac94040a992ce2d5ef749b95fb943701921ea3d3aa",
+    "bytes": 33471
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000387.json": {
+    "sha256": "8aa837ff67d4d28cbcbed0c7d2e94bd8705e83f945b7e181cf425917e32dff35",
+    "bytes": 24867
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000388.json": {
+    "sha256": "fd3caa00757f5ef089e0f725b07e5edd25a47976752f9dba62c0e224126ef4e6",
+    "bytes": 31602
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000389.json": {
+    "sha256": "4efa7d9a7cb578788cd3cf5cf3b18fb2532b53e9a79ccb62761779aaaab9123e",
+    "bytes": 31577
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000390.json": {
+    "sha256": "73462bd8fced2c05d5877d3082bded33cf55271761a99a0e6196670c7e6cc879",
+    "bytes": 26461
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000391.json": {
+    "sha256": "cdc433d23a41bd03aafde5651bf3c4559078f05045078dd511b55a67b934d7ac",
+    "bytes": 6912
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000392.json": {
+    "sha256": "c6fcc8468a43821542362a44f0d70ed98d5e480eb22c48fd3cef563d50097ab2",
+    "bytes": 20716
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000393.json": {
+    "sha256": "9a0ad3c180d49196689b25495219bbf6644a2a18f45c5fd6d1741444c7676245",
+    "bytes": 19592
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000394.json": {
+    "sha256": "632e4e35307359bdbdc4f88a166a6ed0a7d477d9ab5f85e0b0018768c5b741fc",
+    "bytes": 11586
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000395.json": {
+    "sha256": "80928cf2353556faf7f62cd1aa0fcb5623cc3ec710ffcbc4d012d3e1bb5f689b",
+    "bytes": 36777
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000396.json": {
+    "sha256": "5491c65d167b05117eb8310aa26124e92f1bbfc2f5b5425183145d5be0d0567c",
+    "bytes": 11781
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000397.json": {
+    "sha256": "c036a71b0d6570ec76573d4ebfeffc346382409bfc57c44c56b1dcc3874d0c1e",
+    "bytes": 17491
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000398.json": {
+    "sha256": "0a505838b43bd49facb645ce8385c65232f403082058432bb75c4459f7250107",
+    "bytes": 34797
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000399.json": {
+    "sha256": "6aeb10ea3b3c0621ff73e2c2dc38ff0e7a719205223003405bc9ddf7adeb445b",
+    "bytes": 36799
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000400.json": {
+    "sha256": "586cfb9cb2f88358eb78fce8e3929169b2dba44edb09d978ad5457ac17aba688",
+    "bytes": 19909
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000401.json": {
+    "sha256": "523d87dacdf0bae1180db422b3a300a965fcd17f77a09d8dbb9488bdab70d92e",
+    "bytes": 17591
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000402.json": {
+    "sha256": "7ea3bfce7ae84979f779ae6eaf46240e0bce438e8a8c53757ef0c347619c9005",
+    "bytes": 47559
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000403.json": {
+    "sha256": "6e9d0c4005523b3c328e1030c99e12e5d5027de157a7b603eecaace916c39a76",
+    "bytes": 19787
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000404.json": {
+    "sha256": "95b27a60388831d7507072319db95621d7cb3d4151d190d4954f11023edfb5dd",
+    "bytes": 32578
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000405.json": {
+    "sha256": "468057ee46dd528857ff942b9868167fdb9c09a69e6c75143539e040a9776a4c",
+    "bytes": 39072
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000406.json": {
+    "sha256": "d5f3ccb99d88da0981b95d1986d1f1ccf0d3a0ebddb0a1589dafe5349b2511c7",
+    "bytes": 31364
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000407.json": {
+    "sha256": "b80a2b723835365d5f079e3c8a8c03cbffd1c11f6485f4cc6077e0b79e71cb1f",
+    "bytes": 31332
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000408.json": {
+    "sha256": "79b73cf3733bb442631e884c52c7d78fbbede3d962210c0b2b1084a8b0331437",
+    "bytes": 17082
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000409.json": {
+    "sha256": "79c3484ce00323f95e066f2c02c3ed94f2fc6512fc5a27bd9f6456d398dff8c0",
+    "bytes": 24296
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000410.json": {
+    "sha256": "a4a68cefdea1e74ae529bedcdcf829710936984c2c964d888ef8014939d73afb",
+    "bytes": 35601
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000411.json": {
+    "sha256": "38cc29de79b87aeca0c23693ef1af1543814aa58f040dfbcbf39cc747e2b1a10",
+    "bytes": 24501
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000412.json": {
+    "sha256": "eabc8c744b5fcd2113c417522c8d15bfa832e133f818fb6304d13c76146f7254",
+    "bytes": 19248
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000413.json": {
+    "sha256": "482b24ac0f43d4af4a5c42ddae6d3f55aa15f449be000b03ba309e4653b51817",
+    "bytes": 15104
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000414.json": {
+    "sha256": "44d5f72840e2ff209aadb4b64d68d8d400cccab933664273c1a218ea65bcce2d",
+    "bytes": 8474
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000415.json": {
+    "sha256": "dce5a9687728aa479de926bcb09727aabdd5ede17afd5e0da2bb2fa82363d5f2",
+    "bytes": 28218
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000416.json": {
+    "sha256": "aaed29ab93cf309382f90c63c0f0f412fa824cfcded431967515ef76162c82ba",
+    "bytes": 30674
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000417.json": {
+    "sha256": "daf825c0a1804ca374b767a4bf0e10724eb60ca31baab158fa5bdebaaebdb322",
+    "bytes": 17749
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000418.json": {
+    "sha256": "0605dba10791a126418575504bab3eb0805ca3908c0a149e563f67174b2bb87c",
+    "bytes": 48718
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000419.json": {
+    "sha256": "dbb917fb1a7640082f146d38624d2e28982b2d92513686d1fa1718d30276ceee",
+    "bytes": 21444
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000420.json": {
+    "sha256": "262009a984f92f3ee2a3176411c42eab1fefe217e96a2fa39c53795d4515e3b9",
+    "bytes": 47199
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000421.json": {
+    "sha256": "403d11d7b4c265cc64b936fe385c2467e17d52aef0f10504bcabf18ad3a6db92",
+    "bytes": 16410
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000422.json": {
+    "sha256": "e801a300060dc31cb5a8ae008503edd95475e2738898171823fc37fd1e9312fb",
+    "bytes": 6491
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000423.json": {
+    "sha256": "b8e885b3eb5649c023fcf67f78a557f185328023275b5f0bb0753acf00370ba9",
+    "bytes": 34338
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000424.json": {
+    "sha256": "ac1d1ab0ee614f0cb47664ecd8530c74d727ff0085c8d0953c74e50fb1ca932b",
+    "bytes": 42125
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000425.json": {
+    "sha256": "631a0fb973bfc193e5f520924103b7bde08ad4263d242064d1e2def8f9fcdfc4",
+    "bytes": 34405
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000426.json": {
+    "sha256": "1e0311aeccf66526152a0ca0dd95ef308ac3bf0a5bd1816791fa5235c6f52f25",
+    "bytes": 48008
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000427.json": {
+    "sha256": "002d62139335ccc9b6547263ed555fbb7d656289130bc467093685b977c26089",
+    "bytes": 31089
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000428.json": {
+    "sha256": "8e286df14d4969fd8cdf509663ba380eba422a005bb2a6f4d7a21076e3f6c441",
+    "bytes": 21879
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000429.json": {
+    "sha256": "dd366fff3d28448bba22e13c00d6f0e51515259b94f0fd731462b05cdcc684de",
+    "bytes": 19931
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000430.json": {
+    "sha256": "9cdc0368bcf29a2a428adbf4df9f3f65e36580d81aadb57df9440575de56c9a9",
+    "bytes": 50506
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000431.json": {
+    "sha256": "58be3211f70fe8a0ae8e7d646f35a7270a5d8e4d84de67b84296d9816abdff90",
+    "bytes": 22192
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000432.json": {
+    "sha256": "9a2779cb1a2fd968b1e29003459a78a6d048d5e3b3b8da0b4e722aee1c868d84",
+    "bytes": 40305
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000433.json": {
+    "sha256": "f2e841431e24b172b219c358d5aecd14d1f5a50e258a5f79aef96ab1d486e139",
+    "bytes": 47888
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000434.json": {
+    "sha256": "d4afe1e6285a2497aa4de235caaf59c0efd00095d1a96716d89081fcf915b8ff",
+    "bytes": 33244
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000435.json": {
+    "sha256": "c45309927f2523421f08df82cf17b2c17e384943f2102aca1f5cf1554e021518",
+    "bytes": 32176
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000436.json": {
+    "sha256": "94bbbfdcfb4a5e6e0c99e5e9b3c8ea489029b60eac77e08f1cb8f04b3852f98e",
+    "bytes": 34255
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000437.json": {
+    "sha256": "954f867b0f3c570bda614afa1b6f0ca096e8b1b7919bb826e8049bbfd80c5ec0",
+    "bytes": 32845
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000438.json": {
+    "sha256": "0a9642149139c352d6c743ae5695792491557a2d8ad0ca020b484c3dea8f60f1",
+    "bytes": 23047
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000439.json": {
+    "sha256": "6d668ebf344da3511853efd682f954732525ac5956c0cd1567ff9f59e5d01ad7",
+    "bytes": 21544
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000440.json": {
+    "sha256": "52dba983ceb138f39f438c60dd4310a310e00951cb896648a5f3884d2a98c955",
+    "bytes": 30458
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000441.json": {
+    "sha256": "677c3b8d807be1c331125bfdd2f05670618ae7ae58924be39a3c3bd201664af0",
+    "bytes": 31924
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000442.json": {
+    "sha256": "aa6dfdb8102472b85c7c69f56c416163994f544bb5644c865db29606d3423e00",
+    "bytes": 26165
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000443.json": {
+    "sha256": "11c1d16c528948432ce018f5af74b0612fa0893a84d95a8259366db92c5cce64",
+    "bytes": 14720
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000444.json": {
+    "sha256": "6af26515154992409c678a02dec68f16d64fbb5725083174dbb42325a684a76b",
+    "bytes": 35131
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000445.json": {
+    "sha256": "4bbf306cded2508cecdbb178bc27107269b6aecf77c36d03ec131a42f583ac6a",
+    "bytes": 48865
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000446.json": {
+    "sha256": "69d58b044a881aeca5fddb1813982f96cf5d407670dfa734c8a82cad7f2072c2",
+    "bytes": 21952
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000447.json": {
+    "sha256": "30404ed2453a08ac8b21a6c2ba0d4176d742aa5a155511b3126e19718304e403",
+    "bytes": 46132
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000448.json": {
+    "sha256": "1f2f5021efc3bcf60fcf4a3c09eb8979a36ee5dff5ca37ce05ae92edff93b003",
+    "bytes": 31907
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000449.json": {
+    "sha256": "ee6b5cf82ed88cad51d7e0a112523a57ed7460d0f1fbdb64e5ea302ba54a2d66",
+    "bytes": 33978
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000450.json": {
+    "sha256": "18d2d9c5dfd2ea63c47c0c85a62888d4a88984fc6719bc77671fe618f7a8deab",
+    "bytes": 33911
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000451.json": {
+    "sha256": "17d3ae225abb403774910c50dc1b15d9750c0f671a44195dca00b114a72a4d04",
+    "bytes": 37774
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000452.json": {
+    "sha256": "044d4e53e6044174aebde823590fe92f84321233d89cf96896b93dc34d8512fa",
+    "bytes": 16348
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000453.json": {
+    "sha256": "3dc2822515039fa78b4d44c42d8dc55340ef039b28c437e5d0398abbc0ab4bd2",
+    "bytes": 50749
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000454.json": {
+    "sha256": "526031c38b9c8617983c3d47dc16aacfcf75b539cd3a8ba8bcc00ec857d5c0d5",
+    "bytes": 32170
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000455.json": {
+    "sha256": "2224249283e845946c04d27141957b1a4e53ba2e5b27e3df08f4e16b9b19eb87",
+    "bytes": 28241
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000456.json": {
+    "sha256": "76d0791e7c4af5444325934dab59869f978b7691acbaf9502919993e2286c046",
+    "bytes": 6958
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000457.json": {
+    "sha256": "e5deac82d2ed5f45674b4ac72315fdcc0272d1f624da90299bb1cafff669d23d",
+    "bytes": 31625
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000458.json": {
+    "sha256": "81566eb4414066e19816b7a2d130b4788283a110d726fe72a972f6c3a873eeeb",
+    "bytes": 22567
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000459.json": {
+    "sha256": "b68b28319a399f7d6dac8a75d3d1b045f1ad8d9fe742551890bb742e477e6472",
+    "bytes": 21721
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000460.json": {
+    "sha256": "969ea7c154581089f337faecaca24bb349cdbab668cd17a49dbc70cc728eef34",
+    "bytes": 19100
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000461.json": {
+    "sha256": "539b075383531c25d02f53898efa0e5fbd749cec56b7231c092329f70341349d",
+    "bytes": 30603
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000462.json": {
+    "sha256": "0cd34945cbf16671dade1386afec51a359c543a31fd52ddff5070de01c757f42",
+    "bytes": 48066
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000463.json": {
+    "sha256": "39d16d97a50017c0ee48ed42a82538a1969d67a142380813df7afea7548be208",
+    "bytes": 40179
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000464.json": {
+    "sha256": "929b88fe534dfed15ff58b700f50584a3bbc2c6d14cdbe469cce8ac3fb269233",
+    "bytes": 15065
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000465.json": {
+    "sha256": "c196da4d112aa52585e2138100532ed640ce4621824e484197baf26f698ad463",
+    "bytes": 30882
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000466.json": {
+    "sha256": "866a592012b23cc74fe46dbc634d69b46fbfc67aab55640230c49290f7f68490",
+    "bytes": 34930
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000467.json": {
+    "sha256": "fd6a1046f5fe60b37f6da7e3e70aaeafe7e0aa93cd02e8327a6dd4948b3b2ec2",
+    "bytes": 26886
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000468.json": {
+    "sha256": "a7d699fc681bc06bd0d7a4d3300210d307d257aa40a75d06a8a9cd426d07a5aa",
+    "bytes": 29341
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000469.json": {
+    "sha256": "1680288d35b32aa6d2f3d017786c43d12bdbcf4edde2a1f1ca6436e33866e82a",
+    "bytes": 35808
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000470.json": {
+    "sha256": "58ecdc2015c07b30b473c00a864394703fcf27fb875c59ebcefef153396af94d",
+    "bytes": 33353
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000471.json": {
+    "sha256": "0bc64a93c1c27ed2c3cc96f8c46a8321405d6e04bf4117e899406b8771ab7339",
+    "bytes": 46010
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000472.json": {
+    "sha256": "fe6f69780ff12f48eafd5b322454ac9e280698382e6e7f7a90a4211fd87c1569",
+    "bytes": 30295
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000473.json": {
+    "sha256": "cc0306a5b70fa5fc7f3d249c8dd72cfeb6a5cab07adde09b17bb65fa834a723d",
+    "bytes": 48196
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000474.json": {
+    "sha256": "f5b342a959445288f21b641cb323cc0b6e874f249e7075d64ac5b749674bb36f",
+    "bytes": 23477
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000475.json": {
+    "sha256": "76a1aa1e6f654dfda63f5f4b7eb7b838880bb8e4cb9afddc99172cede084db57",
+    "bytes": 23906
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000476.json": {
+    "sha256": "3478a93c1b8aab18b212e96b3be344595cdab311e6b3d4f9f563540a0b7b3057",
+    "bytes": 27098
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000477.json": {
+    "sha256": "cae8419a7e51549590f323c71582ffe774229e579406f1b7731321f9f3b6e7ee",
+    "bytes": 26003
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000478.json": {
+    "sha256": "ae6803911448d48abd8bf177f544fc888169b3520b38e7fd928c600293aeeec9",
+    "bytes": 34141
+  },
+  "outputs/g1_pass8_estimation_v1/games/g1_pass8_estimation_v1-g000479.json": {
+    "sha256": "20c59383c0700d4e7394f6fc010e45ab21e9c8bb4f945111df75be139af13568",
+    "bytes": 39225
+  },
+  "outputs/g1_pass8_estimation_v1/games.jsonl": {
+    "sha256": "2b28a2fab2262dfced9a4e3f965fd3edbc6239af7d1d401b409d0ee2f638a023",
+    "bytes": 537614
+  },
+  "outputs/g1_pass8_estimation_v1/manifest.json": {
+    "sha256": "af8a907b72e96a3258360e3be8d6b345a67d1266aad671f85cf796d7c6c1c70f",
+    "bytes": 4505
+  },
+  "outputs/g1_pass8_estimation_v1/plan.json": {
+    "sha256": "3b7cc3abdc210f602e08daeb6fef230f7c2bb230f70d6c7275f730a81c731488",
+    "bytes": 188376
+  },
+  "outputs/g1_pass8_estimation_v1/preregistration.json": {
+    "sha256": "cfe65b3f20b6e2cefdf620a27e501333c5798ea0801ee1b8881be2c010ff76fa",
+    "bytes": 11906
+  },
+  "outputs/g1_pass8_estimation_v1/source_lock.json": {
+    "sha256": "8f3ee3f3ffbbfceb681f823376b0b9345bc30c6560b90a89b895b091d6bcee24",
+    "bytes": 3829
+  },
+  "outputs/g1_pass8_estimation_v1/validation.json": {
+    "sha256": "bc9c1f2dd41fab2860f18b78140eab3dcb1acc9d859acd130e774ebe52343b1c",
+    "bytes": 53620
+  },
+  "run.py": {
+    "sha256": "a7eded9b6df4aae86af8b3241333cf33492b3085cac1acd8f887ac7d434c10e0",
+    "bytes": 675
+  },
+  "scripts/analyze_d1_cost.py": {
+    "sha256": "fda33183980e3867360ba3e7596ea218f2caa08c7733f1f6f5bc103ce5267a87",
+    "bytes": 3019
+  },
+  "scripts/analyze_d1_estimation_cost.py": {
+    "sha256": "92c0d6ebda6aac6ff450ead686f2b915e741e657448d2706c9cd9aa5234e6b4a",
+    "bytes": 4261
+  },
+  "scripts/check_d1_estimation_analysis_independent.py": {
+    "sha256": "c8cdd2888d78988fc8dafc6cebf5989842336476ac5a12dca28deafa41fde513",
+    "bytes": 33343
+  },
+  "scripts/check_reproducibility.py": {
+    "sha256": "99af5846fb8b4ea85ef929d5f71819342d8c9e7e1aa88550576e1df2fe937e43",
+    "bytes": 1916
+  },
+  "scripts/measure_d1_chunk.py": {
+    "sha256": "31094c40df7a12094c2ffe42530b968a51e182a87c57f1b0d868c4d612b2a413",
+    "bytes": 2816
+  },
+  "scripts/measure_d1_estimation_chunk.py": {
+    "sha256": "68e7a02f1bbf795b4913f8aa726c59dbd4a6fa0897c6b537f74061baee2f758a",
+    "bytes": 3156
+  },
+  "scripts/measure_g1_pass8_chunk.py": {
+    "sha256": "9c2ff90f5cc687f1e46b4a12d838d7b3d0319730a2ad9e8e858f26d6c9c4251e",
+    "bytes": 4111
+  },
+  "scripts/measure_g1_pass8_estimation_chunk.py": {
+    "sha256": "448c2fc4fa431da582ce185f4c1565c42affa47ef573a7873bf9cb6b2e876359",
+    "bytes": 4134
+  },
+  "scripts/monitor_run.py": {
+    "sha256": "fe983ba12b5ad3c4b91acbc8cc98e343febb381566b787a1f196a7bfbee3295d",
+    "bytes": 1525
+  },
+  "scripts/planning_analysis.py": {
+    "sha256": "65cb199c94fdd0d446ca09629560d8ffa9b0320ca839002a8829cb5ff89c7481",
+    "bytes": 22283
+  },
+  "scripts/prepare_d1_estimation_sync.py": {
+    "sha256": "7a2849bf1e221f359bb899157b5fe1b590e4c8b20fb09a029de39f1344f81469",
+    "bytes": 2247
+  },
+  "scripts/prepare_g1_pass8_estimation_sync.py": {
+    "sha256": "7c31d42ce1e14026e7bc5453083ab33851bec8b1bbf4cbe3f1938f6a1512baa4",
+    "bytes": 2493
+  },
+  "scripts/review_games.py": {
+    "sha256": "a1b069157b5def0caaa1e875bc3801a5a00c01e2f161459e6d87f8f2671c6cbe",
+    "bytes": 2857
+  },
+  "scripts/run_d1.py": {
+    "sha256": "b57355e858664b1aea0ddb657ec18a96546dcb5f2bc604d5abe2c3e8657a003c",
+    "bytes": 279
+  },
+  "scripts/run_d1_estimation.py": {
+    "sha256": "648a10a1f8306301c21c6443a7d51f5122917f4e8aa406d3c3c57fea78873fdd",
+    "bytes": 290
+  },
+  "scripts/run_g1_pass8.py": {
+    "sha256": "8bfcc3ddd4f1aba583a1e93365f3c542508d391385a92b5a85225df17fad3a15",
+    "bytes": 280
+  },
+  "scripts/run_g1_pass8_estimation.py": {
+    "sha256": "45dc13638695385915efc20882ef1d9e41c18a6b1014d1a39801fd91e7f865ef",
+    "bytes": 312
+  },
+  "scripts/validate_run.py": {
+    "sha256": "7db1dfeed46c9475064f57bb4d13ad8f12937fc55650db764e8d23fd4218a103",
+    "bytes": 6305
+  },
+  "scripts/verify_d1_estimation_design.py": {
+    "sha256": "e33b84f2ddf67a7bcecb8de3273aa083cc81284ff9ebbb234d569413f88f3ba0",
+    "bytes": 2863
+  },
+  "scripts/verify_d1_estimation_reproduction.py": {
+    "sha256": "f507a08be702e26e5eb225eff640968fb55436dfaa5d684f852b2a3f3ebecbaa",
+    "bytes": 1999
+  },
+  "scripts/verify_d1_reproduction.py": {
+    "sha256": "972a8900fa0780cf6075a8692c50b610c2f202b246685e2d0b6c8a0665bf97de",
+    "bytes": 1782
+  },
+  "scripts/verify_delivery.py": {
+    "sha256": "8355a835c4706955b7e6fd5ddc9f14d4d30dcf4fc0e5250f71459a0bb5d13f6c",
+    "bytes": 3983
+  },
+  "scripts/write_planning_report.py": {
+    "sha256": "7f9bc9a6e7021a4703449beaaaf6d87ef2889dc70651302af02d461c83edc7f0",
+    "bytes": 19559
+  },
+  "src/winai_loseai/__init__.py": {
+    "sha256": "6349ff02564d262a553816046287129771d4babfe1c026a559d86d5042a9a905",
+    "bytes": 552
+  },
+  "src/winai_loseai/__main__.py": {
+    "sha256": "307299fda7b77d22c64cb51430ec75e5f59d78e9c948786afb3b2544fe45e4b7",
+    "bytes": 79
+  },
+  "src/winai_loseai/agents/__init__.py": {
+    "sha256": "e56a772dd37124936ea0f1e0f83e54d44c76013372f4b8dbf6ee30ba661546b0",
+    "bytes": 77
+  },
+  "src/winai_loseai/agents/factory.py": {
+    "sha256": "b9b1ac041f649d205d7eecb03f36779b237be899b8cf0735ea6e507a90820fca",
+    "bytes": 654
+  },
+  "src/winai_loseai/agents/random_agent.py": {
+    "sha256": "b1a808fe15c9c17f444f225dca0b24b1f54ea3c818a844b020107ca9ae0be9e6",
+    "bytes": 745
+  },
+  "src/winai_loseai/agents/vector_mcts.py": {
+    "sha256": "a60114ee485397ab6f39255b6e882d840ea112253699f8fb31e26231330d12c7",
+    "bytes": 7097
+  },
+  "src/winai_loseai/analysis/__init__.py": {
+    "sha256": "784e120d9280ba9741e816798291d4acaf3da75e825ee716b2db09055e690441",
+    "bytes": 64
+  },
+  "src/winai_loseai/analysis/stats.py": {
+    "sha256": "22c7f9695e7c3cfe9d7f151e94a08f2c236cf572725b44e36ef15de7894a938b",
+    "bytes": 2243
+  },
+  "src/winai_loseai/analysis/summary.py": {
+    "sha256": "e123f0fd5374096114c158895ea7a9556f4975b03d2113fd893eeddf83fa4c1b",
+    "bytes": 13218
+  },
+  "src/winai_loseai/cli.py": {
+    "sha256": "069b212b88a4c393550aa40936fb62613d9792e54d848006fa49d6e6e49b0dfc",
+    "bytes": 12631
+  },
+  "src/winai_loseai/experiments/__init__.py": {
+    "sha256": "41529a5db7d5a32b89fd0b258c6c8bd499082f8f19256c1736d31c4f6975cc80",
+    "bytes": 53
+  },
+  "src/winai_loseai/experiments/d1.py": {
+    "sha256": "d5ecfad438579d4b2acfc502f00714d495a73620c06dd64f62bd30f2440338fc",
+    "bytes": 31047
+  },
+  "src/winai_loseai/experiments/d1_estimation.py": {
+    "sha256": "3c81dae2d3c03754e9dc84cfd1c432628b16212f1b3ebd44f6f232d7be071e9b",
+    "bytes": 34620
+  },
+  "src/winai_loseai/experiments/d1_estimation_stats.py": {
+    "sha256": "18881afa7df0068e0883a609285087a58e749ffa98b7484a18635448a74bbe69",
+    "bytes": 17886
+  },
+  "src/winai_loseai/experiments/g1_pass8.py": {
+    "sha256": "b854b6ff50176438f99e3a5e6b3be80d16f1d2c4bed7cd8b2b053fec62536f7f",
+    "bytes": 38077
+  },
+  "src/winai_loseai/experiments/g1_pass8_estimation.py": {
+    "sha256": "5aa6958aafb442f0e40e2eb6f4332d417998885c71e9ee2dd696fed0d7d8418c",
+    "bytes": 40210
+  },
+  "src/winai_loseai/experiments/g1_pass8_estimation_stats.py": {
+    "sha256": "79e74e5e0c50d55ad95dd664927448c71bf9fcdab850fd3624daa20a4687e9c5",
+    "bytes": 18453
+  },
+  "src/winai_loseai/game/__init__.py": {
+    "sha256": "805dda25e842076434540c187050980190d5e1bec5a0efa948840b02f2038be4",
+    "bytes": 81
+  },
+  "src/winai_loseai/game/scoring.py": {
+    "sha256": "e8ac325ad492c159bef770f09ecf0fbf5cbe9920d985042a7908fee45cffc3fd",
+    "bytes": 2733
+  },
+  "src/winai_loseai/game/state.py": {
+    "sha256": "637752d900a0eb3b5e1e72d5648cfa89a4dbe7eb1bc0447db05068689b7eb292",
+    "bytes": 13443
+  },
+  "src/winai_loseai/identity.py": {
+    "sha256": "a44d60154f10fbbf5c484fa12b7bbb2dc1bf42d3c8f3713ecbdf69aa4d5579e1",
+    "bytes": 2002
+  },
+  "src/winai_loseai/league/__init__.py": {
+    "sha256": "aca626bdbaa8c111260a6c9c96db1b72c9a3bd568e20ed719ea4d31b060a81d6",
+    "bytes": 52
+  },
+  "src/winai_loseai/league/batch.py": {
+    "sha256": "a244856c8eccf0568aecdfbf9c3c54530084a7e1dadeea167877175f51031704",
+    "bytes": 5646
+  },
+  "src/winai_loseai/league/pairing.py": {
+    "sha256": "2e6f91bfffdac5736aa6772decfb4e0b3a4d7cd8bea03dfaf6679f3ffc047d81",
+    "bytes": 3602
+  },
+  "src/winai_loseai/league/replay.py": {
+    "sha256": "7eba73a4162424434ccb5496d2a4e11b3a367a10419dbf36b051aa3a6d83e7d4",
+    "bytes": 6335
+  },
+  "src/winai_loseai/league/runner.py": {
+    "sha256": "ce9c4f17df168a89fdcd52206b16d256d80ed9275b889481f3e949c187902aee",
+    "bytes": 9645
+  },
+  "src/winai_loseai/league/runstore.py": {
+    "sha256": "2f36e887e59bfabf2007c65383e6346d2056bbf118ff6588953653aa3ef82250",
+    "bytes": 21903
+  },
+  "src/winai_loseai/league/seeds.py": {
+    "sha256": "3ce341b41f82a0af88934366aee41e3b2c5d04ceefeea08ac12620668b7c2d82",
+    "bytes": 424
+  },
+  "src/winai_loseai/league/storage.py": {
+    "sha256": "55ff502ad1a6b29a8faac27c5a4f514751ba0ae992c9263c7bff179acce7c719",
+    "bytes": 5920
+  },
+  "src/winai_loseai/provenance.py": {
+    "sha256": "33a4370d981b646148ab2a3e36853e5ca896749229f0730abc50c11ab2d4fdad",
+    "bytes": 1595
+  },
+  "src/winai_loseai/rng.py": {
+    "sha256": "adcb764bdd479656185893c661d5aadb3ced32d030cf7e101208c163892441ce",
+    "bytes": 1611
+  },
+  "src/winai_loseai/spec.py": {
+    "sha256": "9ca42cec49b39dd2bddee1eac67cef5fe5a08170cbdbbe70ccfc6c3991939c24",
+    "bytes": 3736
+  },
+  "tests/__init__.py": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  "tests/_helpers.py": {
+    "sha256": "649d7ec9f411afa88d35ab0bb7315bfe00b91975030261178b489de8e2f372cd",
+    "bytes": 1273
+  },
+  "tests/test_agents.py": {
+    "sha256": "e36a047bb7f03eb8b70cd078abfff0855fe008f8f34e172d95dc7bd16c005153",
+    "bytes": 6993
+  },
+  "tests/test_concurrency.py": {
+    "sha256": "818360c52ce290507c170dccf810800652cdc2b042f59327b604bbd814991f98",
+    "bytes": 2038
+  },
+  "tests/test_d1.py": {
+    "sha256": "340f60882eb7d3a50c7ffe1f75127686d4958f96ff59cbafefe3571a48032f70",
+    "bytes": 10653
+  },
+  "tests/test_d1_estimation.py": {
+    "sha256": "91082943ca9cb8a5e535d1a2e05158684ac90a5468b7b7c8077acbb060c799fc",
+    "bytes": 13170
+  },
+  "tests/test_d1_estimation_stats.py": {
+    "sha256": "726195263e7f29ebe7244522daba18ce4f7a3e1f0df6a16f39b72c3f3f0d8343",
+    "bytes": 12237
+  },
+  "tests/test_g1_pass8_estimation.py": {
+    "sha256": "d3d83d7d7aa1f9d32b3735048b6a1c850d146578947f0a319e937cfe91c879d8",
+    "bytes": 7867
+  },
+  "tests/test_g1_pass8_estimation_stats.py": {
+    "sha256": "f27e483bce0ed20277ff5ffcfe3639824cc0f1b2a8084da9eef5bacb05679575",
+    "bytes": 11655
+  },
+  "tests/test_g1_pass8_pilot.py": {
+    "sha256": "4a00aa3568341e741b92731420f5929d0a0b32ac3a943107407b2ff1cd7c674d",
+    "bytes": 7320
+  },
+  "tests/test_g1_pass8_rules.py": {
+    "sha256": "38e33aa7f8c0ba614dc64d820660e8d49b014b2b1f6b6764d2fe61dd04917b97",
+    "bytes": 16089
+  },
+  "tests/test_identity.py": {
+    "sha256": "28f20d5dec53621bfc89300fe4b1d7ea8987f0bb746593f6e5988b3acab99fdb",
+    "bytes": 1655
+  },
+  "tests/test_planning_analysis.py": {
+    "sha256": "46899b601a2ac354da6419566a51b362073e43f711f111519849a2be0a444bd9",
+    "bytes": 5362
+  },
+  "tests/test_properties.py": {
+    "sha256": "70ed5ec98e18b7f0f81ed9588c11255eb004627365d7c51caacf20c31ae0e609",
+    "bytes": 4370
+  },
+  "tests/test_provenance.py": {
+    "sha256": "509bc2c8f2622b538011fe4e05ed1987ff323af9c3539bdc2287819831393100",
+    "bytes": 4007
+  },
+  "tests/test_replay.py": {
+    "sha256": "93e2b25cb4ef6ab2b1150b2efb31e6360a2395ef4a5e42fa6df656cabd81c740",
+    "bytes": 4201
+  },
+  "tests/test_resume.py": {
+    "sha256": "fedf3e43f9f1b68350de04253b5c7370795db9b070c131f2709926c97f16252d",
+    "bytes": 16044
+  },
+  "tests/test_rules.py": {
+    "sha256": "053e5670426654e7e22c34874c5377244a742b5926f2e771ec4fbcd61328ec2d",
+    "bytes": 10994
+  },
+  "tests/test_storage_policy.py": {
+    "sha256": "eb18aedff1ac1d3290b37d682caf1159f92e521a6251963f0fd7fc4ca317e0d2",
+    "bytes": 3338
+  },
+  "tests/test_summary.py": {
+    "sha256": "581f2fd97b8b37d7ed6c60695383412e22bb13aa6f1cb8d9ed4ecfe867ced268",
+    "bytes": 4447
+  }
+}

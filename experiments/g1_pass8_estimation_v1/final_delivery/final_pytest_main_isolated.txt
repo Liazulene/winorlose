@@ -1,0 +1,20 @@
+..F..................................................................................................................................................... [ 26%]
+........................................................................ [ 39%]
+........................................................................ [ 51%]
+........................................................................ [ 64%]
+........................................................................ [ 76%]
+........................................................................ [ 89%]
+.............................................................            [100%]
+=================================== FAILURES ===================================
+_______________ GuardTests.test_import_does_not_load_production ________________
+
+self = <test_final_verification.GuardTests testMethod=test_import_does_not_load_production>
+
+    def test_import_does_not_load_production(self):
+>       self.assertFalse(any(name.startswith('winai_loseai') for name in sys.modules))
+E       AssertionError: True is not false
+
+experiments/g1_pass8_estimation_v1/final_delivery/test_final_verification.py:66: AssertionError
+=========================== short test summary info ============================
+FAILED experiments/g1_pass8_estimation_v1/final_delivery/test_final_verification.py::GuardTests::test_import_does_not_load_production
+1 failed, 572 passed, 64 subtests passed in 395.57s (0:06:35)

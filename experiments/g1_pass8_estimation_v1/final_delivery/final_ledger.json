@@ -1,0 +1,13 @@
+{
+  "experiment_id": "G1-pass8-estimation-v1",
+  "phase": "completed_fixed480_estimation",
+  "completed": 480,
+  "planned": 480,
+  "validation_problems": [],
+  "final_acceptance": "final_acceptance.json",
+  "last_production_checkpoint_ledger_preserved": "../ledger.json",
+  "source_fingerprint": "1633b6768cc2c93af1a504a4741167ad2fa2cf809826cd7e267ccaa369e31dae",
+  "7x7": "NO-GO",
+  "next_phase_started": false,
+  "next": "Deliver M5 report; any nextkomi/passprobe requires a separate newversion, design, seeds and freeze."
+}

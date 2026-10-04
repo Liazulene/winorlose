@@ -1,0 +1,23 @@
+{
+  "recorded_at_utc": "2026-10-04T15:30:29.104016+00:00",
+  "issue": "Strict post-test historical file-set check found2new untracked Python cache files in inherited M4 audit directory. No protected tracked bytes or missing files were found.",
+  "action": "Relocated only these2new cache files, preserving exact bytes outside repository; did not alter historical source/data/reports or weaken protection selector.",
+  "cache_files": [
+    {
+      "new_untracked_cache_path": "experiments/g1_pass8_v1/final_audit/__pycache__/independent_final_audit.cpython-312.pyc",
+      "sha256": "6913da335bde4a9b3644772c3103aa2d6e5e3868ee868efbb9d394e80d74334c",
+      "bytes": 55237,
+      "quarantine_filename": "independent_final_audit.cpython-312.pyc",
+      "byte_preserved": true
+    },
+    {
+      "new_untracked_cache_path": "experiments/g1_pass8_v1/final_audit/__pycache__/test_independent_final_audit.cpython-312-pytest-9.1.1.pyc",
+      "sha256": "f919467ed423c6dae3f7d14238e9e03e43e73ce585cf1adbd83344faef9e03ac",
+      "bytes": 37667,
+      "quarantine_filename": "test_independent_final_audit.cpython-312-pytest-9.1.1.pyc",
+      "byte_preserved": true
+    }
+  ],
+  "original_discrepancy_evidence": "post_test_historical_discrepancy.json",
+  "test_and_formal_sample_effect": "None; no source or test assertions changed, no new games. Final historical check is rerun after relocation."
+}

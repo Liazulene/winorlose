@@ -1,0 +1,29 @@
+{
+  "pass_min_ply": 8,
+  "batch_seed": 11,
+  "game_index": 1,
+  "game_id": "g1_pass8_estimation_v1-g000001",
+  "game_seed": 280146318628635817193020184339384841386,
+  "black": {
+    "agent_id": "LOSE-medium-s2",
+    "identity": "LOSE",
+    "algorithm": "vector_mcts",
+    "compute_level": "medium",
+    "seed": 2
+  },
+  "white": {
+    "agent_id": "LOSE-medium-s1",
+    "identity": "LOSE",
+    "algorithm": "vector_mcts",
+    "compute_level": "medium",
+    "seed": 1
+  },
+  "matches_except_timing": true,
+  "record_problems": [],
+  "differences": [],
+  "saved_file_sha256": "0c81e4c80edacb1e4f031feb83ff1e41d6df49e53e40142cbf5c8188c2e1fc11",
+  "regenerated_file_sha256": "e77872522344d25e2b5760ac787a6f499327dbfd467eea78fca9bcefb23c80e5",
+  "saved_nontiming_sha256": "fe39206bc68d0d161f0aa3f2f815277e996d2fc4a8c83b39dedffa507fbdb684",
+  "regenerated_nontiming_sha256": "fe39206bc68d0d161f0aa3f2f815277e996d2fc4a8c83b39dedffa507fbdb684",
+  "verification_wall_seconds": 23.54280296700017
+}
