@@ -1,0 +1,328 @@
+{
+  "selections": [
+    {
+      "pass_min_ply": 0,
+      "batch_seed": 8,
+      "game_index": 3,
+      "game_id": "g1_pass8_pilot_v1-g000003",
+      "game_seed": 67477384894971418729362396364665946391,
+      "black": {
+        "agent_id": "WIN-medium-s2",
+        "identity": "WIN",
+        "algorithm": "vector_mcts",
+        "compute_level": "medium",
+        "seed": 2
+      },
+      "white": {
+        "agent_id": "WIN-medium-s1",
+        "identity": "WIN",
+        "algorithm": "vector_mcts",
+        "compute_level": "medium",
+        "seed": 1
+      },
+      "budget_each": 256
+    },
+    {
+      "pass_min_ply": 0,
+      "batch_seed": 9,
+      "game_index": 6,
+      "game_id": "g1_pass8_pilot_v1-g000006",
+      "game_seed": 278315983096741017600508740049533791744,
+      "black": {
+        "agent_id": "LOSE-medium-s1",
+        "identity": "LOSE",
+        "algorithm": "vector_mcts",
+        "compute_level": "medium",
+        "seed": 1
+      },
+      "white": {
+        "agent_id": "LOSE-medium-s2",
+        "identity": "LOSE",
+        "algorithm": "vector_mcts",
+        "compute_level": "medium",
+        "seed": 2
+      },
+      "budget_each": 256
+    },
+    {
+      "pass_min_ply": 0,
+      "batch_seed": 10,
+      "game_index": 1,
+      "game_id": "g1_pass8_pilot_v1-g000001",
+      "game_seed": 225414441093210781607634984819195569430,
+      "black": {
+        "agent_id": "LOSE-medium-s2",
+        "identity": "LOSE",
+        "algorithm": "vector_mcts",
+        "compute_level": "medium",
+        "seed": 2
+      },
+      "white": {
+        "agent_id": "LOSE-medium-s1",
+        "identity": "LOSE",
+        "algorithm": "vector_mcts",
+        "compute_level": "medium",
+        "seed": 1
+      },
+      "budget_each": 256
+    },
+    {
+      "pass_min_ply": 8,
+      "batch_seed": 8,
+      "game_index": 2,
+      "game_id": "g1_pass8_pilot_v1-g000002",
+      "game_seed": 67477384894971418729362396364665946391,
+      "black": {
+        "agent_id": "WIN-medium-s2",
+        "identity": "WIN",
+        "algorithm": "vector_mcts",
+        "compute_level": "medium",
+        "seed": 2
+      },
+      "white": {
+        "agent_id": "WIN-medium-s1",
+        "identity": "WIN",
+        "algorithm": "vector_mcts",
+        "compute_level": "medium",
+        "seed": 1
+      },
+      "budget_each": 256
+    },
+    {
+      "pass_min_ply": 8,
+      "batch_seed": 9,
+      "game_index": 7,
+      "game_id": "g1_pass8_pilot_v1-g000007",
+      "game_seed": 278315983096741017600508740049533791744,
+      "black": {
+        "agent_id": "LOSE-medium-s1",
+        "identity": "LOSE",
+        "algorithm": "vector_mcts",
+        "compute_level": "medium",
+        "seed": 1
+      },
+      "white": {
+        "agent_id": "LOSE-medium-s2",
+        "identity": "LOSE",
+        "algorithm": "vector_mcts",
+        "compute_level": "medium",
+        "seed": 2
+      },
+      "budget_each": 256
+    },
+    {
+      "pass_min_ply": 8,
+      "batch_seed": 10,
+      "game_index": 0,
+      "game_id": "g1_pass8_pilot_v1-g000000",
+      "game_seed": 225414441093210781607634984819195569430,
+      "black": {
+        "agent_id": "LOSE-medium-s2",
+        "identity": "LOSE",
+        "algorithm": "vector_mcts",
+        "compute_level": "medium",
+        "seed": 2
+      },
+      "white": {
+        "agent_id": "LOSE-medium-s1",
+        "identity": "LOSE",
+        "algorithm": "vector_mcts",
+        "compute_level": "medium",
+        "seed": 1
+      },
+      "budget_each": 256
+    }
+  ],
+  "results": [
+    {
+      "pass_min_ply": 0,
+      "batch_seed": 8,
+      "game_index": 3,
+      "game_id": "g1_pass8_pilot_v1-g000003",
+      "game_seed": 67477384894971418729362396364665946391,
+      "black": {
+        "agent_id": "WIN-medium-s2",
+        "identity": "WIN",
+        "algorithm": "vector_mcts",
+        "compute_level": "medium",
+        "seed": 2
+      },
+      "white": {
+        "agent_id": "WIN-medium-s1",
+        "identity": "WIN",
+        "algorithm": "vector_mcts",
+        "compute_level": "medium",
+        "seed": 1
+      },
+      "budget_each": 256,
+      "saved_file_sha256": "224a9a4f63045a5b86edfa70ceedde481a01a8b6bcbbb036fafc1953a0107d93",
+      "regenerated_file_sha256": "600585f7fca83b66c347c4045b71cdc1e8c4ea79d593b660bfd2907ee7a7ef7b",
+      "saved_excluding_only_timing_sha256": "90445a9999e7fefe513422785f3958b721ca2ac0632ab745ff32873b7ebc0d03",
+      "regenerated_excluding_only_timing_sha256": "90445a9999e7fefe513422785f3958b721ca2ac0632ab745ff32873b7ebc0d03",
+      "matches_except_timing": true,
+      "record_problems": [],
+      "differences": [],
+      "wall_seconds": 19.623195298998326
+    },
+    {
+      "pass_min_ply": 0,
+      "batch_seed": 9,
+      "game_index": 6,
+      "game_id": "g1_pass8_pilot_v1-g000006",
+      "game_seed": 278315983096741017600508740049533791744,
+      "black": {
+        "agent_id": "LOSE-medium-s1",
+        "identity": "LOSE",
+        "algorithm": "vector_mcts",
+        "compute_level": "medium",
+        "seed": 1
+      },
+      "white": {
+        "agent_id": "LOSE-medium-s2",
+        "identity": "LOSE",
+        "algorithm": "vector_mcts",
+        "compute_level": "medium",
+        "seed": 2
+      },
+      "budget_each": 256,
+      "saved_file_sha256": "e9ca230f3884142ffbb6f5e987f62a2f475eaca767a755fcbe2a6604b4f37c10",
+      "regenerated_file_sha256": "845da4cd0f8d60ece7400699d88d349a02031284326681048e5a6106a1ccb447",
+      "saved_excluding_only_timing_sha256": "3ee8f808f2f56e2a47b2e912e17d00bf30b030f18ba672fe417d440a048f5e41",
+      "regenerated_excluding_only_timing_sha256": "3ee8f808f2f56e2a47b2e912e17d00bf30b030f18ba672fe417d440a048f5e41",
+      "matches_except_timing": true,
+      "record_problems": [],
+      "differences": [],
+      "wall_seconds": 23.73228160099825
+    },
+    {
+      "pass_min_ply": 0,
+      "batch_seed": 10,
+      "game_index": 1,
+      "game_id": "g1_pass8_pilot_v1-g000001",
+      "game_seed": 225414441093210781607634984819195569430,
+      "black": {
+        "agent_id": "LOSE-medium-s2",
+        "identity": "LOSE",
+        "algorithm": "vector_mcts",
+        "compute_level": "medium",
+        "seed": 2
+      },
+      "white": {
+        "agent_id": "LOSE-medium-s1",
+        "identity": "LOSE",
+        "algorithm": "vector_mcts",
+        "compute_level": "medium",
+        "seed": 1
+      },
+      "budget_each": 256,
+      "saved_file_sha256": "f6bcfd7390824bc16f6fccfd4ac82851cf2fe6a19d95d61da2d1e152ef4b5296",
+      "regenerated_file_sha256": "abfb327c5034437949656218f99375d495e308a10ce87111313433146ec18e95",
+      "saved_excluding_only_timing_sha256": "94c6cbe2d89b4009bb41fa0b5ccfd5749e89027a0206a6ac4417205445d2f859",
+      "regenerated_excluding_only_timing_sha256": "94c6cbe2d89b4009bb41fa0b5ccfd5749e89027a0206a6ac4417205445d2f859",
+      "matches_except_timing": true,
+      "record_problems": [],
+      "differences": [],
+      "wall_seconds": 25.010335361002944
+    },
+    {
+      "pass_min_ply": 8,
+      "batch_seed": 8,
+      "game_index": 2,
+      "game_id": "g1_pass8_pilot_v1-g000002",
+      "game_seed": 67477384894971418729362396364665946391,
+      "black": {
+        "agent_id": "WIN-medium-s2",
+        "identity": "WIN",
+        "algorithm": "vector_mcts",
+        "compute_level": "medium",
+        "seed": 2
+      },
+      "white": {
+        "agent_id": "WIN-medium-s1",
+        "identity": "WIN",
+        "algorithm": "vector_mcts",
+        "compute_level": "medium",
+        "seed": 1
+      },
+      "budget_each": 256,
+      "saved_file_sha256": "d2b316beaf9c0f26d429f73fdda8252e76e6eaedf65e509be909b4389b716c4d",
+      "regenerated_file_sha256": "21b2706c1b5cecd937146ce3665e99d8369b22237e56e77cea12f5244b753bb2",
+      "saved_excluding_only_timing_sha256": "e51198f880ba26394cf8b352d7ea2b4b64381f04aad9e47d3d8b3e6bc2ac2196",
+      "regenerated_excluding_only_timing_sha256": "e51198f880ba26394cf8b352d7ea2b4b64381f04aad9e47d3d8b3e6bc2ac2196",
+      "matches_except_timing": true,
+      "record_problems": [],
+      "differences": [],
+      "wall_seconds": 20.611237230998086
+    },
+    {
+      "pass_min_ply": 8,
+      "batch_seed": 9,
+      "game_index": 7,
+      "game_id": "g1_pass8_pilot_v1-g000007",
+      "game_seed": 278315983096741017600508740049533791744,
+      "black": {
+        "agent_id": "LOSE-medium-s1",
+        "identity": "LOSE",
+        "algorithm": "vector_mcts",
+        "compute_level": "medium",
+        "seed": 1
+      },
+      "white": {
+        "agent_id": "LOSE-medium-s2",
+        "identity": "LOSE",
+        "algorithm": "vector_mcts",
+        "compute_level": "medium",
+        "seed": 2
+      },
+      "budget_each": 256,
+      "saved_file_sha256": "94290a034f91f396b91e6e12c25d6db7b5d6230ede7ef17b138918fb1a6d002e",
+      "regenerated_file_sha256": "b2eb6618849ae2e328b1a57defa70155623ebe0ac5a122da7a8aaa1b71913807",
+      "saved_excluding_only_timing_sha256": "a384f29fd986645fdd09216301e76e0adf1c924d2692d72fafb2de6d566f7f76",
+      "regenerated_excluding_only_timing_sha256": "a384f29fd986645fdd09216301e76e0adf1c924d2692d72fafb2de6d566f7f76",
+      "matches_except_timing": true,
+      "record_problems": [],
+      "differences": [],
+      "wall_seconds": 22.36912938399837
+    },
+    {
+      "pass_min_ply": 8,
+      "batch_seed": 10,
+      "game_index": 0,
+      "game_id": "g1_pass8_pilot_v1-g000000",
+      "game_seed": 225414441093210781607634984819195569430,
+      "black": {
+        "agent_id": "LOSE-medium-s2",
+        "identity": "LOSE",
+        "algorithm": "vector_mcts",
+        "compute_level": "medium",
+        "seed": 2
+      },
+      "white": {
+        "agent_id": "LOSE-medium-s1",
+        "identity": "LOSE",
+        "algorithm": "vector_mcts",
+        "compute_level": "medium",
+        "seed": 1
+      },
+      "budget_each": 256,
+      "saved_file_sha256": "236b1a6999cb53fd0dd72abf78935922deca0f83bfc33c254f0d477950a4c561",
+      "regenerated_file_sha256": "5a8ba50503eca03e76957bfe640c0a29dcd8ae0f237fbd273ca0708f6bf19188",
+      "saved_excluding_only_timing_sha256": "60716b9909caa844abce87c554aefa693928098c8e03accf12e03cef0ff5426d",
+      "regenerated_excluding_only_timing_sha256": "60716b9909caa844abce87c554aefa693928098c8e03accf12e03cef0ff5426d",
+      "matches_except_timing": true,
+      "record_problems": [],
+      "differences": [],
+      "wall_seconds": 22.703650982999534
+    }
+  ],
+  "count": 6,
+  "matching_count": 6,
+  "added_observations": 0,
+  "concurrency": 1,
+  "excluded_fields": [
+    "game_wall_ms",
+    "moves[*].search_time_ms"
+  ],
+  "comparison": "Full record equality after JSON roundtrip and deleting exactly the two timing fields; retain all provenance, version and rule metadata",
+  "problems": []
+}

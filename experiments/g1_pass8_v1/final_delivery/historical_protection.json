@@ -1,0 +1,55 @@
+{
+  "baseline_path": "/workspace/scratch/50e0c7c6aca1/winorlose_reports/g1_pass8_v1/protected_hashes_before.json",
+  "baseline_sha256": "90380e4a58c21fa9e40e71688a23d1667b31ccb66072e65995de1499bbe5f743",
+  "worktrees": {
+    "winorlose": {
+      "expected_count": 15868,
+      "tracked_count": 15868,
+      "hashed_count": 15868,
+      "unchanged": true,
+      "expected_path_sha256_map_digest": "8012c8d0a5ad7c50fd30fb4d093eb91836daf67e34495789bafffc0a4bb07f75",
+      "actual_path_sha256_map_digest": "8012c8d0a5ad7c50fd30fb4d093eb91836daf67e34495789bafffc0a4bb07f75",
+      "missing_tracked_paths": [],
+      "added_tracked_paths": [],
+      "read_errors": [],
+      "changed_files": []
+    },
+    "winorlose_d0_v1": {
+      "expected_count": 15929,
+      "tracked_count": 15929,
+      "hashed_count": 15929,
+      "unchanged": true,
+      "expected_path_sha256_map_digest": "59a01cac57102c2020cbebed47badc3a560e6b2f156092a1003647d2ffff5230",
+      "actual_path_sha256_map_digest": "59a01cac57102c2020cbebed47badc3a560e6b2f156092a1003647d2ffff5230",
+      "missing_tracked_paths": [],
+      "added_tracked_paths": [],
+      "read_errors": [],
+      "changed_files": []
+    },
+    "winorlose_d1_v1": {
+      "expected_count": 16019,
+      "tracked_count": 16019,
+      "hashed_count": 16019,
+      "unchanged": true,
+      "expected_path_sha256_map_digest": "dda8d1b9ca12efb33f54fa093c82e0e75230e14947c92fe10ac64c0917dc74de",
+      "actual_path_sha256_map_digest": "dda8d1b9ca12efb33f54fa093c82e0e75230e14947c92fe10ac64c0917dc74de",
+      "missing_tracked_paths": [],
+      "added_tracked_paths": [],
+      "read_errors": [],
+      "changed_files": []
+    },
+    "winorlose_d1_estimation_v1": {
+      "expected_count": 16902,
+      "tracked_count": 16902,
+      "hashed_count": 16902,
+      "unchanged": true,
+      "expected_path_sha256_map_digest": "80a829d842e7b0a1102d081dd045a8c3743c2ead49e175859e4c2f64ab26cf5f",
+      "actual_path_sha256_map_digest": "80a829d842e7b0a1102d081dd045a8c3743c2ead49e175859e4c2f64ab26cf5f",
+      "missing_tracked_paths": [],
+      "added_tracked_paths": [],
+      "read_errors": [],
+      "changed_files": []
+    }
+  },
+  "problems": []
+}

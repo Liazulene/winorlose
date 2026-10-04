@@ -1,0 +1,1100 @@
+{
+  "audit_id": "G1-pass8-independent-final-audit-v1",
+  "experiment_id": "G1-pass8-pilot-v1",
+  "passed": true,
+  "complete": true,
+  "n_records": 48,
+  "n_pairs": 24,
+  "n_actual_actions": 1286,
+  "n_pass_proposals": 163,
+  "problems": [],
+  "per_game": {
+    "g1_pass8_pilot_v1-g000000": {
+      "passed": true,
+      "problems": [],
+      "actions": 50,
+      "black_score": 0.0,
+      "white_score": 27.5,
+      "winner": "white",
+      "color_counts": {
+        "black": {
+          "passes": 13,
+          "placements": 12,
+          "captured_by_opponent": 12
+        },
+        "white": {
+          "passes": 1,
+          "placements": 24,
+          "captured_by_opponent": 0
+        }
+      },
+      "pass_proposals": 13
+    },
+    "g1_pass8_pilot_v1-g000001": {
+      "passed": true,
+      "problems": [],
+      "actions": 56,
+      "black_score": 0.0,
+      "white_score": 27.5,
+      "winner": "white",
+      "color_counts": {
+        "black": {
+          "passes": 10,
+          "placements": 18,
+          "captured_by_opponent": 18
+        },
+        "white": {
+          "passes": 1,
+          "placements": 27,
+          "captured_by_opponent": 3
+        }
+      },
+      "pass_proposals": 10
+    },
+    "g1_pass8_pilot_v1-g000002": {
+      "passed": true,
+      "problems": [],
+      "actions": 35,
+      "black_score": 21.0,
+      "white_score": 4.5,
+      "winner": "black",
+      "color_counts": {
+        "black": {
+          "passes": 1,
+          "placements": 17,
+          "captured_by_opponent": 2
+        },
+        "white": {
+          "passes": 1,
+          "placements": 16,
+          "captured_by_opponent": 14
+        }
+      },
+      "pass_proposals": 1
+    },
+    "g1_pass8_pilot_v1-g000003": {
+      "passed": true,
+      "problems": [],
+      "actions": 37,
+      "black_score": 22.0,
+      "white_score": 4.5,
+      "winner": "black",
+      "color_counts": {
+        "black": {
+          "passes": 1,
+          "placements": 18,
+          "captured_by_opponent": 1
+        },
+        "white": {
+          "passes": 2,
+          "placements": 16,
+          "captured_by_opponent": 14
+        }
+      },
+      "pass_proposals": 2
+    },
+    "g1_pass8_pilot_v1-g000004": {
+      "passed": true,
+      "problems": [],
+      "actions": 19,
+      "black_score": 9.0,
+      "white_score": 9.5,
+      "winner": "white",
+      "color_counts": {
+        "black": {
+          "passes": 2,
+          "placements": 8,
+          "captured_by_opponent": 0
+        },
+        "white": {
+          "passes": 1,
+          "placements": 8,
+          "captured_by_opponent": 1
+        }
+      },
+      "pass_proposals": 2
+    },
+    "g1_pass8_pilot_v1-g000005": {
+      "passed": true,
+      "problems": [],
+      "actions": 11,
+      "black_score": 4.0,
+      "white_score": 6.5,
+      "winner": "white",
+      "color_counts": {
+        "black": {
+          "passes": 2,
+          "placements": 4,
+          "captured_by_opponent": 0
+        },
+        "white": {
+          "passes": 1,
+          "placements": 4,
+          "captured_by_opponent": 0
+        }
+      },
+      "pass_proposals": 2
+    },
+    "g1_pass8_pilot_v1-g000006": {
+      "passed": true,
+      "problems": [],
+      "actions": 54,
+      "black_score": 0.0,
+      "white_score": 27.5,
+      "winner": "white",
+      "color_counts": {
+        "black": {
+          "passes": 10,
+          "placements": 17,
+          "captured_by_opponent": 17
+        },
+        "white": {
+          "passes": 3,
+          "placements": 24,
+          "captured_by_opponent": 0
+        }
+      },
+      "pass_proposals": 12
+    },
+    "g1_pass8_pilot_v1-g000007": {
+      "passed": true,
+      "problems": [],
+      "actions": 49,
+      "black_score": 25.0,
+      "white_score": 2.5,
+      "winner": "black",
+      "color_counts": {
+        "black": {
+          "passes": 1,
+          "placements": 24,
+          "captured_by_opponent": 0
+        },
+        "white": {
+          "passes": 10,
+          "placements": 14,
+          "captured_by_opponent": 14
+        }
+      },
+      "pass_proposals": 10
+    },
+    "g1_pass8_pilot_v1-g000008": {
+      "passed": true,
+      "problems": [],
+      "actions": 27,
+      "black_score": 17.0,
+      "white_score": 7.5,
+      "winner": "black",
+      "color_counts": {
+        "black": {
+          "passes": 1,
+          "placements": 13,
+          "captured_by_opponent": 0
+        },
+        "white": {
+          "passes": 1,
+          "placements": 12,
+          "captured_by_opponent": 7
+        }
+      },
+      "pass_proposals": 1
+    },
+    "g1_pass8_pilot_v1-g000009": {
+      "passed": true,
+      "problems": [],
+      "actions": 20,
+      "black_score": 13.0,
+      "white_score": 8.5,
+      "winner": "black",
+      "color_counts": {
+        "black": {
+          "passes": 1,
+          "placements": 9,
+          "captured_by_opponent": 0
+        },
+        "white": {
+          "passes": 1,
+          "placements": 9,
+          "captured_by_opponent": 3
+        }
+      },
+      "pass_proposals": 1
+    },
+    "g1_pass8_pilot_v1-g000010": {
+      "passed": true,
+      "problems": [],
+      "actions": 50,
+      "black_score": 0.0,
+      "white_score": 27.5,
+      "winner": "white",
+      "color_counts": {
+        "black": {
+          "passes": 11,
+          "placements": 14,
+          "captured_by_opponent": 14
+        },
+        "white": {
+          "passes": 1,
+          "placements": 24,
+          "captured_by_opponent": 0
+        }
+      },
+      "pass_proposals": 11
+    },
+    "g1_pass8_pilot_v1-g000011": {
+      "passed": true,
+      "problems": [],
+      "actions": 47,
+      "black_score": 1.0,
+      "white_score": 24.5,
+      "winner": "white",
+      "color_counts": {
+        "black": {
+          "passes": 9,
+          "placements": 15,
+          "captured_by_opponent": 14
+        },
+        "white": {
+          "passes": 1,
+          "placements": 22,
+          "captured_by_opponent": 0
+        }
+      },
+      "pass_proposals": 9
+    },
+    "g1_pass8_pilot_v1-g000012": {
+      "passed": true,
+      "problems": [],
+      "actions": 19,
+      "black_score": 13.0,
+      "white_score": 9.5,
+      "winner": "black",
+      "color_counts": {
+        "black": {
+          "passes": 1,
+          "placements": 9,
+          "captured_by_opponent": 0
+        },
+        "white": {
+          "passes": 2,
+          "placements": 7,
+          "captured_by_opponent": 0
+        }
+      },
+      "pass_proposals": 2
+    },
+    "g1_pass8_pilot_v1-g000013": {
+      "passed": true,
+      "problems": [],
+      "actions": 17,
+      "black_score": 9.0,
+      "white_score": 7.5,
+      "winner": "black",
+      "color_counts": {
+        "black": {
+          "passes": 1,
+          "placements": 8,
+          "captured_by_opponent": 0
+        },
+        "white": {
+          "passes": 2,
+          "placements": 6,
+          "captured_by_opponent": 1
+        }
+      },
+      "pass_proposals": 2
+    },
+    "g1_pass8_pilot_v1-g000014": {
+      "passed": true,
+      "problems": [],
+      "actions": 34,
+      "black_score": 15.0,
+      "white_score": 12.5,
+      "winner": "black",
+      "color_counts": {
+        "black": {
+          "passes": 1,
+          "placements": 16,
+          "captured_by_opponent": 3
+        },
+        "white": {
+          "passes": 1,
+          "placements": 16,
+          "captured_by_opponent": 7
+        }
+      },
+      "pass_proposals": 1
+    },
+    "g1_pass8_pilot_v1-g000015": {
+      "passed": true,
+      "problems": [],
+      "actions": 25,
+      "black_score": 14.0,
+      "white_score": 9.5,
+      "winner": "black",
+      "color_counts": {
+        "black": {
+          "passes": 1,
+          "placements": 12,
+          "captured_by_opponent": 0
+        },
+        "white": {
+          "passes": 2,
+          "placements": 10,
+          "captured_by_opponent": 3
+        }
+      },
+      "pass_proposals": 2
+    },
+    "g1_pass8_pilot_v1-g000016": {
+      "passed": true,
+      "problems": [],
+      "actions": 50,
+      "black_score": 0.0,
+      "white_score": 27.5,
+      "winner": "white",
+      "color_counts": {
+        "black": {
+          "passes": 9,
+          "placements": 16,
+          "captured_by_opponent": 16
+        },
+        "white": {
+          "passes": 1,
+          "placements": 24,
+          "captured_by_opponent": 0
+        }
+      },
+      "pass_proposals": 9
+    },
+    "g1_pass8_pilot_v1-g000017": {
+      "passed": true,
+      "problems": [],
+      "actions": 29,
+      "black_score": 7.0,
+      "white_score": 14.5,
+      "winner": "white",
+      "color_counts": {
+        "black": {
+          "passes": 6,
+          "placements": 9,
+          "captured_by_opponent": 2
+        },
+        "white": {
+          "passes": 1,
+          "placements": 13,
+          "captured_by_opponent": 1
+        }
+      },
+      "pass_proposals": 6
+    },
+    "g1_pass8_pilot_v1-g000018": {
+      "passed": true,
+      "problems": [],
+      "actions": 40,
+      "black_score": 2.0,
+      "white_score": 23.5,
+      "winner": "white",
+      "color_counts": {
+        "black": {
+          "passes": 1,
+          "placements": 19,
+          "captured_by_opponent": 17
+        },
+        "white": {
+          "passes": 1,
+          "placements": 19,
+          "captured_by_opponent": 1
+        }
+      },
+      "pass_proposals": 1
+    },
+    "g1_pass8_pilot_v1-g000019": {
+      "passed": true,
+      "problems": [],
+      "actions": 6,
+      "black_score": 2.0,
+      "white_score": 4.5,
+      "winner": "white",
+      "color_counts": {
+        "black": {
+          "passes": 1,
+          "placements": 2,
+          "captured_by_opponent": 0
+        },
+        "white": {
+          "passes": 1,
+          "placements": 2,
+          "captured_by_opponent": 0
+        }
+      },
+      "pass_proposals": 1
+    },
+    "g1_pass8_pilot_v1-g000020": {
+      "passed": true,
+      "problems": [],
+      "actions": 16,
+      "black_score": 7.0,
+      "white_score": 9.5,
+      "winner": "white",
+      "color_counts": {
+        "black": {
+          "passes": 1,
+          "placements": 7,
+          "captured_by_opponent": 0
+        },
+        "white": {
+          "passes": 1,
+          "placements": 7,
+          "captured_by_opponent": 0
+        }
+      },
+      "pass_proposals": 1
+    },
+    "g1_pass8_pilot_v1-g000021": {
+      "passed": true,
+      "problems": [],
+      "actions": 14,
+      "black_score": 7.0,
+      "white_score": 12.5,
+      "winner": "white",
+      "color_counts": {
+        "black": {
+          "passes": 1,
+          "placements": 6,
+          "captured_by_opponent": 0
+        },
+        "white": {
+          "passes": 1,
+          "placements": 6,
+          "captured_by_opponent": 0
+        }
+      },
+      "pass_proposals": 1
+    },
+    "g1_pass8_pilot_v1-g000022": {
+      "passed": true,
+      "problems": [],
+      "actions": 50,
+      "black_score": 0.0,
+      "white_score": 27.5,
+      "winner": "white",
+      "color_counts": {
+        "black": {
+          "passes": 14,
+          "placements": 11,
+          "captured_by_opponent": 11
+        },
+        "white": {
+          "passes": 1,
+          "placements": 24,
+          "captured_by_opponent": 0
+        }
+      },
+      "pass_proposals": 14
+    },
+    "g1_pass8_pilot_v1-g000023": {
+      "passed": true,
+      "problems": [],
+      "actions": 52,
+      "black_score": 0.0,
+      "white_score": 27.5,
+      "winner": "white",
+      "color_counts": {
+        "black": {
+          "passes": 10,
+          "placements": 16,
+          "captured_by_opponent": 16
+        },
+        "white": {
+          "passes": 1,
+          "placements": 25,
+          "captured_by_opponent": 1
+        }
+      },
+      "pass_proposals": 10
+    },
+    "g1_pass8_pilot_v1-g000024": {
+      "passed": true,
+      "problems": [],
+      "actions": 4,
+      "black_score": 1.0,
+      "white_score": 3.5,
+      "winner": "white",
+      "color_counts": {
+        "black": {
+          "passes": 1,
+          "placements": 1,
+          "captured_by_opponent": 0
+        },
+        "white": {
+          "passes": 1,
+          "placements": 1,
+          "captured_by_opponent": 0
+        }
+      },
+      "pass_proposals": 1
+    },
+    "g1_pass8_pilot_v1-g000025": {
+      "passed": true,
+      "problems": [],
+      "actions": 12,
+      "black_score": 5.0,
+      "white_score": 7.5,
+      "winner": "white",
+      "color_counts": {
+        "black": {
+          "passes": 1,
+          "placements": 5,
+          "captured_by_opponent": 0
+        },
+        "white": {
+          "passes": 1,
+          "placements": 5,
+          "captured_by_opponent": 0
+        }
+      },
+      "pass_proposals": 1
+    },
+    "g1_pass8_pilot_v1-g000026": {
+      "passed": true,
+      "problems": [],
+      "actions": 60,
+      "black_score": 4.0,
+      "white_score": 21.5,
+      "winner": "white",
+      "color_counts": {
+        "black": {
+          "passes": 1,
+          "placements": 29,
+          "captured_by_opponent": 25
+        },
+        "white": {
+          "passes": 6,
+          "placements": 24,
+          "captured_by_opponent": 6
+        }
+      },
+      "pass_proposals": 6
+    },
+    "g1_pass8_pilot_v1-g000027": {
+      "passed": true,
+      "problems": [],
+      "actions": 33,
+      "black_score": 14.0,
+      "white_score": 13.5,
+      "winner": "black",
+      "color_counts": {
+        "black": {
+          "passes": 1,
+          "placements": 16,
+          "captured_by_opponent": 5
+        },
+        "white": {
+          "passes": 2,
+          "placements": 14,
+          "captured_by_opponent": 4
+        }
+      },
+      "pass_proposals": 2
+    },
+    "g1_pass8_pilot_v1-g000028": {
+      "passed": true,
+      "problems": [],
+      "actions": 24,
+      "black_score": 13.0,
+      "white_score": 11.5,
+      "winner": "black",
+      "color_counts": {
+        "black": {
+          "passes": 1,
+          "placements": 11,
+          "captured_by_opponent": 0
+        },
+        "white": {
+          "passes": 2,
+          "placements": 10,
+          "captured_by_opponent": 1
+        }
+      },
+      "pass_proposals": 2
+    },
+    "g1_pass8_pilot_v1-g000029": {
+      "passed": true,
+      "problems": [],
+      "actions": 13,
+      "black_score": 7.0,
+      "white_score": 6.5,
+      "winner": "black",
+      "color_counts": {
+        "black": {
+          "passes": 1,
+          "placements": 6,
+          "captured_by_opponent": 0
+        },
+        "white": {
+          "passes": 1,
+          "placements": 5,
+          "captured_by_opponent": 1
+        }
+      },
+      "pass_proposals": 1
+    },
+    "g1_pass8_pilot_v1-g000030": {
+      "passed": true,
+      "problems": [],
+      "actions": 21,
+      "black_score": 12.0,
+      "white_score": 11.5,
+      "winner": "black",
+      "color_counts": {
+        "black": {
+          "passes": 1,
+          "placements": 10,
+          "captured_by_opponent": 0
+        },
+        "white": {
+          "passes": 2,
+          "placements": 8,
+          "captured_by_opponent": 1
+        }
+      },
+      "pass_proposals": 2
+    },
+    "g1_pass8_pilot_v1-g000031": {
+      "passed": true,
+      "problems": [],
+      "actions": 28,
+      "black_score": 15.0,
+      "white_score": 9.5,
+      "winner": "black",
+      "color_counts": {
+        "black": {
+          "passes": 1,
+          "placements": 13,
+          "captured_by_opponent": 0
+        },
+        "white": {
+          "passes": 4,
+          "placements": 10,
+          "captured_by_opponent": 3
+        }
+      },
+      "pass_proposals": 4
+    },
+    "g1_pass8_pilot_v1-g000032": {
+      "passed": true,
+      "problems": [],
+      "actions": 28,
+      "black_score": 10.0,
+      "white_score": 15.5,
+      "winner": "white",
+      "color_counts": {
+        "black": {
+          "passes": 1,
+          "placements": 13,
+          "captured_by_opponent": 5
+        },
+        "white": {
+          "passes": 2,
+          "placements": 12,
+          "captured_by_opponent": 1
+        }
+      },
+      "pass_proposals": 2
+    },
+    "g1_pass8_pilot_v1-g000033": {
+      "passed": true,
+      "problems": [],
+      "actions": 29,
+      "black_score": 11.0,
+      "white_score": 14.5,
+      "winner": "white",
+      "color_counts": {
+        "black": {
+          "passes": 1,
+          "placements": 14,
+          "captured_by_opponent": 4
+        },
+        "white": {
+          "passes": 1,
+          "placements": 13,
+          "captured_by_opponent": 1
+        }
+      },
+      "pass_proposals": 1
+    },
+    "g1_pass8_pilot_v1-g000034": {
+      "passed": true,
+      "problems": [],
+      "actions": 25,
+      "black_score": 9.0,
+      "white_score": 15.5,
+      "winner": "white",
+      "color_counts": {
+        "black": {
+          "passes": 1,
+          "placements": 12,
+          "captured_by_opponent": 3
+        },
+        "white": {
+          "passes": 1,
+          "placements": 11,
+          "captured_by_opponent": 0
+        }
+      },
+      "pass_proposals": 1
+    },
+    "g1_pass8_pilot_v1-g000035": {
+      "passed": true,
+      "problems": [],
+      "actions": 2,
+      "black_score": 0.0,
+      "white_score": 2.5,
+      "winner": "white",
+      "color_counts": {
+        "black": {
+          "passes": 1,
+          "placements": 0,
+          "captured_by_opponent": 0
+        },
+        "white": {
+          "passes": 1,
+          "placements": 0,
+          "captured_by_opponent": 0
+        }
+      },
+      "pass_proposals": 1
+    },
+    "g1_pass8_pilot_v1-g000036": {
+      "passed": true,
+      "problems": [],
+      "actions": 3,
+      "black_score": 25.0,
+      "white_score": 2.5,
+      "winner": "black",
+      "color_counts": {
+        "black": {
+          "passes": 1,
+          "placements": 1,
+          "captured_by_opponent": 0
+        },
+        "white": {
+          "passes": 1,
+          "placements": 0,
+          "captured_by_opponent": 0
+        }
+      },
+      "pass_proposals": 1
+    },
+    "g1_pass8_pilot_v1-g000037": {
+      "passed": true,
+      "problems": [],
+      "actions": 29,
+      "black_score": 15.0,
+      "white_score": 9.5,
+      "winner": "black",
+      "color_counts": {
+        "black": {
+          "passes": 1,
+          "placements": 14,
+          "captured_by_opponent": 0
+        },
+        "white": {
+          "passes": 1,
+          "placements": 13,
+          "captured_by_opponent": 6
+        }
+      },
+      "pass_proposals": 1
+    },
+    "g1_pass8_pilot_v1-g000038": {
+      "passed": true,
+      "problems": [],
+      "actions": 10,
+      "black_score": 4.0,
+      "white_score": 6.5,
+      "winner": "white",
+      "color_counts": {
+        "black": {
+          "passes": 1,
+          "placements": 4,
+          "captured_by_opponent": 0
+        },
+        "white": {
+          "passes": 1,
+          "placements": 4,
+          "captured_by_opponent": 0
+        }
+      },
+      "pass_proposals": 1
+    },
+    "g1_pass8_pilot_v1-g000039": {
+      "passed": true,
+      "problems": [],
+      "actions": 18,
+      "black_score": 9.0,
+      "white_score": 10.5,
+      "winner": "white",
+      "color_counts": {
+        "black": {
+          "passes": 1,
+          "placements": 8,
+          "captured_by_opponent": 0
+        },
+        "white": {
+          "passes": 1,
+          "placements": 8,
+          "captured_by_opponent": 0
+        }
+      },
+      "pass_proposals": 1
+    },
+    "g1_pass8_pilot_v1-g000040": {
+      "passed": true,
+      "problems": [],
+      "actions": 10,
+      "black_score": 4.0,
+      "white_score": 6.5,
+      "winner": "white",
+      "color_counts": {
+        "black": {
+          "passes": 1,
+          "placements": 4,
+          "captured_by_opponent": 0
+        },
+        "white": {
+          "passes": 1,
+          "placements": 4,
+          "captured_by_opponent": 0
+        }
+      },
+      "pass_proposals": 1
+    },
+    "g1_pass8_pilot_v1-g000041": {
+      "passed": true,
+      "problems": [],
+      "actions": 14,
+      "black_score": 5.0,
+      "white_score": 9.5,
+      "winner": "white",
+      "color_counts": {
+        "black": {
+          "passes": 1,
+          "placements": 6,
+          "captured_by_opponent": 1
+        },
+        "white": {
+          "passes": 1,
+          "placements": 6,
+          "captured_by_opponent": 0
+        }
+      },
+      "pass_proposals": 1
+    },
+    "g1_pass8_pilot_v1-g000042": {
+      "passed": true,
+      "problems": [],
+      "actions": 13,
+      "black_score": 6.0,
+      "white_score": 5.5,
+      "winner": "black",
+      "color_counts": {
+        "black": {
+          "passes": 1,
+          "placements": 6,
+          "captured_by_opponent": 0
+        },
+        "white": {
+          "passes": 3,
+          "placements": 3,
+          "captured_by_opponent": 0
+        }
+      },
+      "pass_proposals": 3
+    },
+    "g1_pass8_pilot_v1-g000043": {
+      "passed": true,
+      "problems": [],
+      "actions": 19,
+      "black_score": 9.0,
+      "white_score": 8.5,
+      "winner": "black",
+      "color_counts": {
+        "black": {
+          "passes": 1,
+          "placements": 9,
+          "captured_by_opponent": 0
+        },
+        "white": {
+          "passes": 1,
+          "placements": 8,
+          "captured_by_opponent": 2
+        }
+      },
+      "pass_proposals": 1
+    },
+    "g1_pass8_pilot_v1-g000044": {
+      "passed": true,
+      "problems": [],
+      "actions": 31,
+      "black_score": 19.0,
+      "white_score": 7.5,
+      "winner": "black",
+      "color_counts": {
+        "black": {
+          "passes": 1,
+          "placements": 15,
+          "captured_by_opponent": 1
+        },
+        "white": {
+          "passes": 1,
+          "placements": 14,
+          "captured_by_opponent": 10
+        }
+      },
+      "pass_proposals": 1
+    },
+    "g1_pass8_pilot_v1-g000045": {
+      "passed": true,
+      "problems": [],
+      "actions": 27,
+      "black_score": 13.0,
+      "white_score": 13.5,
+      "winner": "white",
+      "color_counts": {
+        "black": {
+          "passes": 1,
+          "placements": 13,
+          "captured_by_opponent": 1
+        },
+        "white": {
+          "passes": 2,
+          "placements": 11,
+          "captured_by_opponent": 1
+        }
+      },
+      "pass_proposals": 2
+    },
+    "g1_pass8_pilot_v1-g000046": {
+      "passed": true,
+      "problems": [],
+      "actions": 8,
+      "black_score": 4.0,
+      "white_score": 5.5,
+      "winner": "white",
+      "color_counts": {
+        "black": {
+          "passes": 1,
+          "placements": 3,
+          "captured_by_opponent": 0
+        },
+        "white": {
+          "passes": 1,
+          "placements": 3,
+          "captured_by_opponent": 0
+        }
+      },
+      "pass_proposals": 1
+    },
+    "g1_pass8_pilot_v1-g000047": {
+      "passed": true,
+      "problems": [],
+      "actions": 18,
+      "black_score": 10.0,
+      "white_score": 10.5,
+      "winner": "white",
+      "color_counts": {
+        "black": {
+          "passes": 1,
+          "placements": 8,
+          "captured_by_opponent": 0
+        },
+        "white": {
+          "passes": 1,
+          "placements": 8,
+          "captured_by_opponent": 0
+        }
+      },
+      "pass_proposals": 1
+    }
+  },
+  "source_fingerprint": "5876fdc9d1cc29fc446300265db5a9676f07b646cc8299cd4961f1129fdb3ec1",
+  "input_sha256": {
+    "experiments/g1_pass8_v1/preregistration.json": "99b6520c514a931b602cfc99731ac17e81069d82e177dc3cd21b493f00e4591c",
+    "experiments/g1_pass8_v1/frozen_plan.json": "27ba0d57f1ba8801fb1e70c65f66d04e6732cfb32c7d7bcb373df1be8701147f",
+    "experiments/g1_pass8_v1/pre_execution_source_lock.json": "235b4c5134dae1f91c3bd8ce8881ac03e5c0003a55cee893ad0db51c7da61258",
+    "experiments/g1_pass8_v1/pre_execution_lock.json": "f9ad6fde7a298c5c5693890bd99239e5113d988669902e8ab68377fb4546957a",
+    "outputs/g1_pass8_pilot_v1/analysis.json": "59a096ff07971e2c56f58c3d9a390444f8134eef0aeb7a6f21598e9c3ce0b07c",
+    "outputs/g1_pass8_pilot_v1/manifest.json": "8e379da0f44d7cfff91bc13af511efe72a9af85c003535af2f2e8b8f93155c0c",
+    "outputs/g1_pass8_pilot_v1/games.jsonl": "13c4d3301c9a22f8235e6a8542829fe5cf8e1fb64f918b57ecc7b6110bcccae7",
+    "outputs/g1_pass8_pilot_v1/source_lock.json": "2e8126f5b0abd0bd5b3dc7b1a3b2a0e51d9a3e4da1d01b3022bc847cde306014",
+    "outputs/g1_pass8_pilot_v1/experiment_lock.json": "285a87ac65c6c5218cbd385c870eb701ff9a83983b698099c72611a8d4679f90",
+    "outputs/g1_pass8_pilot_v1/plan.json": "34e2b4c6142e70022577e9fd2e06ed4d1ee780c8e0cf3a5c02ceca1297358b8a",
+    "outputs/g1_pass8_pilot_v1/game_seeds.json": "06e0a220b3dbb935c0b398734de41c05a7f7241375ff934be36f40a696dfebec",
+    "outputs/g1_pass8_pilot_v1/games/g1_pass8_pilot_v1-g000000.json": "236b1a6999cb53fd0dd72abf78935922deca0f83bfc33c254f0d477950a4c561",
+    "outputs/g1_pass8_pilot_v1/games/g1_pass8_pilot_v1-g000001.json": "f6bcfd7390824bc16f6fccfd4ac82851cf2fe6a19d95d61da2d1e152ef4b5296",
+    "outputs/g1_pass8_pilot_v1/games/g1_pass8_pilot_v1-g000002.json": "d2b316beaf9c0f26d429f73fdda8252e76e6eaedf65e509be909b4389b716c4d",
+    "outputs/g1_pass8_pilot_v1/games/g1_pass8_pilot_v1-g000003.json": "224a9a4f63045a5b86edfa70ceedde481a01a8b6bcbbb036fafc1953a0107d93",
+    "outputs/g1_pass8_pilot_v1/games/g1_pass8_pilot_v1-g000004.json": "ca04d6a4c959822e1079feb1d30097c3ed12c8ce59f0a3b9a4d3c491a8ee7438",
+    "outputs/g1_pass8_pilot_v1/games/g1_pass8_pilot_v1-g000005.json": "affe403ebe695c26e9d16a0cf0cdaa6ac57316e5601d5290e47e4148e6a4776e",
+    "outputs/g1_pass8_pilot_v1/games/g1_pass8_pilot_v1-g000006.json": "e9ca230f3884142ffbb6f5e987f62a2f475eaca767a755fcbe2a6604b4f37c10",
+    "outputs/g1_pass8_pilot_v1/games/g1_pass8_pilot_v1-g000007.json": "94290a034f91f396b91e6e12c25d6db7b5d6230ede7ef17b138918fb1a6d002e",
+    "outputs/g1_pass8_pilot_v1/games/g1_pass8_pilot_v1-g000008.json": "af2c77fe8a7fe8c96cabd445ff1c3cdcf64cfb42ae813e69de3a1c8d6f6deb08",
+    "outputs/g1_pass8_pilot_v1/games/g1_pass8_pilot_v1-g000009.json": "8973e945f6f5910c81efa12bef42f8c4d40f045624f787b54bf11246eb651f2f",
+    "outputs/g1_pass8_pilot_v1/games/g1_pass8_pilot_v1-g000010.json": "805d6728bfa3c4f873ca9c10e247f11e675e0483a1990e7de64be5d665f1822d",
+    "outputs/g1_pass8_pilot_v1/games/g1_pass8_pilot_v1-g000011.json": "6eb3f85563c7ec17c9b83b99c180f097423aec6061d60beddfecff9a2b5b85b7",
+    "outputs/g1_pass8_pilot_v1/games/g1_pass8_pilot_v1-g000012.json": "b40655caec37e1bd2ae0dcf6571dcacde2e249e716068fba8b6bf15e442e1170",
+    "outputs/g1_pass8_pilot_v1/games/g1_pass8_pilot_v1-g000013.json": "2abb8f2c162f46759603310382265345f47e7f6a97641d47040d7cde2128a690",
+    "outputs/g1_pass8_pilot_v1/games/g1_pass8_pilot_v1-g000014.json": "31d96fdd91617978a2330e7952363427ae65e43cf3dcfb939a4ad57d63f0edf1",
+    "outputs/g1_pass8_pilot_v1/games/g1_pass8_pilot_v1-g000015.json": "03f0f539796d76775dbebd082993f2d7239a1e592085d4bc97d298f7840a30c8",
+    "outputs/g1_pass8_pilot_v1/games/g1_pass8_pilot_v1-g000016.json": "d382ca3bb597d442986d2556e431cf53e313122daa3fbbb33187bb78f732b4a1",
+    "outputs/g1_pass8_pilot_v1/games/g1_pass8_pilot_v1-g000017.json": "fc2a68c27e148d991d413a36ecdfb0c80638c88a5ead45dcc426e891dc3a7f85",
+    "outputs/g1_pass8_pilot_v1/games/g1_pass8_pilot_v1-g000018.json": "3bf77b8a19004e1c48eb693992b0866261837f9986233cb034a8130a49c27bab",
+    "outputs/g1_pass8_pilot_v1/games/g1_pass8_pilot_v1-g000019.json": "0bb0519dbd59e7407d58865ef1e56b9d9609684fab3920c46c35037f339665c0",
+    "outputs/g1_pass8_pilot_v1/games/g1_pass8_pilot_v1-g000020.json": "826e4284c543418bddfce46313be5ce03269ad90b3f75803aaa89b7e4364d537",
+    "outputs/g1_pass8_pilot_v1/games/g1_pass8_pilot_v1-g000021.json": "bd69ec051bf40f3b865e458a7d45d5af5122a84d922f2bde5889f6c171551f33",
+    "outputs/g1_pass8_pilot_v1/games/g1_pass8_pilot_v1-g000022.json": "e81839b497cbccdefadbe892d5838924219e77685c7259548f8d6db7596afb69",
+    "outputs/g1_pass8_pilot_v1/games/g1_pass8_pilot_v1-g000023.json": "a125c060ab66c7ce163b637e380c4198a110f630f422d86c656bb98bfaaee273",
+    "outputs/g1_pass8_pilot_v1/games/g1_pass8_pilot_v1-g000024.json": "532177ec2d123375215cc53ed684d7aa8cdd74e43b7d934c857d09fe4508eb80",
+    "outputs/g1_pass8_pilot_v1/games/g1_pass8_pilot_v1-g000025.json": "2816522088f0818ab3c1cdc491e948aeff770e388f419d3348ac7f62cebd1c0e",
+    "outputs/g1_pass8_pilot_v1/games/g1_pass8_pilot_v1-g000026.json": "2dccc9b3a11f2435ac676f1d1a30ba9c1ff0aa0758e2ae908e937b0d6fd8701d",
+    "outputs/g1_pass8_pilot_v1/games/g1_pass8_pilot_v1-g000027.json": "e344ab312ceee9beddf76ae0765dc7a2b40af900577fa805d230bd20f5fe8d40",
+    "outputs/g1_pass8_pilot_v1/games/g1_pass8_pilot_v1-g000028.json": "bae6755cc67f050f1bd7b1c02b8cbf76505677383b8fd4e14f91bb62f7e5b985",
+    "outputs/g1_pass8_pilot_v1/games/g1_pass8_pilot_v1-g000029.json": "f7f054614b055e77bba58a17de9613f3d3f11dda78a6189c9f21ef430a8806a7",
+    "outputs/g1_pass8_pilot_v1/games/g1_pass8_pilot_v1-g000030.json": "e2e2c400e5db3d636828c2da3531805c6b3c4ecdc024a8a20db9084af1b93cad",
+    "outputs/g1_pass8_pilot_v1/games/g1_pass8_pilot_v1-g000031.json": "3491ccb0b4ed985d9ff58786259c54f70543fb5ea75ff3bed574937507c0ea14",
+    "outputs/g1_pass8_pilot_v1/games/g1_pass8_pilot_v1-g000032.json": "2c3a1fc74218e2392a9c1ebb6dd07128e669ee34898576203af78dc40bfddf07",
+    "outputs/g1_pass8_pilot_v1/games/g1_pass8_pilot_v1-g000033.json": "8e0e039cd1118b427757e18b19b39e00616655532fe954c19ca42b928fee45f9",
+    "outputs/g1_pass8_pilot_v1/games/g1_pass8_pilot_v1-g000034.json": "f7c8108551e7c2e56256ef0517abc82049c772a0497f87b1f27b3959416f74cc",
+    "outputs/g1_pass8_pilot_v1/games/g1_pass8_pilot_v1-g000035.json": "59388fd89cf03108becf83475a8aafbe863c963d9fabb801faae4b8b934819c6",
+    "outputs/g1_pass8_pilot_v1/games/g1_pass8_pilot_v1-g000036.json": "e036b4da733cc29b746b9ccb8fd185074e80c0c55fe2f938aa30d063896a4a61",
+    "outputs/g1_pass8_pilot_v1/games/g1_pass8_pilot_v1-g000037.json": "76e9c73010ce3a813539203df530977bbcabfa6b12d3763b2ef233682290b50e",
+    "outputs/g1_pass8_pilot_v1/games/g1_pass8_pilot_v1-g000038.json": "597658da26ffa52f510fbb3bd3140cc5673bfe72c6308caaa478a6debc896363",
+    "outputs/g1_pass8_pilot_v1/games/g1_pass8_pilot_v1-g000039.json": "a4fa9f09f3f09282a21df2261e3d2ae22edbbeaacbd77a702450945cc84572a5",
+    "outputs/g1_pass8_pilot_v1/games/g1_pass8_pilot_v1-g000040.json": "79726c6c522edee06a16c633f63fa75b110dc8a8f80c675dc68a2f24375592dc",
+    "outputs/g1_pass8_pilot_v1/games/g1_pass8_pilot_v1-g000041.json": "a329ba5923953872d5a17fc1ee535da45f611c5f0a1f9382f7468136791ebc9b",
+    "outputs/g1_pass8_pilot_v1/games/g1_pass8_pilot_v1-g000042.json": "395c6baa845779f69b7a21447d8b1c3d13c4c5d680c611e522c005f54083ac56",
+    "outputs/g1_pass8_pilot_v1/games/g1_pass8_pilot_v1-g000043.json": "4c4a48fe1cc539b6ca8c81c81dafb6dacd5ee6fd493b8c370dbf9ecd7f30151a",
+    "outputs/g1_pass8_pilot_v1/games/g1_pass8_pilot_v1-g000044.json": "1f26500462fa67d8c99639fe066439bd3c1682716f1c221cf56d0db09cac19e7",
+    "outputs/g1_pass8_pilot_v1/games/g1_pass8_pilot_v1-g000045.json": "a48aac30d8b296867066848e154e9e9b8a4acc2123b0ae5ee39f501e697a700b",
+    "outputs/g1_pass8_pilot_v1/games/g1_pass8_pilot_v1-g000046.json": "557bf06f071297153e141d1272bf37b1fcebcf92f59490a5414b857ad1e2ed49",
+    "outputs/g1_pass8_pilot_v1/games/g1_pass8_pilot_v1-g000047.json": "d54db6c850c2c9271ce5d26a8548e58644ca918569b74b3a86e7cf71b8b5653c"
+  },
+  "coverage": [
+    "48 records / 24 adjacent paired blocks / 12 arm orders each / fixed rule-direction-seed balance",
+    "independent union-find final area and per-proposal score / identity utility",
+    "actual-path capture reconstruction, suicide and situational repetition checks",
+    "recorded root pass window, key consistency, visits, chosen maximum and utility-vector Q symmetry",
+    "full independent saved-analysis recomputation: rows, four directions, per seed, quantiles, routes, captures, prefixes, event denominators",
+    "paired raw/extra length and goal/boardwinner deltas; equal-direction mixed/same summaries; representatives/anomalies",
+    "source/protocol/entry/measurement/test frozen hashes and metadata mirrors"
+  ],
+  "limitations": [
+    "Not a second full rules/search engine; root nonpass legal-set completeness and superko exclusion counts are not independently enumerated.",
+    "Reported search values, rollout and internal tree legality are not regenerated or proved.",
+    "Game/search timings and file bytes are checked and aggregated, but child CPU/peakRSS measurement validity is a separate cost audit.",
+    "Historical-source preservation, historical-stream disjointness and six deterministic regenerations are separately owned evidence.",
+    "Pilot is descriptive only; no inference, causal coordination adjustment, sample expansion or behavioral GO decision."
+  ],
+  "audit_script_sha256": "b5805d3d8605e4652e1a120e4806a212026a90bfc5c513fd0905223a24d6c325"
+}

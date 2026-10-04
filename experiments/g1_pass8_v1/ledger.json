@@ -1,10 +1,11 @@
 {
   "experiment_id": "G1-pass8-pilot-v1",
-  "phase": "pilot_complete_pending_audit",
+  "phase": "completed_fixed_pilot",
   "completed": 48,
   "planned": 48,
   "validation_problems": [],
+  "final_acceptance": "final_acceptance.json",
   "formal_expansion_started": false,
   "7x7": "NO-GO",
-  "source_fingerprint": "5876fdc9d1cc29fc446300265db5a9676f07b646cc8299cd4961f1129fdb3ec1"
+  "next": "Deliver M4; separately preregister any formal5x5pass8 estimate with newseeds. No automatic expansion."
 }

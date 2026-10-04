@@ -1,0 +1,122 @@
+{
+  "files": {
+    "final_pytest.json": {
+      "sha256": "cbdc8880cd5cf15afcd831990ad8ac5864ffb67c757523489633f4d4d6cec536",
+      "bytes": 540
+    },
+    "final_pytest.log": {
+      "sha256": "9299d126f51a36cd4cd06ddbe5a2b27edd5ee7952e3efb229a881777679db7af",
+      "bytes": 512
+    },
+    "final_validation.json": {
+      "sha256": "c84e8da64091c38118f47f18f716b20869e4d081f27f18d2af79a041e5e88344",
+      "bytes": 5882
+    },
+    "final_validation.log": {
+      "sha256": "6d9afd3545d7372b8504c8df5e4c50d997caaabbc278241e685a70f26333d083",
+      "bytes": 2592
+    },
+    "final_validation_summary.json": {
+      "sha256": "be67e40c4d7c490f72902c030b61edd03106cd73545952be5a23eb5d7df1f9e7",
+      "bytes": 1440
+    },
+    "historical_protection.json": {
+      "sha256": "9b4569191e4a6b2be183f93b807890ed5b8d3b2a745dbb1d6dfe2730515f3469",
+      "bytes": 2177
+    },
+    "predesignated_regeneration_selections.json": {
+      "sha256": "5e66213b5f71ab44a9ab455b81c50101a9e5ba3838c9b42b2572ca3ff4c43f83",
+      "bytes": 3631
+    },
+    "protected_hashes_after_winorlose.json": {
+      "sha256": "7758d0149c89591de960f54e8116fb6361dc5257d82c33b36e33cbf5c0801498",
+      "bytes": 1979288
+    },
+    "protected_hashes_after_winorlose_d0_v1.json": {
+      "sha256": "fd28f8b7ff4f37930a3935a08f51fffbefe00da310c9fdef9760facd5f35e949",
+      "bytes": 1986515
+    },
+    "protected_hashes_after_winorlose_d1_estimation_v1.json": {
+      "sha256": "54ea23fdc76134c3bdd5db3831039d2b099d328943693a29104c77079bc75ac6",
+      "bytes": 2118746
+    },
+    "protected_hashes_after_winorlose_d1_v1.json": {
+      "sha256": "b7145a8b306f18fdc0ba9db9803f647bcb88897315e5025239ab89a3923faa9c",
+      "bytes": 1997831
+    },
+    "regeneration_g1_pass8_pilot_v1-g000000.json": {
+      "sha256": "884d3cd6106e1b33fccb603f788cfd740b055f4b32aef66c3a0bc4ff369eb6ae",
+      "bytes": 1016
+    },
+    "regeneration_g1_pass8_pilot_v1-g000001.json": {
+      "sha256": "236b02da468fbc3473be8c01128aef99025d10e946b6193f5d393cad53ae6d20",
+      "bytes": 1016
+    },
+    "regeneration_g1_pass8_pilot_v1-g000002.json": {
+      "sha256": "6fb9e74ac2c7dd6f826e11b197c086046473eef2051883e51cfe5f5d408cb491",
+      "bytes": 1010
+    },
+    "regeneration_g1_pass8_pilot_v1-g000003.json": {
+      "sha256": "3fb9288a03c64bdf7bbdeef32c8a76831b8e9cbd075cbfe1ba0c2af7a2a8139d",
+      "bytes": 1010
+    },
+    "regeneration_g1_pass8_pilot_v1-g000006.json": {
+      "sha256": "39350c9508ca9686df1089038c972240356af59445ae094d3e07ed6995fefe60",
+      "bytes": 1014
+    },
+    "regeneration_g1_pass8_pilot_v1-g000007.json": {
+      "sha256": "36a11841d68c70602ea3229ecdc4763c1ed2d12bf1508b80fd0bda3174bf07e2",
+      "bytes": 1014
+    },
+    "six_game_regeneration.json": {
+      "sha256": "67f73803c40d9d0947e2c0ce6adb19e609605e4ee5fb26562f99b33a885f7a2a",
+      "bytes": 10638
+    },
+    "strict_complete_validation.json": {
+      "sha256": "de9e99e22ecb5a5a711da1981b6cc2ebcdb8f85ea4afd21f151ae16d8eb83c65",
+      "bytes": 5420
+    },
+    "validation_input_hashes_after.json": {
+      "sha256": "745ae1121a5c8291e42aaef5656adb7fb8031ce1576095a88dea0211e01f81f1",
+      "bytes": 11195
+    },
+    "validation_input_hashes_before.json": {
+      "sha256": "745ae1121a5c8291e42aaef5656adb7fb8031ce1576095a88dea0211e01f81f1",
+      "bytes": 11195
+    },
+    "validation_inputs_unchanged.json": {
+      "sha256": "851b59c129cfb8c1a8c11fd1dcd802702d8a957d08c2851847e9e8717271aa00",
+      "bytes": 363
+    },
+    "verify_pass8_delivery.py": {
+      "sha256": "24f97c69c857e41c2ef6df41676c19dd0e505a32b374116b24b3d7603305a81f",
+      "bytes": 12486
+    },
+    "regenerated_games/g1_pass8_pilot_v1-g000000.json": {
+      "sha256": "5a8ba50503eca03e76957bfe640c0a29dcd8ae0f237fbd273ca0708f6bf19188",
+      "bytes": 55588
+    },
+    "regenerated_games/g1_pass8_pilot_v1-g000001.json": {
+      "sha256": "abfb327c5034437949656218f99375d495e308a10ce87111313433146ec18e95",
+      "bytes": 63499
+    },
+    "regenerated_games/g1_pass8_pilot_v1-g000002.json": {
+      "sha256": "21b2706c1b5cecd937146ce3665e99d8369b22237e56e77cea12f5244b753bb2",
+      "bytes": 46709
+    },
+    "regenerated_games/g1_pass8_pilot_v1-g000003.json": {
+      "sha256": "600585f7fca83b66c347c4045b71cdc1e8c4ea79d593b660bfd2907ee7a7ef7b",
+      "bytes": 49078
+    },
+    "regenerated_games/g1_pass8_pilot_v1-g000006.json": {
+      "sha256": "845da4cd0f8d60ece7400699d88d349a02031284326681048e5a6106a1ccb447",
+      "bytes": 63185
+    },
+    "regenerated_games/g1_pass8_pilot_v1-g000007.json": {
+      "sha256": "b2eb6618849ae2e328b1a57defa70155623ebe0ac5a122da7a8aaa1b71913807",
+      "bytes": 53945
+    }
+  },
+  "file_count": 29,
+  "excludes": "pytest_tmp and validation_tmp are test scratch only; independent arithmetic audit is a separate deliverable"
+}

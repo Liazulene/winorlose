@@ -1,0 +1,139 @@
+{
+  "rule": "Minimum registered game_index in each pass_min_ply {0,8} by batch_seed {8,9,10} stratum",
+  "saved_before_regeneration": true,
+  "count": 6,
+  "selections": [
+    {
+      "pass_min_ply": 0,
+      "batch_seed": 8,
+      "game_index": 3,
+      "game_id": "g1_pass8_pilot_v1-g000003",
+      "game_seed": 67477384894971418729362396364665946391,
+      "black": {
+        "agent_id": "WIN-medium-s2",
+        "identity": "WIN",
+        "algorithm": "vector_mcts",
+        "compute_level": "medium",
+        "seed": 2
+      },
+      "white": {
+        "agent_id": "WIN-medium-s1",
+        "identity": "WIN",
+        "algorithm": "vector_mcts",
+        "compute_level": "medium",
+        "seed": 1
+      },
+      "budget_each": 256
+    },
+    {
+      "pass_min_ply": 0,
+      "batch_seed": 9,
+      "game_index": 6,
+      "game_id": "g1_pass8_pilot_v1-g000006",
+      "game_seed": 278315983096741017600508740049533791744,
+      "black": {
+        "agent_id": "LOSE-medium-s1",
+        "identity": "LOSE",
+        "algorithm": "vector_mcts",
+        "compute_level": "medium",
+        "seed": 1
+      },
+      "white": {
+        "agent_id": "LOSE-medium-s2",
+        "identity": "LOSE",
+        "algorithm": "vector_mcts",
+        "compute_level": "medium",
+        "seed": 2
+      },
+      "budget_each": 256
+    },
+    {
+      "pass_min_ply": 0,
+      "batch_seed": 10,
+      "game_index": 1,
+      "game_id": "g1_pass8_pilot_v1-g000001",
+      "game_seed": 225414441093210781607634984819195569430,
+      "black": {
+        "agent_id": "LOSE-medium-s2",
+        "identity": "LOSE",
+        "algorithm": "vector_mcts",
+        "compute_level": "medium",
+        "seed": 2
+      },
+      "white": {
+        "agent_id": "LOSE-medium-s1",
+        "identity": "LOSE",
+        "algorithm": "vector_mcts",
+        "compute_level": "medium",
+        "seed": 1
+      },
+      "budget_each": 256
+    },
+    {
+      "pass_min_ply": 8,
+      "batch_seed": 8,
+      "game_index": 2,
+      "game_id": "g1_pass8_pilot_v1-g000002",
+      "game_seed": 67477384894971418729362396364665946391,
+      "black": {
+        "agent_id": "WIN-medium-s2",
+        "identity": "WIN",
+        "algorithm": "vector_mcts",
+        "compute_level": "medium",
+        "seed": 2
+      },
+      "white": {
+        "agent_id": "WIN-medium-s1",
+        "identity": "WIN",
+        "algorithm": "vector_mcts",
+        "compute_level": "medium",
+        "seed": 1
+      },
+      "budget_each": 256
+    },
+    {
+      "pass_min_ply": 8,
+      "batch_seed": 9,
+      "game_index": 7,
+      "game_id": "g1_pass8_pilot_v1-g000007",
+      "game_seed": 278315983096741017600508740049533791744,
+      "black": {
+        "agent_id": "LOSE-medium-s1",
+        "identity": "LOSE",
+        "algorithm": "vector_mcts",
+        "compute_level": "medium",
+        "seed": 1
+      },
+      "white": {
+        "agent_id": "LOSE-medium-s2",
+        "identity": "LOSE",
+        "algorithm": "vector_mcts",
+        "compute_level": "medium",
+        "seed": 2
+      },
+      "budget_each": 256
+    },
+    {
+      "pass_min_ply": 8,
+      "batch_seed": 10,
+      "game_index": 0,
+      "game_id": "g1_pass8_pilot_v1-g000000",
+      "game_seed": 225414441093210781607634984819195569430,
+      "black": {
+        "agent_id": "LOSE-medium-s2",
+        "identity": "LOSE",
+        "algorithm": "vector_mcts",
+        "compute_level": "medium",
+        "seed": 2
+      },
+      "white": {
+        "agent_id": "LOSE-medium-s1",
+        "identity": "LOSE",
+        "algorithm": "vector_mcts",
+        "compute_level": "medium",
+        "seed": 1
+      },
+      "budget_each": 256
+    }
+  ]
+}

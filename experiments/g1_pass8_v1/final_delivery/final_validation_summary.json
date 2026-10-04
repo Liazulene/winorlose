@@ -1,0 +1,45 @@
+{
+  "checked_at": "2026-10-04T05:23:34.483553+00:00",
+  "experiment_id": "G1-pass8-pilot-v1",
+  "source_fingerprint": "5876fdc9d1cc29fc446300265db5a9676f07b646cc8299cd4961f1129fdb3ec1",
+  "code_version": "winai_loseai-0.6.0-g1-pass8-pilot",
+  "python_version": "3.12.14",
+  "pytest": {
+    "passed": 387,
+    "failures": 0,
+    "wall_seconds_reported": 197.0,
+    "interpreter": "/workspace/scratch/50e0c7c6aca1/winorlose_audit_venv/bin/python",
+    "python_dont_write_bytecode": "1",
+    "command": [
+      "/workspace/scratch/50e0c7c6aca1/winorlose_audit_venv/bin/python",
+      "-m",
+      "pytest",
+      "-q",
+      "-p",
+      "no:cacheprovider",
+      "--basetemp=/workspace/scratch/50e0c7c6aca1/winorlose_reports/g1_pass8_v1/final_delivery/pytest_tmp"
+    ],
+    "log_sha256": "9299d126f51a36cd4cd06ddbe5a2b27edd5ee7952e3efb229a881777679db7af"
+  },
+  "strict_replay_and_search_passed": 48,
+  "sample_n": 48,
+  "regenerations": 6,
+  "matching_regenerations": 6,
+  "regeneration_added_n": 0,
+  "regeneration_selected_indexes": [
+    3,
+    6,
+    1,
+    2,
+    7,
+    0
+  ],
+  "historical_worktrees_checked": 4,
+  "historical_tracked_files_checked": 64718,
+  "historical_protection_passed": true,
+  "validation_inputs_unchanged": true,
+  "source_lock_matches_saved": true,
+  "script_sha256": "24f97c69c857e41c2ef6df41676c19dd0e505a32b374116b24b3d7603305a81f",
+  "wall_seconds_excluding_pytest": 139.96104141199976,
+  "problems": []
+}

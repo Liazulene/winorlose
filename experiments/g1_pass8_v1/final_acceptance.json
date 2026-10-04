@@ -1,0 +1,29 @@
+{
+  "experiment_id": "G1-pass8-pilot-v1",
+  "completed": 48,
+  "planned": 48,
+  "strict_replay_search_passed": 48,
+  "source_fingerprint": "5876fdc9d1cc29fc446300265db5a9676f07b646cc8299cd4961f1129fdb3ec1",
+  "full_suite_before": 387,
+  "full_suite_after": 387,
+  "samecode_G0_historical_regressions": 3,
+  "newpilot_exact_regenerations": 6,
+  "independent_synthetic_tests": 27,
+  "independent_analysis_records": 48,
+  "independent_analysis_pairs": 24,
+  "independent_actions": 1286,
+  "independent_pass_proposals": 163,
+  "old_tracked_files_unchanged": 64718,
+  "game_failures": 0,
+  "nolegal_faults": 0,
+  "unplanned_game_reruns": 0,
+  "planned_checkpoint_interruptions": 5,
+  "fixed_N_preserved": true,
+  "formal_phase_started": false,
+  "7x7": "NO-GO",
+  "rule_fault_policy": "failclosed, tested but never observed",
+  "notes": [
+    "validation.json is preserved pre-finish snapshot; definitive completed final_validation.json under final_delivery",
+    "Postrun audit and evidence packaging do not change locked source or outputs; report Markdown kept outside GitHub"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "incidents": [
+    {
+      "phase": "postrun final evidence blob upload",
+      "target": "experiments/g1_pass8_v1/final_delivery/protected_hashes_after_winorlose.json.gz",
+      "bytes": 680974,
+      "raw48_remote_commit_during_wait": "72fd38a11a5f516c10e26b4ee59bce5ae24ef6fd",
+      "status": "Original call resumed successfully; matching Git blob SHA verified, then remaining serialized uploads completed",
+      "return_observed_utc": "2026-10-04T07:44:31Z",
+      "all_remaining_blob_results_observed_utc": "2026-10-04T07:46:04Z",
+      "exact_approval_wait_duration_seconds": null,
+      "duration_note": "Exact pending-call admission/approval timestamps unavailable; do not infer precise approval duration from overall controller gap. This wait occurred after all48 games and postrun validation completed.",
+      "uncertain_write_retries": 0,
+      "game_failures": 0,
+      "new_games_or_seed_replacements": 0,
+      "effect": "Delayed final evidence publication only; raw48,analysis,locks already remotely verified, locally completed acceptance evidence unchanged."
+    }
+  ],
+  "no_main_merge": true,
+  "no_force_push": true
+}

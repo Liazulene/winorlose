@@ -1,0 +1,12 @@
+{
+  "tests_passed": 27,
+  "production_imports": false,
+  "real_pilot_executed": false,
+  "suite": "stdlib unittest; includes read-only complete 48-record synthetic file audit and deliberately corrupted persisted analysis/source/metadata",
+  "files_sha256": {
+    "independent_final_audit.py": "b5805d3d8605e4652e1a120e4806a212026a90bfc5c513fd0905223a24d6c325",
+    "test_independent_final_audit.py": "172cdcb2c5425e07316bfe0fdf8bc13b746af694ecccfdbba6518c4f635e1785",
+    "synthetic_tests.stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "synthetic_tests.stderr.txt": "856890cb0f5e85ac183c3c8e5e0c99c55f9c9454e3ae1959f41513c67c6a3a0b"
+  }
+}

@@ -1,0 +1,32 @@
+test_48_24_balance (test_independent_final_audit.ArithmeticTests.test_48_24_balance) ... ok
+test_deliberately_corrupted_analysis_detected (test_independent_final_audit.ArithmeticTests.test_deliberately_corrupted_analysis_detected) ... ok
+test_equal_direction_weighting (test_independent_final_audit.ArithmeticTests.test_equal_direction_weighting) ... ok
+test_event_denominator_excludes_unavailable_next_action (test_independent_final_audit.ArithmeticTests.test_event_denominator_excludes_unavailable_next_action) ... ok
+test_extra_delta_exact_minus_eight (test_independent_final_audit.ArithmeticTests.test_extra_delta_exact_minus_eight) ... ok
+test_pass_and_capture_and_prefix_hand_calculation (test_independent_final_audit.ArithmeticTests.test_pass_and_capture_and_prefix_hand_calculation) ... ok
+test_quantile_known_values (test_independent_final_audit.ArithmeticTests.test_quantile_known_values) ... ok
+test_uncorrupted_analysis_matches (test_independent_final_audit.ArithmeticTests.test_uncorrupted_analysis_matches) ... ok
+test_complete_file_audit_and_read_only_inputs (test_independent_final_audit.FileAuditTests.test_complete_file_audit_and_read_only_inputs) ... ok
+test_persisted_corrupt_analysis_fails_end_to_end (test_independent_final_audit.FileAuditTests.test_persisted_corrupt_analysis_fails_end_to_end) ... ok
+test_source_and_metadata_corruption_fail (test_independent_final_audit.FileAuditTests.test_source_and_metadata_corruption_fail) ... ok
+test_capture_group_not_counted_twice (test_independent_final_audit.GeometryTests.test_capture_group_not_counted_twice) ... ok
+test_empty_area (test_independent_final_audit.GeometryTests.test_empty_area) ... ok
+test_identity_truth_table (test_independent_final_audit.GeometryTests.test_identity_truth_table) ... ok
+test_mixed_empty_is_neutral (test_independent_final_audit.GeometryTests.test_mixed_empty_is_neutral) ... ok
+test_separate_owned_regions (test_independent_final_audit.GeometryTests.test_separate_owned_regions) ... ok
+test_single_black_claims_connected_empty (test_independent_final_audit.GeometryTests.test_single_black_claims_connected_empty) ... ok
+test_single_white_claims_connected_empty (test_independent_final_audit.GeometryTests.test_single_white_claims_connected_empty) ... ok
+test_suicide_rejected (test_independent_final_audit.GeometryTests.test_suicide_rejected) ... ok
+test_after_doublepass_rejected (test_independent_final_audit.RecordCorruptionTests.test_after_doublepass_rejected) ... ok
+test_bad_source_and_rule_and_budget_rejected (test_independent_final_audit.RecordCorruptionTests.test_bad_source_and_rule_and_budget_rejected) ... ok
+test_boolean_numeric_and_nan_corruption_rejected (test_independent_final_audit.RecordCorruptionTests.test_boolean_numeric_and_nan_corruption_rejected) ... ok
+test_early_actual_pass_rejected (test_independent_final_audit.RecordCorruptionTests.test_early_actual_pass_rejected) ... ok
+test_early_root_pass_rejected (test_independent_final_audit.RecordCorruptionTests.test_early_root_pass_rejected) ... ok
+test_final_board_corruption_rejected (test_independent_final_audit.RecordCorruptionTests.test_final_board_corruption_rejected) ... ok
+test_missing_late_root_pass_rejected (test_independent_final_audit.RecordCorruptionTests.test_missing_late_root_pass_rejected) ... ok
+test_no_production_or_third_party_imports (test_independent_final_audit.RecordCorruptionTests.test_no_production_or_third_party_imports) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.786s
+
+OK

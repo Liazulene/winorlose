@@ -1,0 +1,9 @@
+{
+  "artifact": "outputs/g1_pass8_pilot_v1/validation.json",
+  "observation": "manifest_status=running in successful pre-finish validation snapshot",
+  "code_sequence": "run_locked saves checked before store.finish; final validation returned after finish is completed",
+  "final_evidence": "experiments/g1_pass8_v1/final_delivery/final_validation.json",
+  "raw_artifact_preserved": true,
+  "effect_on_games_analysis_or_sample": "none",
+  "future_change": "Persist post-finish validation in a new version; no frozen-source patch or retroactive output normalization"
+}

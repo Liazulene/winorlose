@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "complete": true,
+  "n_records": 48,
+  "n_pairs": 24,
+  "n_actual_actions": 1286,
+  "n_pass_proposals": 163,
+  "problems": []
+}

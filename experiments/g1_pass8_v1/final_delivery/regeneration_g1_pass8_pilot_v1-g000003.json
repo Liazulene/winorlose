@@ -1,0 +1,30 @@
+{
+  "pass_min_ply": 0,
+  "batch_seed": 8,
+  "game_index": 3,
+  "game_id": "g1_pass8_pilot_v1-g000003",
+  "game_seed": 67477384894971418729362396364665946391,
+  "black": {
+    "agent_id": "WIN-medium-s2",
+    "identity": "WIN",
+    "algorithm": "vector_mcts",
+    "compute_level": "medium",
+    "seed": 2
+  },
+  "white": {
+    "agent_id": "WIN-medium-s1",
+    "identity": "WIN",
+    "algorithm": "vector_mcts",
+    "compute_level": "medium",
+    "seed": 1
+  },
+  "budget_each": 256,
+  "saved_file_sha256": "224a9a4f63045a5b86edfa70ceedde481a01a8b6bcbbb036fafc1953a0107d93",
+  "regenerated_file_sha256": "600585f7fca83b66c347c4045b71cdc1e8c4ea79d593b660bfd2907ee7a7ef7b",
+  "saved_excluding_only_timing_sha256": "90445a9999e7fefe513422785f3958b721ca2ac0632ab745ff32873b7ebc0d03",
+  "regenerated_excluding_only_timing_sha256": "90445a9999e7fefe513422785f3958b721ca2ac0632ab745ff32873b7ebc0d03",
+  "matches_except_timing": true,
+  "record_problems": [],
+  "differences": [],
+  "wall_seconds": 19.623195298998326
+}

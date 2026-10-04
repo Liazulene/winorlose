@@ -1,0 +1,46 @@
+{
+  "copied_files": {
+    "final_audit.stderr.txt": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "final_audit.stdout.txt": {
+      "sha256": "38d66fa8d73b8cbc421f33c5fda2dd6ed9ab37f63d9ab78500ba0f687a86124f",
+      "bytes": 150
+    },
+    "final_audit_results.json": {
+      "sha256": "1cf24d1a5bd02d01e0f201ec6730af0604aec3ce602b3fb25ac044dd9b5e6aa9",
+      "bytes": 32674
+    },
+    "independent_final_audit.py": {
+      "sha256": "b5805d3d8605e4652e1a120e4806a212026a90bfc5c513fd0905223a24d6c325",
+      "bytes": 33407
+    },
+    "independently_recomputed_analysis.json": {
+      "sha256": "a7e0018d8933a16c41f96ba0e28fb05f54e821e1df74abce7c8f3d1f0c85af85",
+      "bytes": 401993
+    },
+    "synthetic_test_results.json": {
+      "sha256": "48cc2246c1984dd2d517a504850253bc811fc3b5f5095e0dd1fb41204a9b05b0",
+      "bytes": 677
+    },
+    "synthetic_tests.stderr.txt": {
+      "sha256": "856890cb0f5e85ac183c3c8e5e0c99c55f9c9454e3ae1959f41513c67c6a3a0b",
+      "bytes": 3538
+    },
+    "synthetic_tests.stdout.txt": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "test_independent_final_audit.py": {
+      "sha256": "172cdcb2c5425e07316bfe0fdf8bc13b746af694ecccfdbba6518c4f635e1785",
+      "bytes": 21044
+    }
+  },
+  "all_bytes_equal": true,
+  "production_outputs_modified": false,
+  "imports_changed": false,
+  "arguments_changed": false,
+  "rerun_required": false,
+  "reason": "Audit root/out/report paths are explicit CLI arguments; script has no path-relative production imports or inputs."
+}
