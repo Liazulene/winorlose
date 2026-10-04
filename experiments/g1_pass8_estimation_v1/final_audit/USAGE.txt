@@ -1,0 +1,77 @@
+M5 independent final audit tool contract
+
+Preparation only. This directory contains an audit implementation and synthetic
+selftests. No completed formal-480 data has been audited by this preparation task.
+No real games, rollouts, or MCTS searches are run by these tools.
+
+The implementation uses only Python's standard library. It imports no production
+engine, runner, analysis, or statistics module. It is descended from the M4
+independent audit, extended for M5 and with independent actual-root legal-action
+and superko enumeration. The two independent_review arithmetic modules are pinned
+by SHA256 before loading. Imports do not write bytecode into evidence directories.
+
+Run selftests from the repository root:
+  python experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py
+
+Run the formal audit only after all 480 games, complete manifest/validation,
+production analysis, and other final evidence are ready:
+  python experiments/g1_pass8_estimation_v1/final_audit/independent_final_audit.py --root . --out outputs/g1_pass8_estimation_v1 --report experiments/g1_pass8_estimation_v1/final_audit/run480_v1/report.json --recomputed experiments/g1_pass8_estimation_v1/final_audit/run480_v1/recomputed.json --data-ready
+
+Use new output paths for every invocation. Existing files, duplicate output
+paths, symlinked outputs, formal input paths, and historical-worktree targets are
+rejected. Outputs are restricted to this M5 final_audit directory. JSON files
+are created exclusively. No input repair, overwrite, normalization, or resume
+operation is supported. --data-ready is an explicit complete-data declaration,
+not a bypass of the fixed480 requirements. A partial or malformed input fails
+closed; interval arithmetic is not invoked until preceding raw/design/source/
+manifest/validation/descriptive checks pass.
+
+Report passed=true means this audit's enumerated checks passed. It is not a claim
+that every separate experiment completion requirement has been independently
+repeated. complete=true describes the complete canonical raw sample shape;
+passed=false still overrides it for corrupt or inconsistent data.
+
+The recomputed output contains the complete independently rebuilt descriptive
+analysis. Its inference entry contains independently rebuilt pooled/per_seed
+numerical groups returned by the guarded arithmetic verifier. Explanatory saved
+inference prose is not copied or independently regenerated. The report includes
+the verifier's comparison result and the evidence-file hashes.
+
+Coverage:
+- Exactly 480 canonical game IDs/indexes, 240 matched adjacent blocks, 120 of each
+  arm order, six strata per direction, 48 rule/seed/direction/orientation cells
+  of 10, 240 unique game seeds and 480 unique color-agent initial streams.
+- Independent capture geometry, actual suicide/situational-superko checking,
+  full actual-root candidate enumeration, pass availability, terminal precedence,
+  terminal/proposal area scoring and identity utilities.
+- Root map keys, budgets, visits, maximum-visit selected action, Q nullness/bounds/
+  utility symmetry; independently recounted superko candidate exclusions.
+- Descriptive quantiles, goals/winners, colors, pass-event denominators, captures,
+  short routes, exact/END prefixes, representative and anomaly selection, paired
+  raw/extra length and goal deltas, equal-direction mixed/same summaries.
+- Exact seed integer comparisons; duplicate-key/nonfinite JSON rejection;
+  JSONL full metadata mirrors; completed manifest and validation snapshot;
+  source/runtime stamps and frozen source, protocol, plan, script, test and
+  review-evidence hashes; input-change detection during audit.
+- Guarded binomial-polynomial CP inversion and Hoeffding inference comparison,
+  including pooled eight-member family and exact extra-length translation.
+
+Separate completion evidence still required:
+- Six deterministic formal-game regenerations and independent historical
+  preservation/seed-isolation evidence. Frozen prelaunch evidence is hashed here,
+  but the full historical inventory is not rewalked by this audit.
+- Child wall/CPU/peakRSS cost audit and checkpoint/remote synchronization proof.
+- Internal search/rollout legality and numerical Q correctness are not regenerated
+  or formally proved. Root legality is fully enumerated only for actual turns.
+- Byte locks are not external timestamp attestation or resistance to coordinated
+  malicious replacement of all lock/evidence files.
+- Statistical intervals retain the frozen hypothetical independent-stream
+  assumptions. No sampling uncertainty is attributed to deterministic saved
+  outcomes themselves; no equivalence/rare-failure/coordination/7x7 claim follows.
+
+Selftest fixtures are fabricated in temporary directories, including full480
+known-score records, a capture-rich 100-action prefix, missing/corrupt inputs,
+rule faults, partial samples, and output-path attacks. Known algebraic examples
+cover area, captures, utility signs, quantiles, CP boundary probabilities,
+Hoeffding radii, and the final pass proposal without an available response.
+Development logs are retained; selftest_release.txt is the final release run.

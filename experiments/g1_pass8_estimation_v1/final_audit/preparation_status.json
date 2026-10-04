@@ -1,0 +1,38 @@
+{
+  "recorded_at_utc": "2026-10-04T09:08:21.896918+00:00",
+  "purpose": "M5 final audit tooling preparation; not a completed-data audit",
+  "implementation_ready": true,
+  "formal_data_audit_performed": false,
+  "formal_games_or_searches_run_by_preparation": 0,
+  "production_or_history_files_modified": false,
+  "selftests": {
+    "passed": 47,
+    "seconds": 44.303,
+    "fixtures": "synthetic only, temporary directories, independent mathematics",
+    "log": "selftest_release.txt"
+  },
+  "frozen_inputs_read_only_check": {
+    "protocol_hash": "cfe65b3f20b6e2cefdf620a27e501333c5798ea0801ee1b8881be2c010ff76fa",
+    "plan_games": 480,
+    "blocks": 240,
+    "source_fingerprint": "1633b6768cc2c93af1a504a4741167ad2fa2cf809826cd7e267ccaa369e31dae",
+    "all_named_review_hashes_match": true
+  },
+  "artifact_sha256": {
+    "independent_final_audit.py": "676c79b77ee402cb1cdfb1c89bf7688f128cefa6491a925fd8b8893341824f07",
+    "test_independent_final_audit.py": "f002091ca9b87ffab526f927516fcbf53c89ca3983868a5089fcfc3e4cd62690",
+    "USAGE.txt": "2861a4063fe6027ddd8ccabb0c30509439ef2b33fa8fa6d86e80c16ea5e149ae",
+    "selftest_release.txt": "0e78e1883b188630e49d6f27b4e71a2186e97ec385abf3b7614f99de3195d62b"
+  },
+  "independent_verifier_sha256": {
+    "recovery_verify_inference_v1.py": "c1880daa7b65edf99473f7d02002a7b541919097c332b0830418d04dcadab331",
+    "verify_inference_arithmetic.py": "d2dd9c7b98712f348da5fcacc4c74761eff666749c8d97b50e2f67b171385932"
+  },
+  "next_required_action": "Run the CLI with fresh report/recomputed paths and --data-ready only after all480 formal games and completed manifest/validation/analysis exist.",
+  "remaining_limits": [
+    "No terminal production-data audit performed.",
+    "No regeneration of search trees/rollouts or numerical Q.",
+    "Historical seed isolation/preservation, six deterministic formal regenerations, cost and remote checkpoint audits remain separately required.",
+    "Recomputed inference contains numeric pooled/per_seed groups; explanatory saved metadata is not regenerated."
+  ]
+}

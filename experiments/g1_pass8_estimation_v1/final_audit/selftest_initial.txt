@@ -1,0 +1,396 @@
+test_board_corruption (__main__.FullSyntheticAudit.test_board_corruption) ... FAIL
+test_cli_new_reports_then_refuses_reuse (__main__.FullSyntheticAudit.test_cli_new_reports_then_refuses_reuse) ... FAIL
+test_cli_requires_readiness (__main__.FullSyntheticAudit.test_cli_requires_readiness) ... ok
+test_complete_fixture_and_known_descriptive_answers (__main__.FullSyntheticAudit.test_complete_fixture_and_known_descriptive_answers) ... FAIL
+test_descriptive_corruption (__main__.FullSyntheticAudit.test_descriptive_corruption) ... FAIL
+test_duplicate_json_key (__main__.FullSyntheticAudit.test_duplicate_json_key) ... FAIL
+test_duplicate_record (__main__.FullSyntheticAudit.test_duplicate_record) ... FAIL
+test_early_pass (__main__.FullSyntheticAudit.test_early_pass) ... FAIL
+test_false_integer_action (__main__.FullSyntheticAudit.test_false_integer_action) ... FAIL
+test_final_area_corruption (__main__.FullSyntheticAudit.test_final_area_corruption) ... FAIL
+test_inference_corruption (__main__.FullSyntheticAudit.test_inference_corruption) ... FAIL
+test_jsonl_missing (__main__.FullSyntheticAudit.test_jsonl_missing) ... FAIL
+test_jsonl_reordered (__main__.FullSyntheticAudit.test_jsonl_reordered) ... FAIL
+test_jsonl_torn (__main__.FullSyntheticAudit.test_jsonl_torn) ... FAIL
+test_malformed_record (__main__.FullSyntheticAudit.test_malformed_record) ... FAIL
+test_manifest_incomplete (__main__.FullSyntheticAudit.test_manifest_incomplete) ... FAIL
+test_missing_move_field (__main__.FullSyntheticAudit.test_missing_move_field) ... FAIL
+test_missing_record (__main__.FullSyntheticAudit.test_missing_record) ... FAIL
+test_no_arithmetic_on_partial (__main__.FullSyntheticAudit.test_no_arithmetic_on_partial) ... FAIL
+test_plan_changed (__main__.FullSyntheticAudit.test_plan_changed) ... FAIL
+test_preregistered_design_changed (__main__.FullSyntheticAudit.test_preregistered_design_changed) ... ok
+test_root_legal_omission (__main__.FullSyntheticAudit.test_root_legal_omission) ... FAIL
+test_root_q_relation_corruption (__main__.FullSyntheticAudit.test_root_q_relation_corruption) ... FAIL
+test_root_visit_corruption (__main__.FullSyntheticAudit.test_root_visit_corruption) ... FAIL
+test_rule_fault (__main__.FullSyntheticAudit.test_rule_fault) ... FAIL
+test_seed_low_bit_corruption (__main__.FullSyntheticAudit.test_seed_low_bit_corruption) ... FAIL
+test_source_changed (__main__.FullSyntheticAudit.test_source_changed) ... FAIL
+test_superko_count_corruption (__main__.FullSyntheticAudit.test_superko_count_corruption) ... FAIL
+test_test_file_changed (__main__.FullSyntheticAudit.test_test_file_changed) ... FAIL
+test_unfinished_tmp (__main__.FullSyntheticAudit.test_unfinished_tmp) ... FAIL
+test_validation_not_completed (__main__.FullSyntheticAudit.test_validation_not_completed) ... FAIL
+test_write_guards (__main__.FullSyntheticAudit.test_write_guards) ... ok
+test_wrong_source_stamp (__main__.FullSyntheticAudit.test_wrong_source_stamp) ... FAIL
+test_area_empty_monocolor_and_neutral (__main__.MathematicsAndRules.test_area_empty_monocolor_and_neutral) ... ok
+test_capture_and_suicide (__main__.MathematicsAndRules.test_capture_and_suicide) ... ok
+test_exact_seed_integer (__main__.MathematicsAndRules.test_exact_seed_integer) ... ok
+test_multistone_capture (__main__.MathematicsAndRules.test_multistone_capture) ... ok
+test_no_legal_nonpass_fails_closed (__main__.MathematicsAndRules.test_no_legal_nonpass_fails_closed) ... ok
+test_quantiles_and_cp_closed_forms (__main__.MathematicsAndRules.test_quantiles_and_cp_closed_forms) ... ok
+test_strict_json (__main__.MathematicsAndRules.test_strict_json) ... ok
+test_superko_root_and_pass_exemption (__main__.MathematicsAndRules.test_superko_root_and_pass_exemption) ... ok
+test_utilities_all_directions (__main__.MathematicsAndRules.test_utilities_all_directions) ... ok
+
+======================================================================
+FAIL: test_board_corruption (__main__.FullSyntheticAudit.test_board_corruption)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 279, in test_board_corruption
+    self.mutate(self.game().relative_to(self.root),lambda r:r['final_board'].__setitem__(12,1));self.fails('actual capture geometry')
+                                                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 238, in fails
+    if fragment:self.assertIn(fragment,'\n'.join(report['problems']))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'actual capture geometry' not found in 'Audit could not finish: ValueError: protocol statistical version mismatch'
+
+======================================================================
+FAIL: test_cli_new_reports_then_refuses_reuse (__main__.FullSyntheticAudit.test_cli_new_reports_then_refuses_reuse)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 333, in test_cli_new_reports_then_refuses_reuse
+    with contextlib.redirect_stdout(io.StringIO()):self.assertEqual(audit.main(args),0)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 1 != 0
+
+======================================================================
+FAIL: test_complete_fixture_and_known_descriptive_answers (__main__.FullSyntheticAudit.test_complete_fixture_and_known_descriptive_answers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 245, in test_complete_fixture_and_known_descriptive_answers
+    self.assertTrue(report['passed'],report['problems']);self.assertTrue(report['complete'])
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : ['Audit could not finish: ValueError: protocol statistical version mismatch']
+
+======================================================================
+FAIL: test_descriptive_corruption (__main__.FullSyntheticAudit.test_descriptive_corruption)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 309, in test_descriptive_corruption
+    self.mutate('synthetic_input/analysis.json',lambda r:r['groups']['G0']['all'].update(length2=0));self.fails('independent descriptive analysis')
+                                                                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 238, in fails
+    if fragment:self.assertIn(fragment,'\n'.join(report['problems']))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'independent descriptive analysis' not found in 'Audit could not finish: ValueError: protocol statistical version mismatch'
+
+======================================================================
+FAIL: test_duplicate_json_key (__main__.FullSyntheticAudit.test_duplicate_json_key)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 262, in test_duplicate_json_key
+    def test_duplicate_json_key(self):self.game().write_text('{"game_index":0,"game_index":1}');self.fails('duplicate JSON key')
+                                                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 238, in fails
+    if fragment:self.assertIn(fragment,'\n'.join(report['problems']))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'duplicate JSON key' not found in 'Audit could not finish: ValueError: protocol statistical version mismatch'
+
+======================================================================
+FAIL: test_duplicate_record (__main__.FullSyntheticAudit.test_duplicate_record)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 260, in test_duplicate_record
+    def test_duplicate_record(self):shutil.copyfile(self.game(),self.game().with_name('duplicate.json'));self.fails('raw filenames/count')
+                                                                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 238, in fails
+    if fragment:self.assertIn(fragment,'\n'.join(report['problems']))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'raw filenames/count' not found in 'Audit could not finish: ValueError: protocol statistical version mismatch'
+
+======================================================================
+FAIL: test_early_pass (__main__.FullSyntheticAudit.test_early_pass)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 275, in test_early_pass
+    self.mutate(self.game(i).relative_to(self.root),lambda r:r['moves'][0].update(action=25,is_pass=True));self.fails('early actual pass')
+                                                                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 238, in fails
+    if fragment:self.assertIn(fragment,'\n'.join(report['problems']))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'early actual pass' not found in 'Audit could not finish: ValueError: protocol statistical version mismatch'
+
+======================================================================
+FAIL: test_false_integer_action (__main__.FullSyntheticAudit.test_false_integer_action)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 266, in test_false_integer_action
+    self.mutate(self.game().relative_to(self.root),lambda r:r['moves'][0].update(action=True));self.fails('invalid move integer')
+                                                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 238, in fails
+    if fragment:self.assertIn(fragment,'\n'.join(report['problems']))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'invalid move integer' not found in 'Audit could not finish: ValueError: protocol statistical version mismatch'
+
+======================================================================
+FAIL: test_final_area_corruption (__main__.FullSyntheticAudit.test_final_area_corruption)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 277, in test_final_area_corruption
+    self.mutate(self.game().relative_to(self.root),lambda r:r.update(black_score=999));self.fails('independent area')
+                                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 238, in fails
+    if fragment:self.assertIn(fragment,'\n'.join(report['problems']))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'independent area' not found in 'Audit could not finish: ValueError: protocol statistical version mismatch'
+
+======================================================================
+FAIL: test_inference_corruption (__main__.FullSyntheticAudit.test_inference_corruption)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 312, in test_inference_corruption
+    report,_=audit.audit(self.root,self.out);self.assertFalse(report['passed']);self.assertTrue(report['statistical_audit']['arithmetic_executed'])
+                                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_jsonl_missing (__main__.FullSyntheticAudit.test_jsonl_missing)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 290, in test_jsonl_missing
+    def test_jsonl_missing(self):(self.out/'games.jsonl').unlink();self.fails('FileNotFoundError')
+                                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 238, in fails
+    if fragment:self.assertIn(fragment,'\n'.join(report['problems']))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'FileNotFoundError' not found in 'Audit could not finish: ValueError: protocol statistical version mismatch'
+
+======================================================================
+FAIL: test_jsonl_reordered (__main__.FullSyntheticAudit.test_jsonl_reordered)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 292, in test_jsonl_reordered
+    p=self.out/'games.jsonl';lines=p.read_text().splitlines();lines[0],lines[1]=lines[1],lines[0];p.write_text('\n'.join(lines)+'\n');self.fails('ordered JSONL')
+                                                                                                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 238, in fails
+    if fragment:self.assertIn(fragment,'\n'.join(report['problems']))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'ordered JSONL' not found in 'Audit could not finish: ValueError: protocol statistical version mismatch'
+
+======================================================================
+FAIL: test_jsonl_torn (__main__.FullSyntheticAudit.test_jsonl_torn)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 295, in test_jsonl_torn
+    self.fails('JSONDecodeError')
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 238, in fails
+    if fragment:self.assertIn(fragment,'\n'.join(report['problems']))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'JSONDecodeError' not found in 'Audit could not finish: ValueError: protocol statistical version mismatch'
+
+======================================================================
+FAIL: test_malformed_record (__main__.FullSyntheticAudit.test_malformed_record)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 261, in test_malformed_record
+    def test_malformed_record(self):self.game().write_text('{"game_index":');self.fails('malformed/illegal')
+                                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 238, in fails
+    if fragment:self.assertIn(fragment,'\n'.join(report['problems']))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'malformed/illegal' not found in 'Audit could not finish: ValueError: protocol statistical version mismatch'
+
+======================================================================
+FAIL: test_manifest_incomplete (__main__.FullSyntheticAudit.test_manifest_incomplete)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 297, in test_manifest_incomplete
+    self.mutate('synthetic_input/manifest.json',lambda r:r.update(status='interrupted'));self.fails('manifest.status')
+                                                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 238, in fails
+    if fragment:self.assertIn(fragment,'\n'.join(report['problems']))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'manifest.status' not found in 'Audit could not finish: ValueError: protocol statistical version mismatch'
+
+======================================================================
+FAIL: test_missing_move_field (__main__.FullSyntheticAudit.test_missing_move_field)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 264, in test_missing_move_field
+    self.mutate(self.game().relative_to(self.root),lambda r:r['moves'][0].pop('action_q_black'));self.fails('missing/malformed move fields')
+                                                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 238, in fails
+    if fragment:self.assertIn(fragment,'\n'.join(report['problems']))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'missing/malformed move fields' not found in 'Audit could not finish: ValueError: protocol statistical version mismatch'
+
+======================================================================
+FAIL: test_missing_record (__main__.FullSyntheticAudit.test_missing_record)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 259, in test_missing_record
+    def test_missing_record(self):self.game().unlink();self.fails('raw filenames/count')
+                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 238, in fails
+    if fragment:self.assertIn(fragment,'\n'.join(report['problems']))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'raw filenames/count' not found in 'Audit could not finish: ValueError: protocol statistical version mismatch'
+
+======================================================================
+FAIL: test_no_arithmetic_on_partial (__main__.FullSyntheticAudit.test_no_arithmetic_on_partial)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 316, in test_no_arithmetic_on_partial
+    self.fails('raw filenames/count')
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 238, in fails
+    if fragment:self.assertIn(fragment,'\n'.join(report['problems']))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'raw filenames/count' not found in 'Audit could not finish: ValueError: protocol statistical version mismatch'
+
+======================================================================
+FAIL: test_plan_changed (__main__.FullSyntheticAudit.test_plan_changed)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 307, in test_plan_changed
+    self.mutate(audit.EXPERIMENT_PATH/'frozen_plan.json',lambda r:r[0].update(game_seed=r[0]['game_seed']+1));self.fails('independent frozen schedule')
+                                                                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 238, in fails
+    if fragment:self.assertIn(fragment,'\n'.join(report['problems']))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'independent frozen schedule' not found in 'Audit could not finish: ValueError: protocol statistical version mismatch'
+
+======================================================================
+FAIL: test_root_legal_omission (__main__.FullSyntheticAudit.test_root_legal_omission)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 272, in test_root_legal_omission
+    self.mutate(self.game().relative_to(self.root),change);self.fails('independently enumerated legal root set')
+                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 238, in fails
+    if fragment:self.assertIn(fragment,'\n'.join(report['problems']))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'independently enumerated legal root set' not found in 'Audit could not finish: ValueError: protocol statistical version mismatch'
+
+======================================================================
+FAIL: test_root_q_relation_corruption (__main__.FullSyntheticAudit.test_root_q_relation_corruption)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 287, in test_root_q_relation_corruption
+    self.mutate(self.game().relative_to(self.root),lambda r:r['moves'][0]['action_q_black'].update({str(r['moves'][0]['action']):.5}));self.fails('utility-vector Q relation')
+                                                                                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 238, in fails
+    if fragment:self.assertIn(fragment,'\n'.join(report['problems']))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'utility-vector Q relation' not found in 'Audit could not finish: ValueError: protocol statistical version mismatch'
+
+======================================================================
+FAIL: test_root_visit_corruption (__main__.FullSyntheticAudit.test_root_visit_corruption)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 285, in test_root_visit_corruption
+    self.mutate(self.game().relative_to(self.root),lambda r:r['moves'][0]['action_visit_counts'].update({str(r['moves'][0]['action']):255}));self.fails('visit sum')
+                                                                                                                                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 238, in fails
+    if fragment:self.assertIn(fragment,'\n'.join(report['problems']))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'visit sum' not found in 'Audit could not finish: ValueError: protocol statistical version mismatch'
+
+======================================================================
+FAIL: test_rule_fault (__main__.FullSyntheticAudit.test_rule_fault)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 300, in test_rule_fault
+    def test_rule_fault(self):put(self.out/'rule_fault.json',{});self.fails('persisted rule_fault')
+                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 238, in fails
+    if fragment:self.assertIn(fragment,'\n'.join(report['problems']))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'persisted rule_fault' not found in 'Audit could not finish: ValueError: protocol statistical version mismatch'
+
+======================================================================
+FAIL: test_seed_low_bit_corruption (__main__.FullSyntheticAudit.test_seed_low_bit_corruption)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 281, in test_seed_low_bit_corruption
+    self.mutate(self.game().relative_to(self.root),lambda r:r.update(game_seed=r['game_seed']+1));self.fails('exact integer')
+                                                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 238, in fails
+    if fragment:self.assertIn(fragment,'\n'.join(report['problems']))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'exact integer' not found in 'Audit could not finish: ValueError: protocol statistical version mismatch'
+
+======================================================================
+FAIL: test_source_changed (__main__.FullSyntheticAudit.test_source_changed)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 302, in test_source_changed
+    def test_source_changed(self):(self.root/'run.py').write_text('# changed');self.fails('normalized source inventory')
+                                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 238, in fails
+    if fragment:self.assertIn(fragment,'\n'.join(report['problems']))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'normalized source inventory' not found in 'Audit could not finish: ValueError: protocol statistical version mismatch'
+
+======================================================================
+FAIL: test_superko_count_corruption (__main__.FullSyntheticAudit.test_superko_count_corruption)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 289, in test_superko_count_corruption
+    self.mutate(self.game().relative_to(self.root),lambda r:r['moves'][0].update(superko_excluded=1));self.fails('independently enumerated superko exclusions')
+                                                                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 238, in fails
+    if fragment:self.assertIn(fragment,'\n'.join(report['problems']))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'independently enumerated superko exclusions' not found in 'Audit could not finish: ValueError: protocol statistical version mismatch'
+
+======================================================================
+FAIL: test_test_file_changed (__main__.FullSyntheticAudit.test_test_file_changed)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 303, in test_test_file_changed
+    def test_test_file_changed(self):(self.root/'tests/test_synthetic.py').write_text('# changed');self.fails('frozen hash')
+                                                                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 238, in fails
+    if fragment:self.assertIn(fragment,'\n'.join(report['problems']))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'frozen hash' not found in 'Audit could not finish: ValueError: protocol statistical version mismatch'
+
+======================================================================
+FAIL: test_unfinished_tmp (__main__.FullSyntheticAudit.test_unfinished_tmp)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 301, in test_unfinished_tmp
+    def test_unfinished_tmp(self):(self.out/'games/unfinished.tmp').write_text('x');self.fails('unfinished tmp')
+                                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 238, in fails
+    if fragment:self.assertIn(fragment,'\n'.join(report['problems']))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'unfinished tmp' not found in 'Audit could not finish: ValueError: protocol statistical version mismatch'
+
+======================================================================
+FAIL: test_validation_not_completed (__main__.FullSyntheticAudit.test_validation_not_completed)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 299, in test_validation_not_completed
+    self.mutate('synthetic_input/validation.json',lambda r:r.update(manifest_status='running'));self.fails('completed saved validation')
+                                                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 238, in fails
+    if fragment:self.assertIn(fragment,'\n'.join(report['problems']))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'completed saved validation' not found in 'Audit could not finish: ValueError: protocol statistical version mismatch'
+
+======================================================================
+FAIL: test_wrong_source_stamp (__main__.FullSyntheticAudit.test_wrong_source_stamp)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 283, in test_wrong_source_stamp
+    self.mutate(self.game().relative_to(self.root),lambda r:r.update(source_fingerprint='0'*64));self.fails('source_fingerprint')
+                                                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 238, in fails
+    if fragment:self.assertIn(fragment,'\n'.join(report['problems']))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'source_fingerprint' not found in 'Audit could not finish: ValueError: protocol statistical version mismatch'
+
+----------------------------------------------------------------------
+Ran 42 tests in 2.894s
+
+FAILED (failures=30)

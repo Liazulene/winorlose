@@ -1,0 +1,9122 @@
+[
+ {
+  "index": 0,
+  "game_seed": 280146318628635817193020184339384841386,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 1,
+  "game_seed": 280146318628635817193020184339384841386,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 2,
+  "game_seed": 43337631841443312445614246190316773949,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 3,
+  "game_seed": 43337631841443312445614246190316773949,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 4,
+  "game_seed": 321239557789236490400033656106257311789,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 5,
+  "game_seed": 321239557789236490400033656106257311789,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 6,
+  "game_seed": 123334238006714925426233349935083891613,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 7,
+  "game_seed": 123334238006714925426233349935083891613,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 8,
+  "game_seed": 4506603538938314368567505286916248607,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 9,
+  "game_seed": 4506603538938314368567505286916248607,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 10,
+  "game_seed": 43811468180733969249147000224714211837,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 11,
+  "game_seed": 43811468180733969249147000224714211837,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 12,
+  "game_seed": 292692019823471732916007344057763731947,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 13,
+  "game_seed": 292692019823471732916007344057763731947,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 14,
+  "game_seed": 260647887512913305637261127260681802191,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 15,
+  "game_seed": 260647887512913305637261127260681802191,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 16,
+  "game_seed": 220693778865937953626070705647467310206,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 17,
+  "game_seed": 220693778865937953626070705647467310206,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 18,
+  "game_seed": 285152174873938486916715968503931732007,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 19,
+  "game_seed": 285152174873938486916715968503931732007,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 20,
+  "game_seed": 211486128036033598140842247795068017965,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 21,
+  "game_seed": 211486128036033598140842247795068017965,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 22,
+  "game_seed": 172673683671397494396399670586111978703,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 23,
+  "game_seed": 172673683671397494396399670586111978703,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 24,
+  "game_seed": 94089221888743733202020399762858972897,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 25,
+  "game_seed": 94089221888743733202020399762858972897,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 26,
+  "game_seed": 189706158026600574447492187721753131498,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 27,
+  "game_seed": 189706158026600574447492187721753131498,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 28,
+  "game_seed": 305614904768200350830218477681609099405,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 29,
+  "game_seed": 305614904768200350830218477681609099405,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 30,
+  "game_seed": 196028247882736103798244017237926103899,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 31,
+  "game_seed": 196028247882736103798244017237926103899,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 32,
+  "game_seed": 219955697240340690931877293452838737624,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 33,
+  "game_seed": 219955697240340690931877293452838737624,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 34,
+  "game_seed": 43789439824138504015526745191614669809,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 35,
+  "game_seed": 43789439824138504015526745191614669809,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 36,
+  "game_seed": 204147281148644575441239951841253693684,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 37,
+  "game_seed": 204147281148644575441239951841253693684,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 38,
+  "game_seed": 103927746614039790399126223681063260607,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 39,
+  "game_seed": 103927746614039790399126223681063260607,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 40,
+  "game_seed": 232860263265048263311846568303519749856,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 41,
+  "game_seed": 232860263265048263311846568303519749856,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 42,
+  "game_seed": 31590527588529600518178627497246571012,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 43,
+  "game_seed": 31590527588529600518178627497246571012,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 44,
+  "game_seed": 252281325733712601710960989838346714456,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 45,
+  "game_seed": 252281325733712601710960989838346714456,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 46,
+  "game_seed": 154867168100836932414687343159199616211,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 47,
+  "game_seed": 154867168100836932414687343159199616211,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 48,
+  "game_seed": 92352636043134645739458860252449468763,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 49,
+  "game_seed": 92352636043134645739458860252449468763,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 50,
+  "game_seed": 30734738552352387628224586581881375426,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 51,
+  "game_seed": 30734738552352387628224586581881375426,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 52,
+  "game_seed": 210923208392752786858316302892397359376,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 53,
+  "game_seed": 210923208392752786858316302892397359376,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 54,
+  "game_seed": 308186220139430786562353424898230853969,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 55,
+  "game_seed": 308186220139430786562353424898230853969,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 56,
+  "game_seed": 11701771899184298518634381929221614961,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 57,
+  "game_seed": 11701771899184298518634381929221614961,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 58,
+  "game_seed": 297936824084620499582990885508661059005,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 59,
+  "game_seed": 297936824084620499582990885508661059005,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 60,
+  "game_seed": 45505406692259273154821256988406960498,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 61,
+  "game_seed": 45505406692259273154821256988406960498,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 62,
+  "game_seed": 71617752951359205910699196197243270677,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 63,
+  "game_seed": 71617752951359205910699196197243270677,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 64,
+  "game_seed": 331329245468819505847518420492859744598,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 65,
+  "game_seed": 331329245468819505847518420492859744598,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 66,
+  "game_seed": 213713898209972661313532180387564907119,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 67,
+  "game_seed": 213713898209972661313532180387564907119,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 68,
+  "game_seed": 84216942421950535624171247869423023908,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 69,
+  "game_seed": 84216942421950535624171247869423023908,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 70,
+  "game_seed": 179368819814651755625082577193724574663,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 71,
+  "game_seed": 179368819814651755625082577193724574663,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 72,
+  "game_seed": 123074686836237660097878894060002854664,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 73,
+  "game_seed": 123074686836237660097878894060002854664,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 74,
+  "game_seed": 226851788050354807987745654743044488497,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 75,
+  "game_seed": 226851788050354807987745654743044488497,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 76,
+  "game_seed": 53504635507986767982889631619823244841,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 77,
+  "game_seed": 53504635507986767982889631619823244841,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 78,
+  "game_seed": 132161157834545052125324054364319122285,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 79,
+  "game_seed": 132161157834545052125324054364319122285,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 80,
+  "game_seed": 178443197072781274847641813672800649413,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 81,
+  "game_seed": 178443197072781274847641813672800649413,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 82,
+  "game_seed": 285786543582833118260237417738502857236,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 83,
+  "game_seed": 285786543582833118260237417738502857236,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 84,
+  "game_seed": 331498411257881901839368767610323066316,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 85,
+  "game_seed": 331498411257881901839368767610323066316,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 86,
+  "game_seed": 179941922689145676623964148130962687933,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 87,
+  "game_seed": 179941922689145676623964148130962687933,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 88,
+  "game_seed": 298597547512788261270405309827713105655,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 89,
+  "game_seed": 298597547512788261270405309827713105655,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 90,
+  "game_seed": 270825647869098157959343953580224962682,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 91,
+  "game_seed": 270825647869098157959343953580224962682,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 92,
+  "game_seed": 155656586701557675831335639552196475593,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 93,
+  "game_seed": 155656586701557675831335639552196475593,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 94,
+  "game_seed": 71137454590463911990433703614243685751,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 95,
+  "game_seed": 71137454590463911990433703614243685751,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 96,
+  "game_seed": 2470248733501712179408318843648850594,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 97,
+  "game_seed": 2470248733501712179408318843648850594,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 98,
+  "game_seed": 258437276779171459785665787112893441407,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 99,
+  "game_seed": 258437276779171459785665787112893441407,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 100,
+  "game_seed": 213585185838939841917802362115494420791,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 101,
+  "game_seed": 213585185838939841917802362115494420791,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 102,
+  "game_seed": 252823604599025077920755733757946689441,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 103,
+  "game_seed": 252823604599025077920755733757946689441,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 104,
+  "game_seed": 253857432070681844050068311306440702163,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 105,
+  "game_seed": 253857432070681844050068311306440702163,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 106,
+  "game_seed": 278344563155974002668323141676383075842,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 107,
+  "game_seed": 278344563155974002668323141676383075842,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 108,
+  "game_seed": 220043328277839525985636227960195112877,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 109,
+  "game_seed": 220043328277839525985636227960195112877,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 110,
+  "game_seed": 280568194080876870975264693078859975347,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 111,
+  "game_seed": 280568194080876870975264693078859975347,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 112,
+  "game_seed": 126058594859156813175488744680580874471,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 113,
+  "game_seed": 126058594859156813175488744680580874471,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 114,
+  "game_seed": 80709438680444769937834346185322688294,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 115,
+  "game_seed": 80709438680444769937834346185322688294,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 116,
+  "game_seed": 177441066767916166218199785787735594858,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 117,
+  "game_seed": 177441066767916166218199785787735594858,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 118,
+  "game_seed": 128593746164862049379316215417702696153,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 119,
+  "game_seed": 128593746164862049379316215417702696153,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 120,
+  "game_seed": 134524654274710344003905709613602054973,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 121,
+  "game_seed": 134524654274710344003905709613602054973,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 122,
+  "game_seed": 1621382702580831104708675155393151636,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 123,
+  "game_seed": 1621382702580831104708675155393151636,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 124,
+  "game_seed": 26944806613819850279706456889319892061,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 125,
+  "game_seed": 26944806613819850279706456889319892061,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 126,
+  "game_seed": 10632539843520667657236158185739597038,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 127,
+  "game_seed": 10632539843520667657236158185739597038,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 128,
+  "game_seed": 321685969473636387489124754168729753283,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 129,
+  "game_seed": 321685969473636387489124754168729753283,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 130,
+  "game_seed": 134952638165468789386574365954977846786,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 131,
+  "game_seed": 134952638165468789386574365954977846786,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 132,
+  "game_seed": 88019023436473230302326681192164609816,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 133,
+  "game_seed": 88019023436473230302326681192164609816,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 134,
+  "game_seed": 47665449652669536921025908288533892203,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 135,
+  "game_seed": 47665449652669536921025908288533892203,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 136,
+  "game_seed": 253653599274846977876332786408791718380,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 137,
+  "game_seed": 253653599274846977876332786408791718380,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 138,
+  "game_seed": 323044926636922829607960695634100915370,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 139,
+  "game_seed": 323044926636922829607960695634100915370,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 140,
+  "game_seed": 257361096584925635829136211336172949036,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 141,
+  "game_seed": 257361096584925635829136211336172949036,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 142,
+  "game_seed": 150982283182472126308897032085324190136,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 143,
+  "game_seed": 150982283182472126308897032085324190136,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 144,
+  "game_seed": 7984303235261903383112654890829134138,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 145,
+  "game_seed": 7984303235261903383112654890829134138,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 146,
+  "game_seed": 134385196507295585097466331713609238210,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 147,
+  "game_seed": 134385196507295585097466331713609238210,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 148,
+  "game_seed": 128782221705285414688451407392442046027,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 149,
+  "game_seed": 128782221705285414688451407392442046027,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 150,
+  "game_seed": 274035212955861747172887806597784163733,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 151,
+  "game_seed": 274035212955861747172887806597784163733,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 152,
+  "game_seed": 5448952111953638512996881853971980395,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 153,
+  "game_seed": 5448952111953638512996881853971980395,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 154,
+  "game_seed": 274402806895774665275720555914613497311,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 155,
+  "game_seed": 274402806895774665275720555914613497311,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 156,
+  "game_seed": 133786115668219208936613663958117409380,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 157,
+  "game_seed": 133786115668219208936613663958117409380,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 158,
+  "game_seed": 58866758083445665611566705898901607451,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 159,
+  "game_seed": 58866758083445665611566705898901607451,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 160,
+  "game_seed": 107229154300799581311353768162990629234,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 161,
+  "game_seed": 107229154300799581311353768162990629234,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 162,
+  "game_seed": 51114359761996886942386112846780472222,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 163,
+  "game_seed": 51114359761996886942386112846780472222,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 164,
+  "game_seed": 53304564513075464091354173637598608747,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 165,
+  "game_seed": 53304564513075464091354173637598608747,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 166,
+  "game_seed": 65552400432198902896017196737472112036,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 167,
+  "game_seed": 65552400432198902896017196737472112036,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 168,
+  "game_seed": 306585841474718736551783162979106232195,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 169,
+  "game_seed": 306585841474718736551783162979106232195,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 170,
+  "game_seed": 166551540625775632527254547435233202144,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 171,
+  "game_seed": 166551540625775632527254547435233202144,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 172,
+  "game_seed": 65227772864674077132013174931398822581,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 173,
+  "game_seed": 65227772864674077132013174931398822581,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 174,
+  "game_seed": 301820301683319484000997857749329353218,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 175,
+  "game_seed": 301820301683319484000997857749329353218,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 176,
+  "game_seed": 118419223941186246722454218851134536065,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 177,
+  "game_seed": 118419223941186246722454218851134536065,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 178,
+  "game_seed": 185013628355407095583405480089937802089,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 179,
+  "game_seed": 185013628355407095583405480089937802089,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 180,
+  "game_seed": 319182324027825760720968297725208917488,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 181,
+  "game_seed": 319182324027825760720968297725208917488,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 182,
+  "game_seed": 276541017515292428761535120377122024451,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 183,
+  "game_seed": 276541017515292428761535120377122024451,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 184,
+  "game_seed": 31334665100676120316665920662295877645,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 185,
+  "game_seed": 31334665100676120316665920662295877645,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 186,
+  "game_seed": 235301223503652558453743570875837976422,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 187,
+  "game_seed": 235301223503652558453743570875837976422,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 188,
+  "game_seed": 16356114312533311485935164462635824784,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 189,
+  "game_seed": 16356114312533311485935164462635824784,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 190,
+  "game_seed": 271416315745093350019289892396732710987,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 191,
+  "game_seed": 271416315745093350019289892396732710987,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 192,
+  "game_seed": 103201552698785681004570712552540153823,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 193,
+  "game_seed": 103201552698785681004570712552540153823,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 194,
+  "game_seed": 248108581700198365940265051274417868552,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 195,
+  "game_seed": 248108581700198365940265051274417868552,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 196,
+  "game_seed": 143266630989785617269940679656909108157,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 197,
+  "game_seed": 143266630989785617269940679656909108157,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 198,
+  "game_seed": 252710068052875108351179455211158853504,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 199,
+  "game_seed": 252710068052875108351179455211158853504,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 200,
+  "game_seed": 168160137378209342491838919145608134857,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 201,
+  "game_seed": 168160137378209342491838919145608134857,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 202,
+  "game_seed": 139958363040193359488055543678346257333,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 203,
+  "game_seed": 139958363040193359488055543678346257333,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 204,
+  "game_seed": 185607785304350044884583299325303949304,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 205,
+  "game_seed": 185607785304350044884583299325303949304,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 206,
+  "game_seed": 172372376911711910670094521993278384520,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 207,
+  "game_seed": 172372376911711910670094521993278384520,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 208,
+  "game_seed": 71266379730652308035049941190736613644,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 209,
+  "game_seed": 71266379730652308035049941190736613644,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 210,
+  "game_seed": 165682006471150877000535808245188365654,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 211,
+  "game_seed": 165682006471150877000535808245188365654,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 212,
+  "game_seed": 172887632620724428262503328333788047036,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 213,
+  "game_seed": 172887632620724428262503328333788047036,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 214,
+  "game_seed": 29867916089006884570003944209799677543,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 215,
+  "game_seed": 29867916089006884570003944209799677543,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 216,
+  "game_seed": 118032475721340087708040569608314975773,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 217,
+  "game_seed": 118032475721340087708040569608314975773,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 218,
+  "game_seed": 141362907693566363830499985261425241826,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 219,
+  "game_seed": 141362907693566363830499985261425241826,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 220,
+  "game_seed": 294125701083757402872673604288621614985,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 221,
+  "game_seed": 294125701083757402872673604288621614985,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 222,
+  "game_seed": 94247702288534000948787600681320292506,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 223,
+  "game_seed": 94247702288534000948787600681320292506,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 224,
+  "game_seed": 312957652573818681727054539517562770095,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 225,
+  "game_seed": 312957652573818681727054539517562770095,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 226,
+  "game_seed": 215076146313534461275591303484076128721,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 227,
+  "game_seed": 215076146313534461275591303484076128721,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 228,
+  "game_seed": 288476915844781349944532723782449852985,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 229,
+  "game_seed": 288476915844781349944532723782449852985,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 230,
+  "game_seed": 91314941611933376992687667944855921779,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 231,
+  "game_seed": 91314941611933376992687667944855921779,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 232,
+  "game_seed": 111955739903773765669066797699878683413,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 233,
+  "game_seed": 111955739903773765669066797699878683413,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 234,
+  "game_seed": 195514600189452864793747454189919897447,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 235,
+  "game_seed": 195514600189452864793747454189919897447,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 236,
+  "game_seed": 206355488450715207048622443922679521349,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 237,
+  "game_seed": 206355488450715207048622443922679521349,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 238,
+  "game_seed": 222934681552433858170967950074639355001,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 239,
+  "game_seed": 222934681552433858170967950074639355001,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 240,
+  "game_seed": 128329653629556030360800398519742481846,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 241,
+  "game_seed": 128329653629556030360800398519742481846,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 242,
+  "game_seed": 262947245420496259949332116495901302913,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 243,
+  "game_seed": 262947245420496259949332116495901302913,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 244,
+  "game_seed": 100273703024896504698741292665975104423,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 245,
+  "game_seed": 100273703024896504698741292665975104423,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 246,
+  "game_seed": 119514214528962558272236258979188542016,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 247,
+  "game_seed": 119514214528962558272236258979188542016,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 248,
+  "game_seed": 260532204458936053598677392269530436913,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 249,
+  "game_seed": 260532204458936053598677392269530436913,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 250,
+  "game_seed": 234439587868436077407687108095326335484,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 251,
+  "game_seed": 234439587868436077407687108095326335484,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 252,
+  "game_seed": 190489725295859707127911373535849774726,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 253,
+  "game_seed": 190489725295859707127911373535849774726,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 254,
+  "game_seed": 150715438489290317487480834072877456045,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 255,
+  "game_seed": 150715438489290317487480834072877456045,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 256,
+  "game_seed": 45792974558409176115798604159586849311,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 257,
+  "game_seed": 45792974558409176115798604159586849311,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 258,
+  "game_seed": 152394857494521786878758489104263443264,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 259,
+  "game_seed": 152394857494521786878758489104263443264,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 260,
+  "game_seed": 199603365868650888276618573644041459342,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 261,
+  "game_seed": 199603365868650888276618573644041459342,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 262,
+  "game_seed": 294484093496153041991066238620544858605,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 263,
+  "game_seed": 294484093496153041991066238620544858605,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 264,
+  "game_seed": 90055929179155432375799892770231499687,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 265,
+  "game_seed": 90055929179155432375799892770231499687,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 266,
+  "game_seed": 254301599791973114147121873568015452134,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 267,
+  "game_seed": 254301599791973114147121873568015452134,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 268,
+  "game_seed": 106353546024013787372597955400623078364,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 269,
+  "game_seed": 106353546024013787372597955400623078364,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 270,
+  "game_seed": 226802608260080608820512957628466338748,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 271,
+  "game_seed": 226802608260080608820512957628466338748,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 272,
+  "game_seed": 301856312925702149213481243324260807380,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 273,
+  "game_seed": 301856312925702149213481243324260807380,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 274,
+  "game_seed": 19626330848684395710702483304159672283,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 275,
+  "game_seed": 19626330848684395710702483304159672283,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 276,
+  "game_seed": 287880148588598457415485413795443653784,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 277,
+  "game_seed": 287880148588598457415485413795443653784,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 278,
+  "game_seed": 249242764398405861704113951420498458700,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 279,
+  "game_seed": 249242764398405861704113951420498458700,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 280,
+  "game_seed": 149378341119530084914184193676482145461,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 281,
+  "game_seed": 149378341119530084914184193676482145461,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 282,
+  "game_seed": 273262156406881323040114806801379573207,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 283,
+  "game_seed": 273262156406881323040114806801379573207,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 284,
+  "game_seed": 96917796701738929965813527421157981186,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 285,
+  "game_seed": 96917796701738929965813527421157981186,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 286,
+  "game_seed": 289778806989674078560593479916159173481,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 287,
+  "game_seed": 289778806989674078560593479916159173481,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 288,
+  "game_seed": 302364378866625181323906268484741489761,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 289,
+  "game_seed": 302364378866625181323906268484741489761,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 290,
+  "game_seed": 195505108821437006618465473620145955934,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 291,
+  "game_seed": 195505108821437006618465473620145955934,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 292,
+  "game_seed": 95401136916446438942215323968344903688,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 293,
+  "game_seed": 95401136916446438942215323968344903688,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 294,
+  "game_seed": 22574897570516696206000640175117737143,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 295,
+  "game_seed": 22574897570516696206000640175117737143,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 296,
+  "game_seed": 104721206631621825950472069753786886789,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 297,
+  "game_seed": 104721206631621825950472069753786886789,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 298,
+  "game_seed": 59860645435706588555064024590613565688,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 299,
+  "game_seed": 59860645435706588555064024590613565688,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 300,
+  "game_seed": 336834603289800243663264734096772188599,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 301,
+  "game_seed": 336834603289800243663264734096772188599,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 302,
+  "game_seed": 314293825834450162211970614919383037279,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 303,
+  "game_seed": 314293825834450162211970614919383037279,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 304,
+  "game_seed": 292593996241371138262126612129169393499,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 305,
+  "game_seed": 292593996241371138262126612129169393499,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 306,
+  "game_seed": 264726378525103617517943662354982609110,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 307,
+  "game_seed": 264726378525103617517943662354982609110,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 308,
+  "game_seed": 21925250586416225371441523337012230057,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 309,
+  "game_seed": 21925250586416225371441523337012230057,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 310,
+  "game_seed": 323361643655104714293537622797690969363,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 311,
+  "game_seed": 323361643655104714293537622797690969363,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 312,
+  "game_seed": 149389671188554697003355111213776294045,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 313,
+  "game_seed": 149389671188554697003355111213776294045,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 314,
+  "game_seed": 176885097375079866490494949843190100821,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 315,
+  "game_seed": 176885097375079866490494949843190100821,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 316,
+  "game_seed": 17982474020565888936046720589834866584,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 317,
+  "game_seed": 17982474020565888936046720589834866584,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 318,
+  "game_seed": 176666247654011290757671482894162289829,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 319,
+  "game_seed": 176666247654011290757671482894162289829,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 320,
+  "game_seed": 267925333500765863509100980103361971754,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 321,
+  "game_seed": 267925333500765863509100980103361971754,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 322,
+  "game_seed": 196272557628134977675674907584403123392,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 323,
+  "game_seed": 196272557628134977675674907584403123392,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 324,
+  "game_seed": 22955427696239122011793515514126422665,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 325,
+  "game_seed": 22955427696239122011793515514126422665,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 326,
+  "game_seed": 280524828325572814607579834636566101312,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 327,
+  "game_seed": 280524828325572814607579834636566101312,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 328,
+  "game_seed": 29089526487550790903475112421137195145,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 329,
+  "game_seed": 29089526487550790903475112421137195145,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 330,
+  "game_seed": 27286348451309777938817865680370959077,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 331,
+  "game_seed": 27286348451309777938817865680370959077,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 332,
+  "game_seed": 130300754762051764893928638807374012224,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 333,
+  "game_seed": 130300754762051764893928638807374012224,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 334,
+  "game_seed": 268454539586901791303373894113533198460,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 335,
+  "game_seed": 268454539586901791303373894113533198460,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 336,
+  "game_seed": 161977145639219572925760283614619727397,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 337,
+  "game_seed": 161977145639219572925760283614619727397,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 338,
+  "game_seed": 270364633444861250626151223566944554299,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 339,
+  "game_seed": 270364633444861250626151223566944554299,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 340,
+  "game_seed": 136218042196400951854628412604328339315,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 341,
+  "game_seed": 136218042196400951854628412604328339315,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 342,
+  "game_seed": 73665182786382230784776663510697295727,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 343,
+  "game_seed": 73665182786382230784776663510697295727,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 344,
+  "game_seed": 220768760947270881704734736433775941049,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 345,
+  "game_seed": 220768760947270881704734736433775941049,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 346,
+  "game_seed": 246185173824891986553381009695786281183,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 347,
+  "game_seed": 246185173824891986553381009695786281183,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 348,
+  "game_seed": 338419991265948550087429237922404305369,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 349,
+  "game_seed": 338419991265948550087429237922404305369,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 350,
+  "game_seed": 132954781067017635191117017174948393317,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 351,
+  "game_seed": 132954781067017635191117017174948393317,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 352,
+  "game_seed": 200521513708322796863737202242368344214,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 353,
+  "game_seed": 200521513708322796863737202242368344214,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 354,
+  "game_seed": 106116951506866183361930992773642502301,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 355,
+  "game_seed": 106116951506866183361930992773642502301,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 356,
+  "game_seed": 224117499542039793550637242819888792062,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 357,
+  "game_seed": 224117499542039793550637242819888792062,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 358,
+  "game_seed": 21836217003646017515161900576152434712,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 359,
+  "game_seed": 21836217003646017515161900576152434712,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 360,
+  "game_seed": 307031551667619251498204314516688306122,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 361,
+  "game_seed": 307031551667619251498204314516688306122,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 362,
+  "game_seed": 72407144673679472179576751494799917164,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 363,
+  "game_seed": 72407144673679472179576751494799917164,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 364,
+  "game_seed": 92477667899415010252039475487899370314,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 365,
+  "game_seed": 92477667899415010252039475487899370314,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 366,
+  "game_seed": 66709499825903945468592012858053276938,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 367,
+  "game_seed": 66709499825903945468592012858053276938,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 368,
+  "game_seed": 29992868640605396701047372507028359386,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 369,
+  "game_seed": 29992868640605396701047372507028359386,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 370,
+  "game_seed": 293635861650491142506241287577856940826,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 371,
+  "game_seed": 293635861650491142506241287577856940826,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 372,
+  "game_seed": 91388174938029410679085326753638421876,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 373,
+  "game_seed": 91388174938029410679085326753638421876,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 374,
+  "game_seed": 269966921276551691073090413258603336973,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 375,
+  "game_seed": 269966921276551691073090413258603336973,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 376,
+  "game_seed": 58475435490753315031303307990627096360,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 377,
+  "game_seed": 58475435490753315031303307990627096360,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 378,
+  "game_seed": 236759504764438690309706929133380706511,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 379,
+  "game_seed": 236759504764438690309706929133380706511,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 380,
+  "game_seed": 296362600551025638383091129835050920799,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 381,
+  "game_seed": 296362600551025638383091129835050920799,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 382,
+  "game_seed": 254751435306808595424122819666568850642,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 383,
+  "game_seed": 254751435306808595424122819666568850642,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 384,
+  "game_seed": 81423374569521763715853308053105579464,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 385,
+  "game_seed": 81423374569521763715853308053105579464,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 386,
+  "game_seed": 85067211253991592986148637196282257954,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 387,
+  "game_seed": 85067211253991592986148637196282257954,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 388,
+  "game_seed": 77257684637802174803703057753119751860,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 389,
+  "game_seed": 77257684637802174803703057753119751860,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 390,
+  "game_seed": 233915505406210026219604545861757435639,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 391,
+  "game_seed": 233915505406210026219604545861757435639,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 392,
+  "game_seed": 117121061043386137285623543316090346724,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 393,
+  "game_seed": 117121061043386137285623543316090346724,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 394,
+  "game_seed": 80375847592364122379294780766447829849,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 395,
+  "game_seed": 80375847592364122379294780766447829849,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 396,
+  "game_seed": 1471262734656629410389346697216594734,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 397,
+  "game_seed": 1471262734656629410389346697216594734,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 398,
+  "game_seed": 327921841960713345947120078075669891892,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 399,
+  "game_seed": 327921841960713345947120078075669891892,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 400,
+  "game_seed": 125612788416703286156188495251775957740,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 401,
+  "game_seed": 125612788416703286156188495251775957740,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 402,
+  "game_seed": 226850444660662340566630096209132127052,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 403,
+  "game_seed": 226850444660662340566630096209132127052,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 404,
+  "game_seed": 247548464866201668269270086251134443421,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 405,
+  "game_seed": 247548464866201668269270086251134443421,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 406,
+  "game_seed": 256491971313328059381450170680266463764,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 407,
+  "game_seed": 256491971313328059381450170680266463764,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 408,
+  "game_seed": 325461228706662491268063016836521833627,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 409,
+  "game_seed": 325461228706662491268063016836521833627,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 410,
+  "game_seed": 2594773152339074674892513124393153841,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 411,
+  "game_seed": 2594773152339074674892513124393153841,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 412,
+  "game_seed": 226257593027071609669686287272378128582,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 413,
+  "game_seed": 226257593027071609669686287272378128582,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 414,
+  "game_seed": 109690057751411244146704579332039389664,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 415,
+  "game_seed": 109690057751411244146704579332039389664,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 416,
+  "game_seed": 252042730278511107099752563493488614704,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 417,
+  "game_seed": 252042730278511107099752563493488614704,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 418,
+  "game_seed": 309295417457957601271419228556505231453,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 419,
+  "game_seed": 309295417457957601271419228556505231453,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 420,
+  "game_seed": 243858630943639751239780634944034918203,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 421,
+  "game_seed": 243858630943639751239780634944034918203,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 422,
+  "game_seed": 137286311814696117547096545607478945048,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 423,
+  "game_seed": 137286311814696117547096545607478945048,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 424,
+  "game_seed": 8918246978365692654808009251916111261,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 425,
+  "game_seed": 8918246978365692654808009251916111261,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 426,
+  "game_seed": 192001016499430661101943209393330529512,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 427,
+  "game_seed": 192001016499430661101943209393330529512,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 428,
+  "game_seed": 215452072537280724152091701455129123872,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 429,
+  "game_seed": 215452072537280724152091701455129123872,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 430,
+  "game_seed": 213373397760676970294292135444828863345,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 431,
+  "game_seed": 213373397760676970294292135444828863345,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 432,
+  "game_seed": 116068743228130119188895127234830819840,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 433,
+  "game_seed": 116068743228130119188895127234830819840,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 434,
+  "game_seed": 291219191892030095124316176804063941996,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 435,
+  "game_seed": 291219191892030095124316176804063941996,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 436,
+  "game_seed": 76165809572254267865914321208482904389,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 437,
+  "game_seed": 76165809572254267865914321208482904389,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 438,
+  "game_seed": 237458049371195457895965364032946265673,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 439,
+  "game_seed": 237458049371195457895965364032946265673,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 440,
+  "game_seed": 14298830781945601158632756178228973957,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 441,
+  "game_seed": 14298830781945601158632756178228973957,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 442,
+  "game_seed": 29263390450891352159000127389539317113,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 443,
+  "game_seed": 29263390450891352159000127389539317113,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 444,
+  "game_seed": 247898976671773363768582470365431657226,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 445,
+  "game_seed": 247898976671773363768582470365431657226,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 446,
+  "game_seed": 207573338009273647942137991540791504695,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 447,
+  "game_seed": 207573338009273647942137991540791504695,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 448,
+  "game_seed": 334337861557402744681067397261887902835,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 449,
+  "game_seed": 334337861557402744681067397261887902835,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 450,
+  "game_seed": 259874142106252147310485413585472864760,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 451,
+  "game_seed": 259874142106252147310485413585472864760,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 452,
+  "game_seed": 57041512783876199693283337267516663130,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 453,
+  "game_seed": 57041512783876199693283337267516663130,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 454,
+  "game_seed": 157518316417331984820229691746983155164,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 455,
+  "game_seed": 157518316417331984820229691746983155164,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 456,
+  "game_seed": 259741484433872593959867300730744060116,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 457,
+  "game_seed": 259741484433872593959867300730744060116,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 458,
+  "game_seed": 102006034811377843944340269174309979007,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 459,
+  "game_seed": 102006034811377843944340269174309979007,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 460,
+  "game_seed": 13995632434129813030003060282223655367,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 461,
+  "game_seed": 13995632434129813030003060282223655367,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 462,
+  "game_seed": 207061139090758535305299450306753224432,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 463,
+  "game_seed": 207061139090758535305299450306753224432,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 464,
+  "game_seed": 321975755575806854926989438195803238794,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 465,
+  "game_seed": 321975755575806854926989438195803238794,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 466,
+  "game_seed": 180992156411209778308545778743130850943,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 467,
+  "game_seed": 180992156411209778308545778743130850943,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 468,
+  "game_seed": 92990188543071028266447537753484044272,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 469,
+  "game_seed": 92990188543071028266447537753484044272,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 470,
+  "game_seed": 46231480471887912586644584819288029484,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 471,
+  "game_seed": 46231480471887912586644584819288029484,
+  "black": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 472,
+  "game_seed": 2652155060657668788001626392208149289,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 473,
+  "game_seed": 2652155060657668788001626392208149289,
+  "black": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 474,
+  "game_seed": 295500333050992422622885772886800464789,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 475,
+  "game_seed": 295500333050992422622885772886800464789,
+  "black": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s1",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 476,
+  "game_seed": 203006966117399782769836525071923633708,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ },
+ {
+  "index": 477,
+  "game_seed": 203006966117399782769836525071923633708,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "LOSE-medium-s2",
+   "identity": "LOSE",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 478,
+  "game_seed": 157131804113946586672455430243281169809,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 0
+ },
+ {
+  "index": 479,
+  "game_seed": 157131804113946586672455430243281169809,
+  "black": {
+   "agent_id": "WIN-medium-s1",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 1
+  },
+  "white": {
+   "agent_id": "WIN-medium-s2",
+   "identity": "WIN",
+   "algorithm": "vector_mcts",
+   "compute_level": "medium",
+   "seed": 2
+  },
+  "pass_min_ply": 8
+ }
+]

@@ -1,0 +1,39 @@
+test_area_empty_monocolor_and_neutral (__main__.MathematicsAndRules.test_area_empty_monocolor_and_neutral) ... ok
+test_cap_precedence_and_last_proposal_denominator (__main__.MathematicsAndRules.test_cap_precedence_and_last_proposal_denominator) ... 
+  test_cap_precedence_and_last_proposal_denominator (__main__.MathematicsAndRules.test_cap_precedence_and_last_proposal_denominator) (double_pass=True) ... ERROR
+  test_cap_precedence_and_last_proposal_denominator (__main__.MathematicsAndRules.test_cap_precedence_and_last_proposal_denominator) (double_pass=False) ... ERROR
+test_capture_and_suicide (__main__.MathematicsAndRules.test_capture_and_suicide) ... ok
+test_exact_seed_integer (__main__.MathematicsAndRules.test_exact_seed_integer) ... ok
+test_multistone_capture (__main__.MathematicsAndRules.test_multistone_capture) ... ok
+test_no_legal_nonpass_fails_closed (__main__.MathematicsAndRules.test_no_legal_nonpass_fails_closed) ... ok
+test_quantiles_and_cp_closed_forms (__main__.MathematicsAndRules.test_quantiles_and_cp_closed_forms) ... ok
+test_strict_json (__main__.MathematicsAndRules.test_strict_json) ... ok
+test_superko_root_and_pass_exemption (__main__.MathematicsAndRules.test_superko_root_and_pass_exemption) ... ok
+test_utilities_all_directions (__main__.MathematicsAndRules.test_utilities_all_directions) ... ok
+
+======================================================================
+ERROR: test_cap_precedence_and_last_proposal_denominator (__main__.MathematicsAndRules.test_cap_precedence_and_last_proposal_denominator) (double_pass=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 238, in test_cap_precedence_and_last_proposal_denominator
+    else:action=rng.choice(nonpass)
+                ^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/random.py", line 347, in choice
+    raise IndexError('Cannot choose from an empty sequence')
+IndexError: Cannot choose from an empty sequence
+
+======================================================================
+ERROR: test_cap_precedence_and_last_proposal_denominator (__main__.MathematicsAndRules.test_cap_precedence_and_last_proposal_denominator) (double_pass=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/experiments/g1_pass8_estimation_v1/final_audit/test_independent_final_audit.py", line 238, in test_cap_precedence_and_last_proposal_denominator
+    else:action=rng.choice(nonpass)
+                ^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/random.py", line 347, in choice
+    raise IndexError('Cannot choose from an empty sequence')
+IndexError: Cannot choose from an empty sequence
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.009s
+
+FAILED (errors=2)

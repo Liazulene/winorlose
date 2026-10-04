@@ -1,0 +1,52 @@
+test_action_after_doublepass (__main__.FullSyntheticAudit.test_action_after_doublepass) ... ok
+test_board_corruption (__main__.FullSyntheticAudit.test_board_corruption) ... ok
+test_cli_new_reports_then_refuses_reuse (__main__.FullSyntheticAudit.test_cli_new_reports_then_refuses_reuse) ... ok
+test_cli_requires_readiness (__main__.FullSyntheticAudit.test_cli_requires_readiness) ... ok
+test_complete_fixture_and_known_descriptive_answers (__main__.FullSyntheticAudit.test_complete_fixture_and_known_descriptive_answers) ... ok
+test_descriptive_corruption (__main__.FullSyntheticAudit.test_descriptive_corruption) ... ok
+test_duplicate_json_key (__main__.FullSyntheticAudit.test_duplicate_json_key) ... ok
+test_duplicate_record (__main__.FullSyntheticAudit.test_duplicate_record) ... ok
+test_early_pass (__main__.FullSyntheticAudit.test_early_pass) ... ok
+test_false_integer_action (__main__.FullSyntheticAudit.test_false_integer_action) ... ok
+test_final_area_corruption (__main__.FullSyntheticAudit.test_final_area_corruption) ... ok
+test_inference_corruption (__main__.FullSyntheticAudit.test_inference_corruption) ... ok
+test_jsonl_missing (__main__.FullSyntheticAudit.test_jsonl_missing) ... ok
+test_jsonl_reordered (__main__.FullSyntheticAudit.test_jsonl_reordered) ... ok
+test_jsonl_torn (__main__.FullSyntheticAudit.test_jsonl_torn) ... ok
+test_malformed_record (__main__.FullSyntheticAudit.test_malformed_record) ... ok
+test_manifest_incomplete (__main__.FullSyntheticAudit.test_manifest_incomplete) ... ok
+test_missing_move_field (__main__.FullSyntheticAudit.test_missing_move_field) ... ok
+test_missing_record (__main__.FullSyntheticAudit.test_missing_record) ... ok
+test_no_arithmetic_on_partial (__main__.FullSyntheticAudit.test_no_arithmetic_on_partial) ... ok
+test_plan_changed (__main__.FullSyntheticAudit.test_plan_changed) ... ok
+test_preregistered_design_changed (__main__.FullSyntheticAudit.test_preregistered_design_changed) ... ok
+test_review_hash_corruption (__main__.FullSyntheticAudit.test_review_hash_corruption) ... ok
+test_root_legal_omission (__main__.FullSyntheticAudit.test_root_legal_omission) ... ok
+test_root_q_relation_corruption (__main__.FullSyntheticAudit.test_root_q_relation_corruption) ... ok
+test_root_visit_corruption (__main__.FullSyntheticAudit.test_root_visit_corruption) ... ok
+test_rule_fault (__main__.FullSyntheticAudit.test_rule_fault) ... ok
+test_seed_low_bit_corruption (__main__.FullSyntheticAudit.test_seed_low_bit_corruption) ... ok
+test_source_changed (__main__.FullSyntheticAudit.test_source_changed) ... ok
+test_superko_count_corruption (__main__.FullSyntheticAudit.test_superko_count_corruption) ... ok
+test_test_file_changed (__main__.FullSyntheticAudit.test_test_file_changed) ... ok
+test_unfinished_tmp (__main__.FullSyntheticAudit.test_unfinished_tmp) ... ok
+test_unvisited_q_not_null (__main__.FullSyntheticAudit.test_unvisited_q_not_null) ... ok
+test_validation_not_completed (__main__.FullSyntheticAudit.test_validation_not_completed) ... ok
+test_verifier_hash_corruption (__main__.FullSyntheticAudit.test_verifier_hash_corruption) ... ok
+test_write_guards (__main__.FullSyntheticAudit.test_write_guards) ... ok
+test_wrong_source_stamp (__main__.FullSyntheticAudit.test_wrong_source_stamp) ... ok
+test_area_empty_monocolor_and_neutral (__main__.MathematicsAndRules.test_area_empty_monocolor_and_neutral) ... ok
+test_cap_precedence_and_last_proposal_denominator (__main__.MathematicsAndRules.test_cap_precedence_and_last_proposal_denominator) ... ok
+test_capture_and_suicide (__main__.MathematicsAndRules.test_capture_and_suicide) ... ok
+test_exact_seed_integer (__main__.MathematicsAndRules.test_exact_seed_integer) ... ok
+test_multistone_capture (__main__.MathematicsAndRules.test_multistone_capture) ... ok
+test_no_legal_nonpass_fails_closed (__main__.MathematicsAndRules.test_no_legal_nonpass_fails_closed) ... ok
+test_quantiles_and_cp_closed_forms (__main__.MathematicsAndRules.test_quantiles_and_cp_closed_forms) ... ok
+test_strict_json (__main__.MathematicsAndRules.test_strict_json) ... ok
+test_superko_root_and_pass_exemption (__main__.MathematicsAndRules.test_superko_root_and_pass_exemption) ... ok
+test_utilities_all_directions (__main__.MathematicsAndRules.test_utilities_all_directions) ... ok
+
+----------------------------------------------------------------------
+Ran 47 tests in 44.303s
+
+OK

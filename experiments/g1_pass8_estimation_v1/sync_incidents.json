@@ -1,0 +1,13 @@
+{
+  "incidents": [
+    {
+      "phase": "pre_execution_backup",
+      "formal_games": 0,
+      "event": "Backup paused during access review; resumed only after explicit owner confirmation. Four missing content-addressed inventory blobs returned404 before one successful retry each. Previously successful uploads were retained.",
+      "owner_reconfirmation_utc": "2026-10-04T10:12:00Z",
+      "no_game_replacement_or_new_seed": true
+    }
+  ],
+  "no_main_merge": true,
+  "no_force_push": true
+}

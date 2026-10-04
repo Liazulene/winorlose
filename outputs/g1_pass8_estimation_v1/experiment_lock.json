@@ -1,0 +1,12 @@
+{
+  "experiment_id": "G1-pass8-estimation-v1",
+  "code_version": "winai_loseai-0.7.0-g1-pass8-estimation",
+  "schema_version": 2,
+  "source_fingerprint": "1633b6768cc2c93af1a504a4741167ad2fa2cf809826cd7e267ccaa369e31dae",
+  "python_version": "3.12.14",
+  "preregistration_sha256": "cfe65b3f20b6e2cefdf620a27e501333c5798ea0801ee1b8881be2c010ff76fa",
+  "entry_point_sha256": "45dc13638695385915efc20882ef1d9e41c18a6b1014d1a39801fd91e7f865ef",
+  "measurement_script_sha256": "448c2fc4fa431da582ce185f4c1565c42affa47ef573a7873bf9cb6b2e876359",
+  "scipy_version": "1.17.0",
+  "numpy_version": "2.3.5"
+}
