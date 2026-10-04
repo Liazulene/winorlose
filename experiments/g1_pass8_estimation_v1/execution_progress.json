@@ -1,10 +1,10 @@
 {
-  "completed": 384,
+  "completed": 408,
   "planned": 480,
-  "child_wall_seconds": 6079.513458533991,
-  "child_cpu_seconds": 6077.537015,
-  "peak_process_rss_kib": 48980,
-  "chunks": 16,
+  "child_wall_seconds": 6413.25506411399,
+  "child_cpu_seconds": 6411.175674,
+  "peak_process_rss_kib": 51052,
+  "chunks": 17,
   "validation_problems": [],
   "formal_inference_available": false
 }
