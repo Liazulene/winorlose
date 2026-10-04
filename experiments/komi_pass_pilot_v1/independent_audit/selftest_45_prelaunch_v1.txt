@@ -1,0 +1,50 @@
+test_draws_keep_mixed_denominator_and_count_once (test_komi96_independent_audit.Komi96Integration.test_draws_keep_mixed_denominator_and_count_once) ... ok
+test_factorial_contrasts_known_synthetic (test_komi96_independent_audit.Komi96Integration.test_factorial_contrasts_known_synthetic) ... ok
+test_full_synthetic96_roundtrip_and_readonly (test_komi96_independent_audit.Komi96Integration.test_full_synthetic96_roundtrip_and_readonly) ... ok
+test_metadata_line_order_tamper (test_komi96_independent_audit.Komi96Integration.test_metadata_line_order_tamper) ... ok
+test_output_paths_cannot_overwrite_inputs (test_komi96_independent_audit.Komi96Integration.test_output_paths_cannot_overwrite_inputs) ... ok
+test_output_paths_reject_symlink (test_komi96_independent_audit.Komi96Integration.test_output_paths_reject_symlink) ... ok
+test_pair_agent_or_seed_mismatch_rejected (test_komi96_independent_audit.Komi96Integration.test_pair_agent_or_seed_mismatch_rejected) ... ok
+test_pair_missing_or_duplicate_rejected (test_komi96_independent_audit.Komi96Integration.test_pair_missing_or_duplicate_rejected) ... ok
+test_partial_dataset_never_produces_descriptives (test_komi96_independent_audit.Komi96Integration.test_partial_dataset_never_produces_descriptives) ... ok
+test_raw_draw_utility_tamper (test_komi96_independent_audit.Komi96Integration.test_raw_draw_utility_tamper) ... ok
+test_saved_analysis_contrast_tamper (test_komi96_independent_audit.Komi96Integration.test_saved_analysis_contrast_tamper) ... ok
+test_saved_analysis_draw_tamper (test_komi96_independent_audit.Komi96Integration.test_saved_analysis_draw_tamper) ... ok
+test_saved_plan_komi_tamper (test_komi96_independent_audit.Komi96Integration.test_saved_plan_komi_tamper) ... ok
+test_source_tamper (test_komi96_independent_audit.Komi96Integration.test_source_tamper) ... ok
+test_unfinished_tmp_and_rule_fault_rejected (test_komi96_independent_audit.Komi96Integration.test_unfinished_tmp_and_rule_fault_rejected) ... ok
+test_all_synthetic_arm_direction_records (test_komi96_independent_audit.Komi96Rules.test_all_synthetic_arm_direction_records) ... ok
+test_bool_seed_rejected (test_komi96_independent_audit.Komi96Rules.test_bool_seed_rejected) ... ok
+test_chosen_maximum_detected (test_komi96_independent_audit.Komi96Rules.test_chosen_maximum_detected) ... ok
+test_draw_success_detected (test_komi96_independent_audit.Komi96Rules.test_draw_success_detected) ... ok
+test_draw_summary_no_goals_or_board_wins (test_komi96_independent_audit.Komi96Rules.test_draw_summary_no_goals_or_board_wins) ... ok
+test_draw_utilities_all_directions (test_komi96_independent_audit.Komi96Rules.test_draw_utilities_all_directions) ... ok
+test_early_pass_map_detected (test_komi96_independent_audit.Komi96Rules.test_early_pass_map_detected) ... ok
+test_empty_positive_komi_white (test_komi96_independent_audit.Komi96Rules.test_empty_positive_komi_white) ... ok
+test_empty_zero_komi_draw (test_komi96_independent_audit.Komi96Rules.test_empty_zero_komi_draw) ... ok
+test_false_draw_winner_detected (test_komi96_independent_audit.Komi96Rules.test_false_draw_winner_detected) ... ok
+test_final_board_tamper_detected (test_komi96_independent_audit.Komi96Rules.test_final_board_tamper_detected) ... ok
+test_history_is_situational (test_komi96_independent_audit.Komi96Rules.test_history_is_situational) ... ok
+test_json_duplicate_and_nonfinite_rejected (test_komi96_independent_audit.Komi96Rules.test_json_duplicate_and_nonfinite_rejected) ... ok
+test_large_integer_comparison_strict (test_komi96_independent_audit.Komi96Rules.test_large_integer_comparison_strict) ... ok
+test_legal_map_omission_detected (test_komi96_independent_audit.Komi96Rules.test_legal_map_omission_detected) ... ok
+test_multi_capture (test_komi96_independent_audit.Komi96Rules.test_multi_capture) ... ok
+test_neutral_empty_region (test_komi96_independent_audit.Komi96Rules.test_neutral_empty_region) ... ok
+test_no_legal_action_fails_closed (test_komi96_independent_audit.Komi96Rules.test_no_legal_action_fails_closed) ... ok
+test_no_production_or_inherited_audit_imports (test_komi96_independent_audit.Komi96Rules.test_no_production_or_inherited_audit_imports) ... ok
+test_non_draw_utility_symmetries (test_komi96_independent_audit.Komi96Rules.test_non_draw_utility_symmetries) ... ok
+test_q_bounds_detected (test_komi96_independent_audit.Komi96Rules.test_q_bounds_detected) ... ok
+test_q_symmetry_detected (test_komi96_independent_audit.Komi96Rules.test_q_symmetry_detected) ... ok
+test_q_unvisited_null_detected (test_komi96_independent_audit.Komi96Rules.test_q_unvisited_null_detected) ... ok
+test_quantiles (test_komi96_independent_audit.Komi96Rules.test_quantiles) ... ok
+test_single_black_stone_owns_empty_region (test_komi96_independent_audit.Komi96Rules.test_single_black_stone_owns_empty_region) ... ok
+test_single_capture (test_komi96_independent_audit.Komi96Rules.test_single_capture) ... ok
+test_suicide_rejected (test_komi96_independent_audit.Komi96Rules.test_suicide_rejected) ... ok
+test_superko_count_tamper_detected (test_komi96_independent_audit.Komi96Rules.test_superko_count_tamper_detected) ... ok
+test_superko_enumeration_and_pass_exemption (test_komi96_independent_audit.Komi96Rules.test_superko_enumeration_and_pass_exemption) ... ok
+test_visit_total_detected (test_komi96_independent_audit.Komi96Rules.test_visit_total_detected) ... ok
+
+----------------------------------------------------------------------
+Ran 45 tests in 10.451s
+
+OK

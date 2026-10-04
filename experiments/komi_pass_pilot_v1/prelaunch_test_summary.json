@@ -1,0 +1,10 @@
+{
+  "command": "PYTHONDONTWRITEBYTECODE=1 python -m pytest -q -p no:cacheprovider",
+  "passed": 860,
+  "subtests_passed": 76,
+  "seconds": 506.03,
+  "summary": "860 passed, 76 subtests passed in 506.03s",
+  "exit_code": 0,
+  "log_sha256": "1f7e2689883b5bf36190949b3953f8568bc538fd2488ef9db2a85ecad6894937",
+  "scope": "Default complete repository discovery, including inherited M4/M5 tests and all unique M6 tests. Local execution; no GitHub CI claim."
+}

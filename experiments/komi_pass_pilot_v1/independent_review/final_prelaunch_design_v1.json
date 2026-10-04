@@ -1,0 +1,129 @@
+{
+  "M5_base_commit": "23f61f99a3e0ef0374b95c8df41c1e52f7f73ae1",
+  "M5_fixed_estimation_games": 480,
+  "all24_arm_permutations_used_once": true,
+  "arm_by_direction_games": 6,
+  "arm_games": 24,
+  "blocks_per_identity_direction": 6,
+  "checkpoints": {
+    "complete_blocks": 6,
+    "games": 24,
+    "games_per_arm": 6,
+    "seed_direction_position_balance_within_checkpoint": "not guaranteed"
+  },
+  "distinct_actual_color_agent_streams": 48,
+  "distinct_game_seeds": 24,
+  "draw_semantics": "Exact zero margin is draw; each utility0; neither identity goal succeeds; denominators retain draws; mixed joint goal counted once.",
+  "each_arm_in_each_position": 6,
+  "extra_delta": "pass contrast extra=raw-8; komi contrasts and interaction extra=raw.",
+  "four_arm_blocks": 24,
+  "historical_isolation": {
+    "historical_batch_seed_labels": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "historical_dataset_names": [
+      "batch_A_seed0",
+      "batch_B_shallow_seed0",
+      "batch_B_shallow_seed1",
+      "d0_g0_v1_seed0",
+      "d1_g0_cost_v1",
+      "d1_g0_estimation_v1",
+      "g1_pass8_estimation_v1",
+      "g1_pass8_pilot_v1",
+      "smoke_mcts",
+      "smoke_random"
+    ],
+    "historical_distinct_seeds": 13328,
+    "historical_distinct_streams": 32280,
+    "historical_output_directories": 41,
+    "historical_worktrees": [
+      "winorlose",
+      "winorlose_d0_v1",
+      "winorlose_d1_v1",
+      "winorlose_d1_estimation_v1",
+      "winorlose_g1_pass8_v1",
+      "winorlose_g1_pass8_estimation_v1"
+    ]
+  },
+  "historical_regression_indices": {
+    "pass0_seed11_12_13": [
+      0,
+      5,
+      13
+    ],
+    "pass8_seed11_12_13": [
+      1,
+      4,
+      12
+    ]
+  },
+  "independent_tests": {
+    "artifact": "independent_tests_final_v1.txt",
+    "initial_run": "122 passed; four pending per-job serialization integration failures retained in independent_tests_initial_v1.txt; resolved after engine update",
+    "passed": 134,
+    "seconds": 0.62
+  },
+  "limitations": [
+    "Descriptive costpilot only; no intervals, p-values, rare-failure/efficacy claim or7x7GO.",
+    "Hash isolation is not statistical independence; paired streams can consume different randomness.",
+    "This review does not replace independent final actual/root/scoring audit or prove internal UCT execution.",
+    "Old data are not pooled; all four cells are new game records."
+  ],
+  "original_formal_game_count": 15600,
+  "paired_contrasts": "komi0-minus2.5 atp0/p8; pass8-minus0 atk2.5/k0; interaction komi contrast atp8 minusatp0; never across identity.",
+  "passed": true,
+  "pilot_games_at_review": 0,
+  "planned_games": 96,
+  "problems": [],
+  "purpose": "Independent fixed design, seed, draw, preservation boundary and regression-harness review; no sampled experiment games generated.",
+  "regeneration_exclusions": {
+    "historical": [
+      "code_version",
+      "source_fingerprint",
+      "game_wall_ms",
+      "search_time_ms"
+    ],
+    "pilot": [
+      "game_wall_ms",
+      "search_time_ms"
+    ]
+  },
+  "remaining_release_gates": [
+    "Complete default inherited+new test suite on final source/test bytes.",
+    "Six historical behavioral regressions with source lock unchanged.",
+    "Before/after historical preservation after tests and before first game.",
+    "Complete pre-execution lock including final test evidence; verified remote source/plan checkpoint before first game."
+  ],
+  "resolved_review_findings": [
+    "Nested inherited historical directories now rejected by output guard.",
+    "Per-arm game/search cost distinguished from mixed-arm per-chunk child wall/CPU/RSS.",
+    "Extra delta minus8 restricted to pass contrast.",
+    "Structural short-route exclusion restricted to pass8 arms; komi0/pass0 still permits routes.",
+    "Per-job komi round-trip serialization independently verified after engine integration."
+  ],
+  "reviewed_file_sha256": {
+    "experiments/komi_pass_pilot_v1/frozen_plan.json": "f2d56c6bc93fb1519eb5140bc96df8964c8e30da021cdc2d8aef61ff84d3a536",
+    "experiments/komi_pass_pilot_v1/independent_review/independent_tests_final_v1.txt": "1d9a10e8c91c00421b8edeca46b44ea30a936bb2c94ed90359184b267b4de87e",
+    "experiments/komi_pass_pilot_v1/independent_review/test_m6_komi_independent_design_v1.py": "93eddcd368702840fe006af25c9bfb9aa84d3cbff7cada8b085d182468b02a4e",
+    "experiments/komi_pass_pilot_v1/pre_execution_source_lock.json": "a662f92968912a070eab3a258a3a54db3a3945e954a4cc9f779f815434bc26ca",
+    "experiments/komi_pass_pilot_v1/preregistration.json": "1bd8595fc8a8a6b0c833b81aee7506b3720b01886245790615f03452afa4e3ee",
+    "scripts/verify_komi_pass_reproduction.py": "dbbc0a3ca9e0280c63295e635a9f8424efaa7dd2714288773ed902d23c57e358",
+    "src/winai_loseai/experiments/komi_pass_pilot.py": "b8b6f288ffa4f4cbd72478cac8ff75314513342a74ace88b9d37326873a00147"
+  },
+  "seed_by_arm_by_direction_games": 2,
+  "source_fingerprint_at_review": "e15c095cf0ed1af8364966380cdcec5df66ecf7c92e19db7d0ac76fd5457f974",
+  "utc": "2026-10-04T15:51:56.338228+00:00"
+}

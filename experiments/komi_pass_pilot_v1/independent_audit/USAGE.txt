@@ -1,0 +1,73 @@
+M6 FIXED96 INDEPENDENT AUDIT
+
+Purpose and readiness
+Run only after the parent confirms the 96 canonical production games are complete.
+The harness is strictly read-only on all production and historical evidence.
+Audit output files must be new paths inside this M6 independent_audit directory.
+The standalone tests use fabricated records in TemporaryDirectory, never pilot
+searches or historical game writes. They count zero toward the pilot sample.
+
+Entry
+python -B experiments/komi_pass_pilot_v1/independent_audit/komi96_independent_audit.py \
+  --root /absolute/path/to/winorlose_komi_pass_pilot_v1 \
+  --out /absolute/path/to/outputs/komi_pass_pilot_v1 \
+  --data-ready \
+  --report /absolute/path/to/experiments/komi_pass_pilot_v1/independent_audit/results_v1/report.json \
+  --recomputed /absolute/path/to/experiments/komi_pass_pilot_v1/independent_audit/results_v1/recomputed.json
+
+Tests (stdlib, also pytest-discoverable with unique module names)
+python -B -m unittest discover -s experiments/komi_pass_pilot_v1/independent_audit \
+  -p 'test_komi96*.py' -v
+
+Expected immutable inputs
+- Experiment: preregistration.json, frozen_plan.json,
+  pre_execution_source_lock.json, pre_execution_lock.json.
+- Output: manifest.json, source_lock.json, experiment_lock.json,
+  preregistration.json, plan.json, game_seeds.json, games.jsonl,
+  games/komi_pass_pilot_v1-g000000.json through -g000095.json,
+  validation.json, analysis.json.
+- Current sources listed in source lock: run.py and every src/winai_loseai/*.py
+  recursively. Current entry, measurement and all frozen test/evidence inventories.
+- pre_execution_lock: experiment_lock fields; source_lock_sha256,
+  frozen_plan_sha256, test_file_sha256 (map), registered_before_first_pilot_game,
+  pilot_games_before_freeze=0. Optional full_suite object contains log_path and
+  log_sha256. Any *_files_sha256 maps are independently checked in full.
+
+Record and plan schema
+Records preserve M5 schema2 plus actual per-game komi. Plan entries require index,
+game_seed, black/white five-field agent specs, pass_min_ply and komi. The actual
+record must carry four provenance stamps, mirrors of agents, final_board, all
+score/winner/utility values, moves, timings, superko, and termination fields.
+Move search maps use canonical JSON string action keys 0 through25.
+
+Independent design
+96 games: seeds14/15/16 x WW/LL/WL/LW x orientations1/2,2/1 x fourarms.
+Budget256. Fourarm blocks share initial game/color-agent seeds. All24 arm orders
+are used exactly once, giving each arm six occurrences per execution position.
+No historical or future games contribute to descriptive counts.
+
+Checks
+- Independent placement/capture/suicide/situational-superko actual replay.
+- Independently enumerate all legal root actions and superko exclusions.
+- Pass window, legal chosen action, visits256, maximumvisit choice, finite Q,
+  unvisited null Q, equal/opposite Q identity symmetries and terminal precedence.
+- Independent area scoring for actual per-game komi: zero margin is draw;
+  draw utilities are0; goal success requires+1; mixed jointsuccess counted once.
+- Complete metadata/plan/seed/provenance/source and validation snapshot mirrors.
+- All rows, arms/directions/seeds, utility counts, proposal favorable/neutral/
+  unfavorable denominators, prefixes, routes, quantiles and representatives.
+- Paired simple factor contrasts and interaction, independently computed using
+  fixed weight vectors. No confidence intervals, pvalues or efficacy claims.
+
+Independence boundaries
+This script uses only the Python standard library. No production engine,
+production analysis, inherited audit or inference module is imported at runtime.
+Capture geometry, root enumeration and union-find area routines were copied and
+adapted from the read-only M5 independent audit. Its fixed-komi scoring was made
+parameterized. Production source was read for schema compatibility, not imported.
+Aggregation and factorial weight arithmetic are independently written here.
+The synthetic fixtures use explicit separated-edge stones and fabricated search
+maps. They are known geometry tests, not evidence of correct MCTS internals.
+This audit cannot prove internal tree/rollout legality, UCT or RNG execution, or
+numerical rootQ correctness. Deterministic regeneration and resource/preservation
+reviews remain separate. Source hashes attest consistency, not external timing.

@@ -1,0 +1,60 @@
+{
+  "baseline_sha256": "90a382be7e8131fd9bd86dc1d90c50b173007cfb3739c0bfa3430ac5159b297c",
+  "checker_sha256": "5bc27337dc74596d397b26bc5b2d5559717d876aa4a40569248e2ee45cf3b10e",
+  "checks": [
+    {
+      "files": 15868,
+      "raw_inventory_sha256": "3dcb2b3efcad2fc44b41e6d3f94f3564b90ae6f732e2a473516378f228d0e664",
+      "same_file_map_and_head": true,
+      "source": "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_tracked_inventory.json.segments.json",
+      "worktree": "winorlose"
+    },
+    {
+      "files": 15929,
+      "raw_inventory_sha256": "2090b99ac9723ca617a2df9796a363031d075b4c5d6b115635a9bc1e93cabf90",
+      "same_file_map_and_head": true,
+      "source": "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_d0_v1_tracked_inventory.json.segments.json",
+      "worktree": "winorlose_d0_v1"
+    },
+    {
+      "files": 16902,
+      "raw_inventory_sha256": "78e3e9ad3ebd0fb2fbae3e73f0df183c6e782f4b9dd332a4f7dceb696dc966a3",
+      "same_file_map_and_head": true,
+      "source": "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_d1_estimation_v1_tracked_inventory.json.segments.json",
+      "worktree": "winorlose_d1_estimation_v1"
+    },
+    {
+      "files": 16019,
+      "raw_inventory_sha256": "128ddebf1bcb28032bae26541081b145dc33f364562b92eab7d768d29650c606",
+      "same_file_map_and_head": true,
+      "source": "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_d1_v1_tracked_inventory.json.segments.json",
+      "worktree": "winorlose_d1_v1"
+    },
+    {
+      "files": 17054,
+      "raw_inventory_sha256": "90f654e0d76e37323b8843d82342e13c05769dd0bcf3876b1ef11e1bf56de8db",
+      "same_file_map_and_head": true,
+      "source": "experiments/g1_pass8_estimation_v1/independent_review/prelaunch_winorlose_g1_pass8_v1_tracked_inventory.json.segments.json",
+      "worktree": "winorlose_g1_pass8_v1"
+    },
+    {
+      "files": 17817,
+      "source_commit": "23f61f99a3e0ef0374b95c8df41c1e52f7f73ae1",
+      "tracked_diff_from_head": [],
+      "worktree": "winorlose_g1_pass8_estimation_v1"
+    },
+    {
+      "files": 17738,
+      "same_as_final_M5_inherited_subset": true,
+      "worktree": "winorlose_komi_pass_pilot_v1"
+    }
+  ],
+  "limitations": [
+    "References existing immutable M5 segmented inventories for the first five trees rather than storing duplicate inventories in Git.",
+    "The new M5 whole-tree baseline is tied to accepted commit23f61f99; all inherited protected paths in M6 match that baseline.",
+    "Byte/file-set preservation does not imply no transient historical writes."
+  ],
+  "passed": true,
+  "problems": [],
+  "utc": "2026-10-04T15:49:17.042835+00:00"
+}

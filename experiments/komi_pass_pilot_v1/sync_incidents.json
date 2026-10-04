@@ -1,0 +1,12 @@
+{
+  "experiment_id": "komi-pass-pilot-v1",
+  "incidents": [
+    {
+      "phase": "preproduction branch setup",
+      "pilot_games": 0,
+      "action": "update_ref to create a new branch at the verified M5 parent",
+      "result": "GitHub 422: Reference does not exist",
+      "resolution": "Discovered and used the separate create_branch action once. It returned success for experiment/komi-pass-pilot-v1. No game data were involved, no uncertain write was retried, and no existing branch was moved."
+    }
+  ]
+}

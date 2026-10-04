@@ -1,0 +1,699 @@
+........................................................................................... [ 10%]
+.................................EEEEEEEEEE............. [ 17%]
+................................................................. [ 24%]
+........................................................................ [ 33%]
+........................................................................ [ 41%]
+........................................................................ [ 49%]
+........................................................................ [ 58%]
+.................................................FFEEEEEEEEEEEEE......EE [ 66%]
+EEF..................................................................... [ 74%]
+........................................................................ [ 83%]
+........................................................................ [ 91%]
+........................................................................ [100%]
+==================================== ERRORS ====================================
+_ ERROR at setup of test_changed_execution_input_is_readonly_rejected[source_fingerprint] _
+
+tmp_path = PosixPath('/tmp/pytest-of-agent/pytest-19/test_changed_execution_input_i0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7f47de205340>
+
+    @pytest.fixture
+    def isolated(tmp_path,monkeypatch):
+>       p=g.protocol();p.update(budget=1,batch_seeds=[91],planned_games=32,games_per_cell=2)
+          ^^^^^^^^^^^^
+
+experiments/g1_pass8_estimation_v1/independent_review/test_resume20261004_independent_safety.py:10: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def protocol():
+        if sha256(PROTOCOL) != PREREGISTRATION_SHA256:
+            raise ConfigMismatch('G1-pass8 preregistration changed; create a new version')
+        p = json.loads(PROTOCOL.read_text(encoding='utf-8'))
+        if p['code_version'] != CODE_VERSION or p['experiment_id'] != 'G1-pass8-estimation-v1':
+>           raise ConfigMismatch('G1-pass8 protocol/version mismatch')
+E           winai_loseai.league.runstore.ConfigMismatch: G1-pass8 protocol/version mismatch
+
+src/winai_loseai/experiments/g1_pass8_estimation.py:62: ConfigMismatch
+_ ERROR at setup of test_changed_execution_input_is_readonly_rejected[entry_point_sha256] _
+
+tmp_path = PosixPath('/tmp/pytest-of-agent/pytest-19/test_changed_execution_input_i1')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7f47de204a70>
+
+    @pytest.fixture
+    def isolated(tmp_path,monkeypatch):
+>       p=g.protocol();p.update(budget=1,batch_seeds=[91],planned_games=32,games_per_cell=2)
+          ^^^^^^^^^^^^
+
+experiments/g1_pass8_estimation_v1/independent_review/test_resume20261004_independent_safety.py:10: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def protocol():
+        if sha256(PROTOCOL) != PREREGISTRATION_SHA256:
+            raise ConfigMismatch('G1-pass8 preregistration changed; create a new version')
+        p = json.loads(PROTOCOL.read_text(encoding='utf-8'))
+        if p['code_version'] != CODE_VERSION or p['experiment_id'] != 'G1-pass8-estimation-v1':
+>           raise ConfigMismatch('G1-pass8 protocol/version mismatch')
+E           winai_loseai.league.runstore.ConfigMismatch: G1-pass8 protocol/version mismatch
+
+src/winai_loseai/experiments/g1_pass8_estimation.py:62: ConfigMismatch
+_ ERROR at setup of test_changed_execution_input_is_readonly_rejected[measurement_script_sha256] _
+
+tmp_path = PosixPath('/tmp/pytest-of-agent/pytest-19/test_changed_execution_input_i2')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7f47de1e5820>
+
+    @pytest.fixture
+    def isolated(tmp_path,monkeypatch):
+>       p=g.protocol();p.update(budget=1,batch_seeds=[91],planned_games=32,games_per_cell=2)
+          ^^^^^^^^^^^^
+
+experiments/g1_pass8_estimation_v1/independent_review/test_resume20261004_independent_safety.py:10: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def protocol():
+        if sha256(PROTOCOL) != PREREGISTRATION_SHA256:
+            raise ConfigMismatch('G1-pass8 preregistration changed; create a new version')
+        p = json.loads(PROTOCOL.read_text(encoding='utf-8'))
+        if p['code_version'] != CODE_VERSION or p['experiment_id'] != 'G1-pass8-estimation-v1':
+>           raise ConfigMismatch('G1-pass8 protocol/version mismatch')
+E           winai_loseai.league.runstore.ConfigMismatch: G1-pass8 protocol/version mismatch
+
+src/winai_loseai/experiments/g1_pass8_estimation.py:62: ConfigMismatch
+_ ERROR at setup of test_changed_execution_input_is_readonly_rejected[scipy_version] _
+
+tmp_path = PosixPath('/tmp/pytest-of-agent/pytest-19/test_changed_execution_input_i3')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7f47de1e7230>
+
+    @pytest.fixture
+    def isolated(tmp_path,monkeypatch):
+>       p=g.protocol();p.update(budget=1,batch_seeds=[91],planned_games=32,games_per_cell=2)
+          ^^^^^^^^^^^^
+
+experiments/g1_pass8_estimation_v1/independent_review/test_resume20261004_independent_safety.py:10: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def protocol():
+        if sha256(PROTOCOL) != PREREGISTRATION_SHA256:
+            raise ConfigMismatch('G1-pass8 preregistration changed; create a new version')
+        p = json.loads(PROTOCOL.read_text(encoding='utf-8'))
+        if p['code_version'] != CODE_VERSION or p['experiment_id'] != 'G1-pass8-estimation-v1':
+>           raise ConfigMismatch('G1-pass8 protocol/version mismatch')
+E           winai_loseai.league.runstore.ConfigMismatch: G1-pass8 protocol/version mismatch
+
+src/winai_loseai/experiments/g1_pass8_estimation.py:62: ConfigMismatch
+_ ERROR at setup of test_changed_execution_input_is_readonly_rejected[numpy_version] _
+
+tmp_path = PosixPath('/tmp/pytest-of-agent/pytest-19/test_changed_execution_input_i4')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7f47de1e5fd0>
+
+    @pytest.fixture
+    def isolated(tmp_path,monkeypatch):
+>       p=g.protocol();p.update(budget=1,batch_seeds=[91],planned_games=32,games_per_cell=2)
+          ^^^^^^^^^^^^
+
+experiments/g1_pass8_estimation_v1/independent_review/test_resume20261004_independent_safety.py:10: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def protocol():
+        if sha256(PROTOCOL) != PREREGISTRATION_SHA256:
+            raise ConfigMismatch('G1-pass8 preregistration changed; create a new version')
+        p = json.loads(PROTOCOL.read_text(encoding='utf-8'))
+        if p['code_version'] != CODE_VERSION or p['experiment_id'] != 'G1-pass8-estimation-v1':
+>           raise ConfigMismatch('G1-pass8 protocol/version mismatch')
+E           winai_loseai.league.runstore.ConfigMismatch: G1-pass8 protocol/version mismatch
+
+src/winai_loseai/experiments/g1_pass8_estimation.py:62: ConfigMismatch
+___ ERROR at setup of test_changed_game_seed_is_readonly_rejected[plan.json] ___
+
+tmp_path = PosixPath('/tmp/pytest-of-agent/pytest-19/test_changed_game_seed_is_read0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7f47de1e50d0>
+
+    @pytest.fixture
+    def isolated(tmp_path,monkeypatch):
+>       p=g.protocol();p.update(budget=1,batch_seeds=[91],planned_games=32,games_per_cell=2)
+          ^^^^^^^^^^^^
+
+experiments/g1_pass8_estimation_v1/independent_review/test_resume20261004_independent_safety.py:10: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def protocol():
+        if sha256(PROTOCOL) != PREREGISTRATION_SHA256:
+            raise ConfigMismatch('G1-pass8 preregistration changed; create a new version')
+        p = json.loads(PROTOCOL.read_text(encoding='utf-8'))
+        if p['code_version'] != CODE_VERSION or p['experiment_id'] != 'G1-pass8-estimation-v1':
+>           raise ConfigMismatch('G1-pass8 protocol/version mismatch')
+E           winai_loseai.league.runstore.ConfigMismatch: G1-pass8 protocol/version mismatch
+
+src/winai_loseai/experiments/g1_pass8_estimation.py:62: ConfigMismatch
+_ ERROR at setup of test_changed_game_seed_is_readonly_rejected[game_seeds.json] _
+
+tmp_path = PosixPath('/tmp/pytest-of-agent/pytest-19/test_changed_game_seed_is_read1')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7f47dec66f90>
+
+    @pytest.fixture
+    def isolated(tmp_path,monkeypatch):
+>       p=g.protocol();p.update(budget=1,batch_seeds=[91],planned_games=32,games_per_cell=2)
+          ^^^^^^^^^^^^
+
+experiments/g1_pass8_estimation_v1/independent_review/test_resume20261004_independent_safety.py:10: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def protocol():
+        if sha256(PROTOCOL) != PREREGISTRATION_SHA256:
+            raise ConfigMismatch('G1-pass8 preregistration changed; create a new version')
+        p = json.loads(PROTOCOL.read_text(encoding='utf-8'))
+        if p['code_version'] != CODE_VERSION or p['experiment_id'] != 'G1-pass8-estimation-v1':
+>           raise ConfigMismatch('G1-pass8 protocol/version mismatch')
+E           winai_loseai.league.runstore.ConfigMismatch: G1-pass8 protocol/version mismatch
+
+src/winai_loseai/experiments/g1_pass8_estimation.py:62: ConfigMismatch
+___ ERROR at setup of test_live_source_lock_change_stops_before_record_write ___
+
+tmp_path = PosixPath('/tmp/pytest-of-agent/pytest-19/test_live_source_lock_change_s0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7f47de2052b0>
+
+    @pytest.fixture
+    def isolated(tmp_path,monkeypatch):
+>       p=g.protocol();p.update(budget=1,batch_seeds=[91],planned_games=32,games_per_cell=2)
+          ^^^^^^^^^^^^
+
+experiments/g1_pass8_estimation_v1/independent_review/test_resume20261004_independent_safety.py:10: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def protocol():
+        if sha256(PROTOCOL) != PREREGISTRATION_SHA256:
+            raise ConfigMismatch('G1-pass8 preregistration changed; create a new version')
+        p = json.loads(PROTOCOL.read_text(encoding='utf-8'))
+        if p['code_version'] != CODE_VERSION or p['experiment_id'] != 'G1-pass8-estimation-v1':
+>           raise ConfigMismatch('G1-pass8 protocol/version mismatch')
+E           winai_loseai.league.runstore.ConfigMismatch: G1-pass8 protocol/version mismatch
+
+src/winai_loseai/experiments/g1_pass8_estimation.py:62: ConfigMismatch
+_ ERROR at setup of test_global_checkpoint_recovery_partial_inference_and_final_snapshot _
+
+tmp_path = PosixPath('/tmp/pytest-of-agent/pytest-19/test_global_checkpoint_recover0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7f47de1e6870>
+
+    @pytest.fixture
+    def isolated(tmp_path,monkeypatch):
+>       p=g.protocol();p.update(budget=1,batch_seeds=[91],planned_games=32,games_per_cell=2)
+          ^^^^^^^^^^^^
+
+experiments/g1_pass8_estimation_v1/independent_review/test_resume20261004_independent_safety.py:10: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def protocol():
+        if sha256(PROTOCOL) != PREREGISTRATION_SHA256:
+            raise ConfigMismatch('G1-pass8 preregistration changed; create a new version')
+        p = json.loads(PROTOCOL.read_text(encoding='utf-8'))
+        if p['code_version'] != CODE_VERSION or p['experiment_id'] != 'G1-pass8-estimation-v1':
+>           raise ConfigMismatch('G1-pass8 protocol/version mismatch')
+E           winai_loseai.league.runstore.ConfigMismatch: G1-pass8 protocol/version mismatch
+
+src/winai_loseai/experiments/g1_pass8_estimation.py:62: ConfigMismatch
+_ ERROR at setup of test_interruption_after_finish_before_validation_write_recovers _
+
+tmp_path = PosixPath('/tmp/pytest-of-agent/pytest-19/test_interruption_after_finish0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7f47de1e7b30>
+
+    @pytest.fixture
+    def isolated(tmp_path,monkeypatch):
+>       p=g.protocol();p.update(budget=1,batch_seeds=[91],planned_games=32,games_per_cell=2)
+          ^^^^^^^^^^^^
+
+experiments/g1_pass8_estimation_v1/independent_review/test_resume20261004_independent_safety.py:10: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def protocol():
+        if sha256(PROTOCOL) != PREREGISTRATION_SHA256:
+            raise ConfigMismatch('G1-pass8 preregistration changed; create a new version')
+        p = json.loads(PROTOCOL.read_text(encoding='utf-8'))
+        if p['code_version'] != CODE_VERSION or p['experiment_id'] != 'G1-pass8-estimation-v1':
+>           raise ConfigMismatch('G1-pass8 protocol/version mismatch')
+E           winai_loseai.league.runstore.ConfigMismatch: G1-pass8 protocol/version mismatch
+
+src/winai_loseai/experiments/g1_pass8_estimation.py:62: ConfigMismatch
+_______________ ERROR at setup of test_pilot_resume_concurrency ________________
+
+tmp_path = PosixPath('/tmp/pytest-of-agent/pytest-19/test_pilot_resume_concurrency0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7f47de3fe6f0>
+
+    @pytest.fixture
+    def small(tmp_path,monkeypatch):
+>    p=g.protocol();p.update(budget=1,batch_seeds=[80],planned_games=16,games_per_cell=1);p['resource_policy']['concurrency']=2
+       ^^^^^^^^^^^^
+
+tests/test_g1_pass8_estimation.py:13: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def protocol():
+        if sha256(PROTOCOL) != PREREGISTRATION_SHA256:
+            raise ConfigMismatch('G1-pass8 preregistration changed; create a new version')
+        p = json.loads(PROTOCOL.read_text(encoding='utf-8'))
+        if p['code_version'] != CODE_VERSION or p['experiment_id'] != 'G1-pass8-estimation-v1':
+>           raise ConfigMismatch('G1-pass8 protocol/version mismatch')
+E           winai_loseai.league.runstore.ConfigMismatch: G1-pass8 protocol/version mismatch
+
+src/winai_loseai/experiments/g1_pass8_estimation.py:62: ConfigMismatch
+______ ERROR at setup of test_tamper_rejected_without_repair[rule_record] ______
+
+tmp_path = PosixPath('/tmp/pytest-of-agent/pytest-19/test_tamper_rejected_without_r0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7f47de3fe960>
+
+    @pytest.fixture
+    def small(tmp_path,monkeypatch):
+>    p=g.protocol();p.update(budget=1,batch_seeds=[80],planned_games=16,games_per_cell=1);p['resource_policy']['concurrency']=2
+       ^^^^^^^^^^^^
+
+tests/test_g1_pass8_estimation.py:13: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def protocol():
+        if sha256(PROTOCOL) != PREREGISTRATION_SHA256:
+            raise ConfigMismatch('G1-pass8 preregistration changed; create a new version')
+        p = json.loads(PROTOCOL.read_text(encoding='utf-8'))
+        if p['code_version'] != CODE_VERSION or p['experiment_id'] != 'G1-pass8-estimation-v1':
+>           raise ConfigMismatch('G1-pass8 protocol/version mismatch')
+E           winai_loseai.league.runstore.ConfigMismatch: G1-pass8 protocol/version mismatch
+
+src/winai_loseai/experiments/g1_pass8_estimation.py:62: ConfigMismatch
+_____ ERROR at setup of test_tamper_rejected_without_repair[missing_rule] ______
+
+tmp_path = PosixPath('/tmp/pytest-of-agent/pytest-19/test_tamper_rejected_without_r1')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7f47de202c30>
+
+    @pytest.fixture
+    def small(tmp_path,monkeypatch):
+>    p=g.protocol();p.update(budget=1,batch_seeds=[80],planned_games=16,games_per_cell=1);p['resource_policy']['concurrency']=2
+       ^^^^^^^^^^^^
+
+tests/test_g1_pass8_estimation.py:13: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def protocol():
+        if sha256(PROTOCOL) != PREREGISTRATION_SHA256:
+            raise ConfigMismatch('G1-pass8 preregistration changed; create a new version')
+        p = json.loads(PROTOCOL.read_text(encoding='utf-8'))
+        if p['code_version'] != CODE_VERSION or p['experiment_id'] != 'G1-pass8-estimation-v1':
+>           raise ConfigMismatch('G1-pass8 protocol/version mismatch')
+E           winai_loseai.league.runstore.ConfigMismatch: G1-pass8 protocol/version mismatch
+
+src/winai_loseai/experiments/g1_pass8_estimation.py:62: ConfigMismatch
+_______ ERROR at setup of test_tamper_rejected_without_repair[rule_plan] _______
+
+tmp_path = PosixPath('/tmp/pytest-of-agent/pytest-19/test_tamper_rejected_without_r2')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7f47de202f00>
+
+    @pytest.fixture
+    def small(tmp_path,monkeypatch):
+>    p=g.protocol();p.update(budget=1,batch_seeds=[80],planned_games=16,games_per_cell=1);p['resource_policy']['concurrency']=2
+       ^^^^^^^^^^^^
+
+tests/test_g1_pass8_estimation.py:13: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def protocol():
+        if sha256(PROTOCOL) != PREREGISTRATION_SHA256:
+            raise ConfigMismatch('G1-pass8 preregistration changed; create a new version')
+        p = json.loads(PROTOCOL.read_text(encoding='utf-8'))
+        if p['code_version'] != CODE_VERSION or p['experiment_id'] != 'G1-pass8-estimation-v1':
+>           raise ConfigMismatch('G1-pass8 protocol/version mismatch')
+E           winai_loseai.league.runstore.ConfigMismatch: G1-pass8 protocol/version mismatch
+
+src/winai_loseai/experiments/g1_pass8_estimation.py:62: ConfigMismatch
+________ ERROR at setup of test_tamper_rejected_without_repair[ruleset] ________
+
+tmp_path = PosixPath('/tmp/pytest-of-agent/pytest-19/test_tamper_rejected_without_r3')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7f47de202450>
+
+    @pytest.fixture
+    def small(tmp_path,monkeypatch):
+>    p=g.protocol();p.update(budget=1,batch_seeds=[80],planned_games=16,games_per_cell=1);p['resource_policy']['concurrency']=2
+       ^^^^^^^^^^^^
+
+tests/test_g1_pass8_estimation.py:13: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def protocol():
+        if sha256(PROTOCOL) != PREREGISTRATION_SHA256:
+            raise ConfigMismatch('G1-pass8 preregistration changed; create a new version')
+        p = json.loads(PROTOCOL.read_text(encoding='utf-8'))
+        if p['code_version'] != CODE_VERSION or p['experiment_id'] != 'G1-pass8-estimation-v1':
+>           raise ConfigMismatch('G1-pass8 protocol/version mismatch')
+E           winai_loseai.league.runstore.ConfigMismatch: G1-pass8 protocol/version mismatch
+
+src/winai_loseai/experiments/g1_pass8_estimation.py:62: ConfigMismatch
+____ ERROR at setup of test_tamper_rejected_without_repair[budget_manifest] ____
+
+tmp_path = PosixPath('/tmp/pytest-of-agent/pytest-19/test_tamper_rejected_without_r4')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7f47de4dcb60>
+
+    @pytest.fixture
+    def small(tmp_path,monkeypatch):
+>    p=g.protocol();p.update(budget=1,batch_seeds=[80],planned_games=16,games_per_cell=1);p['resource_policy']['concurrency']=2
+       ^^^^^^^^^^^^
+
+tests/test_g1_pass8_estimation.py:13: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def protocol():
+        if sha256(PROTOCOL) != PREREGISTRATION_SHA256:
+            raise ConfigMismatch('G1-pass8 preregistration changed; create a new version')
+        p = json.loads(PROTOCOL.read_text(encoding='utf-8'))
+        if p['code_version'] != CODE_VERSION or p['experiment_id'] != 'G1-pass8-estimation-v1':
+>           raise ConfigMismatch('G1-pass8 protocol/version mismatch')
+E           winai_loseai.league.runstore.ConfigMismatch: G1-pass8 protocol/version mismatch
+
+src/winai_loseai/experiments/g1_pass8_estimation.py:62: ConfigMismatch
+___ ERROR at setup of test_tamper_rejected_without_repair[schedule_manifest] ___
+
+tmp_path = PosixPath('/tmp/pytest-of-agent/pytest-19/test_tamper_rejected_without_r5')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7f47de202de0>
+
+    @pytest.fixture
+    def small(tmp_path,monkeypatch):
+>    p=g.protocol();p.update(budget=1,batch_seeds=[80],planned_games=16,games_per_cell=1);p['resource_policy']['concurrency']=2
+       ^^^^^^^^^^^^
+
+tests/test_g1_pass8_estimation.py:13: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def protocol():
+        if sha256(PROTOCOL) != PREREGISTRATION_SHA256:
+            raise ConfigMismatch('G1-pass8 preregistration changed; create a new version')
+        p = json.loads(PROTOCOL.read_text(encoding='utf-8'))
+        if p['code_version'] != CODE_VERSION or p['experiment_id'] != 'G1-pass8-estimation-v1':
+>           raise ConfigMismatch('G1-pass8 protocol/version mismatch')
+E           winai_loseai.league.runstore.ConfigMismatch: G1-pass8 protocol/version mismatch
+
+src/winai_loseai/experiments/g1_pass8_estimation.py:62: ConfigMismatch
+_______ ERROR at setup of test_tamper_rejected_without_repair[analysis] ________
+
+tmp_path = PosixPath('/tmp/pytest-of-agent/pytest-19/test_tamper_rejected_without_r6')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7f47de203890>
+
+    @pytest.fixture
+    def small(tmp_path,monkeypatch):
+>    p=g.protocol();p.update(budget=1,batch_seeds=[80],planned_games=16,games_per_cell=1);p['resource_policy']['concurrency']=2
+       ^^^^^^^^^^^^
+
+tests/test_g1_pass8_estimation.py:13: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def protocol():
+        if sha256(PROTOCOL) != PREREGISTRATION_SHA256:
+            raise ConfigMismatch('G1-pass8 preregistration changed; create a new version')
+        p = json.loads(PROTOCOL.read_text(encoding='utf-8'))
+        if p['code_version'] != CODE_VERSION or p['experiment_id'] != 'G1-pass8-estimation-v1':
+>           raise ConfigMismatch('G1-pass8 protocol/version mismatch')
+E           winai_loseai.league.runstore.ConfigMismatch: G1-pass8 protocol/version mismatch
+
+src/winai_loseai/experiments/g1_pass8_estimation.py:62: ConfigMismatch
+________ ERROR at setup of test_tamper_rejected_without_repair[source] _________
+
+tmp_path = PosixPath('/tmp/pytest-of-agent/pytest-19/test_tamper_rejected_without_r7')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7f47de1e59a0>
+
+    @pytest.fixture
+    def small(tmp_path,monkeypatch):
+>    p=g.protocol();p.update(budget=1,batch_seeds=[80],planned_games=16,games_per_cell=1);p['resource_policy']['concurrency']=2
+       ^^^^^^^^^^^^
+
+tests/test_g1_pass8_estimation.py:13: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def protocol():
+        if sha256(PROTOCOL) != PREREGISTRATION_SHA256:
+            raise ConfigMismatch('G1-pass8 preregistration changed; create a new version')
+        p = json.loads(PROTOCOL.read_text(encoding='utf-8'))
+        if p['code_version'] != CODE_VERSION or p['experiment_id'] != 'G1-pass8-estimation-v1':
+>           raise ConfigMismatch('G1-pass8 protocol/version mismatch')
+E           winai_loseai.league.runstore.ConfigMismatch: G1-pass8 protocol/version mismatch
+
+src/winai_loseai/experiments/g1_pass8_estimation.py:62: ConfigMismatch
+____ ERROR at setup of test_tamper_rejected_without_repair[middle_metadata] ____
+
+tmp_path = PosixPath('/tmp/pytest-of-agent/pytest-19/test_tamper_rejected_without_r8')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7f47de3fcbc0>
+
+    @pytest.fixture
+    def small(tmp_path,monkeypatch):
+>    p=g.protocol();p.update(budget=1,batch_seeds=[80],planned_games=16,games_per_cell=1);p['resource_policy']['concurrency']=2
+       ^^^^^^^^^^^^
+
+tests/test_g1_pass8_estimation.py:13: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def protocol():
+        if sha256(PROTOCOL) != PREREGISTRATION_SHA256:
+            raise ConfigMismatch('G1-pass8 preregistration changed; create a new version')
+        p = json.loads(PROTOCOL.read_text(encoding='utf-8'))
+        if p['code_version'] != CODE_VERSION or p['experiment_id'] != 'G1-pass8-estimation-v1':
+>           raise ConfigMismatch('G1-pass8 protocol/version mismatch')
+E           winai_loseai.league.runstore.ConfigMismatch: G1-pass8 protocol/version mismatch
+
+src/winai_loseai/experiments/g1_pass8_estimation.py:62: ConfigMismatch
+_____________ ERROR at setup of test_narrow_metadata_repair[tail] ______________
+
+tmp_path = PosixPath('/tmp/pytest-of-agent/pytest-19/test_narrow_metadata_repair_ta0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7f47de23e660>
+
+    @pytest.fixture
+    def small(tmp_path,monkeypatch):
+>    p=g.protocol();p.update(budget=1,batch_seeds=[80],planned_games=16,games_per_cell=1);p['resource_policy']['concurrency']=2
+       ^^^^^^^^^^^^
+
+tests/test_g1_pass8_estimation.py:13: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def protocol():
+        if sha256(PROTOCOL) != PREREGISTRATION_SHA256:
+            raise ConfigMismatch('G1-pass8 preregistration changed; create a new version')
+        p = json.loads(PROTOCOL.read_text(encoding='utf-8'))
+        if p['code_version'] != CODE_VERSION or p['experiment_id'] != 'G1-pass8-estimation-v1':
+>           raise ConfigMismatch('G1-pass8 protocol/version mismatch')
+E           winai_loseai.league.runstore.ConfigMismatch: G1-pass8 protocol/version mismatch
+
+src/winai_loseai/experiments/g1_pass8_estimation.py:62: ConfigMismatch
+____________ ERROR at setup of test_narrow_metadata_repair[missing] ____________
+
+tmp_path = PosixPath('/tmp/pytest-of-agent/pytest-19/test_narrow_metadata_repair_mi0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7f47de23e360>
+
+    @pytest.fixture
+    def small(tmp_path,monkeypatch):
+>    p=g.protocol();p.update(budget=1,batch_seeds=[80],planned_games=16,games_per_cell=1);p['resource_policy']['concurrency']=2
+       ^^^^^^^^^^^^
+
+tests/test_g1_pass8_estimation.py:13: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def protocol():
+        if sha256(PROTOCOL) != PREREGISTRATION_SHA256:
+            raise ConfigMismatch('G1-pass8 preregistration changed; create a new version')
+        p = json.loads(PROTOCOL.read_text(encoding='utf-8'))
+        if p['code_version'] != CODE_VERSION or p['experiment_id'] != 'G1-pass8-estimation-v1':
+>           raise ConfigMismatch('G1-pass8 protocol/version mismatch')
+E           winai_loseai.league.runstore.ConfigMismatch: G1-pass8 protocol/version mismatch
+
+src/winai_loseai/experiments/g1_pass8_estimation.py:62: ConfigMismatch
+_________________ ERROR at setup of test_rule_fault_is_latched _________________
+
+tmp_path = PosixPath('/tmp/pytest-of-agent/pytest-19/test_rule_fault_is_latched0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7f47de3fe330>
+
+    @pytest.fixture
+    def small(tmp_path,monkeypatch):
+>    p=g.protocol();p.update(budget=1,batch_seeds=[80],planned_games=16,games_per_cell=1);p['resource_policy']['concurrency']=2
+       ^^^^^^^^^^^^
+
+tests/test_g1_pass8_estimation.py:13: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def protocol():
+        if sha256(PROTOCOL) != PREREGISTRATION_SHA256:
+            raise ConfigMismatch('G1-pass8 preregistration changed; create a new version')
+        p = json.loads(PROTOCOL.read_text(encoding='utf-8'))
+        if p['code_version'] != CODE_VERSION or p['experiment_id'] != 'G1-pass8-estimation-v1':
+>           raise ConfigMismatch('G1-pass8 protocol/version mismatch')
+E           winai_loseai.league.runstore.ConfigMismatch: G1-pass8 protocol/version mismatch
+
+src/winai_loseai/experiments/g1_pass8_estimation.py:62: ConfigMismatch
+__________ ERROR at setup of test_supplemental_descriptive_arithmetic __________
+
+tmp_path = PosixPath('/tmp/pytest-of-agent/pytest-19/test_supplemental_descriptive_0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7f47de201be0>
+
+    @pytest.fixture
+    def small(tmp_path,monkeypatch):
+>    p=g.protocol();p.update(budget=1,batch_seeds=[80],planned_games=16,games_per_cell=1);p['resource_policy']['concurrency']=2
+       ^^^^^^^^^^^^
+
+tests/test_g1_pass8_estimation.py:13: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def protocol():
+        if sha256(PROTOCOL) != PREREGISTRATION_SHA256:
+            raise ConfigMismatch('G1-pass8 preregistration changed; create a new version')
+        p = json.loads(PROTOCOL.read_text(encoding='utf-8'))
+        if p['code_version'] != CODE_VERSION or p['experiment_id'] != 'G1-pass8-estimation-v1':
+>           raise ConfigMismatch('G1-pass8 protocol/version mismatch')
+E           winai_loseai.league.runstore.ConfigMismatch: G1-pass8 protocol/version mismatch
+
+src/winai_loseai/experiments/g1_pass8_estimation.py:62: ConfigMismatch
+___ ERROR at setup of test_stale_manifest_recovery_stops_at_global_boundary ____
+
+tmp_path = PosixPath('/tmp/pytest-of-agent/pytest-19/test_stale_manifest_recovery_s0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7f47de203cb0>
+
+    @pytest.fixture
+    def small(tmp_path,monkeypatch):
+>    p=g.protocol();p.update(budget=1,batch_seeds=[80],planned_games=16,games_per_cell=1);p['resource_policy']['concurrency']=2
+       ^^^^^^^^^^^^
+
+tests/test_g1_pass8_estimation.py:13: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def protocol():
+        if sha256(PROTOCOL) != PREREGISTRATION_SHA256:
+            raise ConfigMismatch('G1-pass8 preregistration changed; create a new version')
+        p = json.loads(PROTOCOL.read_text(encoding='utf-8'))
+        if p['code_version'] != CODE_VERSION or p['experiment_id'] != 'G1-pass8-estimation-v1':
+>           raise ConfigMismatch('G1-pass8 protocol/version mismatch')
+E           winai_loseai.league.runstore.ConfigMismatch: G1-pass8 protocol/version mismatch
+
+src/winai_loseai/experiments/g1_pass8_estimation.py:62: ConfigMismatch
+_ ERROR at setup of test_completed_snapshot_missing_repaired_after_validation __
+
+tmp_path = PosixPath('/tmp/pytest-of-agent/pytest-19/test_completed_snapshot_missin0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7f47de23e750>
+
+    @pytest.fixture
+    def small(tmp_path,monkeypatch):
+>    p=g.protocol();p.update(budget=1,batch_seeds=[80],planned_games=16,games_per_cell=1);p['resource_policy']['concurrency']=2
+       ^^^^^^^^^^^^
+
+tests/test_g1_pass8_estimation.py:13: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def protocol():
+        if sha256(PROTOCOL) != PREREGISTRATION_SHA256:
+            raise ConfigMismatch('G1-pass8 preregistration changed; create a new version')
+        p = json.loads(PROTOCOL.read_text(encoding='utf-8'))
+        if p['code_version'] != CODE_VERSION or p['experiment_id'] != 'G1-pass8-estimation-v1':
+>           raise ConfigMismatch('G1-pass8 protocol/version mismatch')
+E           winai_loseai.league.runstore.ConfigMismatch: G1-pass8 protocol/version mismatch
+
+src/winai_loseai/experiments/g1_pass8_estimation.py:62: ConfigMismatch
+_ ERROR at setup of test_completed_snapshot_corruption_rejected_without_mutation _
+
+tmp_path = PosixPath('/tmp/pytest-of-agent/pytest-19/test_completed_snapshot_corrup0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7f47de23d100>
+
+    @pytest.fixture
+    def small(tmp_path,monkeypatch):
+>    p=g.protocol();p.update(budget=1,batch_seeds=[80],planned_games=16,games_per_cell=1);p['resource_policy']['concurrency']=2
+       ^^^^^^^^^^^^
+
+tests/test_g1_pass8_estimation.py:13: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def protocol():
+        if sha256(PROTOCOL) != PREREGISTRATION_SHA256:
+            raise ConfigMismatch('G1-pass8 preregistration changed; create a new version')
+        p = json.loads(PROTOCOL.read_text(encoding='utf-8'))
+        if p['code_version'] != CODE_VERSION or p['experiment_id'] != 'G1-pass8-estimation-v1':
+>           raise ConfigMismatch('G1-pass8 protocol/version mismatch')
+E           winai_loseai.league.runstore.ConfigMismatch: G1-pass8 protocol/version mismatch
+
+src/winai_loseai/experiments/g1_pass8_estimation.py:62: ConfigMismatch
+=================================== FAILURES ===================================
+_______________________________ test_locked_plan _______________________________
+
+    def test_locked_plan():
+>    p=g.protocol();jj=g.jobs();cc=g.cells();assert len(jj)==len(cc)==480
+       ^^^^^^^^^^^^
+
+tests/test_g1_pass8_estimation.py:19: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def protocol():
+        if sha256(PROTOCOL) != PREREGISTRATION_SHA256:
+            raise ConfigMismatch('G1-pass8 preregistration changed; create a new version')
+        p = json.loads(PROTOCOL.read_text(encoding='utf-8'))
+        if p['code_version'] != CODE_VERSION or p['experiment_id'] != 'G1-pass8-estimation-v1':
+>           raise ConfigMismatch('G1-pass8 protocol/version mismatch')
+E           winai_loseai.league.runstore.ConfigMismatch: G1-pass8 protocol/version mismatch
+
+src/winai_loseai/experiments/g1_pass8_estimation.py:62: ConfigMismatch
+___________________________ test_rule_plan_roundtrip ___________________________
+
+    def test_rule_plan_roundtrip():
+>    for j in g.jobs():assert entry_to_job(job_to_entry(j),j['batch_id'])==j
+              ^^^^^^^^
+
+tests/test_g1_pass8_estimation.py:34: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+src/winai_loseai/experiments/g1_pass8_estimation.py:104: in jobs
+    p = protocol() if p is None else p
+        ^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def protocol():
+        if sha256(PROTOCOL) != PREREGISTRATION_SHA256:
+            raise ConfigMismatch('G1-pass8 preregistration changed; create a new version')
+        p = json.loads(PROTOCOL.read_text(encoding='utf-8'))
+        if p['code_version'] != CODE_VERSION or p['experiment_id'] != 'G1-pass8-estimation-v1':
+>           raise ConfigMismatch('G1-pass8 protocol/version mismatch')
+E           winai_loseai.league.runstore.ConfigMismatch: G1-pass8 protocol/version mismatch
+
+src/winai_loseai/experiments/g1_pass8_estimation.py:62: ConfigMismatch
+__________ test_registered_analysis_version_matches_emitted_contract ___________
+
+    def test_registered_analysis_version_matches_emitted_contract():
+     from winai_loseai.experiments.g1_pass8_estimation_stats import ANALYSIS_VERSION
+>    assert g.protocol()["statistics"]["analysis_version"] == ANALYSIS_VERSION
+            ^^^^^^^^^^^^
+
+tests/test_g1_pass8_estimation.py:148: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def protocol():
+        if sha256(PROTOCOL) != PREREGISTRATION_SHA256:
+            raise ConfigMismatch('G1-pass8 preregistration changed; create a new version')
+        p = json.loads(PROTOCOL.read_text(encoding='utf-8'))
+        if p['code_version'] != CODE_VERSION or p['experiment_id'] != 'G1-pass8-estimation-v1':
+>           raise ConfigMismatch('G1-pass8 protocol/version mismatch')
+E           winai_loseai.league.runstore.ConfigMismatch: G1-pass8 protocol/version mismatch
+
+src/winai_loseai/experiments/g1_pass8_estimation.py:62: ConfigMismatch
+=========================== short test summary info ============================
+FAILED tests/test_g1_pass8_estimation.py::test_locked_plan - winai_loseai.lea...
+FAILED tests/test_g1_pass8_estimation.py::test_rule_plan_roundtrip - winai_lo...
+FAILED tests/test_g1_pass8_estimation.py::test_registered_analysis_version_matches_emitted_contract
+ERROR experiments/g1_pass8_estimation_v1/independent_review/test_resume20261004_independent_safety.py::test_changed_execution_input_is_readonly_rejected[source_fingerprint]
+ERROR experiments/g1_pass8_estimation_v1/independent_review/test_resume20261004_independent_safety.py::test_changed_execution_input_is_readonly_rejected[entry_point_sha256]
+ERROR experiments/g1_pass8_estimation_v1/independent_review/test_resume20261004_independent_safety.py::test_changed_execution_input_is_readonly_rejected[measurement_script_sha256]
+ERROR experiments/g1_pass8_estimation_v1/independent_review/test_resume20261004_independent_safety.py::test_changed_execution_input_is_readonly_rejected[scipy_version]
+ERROR experiments/g1_pass8_estimation_v1/independent_review/test_resume20261004_independent_safety.py::test_changed_execution_input_is_readonly_rejected[numpy_version]
+ERROR experiments/g1_pass8_estimation_v1/independent_review/test_resume20261004_independent_safety.py::test_changed_game_seed_is_readonly_rejected[plan.json]
+ERROR experiments/g1_pass8_estimation_v1/independent_review/test_resume20261004_independent_safety.py::test_changed_game_seed_is_readonly_rejected[game_seeds.json]
+ERROR experiments/g1_pass8_estimation_v1/independent_review/test_resume20261004_independent_safety.py::test_live_source_lock_change_stops_before_record_write
+ERROR experiments/g1_pass8_estimation_v1/independent_review/test_resume20261004_independent_safety.py::test_global_checkpoint_recovery_partial_inference_and_final_snapshot
+ERROR experiments/g1_pass8_estimation_v1/independent_review/test_resume20261004_independent_safety.py::test_interruption_after_finish_before_validation_write_recovers
+ERROR tests/test_g1_pass8_estimation.py::test_pilot_resume_concurrency - wina...
+ERROR tests/test_g1_pass8_estimation.py::test_tamper_rejected_without_repair[rule_record]
+ERROR tests/test_g1_pass8_estimation.py::test_tamper_rejected_without_repair[missing_rule]
+ERROR tests/test_g1_pass8_estimation.py::test_tamper_rejected_without_repair[rule_plan]
+ERROR tests/test_g1_pass8_estimation.py::test_tamper_rejected_without_repair[ruleset]
+ERROR tests/test_g1_pass8_estimation.py::test_tamper_rejected_without_repair[budget_manifest]
+ERROR tests/test_g1_pass8_estimation.py::test_tamper_rejected_without_repair[schedule_manifest]
+ERROR tests/test_g1_pass8_estimation.py::test_tamper_rejected_without_repair[analysis]
+ERROR tests/test_g1_pass8_estimation.py::test_tamper_rejected_without_repair[source]
+ERROR tests/test_g1_pass8_estimation.py::test_tamper_rejected_without_repair[middle_metadata]
+ERROR tests/test_g1_pass8_estimation.py::test_narrow_metadata_repair[tail] - ...
+ERROR tests/test_g1_pass8_estimation.py::test_narrow_metadata_repair[missing]
+ERROR tests/test_g1_pass8_estimation.py::test_rule_fault_is_latched - winai_l...
+ERROR tests/test_g1_pass8_estimation.py::test_supplemental_descriptive_arithmetic
+ERROR tests/test_g1_pass8_estimation.py::test_stale_manifest_recovery_stops_at_global_boundary
+ERROR tests/test_g1_pass8_estimation.py::test_completed_snapshot_missing_repaired_after_validation
+ERROR tests/test_g1_pass8_estimation.py::test_completed_snapshot_corruption_rejected_without_mutation
+3 failed, 830 passed, 27 errors, 76 subtests passed in 437.54s (0:07:17)

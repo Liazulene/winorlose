@@ -1,0 +1,873 @@
+{
+  "candidate_actual_derived_streams": 48,
+  "candidate_actual_stream_sha256": "c12dd2eaf0288b5e97b99949dad1b8f67eea5483b72e00b4e17d97311a5c21fb",
+  "candidate_batch_seeds": [
+    14,
+    15,
+    16
+  ],
+  "candidate_blocks": 24,
+  "candidate_conservative_derived_streams": 96,
+  "candidate_seed_sha256": "d407f0fe34505470f4cdd693e84fef1585c22fc8b34a33cc48d2b67d82432d64",
+  "checker_sha256": "ce864f29beb2b0bb1cc8c62683ed8c0731293280d1acade4df70273cf1482500",
+  "comparisons": [
+    {
+      "dataset": "batch_A_seed0",
+      "distinct_seeds": 10000,
+      "distinct_streams": 20000,
+      "key_source_sha256": {
+        "outputs/batch_A_seed0/game_seeds.json": "f54a19fa431c9e9472e27ca23f5aff9ca6015b5690b8b4a6e19bd7eec315d1c8",
+        "outputs/batch_A_seed0/manifest.json": "926ba79b8bac5d2f42cc45fe66d76774255e3a8f82e62c14866552bd2ee51380",
+        "outputs/batch_A_seed0/plan.json": "3dc55cad6183968fa47106a007f2461c6e7d6a9f9a815d76c52eaae9c63531c7"
+      },
+      "origin": "plan.json",
+      "overlap": {
+        "actual_streams": [],
+        "conservative_streams": [],
+        "game_seeds": []
+      },
+      "rows": 10000,
+      "source_file_count": 3,
+      "source_inventory_sha256": "7e32da9c7de1657f2e840c314d5498ef961e137d7af153a45fc22c5ce308cb6e",
+      "worktree": "winorlose"
+    },
+    {
+      "dataset": "batch_B_shallow_seed0",
+      "distinct_seeds": 2800,
+      "distinct_streams": 5600,
+      "key_source_sha256": {
+        "outputs/batch_B_shallow_seed0/game_seeds.json": "b2889c18befd2356e5273b4b4c8cee27efd0fc6af81e722b1d3b22a786836100",
+        "outputs/batch_B_shallow_seed0/manifest.json": "d60ded9f5da9a91e67c4a430f70da82af9bfdd158d24701b6fe7b4f5f120b92d",
+        "outputs/batch_B_shallow_seed0/plan.json": "6229df15912ac5a38df60074250febf230dff0648c8c0594e392af3fd6656f93"
+      },
+      "origin": "plan.json",
+      "overlap": {
+        "actual_streams": [],
+        "conservative_streams": [],
+        "game_seeds": []
+      },
+      "rows": 2800,
+      "source_file_count": 3,
+      "source_inventory_sha256": "e19fe5d202bc446e01f3bc51782b26164cf757aab7ee9084aacb0cf746cc6f73",
+      "worktree": "winorlose"
+    },
+    {
+      "dataset": "batch_B_shallow_seed1",
+      "distinct_seeds": 2800,
+      "distinct_streams": 5600,
+      "key_source_sha256": {
+        "outputs/batch_B_shallow_seed1/game_seeds.json": "629146a97aeb206cec67b6979b9e7fb8ffd32cfde261d5e64cc959fc5e02d73d",
+        "outputs/batch_B_shallow_seed1/manifest.json": "58a1b849f0773be726597eda536b308789f661a0dd7915136e177f0d0c8cf16f",
+        "outputs/batch_B_shallow_seed1/plan.json": "b1fef5f62d6c8d77f349ac91198cc7abd6f46fb43725800b19f2dc18a82603e5"
+      },
+      "origin": "plan.json",
+      "overlap": {
+        "actual_streams": [],
+        "conservative_streams": [],
+        "game_seeds": []
+      },
+      "rows": 2800,
+      "source_file_count": 3,
+      "source_inventory_sha256": "8cb77026ffe982d529cd93c282a9bca7470b56258c7cfd7269dfeb332a9ebad7",
+      "worktree": "winorlose"
+    },
+    {
+      "dataset": "smoke_mcts",
+      "distinct_seeds": 24,
+      "distinct_streams": 48,
+      "key_source_sha256": {
+        "outputs/smoke_mcts/game_seeds.json": "aec4fdbbc54bebfefd88ef9d445289e41b62127ed4c15e1779cf427f2b64d4a9",
+        "outputs/smoke_mcts/manifest.json": "550e251a994482ee5db0921b26e864996944eb933b4ec3f5460b86b64c19ab42"
+      },
+      "origin": "complete game JSONs because plan absent",
+      "overlap": {
+        "actual_streams": [],
+        "conservative_streams": [],
+        "game_seeds": []
+      },
+      "rows": 24,
+      "source_file_count": 26,
+      "source_inventory_sha256": "f20003b08de3095791427a1d0986b5280d0462009fe7341e4ef184e5636d1d42",
+      "worktree": "winorlose"
+    },
+    {
+      "dataset": "smoke_random",
+      "distinct_seeds": 100,
+      "distinct_streams": 200,
+      "key_source_sha256": {
+        "outputs/smoke_random/game_seeds.json": "10f6d21642801c73940d859f6be99f88fc73a8a6232342c29929373dd959841d",
+        "outputs/smoke_random/manifest.json": "0fca47d03656772f855d1dfe21ccf0bd1eba24118100c090175b953a6bb57063"
+      },
+      "origin": "complete game JSONs because plan absent",
+      "overlap": {
+        "actual_streams": [],
+        "conservative_streams": [],
+        "game_seeds": []
+      },
+      "rows": 100,
+      "source_file_count": 102,
+      "source_inventory_sha256": "c471dca30e505426fcfca6513f7e04a5e8028c806f575e78731778a52ea35396",
+      "worktree": "winorlose"
+    },
+    {
+      "dataset": "batch_A_seed0",
+      "distinct_seeds": 10000,
+      "distinct_streams": 20000,
+      "key_source_sha256": {
+        "outputs/batch_A_seed0/game_seeds.json": "f54a19fa431c9e9472e27ca23f5aff9ca6015b5690b8b4a6e19bd7eec315d1c8",
+        "outputs/batch_A_seed0/manifest.json": "926ba79b8bac5d2f42cc45fe66d76774255e3a8f82e62c14866552bd2ee51380",
+        "outputs/batch_A_seed0/plan.json": "3dc55cad6183968fa47106a007f2461c6e7d6a9f9a815d76c52eaae9c63531c7"
+      },
+      "origin": "plan.json",
+      "overlap": {
+        "actual_streams": [],
+        "conservative_streams": [],
+        "game_seeds": []
+      },
+      "rows": 10000,
+      "source_file_count": 3,
+      "source_inventory_sha256": "7e32da9c7de1657f2e840c314d5498ef961e137d7af153a45fc22c5ce308cb6e",
+      "worktree": "winorlose_d0_v1"
+    },
+    {
+      "dataset": "batch_B_shallow_seed0",
+      "distinct_seeds": 2800,
+      "distinct_streams": 5600,
+      "key_source_sha256": {
+        "outputs/batch_B_shallow_seed0/game_seeds.json": "b2889c18befd2356e5273b4b4c8cee27efd0fc6af81e722b1d3b22a786836100",
+        "outputs/batch_B_shallow_seed0/manifest.json": "d60ded9f5da9a91e67c4a430f70da82af9bfdd158d24701b6fe7b4f5f120b92d",
+        "outputs/batch_B_shallow_seed0/plan.json": "6229df15912ac5a38df60074250febf230dff0648c8c0594e392af3fd6656f93"
+      },
+      "origin": "plan.json",
+      "overlap": {
+        "actual_streams": [],
+        "conservative_streams": [],
+        "game_seeds": []
+      },
+      "rows": 2800,
+      "source_file_count": 3,
+      "source_inventory_sha256": "e19fe5d202bc446e01f3bc51782b26164cf757aab7ee9084aacb0cf746cc6f73",
+      "worktree": "winorlose_d0_v1"
+    },
+    {
+      "dataset": "batch_B_shallow_seed1",
+      "distinct_seeds": 2800,
+      "distinct_streams": 5600,
+      "key_source_sha256": {
+        "outputs/batch_B_shallow_seed1/game_seeds.json": "629146a97aeb206cec67b6979b9e7fb8ffd32cfde261d5e64cc959fc5e02d73d",
+        "outputs/batch_B_shallow_seed1/manifest.json": "58a1b849f0773be726597eda536b308789f661a0dd7915136e177f0d0c8cf16f",
+        "outputs/batch_B_shallow_seed1/plan.json": "b1fef5f62d6c8d77f349ac91198cc7abd6f46fb43725800b19f2dc18a82603e5"
+      },
+      "origin": "plan.json",
+      "overlap": {
+        "actual_streams": [],
+        "conservative_streams": [],
+        "game_seeds": []
+      },
+      "rows": 2800,
+      "source_file_count": 3,
+      "source_inventory_sha256": "8cb77026ffe982d529cd93c282a9bca7470b56258c7cfd7269dfeb332a9ebad7",
+      "worktree": "winorlose_d0_v1"
+    },
+    {
+      "dataset": "d0_g0_v1_seed0",
+      "distinct_seeds": 36,
+      "distinct_streams": 72,
+      "key_source_sha256": {
+        "outputs/d0_g0_v1_seed0/game_seeds.json": "a414781b5df9ff5dbd877bc368c80254e56f874e291b6824f64a14329a351e34",
+        "outputs/d0_g0_v1_seed0/manifest.json": "aa5838e07a4b74bfe9dc0d021be93552e0bf4dd63a754d53705a41364de8b236",
+        "outputs/d0_g0_v1_seed0/plan.json": "eed7a2f897dbaf37fad56a8c6ff246f95dfd163a01009f64116b9c23fe11511f"
+      },
+      "origin": "plan.json",
+      "overlap": {
+        "actual_streams": [],
+        "conservative_streams": [],
+        "game_seeds": []
+      },
+      "rows": 36,
+      "source_file_count": 3,
+      "source_inventory_sha256": "601fd3ddcb553efed9db2d372869d6a728f0a89edfe4d84b011afa803d0781b4",
+      "worktree": "winorlose_d0_v1"
+    },
+    {
+      "dataset": "smoke_mcts",
+      "distinct_seeds": 24,
+      "distinct_streams": 48,
+      "key_source_sha256": {
+        "outputs/smoke_mcts/game_seeds.json": "aec4fdbbc54bebfefd88ef9d445289e41b62127ed4c15e1779cf427f2b64d4a9",
+        "outputs/smoke_mcts/manifest.json": "550e251a994482ee5db0921b26e864996944eb933b4ec3f5460b86b64c19ab42"
+      },
+      "origin": "complete game JSONs because plan absent",
+      "overlap": {
+        "actual_streams": [],
+        "conservative_streams": [],
+        "game_seeds": []
+      },
+      "rows": 24,
+      "source_file_count": 26,
+      "source_inventory_sha256": "f20003b08de3095791427a1d0986b5280d0462009fe7341e4ef184e5636d1d42",
+      "worktree": "winorlose_d0_v1"
+    },
+    {
+      "dataset": "smoke_random",
+      "distinct_seeds": 100,
+      "distinct_streams": 200,
+      "key_source_sha256": {
+        "outputs/smoke_random/game_seeds.json": "10f6d21642801c73940d859f6be99f88fc73a8a6232342c29929373dd959841d",
+        "outputs/smoke_random/manifest.json": "0fca47d03656772f855d1dfe21ccf0bd1eba24118100c090175b953a6bb57063"
+      },
+      "origin": "complete game JSONs because plan absent",
+      "overlap": {
+        "actual_streams": [],
+        "conservative_streams": [],
+        "game_seeds": []
+      },
+      "rows": 100,
+      "source_file_count": 102,
+      "source_inventory_sha256": "c471dca30e505426fcfca6513f7e04a5e8028c806f575e78731778a52ea35396",
+      "worktree": "winorlose_d0_v1"
+    },
+    {
+      "dataset": "batch_A_seed0",
+      "distinct_seeds": 10000,
+      "distinct_streams": 20000,
+      "key_source_sha256": {
+        "outputs/batch_A_seed0/game_seeds.json": "f54a19fa431c9e9472e27ca23f5aff9ca6015b5690b8b4a6e19bd7eec315d1c8",
+        "outputs/batch_A_seed0/manifest.json": "926ba79b8bac5d2f42cc45fe66d76774255e3a8f82e62c14866552bd2ee51380",
+        "outputs/batch_A_seed0/plan.json": "3dc55cad6183968fa47106a007f2461c6e7d6a9f9a815d76c52eaae9c63531c7"
+      },
+      "origin": "plan.json",
+      "overlap": {
+        "actual_streams": [],
+        "conservative_streams": [],
+        "game_seeds": []
+      },
+      "rows": 10000,
+      "source_file_count": 3,
+      "source_inventory_sha256": "7e32da9c7de1657f2e840c314d5498ef961e137d7af153a45fc22c5ce308cb6e",
+      "worktree": "winorlose_d1_v1"
+    },
+    {
+      "dataset": "batch_B_shallow_seed0",
+      "distinct_seeds": 2800,
+      "distinct_streams": 5600,
+      "key_source_sha256": {
+        "outputs/batch_B_shallow_seed0/game_seeds.json": "b2889c18befd2356e5273b4b4c8cee27efd0fc6af81e722b1d3b22a786836100",
+        "outputs/batch_B_shallow_seed0/manifest.json": "d60ded9f5da9a91e67c4a430f70da82af9bfdd158d24701b6fe7b4f5f120b92d",
+        "outputs/batch_B_shallow_seed0/plan.json": "6229df15912ac5a38df60074250febf230dff0648c8c0594e392af3fd6656f93"
+      },
+      "origin": "plan.json",
+      "overlap": {
+        "actual_streams": [],
+        "conservative_streams": [],
+        "game_seeds": []
+      },
+      "rows": 2800,
+      "source_file_count": 3,
+      "source_inventory_sha256": "e19fe5d202bc446e01f3bc51782b26164cf757aab7ee9084aacb0cf746cc6f73",
+      "worktree": "winorlose_d1_v1"
+    },
+    {
+      "dataset": "batch_B_shallow_seed1",
+      "distinct_seeds": 2800,
+      "distinct_streams": 5600,
+      "key_source_sha256": {
+        "outputs/batch_B_shallow_seed1/game_seeds.json": "629146a97aeb206cec67b6979b9e7fb8ffd32cfde261d5e64cc959fc5e02d73d",
+        "outputs/batch_B_shallow_seed1/manifest.json": "58a1b849f0773be726597eda536b308789f661a0dd7915136e177f0d0c8cf16f",
+        "outputs/batch_B_shallow_seed1/plan.json": "b1fef5f62d6c8d77f349ac91198cc7abd6f46fb43725800b19f2dc18a82603e5"
+      },
+      "origin": "plan.json",
+      "overlap": {
+        "actual_streams": [],
+        "conservative_streams": [],
+        "game_seeds": []
+      },
+      "rows": 2800,
+      "source_file_count": 3,
+      "source_inventory_sha256": "8cb77026ffe982d529cd93c282a9bca7470b56258c7cfd7269dfeb332a9ebad7",
+      "worktree": "winorlose_d1_v1"
+    },
+    {
+      "dataset": "d1_g0_cost_v1",
+      "distinct_seeds": 24,
+      "distinct_streams": 48,
+      "key_source_sha256": {
+        "outputs/d1_g0_cost_v1/game_seeds.json": "757d98971572b26f01dc9501db5835ee446b9a765d9abb82df149048935740e1",
+        "outputs/d1_g0_cost_v1/manifest.json": "445530eb692d5157de234747a4f317724a92434f86f17f5ba925caff615aa900",
+        "outputs/d1_g0_cost_v1/plan.json": "4483b56523ad15de73e7d588255ead6aeca33d2e271920ab810158ecb8fc909c"
+      },
+      "origin": "plan.json",
+      "overlap": {
+        "actual_streams": [],
+        "conservative_streams": [],
+        "game_seeds": []
+      },
+      "rows": 72,
+      "source_file_count": 3,
+      "source_inventory_sha256": "f3a8517520c2a9a93aa9ee0036546f90d5c281af6f7ec52621e3aa234f5ad636",
+      "worktree": "winorlose_d1_v1"
+    },
+    {
+      "dataset": "smoke_mcts",
+      "distinct_seeds": 24,
+      "distinct_streams": 48,
+      "key_source_sha256": {
+        "outputs/smoke_mcts/game_seeds.json": "aec4fdbbc54bebfefd88ef9d445289e41b62127ed4c15e1779cf427f2b64d4a9",
+        "outputs/smoke_mcts/manifest.json": "550e251a994482ee5db0921b26e864996944eb933b4ec3f5460b86b64c19ab42"
+      },
+      "origin": "complete game JSONs because plan absent",
+      "overlap": {
+        "actual_streams": [],
+        "conservative_streams": [],
+        "game_seeds": []
+      },
+      "rows": 24,
+      "source_file_count": 26,
+      "source_inventory_sha256": "f20003b08de3095791427a1d0986b5280d0462009fe7341e4ef184e5636d1d42",
+      "worktree": "winorlose_d1_v1"
+    },
+    {
+      "dataset": "smoke_random",
+      "distinct_seeds": 100,
+      "distinct_streams": 200,
+      "key_source_sha256": {
+        "outputs/smoke_random/game_seeds.json": "10f6d21642801c73940d859f6be99f88fc73a8a6232342c29929373dd959841d",
+        "outputs/smoke_random/manifest.json": "0fca47d03656772f855d1dfe21ccf0bd1eba24118100c090175b953a6bb57063"
+      },
+      "origin": "complete game JSONs because plan absent",
+      "overlap": {
+        "actual_streams": [],
+        "conservative_streams": [],
+        "game_seeds": []
+      },
+      "rows": 100,
+      "source_file_count": 102,
+      "source_inventory_sha256": "c471dca30e505426fcfca6513f7e04a5e8028c806f575e78731778a52ea35396",
+      "worktree": "winorlose_d1_v1"
+    },
+    {
+      "dataset": "batch_A_seed0",
+      "distinct_seeds": 10000,
+      "distinct_streams": 20000,
+      "key_source_sha256": {
+        "outputs/batch_A_seed0/game_seeds.json": "f54a19fa431c9e9472e27ca23f5aff9ca6015b5690b8b4a6e19bd7eec315d1c8",
+        "outputs/batch_A_seed0/manifest.json": "926ba79b8bac5d2f42cc45fe66d76774255e3a8f82e62c14866552bd2ee51380",
+        "outputs/batch_A_seed0/plan.json": "3dc55cad6183968fa47106a007f2461c6e7d6a9f9a815d76c52eaae9c63531c7"
+      },
+      "origin": "plan.json",
+      "overlap": {
+        "actual_streams": [],
+        "conservative_streams": [],
+        "game_seeds": []
+      },
+      "rows": 10000,
+      "source_file_count": 3,
+      "source_inventory_sha256": "7e32da9c7de1657f2e840c314d5498ef961e137d7af153a45fc22c5ce308cb6e",
+      "worktree": "winorlose_d1_estimation_v1"
+    },
+    {
+      "dataset": "batch_B_shallow_seed0",
+      "distinct_seeds": 2800,
+      "distinct_streams": 5600,
+      "key_source_sha256": {
+        "outputs/batch_B_shallow_seed0/game_seeds.json": "b2889c18befd2356e5273b4b4c8cee27efd0fc6af81e722b1d3b22a786836100",
+        "outputs/batch_B_shallow_seed0/manifest.json": "d60ded9f5da9a91e67c4a430f70da82af9bfdd158d24701b6fe7b4f5f120b92d",
+        "outputs/batch_B_shallow_seed0/plan.json": "6229df15912ac5a38df60074250febf230dff0648c8c0594e392af3fd6656f93"
+      },
+      "origin": "plan.json",
+      "overlap": {
+        "actual_streams": [],
+        "conservative_streams": [],
+        "game_seeds": []
+      },
+      "rows": 2800,
+      "source_file_count": 3,
+      "source_inventory_sha256": "e19fe5d202bc446e01f3bc51782b26164cf757aab7ee9084aacb0cf746cc6f73",
+      "worktree": "winorlose_d1_estimation_v1"
+    },
+    {
+      "dataset": "batch_B_shallow_seed1",
+      "distinct_seeds": 2800,
+      "distinct_streams": 5600,
+      "key_source_sha256": {
+        "outputs/batch_B_shallow_seed1/game_seeds.json": "629146a97aeb206cec67b6979b9e7fb8ffd32cfde261d5e64cc959fc5e02d73d",
+        "outputs/batch_B_shallow_seed1/manifest.json": "58a1b849f0773be726597eda536b308789f661a0dd7915136e177f0d0c8cf16f",
+        "outputs/batch_B_shallow_seed1/plan.json": "b1fef5f62d6c8d77f349ac91198cc7abd6f46fb43725800b19f2dc18a82603e5"
+      },
+      "origin": "plan.json",
+      "overlap": {
+        "actual_streams": [],
+        "conservative_streams": [],
+        "game_seeds": []
+      },
+      "rows": 2800,
+      "source_file_count": 3,
+      "source_inventory_sha256": "8cb77026ffe982d529cd93c282a9bca7470b56258c7cfd7269dfeb332a9ebad7",
+      "worktree": "winorlose_d1_estimation_v1"
+    },
+    {
+      "dataset": "d1_g0_cost_v1",
+      "distinct_seeds": 24,
+      "distinct_streams": 48,
+      "key_source_sha256": {
+        "outputs/d1_g0_cost_v1/game_seeds.json": "757d98971572b26f01dc9501db5835ee446b9a765d9abb82df149048935740e1",
+        "outputs/d1_g0_cost_v1/manifest.json": "445530eb692d5157de234747a4f317724a92434f86f17f5ba925caff615aa900",
+        "outputs/d1_g0_cost_v1/plan.json": "4483b56523ad15de73e7d588255ead6aeca33d2e271920ab810158ecb8fc909c"
+      },
+      "origin": "plan.json",
+      "overlap": {
+        "actual_streams": [],
+        "conservative_streams": [],
+        "game_seeds": []
+      },
+      "rows": 72,
+      "source_file_count": 3,
+      "source_inventory_sha256": "f3a8517520c2a9a93aa9ee0036546f90d5c281af6f7ec52621e3aa234f5ad636",
+      "worktree": "winorlose_d1_estimation_v1"
+    },
+    {
+      "dataset": "d1_g0_estimation_v1",
+      "distinct_seeds": 240,
+      "distinct_streams": 480,
+      "key_source_sha256": {
+        "outputs/d1_g0_estimation_v1/game_seeds.json": "b4a0a250126173aeebcb89cd75ef96d1385ac1f162f2cd6180c8ce4fc551e520",
+        "outputs/d1_g0_estimation_v1/manifest.json": "3ef66619d4e942a304c3cfcc6ef55a774acfe063e1a86ccd68440d6450ccb9c6",
+        "outputs/d1_g0_estimation_v1/plan.json": "653a04e0f6d191cb52920dcabe93bb0be0262eb9be189a1bfbeb53ca16710d82"
+      },
+      "origin": "plan.json",
+      "overlap": {
+        "actual_streams": [],
+        "conservative_streams": [],
+        "game_seeds": []
+      },
+      "rows": 720,
+      "source_file_count": 3,
+      "source_inventory_sha256": "1b8a475d1ea30a9ab4df2fcbf85221e8772c30aacafa0749d1943c254ad5d74e",
+      "worktree": "winorlose_d1_estimation_v1"
+    },
+    {
+      "dataset": "smoke_mcts",
+      "distinct_seeds": 24,
+      "distinct_streams": 48,
+      "key_source_sha256": {
+        "outputs/smoke_mcts/game_seeds.json": "aec4fdbbc54bebfefd88ef9d445289e41b62127ed4c15e1779cf427f2b64d4a9",
+        "outputs/smoke_mcts/manifest.json": "550e251a994482ee5db0921b26e864996944eb933b4ec3f5460b86b64c19ab42"
+      },
+      "origin": "complete game JSONs because plan absent",
+      "overlap": {
+        "actual_streams": [],
+        "conservative_streams": [],
+        "game_seeds": []
+      },
+      "rows": 24,
+      "source_file_count": 26,
+      "source_inventory_sha256": "f20003b08de3095791427a1d0986b5280d0462009fe7341e4ef184e5636d1d42",
+      "worktree": "winorlose_d1_estimation_v1"
+    },
+    {
+      "dataset": "smoke_random",
+      "distinct_seeds": 100,
+      "distinct_streams": 200,
+      "key_source_sha256": {
+        "outputs/smoke_random/game_seeds.json": "10f6d21642801c73940d859f6be99f88fc73a8a6232342c29929373dd959841d",
+        "outputs/smoke_random/manifest.json": "0fca47d03656772f855d1dfe21ccf0bd1eba24118100c090175b953a6bb57063"
+      },
+      "origin": "complete game JSONs because plan absent",
+      "overlap": {
+        "actual_streams": [],
+        "conservative_streams": [],
+        "game_seeds": []
+      },
+      "rows": 100,
+      "source_file_count": 102,
+      "source_inventory_sha256": "c471dca30e505426fcfca6513f7e04a5e8028c806f575e78731778a52ea35396",
+      "worktree": "winorlose_d1_estimation_v1"
+    },
+    {
+      "dataset": "batch_A_seed0",
+      "distinct_seeds": 10000,
+      "distinct_streams": 20000,
+      "key_source_sha256": {
+        "outputs/batch_A_seed0/game_seeds.json": "f54a19fa431c9e9472e27ca23f5aff9ca6015b5690b8b4a6e19bd7eec315d1c8",
+        "outputs/batch_A_seed0/manifest.json": "926ba79b8bac5d2f42cc45fe66d76774255e3a8f82e62c14866552bd2ee51380",
+        "outputs/batch_A_seed0/plan.json": "3dc55cad6183968fa47106a007f2461c6e7d6a9f9a815d76c52eaae9c63531c7"
+      },
+      "origin": "plan.json",
+      "overlap": {
+        "actual_streams": [],
+        "conservative_streams": [],
+        "game_seeds": []
+      },
+      "rows": 10000,
+      "source_file_count": 3,
+      "source_inventory_sha256": "7e32da9c7de1657f2e840c314d5498ef961e137d7af153a45fc22c5ce308cb6e",
+      "worktree": "winorlose_g1_pass8_v1"
+    },
+    {
+      "dataset": "batch_B_shallow_seed0",
+      "distinct_seeds": 2800,
+      "distinct_streams": 5600,
+      "key_source_sha256": {
+        "outputs/batch_B_shallow_seed0/game_seeds.json": "b2889c18befd2356e5273b4b4c8cee27efd0fc6af81e722b1d3b22a786836100",
+        "outputs/batch_B_shallow_seed0/manifest.json": "d60ded9f5da9a91e67c4a430f70da82af9bfdd158d24701b6fe7b4f5f120b92d",
+        "outputs/batch_B_shallow_seed0/plan.json": "6229df15912ac5a38df60074250febf230dff0648c8c0594e392af3fd6656f93"
+      },
+      "origin": "plan.json",
+      "overlap": {
+        "actual_streams": [],
+        "conservative_streams": [],
+        "game_seeds": []
+      },
+      "rows": 2800,
+      "source_file_count": 3,
+      "source_inventory_sha256": "e19fe5d202bc446e01f3bc51782b26164cf757aab7ee9084aacb0cf746cc6f73",
+      "worktree": "winorlose_g1_pass8_v1"
+    },
+    {
+      "dataset": "batch_B_shallow_seed1",
+      "distinct_seeds": 2800,
+      "distinct_streams": 5600,
+      "key_source_sha256": {
+        "outputs/batch_B_shallow_seed1/game_seeds.json": "629146a97aeb206cec67b6979b9e7fb8ffd32cfde261d5e64cc959fc5e02d73d",
+        "outputs/batch_B_shallow_seed1/manifest.json": "58a1b849f0773be726597eda536b308789f661a0dd7915136e177f0d0c8cf16f",
+        "outputs/batch_B_shallow_seed1/plan.json": "b1fef5f62d6c8d77f349ac91198cc7abd6f46fb43725800b19f2dc18a82603e5"
+      },
+      "origin": "plan.json",
+      "overlap": {
+        "actual_streams": [],
+        "conservative_streams": [],
+        "game_seeds": []
+      },
+      "rows": 2800,
+      "source_file_count": 3,
+      "source_inventory_sha256": "8cb77026ffe982d529cd93c282a9bca7470b56258c7cfd7269dfeb332a9ebad7",
+      "worktree": "winorlose_g1_pass8_v1"
+    },
+    {
+      "dataset": "d1_g0_cost_v1",
+      "distinct_seeds": 24,
+      "distinct_streams": 48,
+      "key_source_sha256": {
+        "outputs/d1_g0_cost_v1/game_seeds.json": "757d98971572b26f01dc9501db5835ee446b9a765d9abb82df149048935740e1",
+        "outputs/d1_g0_cost_v1/manifest.json": "445530eb692d5157de234747a4f317724a92434f86f17f5ba925caff615aa900",
+        "outputs/d1_g0_cost_v1/plan.json": "4483b56523ad15de73e7d588255ead6aeca33d2e271920ab810158ecb8fc909c"
+      },
+      "origin": "plan.json",
+      "overlap": {
+        "actual_streams": [],
+        "conservative_streams": [],
+        "game_seeds": []
+      },
+      "rows": 72,
+      "source_file_count": 3,
+      "source_inventory_sha256": "f3a8517520c2a9a93aa9ee0036546f90d5c281af6f7ec52621e3aa234f5ad636",
+      "worktree": "winorlose_g1_pass8_v1"
+    },
+    {
+      "dataset": "d1_g0_estimation_v1",
+      "distinct_seeds": 240,
+      "distinct_streams": 480,
+      "key_source_sha256": {
+        "outputs/d1_g0_estimation_v1/game_seeds.json": "b4a0a250126173aeebcb89cd75ef96d1385ac1f162f2cd6180c8ce4fc551e520",
+        "outputs/d1_g0_estimation_v1/manifest.json": "3ef66619d4e942a304c3cfcc6ef55a774acfe063e1a86ccd68440d6450ccb9c6",
+        "outputs/d1_g0_estimation_v1/plan.json": "653a04e0f6d191cb52920dcabe93bb0be0262eb9be189a1bfbeb53ca16710d82"
+      },
+      "origin": "plan.json",
+      "overlap": {
+        "actual_streams": [],
+        "conservative_streams": [],
+        "game_seeds": []
+      },
+      "rows": 720,
+      "source_file_count": 3,
+      "source_inventory_sha256": "1b8a475d1ea30a9ab4df2fcbf85221e8772c30aacafa0749d1943c254ad5d74e",
+      "worktree": "winorlose_g1_pass8_v1"
+    },
+    {
+      "dataset": "g1_pass8_pilot_v1",
+      "distinct_seeds": 24,
+      "distinct_streams": 48,
+      "key_source_sha256": {
+        "outputs/g1_pass8_pilot_v1/game_seeds.json": "06e0a220b3dbb935c0b398734de41c05a7f7241375ff934be36f40a696dfebec",
+        "outputs/g1_pass8_pilot_v1/manifest.json": "8e379da0f44d7cfff91bc13af511efe72a9af85c003535af2f2e8b8f93155c0c",
+        "outputs/g1_pass8_pilot_v1/plan.json": "34e2b4c6142e70022577e9fd2e06ed4d1ee780c8e0cf3a5c02ceca1297358b8a"
+      },
+      "origin": "plan.json",
+      "overlap": {
+        "actual_streams": [],
+        "conservative_streams": [],
+        "game_seeds": []
+      },
+      "rows": 48,
+      "source_file_count": 3,
+      "source_inventory_sha256": "e27c33db91f5d069791eb6a37270adf2b2bffe18a91eeea66c5e506d7f5ffc2b",
+      "worktree": "winorlose_g1_pass8_v1"
+    },
+    {
+      "dataset": "smoke_mcts",
+      "distinct_seeds": 24,
+      "distinct_streams": 48,
+      "key_source_sha256": {
+        "outputs/smoke_mcts/game_seeds.json": "aec4fdbbc54bebfefd88ef9d445289e41b62127ed4c15e1779cf427f2b64d4a9",
+        "outputs/smoke_mcts/manifest.json": "550e251a994482ee5db0921b26e864996944eb933b4ec3f5460b86b64c19ab42"
+      },
+      "origin": "complete game JSONs because plan absent",
+      "overlap": {
+        "actual_streams": [],
+        "conservative_streams": [],
+        "game_seeds": []
+      },
+      "rows": 24,
+      "source_file_count": 26,
+      "source_inventory_sha256": "f20003b08de3095791427a1d0986b5280d0462009fe7341e4ef184e5636d1d42",
+      "worktree": "winorlose_g1_pass8_v1"
+    },
+    {
+      "dataset": "smoke_random",
+      "distinct_seeds": 100,
+      "distinct_streams": 200,
+      "key_source_sha256": {
+        "outputs/smoke_random/game_seeds.json": "10f6d21642801c73940d859f6be99f88fc73a8a6232342c29929373dd959841d",
+        "outputs/smoke_random/manifest.json": "0fca47d03656772f855d1dfe21ccf0bd1eba24118100c090175b953a6bb57063"
+      },
+      "origin": "complete game JSONs because plan absent",
+      "overlap": {
+        "actual_streams": [],
+        "conservative_streams": [],
+        "game_seeds": []
+      },
+      "rows": 100,
+      "source_file_count": 102,
+      "source_inventory_sha256": "c471dca30e505426fcfca6513f7e04a5e8028c806f575e78731778a52ea35396",
+      "worktree": "winorlose_g1_pass8_v1"
+    },
+    {
+      "dataset": "batch_A_seed0",
+      "distinct_seeds": 10000,
+      "distinct_streams": 20000,
+      "key_source_sha256": {
+        "outputs/batch_A_seed0/game_seeds.json": "f54a19fa431c9e9472e27ca23f5aff9ca6015b5690b8b4a6e19bd7eec315d1c8",
+        "outputs/batch_A_seed0/manifest.json": "926ba79b8bac5d2f42cc45fe66d76774255e3a8f82e62c14866552bd2ee51380",
+        "outputs/batch_A_seed0/plan.json": "3dc55cad6183968fa47106a007f2461c6e7d6a9f9a815d76c52eaae9c63531c7"
+      },
+      "origin": "plan.json",
+      "overlap": {
+        "actual_streams": [],
+        "conservative_streams": [],
+        "game_seeds": []
+      },
+      "rows": 10000,
+      "source_file_count": 3,
+      "source_inventory_sha256": "7e32da9c7de1657f2e840c314d5498ef961e137d7af153a45fc22c5ce308cb6e",
+      "worktree": "winorlose_g1_pass8_estimation_v1"
+    },
+    {
+      "dataset": "batch_B_shallow_seed0",
+      "distinct_seeds": 2800,
+      "distinct_streams": 5600,
+      "key_source_sha256": {
+        "outputs/batch_B_shallow_seed0/game_seeds.json": "b2889c18befd2356e5273b4b4c8cee27efd0fc6af81e722b1d3b22a786836100",
+        "outputs/batch_B_shallow_seed0/manifest.json": "d60ded9f5da9a91e67c4a430f70da82af9bfdd158d24701b6fe7b4f5f120b92d",
+        "outputs/batch_B_shallow_seed0/plan.json": "6229df15912ac5a38df60074250febf230dff0648c8c0594e392af3fd6656f93"
+      },
+      "origin": "plan.json",
+      "overlap": {
+        "actual_streams": [],
+        "conservative_streams": [],
+        "game_seeds": []
+      },
+      "rows": 2800,
+      "source_file_count": 3,
+      "source_inventory_sha256": "e19fe5d202bc446e01f3bc51782b26164cf757aab7ee9084aacb0cf746cc6f73",
+      "worktree": "winorlose_g1_pass8_estimation_v1"
+    },
+    {
+      "dataset": "batch_B_shallow_seed1",
+      "distinct_seeds": 2800,
+      "distinct_streams": 5600,
+      "key_source_sha256": {
+        "outputs/batch_B_shallow_seed1/game_seeds.json": "629146a97aeb206cec67b6979b9e7fb8ffd32cfde261d5e64cc959fc5e02d73d",
+        "outputs/batch_B_shallow_seed1/manifest.json": "58a1b849f0773be726597eda536b308789f661a0dd7915136e177f0d0c8cf16f",
+        "outputs/batch_B_shallow_seed1/plan.json": "b1fef5f62d6c8d77f349ac91198cc7abd6f46fb43725800b19f2dc18a82603e5"
+      },
+      "origin": "plan.json",
+      "overlap": {
+        "actual_streams": [],
+        "conservative_streams": [],
+        "game_seeds": []
+      },
+      "rows": 2800,
+      "source_file_count": 3,
+      "source_inventory_sha256": "8cb77026ffe982d529cd93c282a9bca7470b56258c7cfd7269dfeb332a9ebad7",
+      "worktree": "winorlose_g1_pass8_estimation_v1"
+    },
+    {
+      "dataset": "d1_g0_cost_v1",
+      "distinct_seeds": 24,
+      "distinct_streams": 48,
+      "key_source_sha256": {
+        "outputs/d1_g0_cost_v1/game_seeds.json": "757d98971572b26f01dc9501db5835ee446b9a765d9abb82df149048935740e1",
+        "outputs/d1_g0_cost_v1/manifest.json": "445530eb692d5157de234747a4f317724a92434f86f17f5ba925caff615aa900",
+        "outputs/d1_g0_cost_v1/plan.json": "4483b56523ad15de73e7d588255ead6aeca33d2e271920ab810158ecb8fc909c"
+      },
+      "origin": "plan.json",
+      "overlap": {
+        "actual_streams": [],
+        "conservative_streams": [],
+        "game_seeds": []
+      },
+      "rows": 72,
+      "source_file_count": 3,
+      "source_inventory_sha256": "f3a8517520c2a9a93aa9ee0036546f90d5c281af6f7ec52621e3aa234f5ad636",
+      "worktree": "winorlose_g1_pass8_estimation_v1"
+    },
+    {
+      "dataset": "d1_g0_estimation_v1",
+      "distinct_seeds": 240,
+      "distinct_streams": 480,
+      "key_source_sha256": {
+        "outputs/d1_g0_estimation_v1/game_seeds.json": "b4a0a250126173aeebcb89cd75ef96d1385ac1f162f2cd6180c8ce4fc551e520",
+        "outputs/d1_g0_estimation_v1/manifest.json": "3ef66619d4e942a304c3cfcc6ef55a774acfe063e1a86ccd68440d6450ccb9c6",
+        "outputs/d1_g0_estimation_v1/plan.json": "653a04e0f6d191cb52920dcabe93bb0be0262eb9be189a1bfbeb53ca16710d82"
+      },
+      "origin": "plan.json",
+      "overlap": {
+        "actual_streams": [],
+        "conservative_streams": [],
+        "game_seeds": []
+      },
+      "rows": 720,
+      "source_file_count": 3,
+      "source_inventory_sha256": "1b8a475d1ea30a9ab4df2fcbf85221e8772c30aacafa0749d1943c254ad5d74e",
+      "worktree": "winorlose_g1_pass8_estimation_v1"
+    },
+    {
+      "dataset": "g1_pass8_estimation_v1",
+      "distinct_seeds": 240,
+      "distinct_streams": 480,
+      "key_source_sha256": {
+        "outputs/g1_pass8_estimation_v1/game_seeds.json": "6b5e930bc347bbe4b6f1dec950969d12bb742cd1afd47a0cd04018711d73c16f",
+        "outputs/g1_pass8_estimation_v1/manifest.json": "af8a907b72e96a3258360e3be8d6b345a67d1266aad671f85cf796d7c6c1c70f",
+        "outputs/g1_pass8_estimation_v1/plan.json": "3b7cc3abdc210f602e08daeb6fef230f7c2bb230f70d6c7275f730a81c731488"
+      },
+      "origin": "plan.json",
+      "overlap": {
+        "actual_streams": [],
+        "conservative_streams": [],
+        "game_seeds": []
+      },
+      "rows": 480,
+      "source_file_count": 3,
+      "source_inventory_sha256": "3542775ff9a0eda087ed2f3031bdd0677fff03dae9a99a6e76eacdcf27e78d0e",
+      "worktree": "winorlose_g1_pass8_estimation_v1"
+    },
+    {
+      "dataset": "g1_pass8_pilot_v1",
+      "distinct_seeds": 24,
+      "distinct_streams": 48,
+      "key_source_sha256": {
+        "outputs/g1_pass8_pilot_v1/game_seeds.json": "06e0a220b3dbb935c0b398734de41c05a7f7241375ff934be36f40a696dfebec",
+        "outputs/g1_pass8_pilot_v1/manifest.json": "8e379da0f44d7cfff91bc13af511efe72a9af85c003535af2f2e8b8f93155c0c",
+        "outputs/g1_pass8_pilot_v1/plan.json": "34e2b4c6142e70022577e9fd2e06ed4d1ee780c8e0cf3a5c02ceca1297358b8a"
+      },
+      "origin": "plan.json",
+      "overlap": {
+        "actual_streams": [],
+        "conservative_streams": [],
+        "game_seeds": []
+      },
+      "rows": 48,
+      "source_file_count": 3,
+      "source_inventory_sha256": "e27c33db91f5d069791eb6a37270adf2b2bffe18a91eeea66c5e506d7f5ffc2b",
+      "worktree": "winorlose_g1_pass8_estimation_v1"
+    },
+    {
+      "dataset": "smoke_mcts",
+      "distinct_seeds": 24,
+      "distinct_streams": 48,
+      "key_source_sha256": {
+        "outputs/smoke_mcts/game_seeds.json": "aec4fdbbc54bebfefd88ef9d445289e41b62127ed4c15e1779cf427f2b64d4a9",
+        "outputs/smoke_mcts/manifest.json": "550e251a994482ee5db0921b26e864996944eb933b4ec3f5460b86b64c19ab42"
+      },
+      "origin": "complete game JSONs because plan absent",
+      "overlap": {
+        "actual_streams": [],
+        "conservative_streams": [],
+        "game_seeds": []
+      },
+      "rows": 24,
+      "source_file_count": 26,
+      "source_inventory_sha256": "f20003b08de3095791427a1d0986b5280d0462009fe7341e4ef184e5636d1d42",
+      "worktree": "winorlose_g1_pass8_estimation_v1"
+    },
+    {
+      "dataset": "smoke_random",
+      "distinct_seeds": 100,
+      "distinct_streams": 200,
+      "key_source_sha256": {
+        "outputs/smoke_random/game_seeds.json": "10f6d21642801c73940d859f6be99f88fc73a8a6232342c29929373dd959841d",
+        "outputs/smoke_random/manifest.json": "0fca47d03656772f855d1dfe21ccf0bd1eba24118100c090175b953a6bb57063"
+      },
+      "origin": "complete game JSONs because plan absent",
+      "overlap": {
+        "actual_streams": [],
+        "conservative_streams": [],
+        "game_seeds": []
+      },
+      "rows": 100,
+      "source_file_count": 102,
+      "source_inventory_sha256": "c471dca30e505426fcfca6513f7e04a5e8028c806f575e78731778a52ea35396",
+      "worktree": "winorlose_g1_pass8_estimation_v1"
+    }
+  ],
+  "historical_batch_seed_labels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "historical_dataset_names": [
+    "batch_A_seed0",
+    "batch_B_shallow_seed0",
+    "batch_B_shallow_seed1",
+    "d0_g0_v1_seed0",
+    "d1_g0_cost_v1",
+    "d1_g0_estimation_v1",
+    "g1_pass8_estimation_v1",
+    "g1_pass8_pilot_v1",
+    "smoke_mcts",
+    "smoke_random"
+  ],
+  "historical_distinct_seeds": 13328,
+  "historical_distinct_streams": 32280,
+  "historical_output_directories": 41,
+  "historical_record_rows_including_duplicate_worktree_copies": 97404,
+  "historical_worktrees": [
+    "winorlose",
+    "winorlose_d0_v1",
+    "winorlose_d1_v1",
+    "winorlose_d1_estimation_v1",
+    "winorlose_g1_pass8_v1",
+    "winorlose_g1_pass8_estimation_v1"
+  ],
+  "limitations": [
+    "Seed hashes establish collision/isolation checks, not statistical independence.",
+    "Four arms deliberately share block seeds and initial color/agent streams; subsequent RNG consumption can diverge.",
+    "Historical copies and deliberate old within-experiment pairing are deduplicated for unique counts.",
+    "This candidate check assumes block_index=identity_index*2+orientation_index; implemented schedule is audited separately."
+  ],
+  "passed": true,
+  "problems": [],
+  "purpose": "Independent prelaunch all-history seed audit, no gameplay or historical writes.",
+  "utc": "2026-10-04T15:46:06.778980+00:00"
+}

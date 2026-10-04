@@ -1,0 +1,80 @@
+{
+  "checker_sha256": "d8e03378266f85740aab49a5eee254c1ad4bb00f2e04d9bb6d366287cbdb208b",
+  "conftest_sha256": "13790739cdc4be41739e73a0d867cfc4294288fb1605fb2ebd6364d9ddc7e4bd",
+  "dynamic_checks": [
+    {
+      "changed_keys": [
+        "code_version"
+      ],
+      "original_hash_guard_still_rejects_tamper": true,
+      "passed": true,
+      "path": "tests/test_g1_pass8_estimation.py",
+      "target": true,
+      "temporary_protocol_only": true
+    },
+    {
+      "changed_keys": [
+        "code_version"
+      ],
+      "original_hash_guard_still_rejects_tamper": true,
+      "passed": true,
+      "path": "experiments/g1_pass8_estimation_v1/independent_review/test_resume20261004_independent_safety.py",
+      "target": true,
+      "temporary_protocol_only": true
+    },
+    {
+      "no_adaptation_or_writes": true,
+      "passed": true,
+      "path": "tests/test_komi_pass_pilot_m6.py",
+      "target": false
+    },
+    {
+      "no_adaptation_or_writes": true,
+      "passed": true,
+      "path": "tests/test_rules.py",
+      "target": false
+    },
+    {
+      "no_adaptation_or_writes": true,
+      "passed": true,
+      "path": "experiments/g1_pass8_estimation_v1/independent_review/not_a_target.py",
+      "target": false
+    }
+  ],
+  "experimental_sample_increment": 0,
+  "limitations": [
+    "This proves byte/AST and adapter behavior preservation, not historical and current engine behavioral equivalence.",
+    "The original assertions must still pass in a focused run and then the complete default suite.",
+    "Initial full-suite failures remain evidence; this adapter does not suppress or skip tests."
+  ],
+  "original_protocol_sha256_after": "cfe65b3f20b6e2cefdf620a27e501333c5798ea0801ee1b8881be2c010ff76fa",
+  "original_protocol_sha256_before": "cfe65b3f20b6e2cefdf620a27e501333c5798ea0801ee1b8881be2c010ff76fa",
+  "original_root_bootstrap_AST_preserved": true,
+  "passed": true,
+  "problems": [],
+  "scope": "Two exact inherited M5 pytest paths; version-only temporary protocol fixture. No test assertions, production source or historical files changed.",
+  "source_fingerprint": "e15c095cf0ed1af8364966380cdcec5df66ecf7c92e19db7d0ac76fd5457f974",
+  "source_lock_unchanged": true,
+  "test_files": [
+    {
+      "AST_identical": true,
+      "assertion_nodes": 39,
+      "bytes_identical": true,
+      "current_sha256": "d3d83d7d7aa1f9d32b3735048b6a1c850d146578947f0a319e937cfe91c879d8",
+      "original_sha256": "d3d83d7d7aa1f9d32b3735048b6a1c850d146578947f0a319e937cfe91c879d8",
+      "path": "tests/test_g1_pass8_estimation.py",
+      "test_definitions": 13
+    },
+    {
+      "AST_identical": true,
+      "assertion_nodes": 17,
+      "bytes_identical": true,
+      "current_sha256": "29d1f777d00d23bbd207406bda65b7c3e2c5375666112a2729888f3cc0249fcf",
+      "original_sha256": "29d1f777d00d23bbd207406bda65b7c3e2c5375666112a2729888f3cc0249fcf",
+      "path": "experiments/g1_pass8_estimation_v1/independent_review/test_resume20261004_independent_safety.py",
+      "test_definitions": 5
+    }
+  ],
+  "test_games_executed_by_this_proof": 0,
+  "utc": "2026-10-04T16:04:26.001470+00:00"
+}

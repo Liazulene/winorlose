@@ -1,0 +1,44 @@
+{
+  "utc": "2026-10-04T16:14:14.490176+00:00",
+  "passed": true,
+  "problems": [],
+  "scope": "Local design, final test, regression and historical-preservation gates; freeze and remote release are separate parent checks.",
+  "pilot_games": 0,
+  "verification_python_file_count": 64,
+  "verification_input_mismatches": [],
+  "default_full_suite": {
+    "passed": 860,
+    "subtests_passed": 76,
+    "seconds": 506.03,
+    "exit_code": 0
+  },
+  "historical_regressions": {
+    "passed": 6,
+    "source_lock_unchanged": true,
+    "sample_increment": 0,
+    "seconds": 102.93649358599941
+  },
+  "production_source_lock_matches": true,
+  "source_fingerprint": "e15c095cf0ed1af8364966380cdcec5df66ecf7c92e19db7d0ac76fd5457f974",
+  "historical_tracked_files_checked": 99589,
+  "inherited_protected_files_checked": 17738,
+  "reviewed_files_still_match": true,
+  "evidence_sha256": {
+    "verified_prelaunch_input_inventory.json": "0a68e75f68966649527f3d9af5fae3a1fa221749e182318cbbd472bcf0b62d12",
+    "prelaunch_full_pytest_verified.txt": "1f7e2689883b5bf36190949b3953f8568bc538fd2488ef9db2a85ecad6894937",
+    "prelaunch_full_pytest_verified.exit.txt": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "historical_six_regression.json": "bde74da42038426c90c7b624aadd2fa3519017d2e4d1343ad12117c2612c49f7",
+    "version_adapter_focused.txt": "5582fc634b44899f11706830fbb274e649bba3dea8596394775300073fb8579f",
+    "independent_review/final_prelaunch_design_v1.json": "6eef63e159623e7ee4c5c69b5d2e53909c604dcea1159e705588d2443358ef20",
+    "independent_review/legacy_version_adapter_proof_v1.json": "f855ba995c6308a05f016eb409d267afbc9da8ec0f00d46970e91ef6db7a42a7",
+    "independent_review/post_test_prelaunch_preservation_v1.json": "77b5f294431d9c2ce39fad569a552a3096e7a512888e0ea43b70e2e2f86e9103"
+  },
+  "remaining_before_first_game": [
+    "Create complete pre_execution_lock tied to final test evidence and all verification inputs.",
+    "Verify remote prelaunch commit/tree contains frozen source, protocol, full plan and technical evidence."
+  ],
+  "failure_history_preserved": [
+    "Initial full suite:830 passed,76 subtests,3failed,27errors from M5 version-only protocol incompatibility.",
+    "Root conftest exact-two-path version adapter passed independent byte/AST/dynamic proof and36 focused tests; no inherited test assertions skipped."
+  ]
+}

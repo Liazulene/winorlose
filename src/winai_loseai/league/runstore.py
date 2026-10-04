@@ -33,6 +33,7 @@ from datetime import datetime, timezone
 from .. import SCHEMA_VERSION, CODE_VERSION
 from ..provenance import current_provenance, source_lock
 from ..spec import AgentSpec
+from ..game.scoring import ruleset_name, validate_komi
 from .storage import prepare_out_dir, read_metadata, _metadata_line
 
 STATUS_RUNNING = "running"
@@ -106,6 +107,8 @@ def job_to_entry(job: dict) -> dict:
         "black": job["black"].to_dict(),
         "white": job["white"].to_dict(),
         **({"pass_min_ply":job["pass_min_ply"]} if "pass_min_ply" in job else {}),
+        **({"komi":validate_komi(job["komi"])} if "komi" in job else {}),
+        **({"ruleset":job["ruleset"]} if "ruleset" in job else {}),
     }
 
 
@@ -117,11 +120,41 @@ def entry_to_job(entry: dict, batch_id: str) -> dict:
         "black": AgentSpec.from_dict(entry["black"]),
         "white": AgentSpec.from_dict(entry["white"]),
         **({"pass_min_ply":entry["pass_min_ply"]} if "pass_min_ply" in entry else {}),
+        **({"komi":validate_komi(entry["komi"])} if "komi" in entry else {}),
+        **({"ruleset":entry["ruleset"]} if "ruleset" in entry else {}),
     }
 
 
 def expected_game_id(batch_id: str, index: int) -> str:
     return f"{batch_id}-g{index:06d}"
+
+
+def _configuration_matches(record, entry, manifest, *, metadata=False):
+    """Check the resolved per-job scoring configuration without mutation."""
+    expected_komi = entry.get("komi", manifest.get("komi"))
+    try:
+        validate_komi(expected_komi)
+        validate_komi(record.get("komi"))
+    except ValueError:
+        return False
+    if (record.get("game_seed") != entry["game_seed"]
+            or record.get("board_size") != manifest.get("board_size")
+            or record.get("komi") != expected_komi
+            or ("pass_min_ply" in entry and
+                (type(record.get("pass_min_ply")) is not int or
+                 record["pass_min_ply"] != entry["pass_min_ply"]))):
+        return False
+    if not metadata and (record.get("black") != entry["black"]
+                         or record.get("white") != entry["white"]):
+        return False
+    if "komi" in entry:
+        # New per-job arms must name the complete scoring/pass definition.
+        expected_ruleset = ruleset_name(entry.get("pass_min_ply", 0), expected_komi)
+        if record.get("ruleset") != expected_ruleset:
+            return False
+    if "ruleset" in entry and record.get("ruleset") != entry["ruleset"]:
+        return False
+    return True
 
 
 # --------------------------------------------------------------------------
@@ -297,7 +330,7 @@ class RunStore:
             "komi": self.cfg.get("komi"),
             "batch_seed": self.cfg.get("batch_seed"),
             "concurrency": self.cfg.get("concurrency"),
-            **{k:self.cfg[k] for k in ("pass_min_plies","budget","schedule_seed") if k in self.cfg},
+            **{k:self.cfg[k] for k in ("pass_min_plies","komis","budget","schedule_seed") if k in self.cfg},
             "completed_game_count": len(self.completed),
             "completed_indexes": sorted(self.completed),
             "created_at": self.created_at,
@@ -352,17 +385,27 @@ class RunStore:
         new_entries = [job_to_entry(j) for j in jobs]
         self._validate_resume(stored_manifest, stored_entries, new_entries, cfg)
         self.provenance = current_provenance()
+        planned = {expected_game_id(cfg["batch_id"], e["index"]): e
+                   for e in stored_entries}
+        def check_configuration(rec, *, metadata=False):
+            entry = planned.get(rec.get("game_id"))
+            if entry is not None and not _configuration_matches(
+                    rec, entry, stored_manifest, metadata=metadata):
+                raise ConfigMismatch(
+                    f"cannot resume: game {entry['index']} configuration differs from plan")
         # Inspect every parseable saved record before ANY repair or mutation.
         candidates, _ = _split_metadata_lines(
             open(self.meta_path, encoding="utf-8").read()
             if os.path.exists(self.meta_path) else "")
         for _, rec in candidates:
             self._check_provenance(rec)
+            check_configuration(rec, metadata=True)
         for name in os.listdir(self.games_dir):
             if name.endswith(".json"):
                 rec = _load_json_safe(os.path.join(self.games_dir, name))
                 if isinstance(rec, dict):
                     self._check_provenance(rec)
+                    check_configuration(rec)
 
         self.cfg = dict(cfg)
         self.batch_id = cfg["batch_id"]
@@ -395,7 +438,7 @@ class RunStore:
             raise ConfigMismatch("stored plan is empty/corrupt; cannot resume")
 
         for field in ("batch_id", "kind", "requested_games",
-                      "batch_seed", "board_size", "komi", "pass_min_plies", "budget", "schedule_seed"):
+                      "batch_seed", "board_size", "komi", "komis", "pass_min_plies", "budget", "schedule_seed"):
             if stored_manifest.get(field) != cfg.get(field):
                 raise ConfigMismatch(
                     f"cannot resume: stored {field}={stored_manifest.get(field)!r} "
@@ -440,6 +483,10 @@ class RunStore:
         self._check_provenance(record)
         gid = record["game_id"]
         index = int(record["game_index"])
+        entry = next((e for e in self.entries if e["index"] == index), None)
+        if (entry is None or gid != expected_game_id(self.batch_id, index)
+                or not _configuration_matches(record, entry, self.cfg)):
+            raise ConfigMismatch(f"cannot write: game {index} configuration differs from plan")
         _write_json_atomic(self.game_path(gid), record)
         if gid not in self._seen_meta:
             with open(self.meta_path, "a", encoding="utf-8") as fh:
@@ -516,12 +563,10 @@ def integrity_problems(out_dir: str):
             for key in ("code_version", "schema_version", "source_fingerprint", "python_version"):
                 if rec.get(key) != manifest.get(key) or meta_by_id[gid].get(key) != manifest.get(key):
                     problems.append(f"game {e['index']} provenance mismatch: {key}")
-            if (rec.get("game_seed") != e["game_seed"] or rec.get("black") != e["black"]
-                    or rec.get("white") != e["white"]
-                    or rec.get("board_size") != manifest.get("board_size")
-                    or rec.get("komi") != manifest.get("komi")
-                    or ("pass_min_ply" in e and rec.get("pass_min_ply") != e["pass_min_ply"])):
+            if not _configuration_matches(rec, e, manifest):
                 problems.append(f"game {e['index']} configuration differs from plan")
+            if not _configuration_matches(meta_by_id[gid], e, manifest, metadata=True):
+                problems.append(f"game {e['index']} metadata configuration differs from plan")
 
     # any extra game files not in the plan?
     games_dir = os.path.join(out_dir, "games")

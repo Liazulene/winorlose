@@ -20,7 +20,7 @@ from __future__ import annotations
 
 from ..identity import black_white_utilities, coerce_identity
 from ..game import state as G
-from ..game.scoring import score_position
+from ..game.scoring import score_position, ruleset_name, validate_komi
 
 
 def _expected_color(player_code: int) -> str:
@@ -31,7 +31,10 @@ def replay_record(record: dict) -> dict:
     """Replay ``record``; return ``{"ok": bool, "problems": [...]}``."""
     problems = []
     size = int(record["board_size"])
-    komi = float(record["komi"])
+    try:
+        komi = validate_komi(record.get("komi"))
+    except ValueError as exc:
+        return {"ok": False, "problems": [str(exc)]}
     schema = record.get("schema_version")
     if type(schema) is not int or schema not in (1, 2):
         return {"ok": False, "problems": ["missing or unsupported schema_version"]}
@@ -44,8 +47,17 @@ def replay_record(record: dict) -> dict:
         return {"ok": False, "problems": [f"invalid rule metadata: {exc}"]}
     if schema == 1 and pass_min_ply != 0:
         return {"ok": False, "problems": ["schema 1 supports G0 / pass_min_ply=0 only"]}
-    if record.get("ruleset", "G0") != state.ruleset:
-        return {"ok": False, "problems": ["ruleset does not match pass_min_ply"]}
+    # Before 0.8, ruleset named only the pass variant. Preserve those saved
+    # meanings (including historical custom-komi records) without relabelling
+    # them. New records identify the complete komi/pass arm. Provenance is
+    # validated independently by the run store, not inferred by this replay.
+    version = record.get("code_version", "")
+    legacy_names = (schema == 1 or not version or (
+        isinstance(version, str) and version.startswith(tuple(
+            f"winai_loseai-0.{minor}." for minor in range(8)))))
+    expected_ruleset = state.ruleset if legacy_names else ruleset_name(pass_min_ply, komi)
+    if record.get("ruleset", "G0") != expected_ruleset:
+        return {"ok": False, "problems": ["ruleset does not match pass_min_ply and komi"]}
     pass_id = G.pass_action(size)
 
     for move in record.get("moves", []):

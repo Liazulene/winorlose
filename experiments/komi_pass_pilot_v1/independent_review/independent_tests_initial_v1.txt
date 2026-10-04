@@ -1,0 +1,61 @@
+........................................................................ [ 57%]
+...........................FFFF.......................                   [100%]
+=================================== FAILURES ===================================
+________________ test_m6_komi_survives_plan_serialization[arm0] ________________
+
+arm = (0, 2.5)
+
+    @pytest.mark.parametrize('arm',ARMS)
+    def test_m6_komi_survives_plan_serialization(arm):
+        job=next(j for j in pilot.jobs(prereg()) if (j['pass_min_ply'],j['komi'])==arm)
+        entry=job_to_entry(job)
+>       assert entry['komi']==arm[1]
+               ^^^^^^^^^^^^^
+E       KeyError: 'komi'
+
+experiments/komi_pass_pilot_v1/independent_review/test_m6_komi_independent_design_v1.py:88: KeyError
+________________ test_m6_komi_survives_plan_serialization[arm1] ________________
+
+arm = (8, 2.5)
+
+    @pytest.mark.parametrize('arm',ARMS)
+    def test_m6_komi_survives_plan_serialization(arm):
+        job=next(j for j in pilot.jobs(prereg()) if (j['pass_min_ply'],j['komi'])==arm)
+        entry=job_to_entry(job)
+>       assert entry['komi']==arm[1]
+               ^^^^^^^^^^^^^
+E       KeyError: 'komi'
+
+experiments/komi_pass_pilot_v1/independent_review/test_m6_komi_independent_design_v1.py:88: KeyError
+________________ test_m6_komi_survives_plan_serialization[arm2] ________________
+
+arm = (0, 0.0)
+
+    @pytest.mark.parametrize('arm',ARMS)
+    def test_m6_komi_survives_plan_serialization(arm):
+        job=next(j for j in pilot.jobs(prereg()) if (j['pass_min_ply'],j['komi'])==arm)
+        entry=job_to_entry(job)
+>       assert entry['komi']==arm[1]
+               ^^^^^^^^^^^^^
+E       KeyError: 'komi'
+
+experiments/komi_pass_pilot_v1/independent_review/test_m6_komi_independent_design_v1.py:88: KeyError
+________________ test_m6_komi_survives_plan_serialization[arm3] ________________
+
+arm = (8, 0.0)
+
+    @pytest.mark.parametrize('arm',ARMS)
+    def test_m6_komi_survives_plan_serialization(arm):
+        job=next(j for j in pilot.jobs(prereg()) if (j['pass_min_ply'],j['komi'])==arm)
+        entry=job_to_entry(job)
+>       assert entry['komi']==arm[1]
+               ^^^^^^^^^^^^^
+E       KeyError: 'komi'
+
+experiments/komi_pass_pilot_v1/independent_review/test_m6_komi_independent_design_v1.py:88: KeyError
+=========================== short test summary info ============================
+FAILED experiments/komi_pass_pilot_v1/independent_review/test_m6_komi_independent_design_v1.py::test_m6_komi_survives_plan_serialization[arm0]
+FAILED experiments/komi_pass_pilot_v1/independent_review/test_m6_komi_independent_design_v1.py::test_m6_komi_survives_plan_serialization[arm1]
+FAILED experiments/komi_pass_pilot_v1/independent_review/test_m6_komi_independent_design_v1.py::test_m6_komi_survives_plan_serialization[arm2]
+FAILED experiments/komi_pass_pilot_v1/independent_review/test_m6_komi_independent_design_v1.py::test_m6_komi_survives_plan_serialization[arm3]
+4 failed, 122 passed in 0.50s

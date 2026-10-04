@@ -1,0 +1,79 @@
+{"game_id": "g1_pass8_estimation_v1-g000000", "batch_seed": 11, "pass_min_ply": 0, "komi": 2.5, "exact_except_excluded": true, "original_sha256": "24fab358bc43d405364e774c1e47bc4fba113c678904bb7c47472c3c0653c8cb", "original_unchanged": true}
+{"game_id": "g1_pass8_estimation_v1-g000005", "batch_seed": 12, "pass_min_ply": 0, "komi": 2.5, "exact_except_excluded": true, "original_sha256": "4c0697aa407f1e2acf39c02309ba6385451f9827eeb4999ab5df164140a0dd50", "original_unchanged": true}
+{"game_id": "g1_pass8_estimation_v1-g000013", "batch_seed": 13, "pass_min_ply": 0, "komi": 2.5, "exact_except_excluded": true, "original_sha256": "8d59f1b48c504d5fdc104d48d67ce7c65fe6250feec56859f0bd15e2632f6a93", "original_unchanged": true}
+{"game_id": "g1_pass8_estimation_v1-g000001", "batch_seed": 11, "pass_min_ply": 8, "komi": 2.5, "exact_except_excluded": true, "original_sha256": "0c81e4c80edacb1e4f031feb83ff1e41d6df49e53e40142cbf5c8188c2e1fc11", "original_unchanged": true}
+{"game_id": "g1_pass8_estimation_v1-g000004", "batch_seed": 12, "pass_min_ply": 8, "komi": 2.5, "exact_except_excluded": true, "original_sha256": "4c13a14c817b5e12b035c7119d4683d27eee226d0616a2e3a6e645ede814e7fd", "original_unchanged": true}
+{"game_id": "g1_pass8_estimation_v1-g000012", "batch_seed": 13, "pass_min_ply": 8, "komi": 2.5, "exact_except_excluded": true, "original_sha256": "b7eeca402f1d16a89034dc79da9b2213a0d70b02b903751f94e3ece0db0b688d", "original_unchanged": true}
+{
+  "mode": "historical",
+  "source": "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/outputs/g1_pass8_estimation_v1",
+  "planned_regenerations": 6,
+  "regenerations": 6,
+  "sample_increment": 0,
+  "excluded_fields": [
+    "code_version",
+    "game_wall_ms",
+    "search_time_ms",
+    "source_fingerprint"
+  ],
+  "checks": [
+    {
+      "game_id": "g1_pass8_estimation_v1-g000000",
+      "batch_seed": 11,
+      "pass_min_ply": 0,
+      "komi": 2.5,
+      "exact_except_excluded": true,
+      "original_sha256": "24fab358bc43d405364e774c1e47bc4fba113c678904bb7c47472c3c0653c8cb",
+      "original_unchanged": true
+    },
+    {
+      "game_id": "g1_pass8_estimation_v1-g000005",
+      "batch_seed": 12,
+      "pass_min_ply": 0,
+      "komi": 2.5,
+      "exact_except_excluded": true,
+      "original_sha256": "4c0697aa407f1e2acf39c02309ba6385451f9827eeb4999ab5df164140a0dd50",
+      "original_unchanged": true
+    },
+    {
+      "game_id": "g1_pass8_estimation_v1-g000013",
+      "batch_seed": 13,
+      "pass_min_ply": 0,
+      "komi": 2.5,
+      "exact_except_excluded": true,
+      "original_sha256": "8d59f1b48c504d5fdc104d48d67ce7c65fe6250feec56859f0bd15e2632f6a93",
+      "original_unchanged": true
+    },
+    {
+      "game_id": "g1_pass8_estimation_v1-g000001",
+      "batch_seed": 11,
+      "pass_min_ply": 8,
+      "komi": 2.5,
+      "exact_except_excluded": true,
+      "original_sha256": "0c81e4c80edacb1e4f031feb83ff1e41d6df49e53e40142cbf5c8188c2e1fc11",
+      "original_unchanged": true
+    },
+    {
+      "game_id": "g1_pass8_estimation_v1-g000004",
+      "batch_seed": 12,
+      "pass_min_ply": 8,
+      "komi": 2.5,
+      "exact_except_excluded": true,
+      "original_sha256": "4c13a14c817b5e12b035c7119d4683d27eee226d0616a2e3a6e645ede814e7fd",
+      "original_unchanged": true
+    },
+    {
+      "game_id": "g1_pass8_estimation_v1-g000012",
+      "batch_seed": 13,
+      "pass_min_ply": 8,
+      "komi": 2.5,
+      "exact_except_excluded": true,
+      "original_sha256": "b7eeca402f1d16a89034dc79da9b2213a0d70b02b903751f94e3ece0db0b688d",
+      "original_unchanged": true
+    }
+  ],
+  "passed": true,
+  "source_lock_unchanged": true,
+  "elapsed_seconds": 102.93649358599941,
+  "completed_utc": "2026-10-04T15:52:35.404442+00:00"
+}

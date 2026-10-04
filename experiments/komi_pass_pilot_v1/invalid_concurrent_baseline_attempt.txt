@@ -1,0 +1,5 @@
+Invalid setup attempt, not a code verification result.
+Started full inherited pytest before M6 engine edits. Concurrent addition of the new experiment driver changed the source inventory while this test process was active, so provenance guards rejected subsequent plays and writes. The process had already ended when cancellation was requested.
+Observed pytest terminal summary: 158 failed, 444 passed, 18 errors, 74 subtests passed in 130.30s (0:02:10).
+Representative cause: RuntimeError: experiment source changed during this process; use a fresh version/directory.
+This is a summary of the tool output, not a complete preserved pytest log. Its large result was tool-truncated. M5 archived validation supplies baseline evidence; a stable-source M6 full suite is required separately.

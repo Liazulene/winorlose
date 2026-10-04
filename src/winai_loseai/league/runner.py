@@ -16,7 +16,7 @@ from ..provenance import current_provenance
 from ..identity import black_white_utilities, coerce_identity
 from ..spec import AgentSpec, DEFAULT_BOARD_SIZE, DEFAULT_KOMI
 from ..game import state as G
-from ..game.scoring import score_position
+from ..game.scoring import score_position, ruleset_name, validate_komi
 from ..rng import make_game_rng
 from .pairing import make_job
 from ..agents.factory import make_agent
@@ -40,12 +40,17 @@ def _one_move_color(player_code: int) -> str:
 
 def play_one(job: dict, board_size: int = DEFAULT_BOARD_SIZE,
              komi: float = DEFAULT_KOMI) -> dict:
-    """Play a game; optional job.pass_min_ply defaults to the G0 value 0.
+    """Play a game; job.komi overrides the legacy batch-wide fallback.
+
+    Optional job.pass_min_ply defaults to the G0 value 0. The resolved komi
+    is passed to both agents (including MCTS terminal nodes/rollouts), final
+    scoring and persisted metadata, rather than changing just the label.
 
     NoLegalActionError propagates unchanged, including faults in MCTS tree
     nodes or rollouts. The caller must abort the experiment, not score it.
     """
     provenance = current_provenance()
+    komi = validate_komi(job.get("komi", komi))
     black_spec = job["black"]
     white_spec = job["white"]
     if not isinstance(black_spec, AgentSpec):
@@ -64,8 +69,9 @@ def play_one(job: dict, board_size: int = DEFAULT_BOARD_SIZE,
 
     state = G.GoState.initial(board_size,
                               pass_min_ply=job.get("pass_min_ply", 0))
-    if "ruleset" in job and job["ruleset"] != state.ruleset:
-        raise ValueError("job ruleset does not match pass_min_ply")
+    ruleset = ruleset_name(state.pass_min_ply, komi)
+    if "ruleset" in job and job["ruleset"] != ruleset:
+        raise ValueError("job ruleset does not match pass_min_ply and komi")
     moves = []
     superko_total = 0
     game_start = _time.perf_counter()
@@ -79,7 +85,7 @@ def play_one(job: dict, board_size: int = DEFAULT_BOARD_SIZE,
         except G.NoLegalActionError as error:
             error.diagnostics['game_context'] = {
                 'game_index': index, 'batch_id': batch_id, 'game_seed': game_seed,
-                'ruleset': state.ruleset, 'pass_min_ply': state.pass_min_ply,
+                'ruleset': ruleset, 'pass_min_ply': state.pass_min_ply, 'komi': komi,
                 'actual_root_ply': state.move_count, 'actual_moves': moves,
                 'attempt_elapsed_ms': (_time.perf_counter()-game_start)*1000.0,
             }
@@ -122,7 +128,7 @@ def play_one(job: dict, board_size: int = DEFAULT_BOARD_SIZE,
         "game_seed": game_seed,
         "board_size": board_size,
         "komi": komi,
-        "ruleset": state.ruleset,
+        "ruleset": ruleset,
         "pass_min_ply": state.pass_min_ply,
         "black_agent_id": black_spec.agent_id,
         "white_agent_id": white_spec.agent_id,
@@ -155,7 +161,8 @@ def run_jobs(jobs, concurrency: int = 1, board_size: int = DEFAULT_BOARD_SIZE,
     """Run all jobs and return records in the same order as ``jobs``.
 
     Sequential and process-pool paths receive the *same* ``board_size`` and
-    ``komi``, so a game is identical regardless of the concurrency setting.
+    ``komi`` fallback. An explicit job.komi overrides it on both paths, so
+    a game is identical regardless of the concurrency setting.
     """
     import os
     from functools import partial

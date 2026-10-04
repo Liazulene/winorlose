@@ -13,11 +13,36 @@ data model keeps a ``draw`` case for future rule changes.
 
 from __future__ import annotations
 
+import math
+
 from .state import EMPTY, BLACK, WHITE, neighbors, index_to_row_col
 
 WINNER_BLACK = "black"
 WINNER_WHITE = "white"
 WINNER_DRAW = "draw"
+
+
+def validate_komi(komi):
+    """Reject ambiguous/non-finite komi without changing a valid value."""
+    if type(komi) not in (int, float) or not math.isfinite(komi):
+        raise ValueError("komi must be a finite non-boolean number")
+    return komi
+
+
+def ruleset_name(pass_min_ply: int, komi: float = 2.5) -> str:
+    """Name the complete scoring/pass variant; the historical G0 is k2.5.
+
+    GoState only needs the pass rule to generate legal moves. Persisted
+    records also distinguish komi, so k0 can never be labelled as G0.
+    """
+    validate_komi(komi)
+    if type(pass_min_ply) is not int or pass_min_ply < 0:
+        raise ValueError("pass_min_ply must be a non-negative non-boolean integer")
+    suffix = f"-pass{pass_min_ply}" if pass_min_ply else ""
+    if komi == 2.5:
+        return f"G1{suffix}" if suffix else "G0"
+    label = "0" if komi == 0 else str(float(komi)).removesuffix(".0")
+    return f"G1-k{label}{suffix}"
 
 
 def empty_regions(board, size: int):
@@ -47,6 +72,7 @@ def empty_regions(board, size: int):
 
 def area_scores(board, size: int, komi: float = 2.5):
     """Return ``(black_score, white_score)`` including komi."""
+    validate_komi(komi)
     black_stones = sum(1 for v in board if v == BLACK)
     white_stones = sum(1 for v in board if v == WHITE)
     black_territory = 0
