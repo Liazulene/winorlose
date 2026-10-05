@@ -1,0 +1,16 @@
+{
+  "utc": "2026-10-05T10:09:49.151334+00:00",
+  "stage": "production monitoring",
+  "chunk": 17,
+  "original_session_id": 57655,
+  "observation": "Unified exec monitoring transport disconnected; recovery timed out. A later read-only reattach returned Unknown process id.",
+  "evidence": [
+    "2026-10-05T10:08:36Z:785 games saved; manifest running; no chunk17 cost yet.",
+    "2026-10-05T10:08:52Z:786 games saved; existing OS output lock held by active writer."
+  ],
+  "resolution": "Do not restart or duplicate the existing launcher/game. Monitor original durable output and cost/validation evidence to its terminal state.",
+  "production_restart": false,
+  "seed_or_sample_change": false,
+  "last_verified_remote_games": 768,
+  "last_verified_remote_commit": "cd6118a238a3db5060f377cbb05e411b7776d470"
+}

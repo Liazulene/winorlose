@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "record_type": "independent_recovery_accounting_review",
+  "created_utc": "2026-10-05T10:20:45.311151+00:00",
+  "decision": "GO for unchanged deterministic recovery with explicit resource-measurement exception; not a claim of complete resource telemetry",
+  "production_attempt": 17,
+  "proposed_next_attempt": 18,
+  "completed_before": 768,
+  "validated_completed_after": 788,
+  "next_checkpoint": 816,
+  "next_new_games": 28,
+  "safe_resume_basis": [
+    "run(out) holds exclusive_output_lock(out) throughout run_locked. The lock file is retained; release does not involve unlinking or replacing the lock inode.",
+    "Frozen production concurrency is one. stream_jobs executes play_one synchronously and creates no worker pool in that branch.",
+    "All play, record validation and persistence occur inside the locked region. After that region exits the old invocation has only CLI reporting/exception unwinding/process teardown; it cannot start another production game.",
+    "Main agent independently acquired the existing lock for strict read-only validation: all788 records passed replay/search and problems=[], rule_fault_present=false. Frozen inputs passed.",
+    "The unchanged measured launcher derives checkpoint_size(788)=48-(788%48)=28, uses a fresh attempt id18 and appends --resume. Resume preflight validates source, protocol, plan, seed mirror, saved prefix and metadata before writes/play.",
+    "No retained game, sample, seed, arm, protocol, production source, runtime, test or frozen file should be changed. Keep the stale running manifest as evidence; only the existing resume implementation may reconcile it."
+  ],
+  "observations": {
+    "attempt17_artifacts": [
+      {
+        "path": "experiments/komi_pass_estimation_v1/cost/chunk_17.launcher_stdout.txt",
+        "size_bytes": 0,
+        "mtime_ns": 1791194576572372864,
+        "mtime_utc": "2026-10-05T10:02:56.572373+00:00",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "experiments/komi_pass_estimation_v1/cost/chunk_17.stderr.txt",
+        "size_bytes": 0,
+        "mtime_ns": 1791194576792387119,
+        "mtime_utc": "2026-10-05T10:02:56.792387+00:00",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "experiments/komi_pass_estimation_v1/cost/chunk_17.stdout.txt",
+        "size_bytes": 1271,
+        "mtime_ns": 1791194950736638004,
+        "mtime_utc": "2026-10-05T10:09:10.736638+00:00",
+        "sha256": "44c560e3d46bbea6eaa9fdfca1fe095bf8f7cbf5e29a18fcd08922b81e779c0f"
+      }
+    ],
+    "original_completion_json_missing": true,
+    "strict_prefix_validation": {
+      "path": "experiments/komi_pass_estimation_v1/runner_review/interrupted_prefix_0788_v1.json",
+      "sha256": "c233712038517d8cf68663c82c5cc1e2687e6b52b64b447b5ebd48d4e6b6ab26",
+      "utc": "2026-10-05T10:17:30.875033+00:00",
+      "exclusive_output_lock_acquired": true,
+      "game_count": 788,
+      "replay_and_search_ok": 788,
+      "problems": [],
+      "manifest_status": "running",
+      "rule_fault_present": false
+    },
+    "first_lock_free_observation": {
+      "unix_seconds": 1791195322.0998068,
+      "utc": "2026-10-05T10:15:22.0998068Z",
+      "source": "Exact timestamp supplied by parent; direct nonblocking fcntl check of the existing lock, not process listing."
+    },
+    "reported_launch_to_lock_free_seconds": 745.5274338
+  },
+  "accounting_assessment": {
+    "recommended_resource_charge_seconds": 900.0,
+    "charge_semantics": "Conservative production-exposure resource-budget allowance for interrupted attempt17; includes the observed launch-to-lock-free window plus154.4725662 seconds margin. It is not measured elapsed time or a proved full-child wait4-duration upper bound.",
+    "exact_child_wall_seconds": null,
+    "cpu_user_seconds": null,
+    "cpu_system_seconds": null,
+    "peak_process_rss_kib": null,
+    "exit_code": null,
+    "exact_started_utc": null,
+    "exact_ended_utc": null,
+    "limits": [
+      "Advisory lock release proves the old invocation is outside the production critical section, not full process termination.",
+      "Exec commands have separate PID namespaces according to parent; process absence in this reviewer namespace is not termination evidence and is not used.",
+      "Filesystem UTC timestamps are observational accounting evidence, not the missing monotonic perf_counter/wait4 record.",
+      "Exact full-child wall/CPU/RSS/exit cannot be reconstructed from stdout, saved game timing or the replacement read-only monitor exit130.",
+      "The900-second charge is a transparent operational accounting exception. Exact compliance in terms of the missing full-child wait4 duration cannot be proven; do not report the gap as exact measured cost."
+    ],
+    "measured_wall_seconds_attempts_01_to_16": 11910.98738393496,
+    "resource_gate_sum_including_charge": 12810.98738393496,
+    "registered_warning_seconds": 13800,
+    "registered_pause_seconds": 20700,
+    "below_warning_and_pause": true
+  },
+  "recommended_accounting_artifact": {
+    "path": "experiments/komi_pass_estimation_v1/cost/chunk_17_interruption_accounting_v1.json",
+    "create_only": true,
+    "reason_for_separate_name": "Preserve visibly absent chunk_17.json and all original attempt17 launcher/stdout/stderr. The unchanged launcher sums chunk_*.json wall_seconds, so this one exceptional row adds the allowance exactly once.",
+    "fields": {
+      "schema_version": 1,
+      "record_type": "interrupted_attempt_resource_accounting",
+      "chunk": 17,
+      "measurement_status": "wait4_completion_record_unavailable",
+      "wall_seconds": 900.0,
+      "wall_seconds_semantics": "conservative_production_exposure_budget_charge_not_exact_or_proven_full_child_wall_upper_bound",
+      "measured_wall_seconds": null,
+      "cpu_user_seconds": null,
+      "cpu_system_seconds": null,
+      "peak_process_rss_kib": null,
+      "exit_code": null,
+      "started_utc": null,
+      "ended_utc": null,
+      "completed_before": 768,
+      "manifest_declared_before": 768,
+      "completed_after": 788,
+      "status_after": "running",
+      "effective_status": "interrupted_writer_lock_released",
+      "planned_checkpoint_games": 816,
+      "launch_window_start_utc": "2026-10-05T10:02:56.572373Z",
+      "lock_free_observed_utc": "2026-10-05T10:15:22.0998068Z",
+      "launch_to_lock_free_seconds": 745.5274338,
+      "measurement_script_sha256": "e2a9818e647ce21b4ee01fbd3b958db88a7d1428b9c17e0229aca55edd0b9e61",
+      "recovery_validation_evidence": "experiments/komi_pass_estimation_v1/runner_review/interrupted_prefix_0788_v1.json",
+      "recovery_validation_sha256": "c233712038517d8cf68663c82c5cc1e2687e6b52b64b447b5ebd48d4e6b6ab26",
+      "review_evidence": "experiments/komi_pass_estimation_v1/runner_review/attempt17_interruption_accounting_review_v1.json",
+      "pre_execution_gate_evidence_scope": "Use the linked post-interruption strict validation gate; do not fabricate a recovered runtime wait4 result.",
+      "output_tree_bytes_after_semantics": "If populated, measure current observed tree and label its observation timestamp, not exact original exit size.",
+      "scope": "Resource accounting supplement only. No scientific data or experimental design change."
+    },
+    "single_count_guard": "Before launch verify exactly one accounting row for each attempt and original chunk_17.json remains absent. If a delayed original measurement later appears, retain both evidentiary artifacts, pause budget/report reconciliation and count attempt17 only once in the authoritative ledger. Never overwrite or silently discard either."
+  },
+  "report_requirements": [
+    "State first production interruption: attempt17 retained20 valid new games768→788; attempt18 resumes28 unchanged pending games to816. The monitor130 exit belongs only to the replacement monitor; production exit is unknown.",
+    "Show attempt17 as interrupted, exact wall/CPU/RSS/exit unavailable, budget charge900 seconds. Show exact measured wall subtotal and separate exceptional charge; label their combined value resource-budget charged time, not total measured child wall.",
+    "Report known CPU subtotal with missing-attempt coverage. Total CPU is unavailable. Known peak RSS is the maximum among observed attempts, not a proven maximum over all production attempts.",
+    "Do not subtract the charged-time sum from total calendar time and present the difference as exact interchunk overhead; such decomposition is unavailable with the gap.",
+    "Keep every full raw technical checkpoint, original stdout/stderr and incident/accounting evidence. Validate and sync816 before any later checkpoint attempt.",
+    "External build_m7_report_v1.py currently rejects null CPU/RSS and assumes exact start/end/elapsed for every row. A separately authorized non-frozen report-builder revision must explicitly parse this exceptional record type, retain strict checks for normal wait4 rows, preserve monotone counts768→788→816, and disclose telemetry coverage. Never fabricate numeric zeros or timestamps to satisfy the old report schema."
+  ],
+  "review_scope": "Read-only source/evidence review. Only this fresh review JSON is created. No game launched, no actual cost supplement written, no production/runtime/test/protocol/frozen file edited.",
+  "source_sha256": {
+    "scripts/measure_komi_pass_estimation_chunk.py": "e2a9818e647ce21b4ee01fbd3b958db88a7d1428b9c17e0229aca55edd0b9e61",
+    "src/winai_loseai/experiments/komi_pass_estimation.py": "52841f5946b6f088a2ab430413025361c582fa71f1e900109b90b491f42cd190",
+    "src/winai_loseai/league/runner.py": "4350a64b25d5bd664b12ea0437fd19d04bd8f4e3bbe4f2a71a734f3a12a9b0ab",
+    "src/winai_loseai/league/runstore.py": "61f758976763eaf1df34f25ff24f1b0e1f5d7f9d41d1ba39a0028e899fe7bd56",
+    "experiments/komi_pass_estimation_v1/pre_execution_lock.json": "b1e166caae94fbb6dfc41c79f4b8a4410da2f2143acd6c7468deb8f383723058",
+    "experiments/komi_pass_estimation_v1/preregistration.json": "f4077bf78bec9cde0d9765886fd2af55aea0e3c104537bd9744cbc0abc6f3dbb"
+  }
+}

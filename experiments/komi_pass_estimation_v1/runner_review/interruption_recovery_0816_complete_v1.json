@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-05T10:32:07.602843+00:00",
+  "passed": true,
+  "problems": [],
+  "retained_game_bytes_unchanged": 788,
+  "resumed_production_games": 28,
+  "sample_increment_from_checks": 0,
+  "fixed_registered_games": 960,
+  "validated_total": 816,
+  "source_and_frozen_gate_passed": true,
+  "original_attempt17_exit_and_wait4_telemetry": "unknown; original chunk_17.json remains absent",
+  "replacement_monitor_exit130": "read-only monitor only, not production",
+  "known_measured_child_wall_seconds": 12449.852227605967,
+  "separate_production_exposure_charge_seconds": 900,
+  "charged_budget_seconds": 13349.852227605967,
+  "recovery_attempt": 18,
+  "accounting_sha256": "497b49145d168b1134395afab1b5bad83342221fcc75d038509e022fd2f7a7bb",
+  "no_seed_or_design_changes": true
+}
