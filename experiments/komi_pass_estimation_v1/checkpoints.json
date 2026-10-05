@@ -5,7 +5,7 @@
   "branch": "experiment/komi-pass-estimation-v1",
   "initial_parent_commit": "c7ce77c4fe581dce25676226140ff5ae6a115b39",
   "branch_created_and_ls_remote_verified_utc": "2026-10-05T02:17:00.389706+00:00",
-  "status": "checkpoint_0336_backup_verified",
+  "status": "checkpoint_0384_backup_verified",
   "verified_checkpoints": [
     {
       "checkpoint_games": 0,
@@ -147,6 +147,25 @@
       "tree": "1937bdcb9e1c49521d1b1186b4aee3fddaa4d6a8",
       "parent": "da7f4ad9258c7d448f55d6b8bde217e451c3d6d4",
       "verification_utc": "2026-10-05T06:48:02.148Z",
+      "files_changed": 57,
+      "unique_blobs": 55,
+      "checks": {
+        "blob_shas": true,
+        "remote_commit_parent_and_tree": true,
+        "remote_ref": true,
+        "remote_tree": true,
+        "ordinary_fetch": true,
+        "fetched_tree_exact": true,
+        "local_head_advanced_compare_and_swap": true,
+        "index_and_working_tree_clean": true
+      }
+    },
+    {
+      "checkpoint_games": 384,
+      "commit": "2af3016a687aefcab6476e2bc301b62dd793e858",
+      "tree": "d226fbd70c2a8abe04b24036bd3528f3aca46f50",
+      "parent": "6c43421fdec543779b02033fdbd35672e4508b95",
+      "verification_utc": "2026-10-05T07:11:47.415Z",
       "files_changed": 57,
       "unique_blobs": 55,
       "checks": {
