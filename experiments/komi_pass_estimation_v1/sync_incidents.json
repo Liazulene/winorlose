@@ -1,0 +1,17 @@
+{
+  "experiment_id": "komi-pass-estimation-v1",
+  "incidents": [
+    {
+      "checkpoint_games": 96,
+      "type": "local_fetch_shell_yield_handling",
+      "remote_writes_completed": true,
+      "remote_writes_retried": false,
+      "commit": "a179bdc394a0e8d288754c22836a1430d7d1b7a5",
+      "observed_utc": "2026-10-05T04:22:44Z",
+      "description": "The ordinary fetch/verification command exceeded the exec tool initial wait and returned an active shell session. The external sync wrapper treated an absent exit code as an error. The same shell continued and completed the fetch and local compare-and-swap. Subsequent read-only verification established local/remote commit, tree, parent, clean index/worktree, and frozen-input integrity.",
+      "resolution": "External wrapper now waits on returned session IDs and stores active shell identity. No frozen source, runtime, tests, experiment plan, game bytes, or remote writes were changed or repeated.",
+      "wrapper_sha256": "b84ad02924f274b1072b7e89ab7f12241aa965f1f4b1e1e1541271e831bf92ef",
+      "verified_utc": "2026-10-05T04:23:51.046Z"
+    }
+  ]
+}

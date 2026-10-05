@@ -5,7 +5,7 @@
   "branch": "experiment/komi-pass-estimation-v1",
   "initial_parent_commit": "c7ce77c4fe581dce25676226140ff5ae6a115b39",
   "branch_created_and_ls_remote_verified_utc": "2026-10-05T02:17:00.389706+00:00",
-  "status": "checkpoint_0048_backup_verified",
+  "status": "checkpoint_0096_backup_verified",
   "verified_checkpoints": [
     {
       "checkpoint_games": 0,
@@ -43,6 +43,26 @@
         "fetched_tree_exact": true,
         "local_head_advanced_compare_and_swap": true,
         "index_and_working_tree_clean": true
+      }
+    },
+    {
+      "checkpoint_games": 96,
+      "commit": "a179bdc394a0e8d288754c22836a1430d7d1b7a5",
+      "tree": "22878ff0e0fbf844c8ff6206a8b288676c0efd02",
+      "parent": "906092b434cf32c4fad34b601faac992f249694b",
+      "verification_utc": "2026-10-05T04:23:51.046Z",
+      "files_changed": 57,
+      "unique_blobs": 55,
+      "checks": {
+        "blob_shas": true,
+        "remote_commit_parent_and_tree": true,
+        "remote_ref": true,
+        "remote_tree": true,
+        "ordinary_fetch": true,
+        "fetched_tree_exact": true,
+        "local_head_advanced_compare_and_swap": true,
+        "index_and_working_tree_clean": true,
+        "post_yield_independent_verification": true
       }
     }
   ],
