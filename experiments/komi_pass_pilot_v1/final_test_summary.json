@@ -1,0 +1,20 @@
+{
+  "command": "PYTHONDONTWRITEBYTECODE=1 ../winorlose_audit_venv/bin/python -m pytest -q -p no:cacheprovider",
+  "exit_code": 0,
+  "started_utc": "2026-10-04T17:13:42.610181+00:00",
+  "completed_utc": "2026-10-04T17:20:56.638535+00:00",
+  "wall_seconds": 434.02682632800133,
+  "passed": 860,
+  "subtests_passed": 76,
+  "pytest_seconds": 432.59,
+  "summary": "860 passed, 76 subtests passed in 432.59s",
+  "log_path": "experiments/komi_pass_pilot_v1/final_full_pytest.txt",
+  "log_sha256": "4aee94fbd1a2b6b83f4a48f26d3734e5a7795f51e56dfa9e726124c9991de418",
+  "prelaunch_passed": 860,
+  "prelaunch_subtests_passed": 76,
+  "matches_prelaunch_counts": true,
+  "regeneration_exit_code": 0,
+  "regeneration_passed": true,
+  "regeneration_count": 12,
+  "sample_increment": 0
+}

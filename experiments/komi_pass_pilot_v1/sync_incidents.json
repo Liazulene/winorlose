@@ -20,6 +20,14 @@
       "recovery_verified_commit": "2fb7e9d627950760eb79221221477e360ae47688",
       "subsequent_guard_hardening": "After verified24 backup, anchor the local pre_execution_lock to verified zero-game commit2a6b66f0; explicitly verify protocol, frozen plan, source-lock file hashes and source file set. Independent comparison found no actual drift at24. All changes are to the new operational wrapper, not frozen files.",
       "hardened_wrapper_sha256": "7fd1f11c44a2567edd07597d533b49a8c24970cbff05161a90b1d00e60ffa9dc"
+    },
+    {
+      "phase": "complete96 raw backup approval wait",
+      "pilot_games": 96,
+      "production_completed_utc": "2026-10-04T17:08:01.981147+00:00",
+      "raw_backup_verified_utc": "2026-10-05T01:48:14.072Z",
+      "result": "The original pending write completed normally after approval. No duplicate write, retry, replacement seed or additional game was performed. Independent audit, twelve regenerations and final tests completed while backup awaited approval.",
+      "timing_scope": "The elapsed final-chunk-to-backup interval includes approval waiting and serialization; it is not game compute time or a measured pure upload duration."
     }
   ]
 }

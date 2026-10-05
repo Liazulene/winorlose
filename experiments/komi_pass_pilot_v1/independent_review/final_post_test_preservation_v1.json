@@ -1,0 +1,58 @@
+{
+  "baseline_path": "/workspace/scratch/50e0c7c6aca1/winorlose_reports/komi_pass_pilot_preservation_v1/before_inventory.json",
+  "baseline_sha256": "90a382be7e8131fd9bd86dc1d90c50b173007cfb3739c0bfa3430ac5159b297c",
+  "check": "check_after",
+  "checker_sha256": "704074820360e9f00b0b601e5ab36c7696f408fba59e3bd96d643b56172433f2",
+  "coverage": [
+    {
+      "file_hash_inventory_sha256": "8012c8d0a5ad7c50fd30fb4d093eb91836daf67e34495789bafffc0a4bb07f75",
+      "kind": "all_old_worktree_tracked_files",
+      "tracked_file_count": 15868,
+      "worktree": "/workspace/scratch/50e0c7c6aca1/winorlose"
+    },
+    {
+      "file_hash_inventory_sha256": "59a01cac57102c2020cbebed47badc3a560e6b2f156092a1003647d2ffff5230",
+      "kind": "all_old_worktree_tracked_files",
+      "tracked_file_count": 15929,
+      "worktree": "/workspace/scratch/50e0c7c6aca1/winorlose_d0_v1"
+    },
+    {
+      "file_hash_inventory_sha256": "80a829d842e7b0a1102d081dd045a8c3743c2ead49e175859e4c2f64ab26cf5f",
+      "kind": "all_old_worktree_tracked_files",
+      "tracked_file_count": 16902,
+      "worktree": "/workspace/scratch/50e0c7c6aca1/winorlose_d1_estimation_v1"
+    },
+    {
+      "file_hash_inventory_sha256": "dda8d1b9ca12efb33f54fa093c82e0e75230e14947c92fe10ac64c0917dc74de",
+      "kind": "all_old_worktree_tracked_files",
+      "tracked_file_count": 16019,
+      "worktree": "/workspace/scratch/50e0c7c6aca1/winorlose_d1_v1"
+    },
+    {
+      "file_hash_inventory_sha256": "4b4db2489ac939355aaf6af341f08c82c9461a3638c91da956cac70c6f31ea4d",
+      "kind": "all_old_worktree_tracked_files",
+      "tracked_file_count": 17817,
+      "worktree": "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1"
+    },
+    {
+      "file_hash_inventory_sha256": "97d5f289c77e5cd5156b6d3c675bc4f1710defdf6bdef4598842b7ac805aa6f2",
+      "kind": "all_old_worktree_tracked_files",
+      "tracked_file_count": 17054,
+      "worktree": "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_v1"
+    },
+    {
+      "file_hash_inventory_sha256": "f644fd569d293e4b58ad92e783a82b6f1853abd8b3e2a627af347ebb519cfeff",
+      "kind": "inherited_historical_directories_and_five_root_docs",
+      "tracked_file_count": 17738,
+      "worktree": "/workspace/scratch/50e0c7c6aca1/winorlose_komi_pass_pilot_v1"
+    }
+  ],
+  "limitations": [
+    "Before/after byte and file-set preservation, not proof that no temporary intermediate write occurred.",
+    "Historical tracked files are hashed as actual bytes; nontracked old files receive file-set checks only.",
+    "No historical validation CLI or experiment execution is called."
+  ],
+  "passed": true,
+  "problems": [],
+  "utc": "2026-10-04T17:31:52.442246+00:00"
+}

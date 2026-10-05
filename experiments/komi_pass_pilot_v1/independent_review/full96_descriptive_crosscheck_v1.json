@@ -1,0 +1,276 @@
+{
+  "utc": "2026-10-04T17:11:08.680963+00:00",
+  "passed": true,
+  "problems": [],
+  "scope": "Stdlib-only independent recomputation of specified descriptive counts and paired length means from96 full raw records; no production analysis imported.",
+  "analysis_sha256": "f64ccf1a7ff85f74c83cf9d1d7b6142066f3b1926dd3a0bb3e4db9a423630088",
+  "raw_games": 96,
+  "four_arm_blocks": 24,
+  "groups": {
+    "G1-k0-pass8": {
+      "LOSE/LOSE": {
+        "n": 6,
+        "black_goals": 1,
+        "white_goals": 4,
+        "joint_goals": 0,
+        "draws": 1,
+        "length_mean": 45,
+        "length_median": 49.0,
+        "exact10": 0,
+        "empty_double_pass": 0
+      },
+      "LOSE/WIN": {
+        "n": 6,
+        "black_goals": 6,
+        "white_goals": 6,
+        "joint_goals": 6,
+        "draws": 0,
+        "length_mean": 19,
+        "length_median": 16.0,
+        "exact10": 1,
+        "empty_double_pass": 0
+      },
+      "WIN/LOSE": {
+        "n": 6,
+        "black_goals": 6,
+        "white_goals": 6,
+        "joint_goals": 6,
+        "draws": 0,
+        "length_mean": 14,
+        "length_median": 13.0,
+        "exact10": 0,
+        "empty_double_pass": 0
+      },
+      "WIN/WIN": {
+        "n": 6,
+        "black_goals": 1,
+        "white_goals": 5,
+        "joint_goals": 0,
+        "draws": 0,
+        "length_mean": 32.166666666666664,
+        "length_median": 29.5,
+        "exact10": 0,
+        "empty_double_pass": 0
+      }
+    },
+    "G0": {
+      "LOSE/LOSE": {
+        "n": 6,
+        "black_goals": 6,
+        "white_goals": 0,
+        "joint_goals": 0,
+        "draws": 0,
+        "length_mean": 32.666666666666664,
+        "length_median": 36.0,
+        "exact10": 0,
+        "empty_double_pass": 0
+      },
+      "LOSE/WIN": {
+        "n": 6,
+        "black_goals": 6,
+        "white_goals": 6,
+        "joint_goals": 6,
+        "draws": 0,
+        "length_mean": 18.333333333333332,
+        "length_median": 16.0,
+        "exact10": 0,
+        "empty_double_pass": 0
+      },
+      "WIN/LOSE": {
+        "n": 6,
+        "black_goals": 6,
+        "white_goals": 6,
+        "joint_goals": 6,
+        "draws": 0,
+        "length_mean": 12.666666666666666,
+        "length_median": 13.0,
+        "exact10": 0,
+        "empty_double_pass": 0
+      },
+      "WIN/WIN": {
+        "n": 6,
+        "black_goals": 4,
+        "white_goals": 2,
+        "joint_goals": 0,
+        "draws": 0,
+        "length_mean": 30,
+        "length_median": 28.5,
+        "exact10": 0,
+        "empty_double_pass": 0
+      }
+    },
+    "G1-pass8": {
+      "LOSE/LOSE": {
+        "n": 6,
+        "black_goals": 6,
+        "white_goals": 0,
+        "joint_goals": 0,
+        "draws": 0,
+        "length_mean": 47.5,
+        "length_median": 50.0,
+        "exact10": 0,
+        "empty_double_pass": 0
+      },
+      "LOSE/WIN": {
+        "n": 6,
+        "black_goals": 6,
+        "white_goals": 6,
+        "joint_goals": 6,
+        "draws": 0,
+        "length_mean": 13.166666666666666,
+        "length_median": 12.0,
+        "exact10": 0,
+        "empty_double_pass": 0
+      },
+      "WIN/LOSE": {
+        "n": 6,
+        "black_goals": 6,
+        "white_goals": 6,
+        "joint_goals": 6,
+        "draws": 0,
+        "length_mean": 22.833333333333332,
+        "length_median": 21.0,
+        "exact10": 0,
+        "empty_double_pass": 0
+      },
+      "WIN/WIN": {
+        "n": 6,
+        "black_goals": 5,
+        "white_goals": 1,
+        "joint_goals": 0,
+        "draws": 0,
+        "length_mean": 27,
+        "length_median": 26.5,
+        "exact10": 0,
+        "empty_double_pass": 0
+      }
+    },
+    "G1-k0": {
+      "LOSE/LOSE": {
+        "n": 6,
+        "black_goals": 3,
+        "white_goals": 2,
+        "joint_goals": 0,
+        "draws": 1,
+        "length_mean": 36.5,
+        "length_median": 40.0,
+        "exact10": 0,
+        "empty_double_pass": 0
+      },
+      "LOSE/WIN": {
+        "n": 6,
+        "black_goals": 6,
+        "white_goals": 6,
+        "joint_goals": 6,
+        "draws": 0,
+        "length_mean": 14.333333333333334,
+        "length_median": 13.0,
+        "exact10": 1,
+        "empty_double_pass": 0
+      },
+      "WIN/LOSE": {
+        "n": 6,
+        "black_goals": 6,
+        "white_goals": 6,
+        "joint_goals": 6,
+        "draws": 0,
+        "length_mean": 10,
+        "length_median": 11.0,
+        "exact10": 0,
+        "empty_double_pass": 0
+      },
+      "WIN/WIN": {
+        "n": 6,
+        "black_goals": 4,
+        "white_goals": 1,
+        "joint_goals": 0,
+        "draws": 1,
+        "length_mean": 25,
+        "length_median": 24.5,
+        "exact10": 0,
+        "empty_double_pass": 0
+      }
+    }
+  },
+  "paired_length_means": {
+    "LOSE/LOSE": {
+      "komi_at_p0": 3.8333333333333335,
+      "komi_at_p8": -2.5,
+      "pass_at_k2p5": 14.833333333333334,
+      "pass_at_k0": 8.5,
+      "interaction": -6.333333333333333
+    },
+    "LOSE/WIN": {
+      "komi_at_p0": -4,
+      "komi_at_p8": 5.833333333333333,
+      "pass_at_k2p5": -5.166666666666667,
+      "pass_at_k0": 4.666666666666667,
+      "interaction": 9.833333333333334
+    },
+    "WIN/LOSE": {
+      "komi_at_p0": -2.6666666666666665,
+      "komi_at_p8": -8.833333333333334,
+      "pass_at_k2p5": 10.166666666666666,
+      "pass_at_k0": 4,
+      "interaction": -6.166666666666667
+    },
+    "WIN/WIN": {
+      "komi_at_p0": -5,
+      "komi_at_p8": 5.166666666666667,
+      "pass_at_k2p5": -3,
+      "pass_at_k0": 7.166666666666667,
+      "interaction": 10.166666666666666
+    }
+  },
+  "exact10_records": [
+    {
+      "game_id": "komi_pass_pilot_v1-g000064",
+      "arm": "G1-k0",
+      "direction": "LOSE/WIN",
+      "black_score": 3.0,
+      "white_score": 4.0,
+      "joint_goal": true,
+      "actions": [
+        4,
+        16,
+        2,
+        11,
+        24,
+        18,
+        25,
+        7,
+        25,
+        25
+      ]
+    },
+    {
+      "game_id": "komi_pass_pilot_v1-g000082",
+      "arm": "G1-k0-pass8",
+      "direction": "LOSE/WIN",
+      "black_score": 4.0,
+      "white_score": 5.0,
+      "joint_goal": true,
+      "actions": [
+        15,
+        19,
+        18,
+        14,
+        3,
+        23,
+        12,
+        20,
+        25,
+        25
+      ]
+    }
+  ],
+  "interpretation_limits": [
+    "Six blocks per identity direction, two per seed; no intervals or mechanism certainty.",
+    "Draws remain in all denominators; LL reduction in black goals also includes white goal successes, not only draws.",
+    "Zero komi does not structurally prevent a successful10-action pass8 LW terminal; g000082 is one observed example.",
+    "No empty double-pass in any arm is an observed zero count, not a structural exclusion for pass0 arms.",
+    "WW pass8 black-goal change5/6to1/6 argues against reporting this as uniquely LL-specific.",
+    "No 7x7, automatic expansion, pooling with pilot or historical data, or effect-size-calibrated formal sample from these observed effects."
+  ],
+  "recommendation": "Separately preregister a fresh-seed fixed full2x2 formal design using ex ante precision and resource targets. Keep LL goals and draws distinct, mixed directions separate, boundary routes explicit, and WW control; first completeM6 acceptance."
+}

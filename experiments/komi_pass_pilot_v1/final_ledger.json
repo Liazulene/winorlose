@@ -1,0 +1,14 @@
+{
+  "experiment_id": "komi-pass-pilot-v1",
+  "state": "completed_fixed96_engineering_cost_pilot",
+  "sample_n": 96,
+  "four_arm_blocks": 24,
+  "design_frozen_commit": "2a6b66f0d42117acd9411e6e27434ff52c846aea",
+  "raw_backup_commit": "fd14684d05308affbd2102a62065b698ba5bb8e7",
+  "validation_passed": true,
+  "independent_audit_passed": true,
+  "final_tests": "860 passed, 76 subtests passed in 432.59s",
+  "7x7": "NO-GO",
+  "next_phase_started": false,
+  "recorded_utc": "2026-10-05T01:51:15.894959+00:00"
+}
