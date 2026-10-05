@@ -1,0 +1,112 @@
+{
+  "audit": "M7 compact preservation v1",
+  "utc": "2026-10-05T03:10:48.630013+00:00",
+  "passed": true,
+  "problems": [],
+  "old_worktrees": [
+    {
+      "worktree": "winorlose",
+      "head": "2a69925ead3ff8543ee109dd71754a9796073d49",
+      "comparison": "actual_sha256_against_immutable_M6_inventory",
+      "tracked_file_count": 15868,
+      "tracked_reference_map_sha256": "8012c8d0a5ad7c50fd30fb4d093eb91836daf67e34495789bafffc0a4bb07f75",
+      "all_non_git_file_count": 15868,
+      "all_non_git_file_set_sha256": "83501eb821ca611c0222f7432bdd5e181b4c2dccfb8aeeed2bb24c0830d19cd8",
+      "changed": []
+    },
+    {
+      "worktree": "winorlose_d0_v1",
+      "head": "d5cbbca637256d123b73f88ed67dced23393a9cc",
+      "comparison": "actual_sha256_against_immutable_M6_inventory",
+      "tracked_file_count": 15929,
+      "tracked_reference_map_sha256": "59a01cac57102c2020cbebed47badc3a560e6b2f156092a1003647d2ffff5230",
+      "all_non_git_file_count": 15929,
+      "all_non_git_file_set_sha256": "d528f47c478142491298083b8bc6448cefaff912a83eac87df535645fcb1e8e3",
+      "changed": []
+    },
+    {
+      "worktree": "winorlose_d1_v1",
+      "head": "f315cfa9cfba8b2b69b456c8d730012cf98f5e2f",
+      "comparison": "actual_sha256_against_immutable_M6_inventory",
+      "tracked_file_count": 16019,
+      "tracked_reference_map_sha256": "dda8d1b9ca12efb33f54fa093c82e0e75230e14947c92fe10ac64c0917dc74de",
+      "all_non_git_file_count": 16020,
+      "all_non_git_file_set_sha256": "7bfc7adf97c6a81aa4621def7d899710ad2f1118ad8b1587dab05f68fdd67bc9",
+      "changed": []
+    },
+    {
+      "worktree": "winorlose_d1_estimation_v1",
+      "head": "c180d059eec5e9f36dfe9fef255275c585edb568",
+      "comparison": "actual_sha256_against_immutable_M6_inventory",
+      "tracked_file_count": 16902,
+      "tracked_reference_map_sha256": "80a829d842e7b0a1102d081dd045a8c3743c2ead49e175859e4c2f64ab26cf5f",
+      "all_non_git_file_count": 16932,
+      "all_non_git_file_set_sha256": "d353d48492e5e2538d36e8afbbe845136dc4624e2f4655fe4d2e9d2896c5975e",
+      "changed": []
+    },
+    {
+      "worktree": "winorlose_g1_pass8_v1",
+      "head": "e28833c388438f33d49dbbde90ae63b6e3a4a0cb",
+      "comparison": "actual_sha256_against_immutable_M6_inventory",
+      "tracked_file_count": 17054,
+      "tracked_reference_map_sha256": "97d5f289c77e5cd5156b6d3c675bc4f1710defdf6bdef4598842b7ac805aa6f2",
+      "all_non_git_file_count": 17057,
+      "all_non_git_file_set_sha256": "da864cf22ad31105ddfee84a31d7c15915393a50929d6b1f5021bf3073b59e3f",
+      "changed": []
+    },
+    {
+      "worktree": "winorlose_g1_pass8_estimation_v1",
+      "head": "23f61f99a3e0ef0374b95c8df41c1e52f7f73ae1",
+      "comparison": "actual_sha256_against_immutable_M6_inventory",
+      "tracked_file_count": 17817,
+      "tracked_reference_map_sha256": "4b4db2489ac939355aaf6af341f08c82c9461a3638c91da956cac70c6f31ea4d",
+      "all_non_git_file_count": 17845,
+      "all_non_git_file_set_sha256": "e902813e8d94abfec232d960a162aa9a6944cf411188feabeb39b199a136583e",
+      "changed": []
+    },
+    {
+      "worktree": "winorlose_komi_pass_pilot_v1",
+      "head": "c7ce77c4fe581dce25676226140ff5ae6a115b39",
+      "comparison": "actual_Git_blob_bytes_against_accepted_M6_commit",
+      "tracked_file_count": 18005,
+      "tracked_reference_map_sha256": "eaccf1cf77449fe9442ee0739ee775e2037ea8a0000ffb0b3a213848ee531986",
+      "all_non_git_file_count": 18005,
+      "all_non_git_file_set_sha256": "29930bd4ecf50a971f65ee1a3283ebee31974f25e3f20f524dc433a539459eb2",
+      "changed": []
+    }
+  ],
+  "new_worktree": {
+    "base_commit": "c7ce77c4fe581dce25676226140ff5ae6a115b39",
+    "inherited_tracked_file_count": 18005,
+    "reference_map_sha256": "eaccf1cf77449fe9442ee0739ee775e2037ea8a0000ffb0b3a213848ee531986",
+    "all_inherited_changes": {
+      "conftest.py": {
+        "base_blob": "6015006ebb9d1cf6bd0865cf41b116053f9e091d",
+        "actual_blob": "958765099340106a11bbdf02b5c9c55d3484fa66"
+      },
+      "src/winai_loseai/__init__.py": {
+        "base_blob": "6cf9ba9cb417742ac8d819a8c84ae2e9a56b8799",
+        "actual_blob": "5ace08f521e683825226942922b5964cac4c5070"
+      }
+    },
+    "allowed_adapter_paths": [
+      "conftest.py",
+      "src/winai_loseai/__init__.py"
+    ],
+    "inherited_strict_file_count": 17912,
+    "inherited_strict_file_set_sha256": "d0a6c3a930b77dd72eed8494c5ad7c2493762eff850284fa8d5e1147556ce5d8"
+  },
+  "reference": {
+    "path": "/workspace/scratch/50e0c7c6aca1/winorlose_reports/komi_pass_pilot_preservation_v1/before_inventory.json",
+    "sha256": "90a382be7e8131fd9bd86dc1d90c50b173007cfb3739c0bfa3430ac5159b297c",
+    "M6_final_check_path": "experiments/komi_pass_pilot_v1/independent_review/final_after_backup_preservation_v1.json",
+    "M6_final_check_sha256": "6bac4eadd6d7689cb5d97d059c781924f3c5343362bd139d03b7d651ec2e1408"
+  },
+  "checker_sha256": "e00f510383ddc9e7f7f3b9ee174e5aac4c1ed96e4115074abb9bf6a7275f2330",
+  "before_report_sha256": "5d689e0fc4bae34c92fcf407bbc9aa48a4c997e75c639b461c5c82ae649b3ab1",
+  "limitations": [
+    "Byte and file-set checks cannot exclude temporary intermediate writes.",
+    "Existing nontracked historical files are covered by file-set preservation, not bytes.",
+    "Only explicitly listed version/conftest adapter files may differ from M6 in the new worktree; their content is reviewed separately."
+  ]
+}

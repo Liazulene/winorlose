@@ -6,9 +6,9 @@ utility.  The MVP deliberately contains no learning: behaviour is produced by
 planning (Random / Vector-MCTS) only.
 """
 
-__version__ = "0.8.0"
+__version__ = "0.9.0"
 
 # Semantic version stamped into every saved record; the independent source
 # fingerprint identifies runtime bytes, separately from the Git commit.
-CODE_VERSION = "winai_loseai-0.8.0-komi-pass-pilot"
+CODE_VERSION = "winai_loseai-0.9.0-komi-pass-estimation"
 SCHEMA_VERSION = 2

@@ -1,0 +1,10 @@
+{
+  "experiment_id": "komi-pass-estimation-v1",
+  "planned_games": 960,
+  "checkpoint_games": 48,
+  "branch": "experiment/komi-pass-estimation-v1",
+  "initial_parent_commit": "c7ce77c4fe581dce25676226140ff5ae6a115b39",
+  "branch_created_and_ls_remote_verified_utc": "2026-10-05T02:17:00.389706+00:00",
+  "status": "prelaunch_tests_and_review",
+  "verified_checkpoints": []
+}

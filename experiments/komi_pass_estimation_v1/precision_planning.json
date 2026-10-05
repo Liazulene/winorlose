@@ -1,0 +1,206 @@
+{
+  "48": {
+    "n_quartets_per_direction": 48,
+    "feasible_discordance_count_combinations": 1225,
+    "marginal_rate_pointwise95": {
+      "maximum_half_full_width": 0.14774836944665626,
+      "maximum_distance_from_estimate": 0.15149423935322404,
+      "all_success_ci": [
+        0.9260272146527196,
+        1.0
+      ],
+      "all_failure_ci": [
+        0.0,
+        0.07397278534728023
+      ]
+    },
+    "pointwise95": {
+      "interval_confidence_level": 0.95,
+      "goal_component_confidence_level": 0.975,
+      "goal_maximum_full_width": 0.6658033319265072,
+      "goal_maximum_distance_from_estimate": 0.34329755595047934,
+      "goal_width_maximizers_nplus_nminus": [
+        [
+          24,
+          24
+        ]
+      ],
+      "goal_all_concordant_ci": [
+        -0.08724905357753672,
+        0.08724905357753672
+      ],
+      "interaction_unclipped_radius": 0.7841002756996853
+    },
+    "joint_family3_95": {
+      "interval_confidence_level": 0.9833333333333333,
+      "goal_component_confidence_level": 0.9916666666666667,
+      "goal_maximum_full_width": 0.7686375375340967,
+      "goal_maximum_distance_from_estimate": 0.399944558576338,
+      "goal_width_maximizers_nplus_nminus": [
+        [
+          24,
+          24
+        ]
+      ],
+      "goal_all_concordant_ci": [
+        -0.10790261608586015,
+        0.10790261608586015
+      ],
+      "interaction_unclipped_radius": 0.8932610427325676
+    },
+    "interpretation": "Resource-fixed coarse estimation, not pilot-effect power. The marginal-rate bound is not a contrast or interaction precision promise; the primary interaction can remain inconclusive. No data-dependent extension."
+  },
+  "54": {
+    "n_quartets_per_direction": 54,
+    "feasible_discordance_count_combinations": 1540,
+    "marginal_rate_pointwise95": {
+      "maximum_half_full_width": 0.13919003161499266,
+      "maximum_distance_from_estimate": 0.14232335979001537,
+      "all_success_ci": [
+        0.9339684857555781,
+        1.0
+      ],
+      "all_failure_ci": [
+        0.0,
+        0.06603151424442183
+      ]
+    },
+    "pointwise95": {
+      "interval_confidence_level": 0.95,
+      "goal_component_confidence_level": 0.975,
+      "goal_maximum_full_width": 0.627970575352643,
+      "goal_maximum_distance_from_estimate": 0.3226046031374598,
+      "goal_width_maximizers_nplus_nminus": [
+        [
+          27,
+          27
+        ]
+      ],
+      "goal_all_concordant_ci": [
+        -0.07794337451385439,
+        0.07794337451385439
+      ],
+      "interaction_unclipped_radius": 0.739256829436652
+    },
+    "joint_family3_95": {
+      "interval_confidence_level": 0.9833333333333333,
+      "goal_component_confidence_level": 0.9916666666666667,
+      "goal_maximum_full_width": 0.7261412550222687,
+      "goal_maximum_distance_from_estimate": 0.37608881908018815,
+      "goal_width_maximizers_nplus_nminus": [
+        [
+          27,
+          27
+        ]
+      ],
+      "goal_all_concordant_ci": [
+        -0.09651277941601114,
+        0.09651277941601114
+      ],
+      "interaction_unclipped_radius": 0.8421745875812865
+    },
+    "interpretation": "Resource-fixed coarse estimation, not pilot-effect power. The marginal-rate bound is not a contrast or interaction precision promise; the primary interaction can remain inconclusive. No data-dependent extension."
+  },
+  "60": {
+    "n_quartets_per_direction": 60,
+    "feasible_discordance_count_combinations": 1891,
+    "marginal_rate_pointwise95": {
+      "maximum_half_full_width": 0.13193796805756308,
+      "maximum_distance_from_estimate": 0.1345945626885724,
+      "all_success_ci": [
+        0.940370507713833,
+        1.0
+      ],
+      "all_failure_ci": [
+        0.0,
+        0.059629492286166916
+      ]
+    },
+    "pointwise95": {
+      "interval_confidence_level": 0.95,
+      "goal_component_confidence_level": 0.975,
+      "goal_maximum_full_width": 0.595823972588579,
+      "goal_maximum_distance_from_estimate": 0.30527588577299797,
+      "goal_width_maximizers_nplus_nminus": [
+        [
+          30,
+          30
+        ]
+      ],
+      "goal_all_concordant_ci": [
+        -0.0704305687985048,
+        0.0704305687985048
+      ],
+      "interaction_unclipped_radius": 0.7013206070563291
+    },
+    "joint_family3_95": {
+      "interval_confidence_level": 0.9833333333333333,
+      "goal_component_confidence_level": 0.9916666666666667,
+      "goal_maximum_full_width": 0.68988516564197,
+      "goal_maximum_distance_from_estimate": 0.3560441111835191,
+      "goal_width_maximizers_nplus_nminus": [
+        [
+          30,
+          30
+        ]
+      ],
+      "goal_all_concordant_ci": [
+        -0.08729629680021657,
+        0.08729629680021657
+      ],
+      "interaction_unclipped_radius": 0.7989569652809462
+    },
+    "interpretation": "Resource-fixed coarse estimation, not pilot-effect power. The marginal-rate bound is not a contrast or interaction precision promise; the primary interaction can remain inconclusive. No data-dependent extension."
+  },
+  "66": {
+    "n_quartets_per_direction": 66,
+    "feasible_discordance_count_combinations": 2278,
+    "marginal_rate_pointwise95": {
+      "maximum_half_full_width": 0.12569283054844502,
+      "maximum_distance_from_estimate": 0.12797252735050263,
+      "all_success_ci": [
+        0.9456411528298779,
+        1.0
+      ],
+      "all_failure_ci": [
+        0.0,
+        0.05435884717012198
+      ]
+    },
+    "pointwise95": {
+      "interval_confidence_level": 0.95,
+      "goal_component_confidence_level": 0.975,
+      "goal_maximum_full_width": 0.568078202894463,
+      "goal_maximum_distance_from_estimate": 0.29039584387978923,
+      "goal_width_maximizers_nplus_nminus": [
+        [
+          33,
+          33
+        ]
+      ],
+      "goal_all_concordant_ci": [
+        -0.06423821953703585,
+        0.06423821953703585
+      ],
+      "interaction_unclipped_radius": 0.6686829618952183
+    },
+    "joint_family3_95": {
+      "interval_confidence_level": 0.9833333333333333,
+      "goal_component_confidence_level": 0.9916666666666667,
+      "goal_maximum_full_width": 0.6584885701542057,
+      "goal_maximum_distance_from_estimate": 0.3388489840506965,
+      "goal_width_maximizers_nplus_nminus": [
+        [
+          33,
+          33
+        ]
+      ],
+      "goal_all_concordant_ci": [
+        -0.07968565107640509,
+        0.07968565107640509
+      ],
+      "interaction_unclipped_radius": 0.7617755768125718
+    },
+    "interpretation": "Resource-fixed coarse estimation, not pilot-effect power. The marginal-rate bound is not a contrast or interaction precision promise; the primary interaction can remain inconclusive. No data-dependent extension."
+  }
+}

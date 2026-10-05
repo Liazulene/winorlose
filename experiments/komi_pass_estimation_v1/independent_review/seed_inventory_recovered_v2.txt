@@ -1,0 +1,68 @@
+{
+  "purpose": "Independent prelaunch all-history seed audit, no gameplay or historical writes.",
+  "utc": "2026-10-05T03:09:50.366379+00:00",
+  "passed": true,
+  "problems": [],
+  "candidate_batch_seeds": [
+    17,
+    18,
+    19
+  ],
+  "candidate_blocks": 240,
+  "candidate_actual_derived_streams": 480,
+  "candidate_conservative_derived_streams": 960,
+  "candidate_seed_sha256": "4883fdc96c54db3441d58a4b3eba722b9eb393965cf8e36568b0f4529582ce34",
+  "candidate_actual_stream_sha256": "006b4e0fa49030ec3c0811db8887f0a540cbf149301eaa6f63036c6ba6fcbdfc",
+  "historical_worktrees": [
+    "winorlose",
+    "winorlose_d0_v1",
+    "winorlose_d1_v1",
+    "winorlose_d1_estimation_v1",
+    "winorlose_g1_pass8_v1",
+    "winorlose_g1_pass8_estimation_v1",
+    "winorlose_komi_pass_pilot_v1"
+  ],
+  "historical_output_directories": 51,
+  "historical_dataset_names": [
+    "batch_A_seed0",
+    "batch_B_shallow_seed0",
+    "batch_B_shallow_seed1",
+    "d0_g0_v1_seed0",
+    "d1_g0_cost_v1",
+    "d1_g0_estimation_v1",
+    "g1_pass8_estimation_v1",
+    "g1_pass8_pilot_v1",
+    "komi_pass_pilot_v1",
+    "smoke_mcts",
+    "smoke_random"
+  ],
+  "historical_batch_seed_labels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "historical_distinct_seeds": 13352,
+  "historical_distinct_streams": 32328,
+  "historical_record_rows_including_duplicate_worktree_copies": 114544,
+  "checker_sha256": "8c56b63eb7ff8ec9efa67eeb03e2f8235e449cb33882b7e77fe424f4f43c41fe",
+  "limitations": [
+    "Seed hashes establish collision/isolation checks, not statistical independence.",
+    "Four arms deliberately share block seeds and initial color/agent streams; subsequent RNG consumption can diverge.",
+    "Historical copies and deliberate old within-experiment pairing are deduplicated for unique counts.",
+    "This candidate check assumes block_index=(identity_index*2+orientation_index)*10+replicate; implemented schedule is audited separately."
+  ]
+}

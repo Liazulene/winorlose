@@ -1,0 +1,7 @@
+{
+  "initial_capture": "preservation_before_v1.json",
+  "verified_capture": "preservation_before_verified_v1.json",
+  "initial_capture_utc": "2026-10-05T02:04:00.433817+00:00",
+  "explanation": "Initial capture found no changed inherited bytes in any old tree or the new tree. Its six file-set failures were checker-only false positives from comparing string-sorted current paths to Path-sorted historical paths. Independent set subtraction found zero additions and zero removals in every affected tree. The comparison was fixed by sorting the immutable reference list; the original report is retained. The verified capture passed all checks, by then observing only the authorized version change in the new tree.",
+  "allowed_adapter_path_clarification": "The inherited pytest adapter is root conftest.py, not nonexistent tests/conftest.py. Subsequent checker runs use the exact root path. Both initial captures had no conftest change."
+}

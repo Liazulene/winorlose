@@ -1,0 +1,236 @@
+{"game_id": "komi_pass_pilot_v1-g000000", "batch_seed": 15, "pass_min_ply": 8, "komi": 0.0, "winner": "black", "move_count": 49, "exact_except_excluded": true, "original_sha256": "c03a0de3d66498137c52d061138a5243bc1beeac91b74ba0854ceeed07643076", "original_unchanged": true}
+{"game_id": "komi_pass_pilot_v1-g000001", "batch_seed": 15, "pass_min_ply": 0, "komi": 2.5, "winner": "white", "move_count": 7, "exact_except_excluded": true, "original_sha256": "bcdba3632117665e389eb273e9ea36a4679f619f598e23f96dc19d710ce1e1b3", "original_unchanged": true}
+{"game_id": "komi_pass_pilot_v1-g000002", "batch_seed": 15, "pass_min_ply": 8, "komi": 2.5, "winner": "white", "move_count": 50, "exact_except_excluded": true, "original_sha256": "48249a596aea6f805998bb5b5f643ac0ff3f96bd5e6222bd389a39f93e1455ba", "original_unchanged": true}
+{"game_id": "komi_pass_pilot_v1-g000003", "batch_seed": 15, "pass_min_ply": 0, "komi": 0.0, "winner": "draw", "move_count": 11, "exact_except_excluded": true, "original_sha256": "4a39693b317d5e2bf2246fa1f3b8189b0c4bfe7e92da07c1031c9a084f3e3c3f", "original_unchanged": true}
+{"game_id": "komi_pass_pilot_v1-g000016", "batch_seed": 14, "pass_min_ply": 0, "komi": 0.0, "winner": "white", "move_count": 52, "exact_except_excluded": true, "original_sha256": "95135aee1f10a50779332fffc8b9d409b0a0e59d19032e479f389512d13bbb91", "original_unchanged": true}
+{"game_id": "komi_pass_pilot_v1-g000017", "batch_seed": 14, "pass_min_ply": 8, "komi": 0.0, "winner": "black", "move_count": 53, "exact_except_excluded": true, "original_sha256": "711415b6a3b8d27aa61cebc142381d1b5c14de81143d5d2205a91ee05d250e4e", "original_unchanged": true}
+{"game_id": "komi_pass_pilot_v1-g000018", "batch_seed": 14, "pass_min_ply": 0, "komi": 2.5, "winner": "white", "move_count": 27, "exact_except_excluded": true, "original_sha256": "e3646b1793f0ef8107645bde5a6176ca1bb682c707b71b4530a1df39a027a21c", "original_unchanged": true}
+{"game_id": "komi_pass_pilot_v1-g000019", "batch_seed": 14, "pass_min_ply": 8, "komi": 2.5, "winner": "white", "move_count": 31, "exact_except_excluded": true, "original_sha256": "c6e084bf85a3bf8c1ef4c9d1176d4cc0e980217fc8ced117c59e44caa45e42c4", "original_unchanged": true}
+{"game_id": "komi_pass_pilot_v1-g000030", "batch_seed": 14, "pass_min_ply": 8, "komi": 0.0, "winner": "draw", "move_count": 21, "exact_except_excluded": true, "original_sha256": "eca6df774216ab7d7bafcdf579be7eea6f1978e8c0af844b8c344b0e89a85725", "original_unchanged": true}
+{"game_id": "komi_pass_pilot_v1-g000032", "batch_seed": 16, "pass_min_ply": 8, "komi": 2.5, "winner": "white", "move_count": 52, "exact_except_excluded": true, "original_sha256": "31f07b8a5968a9f2fd238454af83b6be2543ae9bd55594b0d1fcb5c0007f0eb0", "original_unchanged": true}
+{"game_id": "komi_pass_pilot_v1-g000033", "batch_seed": 16, "pass_min_ply": 0, "komi": 0.0, "winner": "black", "move_count": 49, "exact_except_excluded": true, "original_sha256": "0787918f5369cb7308d18f0a1c655e7bff251c3126ab6da91b66d3db99522788", "original_unchanged": true}
+{"game_id": "komi_pass_pilot_v1-g000034", "batch_seed": 16, "pass_min_ply": 8, "komi": 0.0, "winner": "black", "move_count": 48, "exact_except_excluded": true, "original_sha256": "69d83bea65ac3ee91dba61567b3bb99b6022219fbe5ac4f5fd3a8a91a268ba97", "original_unchanged": true}
+{"game_id": "komi_pass_pilot_v1-g000035", "batch_seed": 16, "pass_min_ply": 0, "komi": 2.5, "winner": "white", "move_count": 50, "exact_except_excluded": true, "original_sha256": "493168a0d3ba06749b5fab07b692ab1ff9ad9f982cc0593c6c271d1c5bcae3e1", "original_unchanged": true}
+{"game_id": "komi_pass_pilot_v1-g000051", "batch_seed": 16, "pass_min_ply": 0, "komi": 0.0, "winner": "draw", "move_count": 27, "exact_except_excluded": true, "original_sha256": "2e745dc64042769f003bfb5749384b4e8672c0a3d47523e07ffda3f342cc406b", "original_unchanged": true}
+{
+  "mode": "historical",
+  "source": "/workspace/scratch/50e0c7c6aca1/winorlose_komi_pass_pilot_v1/outputs/komi_pass_pilot_v1",
+  "planned_regenerations": 14,
+  "regenerations": 14,
+  "sample_increment": 0,
+  "selection_rule": "lowest game index per arm and batch seed, plus all historical observed draws, deduplicated",
+  "selected_game_ids": [
+    "komi_pass_pilot_v1-g000000",
+    "komi_pass_pilot_v1-g000001",
+    "komi_pass_pilot_v1-g000002",
+    "komi_pass_pilot_v1-g000003",
+    "komi_pass_pilot_v1-g000016",
+    "komi_pass_pilot_v1-g000017",
+    "komi_pass_pilot_v1-g000018",
+    "komi_pass_pilot_v1-g000019",
+    "komi_pass_pilot_v1-g000030",
+    "komi_pass_pilot_v1-g000032",
+    "komi_pass_pilot_v1-g000033",
+    "komi_pass_pilot_v1-g000034",
+    "komi_pass_pilot_v1-g000035",
+    "komi_pass_pilot_v1-g000051"
+  ],
+  "excluded_fields": [
+    "code_version",
+    "game_wall_ms",
+    "search_time_ms",
+    "source_fingerprint"
+  ],
+  "checks": [
+    {
+      "game_id": "komi_pass_pilot_v1-g000000",
+      "batch_seed": 15,
+      "pass_min_ply": 8,
+      "komi": 0.0,
+      "winner": "black",
+      "move_count": 49,
+      "exact_except_excluded": true,
+      "original_sha256": "c03a0de3d66498137c52d061138a5243bc1beeac91b74ba0854ceeed07643076",
+      "original_unchanged": true
+    },
+    {
+      "game_id": "komi_pass_pilot_v1-g000001",
+      "batch_seed": 15,
+      "pass_min_ply": 0,
+      "komi": 2.5,
+      "winner": "white",
+      "move_count": 7,
+      "exact_except_excluded": true,
+      "original_sha256": "bcdba3632117665e389eb273e9ea36a4679f619f598e23f96dc19d710ce1e1b3",
+      "original_unchanged": true
+    },
+    {
+      "game_id": "komi_pass_pilot_v1-g000002",
+      "batch_seed": 15,
+      "pass_min_ply": 8,
+      "komi": 2.5,
+      "winner": "white",
+      "move_count": 50,
+      "exact_except_excluded": true,
+      "original_sha256": "48249a596aea6f805998bb5b5f643ac0ff3f96bd5e6222bd389a39f93e1455ba",
+      "original_unchanged": true
+    },
+    {
+      "game_id": "komi_pass_pilot_v1-g000003",
+      "batch_seed": 15,
+      "pass_min_ply": 0,
+      "komi": 0.0,
+      "winner": "draw",
+      "move_count": 11,
+      "exact_except_excluded": true,
+      "original_sha256": "4a39693b317d5e2bf2246fa1f3b8189b0c4bfe7e92da07c1031c9a084f3e3c3f",
+      "original_unchanged": true
+    },
+    {
+      "game_id": "komi_pass_pilot_v1-g000016",
+      "batch_seed": 14,
+      "pass_min_ply": 0,
+      "komi": 0.0,
+      "winner": "white",
+      "move_count": 52,
+      "exact_except_excluded": true,
+      "original_sha256": "95135aee1f10a50779332fffc8b9d409b0a0e59d19032e479f389512d13bbb91",
+      "original_unchanged": true
+    },
+    {
+      "game_id": "komi_pass_pilot_v1-g000017",
+      "batch_seed": 14,
+      "pass_min_ply": 8,
+      "komi": 0.0,
+      "winner": "black",
+      "move_count": 53,
+      "exact_except_excluded": true,
+      "original_sha256": "711415b6a3b8d27aa61cebc142381d1b5c14de81143d5d2205a91ee05d250e4e",
+      "original_unchanged": true
+    },
+    {
+      "game_id": "komi_pass_pilot_v1-g000018",
+      "batch_seed": 14,
+      "pass_min_ply": 0,
+      "komi": 2.5,
+      "winner": "white",
+      "move_count": 27,
+      "exact_except_excluded": true,
+      "original_sha256": "e3646b1793f0ef8107645bde5a6176ca1bb682c707b71b4530a1df39a027a21c",
+      "original_unchanged": true
+    },
+    {
+      "game_id": "komi_pass_pilot_v1-g000019",
+      "batch_seed": 14,
+      "pass_min_ply": 8,
+      "komi": 2.5,
+      "winner": "white",
+      "move_count": 31,
+      "exact_except_excluded": true,
+      "original_sha256": "c6e084bf85a3bf8c1ef4c9d1176d4cc0e980217fc8ced117c59e44caa45e42c4",
+      "original_unchanged": true
+    },
+    {
+      "game_id": "komi_pass_pilot_v1-g000030",
+      "batch_seed": 14,
+      "pass_min_ply": 8,
+      "komi": 0.0,
+      "winner": "draw",
+      "move_count": 21,
+      "exact_except_excluded": true,
+      "original_sha256": "eca6df774216ab7d7bafcdf579be7eea6f1978e8c0af844b8c344b0e89a85725",
+      "original_unchanged": true
+    },
+    {
+      "game_id": "komi_pass_pilot_v1-g000032",
+      "batch_seed": 16,
+      "pass_min_ply": 8,
+      "komi": 2.5,
+      "winner": "white",
+      "move_count": 52,
+      "exact_except_excluded": true,
+      "original_sha256": "31f07b8a5968a9f2fd238454af83b6be2543ae9bd55594b0d1fcb5c0007f0eb0",
+      "original_unchanged": true
+    },
+    {
+      "game_id": "komi_pass_pilot_v1-g000033",
+      "batch_seed": 16,
+      "pass_min_ply": 0,
+      "komi": 0.0,
+      "winner": "black",
+      "move_count": 49,
+      "exact_except_excluded": true,
+      "original_sha256": "0787918f5369cb7308d18f0a1c655e7bff251c3126ab6da91b66d3db99522788",
+      "original_unchanged": true
+    },
+    {
+      "game_id": "komi_pass_pilot_v1-g000034",
+      "batch_seed": 16,
+      "pass_min_ply": 8,
+      "komi": 0.0,
+      "winner": "black",
+      "move_count": 48,
+      "exact_except_excluded": true,
+      "original_sha256": "69d83bea65ac3ee91dba61567b3bb99b6022219fbe5ac4f5fd3a8a91a268ba97",
+      "original_unchanged": true
+    },
+    {
+      "game_id": "komi_pass_pilot_v1-g000035",
+      "batch_seed": 16,
+      "pass_min_ply": 0,
+      "komi": 2.5,
+      "winner": "white",
+      "move_count": 50,
+      "exact_except_excluded": true,
+      "original_sha256": "493168a0d3ba06749b5fab07b692ab1ff9ad9f982cc0593c6c271d1c5bcae3e1",
+      "original_unchanged": true
+    },
+    {
+      "game_id": "komi_pass_pilot_v1-g000051",
+      "batch_seed": 16,
+      "pass_min_ply": 0,
+      "komi": 0.0,
+      "winner": "draw",
+      "move_count": 27,
+      "exact_except_excluded": true,
+      "original_sha256": "2e745dc64042769f003bfb5749384b4e8672c0a3d47523e07ffda3f342cc406b",
+      "original_unchanged": true
+    }
+  ],
+  "passed": true,
+  "source_inputs_sha256": {
+    "analysis.json": "f64ccf1a7ff85f74c83cf9d1d7b6142066f3b1926dd3a0bb3e4db9a423630088",
+    "games/komi_pass_pilot_v1-g000000.json": "c03a0de3d66498137c52d061138a5243bc1beeac91b74ba0854ceeed07643076",
+    "games/komi_pass_pilot_v1-g000001.json": "bcdba3632117665e389eb273e9ea36a4679f619f598e23f96dc19d710ce1e1b3",
+    "games/komi_pass_pilot_v1-g000002.json": "48249a596aea6f805998bb5b5f643ac0ff3f96bd5e6222bd389a39f93e1455ba",
+    "games/komi_pass_pilot_v1-g000003.json": "4a39693b317d5e2bf2246fa1f3b8189b0c4bfe7e92da07c1031c9a084f3e3c3f",
+    "games/komi_pass_pilot_v1-g000016.json": "95135aee1f10a50779332fffc8b9d409b0a0e59d19032e479f389512d13bbb91",
+    "games/komi_pass_pilot_v1-g000017.json": "711415b6a3b8d27aa61cebc142381d1b5c14de81143d5d2205a91ee05d250e4e",
+    "games/komi_pass_pilot_v1-g000018.json": "e3646b1793f0ef8107645bde5a6176ca1bb682c707b71b4530a1df39a027a21c",
+    "games/komi_pass_pilot_v1-g000019.json": "c6e084bf85a3bf8c1ef4c9d1176d4cc0e980217fc8ced117c59e44caa45e42c4",
+    "games/komi_pass_pilot_v1-g000030.json": "eca6df774216ab7d7bafcdf579be7eea6f1978e8c0af844b8c344b0e89a85725",
+    "games/komi_pass_pilot_v1-g000032.json": "31f07b8a5968a9f2fd238454af83b6be2543ae9bd55594b0d1fcb5c0007f0eb0",
+    "games/komi_pass_pilot_v1-g000033.json": "0787918f5369cb7308d18f0a1c655e7bff251c3126ab6da91b66d3db99522788",
+    "games/komi_pass_pilot_v1-g000034.json": "69d83bea65ac3ee91dba61567b3bb99b6022219fbe5ac4f5fd3a8a91a268ba97",
+    "games/komi_pass_pilot_v1-g000035.json": "493168a0d3ba06749b5fab07b692ab1ff9ad9f982cc0593c6c271d1c5bcae3e1",
+    "games/komi_pass_pilot_v1-g000051.json": "2e745dc64042769f003bfb5749384b4e8672c0a3d47523e07ffda3f342cc406b"
+  },
+  "all_inputs_unchanged": true,
+  "source_lock_unchanged": true,
+  "experiment_lock": {
+    "experiment_id": "komi-pass-estimation-v1",
+    "code_version": "winai_loseai-0.9.0-komi-pass-estimation",
+    "schema_version": 2,
+    "source_fingerprint": "b616c4c52aa711ba7b2ee7d1ad1cc9388cd18f3c7854e0d788cb29c5a1cfabe9",
+    "python_version": "3.12.14",
+    "preregistration_sha256": "f4077bf78bec9cde0d9765886fd2af55aea0e3c104537bd9744cbc0abc6f3dbb",
+    "entry_point_sha256": "0b846d3563d696bc33489cc4e45dafdf014f443e3903f4f05bcd6020132a0d93",
+    "measurement_script_sha256": "e2a9818e647ce21b4ee01fbd3b958db88a7d1428b9c17e0229aca55edd0b9e61",
+    "checkpoint_validation_script_sha256": "84ecc2c46c4c81de808f6a409902d5d511abdf8541c124fa353f9748e961ab03",
+    "reproduction_script_sha256": "792a4a479e680b3e1b887c4542f1bb42241c8aa7242ec1330c3aa644327c07fd",
+    "scipy_version": "1.17.0",
+    "numpy_version": "2.3.5"
+  },
+  "elapsed_seconds": 246.6162086580007,
+  "completed_utc": "2026-10-05T02:34:20.977119+00:00"
+}

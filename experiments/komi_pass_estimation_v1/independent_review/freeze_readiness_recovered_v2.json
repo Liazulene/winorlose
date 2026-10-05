@@ -1,0 +1,83 @@
+{
+  "utc": "2026-10-05T03:13:59.613906+00:00",
+  "review": "Recovered independent M7 freeze readiness v2",
+  "passed": true,
+  "problems": [],
+  "formal_games_at_review": 0,
+  "scope": "Prelaunch design, statistical method, retained review tests, seed isolation, history preservation, and runner/checkpoint/audit schema compatibility. This is not a replacement for the parent-owned full default pytest or final post-data independent audit.",
+  "design": {
+    "planned_games": 960,
+    "quartets": 240,
+    "LL_quartets": 60,
+    "fixed_seed_orientation_strata": 6,
+    "replicates_per_stratum": 10,
+    "schedule": "24 arm orders each repeated10, each arm60 at each within-quartet position; every48-game checkpoint12 complete quartets"
+  },
+  "statistics": {
+    "family": [
+      "LL komi0 minus2.5 at pass0",
+      "LL komi0 minus2.5 at pass8",
+      "LL difference-in-differences pass8 minus pass0"
+    ],
+    "family_alpha": 0.05,
+    "component_CP_alpha": 0.008333333333333333,
+    "interaction_support": [
+      -2,
+      2
+    ],
+    "interaction_radius_n60": 0.7989569652809462,
+    "non_iid_justification": "Primary paper Theorem1.12 checked directly: two-sided equal-tail CP at confidence>=.5 covers independent nonidentical Bernoulli average probabilities. Project two discordance component intervals and apply union bound; apply second union bound across three estimands. Within-quartet arm dependence is unrestricted. Independent quartets remain an explicit hypothetical PRNG-stream model, not a consequence of collision-free hashes.",
+    "source": "https://arxiv.org/pdf/1403.0229",
+    "sensitivity": "Six fixed strata; correctly computed Student-t/Satterthwaite variance and df, explicitly approximate and nonconfirmatory; degenerate estimated variance yields no CI.",
+    "selection": "Formal sample, three-member family, primary intervals, and fixed-size stopping are pinned before first game. M6 cost selects balanced resource allocation without using pilot effect estimates. Outcome-selected M6 draw regressions are engineering checks only and add no observations. No efficacy checkpoint analysis, seed replacement, trimming, imputation, or outcome-based extension."
+  },
+  "fresh_focused_tests": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 ../winorlose_audit_venv/bin/python -m pytest -q -p no:cacheprovider tests/test_komi_pass_estimation_stats_m7.py experiments/komi_pass_estimation_v1/independent_audit/test_komi960_independent_audit.py",
+    "summary": "115 passed, 2 subtests passed in70.53s",
+    "exit_code": 0
+  },
+  "retained_M6_regressions": {
+    "passed": true,
+    "checks": 14,
+    "draws": 3,
+    "sample_increment": 0,
+    "experiment_lock_matches_current": true
+  },
+  "source_runtime_protocol_and_test_inventory_matches_before_full_pytest_v3": true,
+  "schema_compatibility": "Inspection and synthetic960 roundtrip confirm freeze provenance, source/plan locks, proof hash maps, manifest games_per_cell/checkpoint_games and completed validation snapshot schema match independent audit. Checkpoint validator invokes frozen-input gate and only accepts48-game boundaries. Sync whitelist rejects inherited/narrative paths and requires verified zero-game anchor after production starts.",
+  "remaining_release_gates": [
+    "Parent full default pytest v3 exit0 and stable before/after input inventory.",
+    "Final preservation check after all tests; create-only aggregate freeze lock including fresh reviews.",
+    "Verify initial remote technical source/plan checkpoint and fetch before first production game."
+  ],
+  "limitations": [
+    "Review does not prove independent PRNG streams or internal MCTS/rollout execution.",
+    "Primary interaction interval may be inconclusive; crossing zero is not absence or equivalence.",
+    "Approximate sensitivity cannot replace/intersect/override primary finite-sample intervals.",
+    "A safety pause is incomplete, and coverage should not be claimed conditional on an uneventful completed run.",
+    "No automatic7x7, training, or next experiment."
+  ],
+  "evidence_sha256": {
+    "experiments/komi_pass_estimation_v1/independent_review/prelaunch_design_recovered_v2.json": "47a446bfa24128e2f478e9163af1e212916060e3b66c15fc792dd9e1f9c90f85",
+    "experiments/komi_pass_estimation_v1/independent_review/seed_inventory_recovered_v2.json": "2b23da1074363101fb74cc4bc2318e5a244d5cbb0e2151a1ff5544aca14e8b8c",
+    "experiments/komi_pass_estimation_v1/independent_review/preservation_recovered_v2.json": "b7ed62f8ac2c2f163a16cc3703d4c3c318484445e870f06358a02dc7e65b8dbe",
+    "experiments/komi_pass_estimation_v1/independent_review/recovered_stats_and_audit_tests_v2.txt": "cd8cfc7980b6e2c53558f6d4a9511eb9836183d7a87d43811496da477d6a349d",
+    "experiments/komi_pass_estimation_v1/independent_review/recovered_stats_and_audit_tests_v2.exit.txt": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "experiments/komi_pass_estimation_v1/runner_review/historical14_regression_v1.json": "6bae8616ac89fc0c325f668564f25adcf622938e555d5dceaf1a72ff9cdc6e25",
+    "experiments/komi_pass_estimation_v1/runner_review/freeze_m7_preexecution.py": "d9becd53de5d69fe5917fc63b4c4af839cb5f525d0ee7e06418eae7214471a45"
+  },
+  "current_experiment_lock": {
+    "experiment_id": "komi-pass-estimation-v1",
+    "code_version": "winai_loseai-0.9.0-komi-pass-estimation",
+    "schema_version": 2,
+    "source_fingerprint": "b616c4c52aa711ba7b2ee7d1ad1cc9388cd18f3c7854e0d788cb29c5a1cfabe9",
+    "python_version": "3.12.14",
+    "preregistration_sha256": "f4077bf78bec9cde0d9765886fd2af55aea0e3c104537bd9744cbc0abc6f3dbb",
+    "entry_point_sha256": "0b846d3563d696bc33489cc4e45dafdf014f443e3903f4f05bcd6020132a0d93",
+    "measurement_script_sha256": "e2a9818e647ce21b4ee01fbd3b958db88a7d1428b9c17e0229aca55edd0b9e61",
+    "checkpoint_validation_script_sha256": "84ecc2c46c4c81de808f6a409902d5d511abdf8541c124fa353f9748e961ab03",
+    "reproduction_script_sha256": "792a4a479e680b3e1b887c4542f1bb42241c8aa7242ec1330c3aa644327c07fd",
+    "scipy_version": "1.17.0",
+    "numpy_version": "2.3.5"
+  }
+}

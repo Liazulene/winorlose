@@ -1,0 +1,172 @@
+{
+  "review_id": "M7 recovered runtime, freeze, backup and independent replay review v1",
+  "utc": "2026-10-05T03:11:41.394961+00:00",
+  "passed": true,
+  "problems": [],
+  "scope": "Independent engineering prelaunch review. This passed result is not a claim that the full default suite, release freeze, prelaunch remote backup, or formal 960-game experiment has completed.",
+  "formal_games_at_review": 0,
+  "sample_increment": 0,
+  "source_fingerprint_at_review": "b616c4c52aa711ba7b2ee7d1ad1cc9388cd18f3c7854e0d788cb29c5a1cfabe9",
+  "experiment_lock": {
+    "experiment_id": "komi-pass-estimation-v1",
+    "code_version": "winai_loseai-0.9.0-komi-pass-estimation",
+    "schema_version": 2,
+    "source_fingerprint": "b616c4c52aa711ba7b2ee7d1ad1cc9388cd18f3c7854e0d788cb29c5a1cfabe9",
+    "python_version": "3.12.14",
+    "preregistration_sha256": "f4077bf78bec9cde0d9765886fd2af55aea0e3c104537bd9744cbc0abc6f3dbb",
+    "entry_point_sha256": "0b846d3563d696bc33489cc4e45dafdf014f443e3903f4f05bcd6020132a0d93",
+    "measurement_script_sha256": "e2a9818e647ce21b4ee01fbd3b958db88a7d1428b9c17e0229aca55edd0b9e61",
+    "checkpoint_validation_script_sha256": "84ecc2c46c4c81de808f6a409902d5d511abdf8541c124fa353f9748e961ab03",
+    "reproduction_script_sha256": "792a4a479e680b3e1b887c4542f1bb42241c8aa7242ec1330c3aa644327c07fd",
+    "scipy_version": "1.17.0",
+    "numpy_version": "2.3.5"
+  },
+  "inventory": {
+    "source_file_count": 36,
+    "test_and_verification_file_count": 76,
+    "runtime_file_count": 6,
+    "matches_full_suite_v3_before": true,
+    "baseline_path": "experiments/komi_pass_estimation_v1/runner_review/prelaunch_inputs_before_v3.json",
+    "baseline_sha256": "0d81708802ecfccb977ac931e98f8a391fb5785279d1908a51bb518a91127481",
+    "python_executable": "/workspace/scratch/50e0c7c6aca1/winorlose_komi_pass_estimation_v1/../winorlose_audit_venv/bin/python"
+  },
+  "fresh_targeted_verification": {
+    "exit_code": 0,
+    "summary": "88 passed, 21 deselected in 72.37s (0:01:12)",
+    "log": "experiments/komi_pass_estimation_v1/runner_review/recovery_targeted_safety_v2.txt",
+    "exit_file": "experiments/komi_pass_estimation_v1/runner_review/recovery_targeted_safety_v2.exit.txt",
+    "coverage": [
+      "Tamper rejection without repair, including type-confused numeric input mutations.",
+      "Narrow trailing/missing metadata recovery and nonretryable rule-fault latch.",
+      "Inherited output/worktree guards, symlink rejection, advisory double-writer exclusion.",
+      "Frozen source/plan/test/review drift rejection, checkpoint boundary arithmetic, invalid concurrency and stop count rejection.",
+      "Whitelist-only technical paths, bounded staged-blob slices, freeze gate before staging, and required zero-game anchor after production begins."
+    ],
+    "excluded_count": 21
+  },
+  "retained_failed_attempt": {
+    "log": "experiments/komi_pass_estimation_v1/runner_review/recovery_targeted_safety_v1.txt",
+    "exit_code": 1,
+    "cause": "Bare default interpreter lacked pytest. No tests or production games ran. Retried once with the previously established audit venv and a fresh evidence path."
+  },
+  "historical14_regression": {
+    "passed": true,
+    "selected_games": 14,
+    "draw_records": 3,
+    "sample_increment": 0,
+    "current_experiment_lock_matches": true,
+    "all_referenced_M6_inputs_still_match": true,
+    "check_exclusions": [
+      "code_version",
+      "game_wall_ms",
+      "search_time_ms",
+      "source_fingerprint"
+    ],
+    "proof": "experiments/komi_pass_estimation_v1/runner_review/historical14_regression_v1.json"
+  },
+  "legacy_version_adapter": {
+    "passed": true,
+    "inherited_test_files_checked": 22,
+    "inherited_test_files_changed": [],
+    "exact_nodes": 2,
+    "non_target_checks": 3,
+    "original_conftest_prefix_unchanged": true,
+    "proof": "experiments/komi_pass_estimation_v1/runner_review/recovery_legacy_version_adapter_v1.json"
+  },
+  "recovered_independent_suite": {
+    "summary": "1043 passed, 2 subtests passed in 93.03s",
+    "exit_code": 0,
+    "current_source_test_runtime_bytes_match_v2_and_v3_inventories": true,
+    "adequacy": "Sufficient as independent implementation and schema coverage when combined with the complete default suite and actual-data final audit. Does not substitute for those gates."
+  },
+  "runtime_review": {
+    "entry": "Multiprocessing entry is __main__ guarded. The measured wrapper runs a separate concurrency-one child and obtains child-specific wait4 wall, CPU and peak RSS evidence.",
+    "frozen_inputs": "Protocol is content-pinned. Create-only preparation and freeze artifacts include the full planned schedule, source lock, source/runtime/test inventories, full-suite logs/exit, historical regeneration and review hashes. Measured launcher, checkpoint validator and packager recheck the gate.",
+    "resume": "Read-only preflight checks lock, provenance, source, agents, exact typed plan, seed mirror, contiguous prefix, every saved game, metadata order and completed analysis before narrow repairs. Existing nonempty fresh directories are refused; there is no M7 --overwrite flag.",
+    "persistence": "Inherited atomic per-game JSON and flush-once JSONL are retained. Advisory directory lock prevents concurrent writers. NoLegalActionError retains fault context and permanently blocks resume in the frozen version.",
+    "checkpoints": "Wrapper counts disk game files rather than stale manifest progress and stops at the next global multiple of 48. Validator requires an exact validated prefix and interrupted/completed status. Intermediate inference is not computed.",
+    "backup": "Packager has a technical-file whitelist, rejects unrelated modifications/staging, symlinks, deletion/type changes and nonregular modes, and uses bounded staged-blob reads. Post-launch packaging requires a verified zero-game anchor and exact frozen plan/protocol/source/lock matches. It performs no remote mutation itself."
+  },
+  "independent_audit_review": {
+    "imports": [
+      "argparse",
+      "collections",
+      "functools",
+      "hashlib",
+      "itertools",
+      "json",
+      "math",
+      "pathlib",
+      "random",
+      "scipy.stats",
+      "sys"
+    ],
+    "production_engine_or_analysis_imports": false,
+    "coverage": [
+      "Full exact960/fixed240 schedule, pair/seed/orientation/order balance, source/runtime/test/proof inventories and complete metadata mirror.",
+      "Independent actual-action capture/suicide/situational-superko/pass legality, terminal precedence, area scoring, draws, identity utilities and full stored-root legal sets.",
+      "Root visits, selected maximum visits, Q null/bounds/vector relations and superko counts.",
+      "Independent descriptive analysis and finite-sample numerical inference; partial samples and changed analyses fail closed.",
+      "Create-only evidence targets restricted to M7 independent_audit; no repairs or output overwrite."
+    ],
+    "limitations": [
+      "Replay and stored-root checks do not prove every internal MCTS node, rollout, UCT decision, numerical Q value or RNG step. Exact regeneration supplies separate determinism evidence.",
+      "Optional approximate Student-t quantile shares SciPy; variance and degrees of freedom are independently recomputed.",
+      "Historical byte preservation and remote backup require their separate checks."
+    ]
+  },
+  "operational_requirements": [
+    "Use scripts/measure_komi_pass_estimation_chunk.py for every production child. Direct run CLI does not itself enforce the frozen gate or aggregate resource ceiling.",
+    "Keep exactly one measured launcher active; confirm no orphan child remains after an interrupted launcher before retrying with a new attempt ID.",
+    "If a launcher dies before cost JSON is saved, do not let missing cost silently reset cumulative resource accounting: diagnose/recover elapsed cost or conservatively pause.",
+    "Validate, back up and verify the remote commit/tree plus ordinary fetch before moving past each 48-game checkpoint. The launcher does not perform or attest that orchestration.",
+    "Stop on any rule, integrity, source, permission, persistent recovery, or resource fault under the registered policy."
+  ],
+  "remaining_release_gates": [
+    "Full default pytest v3 must finish with an explicit passing summary and exit0; v2 is interrupted evidence, not success.",
+    "Capture after-test source/runtime/test inventory identical to before and perform current preservation/seed/design reviews.",
+    "Create pre_execution_lock.json once, using full-suite pass and independent reviews, and verify it.",
+    "Publish and independently verify a zero-game remote technical checkpoint before first production game."
+  ],
+  "remaining_completion_gates": [
+    "Complete the fixed960 sample without outcome-driven stopping or sample replacement; otherwise explicitly report incomplete safety pause.",
+    "Full strict saved-record validation, complete independent actual-data audit, final 12-game deterministic regeneration, final test/preservation checks and verified final remote backup."
+  ],
+  "durability_limits": [
+    "Advisory lock and atomic rename/flush do not provide power-failure fsync durability.",
+    "Hash locks attest consistency, not malicious coordinated-tamper resistance or external timestamps."
+  ],
+  "reviewed_file_sha256": {
+    "conftest.py": "505f82c1248fa0e4936d87ef4c474e3d8e009b8be8200a8a1fa8cbb11d55728f",
+    "experiments/komi_pass_estimation_v1/frozen_plan.json": "abb1cfbe5e7e775614b43cef8b1696964db971872d537a4e10cf1b9dde41fd7b",
+    "experiments/komi_pass_estimation_v1/independent_audit/USAGE.txt": "a4bb51ce5f9541aafbfa9201aab5b1d9dbdda4fc9a737eba21905990c1774c4b",
+    "experiments/komi_pass_estimation_v1/independent_audit/komi960_independent_audit.py": "4495392cd6042c3b6bf14a857cbb7ffb6ea5e9c5380fee80d877f7f1489fe83c",
+    "experiments/komi_pass_estimation_v1/independent_audit/test_komi960_independent_audit.py": "4d28ced2402387e18f3b8ce0735a55add3717049aa5698ea39248308868a8aca",
+    "experiments/komi_pass_estimation_v1/independent_review/final_freeze_schema_compatibility_v1.txt": "d6c539ce713b71805bd4fddd9f1ce2c75def12ce2c84652afe4fc0933b5d5b85",
+    "experiments/komi_pass_estimation_v1/independent_review/final_runner_schema_compatibility_v1.txt": "b6705fcf746fbed0a1823feea9d1f7a07c692dc85d551d65703fd3fd6a53fcc4",
+    "experiments/komi_pass_estimation_v1/independent_review/independent_final_tests_v1.exit.txt": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "experiments/komi_pass_estimation_v1/independent_review/independent_final_tests_v1.txt": "a5a81c42b1724663f0ddaf090df9183dd3d0ffc93246d3e43bf30190b8c13699",
+    "experiments/komi_pass_estimation_v1/packaging_review/test_m7_sync_whitelist.py": "4a75dfb82949dcbe4ce56ab6f98fcf88de7eaa680ddeb86961bd83059f45ac6d",
+    "experiments/komi_pass_estimation_v1/pre_execution_source_lock.json": "16c0a9194618f5314bd849cf0c0c0b9071ac1da9c6a265ba8630fc55613e85b8",
+    "experiments/komi_pass_estimation_v1/preregistration.json": "f4077bf78bec9cde0d9765886fd2af55aea0e3c104537bd9744cbc0abc6f3dbb",
+    "experiments/komi_pass_estimation_v1/runner_review/freeze_m7_preexecution.py": "d9becd53de5d69fe5917fc63b4c4af839cb5f525d0ee7e06418eae7214471a45",
+    "experiments/komi_pass_estimation_v1/runner_review/historical14_regression_v1.exit.txt": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "experiments/komi_pass_estimation_v1/runner_review/historical14_regression_v1.json": "6bae8616ac89fc0c325f668564f25adcf622938e555d5dceaf1a72ff9cdc6e25",
+    "experiments/komi_pass_estimation_v1/runner_review/recovery_legacy_version_adapter_v1.exit.txt": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "experiments/komi_pass_estimation_v1/runner_review/recovery_legacy_version_adapter_v1.json": "e1cc17475d728afed4395f5fb72073aadb9102a5786382a1698a2287a1d2b11c",
+    "experiments/komi_pass_estimation_v1/runner_review/recovery_targeted_safety_v2.exit.txt": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "experiments/komi_pass_estimation_v1/runner_review/recovery_targeted_safety_v2.txt": "57662fc521910da3053b70ac6f072c999ee3ec1b129532904c536edc8f48140a",
+    "scripts/measure_komi_pass_estimation_chunk.py": "e2a9818e647ce21b4ee01fbd3b958db88a7d1428b9c17e0229aca55edd0b9e61",
+    "scripts/prepare_komi_pass_estimation_sync.py": "bc423b6a2a3d8aefa6e29b09616bb8f0ce340b08547039cacb42f15c3a743b15",
+    "scripts/run_komi_pass_estimation.py": "0b846d3563d696bc33489cc4e45dafdf014f443e3903f4f05bcd6020132a0d93",
+    "scripts/validate_komi_estimation_checkpoint.py": "84ecc2c46c4c81de808f6a409902d5d511abdf8541c124fa353f9748e961ab03",
+    "scripts/verify_komi_pass_estimation_reproduction.py": "792a4a479e680b3e1b887c4542f1bb42241c8aa7242ec1330c3aa644327c07fd",
+    "src/winai_loseai/experiments/komi_pass_estimation.py": "52841f5946b6f088a2ab430413025361c582fa71f1e900109b90b491f42cd190",
+    "src/winai_loseai/league/runner.py": "4350a64b25d5bd664b12ea0437fd19d04bd8f4e3bbe4f2a71a734f3a12a9b0ab",
+    "src/winai_loseai/league/runstore.py": "61f758976763eaf1df34f25ff24f1b0e1f5d7f9d41d1ba39a0028e899fe7bd56",
+    "src/winai_loseai/provenance.py": "33a4370d981b646148ab2a3e36853e5ca896749229f0730abc50c11ab2d4fdad",
+    "tests/test_komi_pass_estimation_m7.py": "35f24b98579fa69f81f2788561e03217639b10a4fc655e6b016e97a3af0d31b0",
+    "tests/test_komi_pass_estimation_stats_m7.py": "0ff989679d8f45de08cfecfed270b0387ac23a824f600f092a31eb6a1f1e91fb"
+  },
+  "mutations": "Only fresh JSON/TXT review logs and reports in this M7 runner_review directory. No production source, tests, protocol, inherited evidence, Git index or remote state changed."
+}

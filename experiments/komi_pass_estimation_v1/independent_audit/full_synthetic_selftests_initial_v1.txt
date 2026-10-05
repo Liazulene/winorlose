@@ -1,0 +1,33 @@
+................................F.......F....                          [100%]
+=================================== FAILURES ===================================
+_______ Komi960Integration.test_full_synthetic960_roundtrip_and_readonly _______
+
+self = <test_komi960_independent_audit.Komi960Integration testMethod=test_full_synthetic960_roundtrip_and_readonly>
+
+    def test_full_synthetic960_roundtrip_and_readonly(self):
+        with tempfile.TemporaryDirectory() as d:
+            root=Path(d);out,rows=build_fixture(root)
+            before={p.relative_to(root):audit.digest(p) for p in root.rglob('*') if p.is_file()}
+            report,result=audit.audit(root,out)
+>           self.assertTrue(report['passed'],report['problems'])
+E           AssertionError: False is not true : ['manifest.planned_game_count: 9600 != exact integer 960', 'manifest.completed_game_count: 9600 != exact integer 960']
+
+experiments/komi_pass_estimation_v1/independent_audit/test_komi960_independent_audit.py:252: AssertionError
+____________ Komi960Integration.test_saved_analysis_contrast_tamper ____________
+
+self = <test_komi960_independent_audit.Komi960Integration testMethod=test_saved_analysis_contrast_tamper>
+
+    def test_saved_analysis_contrast_tamper(self):
+        with tempfile.TemporaryDirectory() as d:
+            root=Path(d);out,_=build_fixture(root);doc=audit.read(out/'analysis.json')
+            doc['paired_differences'][0]['contrasts']['interaction']['draw']=1
+            put(out/'analysis.json',doc);report,_=audit.audit(root,out)
+>           self.assertFalse(report['passed']);self.assertTrue(any('interaction.draw' in e for e in report['problems']))
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E           AssertionError: False is not true
+
+experiments/komi_pass_estimation_v1/independent_audit/test_komi960_independent_audit.py:289: AssertionError
+=========================== short test summary info ============================
+FAILED experiments/komi_pass_estimation_v1/independent_audit/test_komi960_independent_audit.py::Komi960Integration::test_full_synthetic960_roundtrip_and_readonly
+FAILED experiments/komi_pass_estimation_v1/independent_audit/test_komi960_independent_audit.py::Komi960Integration::test_saved_analysis_contrast_tamper
+2 failed, 43 passed, 2 subtests passed in 71.33s (0:01:11)

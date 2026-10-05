@@ -1,0 +1,59 @@
+{
+  "checker_sha256": "764289404df028da8c4521a5194f49f064095101835127a3b7e6588119b31a03",
+  "exact_nodes": [
+    {
+      "changed_constant_indices": [
+        10
+      ],
+      "co_code_sha256": "c74bd113333fe6ab3dc6ff108056b52c7d401ad7d8d69575b9972a28d5a660bf",
+      "golden_sha256": "bb7b6a6476b1e92682ffe610f2c1f0dcf14b882bd4c044331c3f8811ceb539a2",
+      "new_constant": "winai_loseai-0.9.0-komi-pass-estimation",
+      "nodeid": "tests/test_g1_pass8_rules.py::test_g0_default_and_explicit_reproduce_legacy_golden[random]",
+      "old_constant": "winai_loseai-0.8.0-komi-pass-pilot",
+      "other_code_attributes_changed": [],
+      "runtime_record_version": "winai_loseai-0.9.0-komi-pass-estimation",
+      "unchanged_golden_assertions_passed": true
+    },
+    {
+      "changed_constant_indices": [
+        10
+      ],
+      "co_code_sha256": "c74bd113333fe6ab3dc6ff108056b52c7d401ad7d8d69575b9972a28d5a660bf",
+      "golden_sha256": "83534320aaa3b7b59fa0d8fb333ad3346b343b4c2db797f085178c15f82ab657",
+      "new_constant": "winai_loseai-0.9.0-komi-pass-estimation",
+      "nodeid": "tests/test_g1_pass8_rules.py::test_g0_default_and_explicit_reproduce_legacy_golden[vector_mcts]",
+      "old_constant": "winai_loseai-0.8.0-komi-pass-pilot",
+      "other_code_attributes_changed": [],
+      "runtime_record_version": "winai_loseai-0.9.0-komi-pass-estimation",
+      "unchanged_golden_assertions_passed": true
+    }
+  ],
+  "inherited_test_files_changed": [],
+  "inherited_test_files_checked": 22,
+  "legacy_test_sha256": "2b61433ea4b3386c186c973f74b6f5769f3c5c4c5bf4f47cf215bf9f2f903305",
+  "new_conftest_sha256": "505f82c1248fa0e4936d87ef4c474e3d8e009b8be8200a8a1fa8cbb11d55728f",
+  "non_target_checks": [
+    {
+      "nodeid": "tests/test_g1_pass8_rules.py::different_function[random]",
+      "path": "tests/test_g1_pass8_rules.py",
+      "unchanged": true
+    },
+    {
+      "nodeid": "tests/test_g1_pass8_rules.py::test_g0_default_and_explicit_reproduce_legacy_golden[different]",
+      "path": "tests/test_g1_pass8_rules.py",
+      "unchanged": true
+    },
+    {
+      "nodeid": "tests/test_g1_pass8_rules.py::test_g0_default_and_explicit_reproduce_legacy_golden[random]",
+      "path": "tests/not_target.py",
+      "unchanged": true
+    }
+  ],
+  "original_conftest_prefix_unchanged": true,
+  "passed": true,
+  "problems": [],
+  "restoration": "Exact original function code object restored after each target and non-target context.",
+  "sample_increment": 0,
+  "scope": "Only one expected version literal changes; no skips, xfails, runtime-output mutation, test-file disk edits, assertion removal or gameplay/golden changes. A separate focused pytest log covers pytest assertion-rewritten execution.",
+  "utc": "2026-10-05T02:32:52.838595+00:00"
+}

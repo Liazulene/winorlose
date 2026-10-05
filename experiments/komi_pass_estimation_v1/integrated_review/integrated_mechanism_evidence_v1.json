@@ -1,0 +1,5091 @@
+{
+  "review_id": "m7_integrated_mechanism_pre_results_v1",
+  "created_utc": "2026-10-05T02:08:52.919039+00:00",
+  "status": "pre_M7_results_review_not_a_final_M7_verdict",
+  "scope": {
+    "all_nine_handoff_materials_read_in_full": true,
+    "all_requested_external_reports_read_in_full": true,
+    "new_experiment_or_replay_run": false,
+    "production_changes": false,
+    "inherited_files_modified": false,
+    "publication_performed": false,
+    "basis": "Local authoritative documents and saved machine artifacts. Existing source URLs copied from milestone reports, not freshly checked through GitHub."
+  },
+  "required_reading": [
+    {
+      "local_path": "/workspace/scratch/50e0c7c6aca1/winorlose/handoff/00_START_HERE.md",
+      "sha256": "8906bba964fb62d8b0dc5c11fed2e8db11407a5dcc4eba252fe162586d2da975",
+      "bytes": 4036
+    },
+    {
+      "local_path": "/workspace/scratch/50e0c7c6aca1/winorlose/handoff/01_CURRENT_STATE.md",
+      "sha256": "618007498b1cdb8d4310ea42e0ac95c429408e44f4842ce5eb918b9d7ede6e80",
+      "bytes": 10051
+    },
+    {
+      "local_path": "/workspace/scratch/50e0c7c6aca1/winorlose/handoff/02_NEXT_PHASE_DECISION_FRAMEWORK.md",
+      "sha256": "b916810e5a81056a7820ab4f3c8d07b0804d273d1f5b96a06730317557c687f8",
+      "bytes": 8163
+    },
+    {
+      "local_path": "/workspace/scratch/50e0c7c6aca1/winorlose/handoff/03_DOT_GOAL.md",
+      "sha256": "3a51c0a13c27b850224a2a76ff7b2fc344773de8d30347a1626f22a7851bf0d1",
+      "bytes": 5769
+    },
+    {
+      "local_path": "/workspace/scratch/50e0c7c6aca1/winorlose/5x5_mvp_spec.md",
+      "sha256": "cd7821c989bbbdb779853e46f164fa36fa992ec63c91c740003fd1ba26c20cc1",
+      "bytes": 10162
+    },
+    {
+      "local_path": "/workspace/scratch/50e0c7c6aca1/winorlose/winai_loseai_go_experiment_notes_v2.md",
+      "sha256": "182b3e77d4c3a9bbafd72762f69fab5d1d2b030012b622e7bb02a7db52cac055",
+      "bytes": 16810
+    },
+    {
+      "local_path": "/workspace/scratch/50e0c7c6aca1/winorlose/AMBIGUITIES.md",
+      "sha256": "30b64cc46ef063c6b5fafcc6340f66779118ec9d0472d89967757e52c221a789",
+      "bytes": 5118
+    },
+    {
+      "local_path": "/workspace/scratch/50e0c7c6aca1/winorlose/reports/5x5_planning_phase_report.md",
+      "sha256": "cd7a73ffc352ba0361283aa3eba48bc2afc0ee25caad5da13b33c75ef590d0d9",
+      "bytes": 39326
+    },
+    {
+      "local_path": "/workspace/scratch/50e0c7c6aca1/winorlose/README.md",
+      "sha256": "f210dd8cebf00b60700fcb41b97abe36732cb699b63ced1380aebfaa6bba99ac",
+      "bytes": 16731
+    }
+  ],
+  "report_sources": {
+    "M1": {
+      "local_path": "/workspace/scratch/50e0c7c6aca1/winorlose_reports/WinAI_LoseAI_D0解析基线_里程碑M1_v1.md",
+      "sha256": "3f4789842eb3fe9e3ac4b8e5d23dc2346b407d0977fc0273e6b3204fead8f625",
+      "bytes": 14057,
+      "section_line_index": [
+        {
+          "line": 1,
+          "heading": "# WinAI LoseAI D0解析基线结果与下一步决策"
+        },
+        {
+          "line": 8,
+          "heading": "## 本阶段回答了什么"
+        },
+        {
+          "line": 16,
+          "heading": "## 预注册与版本隔离"
+        },
+        {
+          "line": 34,
+          "heading": "## 策略定义与实验规模"
+        },
+        {
+          "line": 46,
+          "heading": "## 完整九格结果"
+        },
+        {
+          "line": 70,
+          "heading": "## 盘面结果与身份目标"
+        },
+        {
+          "line": 83,
+          "heading": "## 解析结论及更强的终局界限"
+        },
+        {
+          "line": 95,
+          "heading": "## 验证与恢复"
+        },
+        {
+          "line": 113,
+          "heading": "## 成本与同步问题"
+        },
+        {
+          "line": 124,
+          "heading": "## 下一阶段选择及原因"
+        },
+        {
+          "line": 136,
+          "heading": "## 复现入口与证据"
+        }
+      ]
+    },
+    "M3": {
+      "local_path": "/workspace/scratch/50e0c7c6aca1/winorlose_reports/WinAI_LoseAI_D1固定720局预算估计_里程碑M3_v1.md",
+      "sha256": "76bcef080342935ffa90a25a549972fe5dc0d3febe02c4eb0de9d7405a82c879",
+      "bytes": 29577,
+      "section_line_index": [
+        {
+          "line": 1,
+          "heading": "# WinAI / LoseAI：固定720局 G0预算估计与下一步机制选择"
+        },
+        {
+          "line": 4,
+          "heading": "## 结论先行"
+        },
+        {
+          "line": 12,
+          "heading": "## 设计、来源与配对"
+        },
+        {
+          "line": 21,
+          "heading": "## 主路线比例及配对预算差"
+        },
+        {
+          "line": 53,
+          "heading": "### 每个seed都保留"
+        },
+        {
+          "line": 89,
+          "heading": "## 盘面、目标、长度与尾部"
+        },
+        {
+          "line": 121,
+          "heading": "### mixed−same及短局敏感性"
+        },
+        {
+          "line": 149,
+          "heading": "## pass、落子/丢子与前缀"
+        },
+        {
+          "line": 191,
+          "heading": "## 代表局与异常范围"
+        },
+        {
+          "line": 210,
+          "heading": "## 统计方法与解释边界"
+        },
+        {
+          "line": 215,
+          "heading": "## 验证、保护与两处口径说明"
+        },
+        {
+          "line": 226,
+          "heading": "## 成本、等待与恢复"
+        },
+        {
+          "line": 238,
+          "heading": "## 下一步：保持7×7 NO-GO，优先G1-pass8单因素探针"
+        },
+        {
+          "line": 244,
+          "heading": "## 复现与证据索引"
+        },
+        {
+          "line": 258,
+          "heading": "# NEW必须不存在或为空；下面只展示第一批与恢复入口"
+        }
+      ]
+    },
+    "M4": {
+      "local_path": "/workspace/scratch/50e0c7c6aca1/winorlose_reports/WinAI_LoseAI_G1pass8工程与成本先导_里程碑M4_v1.md",
+      "sha256": "24cc99eefcbe2114b7aefb98f0f36f1299b04c47e5f75eff7f774eb74653fcc4",
+      "bytes": 50251,
+      "section_line_index": [
+        {
+          "line": 1,
+          "heading": "# WinAI / LoseAI G1 pass8 工程与成本先导里程碑 M4"
+        },
+        {
+          "line": 4,
+          "heading": "## 结论先行"
+        },
+        {
+          "line": 16,
+          "heading": "## 为什么先做这个探针"
+        },
+        {
+          "line": 21,
+          "heading": "## 固定设计和样本边界"
+        },
+        {
+          "line": 32,
+          "heading": "### 规则和实现边界"
+        },
+        {
+          "line": 40,
+          "heading": "### 源码与注册冻结"
+        },
+        {
+          "line": 51,
+          "heading": "## 盘面结果与完整长度分布"
+        },
+        {
+          "line": 91,
+          "heading": "### 每个新seed的四方向均长"
+        },
+        {
+          "line": 114,
+          "heading": "## 配对规则差"
+        },
+        {
+          "line": 143,
+          "heading": "### mixed与same只作补充描述"
+        },
+        {
+          "line": 153,
+          "heading": "## pass时点 机会分母与落子丢子"
+        },
+        {
+          "line": 169,
+          "heading": "### 第一次pass是否被下一手接受"
+        },
+        {
+          "line": 185,
+          "heading": "## 简单路线与前缀"
+        },
+        {
+          "line": 201,
+          "heading": "### 原始前缀与END补齐前缀"
+        },
+        {
+          "line": 217,
+          "heading": "## 按冻结规则选出的代表棋局"
+        },
+        {
+          "line": 247,
+          "heading": "### 全部预定异常与需读案例"
+        },
+        {
+          "line": 259,
+          "heading": "## 成本与运行过程"
+        },
+        {
+          "line": 262,
+          "heading": "### 每规则的棋局和搜索成本"
+        },
+        {
+          "line": 272,
+          "heading": "### 六个预定8局块的实测记录"
+        },
+        {
+          "line": 285,
+          "heading": "### 日历时间和同步间隔"
+        },
+        {
+          "line": 302,
+          "heading": "### 资源上限与恢复语义"
+        },
+        {
+          "line": 305,
+          "heading": "## 工程验证与独立审计"
+        },
+        {
+          "line": 323,
+          "heading": "### 保留原始验证快照的时间语义"
+        },
+        {
+          "line": 336,
+          "heading": "## 下一里程碑的建议与停止边界"
+        },
+        {
+          "line": 345,
+          "heading": "## 证据和复核命令索引"
+        },
+        {
+          "line": 400,
+          "heading": "### 只读或隔离复核入口"
+        },
+        {
+          "line": 404,
+          "heading": "# 全量保存记录回放及搜索校验；stdout另存，不覆盖原始validation.json"
+        },
+        {
+          "line": 408,
+          "heading": "# 完整测试，禁用pytest缓存写入"
+        },
+        {
+          "line": 411,
+          "heading": "# 独立stdlib审计，新report/recomputed路径必须尚不存在且在生产输出外"
+        },
+        {
+          "line": 417,
+          "heading": "# 生产时使用的块度量形式，仅为记录；本轮已完成，不再次执行"
+        },
+        {
+          "line": 418,
+          "heading": "# \"$PY\" scripts/measure_g1_pass8_chunk.py --out outputs/g1_pass8_pilot_v1 \\"
+        },
+        {
+          "line": 419,
+          "heading": "#   --evidence experiments/g1_pass8_v1/cost --chunk N"
+        },
+        {
+          "line": 424,
+          "heading": "## 附录 全部24对的描述性差"
+        }
+      ]
+    },
+    "M5": {
+      "local_path": "/workspace/scratch/50e0c7c6aca1/winorlose_reports/WinAI_LoseAI_G1pass8正式估计_里程碑M5_v1.md",
+      "sha256": "ece227f30519ed0f9af68aa088ec5cb2771e103e39e30a5713688d485d5edc9f",
+      "bytes": 64169,
+      "section_line_index": [
+        {
+          "line": 1,
+          "heading": "# WinAI LoseAI G1 pass8 正式估计里程碑 M5"
+        },
+        {
+          "line": 5,
+          "heading": "## 结论与下一步决策"
+        },
+        {
+          "line": 26,
+          "heading": "## 本轮要回答的问题"
+        },
+        {
+          "line": 34,
+          "heading": "## 固定设计与来源冻结"
+        },
+        {
+          "line": 36,
+          "heading": "### 样本与配对"
+        },
+        {
+          "line": 57,
+          "heading": "### 规则与执行边界"
+        },
+        {
+          "line": 65,
+          "heading": "### 锁定版本"
+        },
+        {
+          "line": 82,
+          "heading": "## 估计对象和区间应怎样读"
+        },
+        {
+          "line": 84,
+          "heading": "### 配对目标差"
+        },
+        {
+          "line": 90,
+          "heading": "### 配对长度差和extra口径"
+        },
+        {
+          "line": 96,
+          "heading": "### 八个pooled终点的联合家族"
+        },
+        {
+          "line": 104,
+          "heading": "### 统计模型与可推广范围"
+        },
+        {
+          "line": 110,
+          "heading": "## 盘面赢家与身份目标"
+        },
+        {
+          "line": 127,
+          "heading": "### 三个seed的目标分层"
+        },
+        {
+          "line": 160,
+          "heading": "## 配对规则差与三个seed"
+        },
+        {
+          "line": 162,
+          "heading": "### 目标差与不一致配对"
+        },
+        {
+          "line": 175,
+          "heading": "### 原始长度配对差"
+        },
+        {
+          "line": 188,
+          "heading": "### extra只平移参考下界"
+        },
+        {
+          "line": 199,
+          "heading": "### seed内配对结果"
+        },
+        {
+          "line": 220,
+          "heading": "### mixed与same的补充等权描述"
+        },
+        {
+          "line": 237,
+          "heading": "## 长度分布 尾部与早期终局"
+        },
+        {
+          "line": 241,
+          "heading": "### 每规则与方向的完整分位数"
+        },
+        {
+          "line": 258,
+          "heading": "### 每seed的长度分布"
+        },
+        {
+          "line": 289,
+          "heading": "### 早期终局和尾部计数"
+        },
+        {
+          "line": 304,
+          "heading": "### 早期与尾部的seed分层"
+        },
+        {
+          "line": 335,
+          "heading": "## pass事件 落子与被提子"
+        },
+        {
+          "line": 369,
+          "heading": "## 简单路线与前缀"
+        },
+        {
+          "line": 401,
+          "heading": "## 按冻结规则选择的代表棋局"
+        },
+        {
+          "line": 432,
+          "heading": "### 预定代表中的三个可核对细节"
+        },
+        {
+          "line": 442,
+          "heading": "## 成本 执行时间与备份日历"
+        },
+        {
+          "line": 512,
+          "heading": "## 验证结果和证据边界"
+        },
+        {
+          "line": 542,
+          "heading": "## 限制与下一机制判断"
+        },
+        {
+          "line": 551,
+          "heading": "### 下一项优先隔离komi并检验与pass的交互"
+        },
+        {
+          "line": 565,
+          "heading": "## 证据与只读或隔离复核入口"
+        },
+        {
+          "line": 567,
+          "heading": "### 首局前冻结与方法"
+        },
+        {
+          "line": 573,
+          "heading": "### 完整原始样本与结果"
+        },
+        {
+          "line": 577,
+          "heading": "### 独立审计 再生成与保全"
+        },
+        {
+          "line": 583,
+          "heading": "### 成本 日历与异常处理"
+        },
+        {
+          "line": 588,
+          "heading": "### 最终测试与补充计分"
+        },
+        {
+          "line": 603,
+          "heading": "# 完整样本的独立只读审计；只在全新隔离结果路径写审计输出"
+        }
+      ]
+    },
+    "M6": {
+      "local_path": "/workspace/scratch/50e0c7c6aca1/winorlose_reports/WinAI_LoseAI_贴目与pass先导_里程碑M6_v1.md",
+      "sha256": "b5f25f178105d111bbe55b358195bf39a0ba887c6915e5d2c7de966303ece621",
+      "bytes": 33928,
+      "section_line_index": [
+        {
+          "line": 1,
+          "heading": "# WinAI LoseAI 贴目与pass先导里程碑M6"
+        },
+        {
+          "line": 5,
+          "heading": "## 结论与下一步决策"
+        },
+        {
+          "line": 15,
+          "heading": "## 为什么先做贴目与pass四格"
+        },
+        {
+          "line": 21,
+          "heading": "## 固定设计与规则语义"
+        },
+        {
+          "line": 42,
+          "heading": "## 首局前冻结与验证"
+        },
+        {
+          "line": 58,
+          "heading": "## 盘面赢家与身份目标"
+        },
+        {
+          "line": 81,
+          "heading": "### 三个seed分层"
+        },
+        {
+          "line": 136,
+          "heading": "## 四臂配对差"
+        },
+        {
+          "line": 165,
+          "heading": "## 长度分布与终局"
+        },
+        {
+          "line": 188,
+          "heading": "## pass事件与路线"
+        },
+        {
+          "line": 232,
+          "heading": "## 前缀与预定代表"
+        },
+        {
+          "line": 310,
+          "heading": "## 成本与备份"
+        },
+        {
+          "line": 340,
+          "heading": "## 最终验收与异常透明记录"
+        },
+        {
+          "line": 361,
+          "heading": "### 一个仍存在的最早终局实例"
+        },
+        {
+          "line": 365,
+          "heading": "## 限制与后续判断"
+        },
+        {
+          "line": 371,
+          "heading": "## 复核入口"
+        }
+      ]
+    }
+  },
+  "evidence": {
+    "M3": {
+      "local_path": "/workspace/scratch/50e0c7c6aca1/winorlose_d1_estimation_v1/outputs/d1_g0_estimation_v1/analysis.json",
+      "sha256": "87ccc46a987918742a27a6249646b59bb36c6eacc0bc40c1bb8e2880f169bd00",
+      "bytes": 6310333,
+      "source_url": "https://github.com/Liazulene/winorlose/blob/c180d059eec5e9f36dfe9fef255275c585edb568/outputs/d1_g0_estimation_v1/analysis.json",
+      "n_records": 720,
+      "conditions": {
+        "64": {
+          "WIN/WIN": {
+            "n": 60,
+            "black_board_wins": 30,
+            "white_board_wins": 30,
+            "black_goals": 30,
+            "white_goals": 30,
+            "joint_goals": 0,
+            "length": {
+              "n": 60,
+              "mean": 29.35,
+              "min": 3,
+              "q1": 25.75,
+              "median": 28.5,
+              "q3": 37.25,
+              "p90": 41.1,
+              "p95": 44.05,
+              "max": 57
+            },
+            "length2": 0,
+            "length3": 2,
+            "length_le8": 4,
+            "length_ge60": 0,
+            "empty_double_pass": 0,
+            "black_one_stone_double_pass": 2,
+            "black_realized_all_pass": 0,
+            "termination": {
+              "double_pass": 60
+            },
+            "pass_proposal_acceptance": {
+              "black_proposer_favorable_True": {
+                "opportunities": 28,
+                "accepted": 9
+              },
+              "black_proposer_favorable_False": {
+                "opportunities": 32,
+                "accepted": 20
+              },
+              "white_proposer_favorable_True": {
+                "opportunities": 42,
+                "accepted": 10
+              },
+              "white_proposer_favorable_False": {
+                "opportunities": 34,
+                "accepted": 21
+              }
+            }
+          },
+          "LOSE/LOSE": {
+            "n": 60,
+            "black_board_wins": 3,
+            "white_board_wins": 57,
+            "black_goals": 57,
+            "white_goals": 3,
+            "joint_goals": 0,
+            "length": {
+              "n": 60,
+              "mean": 24.5,
+              "min": 5,
+              "q1": 13.0,
+              "median": 20.0,
+              "q3": 37.5,
+              "p90": 50.0,
+              "p95": 51.05,
+              "max": 53
+            },
+            "length2": 0,
+            "length3": 0,
+            "length_le8": 3,
+            "length_ge60": 0,
+            "empty_double_pass": 0,
+            "black_one_stone_double_pass": 0,
+            "black_realized_all_pass": 0,
+            "termination": {
+              "double_pass": 60
+            },
+            "pass_proposal_acceptance": {
+              "black_proposer_favorable_True": {
+                "opportunities": 150,
+                "accepted": 7
+              },
+              "black_proposer_favorable_False": {
+                "opportunities": 1,
+                "accepted": 1
+              },
+              "white_proposer_favorable_True": {
+                "opportunities": 24,
+                "accepted": 2
+              },
+              "white_proposer_favorable_False": {
+                "opportunities": 55,
+                "accepted": 50
+              }
+            }
+          },
+          "WIN/LOSE": {
+            "n": 60,
+            "black_board_wins": 60,
+            "white_board_wins": 0,
+            "black_goals": 60,
+            "white_goals": 60,
+            "joint_goals": 60,
+            "length": {
+              "n": 60,
+              "mean": 23.383333333333333,
+              "min": 3,
+              "q1": 18.5,
+              "median": 25.5,
+              "q3": 32.0,
+              "p90": 34.0,
+              "p95": 37.05,
+              "max": 40
+            },
+            "length2": 0,
+            "length3": 7,
+            "length_le8": 7,
+            "length_ge60": 0,
+            "empty_double_pass": 0,
+            "black_one_stone_double_pass": 7,
+            "black_realized_all_pass": 0,
+            "termination": {
+              "double_pass": 60
+            },
+            "pass_proposal_acceptance": {
+              "black_proposer_favorable_True": {
+                "opportunities": 26,
+                "accepted": 19
+              },
+              "black_proposer_favorable_False": {
+                "opportunities": 8,
+                "accepted": 0
+              },
+              "white_proposer_favorable_True": {
+                "opportunities": 74,
+                "accepted": 41
+              },
+              "white_proposer_favorable_False": {
+                "opportunities": 30,
+                "accepted": 0
+              }
+            }
+          },
+          "LOSE/WIN": {
+            "n": 60,
+            "black_board_wins": 0,
+            "white_board_wins": 60,
+            "black_goals": 60,
+            "white_goals": 60,
+            "joint_goals": 60,
+            "length": {
+              "n": 60,
+              "mean": 19.716666666666665,
+              "min": 4,
+              "q1": 12.0,
+              "median": 20.0,
+              "q3": 27.0,
+              "p90": 30.1,
+              "p95": 32.05,
+              "max": 39
+            },
+            "length2": 0,
+            "length3": 0,
+            "length_le8": 8,
+            "length_ge60": 0,
+            "empty_double_pass": 0,
+            "black_one_stone_double_pass": 0,
+            "black_realized_all_pass": 0,
+            "termination": {
+              "double_pass": 60
+            },
+            "pass_proposal_acceptance": {
+              "black_proposer_favorable_True": {
+                "opportunities": 71,
+                "accepted": 31
+              },
+              "black_proposer_favorable_False": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "white_proposer_favorable_True": {
+                "opportunities": 37,
+                "accepted": 29
+              },
+              "white_proposer_favorable_False": {
+                "opportunities": 1,
+                "accepted": 0
+              }
+            }
+          }
+        },
+        "256": {
+          "WIN/WIN": {
+            "n": 60,
+            "black_board_wins": 32,
+            "white_board_wins": 28,
+            "black_goals": 32,
+            "white_goals": 28,
+            "joint_goals": 0,
+            "length": {
+              "n": 60,
+              "mean": 30.75,
+              "min": 2,
+              "q1": 27.0,
+              "median": 30.5,
+              "q3": 35.0,
+              "p90": 40.0,
+              "p95": 43.0,
+              "max": 45
+            },
+            "length2": 1,
+            "length3": 0,
+            "length_le8": 2,
+            "length_ge60": 0,
+            "empty_double_pass": 1,
+            "black_one_stone_double_pass": 0,
+            "black_realized_all_pass": 1,
+            "termination": {
+              "double_pass": 60
+            },
+            "pass_proposal_acceptance": {
+              "black_proposer_favorable_True": {
+                "opportunities": 25,
+                "accepted": 13
+              },
+              "black_proposer_favorable_False": {
+                "opportunities": 17,
+                "accepted": 16
+              },
+              "white_proposer_favorable_True": {
+                "opportunities": 58,
+                "accepted": 12
+              },
+              "white_proposer_favorable_False": {
+                "opportunities": 22,
+                "accepted": 19
+              }
+            }
+          },
+          "LOSE/LOSE": {
+            "n": 60,
+            "black_board_wins": 2,
+            "white_board_wins": 58,
+            "black_goals": 58,
+            "white_goals": 2,
+            "joint_goals": 0,
+            "length": {
+              "n": 60,
+              "mean": 28.483333333333334,
+              "min": 5,
+              "q1": 9.0,
+              "median": 22.0,
+              "q3": 50.0,
+              "p90": 52.1,
+              "p95": 56.0,
+              "max": 58
+            },
+            "length2": 0,
+            "length3": 0,
+            "length_le8": 14,
+            "length_ge60": 0,
+            "empty_double_pass": 0,
+            "black_one_stone_double_pass": 0,
+            "black_realized_all_pass": 0,
+            "termination": {
+              "double_pass": 60
+            },
+            "pass_proposal_acceptance": {
+              "black_proposer_favorable_True": {
+                "opportunities": 289,
+                "accepted": 18
+              },
+              "black_proposer_favorable_False": {
+                "opportunities": 1,
+                "accepted": 1
+              },
+              "white_proposer_favorable_True": {
+                "opportunities": 26,
+                "accepted": 1
+              },
+              "white_proposer_favorable_False": {
+                "opportunities": 40,
+                "accepted": 40
+              }
+            }
+          },
+          "WIN/LOSE": {
+            "n": 60,
+            "black_board_wins": 60,
+            "white_board_wins": 0,
+            "black_goals": 60,
+            "white_goals": 60,
+            "joint_goals": 60,
+            "length": {
+              "n": 60,
+              "mean": 17.55,
+              "min": 3,
+              "q1": 15.0,
+              "median": 18.5,
+              "q3": 23.25,
+              "p90": 26.1,
+              "p95": 29.099999999999994,
+              "max": 33
+            },
+            "length2": 0,
+            "length3": 9,
+            "length_le8": 9,
+            "length_ge60": 0,
+            "empty_double_pass": 0,
+            "black_one_stone_double_pass": 9,
+            "black_realized_all_pass": 0,
+            "termination": {
+              "double_pass": 60
+            },
+            "pass_proposal_acceptance": {
+              "black_proposer_favorable_True": {
+                "opportunities": 11,
+                "accepted": 11
+              },
+              "black_proposer_favorable_False": {
+                "opportunities": 2,
+                "accepted": 0
+              },
+              "white_proposer_favorable_True": {
+                "opportunities": 55,
+                "accepted": 49
+              },
+              "white_proposer_favorable_False": {
+                "opportunities": 33,
+                "accepted": 0
+              }
+            }
+          },
+          "LOSE/WIN": {
+            "n": 60,
+            "black_board_wins": 0,
+            "white_board_wins": 60,
+            "black_goals": 60,
+            "white_goals": 60,
+            "joint_goals": 60,
+            "length": {
+              "n": 60,
+              "mean": 11.183333333333334,
+              "min": 2,
+              "q1": 4.0,
+              "median": 11.0,
+              "q3": 16.0,
+              "p90": 22.200000000000003,
+              "p95": 24.049999999999997,
+              "max": 26
+            },
+            "length2": 9,
+            "length3": 0,
+            "length_le8": 26,
+            "length_ge60": 0,
+            "empty_double_pass": 9,
+            "black_one_stone_double_pass": 0,
+            "black_realized_all_pass": 9,
+            "termination": {
+              "double_pass": 60
+            },
+            "pass_proposal_acceptance": {
+              "black_proposer_favorable_True": {
+                "opportunities": 61,
+                "accepted": 57
+              },
+              "black_proposer_favorable_False": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "white_proposer_favorable_True": {
+                "opportunities": 3,
+                "accepted": 3
+              },
+              "white_proposer_favorable_False": {
+                "opportunities": 1,
+                "accepted": 0
+              }
+            }
+          }
+        },
+        "1024": {
+          "WIN/WIN": {
+            "n": 60,
+            "black_board_wins": 31,
+            "white_board_wins": 29,
+            "black_goals": 31,
+            "white_goals": 29,
+            "joint_goals": 0,
+            "length": {
+              "n": 60,
+              "mean": 30.7,
+              "min": 23,
+              "q1": 27.75,
+              "median": 30.5,
+              "q3": 33.0,
+              "p90": 37.0,
+              "p95": 38.0,
+              "max": 44
+            },
+            "length2": 0,
+            "length3": 0,
+            "length_le8": 0,
+            "length_ge60": 0,
+            "empty_double_pass": 0,
+            "black_one_stone_double_pass": 0,
+            "black_realized_all_pass": 0,
+            "termination": {
+              "double_pass": 60
+            },
+            "pass_proposal_acceptance": {
+              "black_proposer_favorable_True": {
+                "opportunities": 23,
+                "accepted": 12
+              },
+              "black_proposer_favorable_False": {
+                "opportunities": 20,
+                "accepted": 20
+              },
+              "white_proposer_favorable_True": {
+                "opportunities": 38,
+                "accepted": 9
+              },
+              "white_proposer_favorable_False": {
+                "opportunities": 19,
+                "accepted": 19
+              }
+            }
+          },
+          "LOSE/LOSE": {
+            "n": 60,
+            "black_board_wins": 6,
+            "white_board_wins": 54,
+            "black_goals": 54,
+            "white_goals": 6,
+            "joint_goals": 0,
+            "length": {
+              "n": 60,
+              "mean": 46.1,
+              "min": 5,
+              "q1": 49.0,
+              "median": 50.0,
+              "q3": 51.25,
+              "p90": 52.0,
+              "p95": 54.0,
+              "max": 54
+            },
+            "length2": 0,
+            "length3": 0,
+            "length_le8": 4,
+            "length_ge60": 0,
+            "empty_double_pass": 0,
+            "black_one_stone_double_pass": 0,
+            "black_realized_all_pass": 0,
+            "termination": {
+              "double_pass": 60
+            },
+            "pass_proposal_acceptance": {
+              "black_proposer_favorable_True": {
+                "opportunities": 602,
+                "accepted": 41
+              },
+              "black_proposer_favorable_False": {
+                "opportunities": 1,
+                "accepted": 1
+              },
+              "white_proposer_favorable_True": {
+                "opportunities": 98,
+                "accepted": 5
+              },
+              "white_proposer_favorable_False": {
+                "opportunities": 13,
+                "accepted": 13
+              }
+            }
+          },
+          "WIN/LOSE": {
+            "n": 60,
+            "black_board_wins": 60,
+            "white_board_wins": 0,
+            "black_goals": 60,
+            "white_goals": 60,
+            "joint_goals": 60,
+            "length": {
+              "n": 60,
+              "mean": 7.166666666666667,
+              "min": 3,
+              "q1": 3.0,
+              "median": 3.0,
+              "q3": 11.0,
+              "p90": 17.0,
+              "p95": 17.299999999999983,
+              "max": 29
+            },
+            "length2": 0,
+            "length3": 40,
+            "length_le8": 40,
+            "length_ge60": 0,
+            "empty_double_pass": 0,
+            "black_one_stone_double_pass": 40,
+            "black_realized_all_pass": 0,
+            "termination": {
+              "double_pass": 60
+            },
+            "pass_proposal_acceptance": {
+              "black_proposer_favorable_True": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "black_proposer_favorable_False": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "white_proposer_favorable_True": {
+                "opportunities": 60,
+                "accepted": 60
+              },
+              "white_proposer_favorable_False": {
+                "opportunities": 27,
+                "accepted": 0
+              }
+            }
+          },
+          "LOSE/WIN": {
+            "n": 60,
+            "black_board_wins": 0,
+            "white_board_wins": 60,
+            "black_goals": 60,
+            "white_goals": 60,
+            "joint_goals": 60,
+            "length": {
+              "n": 60,
+              "mean": 6.266666666666667,
+              "min": 2,
+              "q1": 2.0,
+              "median": 6.0,
+              "q3": 8.5,
+              "p90": 12.0,
+              "p95": 14.099999999999994,
+              "max": 18
+            },
+            "length2": 17,
+            "length3": 0,
+            "length_le8": 45,
+            "length_ge60": 0,
+            "empty_double_pass": 17,
+            "black_one_stone_double_pass": 0,
+            "black_realized_all_pass": 17,
+            "termination": {
+              "double_pass": 60
+            },
+            "pass_proposal_acceptance": {
+              "black_proposer_favorable_True": {
+                "opportunities": 60,
+                "accepted": 60
+              },
+              "black_proposer_favorable_False": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "white_proposer_favorable_True": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "white_proposer_favorable_False": {
+                "opportunities": 0,
+                "accepted": 0
+              }
+            }
+          }
+        }
+      },
+      "primary_route_inference": {
+        "LOSE/LOSE": {
+          "endpoint": "black_realized_all_pass",
+          "contrasts": {
+            "256-64": {
+              "comparison_budget": 256,
+              "baseline_budget": 64,
+              "contrast_role": "primary_budget_contrast",
+              "primary_route_difference": {
+                "n": 60,
+                "baseline_successes": 0,
+                "comparison_successes": 0,
+                "n00": 60,
+                "n01": 0,
+                "n10": 0,
+                "n11": 0,
+                "discordant_pairs": 0,
+                "estimate": 0.0,
+                "confidence_level": 0.95,
+                "ci": [
+                  -0.0704305687985048,
+                  0.0704305687985048
+                ],
+                "component_confidence_level": 0.975,
+                "positive_probability_ci": [
+                  0.0,
+                  0.0704305687985048
+                ],
+                "negative_probability_ci": [
+                  0.0,
+                  0.0704305687985048
+                ],
+                "method": "paired_discordance_two_sided_CP_rectangle_Bonferroni",
+                "hoeffding_ci": [
+                  -0.3506603035281646,
+                  0.3506603035281646
+                ],
+                "hoeffding_radius": 0.3506603035281646,
+                "ci95": [
+                  -0.0704305687985048,
+                  0.0704305687985048
+                ],
+                "ci95_hoeffding": [
+                  -0.3506603035281646,
+                  0.3506603035281646
+                ],
+                "simultaneous_primary_ci95": [
+                  -0.09777959295900561,
+                  0.09777959295900561
+                ],
+                "simultaneous_family_size": 6,
+                "simultaneous_component_confidence_level": 0.9958333333333333
+              }
+            },
+            "1024-64": {
+              "comparison_budget": 1024,
+              "baseline_budget": 64,
+              "contrast_role": "primary_budget_contrast",
+              "primary_route_difference": {
+                "n": 60,
+                "baseline_successes": 0,
+                "comparison_successes": 0,
+                "n00": 60,
+                "n01": 0,
+                "n10": 0,
+                "n11": 0,
+                "discordant_pairs": 0,
+                "estimate": 0.0,
+                "confidence_level": 0.95,
+                "ci": [
+                  -0.0704305687985048,
+                  0.0704305687985048
+                ],
+                "component_confidence_level": 0.975,
+                "positive_probability_ci": [
+                  0.0,
+                  0.0704305687985048
+                ],
+                "negative_probability_ci": [
+                  0.0,
+                  0.0704305687985048
+                ],
+                "method": "paired_discordance_two_sided_CP_rectangle_Bonferroni",
+                "hoeffding_ci": [
+                  -0.3506603035281646,
+                  0.3506603035281646
+                ],
+                "hoeffding_radius": 0.3506603035281646,
+                "ci95": [
+                  -0.0704305687985048,
+                  0.0704305687985048
+                ],
+                "ci95_hoeffding": [
+                  -0.3506603035281646,
+                  0.3506603035281646
+                ],
+                "simultaneous_primary_ci95": [
+                  -0.09777959295900561,
+                  0.09777959295900561
+                ],
+                "simultaneous_family_size": 6,
+                "simultaneous_component_confidence_level": 0.9958333333333333
+              }
+            },
+            "1024-256": {
+              "comparison_budget": 1024,
+              "baseline_budget": 256,
+              "contrast_role": "secondary_budget_contrast",
+              "primary_route_difference": {
+                "n": 60,
+                "baseline_successes": 0,
+                "comparison_successes": 0,
+                "n00": 60,
+                "n01": 0,
+                "n10": 0,
+                "n11": 0,
+                "discordant_pairs": 0,
+                "estimate": 0.0,
+                "confidence_level": 0.95,
+                "ci": [
+                  -0.0704305687985048,
+                  0.0704305687985048
+                ],
+                "component_confidence_level": 0.975,
+                "positive_probability_ci": [
+                  0.0,
+                  0.0704305687985048
+                ],
+                "negative_probability_ci": [
+                  0.0,
+                  0.0704305687985048
+                ],
+                "method": "paired_discordance_two_sided_CP_rectangle_Bonferroni",
+                "hoeffding_ci": [
+                  -0.3506603035281646,
+                  0.3506603035281646
+                ],
+                "hoeffding_radius": 0.3506603035281646,
+                "ci95": [
+                  -0.0704305687985048,
+                  0.0704305687985048
+                ],
+                "ci95_hoeffding": [
+                  -0.3506603035281646,
+                  0.3506603035281646
+                ]
+              }
+            }
+          }
+        },
+        "WIN/LOSE": {
+          "endpoint": "black_one_stone_double_pass",
+          "contrasts": {
+            "256-64": {
+              "comparison_budget": 256,
+              "baseline_budget": 64,
+              "contrast_role": "primary_budget_contrast",
+              "primary_route_difference": {
+                "n": 60,
+                "baseline_successes": 7,
+                "comparison_successes": 9,
+                "n00": 45,
+                "n01": 8,
+                "n10": 6,
+                "n11": 1,
+                "discordant_pairs": 14,
+                "estimate": 0.03333333333333333,
+                "confidence_level": 0.95,
+                "ci": [
+                  -0.1687761339112071,
+                  0.23052435799427645
+                ],
+                "component_confidence_level": 0.975,
+                "positive_probability_ci": [
+                  0.052222493518403565,
+                  0.2626456704367466
+                ],
+                "negative_probability_ci": [
+                  0.032121312442470115,
+                  0.22099862742961068
+                ],
+                "method": "paired_discordance_two_sided_CP_rectangle_Bonferroni",
+                "hoeffding_ci": [
+                  -0.31732697019483125,
+                  0.3839936368614979
+                ],
+                "hoeffding_radius": 0.3506603035281646,
+                "ci95": [
+                  -0.1687761339112071,
+                  0.23052435799427645
+                ],
+                "ci95_hoeffding": [
+                  -0.31732697019483125,
+                  0.3839936368614979
+                ],
+                "simultaneous_primary_ci95": [
+                  -0.2195620184148119,
+                  0.2791036101143397
+                ],
+                "simultaneous_family_size": 6,
+                "simultaneous_component_confidence_level": 0.9958333333333333
+              }
+            },
+            "1024-64": {
+              "comparison_budget": 1024,
+              "baseline_budget": 64,
+              "contrast_role": "primary_budget_contrast",
+              "primary_route_difference": {
+                "n": 60,
+                "baseline_successes": 7,
+                "comparison_successes": 40,
+                "n00": 18,
+                "n01": 35,
+                "n10": 2,
+                "n11": 5,
+                "discordant_pairs": 37,
+                "estimate": 0.55,
+                "confidence_level": 0.95,
+                "ci": [
+                  0.3023202550920032,
+                  0.7222268647546327
+                ],
+                "component_confidence_level": 0.975,
+                "positive_probability_ci": [
+                  0.43096488826679574,
+                  0.7250315288163841
+                ],
+                "negative_probability_ci": [
+                  0.002804664061751354,
+                  0.1286446331747925
+                ],
+                "method": "paired_discordance_two_sided_CP_rectangle_Bonferroni",
+                "hoeffding_ci": [
+                  0.19933969647183547,
+                  0.9006603035281646
+                ],
+                "hoeffding_radius": 0.3506603035281646,
+                "ci95": [
+                  0.3023202550920032,
+                  0.7222268647546327
+                ],
+                "ci95_hoeffding": [
+                  0.19933969647183547,
+                  0.9006603035281646
+                ],
+                "simultaneous_primary_ci95": [
+                  0.23103495981799466,
+                  0.7573126739530529
+                ],
+                "simultaneous_family_size": 6,
+                "simultaneous_component_confidence_level": 0.9958333333333333
+              }
+            },
+            "1024-256": {
+              "comparison_budget": 1024,
+              "baseline_budget": 256,
+              "contrast_role": "secondary_budget_contrast",
+              "primary_route_difference": {
+                "n": 60,
+                "baseline_successes": 9,
+                "comparison_successes": 40,
+                "n00": 18,
+                "n01": 33,
+                "n10": 2,
+                "n11": 7,
+                "discordant_pairs": 35,
+                "estimate": 0.5166666666666667,
+                "confidence_level": 0.95,
+                "ci": [
+                  0.2698892357715783,
+                  0.6922629293646837
+                ],
+                "component_confidence_level": 0.975,
+                "positive_probability_ci": [
+                  0.39853386894637083,
+                  0.6950675934264351
+                ],
+                "negative_probability_ci": [
+                  0.002804664061751354,
+                  0.1286446331747925
+                ],
+                "method": "paired_discordance_two_sided_CP_rectangle_Bonferroni",
+                "hoeffding_ci": [
+                  0.16600636313850214,
+                  0.8673269701948313
+                ],
+                "hoeffding_radius": 0.3506603035281646,
+                "ci95": [
+                  0.2698892357715783,
+                  0.6922629293646837
+                ],
+                "ci95_hoeffding": [
+                  0.16600636313850214,
+                  0.8673269701948313
+                ]
+              }
+            }
+          }
+        },
+        "LOSE/WIN": {
+          "endpoint": "empty_double_pass",
+          "contrasts": {
+            "256-64": {
+              "comparison_budget": 256,
+              "baseline_budget": 64,
+              "contrast_role": "primary_budget_contrast",
+              "primary_route_difference": {
+                "n": 60,
+                "baseline_successes": 0,
+                "comparison_successes": 9,
+                "n00": 51,
+                "n01": 9,
+                "n10": 0,
+                "n11": 0,
+                "discordant_pairs": 9,
+                "estimate": 0.15,
+                "confidence_level": 0.95,
+                "ci": [
+                  -0.007371932163933531,
+                  0.28277604501940695
+                ],
+                "component_confidence_level": 0.975,
+                "positive_probability_ci": [
+                  0.06305863663457127,
+                  0.28277604501940695
+                ],
+                "negative_probability_ci": [
+                  0.0,
+                  0.0704305687985048
+                ],
+                "method": "paired_discordance_two_sided_CP_rectangle_Bonferroni",
+                "hoeffding_ci": [
+                  -0.20066030352816458,
+                  0.5006603035281646
+                ],
+                "hoeffding_radius": 0.3506603035281646,
+                "ci95": [
+                  -0.007371932163933531,
+                  0.28277604501940695
+                ],
+                "ci95_hoeffding": [
+                  -0.20066030352816458,
+                  0.5006603035281646
+                ],
+                "simultaneous_primary_ci95": [
+                  -0.05005337684126997,
+                  0.32183583549212624
+                ],
+                "simultaneous_family_size": 6,
+                "simultaneous_component_confidence_level": 0.9958333333333333
+              }
+            },
+            "1024-64": {
+              "comparison_budget": 1024,
+              "baseline_budget": 64,
+              "contrast_role": "primary_budget_contrast",
+              "primary_route_difference": {
+                "n": 60,
+                "baseline_successes": 0,
+                "comparison_successes": 17,
+                "n00": 43,
+                "n01": 17,
+                "n10": 0,
+                "n11": 0,
+                "discordant_pairs": 17,
+                "estimate": 0.2833333333333333,
+                "confidence_level": 0.95,
+                "ci": [
+                  0.09145873450815502,
+                  0.4326814033605677
+                ],
+                "component_confidence_level": 0.975,
+                "positive_probability_ci": [
+                  0.16188930330665982,
+                  0.4326814033605677
+                ],
+                "negative_probability_ci": [
+                  0.0,
+                  0.0704305687985048
+                ],
+                "method": "paired_discordance_two_sided_CP_rectangle_Bonferroni",
+                "hoeffding_ci": [
+                  -0.06732697019483125,
+                  0.6339936368614979
+                ],
+                "hoeffding_radius": 0.3506603035281646,
+                "ci95": [
+                  0.09145873450815502,
+                  0.4326814033605677
+                ],
+                "ci95_hoeffding": [
+                  -0.06732697019483125,
+                  0.6339936368614979
+                ],
+                "simultaneous_primary_ci95": [
+                  0.03809412186518664,
+                  0.4733856168544321
+                ],
+                "simultaneous_family_size": 6,
+                "simultaneous_component_confidence_level": 0.9958333333333333
+              }
+            },
+            "1024-256": {
+              "comparison_budget": 1024,
+              "baseline_budget": 256,
+              "contrast_role": "secondary_budget_contrast",
+              "primary_route_difference": {
+                "n": 60,
+                "baseline_successes": 9,
+                "comparison_successes": 17,
+                "n00": 38,
+                "n01": 13,
+                "n10": 5,
+                "n11": 4,
+                "discordant_pairs": 18,
+                "estimate": 0.13333333333333333,
+                "confidence_level": 0.95,
+                "ci": [
+                  -0.08910320643907244,
+                  0.33676597947552017
+                ],
+                "component_confidence_level": 0.975,
+                "positive_probability_ci": [
+                  0.11020616901634953,
+                  0.3598421078671629
+                ],
+                "negative_probability_ci": [
+                  0.023076128391642747,
+                  0.19930937545542196
+                ],
+                "method": "paired_discordance_two_sided_CP_rectangle_Bonferroni",
+                "hoeffding_ci": [
+                  -0.21732697019483124,
+                  0.4839936368614979
+                ],
+                "hoeffding_radius": 0.3506603035281646,
+                "ci95": [
+                  -0.08910320643907244,
+                  0.33676597947552017
+                ],
+                "ci95_hoeffding": [
+                  -0.21732697019483124,
+                  0.4839936368614979
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "M4": {
+      "local_path": "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_v1/outputs/g1_pass8_pilot_v1/analysis.json",
+      "sha256": "59a096ff07971e2c56f58c3d9a390444f8134eef0aeb7a6f21598e9c3ce0b07c",
+      "bytes": 401070,
+      "source_url": "https://github.com/Liazulene/winorlose/blob/e28833c388438f33d49dbbde90ae63b6e3a4a0cb/outputs/g1_pass8_pilot_v1/analysis.json",
+      "n_records": 48,
+      "conditions": {
+        "G0": {
+          "WIN/WIN": {
+            "n": 6,
+            "black_board_wins": 2,
+            "white_board_wins": 4,
+            "black_goals": 2,
+            "white_goals": 4,
+            "joint_goals": 0,
+            "length": {
+              "n": 6,
+              "mean": 30.666666666666668,
+              "min": 6,
+              "q1": 25.5,
+              "median": 28.0,
+              "q3": 35.0,
+              "p90": 48.5,
+              "p95": 54.25,
+              "max": 60
+            },
+            "length2": 0,
+            "length3": 0,
+            "length10": 0,
+            "length_le8": 1,
+            "length_ge60": 1,
+            "empty_double_pass": 0,
+            "black_one_stone_double_pass": 0,
+            "black_realized_all_pass": 0,
+            "termination": {
+              "double_pass": 6
+            },
+            "color_counts": {
+              "black": {
+                "passes": 6,
+                "placements": 88,
+                "captured_by_opponent": 31
+              },
+              "white": {
+                "passes": 14,
+                "placements": 76,
+                "captured_by_opponent": 25
+              }
+            },
+            "pass_proposal_acceptance": {
+              "black_proposer_favorable_True": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "black_proposer_favorable_False": {
+                "opportunities": 2,
+                "accepted": 2
+              },
+              "white_proposer_favorable_True": {
+                "opportunities": 9,
+                "accepted": 2
+              },
+              "white_proposer_favorable_False": {
+                "opportunities": 3,
+                "accepted": 2
+              }
+            }
+          },
+          "LOSE/LOSE": {
+            "n": 6,
+            "black_board_wins": 0,
+            "white_board_wins": 6,
+            "black_goals": 6,
+            "white_goals": 0,
+            "joint_goals": 0,
+            "length": {
+              "n": 6,
+              "mean": 42,
+              "min": 11,
+              "q1": 34.25,
+              "median": 51.0,
+              "q3": 53.5,
+              "p90": 55.0,
+              "p95": 55.5,
+              "max": 56
+            },
+            "length2": 0,
+            "length3": 0,
+            "length10": 0,
+            "length_le8": 0,
+            "length_ge60": 0,
+            "empty_double_pass": 0,
+            "black_one_stone_double_pass": 0,
+            "black_realized_all_pass": 0,
+            "termination": {
+              "double_pass": 6
+            },
+            "color_counts": {
+              "black": {
+                "passes": 49,
+                "placements": 78,
+                "captured_by_opponent": 67
+              },
+              "white": {
+                "passes": 8,
+                "placements": 117,
+                "captured_by_opponent": 5
+              }
+            },
+            "pass_proposal_acceptance": {
+              "black_proposer_favorable_True": {
+                "opportunities": 47,
+                "accepted": 4
+              },
+              "black_proposer_favorable_False": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "white_proposer_favorable_True": {
+                "opportunities": 2,
+                "accepted": 0
+              },
+              "white_proposer_favorable_False": {
+                "opportunities": 2,
+                "accepted": 2
+              }
+            }
+          },
+          "WIN/LOSE": {
+            "n": 6,
+            "black_board_wins": 6,
+            "white_board_wins": 0,
+            "black_goals": 6,
+            "white_goals": 6,
+            "joint_goals": 6,
+            "length": {
+              "n": 6,
+              "mean": 17.166666666666668,
+              "min": 3,
+              "q1": 13.0,
+              "median": 16.0,
+              "q3": 25.0,
+              "p90": 27.5,
+              "p95": 27.75,
+              "max": 28
+            },
+            "length2": 0,
+            "length3": 1,
+            "length10": 0,
+            "length_le8": 1,
+            "length_ge60": 0,
+            "empty_double_pass": 0,
+            "black_one_stone_double_pass": 1,
+            "black_realized_all_pass": 0,
+            "termination": {
+              "double_pass": 6
+            },
+            "color_counts": {
+              "black": {
+                "passes": 6,
+                "placements": 48,
+                "captured_by_opponent": 0
+              },
+              "white": {
+                "passes": 12,
+                "placements": 37,
+                "captured_by_opponent": 11
+              }
+            },
+            "pass_proposal_acceptance": {
+              "black_proposer_favorable_True": {
+                "opportunities": 1,
+                "accepted": 1
+              },
+              "black_proposer_favorable_False": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "white_proposer_favorable_True": {
+                "opportunities": 6,
+                "accepted": 5
+              },
+              "white_proposer_favorable_False": {
+                "opportunities": 5,
+                "accepted": 0
+              }
+            }
+          },
+          "LOSE/WIN": {
+            "n": 6,
+            "black_board_wins": 0,
+            "white_board_wins": 6,
+            "black_goals": 6,
+            "white_goals": 6,
+            "joint_goals": 6,
+            "length": {
+              "n": 6,
+              "mean": 8.333333333333334,
+              "min": 2,
+              "q1": 5.0,
+              "median": 9.0,
+              "q3": 10.0,
+              "p90": 13.0,
+              "p95": 14.5,
+              "max": 16
+            },
+            "length2": 1,
+            "length3": 0,
+            "length10": 2,
+            "length_le8": 3,
+            "length_ge60": 0,
+            "empty_double_pass": 1,
+            "black_one_stone_double_pass": 0,
+            "black_realized_all_pass": 1,
+            "termination": {
+              "double_pass": 6
+            },
+            "color_counts": {
+              "black": {
+                "passes": 6,
+                "placements": 19,
+                "captured_by_opponent": 0
+              },
+              "white": {
+                "passes": 6,
+                "placements": 19,
+                "captured_by_opponent": 0
+              }
+            },
+            "pass_proposal_acceptance": {
+              "black_proposer_favorable_True": {
+                "opportunities": 6,
+                "accepted": 6
+              },
+              "black_proposer_favorable_False": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "white_proposer_favorable_True": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "white_proposer_favorable_False": {
+                "opportunities": 0,
+                "accepted": 0
+              }
+            }
+          }
+        },
+        "G1-pass8": {
+          "WIN/WIN": {
+            "n": 6,
+            "black_board_wins": 4,
+            "white_board_wins": 2,
+            "black_goals": 4,
+            "white_goals": 2,
+            "joint_goals": 0,
+            "length": {
+              "n": 6,
+              "mean": 33.5,
+              "min": 28,
+              "q1": 31.5,
+              "median": 33.5,
+              "q3": 34.75,
+              "p90": 37.5,
+              "p95": 38.75,
+              "max": 40
+            },
+            "length2": 0,
+            "length3": 0,
+            "length10": 0,
+            "length_le8": 0,
+            "length_ge60": 0,
+            "empty_double_pass": 0,
+            "black_one_stone_double_pass": 0,
+            "black_realized_all_pass": 0,
+            "termination": {
+              "double_pass": 6
+            },
+            "color_counts": {
+              "black": {
+                "passes": 6,
+                "placements": 96,
+                "captured_by_opponent": 33
+              },
+              "white": {
+                "passes": 8,
+                "placements": 91,
+                "captured_by_opponent": 37
+              }
+            },
+            "pass_proposal_acceptance": {
+              "black_proposer_favorable_True": {
+                "opportunities": 1,
+                "accepted": 1
+              },
+              "black_proposer_favorable_False": {
+                "opportunities": 2,
+                "accepted": 2
+              },
+              "white_proposer_favorable_True": {
+                "opportunities": 2,
+                "accepted": 0
+              },
+              "white_proposer_favorable_False": {
+                "opportunities": 3,
+                "accepted": 3
+              }
+            }
+          },
+          "LOSE/LOSE": {
+            "n": 6,
+            "black_board_wins": 1,
+            "white_board_wins": 5,
+            "black_goals": 5,
+            "white_goals": 1,
+            "joint_goals": 0,
+            "length": {
+              "n": 6,
+              "mean": 44.166666666666664,
+              "min": 19,
+              "q1": 47.5,
+              "median": 49.5,
+              "q3": 50.0,
+              "p90": 50.0,
+              "p95": 50.0,
+              "max": 50
+            },
+            "length2": 0,
+            "length3": 0,
+            "length10": 0,
+            "length_le8": 0,
+            "length_ge60": 0,
+            "empty_double_pass": 0,
+            "black_one_stone_double_pass": 0,
+            "black_realized_all_pass": 0,
+            "termination": {
+              "double_pass": 6
+            },
+            "color_counts": {
+              "black": {
+                "passes": 48,
+                "placements": 86,
+                "captured_by_opponent": 53
+              },
+              "white": {
+                "passes": 15,
+                "placements": 116,
+                "captured_by_opponent": 15
+              }
+            },
+            "pass_proposal_acceptance": {
+              "black_proposer_favorable_True": {
+                "opportunities": 45,
+                "accepted": 3
+              },
+              "black_proposer_favorable_False": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "white_proposer_favorable_True": {
+                "opportunities": 10,
+                "accepted": 1
+              },
+              "white_proposer_favorable_False": {
+                "opportunities": 2,
+                "accepted": 2
+              }
+            }
+          },
+          "WIN/LOSE": {
+            "n": 6,
+            "black_board_wins": 6,
+            "white_board_wins": 0,
+            "black_goals": 6,
+            "white_goals": 6,
+            "joint_goals": 6,
+            "length": {
+              "n": 6,
+              "mean": 21.666666666666668,
+              "min": 17,
+              "q1": 19.25,
+              "median": 20.5,
+              "q3": 23.25,
+              "p90": 26.5,
+              "p95": 27.75,
+              "max": 29
+            },
+            "length2": 0,
+            "length3": 0,
+            "length10": 0,
+            "length_le8": 0,
+            "length_ge60": 0,
+            "empty_double_pass": 0,
+            "black_one_stone_double_pass": 0,
+            "black_realized_all_pass": 0,
+            "termination": {
+              "double_pass": 6
+            },
+            "color_counts": {
+              "black": {
+                "passes": 6,
+                "placements": 61,
+                "captured_by_opponent": 0
+              },
+              "white": {
+                "passes": 9,
+                "placements": 54,
+                "captured_by_opponent": 14
+              }
+            },
+            "pass_proposal_acceptance": {
+              "black_proposer_favorable_True": {
+                "opportunities": 2,
+                "accepted": 2
+              },
+              "black_proposer_favorable_False": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "white_proposer_favorable_True": {
+                "opportunities": 5,
+                "accepted": 4
+              },
+              "white_proposer_favorable_False": {
+                "opportunities": 2,
+                "accepted": 0
+              }
+            }
+          },
+          "LOSE/WIN": {
+            "n": 6,
+            "black_board_wins": 0,
+            "white_board_wins": 6,
+            "black_goals": 6,
+            "white_goals": 6,
+            "joint_goals": 6,
+            "length": {
+              "n": 6,
+              "mean": 16.833333333333332,
+              "min": 12,
+              "q1": 14.0,
+              "median": 16.0,
+              "q3": 18.0,
+              "p90": 21.5,
+              "p95": 23.25,
+              "max": 25
+            },
+            "length2": 0,
+            "length3": 0,
+            "length10": 0,
+            "length_le8": 0,
+            "length_ge60": 0,
+            "empty_double_pass": 0,
+            "black_one_stone_double_pass": 0,
+            "black_realized_all_pass": 0,
+            "termination": {
+              "double_pass": 6
+            },
+            "color_counts": {
+              "black": {
+                "passes": 6,
+                "placements": 45,
+                "captured_by_opponent": 4
+              },
+              "white": {
+                "passes": 6,
+                "placements": 44,
+                "captured_by_opponent": 0
+              }
+            },
+            "pass_proposal_acceptance": {
+              "black_proposer_favorable_True": {
+                "opportunities": 5,
+                "accepted": 5
+              },
+              "black_proposer_favorable_False": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "white_proposer_favorable_True": {
+                "opportunities": 1,
+                "accepted": 1
+              },
+              "white_proposer_favorable_False": {
+                "opportunities": 0,
+                "accepted": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    "M5": {
+      "local_path": "/workspace/scratch/50e0c7c6aca1/winorlose_g1_pass8_estimation_v1/outputs/g1_pass8_estimation_v1/analysis.json",
+      "sha256": "d5714eb032b2c5f72741396ec42554d77b39df7ab8174a3b22ab02f192729bda",
+      "bytes": 2587585,
+      "source_url": "https://github.com/Liazulene/winorlose/blob/a9b6e5188451b7fd7b573f406f0b79c1b732de96/outputs/g1_pass8_estimation_v1/analysis.json",
+      "n_records": 480,
+      "conditions": {
+        "G0": {
+          "WIN/WIN": {
+            "n": 60,
+            "black_board_wins": 32,
+            "white_board_wins": 28,
+            "black_goals": 32,
+            "white_goals": 28,
+            "joint_goals": 0,
+            "length": {
+              "n": 60,
+              "mean": 30.283333333333335,
+              "min": 3,
+              "q1": 26.75,
+              "median": 31.0,
+              "q3": 35.0,
+              "p90": 40.1,
+              "p95": 41.099999999999994,
+              "max": 49
+            },
+            "length2": 0,
+            "length3": 1,
+            "length10": 1,
+            "length_le8": 3,
+            "length_ge60": 0,
+            "empty_double_pass": 0,
+            "black_one_stone_double_pass": 1,
+            "black_realized_all_pass": 0,
+            "termination": {
+              "double_pass": 60
+            },
+            "color_counts": {
+              "black": {
+                "passes": 75,
+                "placements": 853,
+                "captured_by_opponent": 221
+              },
+              "white": {
+                "passes": 96,
+                "placements": 793,
+                "captured_by_opponent": 295
+              }
+            },
+            "pass_proposal_acceptance": {
+              "black_proposer_favorable_True": {
+                "opportunities": 20,
+                "accepted": 6
+              },
+              "black_proposer_favorable_False": {
+                "opportunities": 16,
+                "accepted": 15
+              },
+              "white_proposer_favorable_True": {
+                "opportunities": 43,
+                "accepted": 13
+              },
+              "white_proposer_favorable_False": {
+                "opportunities": 32,
+                "accepted": 26
+              }
+            }
+          },
+          "LOSE/LOSE": {
+            "n": 60,
+            "black_board_wins": 1,
+            "white_board_wins": 59,
+            "black_goals": 59,
+            "white_goals": 1,
+            "joint_goals": 0,
+            "length": {
+              "n": 60,
+              "mean": 26.683333333333334,
+              "min": 5,
+              "q1": 10.5,
+              "median": 23.0,
+              "q3": 50.0,
+              "p90": 50.2,
+              "p95": 54.05,
+              "max": 58
+            },
+            "length2": 0,
+            "length3": 0,
+            "length10": 0,
+            "length_le8": 11,
+            "length_ge60": 0,
+            "empty_double_pass": 0,
+            "black_one_stone_double_pass": 0,
+            "black_realized_all_pass": 0,
+            "termination": {
+              "double_pass": 60
+            },
+            "color_counts": {
+              "black": {
+                "passes": 315,
+                "placements": 507,
+                "captured_by_opponent": 299
+              },
+              "white": {
+                "passes": 72,
+                "placements": 707,
+                "captured_by_opponent": 27
+              }
+            },
+            "pass_proposal_acceptance": {
+              "black_proposer_favorable_True": {
+                "opportunities": 271,
+                "accepted": 16
+              },
+              "black_proposer_favorable_False": {
+                "opportunities": 1,
+                "accepted": 1
+              },
+              "white_proposer_favorable_True": {
+                "opportunities": 12,
+                "accepted": 0
+              },
+              "white_proposer_favorable_False": {
+                "opportunities": 43,
+                "accepted": 43
+              }
+            }
+          },
+          "WIN/LOSE": {
+            "n": 60,
+            "black_board_wins": 60,
+            "white_board_wins": 0,
+            "black_goals": 60,
+            "white_goals": 60,
+            "joint_goals": 60,
+            "length": {
+              "n": 60,
+              "mean": 15.65,
+              "min": 3,
+              "q1": 12.5,
+              "median": 17.0,
+              "q3": 19.5,
+              "p90": 25.0,
+              "p95": 27.049999999999997,
+              "max": 31
+            },
+            "length2": 0,
+            "length3": 11,
+            "length10": 0,
+            "length_le8": 11,
+            "length_ge60": 0,
+            "empty_double_pass": 0,
+            "black_one_stone_double_pass": 11,
+            "black_realized_all_pass": 0,
+            "termination": {
+              "double_pass": 60
+            },
+            "color_counts": {
+              "black": {
+                "passes": 63,
+                "placements": 434,
+                "captured_by_opponent": 2
+              },
+              "white": {
+                "passes": 95,
+                "placements": 347,
+                "captured_by_opponent": 71
+              }
+            },
+            "pass_proposal_acceptance": {
+              "black_proposer_favorable_True": {
+                "opportunities": 7,
+                "accepted": 5
+              },
+              "black_proposer_favorable_False": {
+                "opportunities": 1,
+                "accepted": 0
+              },
+              "white_proposer_favorable_True": {
+                "opportunities": 57,
+                "accepted": 55
+              },
+              "white_proposer_favorable_False": {
+                "opportunities": 33,
+                "accepted": 0
+              }
+            }
+          },
+          "LOSE/WIN": {
+            "n": 60,
+            "black_board_wins": 0,
+            "white_board_wins": 60,
+            "black_goals": 60,
+            "white_goals": 60,
+            "joint_goals": 60,
+            "length": {
+              "n": 60,
+              "mean": 12.783333333333333,
+              "min": 4,
+              "q1": 8.0,
+              "median": 12.0,
+              "q3": 16.0,
+              "p90": 22.0,
+              "p95": 25.049999999999997,
+              "max": 36
+            },
+            "length2": 0,
+            "length3": 0,
+            "length10": 5,
+            "length_le8": 20,
+            "length_ge60": 0,
+            "empty_double_pass": 0,
+            "black_one_stone_double_pass": 0,
+            "black_realized_all_pass": 0,
+            "termination": {
+              "double_pass": 60
+            },
+            "color_counts": {
+              "black": {
+                "passes": 65,
+                "placements": 322,
+                "captured_by_opponent": 26
+              },
+              "white": {
+                "passes": 60,
+                "placements": 320,
+                "captured_by_opponent": 2
+              }
+            },
+            "pass_proposal_acceptance": {
+              "black_proposer_favorable_True": {
+                "opportunities": 58,
+                "accepted": 53
+              },
+              "black_proposer_favorable_False": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "white_proposer_favorable_True": {
+                "opportunities": 7,
+                "accepted": 7
+              },
+              "white_proposer_favorable_False": {
+                "opportunities": 0,
+                "accepted": 0
+              }
+            }
+          }
+        },
+        "G1-pass8": {
+          "WIN/WIN": {
+            "n": 60,
+            "black_board_wins": 32,
+            "white_board_wins": 28,
+            "black_goals": 32,
+            "white_goals": 28,
+            "joint_goals": 0,
+            "length": {
+              "n": 60,
+              "mean": 31.783333333333335,
+              "min": 21,
+              "q1": 27.0,
+              "median": 29.5,
+              "q3": 35.0,
+              "p90": 40.0,
+              "p95": 41.14999999999999,
+              "max": 56
+            },
+            "length2": 0,
+            "length3": 0,
+            "length10": 0,
+            "length_le8": 0,
+            "length_ge60": 0,
+            "empty_double_pass": 0,
+            "black_one_stone_double_pass": 0,
+            "black_realized_all_pass": 0,
+            "termination": {
+              "double_pass": 60
+            },
+            "color_counts": {
+              "black": {
+                "passes": 84,
+                "placements": 885,
+                "captured_by_opponent": 279
+              },
+              "white": {
+                "passes": 87,
+                "placements": 851,
+                "captured_by_opponent": 273
+              }
+            },
+            "pass_proposal_acceptance": {
+              "black_proposer_favorable_True": {
+                "opportunities": 28,
+                "accepted": 12
+              },
+              "black_proposer_favorable_False": {
+                "opportunities": 25,
+                "accepted": 17
+              },
+              "white_proposer_favorable_True": {
+                "opportunities": 34,
+                "accepted": 11
+              },
+              "white_proposer_favorable_False": {
+                "opportunities": 24,
+                "accepted": 20
+              }
+            }
+          },
+          "LOSE/LOSE": {
+            "n": 60,
+            "black_board_wins": 1,
+            "white_board_wins": 59,
+            "black_goals": 59,
+            "white_goals": 1,
+            "joint_goals": 0,
+            "length": {
+              "n": 60,
+              "mean": 40.666666666666664,
+              "min": 11,
+              "q1": 26.5,
+              "median": 50.0,
+              "q3": 52.0,
+              "p90": 52.0,
+              "p95": 55.05,
+              "max": 56
+            },
+            "length2": 0,
+            "length3": 0,
+            "length10": 0,
+            "length_le8": 0,
+            "length_ge60": 0,
+            "empty_double_pass": 0,
+            "black_one_stone_double_pass": 0,
+            "black_realized_all_pass": 0,
+            "termination": {
+              "double_pass": 60
+            },
+            "color_counts": {
+              "black": {
+                "passes": 447,
+                "placements": 786,
+                "captured_by_opponent": 633
+              },
+              "white": {
+                "passes": 67,
+                "placements": 1140,
+                "captured_by_opponent": 54
+              }
+            },
+            "pass_proposal_acceptance": {
+              "black_proposer_favorable_True": {
+                "opportunities": 421,
+                "accepted": 34
+              },
+              "black_proposer_favorable_False": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "white_proposer_favorable_True": {
+                "opportunities": 8,
+                "accepted": 1
+              },
+              "white_proposer_favorable_False": {
+                "opportunities": 25,
+                "accepted": 25
+              }
+            }
+          },
+          "WIN/LOSE": {
+            "n": 60,
+            "black_board_wins": 60,
+            "white_board_wins": 0,
+            "black_goals": 60,
+            "white_goals": 60,
+            "joint_goals": 60,
+            "length": {
+              "n": 60,
+              "mean": 19.55,
+              "min": 11,
+              "q1": 16.75,
+              "median": 19.0,
+              "q3": 23.0,
+              "p90": 26.1,
+              "p95": 28.049999999999997,
+              "max": 30
+            },
+            "length2": 0,
+            "length3": 0,
+            "length10": 0,
+            "length_le8": 0,
+            "length_ge60": 0,
+            "empty_double_pass": 0,
+            "black_one_stone_double_pass": 0,
+            "black_realized_all_pass": 0,
+            "termination": {
+              "double_pass": 60
+            },
+            "color_counts": {
+              "black": {
+                "passes": 60,
+                "placements": 550,
+                "captured_by_opponent": 1
+              },
+              "white": {
+                "passes": 89,
+                "placements": 474,
+                "captured_by_opponent": 124
+              }
+            },
+            "pass_proposal_acceptance": {
+              "black_proposer_favorable_True": {
+                "opportunities": 13,
+                "accepted": 13
+              },
+              "black_proposer_favorable_False": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "white_proposer_favorable_True": {
+                "opportunities": 52,
+                "accepted": 47
+              },
+              "white_proposer_favorable_False": {
+                "opportunities": 24,
+                "accepted": 0
+              }
+            }
+          },
+          "LOSE/WIN": {
+            "n": 60,
+            "black_board_wins": 0,
+            "white_board_wins": 60,
+            "black_goals": 60,
+            "white_goals": 60,
+            "joint_goals": 60,
+            "length": {
+              "n": 60,
+              "mean": 17.55,
+              "min": 10,
+              "q1": 12.0,
+              "median": 16.0,
+              "q3": 21.25,
+              "p90": 25.1,
+              "p95": 31.099999999999994,
+              "max": 41
+            },
+            "length2": 0,
+            "length3": 0,
+            "length10": 9,
+            "length_le8": 0,
+            "length_ge60": 0,
+            "empty_double_pass": 0,
+            "black_one_stone_double_pass": 0,
+            "black_realized_all_pass": 0,
+            "termination": {
+              "double_pass": 60
+            },
+            "color_counts": {
+              "black": {
+                "passes": 66,
+                "placements": 468,
+                "captured_by_opponent": 77
+              },
+              "white": {
+                "passes": 62,
+                "placements": 457,
+                "captured_by_opponent": 3
+              }
+            },
+            "pass_proposal_acceptance": {
+              "black_proposer_favorable_True": {
+                "opportunities": 51,
+                "accepted": 45
+              },
+              "black_proposer_favorable_False": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "white_proposer_favorable_True": {
+                "opportunities": 17,
+                "accepted": 15
+              },
+              "white_proposer_favorable_False": {
+                "opportunities": 0,
+                "accepted": 0
+              }
+            }
+          }
+        }
+      },
+      "primary_inference": {
+        "WIN/WIN": {
+          "goal": "black_goals",
+          "goal_difference": {
+            "n": 60,
+            "baseline_successes": 32,
+            "comparison_successes": 32,
+            "n00": 14,
+            "n01": 14,
+            "n10": 14,
+            "n11": 18,
+            "discordant_pairs": 28,
+            "estimate": 0.0,
+            "confidence_level": 0.95,
+            "ci": [
+              -0.2556397212097986,
+              0.2556397212097986
+            ],
+            "component_confidence_level": 0.975,
+            "positive_probability_ci": [
+              0.12275931118819092,
+              0.37839903239798955
+            ],
+            "negative_probability_ci": [
+              0.12275931118819092,
+              0.37839903239798955
+            ],
+            "method": "paired_discordance_two_sided_CP_rectangle_Bonferroni",
+            "hoeffding_ci": [
+              -0.3506603035281646,
+              0.3506603035281646
+            ],
+            "hoeffding_radius": 0.3506603035281646,
+            "ci95": [
+              -0.2556397212097986,
+              0.2556397212097986
+            ],
+            "ci95_hoeffding": [
+              -0.3506603035281646,
+              0.3506603035281646
+            ],
+            "coverage_scope": "pointwise_95_not_family_adjusted",
+            "simultaneous_family_ci95": [
+              -0.32756895905027905,
+              0.32756895905027905
+            ],
+            "simultaneous_family_interval_confidence_level": 0.99375,
+            "simultaneous_family_size": 8,
+            "simultaneous_family_endpoint": "WIN/WIN:black_goals",
+            "simultaneous_family_component_confidence_level": 0.996875,
+            "simultaneous_family_positive_probability_ci": [
+              0.09728330758096006,
+              0.4248522666312391
+            ],
+            "simultaneous_family_negative_probability_ci": [
+              0.09728330758096006,
+              0.4248522666312391
+            ],
+            "simultaneous_family_hoeffding_audit_ci": [
+              -0.4384944315797627,
+              0.4384944315797627
+            ]
+          },
+          "raw_length": {
+            "n": 60,
+            "estimate": 1.5,
+            "confidence_level": 0.95,
+            "ci": [
+              -31.46206853164747,
+              34.462068531647475
+            ],
+            "support": [
+              -90,
+              98
+            ],
+            "unclipped_radius": 32.96206853164747,
+            "method": "Hoeffding_independent_bounded_mean",
+            "coverage_scope": "pointwise_for_this_fixed_estimand",
+            "distribution": {
+              "n": 60,
+              "mean": 1.5,
+              "min": -21,
+              "q1": -4.0,
+              "median": 1.5,
+              "q3": 5.25,
+              "p90": 11.100000000000001,
+              "p95": 19.449999999999974,
+              "max": 41
+            },
+            "simultaneous_family_ci95": [
+              -39.7184765684977,
+              42.7184765684977
+            ],
+            "simultaneous_family_interval_confidence_level": 0.99375,
+            "simultaneous_family_size": 8,
+            "simultaneous_family_endpoint": "WIN/WIN:raw_length",
+            "simultaneous_family_unclipped_radius": 41.21847656849769
+          },
+          "extra_length": {
+            "n": 60,
+            "estimate": -6.5,
+            "confidence_level": 0.95,
+            "ci": [
+              -39.462068531647475,
+              26.462068531647475
+            ],
+            "support": [
+              -98,
+              90
+            ],
+            "unclipped_radius": 32.96206853164747,
+            "method": "Hoeffding_independent_bounded_mean",
+            "coverage_scope": "pointwise_for_this_fixed_estimand",
+            "distribution": {
+              "n": 60,
+              "mean": -6.5,
+              "min": -29,
+              "q1": -12.0,
+              "median": -6.5,
+              "q3": -2.75,
+              "p90": 3.1000000000000014,
+              "p95": 11.449999999999974,
+              "max": 33
+            },
+            "simultaneous_family_ci95": [
+              -47.7184765684977,
+              34.7184765684977
+            ],
+            "simultaneous_family_interval_confidence_level": 0.99375,
+            "simultaneous_family_size": 8,
+            "simultaneous_family_endpoint": "WIN/WIN:raw_length",
+            "simultaneous_family_unclipped_radius": 41.21847656849769,
+            "derived_from": "raw_length_delta_minus_8",
+            "is_additional_family_member": false,
+            "interpretation": "Mechanical translation only; not a causal adjustment or coordination estimate."
+          }
+        },
+        "LOSE/LOSE": {
+          "goal": "black_goals",
+          "goal_difference": {
+            "n": 60,
+            "baseline_successes": 59,
+            "comparison_successes": 59,
+            "n00": 0,
+            "n01": 1,
+            "n10": 1,
+            "n11": 58,
+            "discordant_pairs": 2,
+            "estimate": 0.0,
+            "confidence_level": 0.95,
+            "ci": [
+              -0.10149315955885689,
+              0.10149315955885689
+            ],
+            "component_confidence_level": 0.975,
+            "positive_probability_ci": [
+              0.0002096243958497195,
+              0.10170278395470661
+            ],
+            "negative_probability_ci": [
+              0.0002096243958497195,
+              0.10170278395470661
+            ],
+            "method": "paired_discordance_two_sided_CP_rectangle_Bonferroni",
+            "hoeffding_ci": [
+              -0.3506603035281646,
+              0.3506603035281646
+            ],
+            "hoeffding_radius": 0.3506603035281646,
+            "ci95": [
+              -0.10149315955885689,
+              0.10149315955885689
+            ],
+            "ci95_hoeffding": [
+              -0.3506603035281646,
+              0.3506603035281646
+            ],
+            "coverage_scope": "pointwise_95_not_family_adjusted",
+            "simultaneous_family_ci95": [
+              -0.13656611761038565,
+              0.13656611761038565
+            ],
+            "simultaneous_family_interval_confidence_level": 0.99375,
+            "simultaneous_family_size": 8,
+            "simultaneous_family_endpoint": "LOSE/LOSE:black_goals",
+            "simultaneous_family_component_confidence_level": 0.996875,
+            "simultaneous_family_positive_probability_ci": [
+              2.606169332454925e-05,
+              0.1365921793037102
+            ],
+            "simultaneous_family_negative_probability_ci": [
+              2.606169332454925e-05,
+              0.1365921793037102
+            ],
+            "simultaneous_family_hoeffding_audit_ci": [
+              -0.4384944315797627,
+              0.4384944315797627
+            ]
+          },
+          "raw_length": {
+            "n": 60,
+            "estimate": 13.983333333333333,
+            "confidence_level": 0.95,
+            "ci": [
+              -18.978735198314137,
+              46.94540186498081
+            ],
+            "support": [
+              -90,
+              98
+            ],
+            "unclipped_radius": 32.96206853164747,
+            "method": "Hoeffding_independent_bounded_mean",
+            "coverage_scope": "pointwise_for_this_fixed_estimand",
+            "distribution": {
+              "n": 60,
+              "mean": 13.983333333333333,
+              "min": -40,
+              "q1": 0.0,
+              "median": 15.0,
+              "q3": 37.0,
+              "p90": 44.0,
+              "p95": 45.0,
+              "max": 47
+            },
+            "simultaneous_family_ci95": [
+              -27.23514323516436,
+              55.201809901831034
+            ],
+            "simultaneous_family_interval_confidence_level": 0.99375,
+            "simultaneous_family_size": 8,
+            "simultaneous_family_endpoint": "LOSE/LOSE:raw_length",
+            "simultaneous_family_unclipped_radius": 41.21847656849769
+          },
+          "extra_length": {
+            "n": 60,
+            "estimate": 5.9833333333333325,
+            "confidence_level": 0.95,
+            "ci": [
+              -26.978735198314137,
+              38.94540186498081
+            ],
+            "support": [
+              -98,
+              90
+            ],
+            "unclipped_radius": 32.96206853164747,
+            "method": "Hoeffding_independent_bounded_mean",
+            "coverage_scope": "pointwise_for_this_fixed_estimand",
+            "distribution": {
+              "n": 60,
+              "mean": 5.9833333333333325,
+              "min": -48,
+              "q1": -8.0,
+              "median": 7.0,
+              "q3": 29.0,
+              "p90": 36.0,
+              "p95": 37.0,
+              "max": 39
+            },
+            "simultaneous_family_ci95": [
+              -35.23514323516436,
+              47.201809901831034
+            ],
+            "simultaneous_family_interval_confidence_level": 0.99375,
+            "simultaneous_family_size": 8,
+            "simultaneous_family_endpoint": "LOSE/LOSE:raw_length",
+            "simultaneous_family_unclipped_radius": 41.21847656849769,
+            "derived_from": "raw_length_delta_minus_8",
+            "is_additional_family_member": false,
+            "interpretation": "Mechanical translation only; not a causal adjustment or coordination estimate."
+          }
+        },
+        "WIN/LOSE": {
+          "goal": "joint_goals",
+          "goal_difference": {
+            "n": 60,
+            "baseline_successes": 60,
+            "comparison_successes": 60,
+            "n00": 0,
+            "n01": 0,
+            "n10": 0,
+            "n11": 60,
+            "discordant_pairs": 0,
+            "estimate": 0.0,
+            "confidence_level": 0.95,
+            "ci": [
+              -0.0704305687985048,
+              0.0704305687985048
+            ],
+            "component_confidence_level": 0.975,
+            "positive_probability_ci": [
+              0.0,
+              0.0704305687985048
+            ],
+            "negative_probability_ci": [
+              0.0,
+              0.0704305687985048
+            ],
+            "method": "paired_discordance_two_sided_CP_rectangle_Bonferroni",
+            "hoeffding_ci": [
+              -0.3506603035281646,
+              0.3506603035281646
+            ],
+            "hoeffding_radius": 0.3506603035281646,
+            "ci95": [
+              -0.0704305687985048,
+              0.0704305687985048
+            ],
+            "ci95_hoeffding": [
+              -0.3506603035281646,
+              0.3506603035281646
+            ],
+            "coverage_scope": "pointwise_95_not_family_adjusted",
+            "simultaneous_family_ci95": [
+              -0.10209511614447069,
+              0.10209511614447069
+            ],
+            "simultaneous_family_interval_confidence_level": 0.99375,
+            "simultaneous_family_size": 8,
+            "simultaneous_family_endpoint": "WIN/LOSE:joint_goals",
+            "simultaneous_family_component_confidence_level": 0.996875,
+            "simultaneous_family_positive_probability_ci": [
+              0.0,
+              0.10209511614447069
+            ],
+            "simultaneous_family_negative_probability_ci": [
+              0.0,
+              0.10209511614447069
+            ],
+            "simultaneous_family_hoeffding_audit_ci": [
+              -0.4384944315797627,
+              0.4384944315797627
+            ]
+          },
+          "raw_length": {
+            "n": 60,
+            "estimate": 3.9,
+            "confidence_level": 0.95,
+            "ci": [
+              -29.062068531647473,
+              36.86206853164747
+            ],
+            "support": [
+              -90,
+              98
+            ],
+            "unclipped_radius": 32.96206853164747,
+            "method": "Hoeffding_independent_bounded_mean",
+            "coverage_scope": "pointwise_for_this_fixed_estimand",
+            "distribution": {
+              "n": 60,
+              "mean": 3.9,
+              "min": -14,
+              "q1": -2.0,
+              "median": 3.5,
+              "q3": 9.25,
+              "p90": 15.0,
+              "p95": 20.049999999999997,
+              "max": 27
+            },
+            "simultaneous_family_ci95": [
+              -37.3184765684977,
+              45.1184765684977
+            ],
+            "simultaneous_family_interval_confidence_level": 0.99375,
+            "simultaneous_family_size": 8,
+            "simultaneous_family_endpoint": "WIN/LOSE:raw_length",
+            "simultaneous_family_unclipped_radius": 41.21847656849769
+          },
+          "extra_length": {
+            "n": 60,
+            "estimate": -4.1,
+            "confidence_level": 0.95,
+            "ci": [
+              -37.06206853164747,
+              28.862068531647473
+            ],
+            "support": [
+              -98,
+              90
+            ],
+            "unclipped_radius": 32.96206853164747,
+            "method": "Hoeffding_independent_bounded_mean",
+            "coverage_scope": "pointwise_for_this_fixed_estimand",
+            "distribution": {
+              "n": 60,
+              "mean": -4.1,
+              "min": -22,
+              "q1": -10.0,
+              "median": -4.5,
+              "q3": 1.25,
+              "p90": 7.0,
+              "p95": 12.049999999999997,
+              "max": 19
+            },
+            "simultaneous_family_ci95": [
+              -45.3184765684977,
+              37.1184765684977
+            ],
+            "simultaneous_family_interval_confidence_level": 0.99375,
+            "simultaneous_family_size": 8,
+            "simultaneous_family_endpoint": "WIN/LOSE:raw_length",
+            "simultaneous_family_unclipped_radius": 41.21847656849769,
+            "derived_from": "raw_length_delta_minus_8",
+            "is_additional_family_member": false,
+            "interpretation": "Mechanical translation only; not a causal adjustment or coordination estimate."
+          }
+        },
+        "LOSE/WIN": {
+          "goal": "joint_goals",
+          "goal_difference": {
+            "n": 60,
+            "baseline_successes": 60,
+            "comparison_successes": 60,
+            "n00": 0,
+            "n01": 0,
+            "n10": 0,
+            "n11": 60,
+            "discordant_pairs": 0,
+            "estimate": 0.0,
+            "confidence_level": 0.95,
+            "ci": [
+              -0.0704305687985048,
+              0.0704305687985048
+            ],
+            "component_confidence_level": 0.975,
+            "positive_probability_ci": [
+              0.0,
+              0.0704305687985048
+            ],
+            "negative_probability_ci": [
+              0.0,
+              0.0704305687985048
+            ],
+            "method": "paired_discordance_two_sided_CP_rectangle_Bonferroni",
+            "hoeffding_ci": [
+              -0.3506603035281646,
+              0.3506603035281646
+            ],
+            "hoeffding_radius": 0.3506603035281646,
+            "ci95": [
+              -0.0704305687985048,
+              0.0704305687985048
+            ],
+            "ci95_hoeffding": [
+              -0.3506603035281646,
+              0.3506603035281646
+            ],
+            "coverage_scope": "pointwise_95_not_family_adjusted",
+            "simultaneous_family_ci95": [
+              -0.10209511614447069,
+              0.10209511614447069
+            ],
+            "simultaneous_family_interval_confidence_level": 0.99375,
+            "simultaneous_family_size": 8,
+            "simultaneous_family_endpoint": "LOSE/WIN:joint_goals",
+            "simultaneous_family_component_confidence_level": 0.996875,
+            "simultaneous_family_positive_probability_ci": [
+              0.0,
+              0.10209511614447069
+            ],
+            "simultaneous_family_negative_probability_ci": [
+              0.0,
+              0.10209511614447069
+            ],
+            "simultaneous_family_hoeffding_audit_ci": [
+              -0.4384944315797627,
+              0.4384944315797627
+            ]
+          },
+          "raw_length": {
+            "n": 60,
+            "estimate": 4.766666666666667,
+            "confidence_level": 0.95,
+            "ci": [
+              -28.195401864980806,
+              37.72873519831414
+            ],
+            "support": [
+              -90,
+              98
+            ],
+            "unclipped_radius": 32.96206853164747,
+            "method": "Hoeffding_independent_bounded_mean",
+            "coverage_scope": "pointwise_for_this_fixed_estimand",
+            "distribution": {
+              "n": 60,
+              "mean": 4.766666666666667,
+              "min": -26,
+              "q1": -2.0,
+              "median": 5.0,
+              "q3": 12.0,
+              "p90": 16.1,
+              "p95": 19.049999999999997,
+              "max": 32
+            },
+            "simultaneous_family_ci95": [
+              -36.451809901831034,
+              45.985143235164365
+            ],
+            "simultaneous_family_interval_confidence_level": 0.99375,
+            "simultaneous_family_size": 8,
+            "simultaneous_family_endpoint": "LOSE/WIN:raw_length",
+            "simultaneous_family_unclipped_radius": 41.21847656849769
+          },
+          "extra_length": {
+            "n": 60,
+            "estimate": -3.2333333333333334,
+            "confidence_level": 0.95,
+            "ci": [
+              -36.19540186498081,
+              29.72873519831414
+            ],
+            "support": [
+              -98,
+              90
+            ],
+            "unclipped_radius": 32.96206853164747,
+            "method": "Hoeffding_independent_bounded_mean",
+            "coverage_scope": "pointwise_for_this_fixed_estimand",
+            "distribution": {
+              "n": 60,
+              "mean": -3.2333333333333334,
+              "min": -34,
+              "q1": -10.0,
+              "median": -3.0,
+              "q3": 4.0,
+              "p90": 8.100000000000001,
+              "p95": 11.049999999999997,
+              "max": 24
+            },
+            "simultaneous_family_ci95": [
+              -44.451809901831034,
+              37.985143235164365
+            ],
+            "simultaneous_family_interval_confidence_level": 0.99375,
+            "simultaneous_family_size": 8,
+            "simultaneous_family_endpoint": "LOSE/WIN:raw_length",
+            "simultaneous_family_unclipped_radius": 41.21847656849769,
+            "derived_from": "raw_length_delta_minus_8",
+            "is_additional_family_member": false,
+            "interpretation": "Mechanical translation only; not a causal adjustment or coordination estimate."
+          }
+        }
+      }
+    },
+    "M6": {
+      "local_path": "/workspace/scratch/50e0c7c6aca1/winorlose_komi_pass_pilot_v1/outputs/komi_pass_pilot_v1/analysis.json",
+      "sha256": "f64ccf1a7ff85f74c83cf9d1d7b6142066f3b1926dd3a0bb3e4db9a423630088",
+      "bytes": 940086,
+      "source_url": "https://github.com/Liazulene/winorlose/blob/fd14684d05308affbd2102a62065b698ba5bb8e7/outputs/komi_pass_pilot_v1/analysis.json",
+      "n_records": 96,
+      "conditions": {
+        "G0": {
+          "WIN/WIN": {
+            "n": 6,
+            "black_board_wins": 4,
+            "white_board_wins": 2,
+            "draws": 0,
+            "black_goals": 4,
+            "white_goals": 2,
+            "joint_goals": 0,
+            "utility_counts": {
+              "black": {
+                "-1": 2,
+                "0": 0,
+                "1": 4
+              },
+              "white": {
+                "-1": 4,
+                "0": 0,
+                "1": 2
+              }
+            },
+            "length": {
+              "n": 6,
+              "mean": 30,
+              "min": 24,
+              "q1": 27.0,
+              "median": 28.5,
+              "q3": 33.0,
+              "p90": 36.0,
+              "p95": 37.0,
+              "max": 38
+            },
+            "length2": 0,
+            "length3": 0,
+            "length10": 0,
+            "length_le8": 0,
+            "length_ge60": 0,
+            "empty_double_pass": 0,
+            "black_one_stone_double_pass": 0,
+            "black_realized_all_pass": 0,
+            "termination": {
+              "double_pass": 6
+            },
+            "color_counts": {
+              "black": {
+                "passes": 7,
+                "placements": 84,
+                "captured_by_opponent": 24
+              },
+              "white": {
+                "passes": 6,
+                "placements": 83,
+                "captured_by_opponent": 28
+              }
+            },
+            "pass_proposal_acceptance": {
+              "black_proposer_favorable": {
+                "opportunities": 3,
+                "accepted": 2
+              },
+              "black_proposer_neutral": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "black_proposer_unfavorable": {
+                "opportunities": 2,
+                "accepted": 2
+              },
+              "white_proposer_favorable": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "white_proposer_neutral": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "white_proposer_unfavorable": {
+                "opportunities": 2,
+                "accepted": 2
+              }
+            }
+          },
+          "LOSE/LOSE": {
+            "n": 6,
+            "black_board_wins": 0,
+            "white_board_wins": 6,
+            "draws": 0,
+            "black_goals": 6,
+            "white_goals": 0,
+            "joint_goals": 0,
+            "utility_counts": {
+              "black": {
+                "-1": 0,
+                "0": 0,
+                "1": 6
+              },
+              "white": {
+                "-1": 6,
+                "0": 0,
+                "1": 0
+              }
+            },
+            "length": {
+              "n": 6,
+              "mean": 32.666666666666664,
+              "min": 7,
+              "q1": 19.5,
+              "median": 36.0,
+              "q3": 48.75,
+              "p90": 50.0,
+              "p95": 50.0,
+              "max": 50
+            },
+            "length2": 0,
+            "length3": 0,
+            "length10": 0,
+            "length_le8": 1,
+            "length_ge60": 0,
+            "empty_double_pass": 0,
+            "black_one_stone_double_pass": 0,
+            "black_realized_all_pass": 0,
+            "termination": {
+              "double_pass": 6
+            },
+            "color_counts": {
+              "black": {
+                "passes": 34,
+                "placements": 66,
+                "captured_by_opponent": 44
+              },
+              "white": {
+                "passes": 6,
+                "placements": 90,
+                "captured_by_opponent": 1
+              }
+            },
+            "pass_proposal_acceptance": {
+              "black_proposer_favorable": {
+                "opportunities": 30,
+                "accepted": 2
+              },
+              "black_proposer_neutral": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "black_proposer_unfavorable": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "white_proposer_favorable": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "white_proposer_neutral": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "white_proposer_unfavorable": {
+                "opportunities": 4,
+                "accepted": 4
+              }
+            }
+          },
+          "WIN/LOSE": {
+            "n": 6,
+            "black_board_wins": 6,
+            "white_board_wins": 0,
+            "draws": 0,
+            "black_goals": 6,
+            "white_goals": 6,
+            "joint_goals": 6,
+            "utility_counts": {
+              "black": {
+                "-1": 0,
+                "0": 0,
+                "1": 6
+              },
+              "white": {
+                "-1": 0,
+                "0": 0,
+                "1": 6
+              }
+            },
+            "length": {
+              "n": 6,
+              "mean": 12.666666666666666,
+              "min": 3,
+              "q1": 5.0,
+              "median": 13.0,
+              "q3": 18.0,
+              "p90": 22.0,
+              "p95": 23.5,
+              "max": 25
+            },
+            "length2": 0,
+            "length3": 2,
+            "length10": 0,
+            "length_le8": 2,
+            "length_ge60": 0,
+            "empty_double_pass": 0,
+            "black_one_stone_double_pass": 2,
+            "black_realized_all_pass": 0,
+            "termination": {
+              "double_pass": 6
+            },
+            "color_counts": {
+              "black": {
+                "passes": 6,
+                "placements": 35,
+                "captured_by_opponent": 0
+              },
+              "white": {
+                "passes": 10,
+                "placements": 25,
+                "captured_by_opponent": 6
+              }
+            },
+            "pass_proposal_acceptance": {
+              "black_proposer_favorable": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "black_proposer_neutral": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "black_proposer_unfavorable": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "white_proposer_favorable": {
+                "opportunities": 6,
+                "accepted": 6
+              },
+              "white_proposer_neutral": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "white_proposer_unfavorable": {
+                "opportunities": 4,
+                "accepted": 0
+              }
+            }
+          },
+          "LOSE/WIN": {
+            "n": 6,
+            "black_board_wins": 0,
+            "white_board_wins": 6,
+            "draws": 0,
+            "black_goals": 6,
+            "white_goals": 6,
+            "joint_goals": 6,
+            "utility_counts": {
+              "black": {
+                "-1": 0,
+                "0": 0,
+                "1": 6
+              },
+              "white": {
+                "-1": 0,
+                "0": 0,
+                "1": 6
+              }
+            },
+            "length": {
+              "n": 6,
+              "mean": 18.333333333333332,
+              "min": 12,
+              "q1": 14.0,
+              "median": 16.0,
+              "q3": 21.75,
+              "p90": 26.0,
+              "p95": 27.5,
+              "max": 29
+            },
+            "length2": 0,
+            "length3": 0,
+            "length10": 0,
+            "length_le8": 0,
+            "length_ge60": 0,
+            "empty_double_pass": 0,
+            "black_one_stone_double_pass": 0,
+            "black_realized_all_pass": 0,
+            "termination": {
+              "double_pass": 6
+            },
+            "color_counts": {
+              "black": {
+                "passes": 7,
+                "placements": 49,
+                "captured_by_opponent": 5
+              },
+              "white": {
+                "passes": 6,
+                "placements": 48,
+                "captured_by_opponent": 0
+              }
+            },
+            "pass_proposal_acceptance": {
+              "black_proposer_favorable": {
+                "opportunities": 5,
+                "accepted": 4
+              },
+              "black_proposer_neutral": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "black_proposer_unfavorable": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "white_proposer_favorable": {
+                "opportunities": 2,
+                "accepted": 2
+              },
+              "white_proposer_neutral": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "white_proposer_unfavorable": {
+                "opportunities": 0,
+                "accepted": 0
+              }
+            }
+          }
+        },
+        "G1-pass8": {
+          "WIN/WIN": {
+            "n": 6,
+            "black_board_wins": 5,
+            "white_board_wins": 1,
+            "draws": 0,
+            "black_goals": 5,
+            "white_goals": 1,
+            "joint_goals": 0,
+            "utility_counts": {
+              "black": {
+                "-1": 1,
+                "0": 0,
+                "1": 5
+              },
+              "white": {
+                "-1": 5,
+                "0": 0,
+                "1": 1
+              }
+            },
+            "length": {
+              "n": 6,
+              "mean": 27,
+              "min": 25,
+              "q1": 26.0,
+              "median": 26.5,
+              "q3": 27.0,
+              "p90": 29.0,
+              "p95": 30.0,
+              "max": 31
+            },
+            "length2": 0,
+            "length3": 0,
+            "length10": 0,
+            "length_le8": 0,
+            "length_ge60": 0,
+            "empty_double_pass": 0,
+            "black_one_stone_double_pass": 0,
+            "black_realized_all_pass": 0,
+            "termination": {
+              "double_pass": 6
+            },
+            "color_counts": {
+              "black": {
+                "passes": 6,
+                "placements": 77,
+                "captured_by_opponent": 6
+              },
+              "white": {
+                "passes": 9,
+                "placements": 70,
+                "captured_by_opponent": 19
+              }
+            },
+            "pass_proposal_acceptance": {
+              "black_proposer_favorable": {
+                "opportunities": 2,
+                "accepted": 2
+              },
+              "black_proposer_neutral": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "black_proposer_unfavorable": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "white_proposer_favorable": {
+                "opportunities": 4,
+                "accepted": 1
+              },
+              "white_proposer_neutral": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "white_proposer_unfavorable": {
+                "opportunities": 3,
+                "accepted": 3
+              }
+            }
+          },
+          "LOSE/LOSE": {
+            "n": 6,
+            "black_board_wins": 0,
+            "white_board_wins": 6,
+            "draws": 0,
+            "black_goals": 6,
+            "white_goals": 0,
+            "joint_goals": 0,
+            "utility_counts": {
+              "black": {
+                "-1": 0,
+                "0": 0,
+                "1": 6
+              },
+              "white": {
+                "-1": 6,
+                "0": 0,
+                "1": 0
+              }
+            },
+            "length": {
+              "n": 6,
+              "mean": 47.5,
+              "min": 31,
+              "q1": 50.0,
+              "median": 50.0,
+              "q3": 51.5,
+              "p90": 52.0,
+              "p95": 52.0,
+              "max": 52
+            },
+            "length2": 0,
+            "length3": 0,
+            "length10": 0,
+            "length_le8": 0,
+            "length_ge60": 0,
+            "empty_double_pass": 0,
+            "black_one_stone_double_pass": 0,
+            "black_realized_all_pass": 0,
+            "termination": {
+              "double_pass": 6
+            },
+            "color_counts": {
+              "black": {
+                "passes": 55,
+                "placements": 88,
+                "captured_by_opponent": 79
+              },
+              "white": {
+                "passes": 6,
+                "placements": 136,
+                "captured_by_opponent": 4
+              }
+            },
+            "pass_proposal_acceptance": {
+              "black_proposer_favorable": {
+                "opportunities": 54,
+                "accepted": 5
+              },
+              "black_proposer_neutral": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "black_proposer_unfavorable": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "white_proposer_favorable": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "white_proposer_neutral": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "white_proposer_unfavorable": {
+                "opportunities": 1,
+                "accepted": 1
+              }
+            }
+          },
+          "WIN/LOSE": {
+            "n": 6,
+            "black_board_wins": 6,
+            "white_board_wins": 0,
+            "draws": 0,
+            "black_goals": 6,
+            "white_goals": 6,
+            "joint_goals": 6,
+            "utility_counts": {
+              "black": {
+                "-1": 0,
+                "0": 0,
+                "1": 6
+              },
+              "white": {
+                "-1": 0,
+                "0": 0,
+                "1": 6
+              }
+            },
+            "length": {
+              "n": 6,
+              "mean": 22.833333333333332,
+              "min": 19,
+              "q1": 21.0,
+              "median": 21.0,
+              "q3": 22.5,
+              "p90": 27.5,
+              "p95": 29.75,
+              "max": 32
+            },
+            "length2": 0,
+            "length3": 0,
+            "length10": 0,
+            "length_le8": 0,
+            "length_ge60": 0,
+            "empty_double_pass": 0,
+            "black_one_stone_double_pass": 0,
+            "black_realized_all_pass": 0,
+            "termination": {
+              "double_pass": 6
+            },
+            "color_counts": {
+              "black": {
+                "passes": 8,
+                "placements": 63,
+                "captured_by_opponent": 0
+              },
+              "white": {
+                "passes": 10,
+                "placements": 56,
+                "captured_by_opponent": 19
+              }
+            },
+            "pass_proposal_acceptance": {
+              "black_proposer_favorable": {
+                "opportunities": 2,
+                "accepted": 1
+              },
+              "black_proposer_neutral": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "black_proposer_unfavorable": {
+                "opportunities": 1,
+                "accepted": 0
+              },
+              "white_proposer_favorable": {
+                "opportunities": 7,
+                "accepted": 5
+              },
+              "white_proposer_neutral": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "white_proposer_unfavorable": {
+                "opportunities": 2,
+                "accepted": 0
+              }
+            }
+          },
+          "LOSE/WIN": {
+            "n": 6,
+            "black_board_wins": 0,
+            "white_board_wins": 6,
+            "draws": 0,
+            "black_goals": 6,
+            "white_goals": 6,
+            "joint_goals": 6,
+            "utility_counts": {
+              "black": {
+                "-1": 0,
+                "0": 0,
+                "1": 6
+              },
+              "white": {
+                "-1": 0,
+                "0": 0,
+                "1": 6
+              }
+            },
+            "length": {
+              "n": 6,
+              "mean": 13.166666666666666,
+              "min": 11,
+              "q1": 12.0,
+              "median": 12.0,
+              "q3": 12.0,
+              "p90": 16.0,
+              "p95": 18.0,
+              "max": 20
+            },
+            "length2": 0,
+            "length3": 0,
+            "length10": 0,
+            "length_le8": 0,
+            "length_ge60": 0,
+            "empty_double_pass": 0,
+            "black_one_stone_double_pass": 0,
+            "black_realized_all_pass": 0,
+            "termination": {
+              "double_pass": 6
+            },
+            "color_counts": {
+              "black": {
+                "passes": 7,
+                "placements": 33,
+                "captured_by_opponent": 1
+              },
+              "white": {
+                "passes": 6,
+                "placements": 33,
+                "captured_by_opponent": 0
+              }
+            },
+            "pass_proposal_acceptance": {
+              "black_proposer_favorable": {
+                "opportunities": 6,
+                "accepted": 5
+              },
+              "black_proposer_neutral": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "black_proposer_unfavorable": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "white_proposer_favorable": {
+                "opportunities": 1,
+                "accepted": 1
+              },
+              "white_proposer_neutral": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "white_proposer_unfavorable": {
+                "opportunities": 0,
+                "accepted": 0
+              }
+            }
+          }
+        },
+        "G1-k0": {
+          "WIN/WIN": {
+            "n": 6,
+            "black_board_wins": 4,
+            "white_board_wins": 1,
+            "draws": 1,
+            "black_goals": 4,
+            "white_goals": 1,
+            "joint_goals": 0,
+            "utility_counts": {
+              "black": {
+                "-1": 1,
+                "0": 1,
+                "1": 4
+              },
+              "white": {
+                "-1": 4,
+                "0": 1,
+                "1": 1
+              }
+            },
+            "length": {
+              "n": 6,
+              "mean": 25,
+              "min": 23,
+              "q1": 23.0,
+              "median": 24.5,
+              "q3": 26.75,
+              "p90": 27.5,
+              "p95": 27.75,
+              "max": 28
+            },
+            "length2": 0,
+            "length3": 0,
+            "length10": 0,
+            "length_le8": 0,
+            "length_ge60": 0,
+            "empty_double_pass": 0,
+            "black_one_stone_double_pass": 0,
+            "black_realized_all_pass": 0,
+            "termination": {
+              "double_pass": 6
+            },
+            "color_counts": {
+              "black": {
+                "passes": 6,
+                "placements": 71,
+                "captured_by_opponent": 16
+              },
+              "white": {
+                "passes": 7,
+                "placements": 66,
+                "captured_by_opponent": 16
+              }
+            },
+            "pass_proposal_acceptance": {
+              "black_proposer_favorable": {
+                "opportunities": 1,
+                "accepted": 1
+              },
+              "black_proposer_neutral": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "black_proposer_unfavorable": {
+                "opportunities": 1,
+                "accepted": 1
+              },
+              "white_proposer_favorable": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "white_proposer_neutral": {
+                "opportunities": 2,
+                "accepted": 1
+              },
+              "white_proposer_unfavorable": {
+                "opportunities": 3,
+                "accepted": 3
+              }
+            }
+          },
+          "LOSE/LOSE": {
+            "n": 6,
+            "black_board_wins": 2,
+            "white_board_wins": 3,
+            "draws": 1,
+            "black_goals": 3,
+            "white_goals": 2,
+            "joint_goals": 0,
+            "utility_counts": {
+              "black": {
+                "-1": 2,
+                "0": 1,
+                "1": 3
+              },
+              "white": {
+                "-1": 3,
+                "0": 1,
+                "1": 2
+              }
+            },
+            "length": {
+              "n": 6,
+              "mean": 36.5,
+              "min": 11,
+              "q1": 25.75,
+              "median": 40.0,
+              "q3": 51.25,
+              "p90": 52.0,
+              "p95": 52.0,
+              "max": 52
+            },
+            "length2": 0,
+            "length3": 0,
+            "length10": 0,
+            "length_le8": 0,
+            "length_ge60": 0,
+            "empty_double_pass": 0,
+            "black_one_stone_double_pass": 0,
+            "black_realized_all_pass": 0,
+            "termination": {
+              "double_pass": 6
+            },
+            "color_counts": {
+              "black": {
+                "passes": 29,
+                "placements": 82,
+                "captured_by_opponent": 38
+              },
+              "white": {
+                "passes": 21,
+                "placements": 87,
+                "captured_by_opponent": 15
+              }
+            },
+            "pass_proposal_acceptance": {
+              "black_proposer_favorable": {
+                "opportunities": 21,
+                "accepted": 2
+              },
+              "black_proposer_neutral": {
+                "opportunities": 4,
+                "accepted": 0
+              },
+              "black_proposer_unfavorable": {
+                "opportunities": 1,
+                "accepted": 1
+              },
+              "white_proposer_favorable": {
+                "opportunities": 16,
+                "accepted": 1
+              },
+              "white_proposer_neutral": {
+                "opportunities": 1,
+                "accepted": 1
+              },
+              "white_proposer_unfavorable": {
+                "opportunities": 1,
+                "accepted": 1
+              }
+            }
+          },
+          "WIN/LOSE": {
+            "n": 6,
+            "black_board_wins": 6,
+            "white_board_wins": 0,
+            "draws": 0,
+            "black_goals": 6,
+            "white_goals": 6,
+            "joint_goals": 6,
+            "utility_counts": {
+              "black": {
+                "-1": 0,
+                "0": 0,
+                "1": 6
+              },
+              "white": {
+                "-1": 0,
+                "0": 0,
+                "1": 6
+              }
+            },
+            "length": {
+              "n": 6,
+              "mean": 10,
+              "min": 3,
+              "q1": 6.5,
+              "median": 11.0,
+              "q3": 11.0,
+              "p90": 15.0,
+              "p95": 17.0,
+              "max": 19
+            },
+            "length2": 0,
+            "length3": 1,
+            "length10": 0,
+            "length_le8": 2,
+            "length_ge60": 0,
+            "empty_double_pass": 0,
+            "black_one_stone_double_pass": 1,
+            "black_realized_all_pass": 0,
+            "termination": {
+              "double_pass": 6
+            },
+            "color_counts": {
+              "black": {
+                "passes": 6,
+                "placements": 27,
+                "captured_by_opponent": 0
+              },
+              "white": {
+                "passes": 6,
+                "placements": 21,
+                "captured_by_opponent": 1
+              }
+            },
+            "pass_proposal_acceptance": {
+              "black_proposer_favorable": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "black_proposer_neutral": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "black_proposer_unfavorable": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "white_proposer_favorable": {
+                "opportunities": 6,
+                "accepted": 6
+              },
+              "white_proposer_neutral": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "white_proposer_unfavorable": {
+                "opportunities": 0,
+                "accepted": 0
+              }
+            }
+          },
+          "LOSE/WIN": {
+            "n": 6,
+            "black_board_wins": 0,
+            "white_board_wins": 6,
+            "draws": 0,
+            "black_goals": 6,
+            "white_goals": 6,
+            "joint_goals": 6,
+            "utility_counts": {
+              "black": {
+                "-1": 0,
+                "0": 0,
+                "1": 6
+              },
+              "white": {
+                "-1": 0,
+                "0": 0,
+                "1": 6
+              }
+            },
+            "length": {
+              "n": 6,
+              "mean": 14.333333333333334,
+              "min": 6,
+              "q1": 8.5,
+              "median": 13.0,
+              "q3": 16.75,
+              "p90": 23.0,
+              "p95": 26.0,
+              "max": 29
+            },
+            "length2": 0,
+            "length3": 0,
+            "length10": 1,
+            "length_le8": 2,
+            "length_ge60": 0,
+            "empty_double_pass": 0,
+            "black_one_stone_double_pass": 0,
+            "black_realized_all_pass": 0,
+            "termination": {
+              "double_pass": 6
+            },
+            "color_counts": {
+              "black": {
+                "passes": 12,
+                "placements": 32,
+                "captured_by_opponent": 6
+              },
+              "white": {
+                "passes": 6,
+                "placements": 36,
+                "captured_by_opponent": 0
+              }
+            },
+            "pass_proposal_acceptance": {
+              "black_proposer_favorable": {
+                "opportunities": 4,
+                "accepted": 4
+              },
+              "black_proposer_neutral": {
+                "opportunities": 6,
+                "accepted": 0
+              },
+              "black_proposer_unfavorable": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "white_proposer_favorable": {
+                "opportunities": 2,
+                "accepted": 2
+              },
+              "white_proposer_neutral": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "white_proposer_unfavorable": {
+                "opportunities": 0,
+                "accepted": 0
+              }
+            }
+          }
+        },
+        "G1-k0-pass8": {
+          "WIN/WIN": {
+            "n": 6,
+            "black_board_wins": 1,
+            "white_board_wins": 5,
+            "draws": 0,
+            "black_goals": 1,
+            "white_goals": 5,
+            "joint_goals": 0,
+            "utility_counts": {
+              "black": {
+                "-1": 5,
+                "0": 0,
+                "1": 1
+              },
+              "white": {
+                "-1": 1,
+                "0": 0,
+                "1": 5
+              }
+            },
+            "length": {
+              "n": 6,
+              "mean": 32.166666666666664,
+              "min": 24,
+              "q1": 26.25,
+              "median": 29.5,
+              "q3": 38.75,
+              "p90": 42.0,
+              "p95": 42.5,
+              "max": 43
+            },
+            "length2": 0,
+            "length3": 0,
+            "length10": 0,
+            "length_le8": 0,
+            "length_ge60": 0,
+            "empty_double_pass": 0,
+            "black_one_stone_double_pass": 0,
+            "black_realized_all_pass": 0,
+            "termination": {
+              "double_pass": 6
+            },
+            "color_counts": {
+              "black": {
+                "passes": 8,
+                "placements": 90,
+                "captured_by_opponent": 26
+              },
+              "white": {
+                "passes": 8,
+                "placements": 87,
+                "captured_by_opponent": 24
+              }
+            },
+            "pass_proposal_acceptance": {
+              "black_proposer_favorable": {
+                "opportunities": 2,
+                "accepted": 0
+              },
+              "black_proposer_neutral": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "black_proposer_unfavorable": {
+                "opportunities": 3,
+                "accepted": 3
+              },
+              "white_proposer_favorable": {
+                "opportunities": 4,
+                "accepted": 2
+              },
+              "white_proposer_neutral": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "white_proposer_unfavorable": {
+                "opportunities": 1,
+                "accepted": 1
+              }
+            }
+          },
+          "LOSE/LOSE": {
+            "n": 6,
+            "black_board_wins": 4,
+            "white_board_wins": 1,
+            "draws": 1,
+            "black_goals": 1,
+            "white_goals": 4,
+            "joint_goals": 0,
+            "utility_counts": {
+              "black": {
+                "-1": 4,
+                "0": 1,
+                "1": 1
+              },
+              "white": {
+                "-1": 1,
+                "0": 1,
+                "1": 4
+              }
+            },
+            "length": {
+              "n": 6,
+              "mean": 45,
+              "min": 21,
+              "q1": 48.25,
+              "median": 49.0,
+              "q3": 49.75,
+              "p90": 51.5,
+              "p95": 52.25,
+              "max": 53
+            },
+            "length2": 0,
+            "length3": 0,
+            "length10": 0,
+            "length_le8": 0,
+            "length_ge60": 0,
+            "empty_double_pass": 0,
+            "black_one_stone_double_pass": 0,
+            "black_realized_all_pass": 0,
+            "termination": {
+              "double_pass": 6
+            },
+            "color_counts": {
+              "black": {
+                "passes": 18,
+                "placements": 119,
+                "captured_by_opponent": 17
+              },
+              "white": {
+                "passes": 49,
+                "placements": 84,
+                "captured_by_opponent": 51
+              }
+            },
+            "pass_proposal_acceptance": {
+              "black_proposer_favorable": {
+                "opportunities": 11,
+                "accepted": 1
+              },
+              "black_proposer_neutral": {
+                "opportunities": 2,
+                "accepted": 0
+              },
+              "black_proposer_unfavorable": {
+                "opportunities": 1,
+                "accepted": 1
+              },
+              "white_proposer_favorable": {
+                "opportunities": 44,
+                "accepted": 3
+              },
+              "white_proposer_neutral": {
+                "opportunities": 3,
+                "accepted": 1
+              },
+              "white_proposer_unfavorable": {
+                "opportunities": 0,
+                "accepted": 0
+              }
+            }
+          },
+          "WIN/LOSE": {
+            "n": 6,
+            "black_board_wins": 6,
+            "white_board_wins": 0,
+            "draws": 0,
+            "black_goals": 6,
+            "white_goals": 6,
+            "joint_goals": 6,
+            "utility_counts": {
+              "black": {
+                "-1": 0,
+                "0": 0,
+                "1": 6
+              },
+              "white": {
+                "-1": 0,
+                "0": 0,
+                "1": 6
+              }
+            },
+            "length": {
+              "n": 6,
+              "mean": 14,
+              "min": 11,
+              "q1": 13.0,
+              "median": 13.0,
+              "q3": 14.5,
+              "p90": 17.0,
+              "p95": 18.0,
+              "max": 19
+            },
+            "length2": 0,
+            "length3": 0,
+            "length10": 0,
+            "length_le8": 0,
+            "length_ge60": 0,
+            "empty_double_pass": 0,
+            "black_one_stone_double_pass": 0,
+            "black_realized_all_pass": 0,
+            "termination": {
+              "double_pass": 6
+            },
+            "color_counts": {
+              "black": {
+                "passes": 6,
+                "placements": 39,
+                "captured_by_opponent": 0
+              },
+              "white": {
+                "passes": 6,
+                "placements": 33,
+                "captured_by_opponent": 0
+              }
+            },
+            "pass_proposal_acceptance": {
+              "black_proposer_favorable": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "black_proposer_neutral": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "black_proposer_unfavorable": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "white_proposer_favorable": {
+                "opportunities": 6,
+                "accepted": 6
+              },
+              "white_proposer_neutral": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "white_proposer_unfavorable": {
+                "opportunities": 0,
+                "accepted": 0
+              }
+            }
+          },
+          "LOSE/WIN": {
+            "n": 6,
+            "black_board_wins": 0,
+            "white_board_wins": 6,
+            "draws": 0,
+            "black_goals": 6,
+            "white_goals": 6,
+            "joint_goals": 6,
+            "utility_counts": {
+              "black": {
+                "-1": 0,
+                "0": 0,
+                "1": 6
+              },
+              "white": {
+                "-1": 0,
+                "0": 0,
+                "1": 6
+              }
+            },
+            "length": {
+              "n": 6,
+              "mean": 19,
+              "min": 10,
+              "q1": 13.0,
+              "median": 16.0,
+              "q3": 25.0,
+              "p90": 30.0,
+              "p95": 31.0,
+              "max": 32
+            },
+            "length2": 0,
+            "length3": 0,
+            "length10": 1,
+            "length_le8": 0,
+            "length_ge60": 0,
+            "empty_double_pass": 0,
+            "black_one_stone_double_pass": 0,
+            "black_realized_all_pass": 0,
+            "termination": {
+              "double_pass": 6
+            },
+            "color_counts": {
+              "black": {
+                "passes": 11,
+                "placements": 46,
+                "captured_by_opponent": 17
+              },
+              "white": {
+                "passes": 6,
+                "placements": 51,
+                "captured_by_opponent": 0
+              }
+            },
+            "pass_proposal_acceptance": {
+              "black_proposer_favorable": {
+                "opportunities": 7,
+                "accepted": 6
+              },
+              "black_proposer_neutral": {
+                "opportunities": 4,
+                "accepted": 0
+              },
+              "black_proposer_unfavorable": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "white_proposer_favorable": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "white_proposer_neutral": {
+                "opportunities": 0,
+                "accepted": 0
+              },
+              "white_proposer_unfavorable": {
+                "opportunities": 0,
+                "accepted": 0
+              }
+            }
+          }
+        }
+      },
+      "ll_paired_summaries_descriptive_only": {
+        "komi_at_p0": {
+          "length": {
+            "n": 6,
+            "mean": 3.8333333333333335,
+            "min": -21,
+            "q1": -14.5,
+            "median": 1.5,
+            "q3": 19.75,
+            "p90": 30.0,
+            "p95": 32.5,
+            "max": 35
+          },
+          "extra_length": {
+            "n": 6,
+            "mean": 3.8333333333333335,
+            "min": -21,
+            "q1": -14.5,
+            "median": 1.5,
+            "q3": 19.75,
+            "p90": 30.0,
+            "p95": 32.5,
+            "max": 35
+          },
+          "black_goal": {
+            "n": 6,
+            "mean": -0.5,
+            "min": -1,
+            "q1": -1.0,
+            "median": -0.5,
+            "q3": 0.0,
+            "p90": 0.0,
+            "p95": 0.0,
+            "max": 0
+          },
+          "white_goal": {
+            "n": 6,
+            "mean": 0.3333333333333333,
+            "min": 0,
+            "q1": 0.0,
+            "median": 0.0,
+            "q3": 0.75,
+            "p90": 1.0,
+            "p95": 1.0,
+            "max": 1
+          },
+          "joint_goal": {
+            "n": 6,
+            "mean": 0,
+            "min": 0,
+            "q1": 0.0,
+            "median": 0.0,
+            "q3": 0.0,
+            "p90": 0.0,
+            "p95": 0.0,
+            "max": 0
+          },
+          "draw": {
+            "n": 6,
+            "mean": 0.16666666666666666,
+            "min": 0,
+            "q1": 0.0,
+            "median": 0.0,
+            "q3": 0.0,
+            "p90": 0.5,
+            "p95": 0.75,
+            "max": 1
+          },
+          "black_board_win": {
+            "n": 6,
+            "mean": 0.3333333333333333,
+            "min": 0,
+            "q1": 0.0,
+            "median": 0.0,
+            "q3": 0.75,
+            "p90": 1.0,
+            "p95": 1.0,
+            "max": 1
+          }
+        },
+        "komi_at_p8": {
+          "length": {
+            "n": 6,
+            "mean": -2.5,
+            "min": -31,
+            "q1": -3.25,
+            "median": -1.0,
+            "q3": -0.25,
+            "p90": 11.0,
+            "p95": 16.5,
+            "max": 22
+          },
+          "extra_length": {
+            "n": 6,
+            "mean": -2.5,
+            "min": -31,
+            "q1": -3.25,
+            "median": -1.0,
+            "q3": -0.25,
+            "p90": 11.0,
+            "p95": 16.5,
+            "max": 22
+          },
+          "black_goal": {
+            "n": 6,
+            "mean": -0.8333333333333334,
+            "min": -1,
+            "q1": -1.0,
+            "median": -1.0,
+            "q3": -1.0,
+            "p90": -0.5,
+            "p95": -0.25,
+            "max": 0
+          },
+          "white_goal": {
+            "n": 6,
+            "mean": 0.6666666666666666,
+            "min": 0,
+            "q1": 0.25,
+            "median": 1.0,
+            "q3": 1.0,
+            "p90": 1.0,
+            "p95": 1.0,
+            "max": 1
+          },
+          "joint_goal": {
+            "n": 6,
+            "mean": 0,
+            "min": 0,
+            "q1": 0.0,
+            "median": 0.0,
+            "q3": 0.0,
+            "p90": 0.0,
+            "p95": 0.0,
+            "max": 0
+          },
+          "draw": {
+            "n": 6,
+            "mean": 0.16666666666666666,
+            "min": 0,
+            "q1": 0.0,
+            "median": 0.0,
+            "q3": 0.0,
+            "p90": 0.5,
+            "p95": 0.75,
+            "max": 1
+          },
+          "black_board_win": {
+            "n": 6,
+            "mean": 0.6666666666666666,
+            "min": 0,
+            "q1": 0.25,
+            "median": 1.0,
+            "q3": 1.0,
+            "p90": 1.0,
+            "p95": 1.0,
+            "max": 1
+          }
+        },
+        "pass_at_k2p5": {
+          "length": {
+            "n": 6,
+            "mean": 14.833333333333334,
+            "min": 2,
+            "q1": 2.5,
+            "median": 4.5,
+            "q3": 26.0,
+            "p90": 38.0,
+            "p95": 40.5,
+            "max": 43
+          },
+          "extra_length": {
+            "n": 6,
+            "mean": 6.833333333333333,
+            "min": -6,
+            "q1": -5.5,
+            "median": -3.5,
+            "q3": 18.0,
+            "p90": 30.0,
+            "p95": 32.5,
+            "max": 35
+          },
+          "black_goal": {
+            "n": 6,
+            "mean": 0,
+            "min": 0,
+            "q1": 0.0,
+            "median": 0.0,
+            "q3": 0.0,
+            "p90": 0.0,
+            "p95": 0.0,
+            "max": 0
+          },
+          "white_goal": {
+            "n": 6,
+            "mean": 0,
+            "min": 0,
+            "q1": 0.0,
+            "median": 0.0,
+            "q3": 0.0,
+            "p90": 0.0,
+            "p95": 0.0,
+            "max": 0
+          },
+          "joint_goal": {
+            "n": 6,
+            "mean": 0,
+            "min": 0,
+            "q1": 0.0,
+            "median": 0.0,
+            "q3": 0.0,
+            "p90": 0.0,
+            "p95": 0.0,
+            "max": 0
+          },
+          "draw": {
+            "n": 6,
+            "mean": 0,
+            "min": 0,
+            "q1": 0.0,
+            "median": 0.0,
+            "q3": 0.0,
+            "p90": 0.0,
+            "p95": 0.0,
+            "max": 0
+          },
+          "black_board_win": {
+            "n": 6,
+            "mean": 0,
+            "min": 0,
+            "q1": 0.0,
+            "median": 0.0,
+            "q3": 0.0,
+            "p90": 0.0,
+            "p95": 0.0,
+            "max": 0
+          }
+        },
+        "pass_at_k0": {
+          "length": {
+            "n": 6,
+            "mean": 8.5,
+            "min": -10,
+            "q1": -2.5,
+            "median": 0.0,
+            "q3": 19.75,
+            "p90": 32.0,
+            "p95": 35.0,
+            "max": 38
+          },
+          "extra_length": {
+            "n": 6,
+            "mean": 0.5,
+            "min": -18,
+            "q1": -10.5,
+            "median": -8.0,
+            "q3": 11.75,
+            "p90": 24.0,
+            "p95": 27.0,
+            "max": 30
+          },
+          "black_goal": {
+            "n": 6,
+            "mean": -0.3333333333333333,
+            "min": -1,
+            "q1": -1.0,
+            "median": -0.5,
+            "q3": 0.0,
+            "p90": 0.5,
+            "p95": 0.75,
+            "max": 1
+          },
+          "white_goal": {
+            "n": 6,
+            "mean": 0.3333333333333333,
+            "min": -1,
+            "q1": 0.0,
+            "median": 0.5,
+            "q3": 1.0,
+            "p90": 1.0,
+            "p95": 1.0,
+            "max": 1
+          },
+          "joint_goal": {
+            "n": 6,
+            "mean": 0,
+            "min": 0,
+            "q1": 0.0,
+            "median": 0.0,
+            "q3": 0.0,
+            "p90": 0.0,
+            "p95": 0.0,
+            "max": 0
+          },
+          "draw": {
+            "n": 6,
+            "mean": 0,
+            "min": -1,
+            "q1": 0.0,
+            "median": 0.0,
+            "q3": 0.0,
+            "p90": 0.5,
+            "p95": 0.75,
+            "max": 1
+          },
+          "black_board_win": {
+            "n": 6,
+            "mean": 0.3333333333333333,
+            "min": -1,
+            "q1": 0.0,
+            "median": 0.5,
+            "q3": 1.0,
+            "p90": 1.0,
+            "p95": 1.0,
+            "max": 1
+          }
+        },
+        "interaction": {
+          "length": {
+            "n": 6,
+            "mean": -6.333333333333333,
+            "min": -36,
+            "q1": -10.25,
+            "median": -4.0,
+            "q3": -3.0,
+            "p90": 9.0,
+            "p95": 15.0,
+            "max": 21
+          },
+          "extra_length": {
+            "n": 6,
+            "mean": -6.333333333333333,
+            "min": -36,
+            "q1": -10.25,
+            "median": -4.0,
+            "q3": -3.0,
+            "p90": 9.0,
+            "p95": 15.0,
+            "max": 21
+          },
+          "black_goal": {
+            "n": 6,
+            "mean": -0.3333333333333333,
+            "min": -1,
+            "q1": -1.0,
+            "median": -0.5,
+            "q3": 0.0,
+            "p90": 0.5,
+            "p95": 0.75,
+            "max": 1
+          },
+          "white_goal": {
+            "n": 6,
+            "mean": 0.3333333333333333,
+            "min": -1,
+            "q1": 0.0,
+            "median": 0.5,
+            "q3": 1.0,
+            "p90": 1.0,
+            "p95": 1.0,
+            "max": 1
+          },
+          "joint_goal": {
+            "n": 6,
+            "mean": 0,
+            "min": 0,
+            "q1": 0.0,
+            "median": 0.0,
+            "q3": 0.0,
+            "p90": 0.0,
+            "p95": 0.0,
+            "max": 0
+          },
+          "draw": {
+            "n": 6,
+            "mean": 0,
+            "min": -1,
+            "q1": 0.0,
+            "median": 0.0,
+            "q3": 0.0,
+            "p90": 0.5,
+            "p95": 0.75,
+            "max": 1
+          },
+          "black_board_win": {
+            "n": 6,
+            "mean": 0.3333333333333333,
+            "min": -1,
+            "q1": 0.0,
+            "median": 0.5,
+            "q3": 1.0,
+            "p90": 1.0,
+            "p95": 1.0,
+            "max": 1
+          }
+        }
+      }
+    }
+  },
+  "synthesis_zh": [
+    "规则提供可证明的低复杂度路线；MCTS是否发现并持续执行路线是不同问题。",
+    "D0给出解析参照；M3显示预算提升使mixed短路线更常出现，但LL的保证求输路线在三个预算仍零观察。",
+    "M5的pass8干预改变轨迹和长度结构，LL黑目标仍59/60；它没有隔离komi，且很宽的预注册区间不支持精细归因或规则等价。",
+    "M6验证四格实现、和棋口径与成本，LL的贴目响应是值得正式检验的信号，尚不能从每格6局推出公平或稳定逆转。",
+    "M7应填补固定256预算、两个pass条件下komi效应及交互的正式估计；不得把显著性、全部mixed成功或原始前缀唯一当作复杂协调证明。",
+    "初始Goal允许在完整审计证据链、机制边界和最高信息增益下一诊断明确时，以有依据的7×7 NO-GO完成本轮；不是必须不停跑到GO。"
+  ],
+  "analytical_deductions": [
+    {
+      "id": "positive_komi_all_pass",
+      "status": "established in M1",
+      "claim": "LL, pass0, komi2.5: black AlwaysPass guarantees utility +1 against every legal white response. On 5×5 it must end by action 50, never move_limit 100.",
+      "reason": "Black never has stones or black-only territory. Black area is 0 and white score is at least 2.5. White can place at most 24 stones, and any white pass follows a black pass.",
+      "limits": "An available contingent strategy is not demonstrated MCTS adoption. The scoring guarantee persists for larger boards under the same rules; the action-50 bound is specific to 5×5."
+    },
+    {
+      "id": "zero_komi_draw_equilibrium",
+      "status": "new logical deduction in this review; not an empirical M7 result",
+      "claim": "LL, pass0, komi0 from empty: each player can guarantee utility at least 0 by always passing. AP/AP is a draw equilibrium, and the zero-sum value is 0.",
+      "reason": "Never placing leaves own area 0 and opponent area nonnegative. Own color never wins, so LOSE utility is 0 or +1. Both guarantees force zero value; mutual pass gives (0,0).",
+      "limits": "Does not imply finite MCTS finds the equilibrium, equal observed black/white success, fairness of other matchups, or a pass8 equilibrium. Removing komi removes the strict black +1 guarantee but leaves simple strategies."
+    },
+    {
+      "id": "zero_komi_mixed_short_route",
+      "status": "new logical deduction in this review; not a counted endpoint",
+      "claim": "At komi0/pass0, WL still has [a,P,P] in 3 actions; LW has [P,a,P,P] in 4 actions, with white-only area 25 and both goals +1.",
+      "reason": "One-color area scoring assigns the connected empty region to the only stone color.",
+      "limits": "Route existence only. No new frequency was calculated or appended to frozen analysis."
+    },
+    {
+      "id": "pass8_boundary",
+      "status": "established in M4, M5 and M6",
+      "claim": "pass8 forbids zero-based ply 0–7. First legal pass is action 9; earliest double-pass is action 10.",
+      "limits": "The terminal lower bound is mechanical. Subtracting 8 from a length contrast does not remove changed board, tree, rollout or RNG effects."
+    }
+  ],
+  "remaining_uncertainties": [
+    {
+      "question": "Why does LL finite MCTS not sustain a provably optimal black all-pass strategy in positive-komi/pass0?",
+      "evidence": "M3 LL actual all-pass0/60 at64,256,1024; black goals57,58,54 and mean lengths24.5,28.4833,46.1.",
+      "M7_resolution": "No direct resolution: M7 keeps256 and does not evaluate counterfactual actions or future policy commitments."
+    },
+    {
+      "question": "How much does komi0 change LL black success at each pass setting, and does that change differ between settings?",
+      "evidence": "M6 descriptive LL differences -0.5 and -0.8333, interaction-0.3333; each arm×direction n6.",
+      "M7_resolution": "Directly addressable by fixed formal paired4-arm estimands and preregistered intervals; may remain quantitatively imprecise."
+    },
+    {
+      "question": "Do declines in LL black goals correspond to draws or opposite-color goal success?",
+      "evidence": "M6 LL k0/p0 black3,white2,draw1; k0/p8 black1,white4,draw1 versus black6,white0,draw0 under2.5.",
+      "M7_resolution": "Report all three categories and full utility distribution. A black-goal binary contrast alone is insufficient."
+    },
+    {
+      "question": "Is any apparent effect specific to LL or common to finite search under a changed score threshold?",
+      "evidence": "M6 WW p8 black goals5/6→1/6 also changed; pilot too small.",
+      "M7_resolution": "Keep WW and mixed comparators separate; secondary contrasts remain secondary, and absence of precision is not absence of effect."
+    },
+    {
+      "question": "Does mixed success after early-pass restriction represent nontrivial interaction?",
+      "evidence": "M5 LW9/60 ataction10; eight of those fixed boards draw under0komi. M6 k0pass8 LW g000082 still succeeds at10.",
+      "M7_resolution": "Can estimate survival of success and near-boundary routes; cannot identify communication intent or rule out alternative simple policies."
+    },
+    {
+      "question": "Is there a balancing komi K_LL, monotonic dose response, or a transferable learning phenomenon?",
+      "evidence": "Only komi0/2.5; fixed public identities and no learning.",
+      "M7_resolution": "Cannot resolve: two-point contrasts do not identify curve shape, K_LL, other agents, new budgets, or learning."
+    },
+    {
+      "question": "Would 7×7 test anything beyond an already scale-invariant scoring shortcut?",
+      "evidence": "Positive-komi AP proof is board-size independent; no7×7 cost/branching/termination protocol.",
+      "M7_resolution": "Mechanism evidence may inform a hypothesis, but does not itself supply7×7 validation or resource calibration."
+    }
+  ],
+  "M7_interpretation_contract": {
+    "planned_design_from_parent": {
+      "n_games": 960,
+      "four_arm_blocks": 240,
+      "batch_seeds": [
+        17,
+        18,
+        19
+      ],
+      "n_arm_direction": 60,
+      "n_seed_arm_direction": 20,
+      "simulations_each_player": 256,
+      "factors": {
+        "komi": [
+          2.5,
+          0
+        ],
+        "pass_min_ply": [
+          0,
+          8
+        ]
+      }
+    },
+    "primary_estimands": [
+      "LL black goal: komi0 minus komi2.5 at pass0",
+      "LL black goal: komi0 minus komi2.5 at pass8",
+      "Interaction: (komi effect at pass8) minus (komi effect at pass0)"
+    ],
+    "requirements": [
+      "Use the eventual frozen preregistration, not this review, as authority for sample and inference.",
+      "Do not pool M6 into M7. Use complete within-block four-arm contrasts; never pair old and new games.",
+      "Retain draws in all denominators. For WW and LL, black success + white success + draw = 1. Neither goal succeeds on a draw.",
+      "Pooled intervals concern six fixed seed-by-color strata under the stated hypothetical independent-stream model. Three seed labels do not represent all possible seeds.",
+      "Report per-seed estimates with the correct uncertainty scope. Point-sign consistency is not generalization; every single-seed interval need not exclude zero for a pooled conclusion.",
+      "The exact confidence family and interaction method must come from the frozen protocol and independently audited arithmetic.",
+      "Formal inference waits for all 960 saved and validated records. Do not retrofit sample size, safety stops, or interval methods after interim outcomes.",
+      "If intervals exclude zero, state the direction for this finite-search rule intervention. If they cross zero, retain the supported range rather than declaring no effect.",
+      "Result-driven new contrasts are exploratory and separate. Do not substitute a narrower method after seeing results.",
+      "Komi changes payoffs and search trajectories. Total rule effects do not identify a percentage attribution to scoring alone versus search."
+    ],
+    "can_resolve": [
+      "Formal LL komi differences and interaction under the fixed 5×5, 256-simulation design.",
+      "Draw shifts versus opposite-color goal gains.",
+      "Descriptive seed heterogeneity, near-earliest routes, payoff-conditioned pass events, lengths and tails in all four arms."
+    ],
+    "cannot_resolve": [
+      "Why a specific action or captured stone was chosen; original Q is not a calibrated probability.",
+      "Optimality, minimax convergence, persistence of an all-pass plan, or separation of rollout bias from low-visit noise.",
+      "Komi monotonicity or fairness, arbitrary new-seed/agent/budget guarantees, or 7×7 migration.",
+      "A causal mediation fraction for shared goals versus early pass, or complex communication from shorter length alone."
+    ],
+    "pre_result_outcome_cases": [
+      {
+        "case": "Both LL komi contrasts are robustly negative and interaction excludes zero.",
+        "reading": "Komi changes LL success and the pass window modifies that change under the fixed design. Decompose draws and opposite-color successes.",
+        "next": "Do not automatically expand. Close the initial Goal with a supported NO-GO if other gates fail; nominate D3."
+      },
+      {
+        "case": "Both LL contrasts are negative, but interaction remains imprecise.",
+        "reading": "Support simple effects where intervals allow, but do not claim that their magnitudes differ.",
+        "next": "Further interaction-only research is optional, not mandatory Goal completion."
+      },
+      {
+        "case": "One or both contrasts are imprecise or vary across seeds.",
+        "reading": "The pilot signal did not yield a precise conclusion in this design. An uncertain result is valid evidence.",
+        "next": "Do not select a favorable endpoint or automatically double n. Prefer D3 if it targets the unresolved search mechanism."
+      },
+      {
+        "case": "Mixed success and successful near-boundary routes persist.",
+        "reading": "This supports common-payoff terminal planning and weighs against calling pass8/komi0 a shortcut-free benchmark.",
+        "next": "Maintain NO-GO for a nontrivial-coordination migration; do not automatically escalate rules."
+      }
+    ]
+  },
+  "7x7_gate_review": [
+    {
+      "gate": 1,
+      "criterion": "D0/D1 clarify shallow search versus analytic shortcuts.",
+      "status_before_M7": "partly met",
+      "evidence": "D0 guarantees and M3 mixed-route growth are established; LL nonadoption is not explained."
+    },
+    {
+      "gate": 2,
+      "criterion": "At least one pass or komi mechanism contrast.",
+      "status_before_M7": "met as an experiment, with coarse precision",
+      "evidence": "M5 formal pass8 comparison is complete. M7 adds formal komi and interaction estimates if fully validated."
+    },
+    {
+      "gate": 3,
+      "criterion": "Key directions replicated across at least three independent batch seeds.",
+      "status_before_M7": "met for specific claims only",
+      "evidence": "M3 mixed 1024−64 route differences are positive in seeds 5/6/7. M5 LL/WL/LW raw-length differences are positive in 11/12/13. This does not certify all endpoints."
+    },
+    {
+      "gate": 4,
+      "criterion": "At least 256 simulations and explanation of contrary budget behavior.",
+      "status_before_M7": "partly met",
+      "evidence": "M3, M5 and M6 include 256. LL length and all-pass nonadoption at 1024 remain unresolved."
+    },
+    {
+      "gate": 5,
+      "criterion": "For nontrivial coordination, evidence beyond simple terminal routes.",
+      "status_before_M7": "not met",
+      "evidence": "M5 and M6 retain post-window cheap routes. Full mixed success and diverse exact coordinates do not establish complex coordination."
+    },
+    {
+      "gate": 6,
+      "criterion": "A falsifiable 7×7 prediction plus branching, budget, termination and cost assessment.",
+      "status_before_M7": "not met",
+      "evidence": "No such final protocol or cost pilot is in the reviewed evidence. M7 does not supply it automatically."
+    }
+  ],
+  "goal_completion_and_stopping": {
+    "authority": "/workspace/scratch/50e0c7c6aca1/winorlose/handoff/03_DOT_GOAL.md",
+    "completion_clause": "A verifiable evidence chain explaining major 5×5 mechanisms, at least one validated diagnostic–analysis–decision cycle, and a data-supported 7×7 GO/NO-GO. For NO-GO, state the remaining uncertainties and highest-information next experiment.",
+    "recommended_endpoint": "After full M7 validation and an integrated report, the initial mechanism/decision Goal can be complete with NO-GO. D3 is a next-research recommendation, not an obligation to start another run.",
+    "not_required": [
+      "Every D0–D4 candidate",
+      "A nonzero result in every contrast",
+      "7×7 GO",
+      "Removal of every legal shortcut",
+      "Learning, neural training, 9×9, or indefinite iteration"
+    ],
+    "avoid_endless_cycle": "A remaining scientific uncertainty does not itself mean the requested decision task is incomplete. Another experiment needs its own scope, preregistration, resource review and applicable authorization."
+  },
+  "highest_information_next_5x5_diagnostic": {
+    "name": "D3 bounded LL action and continuation audit",
+    "status": "Proposal only. Not preregistered or run.",
+    "why": "M7 fills the rule-factor gap, but another whole-game factorial batch cannot directly explain why finite MCTS fails to sustain a guaranteed all-pass outcome. Exact all-pass and immediate-terminal oracles make a small state panel informative.",
+    "question": "On the same complete state, is the chosen action stable across independent higher-budget searches, and do disagreements with certified pass/commitment payoffs reflect noisy search or the continuation policy being evaluated?",
+    "panel_candidate": {
+      "max_saved_roots": 24,
+      "analytic_anchor_roots": 2,
+      "max_total_roots": 26,
+      "strata": "Three M7 batch seeds × four arms × two event types. Select the lowest game_index, then earliest eligible ply, within each stratum. Deduplicate identical complete states while retaining stratum labels.",
+      "event_types": [
+        "First black nonpass decision when black has no stones and pass is legal; mark whether positive komi supplies the exact +1 sustained-pass guarantee.",
+        "First white refusal of a black-goal-favorable pass proposal. Immediate second-pass payoff is exact, even when future values are not."
+      ],
+      "anchors": "Empty LL/pass0 at komi2.5 and komi0. These are two different rule states, not extra independent boards for each RNG seed.",
+      "missing_stratum_policy": "Report absent events. Do not relax selection or search other datasets after seeing evaluations.",
+      "complete_state_fields": [
+        "board",
+        "next player",
+        "full superko history",
+        "move count and remaining 100-action horizon",
+        "consecutive passes",
+        "komi",
+        "pass_min_ply",
+        "both identities",
+        "source game/ply and original root records"
+      ]
+    },
+    "evaluation_candidate": {
+      "budget_stability": "Repeat unchanged original MCTS at 256 and 4096 simulations using eight predeclared independent RNG streams per state. Preserve every legal action, visits, Q, choice, and unvisited actions.",
+      "continuation_diagnostic": "Separately evaluate every legal candidate using 1024 equal-budget, independent forced-first-action uniform continuations. This estimates a specified rollout-policy value, not minimax action value. Compare it with exact second-pass payoffs and valid sustained-pass guarantees.",
+      "commitment_boundary": "A future AlwaysPass guarantee is a policy commitment, not the payoff of one pass followed by uniform random actions. A separately named sustained-pass diagnostic must not replace or relabel G0.",
+      "max_simulations_or_rollouts": 1597440,
+      "work_bound": "26 × [8 × (256 + 4096) + 26 × 1024]. Actual legal-action counts may reduce work. This is not a wall-time promise.",
+      "interpretation": "Stable higher-budget choices that still fail to preserve a certified guarantee suggest a continuation-policy blind spot; large across-stream changes suggest finite-budget instability. Either can coexist. Neither diagnostic alone proves every source of error is identified."
+    },
+    "endpoints": [
+      "Per-root actor-utility estimates with draws valued zero, under explicitly named continuation policies.",
+      "Action-selection frequencies, pass/nonpass reversals and visit coverage across fixed streams and budgets.",
+      "Exact immediate-terminal oracle contradictions, separately from differences against a future-policy guarantee.",
+      "Stratum-specific results; purposive roots do not estimate population event frequencies."
+    ],
+    "cost_and_stop": "Before running, perform separate small cost-only calibration and freeze final selection, budgets, streams, methods and resource ceiling. A proposed four-hour child-compute ceiling must be checked, not promised. Stop at the fixed panel even if unresolved; safety failures remain incomplete evidence. No automatic expansion or 7×7.",
+    "not_proven": [
+      "Optimal values in arbitrary 5×5 states",
+      "Original Q as a calibrated probability",
+      "Intentional sacrifice from captures alone",
+      "Population frequencies from a selected panel",
+      "Nontrivial coordination or 7×7 GO without separate gates"
+    ]
+  },
+  "final_M7_report_review_checklist": [
+    "960/960 strict complete validation, source and plan locks, independent final audit, preregistered regeneration, final tests and historical preservation.",
+    "Exact three LL primary estimands and correct family intervals; four-arm within-block dependence retained for interaction.",
+    "Correct denominators: n=60 per arm/direction and n=20 per seed/arm/direction. All three outcomes retained; mixed success counted once.",
+    "M7 results replace placeholders. No reuse of M6 effect sizes as formal evidence and no cross-milestone pooled n.",
+    "M5 wide intervals and M3 budget-specific evidence stay qualified. Rule effects remain distinct from fixed-board rescoring and analytic existence proofs.",
+    "Lengths, tails, near-boundary routes, raw/END prefix denominators, pass-event dependence and Q limits are explicit.",
+    "Explicit gate-by-gate 7×7 verdict, why NO-GO can complete the initial Goal, and one bounded highest-information next diagnostic.",
+    "Child compute is distinguished from calendar time, synchronization waits, tests, replay and regeneration. No invented GitHub CI claim.",
+    "Narrative stays outside the repository. This review worker performs no publication."
+  ]
+}

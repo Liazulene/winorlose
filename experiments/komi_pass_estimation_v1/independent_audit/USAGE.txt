@@ -1,0 +1,9 @@
+This M7 audit does not import production engines, production analysis, or inherited audit modules. It independently replays actual actions and root legal sets, scores and draw utilities, reconstructs the fixed 960-game schedule and descriptive analysis, and checks all numeric statistical panels with binomial-tail bisection CP and independent Hoeffding arithmetic. Only the approximate Student-t quantile uses SciPy, shared with the production approximation; variance and degrees of freedom are independently recomputed.
+
+Run only after the complete 960-game sample and final validation exist. Write new evidence under this experiment's independent_audit directory. Never use an inherited output path or overwrite a previous report.
+
+PYTHONDONTWRITEBYTECODE=1 <audit-python> experiments/komi_pass_estimation_v1/independent_audit/komi960_independent_audit.py --root . --out outputs/komi_pass_estimation_v1 --data-ready --report experiments/komi_pass_estimation_v1/independent_audit/results_v1/report.json --recomputed experiments/komi_pass_estimation_v1/independent_audit/results_v1/recomputed.json
+
+Synthetic selftests fabricate terminal records and statistical inputs in temporary directories. They do not run sampled experiment games or add observations. The production stats module is used only to create test fixtures for independent numerical comparison, never imported by the audit itself.
+
+Coverage limitations: actual actions and stored roots do not prove every internal tree or rollout state, UCT decision, numerical Q value, or RNG consumption. Exact regenerations are separate. Before/after byte inventories do not exclude transient historical writes. Hash collision checks do not prove statistical independence. Finite-sample inference assumes the registered independent-quartet hypothetical stream model and does not establish generalization to new agents/seeds, policy optimality, or 7x7 readiness.
