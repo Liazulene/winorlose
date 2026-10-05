@@ -1,0 +1,20 @@
+{
+  "utc": "2026-10-05T11:20:36.492902+00:00",
+  "passed": true,
+  "problems": [],
+  "decision": "Continue only the last fixed48 games after verified checkpoint912 backup; source and stopping rule unchanged.",
+  "validated_games": 912,
+  "remaining_registered_games": 48,
+  "known_measured_wall_seconds": 14410.312783383968,
+  "separate_interruption_charge_seconds": 900,
+  "charged_budget_seconds": 15310.312783383968,
+  "warning_seconds": 13800,
+  "pause_before_next_attempt_seconds": 20700,
+  "charged_margin_to_pause_seconds": 5389.687216616032,
+  "known_peak_rss_kib": 90956,
+  "last_child_stderr_bytes": 0,
+  "previous_resource_review": "experiments/komi_pass_estimation_v1/runner_review/resource_warning_review_0864_v1.json",
+  "missing_wait4_telemetry": "attempt17 remains unknown; charged time is not exact measured total",
+  "observed_attempts_unique": true,
+  "late_original_attempt17_cost_present": false
+}
