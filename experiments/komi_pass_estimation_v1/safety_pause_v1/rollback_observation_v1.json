@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "recorded_utc": "2026-10-05T12:20:40.352918+00:00",
+  "observed_error": "Failed to create unified exec process: exec-server transport disconnected.",
+  "error_source": "Observed execution-tool error before reconnect; not a recovered provider log",
+  "rollback_view": {
+    "games": 384,
+    "manifest_status": "interrupted",
+    "head": "6c43421fdec543779b02033fdbd35672e4508b95",
+    "index_tree": "d226fbd70c2a8abe04b24036bd3528f3aca46f50"
+  },
+  "independent_read_routes_agreed": true,
+  "read_routes": [
+    "normal execution",
+    "non-login execution from shared workspace",
+    "authorized read-only alternate execution"
+  ],
+  "old_snapshot_left_untouched": true,
+  "pending_identity_from_worker_memory": {
+    "checkpoint_games": 960,
+    "action": "create_blob",
+    "path": "experiments/komi_pass_estimation_v1/operational_review/independent_pause_release_review_v1.json",
+    "sha": "469676c85b9e1b9067cc0aa65094b0cc8d1d47f2",
+    "started_utc": "2026-10-05T12:00:31.373Z"
+  },
+  "pending_remote_submission_proven": false,
+  "pending_blob_readback": "NOT_FOUND 404",
+  "confirmed_uploads": 11,
+  "confirmed_paths": 12,
+  "remaining_staged_entries_not_found": 56,
+  "complete_original960_bytes_recovered": false,
+  "additional_games_generated_after_rollback": 0,
+  "remote_mutations_after_rollback": 0
+}

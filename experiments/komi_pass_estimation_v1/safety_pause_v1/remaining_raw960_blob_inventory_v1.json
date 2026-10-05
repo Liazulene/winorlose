@@ -1,0 +1,679 @@
+{
+  "schema": 1,
+  "created_utc": "2026-10-05T12:06:03.559Z",
+  "scope": "Every staged raw960 entry not among the11 confirmed uploads",
+  "results": [
+    {
+      "path": "experiments/komi_pass_estimation_v1/operational_review/independent_pause_release_review_v1.json",
+      "sha": "469676c85b9e1b9067cc0aa65094b0cc8d1d47f2",
+      "expected_bytes": 14194,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "experiments/komi_pass_estimation_v1/operational_review/independent_pause_release_review_v1.txt",
+      "sha": "3287be059df753e9155f0aeac2d163c0cba0f286",
+      "expected_bytes": 13100,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "experiments/komi_pass_estimation_v1/operational_review/operational_release_authorization_v1.json",
+      "sha": "f1fbf32a83f6cbb530df48fd4ecd62f1a8731a67",
+      "expected_bytes": 893,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "experiments/komi_pass_estimation_v1/operational_review/preservation_at_pause_v1.json",
+      "sha": "50440e456e6250fcde0ea499f9b6dadec5263970",
+      "expected_bytes": 5368,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/analysis.json",
+      "sha": "068d20b0f25a90aea99aca6dbd2496286a1aa9f9",
+      "expected_bytes": 9114887,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/games.jsonl",
+      "sha": "db5190b7c7a3075b7139cb89af8dfb7e8021cdfc",
+      "expected_bytes": 1080626,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/games/komi_pass_estimation_v1-g000912.json",
+      "sha": "4464786f6da4f3575a8d8b0bd18ecd19caa158fe",
+      "expected_bytes": 33627,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/games/komi_pass_estimation_v1-g000913.json",
+      "sha": "04004926e09f4d65317d18810099374cb3bf19da",
+      "expected_bytes": 34690,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/games/komi_pass_estimation_v1-g000914.json",
+      "sha": "2f8bad6d1241a146451bf5f7ce7a7dd11d87cbc8",
+      "expected_bytes": 37588,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/games/komi_pass_estimation_v1-g000915.json",
+      "sha": "8d2837768214ecb011be70cde457d682c5b95d85",
+      "expected_bytes": 37089,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/games/komi_pass_estimation_v1-g000916.json",
+      "sha": "4bfe00e8eced8feace2ec9193a6d1f94fb2e60cd",
+      "expected_bytes": 31507,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/games/komi_pass_estimation_v1-g000917.json",
+      "sha": "9ffe9773f49bbed0e7081231765f854f62a7b231",
+      "expected_bytes": 29623,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/games/komi_pass_estimation_v1-g000918.json",
+      "sha": "42f34e03d8be4e2c6db896ebe3f5c8468d1f1654",
+      "expected_bytes": 33552,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/games/komi_pass_estimation_v1-g000919.json",
+      "sha": "519aa80ba7e64a9282866d02611aa7b1fb3dc882",
+      "expected_bytes": 38937,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/games/komi_pass_estimation_v1-g000920.json",
+      "sha": "d6340169d62044d94b09c2d31d1c2cfec6fd8bfe",
+      "expected_bytes": 42164,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/games/komi_pass_estimation_v1-g000921.json",
+      "sha": "0c9d81d26e982187e431b2c1c8922e98f4cd5fd6",
+      "expected_bytes": 39027,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/games/komi_pass_estimation_v1-g000922.json",
+      "sha": "7df33e3d3859f007307fc7c31155431381fa380f",
+      "expected_bytes": 34321,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/games/komi_pass_estimation_v1-g000923.json",
+      "sha": "76ec0f730b8a1440f1cebbe0392fe01744ada558",
+      "expected_bytes": 33043,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/games/komi_pass_estimation_v1-g000924.json",
+      "sha": "e95b4282ccf41d0576d77c16fb16c64c0aa3cdcc",
+      "expected_bytes": 19279,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/games/komi_pass_estimation_v1-g000925.json",
+      "sha": "e168e13d1c7b454c997ffd41b458b15c8334c93a",
+      "expected_bytes": 32271,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/games/komi_pass_estimation_v1-g000926.json",
+      "sha": "8582f08e1dfb479cc5bff88946c26c0e982d9a1c",
+      "expected_bytes": 47136,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/games/komi_pass_estimation_v1-g000927.json",
+      "sha": "b35dc385cc40f177ca338186cb18c64f82090a14",
+      "expected_bytes": 16387,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/games/komi_pass_estimation_v1-g000928.json",
+      "sha": "296bf96362ddcf3543069ca6d9231950b5d6f6c4",
+      "expected_bytes": 20260,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/games/komi_pass_estimation_v1-g000929.json",
+      "sha": "1f26383495022927e7982d35d3d7623df26811b9",
+      "expected_bytes": 10151,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/games/komi_pass_estimation_v1-g000930.json",
+      "sha": "b74f3b88399cffb2d10e8ae1bf87ab04c9abf9ae",
+      "expected_bytes": 46817,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/games/komi_pass_estimation_v1-g000931.json",
+      "sha": "4ed381a0dbf9e75db39f1a4242b7a5f39b961714",
+      "expected_bytes": 38916,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/games/komi_pass_estimation_v1-g000932.json",
+      "sha": "355f97a48de250a2513cb21e01a75e12077bec45",
+      "expected_bytes": 31944,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/games/komi_pass_estimation_v1-g000933.json",
+      "sha": "071372f3013974e59b2ae8186a63545b54718c10",
+      "expected_bytes": 24963,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/games/komi_pass_estimation_v1-g000934.json",
+      "sha": "a42e9fa7ac0d4a5b519375b4a2405912f48c1f18",
+      "expected_bytes": 24542,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/games/komi_pass_estimation_v1-g000935.json",
+      "sha": "f4335ef9e65e9c0d521580b258e1ff25b6564112",
+      "expected_bytes": 21266,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/games/komi_pass_estimation_v1-g000936.json",
+      "sha": "6843b03a5e30b8573ec660438a058fb91a30f546",
+      "expected_bytes": 35672,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/games/komi_pass_estimation_v1-g000937.json",
+      "sha": "8814cadc5b175bc7fbd775b90174121733a61a05",
+      "expected_bytes": 21739,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/games/komi_pass_estimation_v1-g000938.json",
+      "sha": "fc81f72335898ec2e344d74d49f619f8c4ca5c6c",
+      "expected_bytes": 29960,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/games/komi_pass_estimation_v1-g000939.json",
+      "sha": "bf4c9e7c2d92d34f5ee73f43b17b2f87c97dfcb0",
+      "expected_bytes": 20016,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/games/komi_pass_estimation_v1-g000940.json",
+      "sha": "b85d21bd9eb3c60543f9b4fc92c281353948f5cd",
+      "expected_bytes": 22410,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/games/komi_pass_estimation_v1-g000941.json",
+      "sha": "d27a911746f4390e4abdf788df15ecc91e076e3c",
+      "expected_bytes": 22622,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/games/komi_pass_estimation_v1-g000942.json",
+      "sha": "410a9baf53f0b707caab1323c496eb8a1f6d2770",
+      "expected_bytes": 29115,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/games/komi_pass_estimation_v1-g000943.json",
+      "sha": "bc2df74cdc9e762ac2749228c6e2fe6d09e47d66",
+      "expected_bytes": 17360,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/games/komi_pass_estimation_v1-g000944.json",
+      "sha": "47e74dc0d2a932fe06115ede8d9cfca0391b715e",
+      "expected_bytes": 24276,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/games/komi_pass_estimation_v1-g000945.json",
+      "sha": "b240b6822d7095276e5ec78c740baced678e126d",
+      "expected_bytes": 24302,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/games/komi_pass_estimation_v1-g000946.json",
+      "sha": "8a5fd6f3a8bd5977240699af10808a45cb709d8d",
+      "expected_bytes": 27835,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/games/komi_pass_estimation_v1-g000947.json",
+      "sha": "0990160a9197ec9aa3490f0285fc48374216541f",
+      "expected_bytes": 6633,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/games/komi_pass_estimation_v1-g000948.json",
+      "sha": "ec693912e1e25ec3b5b4ac88a3daf44b4825e585",
+      "expected_bytes": 36850,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/games/komi_pass_estimation_v1-g000949.json",
+      "sha": "ea7810a9dcd327ed9c5ba74c996cd589b062584a",
+      "expected_bytes": 29875,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/games/komi_pass_estimation_v1-g000950.json",
+      "sha": "1c6e4e57a0918b45877e172c5edfadc30c883451",
+      "expected_bytes": 31237,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/games/komi_pass_estimation_v1-g000951.json",
+      "sha": "9b464ae4c08ea8e7862834590bee940e2edd0245",
+      "expected_bytes": 18174,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/games/komi_pass_estimation_v1-g000952.json",
+      "sha": "0d9b48053eed53b7c29e4a4c3ec899be1db3aaec",
+      "expected_bytes": 24522,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/games/komi_pass_estimation_v1-g000953.json",
+      "sha": "bc15566634e195858f7d89382b1c917b142c0a56",
+      "expected_bytes": 22822,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/games/komi_pass_estimation_v1-g000954.json",
+      "sha": "8139ec7c3a080c2074d2f2c7109f3018027b16ec",
+      "expected_bytes": 17821,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/games/komi_pass_estimation_v1-g000955.json",
+      "sha": "0a232c4f50cd2ad4bad678b0a09e4855b2ba5d02",
+      "expected_bytes": 17765,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/games/komi_pass_estimation_v1-g000956.json",
+      "sha": "fc43c898c7acb4217682c6456869ffcc22dedec7",
+      "expected_bytes": 5011,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/games/komi_pass_estimation_v1-g000957.json",
+      "sha": "3ba85169bab256fa57230868a3d9259a26d89793",
+      "expected_bytes": 24943,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/games/komi_pass_estimation_v1-g000958.json",
+      "sha": "4419f7a3fdc4e499eb52992d405401eb80ae5d45",
+      "expected_bytes": 24018,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/games/komi_pass_estimation_v1-g000959.json",
+      "sha": "e2a9b36dea527c7be6edd5f1ca66c9634968b470",
+      "expected_bytes": 30180,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/manifest.json",
+      "sha": "589b713c280b068d0b12b7e1981f4943e2542139",
+      "expected_bytes": 7946,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    },
+    {
+      "path": "outputs/komi_pass_estimation_v1/validation.json",
+      "sha": "c204bb9f6aa98d48738b3ec88e10777c2c54279a",
+      "expected_bytes": 107861,
+      "read_ok": false,
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+        "status": "404"
+      }
+    }
+  ]
+}

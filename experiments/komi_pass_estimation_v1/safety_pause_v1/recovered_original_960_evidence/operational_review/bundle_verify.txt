@@ -1,0 +1,6 @@
+../winorlose_reports/M7_support/recovery_0912_20261005/WinAI_LoseAI_M7_912_local_delta.bundle is okay
+The bundle contains this ref:
+c659a544e33a7e575bcf2f4f8d16945e7652541a refs/backup/m7-local-0912-20261005
+The bundle requires this ref:
+d1aaaa67f8f87f6726a7cbbc25c8bba78034245d 
+The bundle uses this hash algorithm: sha1

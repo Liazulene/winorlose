@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "experiment_id": "komi-pass-estimation-v1",
+  "checkpoint_games": 912,
+  "repository": "Liazulene/winorlose",
+  "branch": "experiment/komi-pass-estimation-v1",
+  "commit": "86002dec1fbc6f02d7e81104982dba520643d857",
+  "tree": "90feb87fb7adcd1f6b6fa3398cf36e2b8121fdf3",
+  "parent": "d1aaaa67f8f87f6726a7cbbc25c8bba78034245d",
+  "zero_game_anchor": "34a2f5b565b2e36e6b2de112d9e360b85e5a9de1",
+  "files_changed": 58,
+  "unique_blobs": 57,
+  "verification_utc": "2026-10-05T11:35:34.234Z",
+  "checks": {
+    "blob_shas": true,
+    "remote_commit_parent_and_tree": true,
+    "remote_ref": true,
+    "remote_tree": true,
+    "ordinary_fetch": true,
+    "fetched_tree_exact": true,
+    "local_head_advanced_compare_and_swap": true,
+    "index_and_working_tree_clean": true,
+    "frozen_inputs": true
+  },
+  "repair": {
+    "original_tree_422_count": 2,
+    "identical_blob_reassertions": 1,
+    "unchanged_tree_after_reassertion": true
+  },
+  "production_release_authorized": false,
+  "evidence_dir": "/workspace/scratch/50e0c7c6aca1/M7_support/github_sync"
+}

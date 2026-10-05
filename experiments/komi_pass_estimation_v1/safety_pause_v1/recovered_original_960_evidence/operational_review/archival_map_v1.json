@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-05T11:44:55.578647+00:00",
+  "copied_exact_bytes": {
+    "independent_pause_release_review_v1.json": "9fb884f918f97397a3393962871a207aa88a0a985ef5d1b2f669ec38922c658b",
+    "independent_pause_release_review_v1.txt": "793e8ab66bbccde1606d819267619c0b98f0a77337c16b9fbf5b0a44ff23d452",
+    "fresh_pause_release_gate_v1.json": "921c4ef98fbcfb71aa82a4ac96d535c39945367775113c93dfbb8eac908e4ff2",
+    "operational_release_authorization_v1.json": "039ab4e7b26bb50450f89f4f9021b59e2cb72eea50a18914f5657b9f9897ebd6",
+    "preservation_at_pause_v1.json": "715a511d3a3ab4fddc174d650f6927305efe0d0dc0ed0a34917b852f8daefd9f",
+    "bundle_restore_verification.txt": "35c4cd4b6cc007ed6435a69ff350ac11b659cf8be3c03f107c17325f7ea4e7e0",
+    "bundle_verify.txt": "8b0c552b82441bd9144fe75b8b5dfcc9f1d9ef997a54ce79e4d651970f88c072",
+    "bundle_heads.txt": "9a9e7d86a7235dd4ebf46b7577934654346da0b7cea10bd271c1d1278c43f6f3"
+  },
+  "scope": "Technical pause/release and restore evidence only; no narrative Markdown copied"
+}

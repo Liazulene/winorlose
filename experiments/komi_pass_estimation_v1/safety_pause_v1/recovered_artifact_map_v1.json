@@ -1,0 +1,104 @@
+{
+  "created_utc": "2026-10-05T12:14:24.863035+00:00",
+  "unique_recovered_git_blobs": 11,
+  "recovered_paths": 12,
+  "records": [
+    {
+      "original_path": "experiments/komi_pass_estimation_v1/checkpoint_validation/checkpoint_0960_v1.json",
+      "archival_path": "experiments/komi_pass_estimation_v1/safety_pause_v1/recovered_original_960_evidence/checkpoint_validation/checkpoint_0960_v1.json",
+      "git_blob_sha": "d69c4770435ea9e08c6bc5c23d34552146cc7759",
+      "sha256": "cf6b1fe7901646d7d2e12596f618c5588e99eca0c16bbcd9886fbdf35cee7968",
+      "bytes": 108936,
+      "historical_evidence_only": true
+    },
+    {
+      "original_path": "experiments/komi_pass_estimation_v1/checkpoint_validation/checkpoint_0960_v1.txt",
+      "archival_path": "experiments/komi_pass_estimation_v1/safety_pause_v1/recovered_original_960_evidence/checkpoint_validation/checkpoint_0960_v1.txt",
+      "git_blob_sha": "d69c4770435ea9e08c6bc5c23d34552146cc7759",
+      "sha256": "cf6b1fe7901646d7d2e12596f618c5588e99eca0c16bbcd9886fbdf35cee7968",
+      "bytes": 108936,
+      "historical_evidence_only": true
+    },
+    {
+      "original_path": "experiments/komi_pass_estimation_v1/checkpoints.json",
+      "archival_path": "experiments/komi_pass_estimation_v1/safety_pause_v1/recovered_original_960_evidence/checkpoints.json",
+      "git_blob_sha": "1730fa1a7ceefb1620acbf61abeb24cdc4889fb9",
+      "sha256": "31cbbf455aa21518493741e7875082dc60665ab7078a303aabbea5123b674950",
+      "bytes": 13966,
+      "historical_evidence_only": true
+    },
+    {
+      "original_path": "experiments/komi_pass_estimation_v1/cost/chunk_21.json",
+      "archival_path": "experiments/komi_pass_estimation_v1/safety_pause_v1/recovered_original_960_evidence/cost/chunk_21.json",
+      "git_blob_sha": "e6b186fc65555605d185a6987448be91e2111059",
+      "sha256": "2629497564b93c6aa33fbbbe07adc5c35aaf75dbb11bf5a6ce9140287cdf7d40",
+      "bytes": 2201,
+      "historical_evidence_only": true
+    },
+    {
+      "original_path": "experiments/komi_pass_estimation_v1/cost/chunk_21.launcher_stdout.txt",
+      "archival_path": "experiments/komi_pass_estimation_v1/safety_pause_v1/recovered_original_960_evidence/cost/chunk_21.launcher_stdout.txt",
+      "git_blob_sha": "f5093e07456f51244f229731579db57f1188c332",
+      "sha256": "95f708d9b23a62a6272700cce4177558e2a5f787c71ac76528898151664b8541",
+      "bytes": 2291,
+      "historical_evidence_only": true
+    },
+    {
+      "original_path": "experiments/komi_pass_estimation_v1/cost/chunk_21.stderr.txt",
+      "archival_path": "experiments/komi_pass_estimation_v1/safety_pause_v1/recovered_original_960_evidence/cost/chunk_21.stderr.txt",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "historical_evidence_only": true
+    },
+    {
+      "original_path": "experiments/komi_pass_estimation_v1/cost/chunk_21.stdout.txt",
+      "archival_path": "experiments/komi_pass_estimation_v1/safety_pause_v1/recovered_original_960_evidence/cost/chunk_21.stdout.txt",
+      "git_blob_sha": "5202a7e912f96fbb1072da8ce32fe7045a66f87e",
+      "sha256": "feeda77b515a081cecb7191db72395ee3c8c5c7ae24c6123a82863e86e286963",
+      "bytes": 110936,
+      "historical_evidence_only": true
+    },
+    {
+      "original_path": "experiments/komi_pass_estimation_v1/operational_review/archival_map_v1.json",
+      "archival_path": "experiments/komi_pass_estimation_v1/safety_pause_v1/recovered_original_960_evidence/operational_review/archival_map_v1.json",
+      "git_blob_sha": "b26884cfa189aa09336074e632acc6da152043c7",
+      "sha256": "0a98d39ccb26892fa36167f2ede8b7895fa89938cf2f4776b7799aed1b5a7e88",
+      "bytes": 1025,
+      "historical_evidence_only": true
+    },
+    {
+      "original_path": "experiments/komi_pass_estimation_v1/operational_review/bundle_heads.txt",
+      "archival_path": "experiments/komi_pass_estimation_v1/safety_pause_v1/recovered_original_960_evidence/operational_review/bundle_heads.txt",
+      "git_blob_sha": "0eccb5204386aad0d1cec721bad6609f5793ab81",
+      "sha256": "9a9e7d86a7235dd4ebf46b7577934654346da0b7cea10bd271c1d1278c43f6f3",
+      "bytes": 76,
+      "historical_evidence_only": true
+    },
+    {
+      "original_path": "experiments/komi_pass_estimation_v1/operational_review/bundle_restore_verification.txt",
+      "archival_path": "experiments/komi_pass_estimation_v1/safety_pause_v1/recovered_original_960_evidence/operational_review/bundle_restore_verification.txt",
+      "git_blob_sha": "671e928f226f7d643254d33a4ab7c1c200312056",
+      "sha256": "35c4cd4b6cc007ed6435a69ff350ac11b659cf8be3c03f107c17325f7ea4e7e0",
+      "bytes": 174,
+      "historical_evidence_only": true
+    },
+    {
+      "original_path": "experiments/komi_pass_estimation_v1/operational_review/bundle_verify.txt",
+      "archival_path": "experiments/komi_pass_estimation_v1/safety_pause_v1/recovered_original_960_evidence/operational_review/bundle_verify.txt",
+      "git_blob_sha": "cbdbfd6cbf384f4ab772ad7dad428ab7124b60c7",
+      "sha256": "8b0c552b82441bd9144fe75b8b5dfcc9f1d9ef997a54ce79e4d651970f88c072",
+      "bytes": 322,
+      "historical_evidence_only": true
+    },
+    {
+      "original_path": "experiments/komi_pass_estimation_v1/operational_review/fresh_pause_release_gate_v1.json",
+      "archival_path": "experiments/komi_pass_estimation_v1/safety_pause_v1/recovered_original_960_evidence/operational_review/fresh_pause_release_gate_v1.json",
+      "git_blob_sha": "14cdf25368efacf87d998b9113fddc520d414d47",
+      "sha256": "921c4ef98fbcfb71aa82a4ac96d535c39945367775113c93dfbb8eac908e4ff2",
+      "bytes": 105885,
+      "historical_evidence_only": true
+    }
+  ],
+  "warning": "Historical evidence of original960 execution only; does not restore missing raw games or authorize resumption."
+}

@@ -1,0 +1,400 @@
+{
+  "experiment_id": "komi-pass-estimation-v1",
+  "planned_games": 960,
+  "checkpoint_games": 48,
+  "branch": "experiment/komi-pass-estimation-v1",
+  "initial_parent_commit": "c7ce77c4fe581dce25676226140ff5ae6a115b39",
+  "branch_created_and_ls_remote_verified_utc": "2026-10-05T02:17:00.389706+00:00",
+  "status": "checkpoint_0912_backup_verified_production_paused_for_review",
+  "verified_checkpoints": [
+    {
+      "checkpoint_games": 0,
+      "commit": "34a2f5b565b2e36e6b2de112d9e360b85e5a9de1",
+      "tree": "fd9b376882d6b2dd8e528bdff067e308af5e5321",
+      "parent": "c7ce77c4fe581dce25676226140ff5ae6a115b39",
+      "verification_utc": "2026-10-05T03:30:21.596Z",
+      "files_changed": 80,
+      "unique_blobs": 69,
+      "checks": {
+        "blob_shas": true,
+        "remote_commit_parent_and_tree": true,
+        "remote_ref": true,
+        "remote_tree": true,
+        "ordinary_fetch": true,
+        "fetched_tree_exact": true,
+        "local_head_advanced_compare_and_swap": true,
+        "index_and_working_tree_clean": true
+      }
+    },
+    {
+      "checkpoint_games": 48,
+      "commit": "906092b434cf32c4fad34b601faac992f249694b",
+      "tree": "aa04adaab7284089cf6f8e6095a9430ead1f8d02",
+      "parent": "34a2f5b565b2e36e6b2de112d9e360b85e5a9de1",
+      "verification_utc": "2026-10-05T03:56:55.778Z",
+      "files_changed": 60,
+      "unique_blobs": 60,
+      "checks": {
+        "blob_shas": true,
+        "remote_commit_parent_and_tree": true,
+        "remote_ref": true,
+        "remote_tree": true,
+        "ordinary_fetch": true,
+        "fetched_tree_exact": true,
+        "local_head_advanced_compare_and_swap": true,
+        "index_and_working_tree_clean": true
+      }
+    },
+    {
+      "checkpoint_games": 96,
+      "commit": "a179bdc394a0e8d288754c22836a1430d7d1b7a5",
+      "tree": "22878ff0e0fbf844c8ff6206a8b288676c0efd02",
+      "parent": "906092b434cf32c4fad34b601faac992f249694b",
+      "verification_utc": "2026-10-05T04:23:51.046Z",
+      "files_changed": 57,
+      "unique_blobs": 55,
+      "checks": {
+        "blob_shas": true,
+        "remote_commit_parent_and_tree": true,
+        "remote_ref": true,
+        "remote_tree": true,
+        "ordinary_fetch": true,
+        "fetched_tree_exact": true,
+        "local_head_advanced_compare_and_swap": true,
+        "index_and_working_tree_clean": true,
+        "post_yield_independent_verification": true
+      }
+    },
+    {
+      "checkpoint_games": 144,
+      "commit": "7cf98384baef91b62083f8c785953ba987839d3a",
+      "tree": "a3695269c6997b4ee330805762c03537581d421b",
+      "parent": "a179bdc394a0e8d288754c22836a1430d7d1b7a5",
+      "verification_utc": "2026-10-05T04:45:28.391Z",
+      "files_changed": 58,
+      "unique_blobs": 56,
+      "checks": {
+        "blob_shas": true,
+        "remote_commit_parent_and_tree": true,
+        "remote_ref": true,
+        "remote_tree": true,
+        "ordinary_fetch": true,
+        "fetched_tree_exact": true,
+        "local_head_advanced_compare_and_swap": true,
+        "index_and_working_tree_clean": true
+      }
+    },
+    {
+      "checkpoint_games": 192,
+      "commit": "30ec86b1ca458c621ea13893f7195ca584d15a66",
+      "tree": "dff19256efbac9891b45b8fe2279fb6ac210d6f3",
+      "parent": "7cf98384baef91b62083f8c785953ba987839d3a",
+      "verification_utc": "2026-10-05T05:31:10.807Z",
+      "files_changed": 57,
+      "unique_blobs": 55,
+      "checks": {
+        "blob_shas": true,
+        "remote_commit_parent_and_tree": true,
+        "remote_ref": true,
+        "remote_tree": true,
+        "ordinary_fetch": true,
+        "fetched_tree_exact": true,
+        "local_head_advanced_compare_and_swap": true,
+        "index_and_working_tree_clean": true
+      }
+    },
+    {
+      "checkpoint_games": 240,
+      "commit": "86e87ead75f53b58d72145f02a56dad29c435f81",
+      "tree": "2980f052271ef45b88e1a4bcce49bc9c5d06b721",
+      "parent": "30ec86b1ca458c621ea13893f7195ca584d15a66",
+      "verification_utc": "2026-10-05T05:59:52.923Z",
+      "files_changed": 57,
+      "unique_blobs": 55,
+      "checks": {
+        "blob_shas": true,
+        "remote_commit_parent_and_tree": true,
+        "remote_ref": true,
+        "remote_tree": true,
+        "ordinary_fetch": true,
+        "fetched_tree_exact": true,
+        "local_head_advanced_compare_and_swap": true,
+        "index_and_working_tree_clean": true
+      }
+    },
+    {
+      "checkpoint_games": 288,
+      "commit": "da7f4ad9258c7d448f55d6b8bde217e451c3d6d4",
+      "tree": "197899c0595ba4c43f75d83bf063147cd27d9a0d",
+      "parent": "86e87ead75f53b58d72145f02a56dad29c435f81",
+      "verification_utc": "2026-10-05T06:23:06.686Z",
+      "files_changed": 57,
+      "unique_blobs": 55,
+      "checks": {
+        "blob_shas": true,
+        "remote_commit_parent_and_tree": true,
+        "remote_ref": true,
+        "remote_tree": true,
+        "ordinary_fetch": true,
+        "fetched_tree_exact": true,
+        "local_head_advanced_compare_and_swap": true,
+        "index_and_working_tree_clean": true
+      }
+    },
+    {
+      "checkpoint_games": 336,
+      "commit": "6c43421fdec543779b02033fdbd35672e4508b95",
+      "tree": "1937bdcb9e1c49521d1b1186b4aee3fddaa4d6a8",
+      "parent": "da7f4ad9258c7d448f55d6b8bde217e451c3d6d4",
+      "verification_utc": "2026-10-05T06:48:02.148Z",
+      "files_changed": 57,
+      "unique_blobs": 55,
+      "checks": {
+        "blob_shas": true,
+        "remote_commit_parent_and_tree": true,
+        "remote_ref": true,
+        "remote_tree": true,
+        "ordinary_fetch": true,
+        "fetched_tree_exact": true,
+        "local_head_advanced_compare_and_swap": true,
+        "index_and_working_tree_clean": true
+      }
+    },
+    {
+      "checkpoint_games": 384,
+      "commit": "2af3016a687aefcab6476e2bc301b62dd793e858",
+      "tree": "d226fbd70c2a8abe04b24036bd3528f3aca46f50",
+      "parent": "6c43421fdec543779b02033fdbd35672e4508b95",
+      "verification_utc": "2026-10-05T07:11:47.415Z",
+      "files_changed": 57,
+      "unique_blobs": 55,
+      "checks": {
+        "blob_shas": true,
+        "remote_commit_parent_and_tree": true,
+        "remote_ref": true,
+        "remote_tree": true,
+        "ordinary_fetch": true,
+        "fetched_tree_exact": true,
+        "local_head_advanced_compare_and_swap": true,
+        "index_and_working_tree_clean": true
+      }
+    },
+    {
+      "checkpoint_games": 432,
+      "commit": "8190c5bb624e8ab9358193d3253bf4a4ee86df0b",
+      "tree": "b54269c3396d0f5c5eafd5cf833395c9b3e7883a",
+      "parent": "2af3016a687aefcab6476e2bc301b62dd793e858",
+      "verification_utc": "2026-10-05T07:37:35.212Z",
+      "files_changed": 57,
+      "unique_blobs": 55,
+      "checks": {
+        "blob_shas": true,
+        "remote_commit_parent_and_tree": true,
+        "remote_ref": true,
+        "remote_tree": true,
+        "ordinary_fetch": true,
+        "fetched_tree_exact": true,
+        "local_head_advanced_compare_and_swap": true,
+        "index_and_working_tree_clean": true
+      }
+    },
+    {
+      "checkpoint_games": 480,
+      "commit": "6fee270e52ec7dd55f1e60b961252795eb4192c8",
+      "tree": "22a8da832682274ba91538775752835a659508c2",
+      "parent": "8190c5bb624e8ab9358193d3253bf4a4ee86df0b",
+      "verification_utc": "2026-10-05T07:59:59.811Z",
+      "files_changed": 57,
+      "unique_blobs": 55,
+      "checks": {
+        "blob_shas": true,
+        "remote_commit_parent_and_tree": true,
+        "remote_ref": true,
+        "remote_tree": true,
+        "ordinary_fetch": true,
+        "fetched_tree_exact": true,
+        "local_head_advanced_compare_and_swap": true,
+        "index_and_working_tree_clean": true
+      }
+    },
+    {
+      "checkpoint_games": 528,
+      "commit": "af7672505962c3444fce3baf4b36b7db61ccad68",
+      "tree": "d239af361792774b8fb1c83a42017dde384e2e58",
+      "parent": "6fee270e52ec7dd55f1e60b961252795eb4192c8",
+      "verification_utc": "2026-10-05T08:18:34.320Z",
+      "files_changed": 57,
+      "unique_blobs": 55,
+      "checks": {
+        "blob_shas": true,
+        "remote_commit_parent_and_tree": true,
+        "remote_ref": true,
+        "remote_tree": true,
+        "ordinary_fetch": true,
+        "fetched_tree_exact": true,
+        "local_head_advanced_compare_and_swap": true,
+        "index_and_working_tree_clean": true
+      }
+    },
+    {
+      "checkpoint_games": 576,
+      "commit": "9d1eb6ceaa63d5c4524e17af4e41a2238e1439b4",
+      "tree": "1ff8de7ba76ee169bf9468a032c38408e2b13181",
+      "parent": "af7672505962c3444fce3baf4b36b7db61ccad68",
+      "verification_utc": "2026-10-05T08:41:47.317Z",
+      "files_changed": 57,
+      "unique_blobs": 55,
+      "checks": {
+        "blob_shas": true,
+        "remote_commit_parent_and_tree": true,
+        "remote_ref": true,
+        "remote_tree": true,
+        "ordinary_fetch": true,
+        "fetched_tree_exact": true,
+        "local_head_advanced_compare_and_swap": true,
+        "index_and_working_tree_clean": true
+      }
+    },
+    {
+      "checkpoint_games": 624,
+      "commit": "d1a6db96729d879ccc0cf6d9929c4eebde56e021",
+      "tree": "7ab2e1a0b0695f2ef919d9bb13aa4d77f72e41f0",
+      "parent": "9d1eb6ceaa63d5c4524e17af4e41a2238e1439b4",
+      "verification_utc": "2026-10-05T09:01:53.766Z",
+      "files_changed": 57,
+      "unique_blobs": 55,
+      "checks": {
+        "blob_shas": true,
+        "remote_commit_parent_and_tree": true,
+        "remote_ref": true,
+        "remote_tree": true,
+        "ordinary_fetch": true,
+        "fetched_tree_exact": true,
+        "local_head_advanced_compare_and_swap": true,
+        "index_and_working_tree_clean": true
+      }
+    },
+    {
+      "checkpoint_games": 672,
+      "commit": "2440fe603a964fb3d96bc1739e2678fa9c29d531",
+      "tree": "74f0551ede8278f9030924134db704f30593ba0b",
+      "parent": "d1a6db96729d879ccc0cf6d9929c4eebde56e021",
+      "verification_utc": "2026-10-05T09:20:36.666Z",
+      "files_changed": 57,
+      "unique_blobs": 55,
+      "checks": {
+        "blob_shas": true,
+        "remote_commit_parent_and_tree": true,
+        "remote_ref": true,
+        "remote_tree": true,
+        "ordinary_fetch": true,
+        "fetched_tree_exact": true,
+        "local_head_advanced_compare_and_swap": true,
+        "index_and_working_tree_clean": true
+      }
+    },
+    {
+      "checkpoint_games": 720,
+      "commit": "8f981d38e5d2859a8dd60cc7064f8dbd8684fa63",
+      "tree": "9ff1c0826a4626a9fc737e5ddec670c941513eaa",
+      "parent": "2440fe603a964fb3d96bc1739e2678fa9c29d531",
+      "verification_utc": "2026-10-05T09:41:59.005Z",
+      "files_changed": 57,
+      "unique_blobs": 55,
+      "checks": {
+        "blob_shas": true,
+        "remote_commit_parent_and_tree": true,
+        "remote_ref": true,
+        "remote_tree": true,
+        "ordinary_fetch": true,
+        "fetched_tree_exact": true,
+        "local_head_advanced_compare_and_swap": true,
+        "index_and_working_tree_clean": true
+      }
+    },
+    {
+      "checkpoint_games": 768,
+      "commit": "cd6118a238a3db5060f377cbb05e411b7776d470",
+      "tree": "71a6e12820910440edb89fe9ee6ef939225fb23b",
+      "parent": "8f981d38e5d2859a8dd60cc7064f8dbd8684fa63",
+      "verification_utc": "2026-10-05T10:02:32.282Z",
+      "files_changed": 57,
+      "unique_blobs": 55,
+      "checks": {
+        "blob_shas": true,
+        "remote_commit_parent_and_tree": true,
+        "remote_ref": true,
+        "remote_tree": true,
+        "ordinary_fetch": true,
+        "fetched_tree_exact": true,
+        "local_head_advanced_compare_and_swap": true,
+        "index_and_working_tree_clean": true
+      }
+    },
+    {
+      "checkpoint_games": 816,
+      "commit": "8792979efdb45db65bee8439bbc3e335d34deb15",
+      "tree": "c915c820ef935b2481af29c8fb2e6946c59001e9",
+      "parent": "cd6118a238a3db5060f377cbb05e411b7776d470",
+      "verification_utc": "2026-10-05T10:39:02.848Z",
+      "files_changed": 65,
+      "unique_blobs": 61,
+      "checks": {
+        "blob_shas": true,
+        "remote_commit_parent_and_tree": true,
+        "remote_ref": true,
+        "remote_tree": true,
+        "ordinary_fetch": true,
+        "fetched_tree_exact": true,
+        "local_head_advanced_compare_and_swap": true,
+        "index_and_working_tree_clean": true
+      }
+    },
+    {
+      "checkpoint_games": 864,
+      "commit": "d1aaaa67f8f87f6726a7cbbc25c8bba78034245d",
+      "tree": "a1c106dcb19e2abe72f0631c5598583f5ddc656b",
+      "parent": "8792979efdb45db65bee8439bbc3e335d34deb15",
+      "verification_utc": "2026-10-05T11:03:56.181Z",
+      "files_changed": 58,
+      "unique_blobs": 56,
+      "checks": {
+        "blob_shas": true,
+        "remote_commit_parent_and_tree": true,
+        "remote_ref": true,
+        "remote_tree": true,
+        "ordinary_fetch": true,
+        "fetched_tree_exact": true,
+        "local_head_advanced_compare_and_swap": true,
+        "index_and_working_tree_clean": true
+      }
+    },
+    {
+      "checkpoint_games": 912,
+      "commit": "86002dec1fbc6f02d7e81104982dba520643d857",
+      "tree": "90feb87fb7adcd1f6b6fa3398cf36e2b8121fdf3",
+      "parent": "d1aaaa67f8f87f6726a7cbbc25c8bba78034245d",
+      "verification_utc": "2026-10-05T11:35:34.234Z",
+      "files_changed": 58,
+      "unique_blobs": 57,
+      "checks": {
+        "blob_shas": true,
+        "remote_commit_parent_and_tree": true,
+        "remote_ref": true,
+        "remote_tree": true,
+        "ordinary_fetch": true,
+        "fetched_tree_exact": true,
+        "local_head_advanced_compare_and_swap": true,
+        "index_and_working_tree_clean": true,
+        "frozen_inputs": true
+      },
+      "repair": {
+        "original_tree_422_count": 2,
+        "identical_blob_reassertions": 1,
+        "unchanged_tree_after_reassertion": true
+      }
+    }
+  ],
+  "zero_game_anchor_commit": "34a2f5b565b2e36e6b2de112d9e360b85e5a9de1",
+  "receipt_policy": "Each snapshot contains receipts for previously verified snapshots; its own receipt is appended after remote verification and included by the following checkpoint."
+}

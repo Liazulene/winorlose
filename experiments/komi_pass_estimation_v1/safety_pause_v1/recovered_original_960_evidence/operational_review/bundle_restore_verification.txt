@@ -1,0 +1,4 @@
+Restored tree=90feb87fb7adcd1f6b6fa3398cf36e2b8121fdf3
+Restored games=912
+Problem blob=41411eb5bf12e7b2136aa5a11c0e84f0921fb680
+Fresh bare repo=/tmp/m7_bundle_restore_xn3meB
