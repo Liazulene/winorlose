@@ -1,0 +1,29 @@
+{
+  "chunk": 4,
+  "command": [
+    "/workspace/scratch/50e0c7c6aca1/winorlose_audit_venv/bin/python",
+    "/workspace/scratch/50e0c7c6aca1/winorlose_komi_pass_pilot_v1/scripts/run_komi_pass_pilot.py",
+    "run",
+    "--out",
+    "/workspace/scratch/50e0c7c6aca1/winorlose_komi_pass_pilot_v1/outputs/komi_pass_pilot_v1",
+    "--concurrency",
+    "1",
+    "--stop-after",
+    "24",
+    "--resume"
+  ],
+  "started_utc": "2026-10-04T17:03:18.658288+00:00",
+  "ended_utc": "2026-10-04T17:08:01.981147+00:00",
+  "exit_code": 0,
+  "wall_seconds": 283.321613686996,
+  "cpu_user_seconds": 282.836133,
+  "cpu_system_seconds": 0.349493,
+  "peak_process_rss_kib": 37340,
+  "completed_before": 72,
+  "manifest_declared_before": 72,
+  "completed_after": 96,
+  "status_after": "completed",
+  "output_tree_bytes_after": 4051541,
+  "measurement_script_sha256": "6c45280c4ff67209dc75388347105f024dabb19b0c1743d63c022cfa0c44cd46",
+  "scope": "Exact isolated child process: run/import/resume/per-game validation/final analysis; no Git sync, tests, or external full verification."
+}

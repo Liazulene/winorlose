@@ -1,3 +1,27 @@
+[komi-pass] saved 73/96 budget=256 plies=27 wall_ms=15922.772
+[komi-pass] saved 74/96 budget=256 plies=23 wall_ms=13776.391
+[komi-pass] saved 75/96 budget=256 plies=27 wall_ms=15478.699
+[komi-pass] saved 76/96 budget=256 plies=26 wall_ms=23163.451
+[komi-pass] saved 77/96 budget=256 plies=14 wall_ms=10918.34
+[komi-pass] saved 78/96 budget=256 plies=16 wall_ms=13481.461
+[komi-pass] saved 79/96 budget=256 plies=12 wall_ms=8331.14
+[komi-pass] saved 80/96 budget=256 plies=16 wall_ms=10251.578
+[komi-pass] saved 81/96 budget=256 plies=17 wall_ms=11041.328
+[komi-pass] saved 82/96 budget=256 plies=12 wall_ms=7986.717
+[komi-pass] saved 83/96 budget=256 plies=10 wall_ms=6628.977
+[komi-pass] saved 84/96 budget=256 plies=18 wall_ms=13534.428
+[komi-pass] saved 85/96 budget=256 plies=3 wall_ms=2240.501
+[komi-pass] saved 86/96 budget=256 plies=13 wall_ms=11118.602
+[komi-pass] saved 87/96 budget=256 plies=11 wall_ms=9399.672
+[komi-pass] saved 88/96 budget=256 plies=23 wall_ms=16862.072
+[komi-pass] saved 89/96 budget=256 plies=19 wall_ms=13484.095
+[komi-pass] saved 90/96 budget=256 plies=21 wall_ms=13638.585
+[komi-pass] saved 91/96 budget=256 plies=19 wall_ms=13940.18
+[komi-pass] saved 92/96 budget=256 plies=19 wall_ms=11921.515
+[komi-pass] saved 93/96 budget=256 plies=12 wall_ms=8146.097
+[komi-pass] saved 94/96 budget=256 plies=23 wall_ms=13286.66
+[komi-pass] saved 95/96 budget=256 plies=8 wall_ms=5901.16
+[komi-pass] saved 96/96 budget=256 plies=12 wall_ms=8664.432
 {
   "experiment_id": "komi-pass-pilot-v1",
   "planned": 96,
@@ -107,3 +131,4 @@
     "komi_pass_pilot_v1-g000095.json": "939170fa2bb0a75958327e26adcd81f0c02f4a8a554d75b7c1bcac3ec7fee26a"
   }
 }
+wall_seconds=283.163846
