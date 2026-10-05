@@ -5,6 +5,28 @@
   "branch": "experiment/komi-pass-estimation-v1",
   "initial_parent_commit": "c7ce77c4fe581dce25676226140ff5ae6a115b39",
   "branch_created_and_ls_remote_verified_utc": "2026-10-05T02:17:00.389706+00:00",
-  "status": "prelaunch_tests_and_review",
-  "verified_checkpoints": []
+  "status": "zero_game_backup_verified_production_started",
+  "verified_checkpoints": [
+    {
+      "checkpoint_games": 0,
+      "commit": "34a2f5b565b2e36e6b2de112d9e360b85e5a9de1",
+      "tree": "fd9b376882d6b2dd8e528bdff067e308af5e5321",
+      "parent": "c7ce77c4fe581dce25676226140ff5ae6a115b39",
+      "verification_utc": "2026-10-05T03:30:21.596Z",
+      "files_changed": 80,
+      "unique_blobs": 69,
+      "checks": {
+        "blob_shas": true,
+        "remote_commit_parent_and_tree": true,
+        "remote_ref": true,
+        "remote_tree": true,
+        "ordinary_fetch": true,
+        "fetched_tree_exact": true,
+        "local_head_advanced_compare_and_swap": true,
+        "index_and_working_tree_clean": true
+      }
+    }
+  ],
+  "zero_game_anchor_commit": "34a2f5b565b2e36e6b2de112d9e360b85e5a9de1",
+  "receipt_policy": "Each snapshot contains receipts for previously verified snapshots; its own receipt is appended after remote verification and included by the following checkpoint."
 }

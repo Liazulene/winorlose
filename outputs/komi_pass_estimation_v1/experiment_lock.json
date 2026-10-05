@@ -1,0 +1,14 @@
+{
+  "experiment_id": "komi-pass-estimation-v1",
+  "code_version": "winai_loseai-0.9.0-komi-pass-estimation",
+  "schema_version": 2,
+  "source_fingerprint": "b616c4c52aa711ba7b2ee7d1ad1cc9388cd18f3c7854e0d788cb29c5a1cfabe9",
+  "python_version": "3.12.14",
+  "preregistration_sha256": "f4077bf78bec9cde0d9765886fd2af55aea0e3c104537bd9744cbc0abc6f3dbb",
+  "entry_point_sha256": "0b846d3563d696bc33489cc4e45dafdf014f443e3903f4f05bcd6020132a0d93",
+  "measurement_script_sha256": "e2a9818e647ce21b4ee01fbd3b958db88a7d1428b9c17e0229aca55edd0b9e61",
+  "checkpoint_validation_script_sha256": "84ecc2c46c4c81de808f6a409902d5d511abdf8541c124fa353f9748e961ab03",
+  "reproduction_script_sha256": "792a4a479e680b3e1b887c4542f1bb42241c8aa7242ec1330c3aa644327c07fd",
+  "scipy_version": "1.17.0",
+  "numpy_version": "2.3.5"
+}
